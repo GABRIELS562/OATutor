@@ -15,7 +15,7 @@ import {
     ThemeContext,
     USER_ID_STORAGE_KEY,
 } from "./config/config.js";
-import { ThemeProvider } from "@material-ui/core/styles";
+// ThemeProvider now comes from ThemeToggleContext for dark mode support
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Box, CircularProgress, Typography } from "@material-ui/core";
@@ -34,7 +34,7 @@ import experimentalBKTParams from "./content-sources/sa-caps-maths/bkt-params/ex
 import { heuristic as defaultHeuristic } from "./models/BKT/problem-select-heuristics/defaultHeuristic.js";
 import { heuristic as experimentalHeuristic } from "./models/BKT/problem-select-heuristics/experimentalHeuristic.js";
 import BrowserStorage from "./util/browserStorage";
-import saTheme from "./theme/saTheme";
+import { ThemeToggleProvider } from "./util/ThemeToggleContext";
 import { GamificationProvider } from "./util/GamificationContext";
 import { CommentsProvider } from "./util/CommentsContext";
 import {
@@ -77,9 +77,6 @@ const VideoLibraryPage = lazy(() => import("./pages/VideoLibrary"));
 const AdminCostDashboard = lazy(() => import("./pages/Admin/CostDashboard"));
 
 loadFirebaseEnvConfig(config);
-
-// Use SA-branded theme
-const theme = saTheme;
 
 // Loading fallback for lazy-loaded components
 const PageLoader = () => (
@@ -325,7 +322,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <ThemeProvider theme={theme}>
+            <ThemeToggleProvider>
                 <ThemeContext.Provider
                     value={{
                         userID: this.userID,
@@ -598,7 +595,7 @@ class App extends React.Component {
                     </GamificationProvider>
                     </LocalizationProvider>
                 </ThemeContext.Provider>
-            </ThemeProvider>
+            </ThemeToggleProvider>
         );
     }
 }

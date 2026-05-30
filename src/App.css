@@ -1,3 +1,102 @@
+/* CSS Variables for theming */
+:root {
+  /* Light mode (default) */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-card: #ffffff;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --border-color: rgba(0, 0, 0, 0.1);
+  --accent-primary: #7B2FF7;
+  --accent-secondary: #00D4FF;
+}
+
+/* Dark mode overrides are applied by ThemeToggleContext */
+
+/* Global dark mode styles */
+.dark-mode {
+  background-color: #0f0f23 !important;
+}
+
+.dark-mode body {
+  background-color: #0f0f23;
+  color: #ffffff;
+}
+
+.dark-mode .MuiPaper-root {
+  background-color: #16213e;
+}
+
+.dark-mode .MuiTypography-colorTextPrimary {
+  color: #ffffff;
+}
+
+.dark-mode .MuiTypography-colorTextSecondary {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Fix for white background text contrast issues */
+.dark-mode .MuiCard-root,
+.dark-mode .MuiAccordion-root,
+.dark-mode .MuiDialog-paper {
+  background-color: #16213e;
+  color: #ffffff;
+}
+
+/* Ensure input fields are readable in dark mode */
+.dark-mode .MuiInputBase-root {
+  color: #ffffff;
+}
+
+.dark-mode .MuiInputLabel-root {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.dark-mode .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.23);
+}
+
+/* Skip link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #7B2FF7;
+  color: white;
+  padding: 8px 16px;
+  z-index: 10000;
+  text-decoration: none;
+  border-radius: 0 0 4px 0;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: inherit;
+  margin: inherit;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
 .App {
   text-align: center;
 }

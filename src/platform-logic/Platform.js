@@ -1,7 +1,9 @@
 import React from "react";
-import { AppBar, Toolbar } from "@material-ui/core";
+import { AppBar, Toolbar, IconButton, Tooltip, Box, Typography, Hidden } from "@material-ui/core";
 import LinearProgress from "@material-ui/core/LinearProgress";
 import Grid from "@material-ui/core/Grid";
+import DashboardIcon from "@material-ui/icons/Dashboard";
+import GamificationStats from "../components/gamification/GamificationStats";
 import ProblemWrapper from "@components/problem-layout/ProblemWrapper.js";
 import LessonSelectionWrapper from "@components/problem-layout/LessonSelectionWrapper.js";
 import { withRouter } from "react-router-dom";
@@ -26,18 +28,103 @@ import ErrorBoundary from "@components/ErrorBoundary";
 import { CONTENT_SOURCE } from "@common/global-config";
 import withTranslation from '../util/withTranslation';
 import { LocalizationConsumer } from '../util/LocalizationContext';
+import MobileNavigation from '../components/ui/MobileNavigation';
+import { ErrorDisplay, OfflineBanner } from '../components/ui/ErrorDisplay';
+import { LoadingSpinner, ProblemCardSkeleton } from '../components/ui/SkeletonLoader';
+import { LanguageToggleMenu } from '../components/LanguageToggle';
+import { ThemeToggleButton } from '../components/ThemeToggle';
 
 let problemPool = require(`@generated/processed-content-pool/${CONTENT_SOURCE}.json`);
 
 let seed = Date.now().toString();
-console.log("Generated seed");
+
+// Custom styles for mobile responsiveness
+const mobileStyles = {
+    appBar: {
+        background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)',
+        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.25)',
+    },
+    toolbar: {
+        minHeight: 64,
+        padding: '0 16px',
+    },
+    toolbarMobile: {
+        minHeight: 56,
+        padding: '0 8px',
+    },
+    logoContainer: {
+        display: 'flex',
+        alignItems: 'center',
+        gap: '8px',
+    },
+    lessonTitle: {
+        textAlign: 'center',
+        paddingTop: '3px',
+        fontSize: '14px',
+        overflow: 'hidden',
+        textOverflow: 'ellipsis',
+        whiteSpace: 'nowrap',
+        color: '#fff',
+    },
+    lessonTitleMobile: {
+        fontSize: '12px',
+        maxWidth: '150px',
+    },
+    statsContainer: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'flex-end',
+        gap: '8px',
+    },
+    statsContainerMobile: {
+        gap: '4px',
+    },
+    masteryDisplay: {
+        fontSize: '12px',
+        marginLeft: '8px',
+        whiteSpace: 'nowrap',
+        color: '#fff',
+    },
+    masteryDisplayMobile: {
+        fontSize: '10px',
+        marginLeft: '4px',
+    },
+    progressContainer: {
+        padding: '10px 20px',
+        background: '#fff',
+        borderBottom: '1px solid rgba(123, 47, 247, 0.1)',
+    },
+    progressContainerMobile: {
+        padding: '8px 12px',
+    },
+    mainContent: {
+        backgroundColor: '#F8FAFC',
+        paddingBottom: 20,
+        display: 'flex',
+        flexDirection: 'column',
+        minHeight: '100vh',
+    },
+    completionMessage: {
+        textAlign: 'center',
+        padding: '40px 20px',
+        background: 'linear-gradient(180deg, rgba(123, 47, 247, 0.03) 0%, rgba(255, 255, 255, 1) 100%)',
+        borderRadius: '16px',
+        margin: '20px auto',
+        maxWidth: '600px',
+    },
+    completionMessageMobile: {
+        padding: '24px 16px',
+        margin: '12px',
+        borderRadius: '12px',
+    },
+};
 
 class Platform extends React.Component {
     static contextType = ThemeContext;
 
     constructor(props, context) {
         super(props);
-        
+
         this.problemIndex = {
             problems: problemPool,
         };
@@ -62,19 +149,20 @@ class Platform extends React.Component {
                 );
             }
         }
-        if (this.props.lessonID == null) {
-            this.state = {
-                currProblem: null,
-                status: "courseSelection",
-                seed: seed,
-            };
-        } else {
-            this.state = {
-                currProblem: null,
-                status: "courseSelection",
-                seed: seed,
-            };
-        }
+
+        this.state = {
+            currProblem: null,
+            status: "courseSelection",
+            seed: seed,
+            isLoading: false,
+            loadingMessage: "",
+            error: null,
+            retryCount: 0,
+            isOffline: !navigator.onLine,
+            isMobile: window.innerWidth <= 600,
+            isTablet: window.innerWidth <= 768 && window.innerWidth > 600,
+            isTransitioning: false,
+        };
 
         this.selectLesson = this.selectLesson.bind(this);
     }
@@ -82,7 +170,22 @@ class Platform extends React.Component {
     componentDidMount() {
         this._isMounted = true;
 
-        const { enterCourse, exitCourse} = this.props;
+        // Add resize listener
+        this.handleResize = () => {
+            this.setState({
+                isMobile: window.innerWidth <= 600,
+                isTablet: window.innerWidth <= 768 && window.innerWidth > 600,
+            });
+        };
+        window.addEventListener('resize', this.handleResize);
+
+        // Add online/offline listeners
+        this.handleOnline = () => this.setState({ isOffline: false });
+        this.handleOffline = () => this.setState({ isOffline: true });
+        window.addEventListener('online', this.handleOnline);
+        window.addEventListener('offline', this.handleOffline);
+
+        const { enterCourse, exitCourse } = this.props;
 
         const isHomePage = this.props.history.location.pathname === '/';
         if (isHomePage) {
@@ -92,7 +195,6 @@ class Platform extends React.Component {
         }
 
         if (this.props.lessonID != null) {
-            console.log("calling selectLesson from componentDidMount...") 
             const lesson = findLessonById(this.props.lessonID)
             console.debug("lesson: ", lesson)
             this.selectLesson(lesson).then(
@@ -104,21 +206,11 @@ class Platform extends React.Component {
                 }
             );
 
-            // const { setLanguage } = this.props;
-            
-            // if (lesson.courseName == 'Matematik 4') {
-            //     setLanguage('se')
-            // } else {
-            //     const defaultLocale = localStorage.getItem('defaultLocale');
-            //     setLanguage(defaultLocale)
-            // }
-
-            const course = coursePlans.find(c => 
+            const course = coursePlans.find(c =>
                 c.lessons.some(l => l.id === this.props.lessonID)
             );
-            
+
             if (course) {
-                // Pass course ID and language from coursePlans.json
                 enterCourse(course.courseName, course.language);
             }
 
@@ -132,32 +224,34 @@ class Platform extends React.Component {
             this.selectCourse(coursePlans[parseInt(this.props.courseNum)]);
         }
 
-
         this.onComponentUpdate(null, null, null);
     }
 
     componentWillUnmount() {
         this._isMounted = false;
         this.context.problemID = "n/a";
+        window.removeEventListener('resize', this.handleResize);
+        window.removeEventListener('online', this.handleOnline);
+        window.removeEventListener('offline', this.handleOffline);
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
-        
+
         const { enterCourse, exitCourse } = this.props;
-        
+
         // If navigating to home, exit course context
-        if (this.props.history.location.pathname === '/' && 
+        if (this.props.history.location.pathname === '/' &&
             prevProps.history.location.pathname !== '/') {
             exitCourse();
         }
-        
+
         // If lesson changed, update course context
         if (this.props.lessonID !== prevProps.lessonID && this.props.lessonID != null) {
             const lesson = findLessonById(this.props.lessonID);
-            const course = coursePlans.find(c => 
+            const course = coursePlans.find(c =>
                 c.lessons.some(l => l.id === this.props.lessonID)
             );
-            
+
             if (course) {
                 enterCourse(course.courseName, course.language);
             }
@@ -165,7 +259,7 @@ class Platform extends React.Component {
                 this.selectLesson(lesson, false);
             }
         }
-        
+
         // If course changed
         if (this.props.courseNum !== prevProps.courseNum && this.props.courseNum != null) {
             const course = coursePlans[parseInt(this.props.courseNum)];
@@ -177,7 +271,7 @@ class Platform extends React.Component {
         this.onComponentUpdate(prevProps, prevState, snapshot);
     }
 
-    
+
     onComponentUpdate(prevProps, prevState, snapshot) {
         if (
             Boolean(this.state.currProblem?.id) &&
@@ -193,18 +287,27 @@ class Platform extends React.Component {
     getProgressBarData() {
         if (!this.lesson) return { completed: 0, total: 0, percent: 0 };
 
-        const lessonName = String(this.lesson.name.replace("Lesson ", "") + " " + this.lesson.topics);
+        // Match problems where the lesson field contains the lesson name
+        const lessonName = String(this.lesson.name.replace("Lesson ", "")).trim();
         const problems = this.problemIndex.problems.filter(
-            ({ lesson }) => String(lesson).includes(lessonName)
+            ({ lesson }) => String(lesson).toLowerCase().includes(lessonName.toLowerCase())
         );
         const completed = this.completedProbs.size;
         const total = problems.length;
         const percent = total > 0 ? Math.round((completed / total) * 100) : 0;
         return { completed, total, percent };
     }
-    
-    async selectLesson(lesson, updateServer=true) {
+
+    async selectLesson(lesson, updateServer = true) {
         const context = this.context;
+
+        // Show loading state
+        this.setState({
+            isLoading: true,
+            loadingMessage: "Loading lesson...",
+            error: null,
+        });
+
         console.debug("lesson: ", context)
         console.debug("update server: ", updateServer)
         console.debug("context: ", context)
@@ -214,7 +317,6 @@ class Platform extends React.Component {
         }
         if (this.isPrivileged) {
             // from canvas or other LTI Consumers
-            console.log("valid privilege")
             let err, response;
             [err, response] = await to(
                 fetch(`${MIDDLEWARE_URL}/setLesson`, {
@@ -229,6 +331,13 @@ class Platform extends React.Component {
                 })
             );
             if (err || !response) {
+                this.setState({
+                    isLoading: false,
+                    error: {
+                        type: 'network',
+                        message: `Error setting lesson for assignment "${this.user.resource_link_title}"`,
+                    },
+                });
                 toast.error(
                     `Error setting lesson for assignment "${this.user.resource_link_title}"`
                 );
@@ -255,6 +364,7 @@ class Platform extends React.Component {
                                                 ToastID.set_lesson_duplicate_error.toString(),
                                         }
                                     );
+                                    this.setState({ isLoading: false });
                                     return;
                                 default:
                                     toast.error(`Error: ${responseText}`, {
@@ -262,6 +372,7 @@ class Platform extends React.Component {
                                             ToastID.expired_session.toString(),
                                         closeOnClick: true,
                                     });
+                                    this.setState({ isLoading: false });
                                     return;
                             }
                         case 401:
@@ -272,6 +383,7 @@ class Platform extends React.Component {
                                 }
                             );
                             this.props.history.push("/session-expired");
+                            this.setState({ isLoading: false });
                             return;
                         case 403:
                             toast.error(
@@ -280,6 +392,7 @@ class Platform extends React.Component {
                                     toastId: ToastID.not_authorized.toString(),
                                 }
                             );
+                            this.setState({ isLoading: false });
                             return;
                         default:
                             toast.error(
@@ -289,6 +402,7 @@ class Platform extends React.Component {
                                         ToastID.set_lesson_unknown_error.toString(),
                                 }
                             );
+                            this.setState({ isLoading: false });
                             return;
                     }
                 } else {
@@ -299,7 +413,7 @@ class Platform extends React.Component {
                         }
                     );
                     const responseText = await response.text();
-                    let [message, ...addInfo] = responseText.split("|");
+                    let [, ...addInfo] = responseText.split("|");
                     this.props.history.push(
                         `/assignment-already-linked?to=${addInfo.to}`
                     );
@@ -313,35 +427,50 @@ class Platform extends React.Component {
             const { getByKey } = this.context.browserStorage;
             return await getByKey(
                 LESSON_PROGRESS_STORAGE_KEY(this.lesson.id)
-            ).catch((err) => {});
+            ).catch((err) => { });
         };
 
-        const [, prevCompletedProbs] = await Promise.all([
-            this.props.loadBktProgress(),
-            loadLessonProgress(),
-        ]);
-        if (!this._isMounted) {
-            console.debug("component not mounted, returning early (2)");
-            return;
-        }
-        if (prevCompletedProbs) {
-            console.debug(
-                "student has already made progress w/ problems in this lesson before",
-                prevCompletedProbs
-            );
-            this.completedProbs = new Set(prevCompletedProbs);
-        }
-        this.setState(
-            {
-                currProblem: this._nextProblem(
-                    this.context ? this.context : context
-                ),
-            },
-            () => {
-                //console.log(this.state.currProblem);
-                //console.log(this.lesson);
+        try {
+            const [, prevCompletedProbs] = await Promise.all([
+                this.props.loadBktProgress(),
+                loadLessonProgress(),
+            ]);
+
+            if (!this._isMounted) {
+                console.debug("component not mounted, returning early (2)");
+                return;
             }
-        );
+            if (prevCompletedProbs) {
+                console.debug(
+                    "student has already made progress w/ problems in this lesson before",
+                    prevCompletedProbs
+                );
+                this.completedProbs = new Set(prevCompletedProbs);
+            }
+            this.setState(
+                {
+                    currProblem: this._nextProblem(
+                        this.context ? this.context : context
+                    ),
+                    isLoading: false,
+                    error: null,
+                },
+                () => {
+                    //console.log(this.state.currProblem);
+                    //console.log(this.lesson);
+                }
+            );
+        } catch (error) {
+            console.error("Error loading lesson:", error);
+            this.setState({
+                isLoading: false,
+                error: {
+                    type: 'generic',
+                    message: 'Failed to load the lesson. Please try again.',
+                    details: error.message,
+                },
+            });
+        }
     }
 
     selectCourse = (course, context) => {
@@ -351,7 +480,27 @@ class Platform extends React.Component {
         });
     };
 
+    handleRetry = () => {
+        const { lessonID, courseNum } = this.props;
+        this.setState(prev => ({
+            error: null,
+            retryCount: prev.retryCount + 1,
+        }));
+
+        if (lessonID) {
+            const lesson = findLessonById(lessonID);
+            if (lesson) {
+                this.selectLesson(lesson);
+            }
+        } else if (courseNum != null) {
+            this.selectCourse(coursePlans[parseInt(courseNum)]);
+        }
+    };
+
     _nextProblem = (context) => {
+        // Show transition loading
+        this.setState({ isTransitioning: true });
+
         seed = Date.now().toString();
         this.setState({ seed: seed });
         this.props.saveProgress();
@@ -375,7 +524,7 @@ class Platform extends React.Component {
                 }
                 for (const kc of step.knowledgeComponents) {
                     if (typeof context.bktParams[kc] === "undefined") {
-                        console.log("BKT Parameter " + kc + " does not exist.");
+                        console.warn("BKT Parameter " + kc + " does not exist.");
                         continue;
                     }
                     if (kc in this.lesson.learningObjectives) {
@@ -383,7 +532,7 @@ class Platform extends React.Component {
                     }
                     // Multiply all the mastery priors
                     if (!(kc in context.bktParams)) {
-                        console.log("Missing BKT parameter: " + kc);
+                        console.warn("Missing BKT parameter: " + kc);
                     }
                     probMastery *= context.bktParams[kc].probMastery;
                 }
@@ -418,15 +567,14 @@ class Platform extends React.Component {
                     context.bktParams[skill].probMastery <= MASTERY_THRESHOLD
             )
         ) {
-            this.setState({ status: "graduated" });
-            console.log("Graduated");
+            this.setState({ status: "graduated", isTransitioning: false });
             return null;
         } else if (chosenProblem == null) {
             console.debug("no problems were chosen");
             // We have finished all the problems
             if (this.lesson && !this.lesson.allowRecycle) {
                 // If we do not allow problem recycle then we have exhausted the pool
-                this.setState({ status: "exhausted" });
+                this.setState({ status: "exhausted", isTransitioning: false });
                 return null;
             } else {
                 this.completedProbs = new Set();
@@ -438,7 +586,11 @@ class Platform extends React.Component {
         }
 
         if (chosenProblem) {
-            this.setState({ currProblem: chosenProblem, status: "learning" });
+            this.setState({
+                currProblem: chosenProblem,
+                status: "learning",
+                isTransitioning: false
+            });
             // console.log("Next problem: ", chosenProblem.id);
             console.debug("problem information", chosenProblem);
             this.context.firebase.startedProblem(
@@ -449,6 +601,7 @@ class Platform extends React.Component {
             );
             return chosenProblem;
         } else {
+            this.setState({ isTransitioning: false });
             console.debug("still no chosen problem..? must be an error");
         }
     };
@@ -479,7 +632,7 @@ class Platform extends React.Component {
                 relevantKc[x] = context.bktParams[x]?.probMastery ?? 0;
             });
 
-            // Check if all problems are completed or all skills 
+            // Check if all problems are completed or all skills
             const progressData = this.getProgressBarData();
             const progressPercent = progressData.percent / 100;
 
@@ -629,66 +782,112 @@ class Platform extends React.Component {
 
     render() {
         const { translate } = this.props;
+        const { isMobile, isLoading, loadingMessage, error, retryCount, isOffline, isTransitioning } = this.state;
+
         this.studentNameDisplay = this.context.studentName
-        ? decodeURIComponent(this.context.studentName) + " | "
-        : translate('platform.LoggedIn') + " | ";
+            ? decodeURIComponent(this.context.studentName) + " | "
+            : translate('platform.LoggedIn') + " | ";
+
+        // Get current lesson for mobile nav
+        const currentLesson = this.props.lessonID ? findLessonById(this.props.lessonID) : null;
+
         return (
-            <div
-                style={{
-                    backgroundColor: "#F6F6F6",
-                    paddingBottom: 20,
-                    display: "flex",
-                    flexDirection: "column",
-                }}
-            >
-                <AppBar position="static">
-                    <Toolbar>
+            <div style={mobileStyles.mainContent}>
+                <AppBar position="static" style={mobileStyles.appBar}>
+                    <Toolbar style={{
+                        ...mobileStyles.toolbar,
+                        ...(isMobile ? mobileStyles.toolbarMobile : {}),
+                    }}>
                         <Grid
                             container
                             spacing={0}
                             role={"navigation"}
                             alignItems={"center"}
+                            style={{ flexWrap: 'nowrap' }}
                         >
-                            <Grid item xs={3} key={1}>
+                            {/* Mobile Navigation Menu */}
+                            <Hidden mdUp>
+                                <Grid item style={{ marginRight: '8px' }}>
+                                    <MobileNavigation
+                                        currentLesson={currentLesson}
+                                        courseNum={this.props.courseNum}
+                                    />
+                                </Grid>
+                            </Hidden>
+
+                            {/* Logo - smaller on mobile */}
+                            <Grid item xs={isMobile ? 6 : 4} sm={3} key={1}>
                                 <BrandLogoNav
                                     isPrivileged={this.isPrivileged}
                                 />
                             </Grid>
-                            <Grid item xs={6} key={2}>
-                                <div
-                                    style={{
-                                        textAlign: "center",
-                                        textAlignVertical: "center",
-                                        paddingTop: "3px",
-                                    }}
-                                >
-                                    {Boolean(
-                                        findLessonById(this.props.lessonID)
-                                    )
-                                        ? findLessonById(this.props.lessonID)
-                                              .name +
-                                          " " +
-                                          findLessonById(this.props.lessonID)
-                                              .topics
-                                        : ""}
-                                </div>
-                            </Grid>
-                            <Grid item xs={3} key={3}>
-                                <div
-                                    style={{
-                                        textAlign: "right",
-                                        paddingTop: "3px",
-                                    }}
-                                >
+
+                            {/* Lesson name - hidden on mobile */}
+                            <Hidden smDown>
+                                <Grid item sm={6} key={2} className="lesson-title-container">
+                                    <div style={mobileStyles.lessonTitle}>
+                                        {Boolean(
+                                            findLessonById(this.props.lessonID)
+                                        )
+                                            ? findLessonById(this.props.lessonID)
+                                                .name +
+                                            " " +
+                                            findLessonById(this.props.lessonID)
+                                                .topics
+                                            : ""}
+                                    </div>
+                                </Grid>
+                            </Hidden>
+
+                            {/* Stats and navigation - takes more space on mobile */}
+                            <Grid item xs={isMobile ? 6 : 8} sm={3} key={3}>
+                                <div style={{
+                                    ...mobileStyles.statsContainer,
+                                    ...(isMobile ? mobileStyles.statsContainerMobile : {}),
+                                }}>
+                                    {/* Gamification Stats (compact on mobile) */}
+                                    <GamificationStats
+                                        compact={true}
+                                        onClick={() => this.props.history.push('/dashboard')}
+                                    />
+
+                                    {/* Language Toggle */}
+                                    <LanguageToggleMenu iconColor="#fff" />
+
+                                    {/* Theme Toggle (Dark/Light) */}
+                                    <ThemeToggleButton iconColor="#fff" size="small" />
+
+                                    {/* Dashboard Button - hidden on very small screens */}
+                                    {!isMobile && (
+                                        <Tooltip title="My Progress Dashboard">
+                                            <IconButton
+                                                size="small"
+                                                onClick={() => this.props.history.push('/dashboard')}
+                                                style={{
+                                                    color: '#fff',
+                                                    backgroundColor: 'rgba(255,255,255,0.1)',
+                                                    padding: '8px',
+                                                }}
+                                            >
+                                                <DashboardIcon />
+                                            </IconButton>
+                                        </Tooltip>
+                                    )}
+
+                                    {/* Mastery Display - simplified on mobile */}
                                     {this.state.status !== "courseSelection" &&
-                                    this.state.status !== "lessonSelection" &&
-                                    (this.lesson.showStuMastery == null ||
-                                        this.lesson.showStuMastery)
-                                        ? this.studentNameDisplay +
-                                        translate('platform.Mastery') +
-                                          Math.round(this.state.mastery * 100) +
-                                          "%"
-                                        : ""}
+                                        this.state.status !== "lessonSelection" &&
+                                        (this.lesson?.showStuMastery == null ||
+                                            this.lesson?.showStuMastery) && (
+                                            <div style={{
+                                                ...mobileStyles.masteryDisplay,
+                                                ...(isMobile ? mobileStyles.masteryDisplayMobile : {}),
+                                            }}>
+                                                {!isMobile && this.studentNameDisplay}
+                                                {isMobile ? '' : translate('platform.Mastery')}
+                                                {Math.round(this.state.mastery * 100)}%
+                                            </div>
+                                        )}
                                 </div>
                             </Grid>
                         </Grid>
@@ -697,83 +896,144 @@ class Platform extends React.Component {
 
                 {/* Progress Bar */}
                 {this.lesson?.enableCompletionMode && (
-                    <div style={{ padding: "10px 20px" }}>
-                        <div style={{ display: "flex", justifyContent: "space-between", fontSize: 12 }}>
+                    <div style={{
+                        ...mobileStyles.progressContainer,
+                        ...(isMobile ? mobileStyles.progressContainerMobile : {}),
+                    }}>
+                        <div style={{
+                            display: "flex",
+                            justifyContent: "space-between",
+                            fontSize: isMobile ? 11 : 12,
+                            marginBottom: 4,
+                            color: '#64748B',
+                        }}>
                             <span>Progress</span>
                             <span>{this.getProgressBarData().percent}% ({this.getProgressBarData().completed}/{this.getProgressBarData().total})</span>
                         </div>
                         <LinearProgress
                             variant="determinate"
                             value={this.getProgressBarData().percent}
-                            style={{ height: 10, borderRadius: 5 }}
+                            style={{
+                                height: isMobile ? 6 : 10,
+                                borderRadius: isMobile ? 3 : 5,
+                            }}
                         />
                     </div>
                 )}
 
-                {this.state.status === "courseSelection" ? (
-                    <LessonSelectionWrapper
-                        selectLesson={this.selectLesson}
-                        selectCourse={this.selectCourse}
-                        history={this.props.history}
-                        removeProgress={this.props.removeProgress}
+                {/* Offline Banner */}
+                {isOffline && (
+                    <OfflineBanner onRetry={() => window.location.reload()} />
+                )}
+
+                {/* Loading State */}
+                {isLoading && (
+                    <LoadingSpinner text={loadingMessage || "Loading..."} />
+                )}
+
+                {/* Error State */}
+                {error && !isLoading && (
+                    <ErrorDisplay
+                        type={error.type || 'generic'}
+                        title={error.title}
+                        message={error.message}
+                        onRetry={this.handleRetry}
+                        onSecondaryAction={() => this.props.history.push('/')}
+                        secondaryActionLabel="Go Home"
+                        retryCount={retryCount}
+                        maxRetries={3}
+                        showDetails={error.details != null}
+                        errorDetails={error.details}
                     />
-                ) : (
-                    ""
                 )}
-                {this.state.status === "lessonSelection" ? (
-                    <LessonSelectionWrapper
-                        selectLesson={this.selectLesson}
-                        removeProgress={this.props.removeProgress}
-                        history={this.props.history}
-                        courseNum={this.props.courseNum}
-                    />
-                ) : (
-                    ""
-                )}
-                {this.state.status === "learning" ? (
-                    <ErrorBoundary
-                        componentName={"Problem"}
-                        descriptor={"problem"}
-                    >
-                        <ProblemWrapper
-                            problem={this.state.currProblem}
-                            problemComplete={this.problemComplete}
-                            lesson={this.lesson}
-                            seed={this.state.seed}
-                            lessonID={this.props.lessonID}
-                            displayMastery={this.displayMastery}
-                            progressPercent={this.getProgressBarData().percent / 100}
-                        />
-                    </ErrorBoundary>
-                ) : (
-                    ""
-                )}
-                {this.state.status === "exhausted" ? (
-                    <center>
-                        <h2>
-                            Thank you for learning with {SITE_NAME}. You have
-                            finished all problems.
-                        </h2>
-                    </center>
-                ) : (
-                    ""
-                )}
-                {this.state.status === "graduated" ? (
-                    <center>
-                        <h2>
-                            Thank you for learning with {SITE_NAME}. You have
-                            mastered all the skills for this session!
-                        </h2>
-                    </center>
-                ) : (
-                    ""
+
+                {/* Main Content */}
+                {!isLoading && !error && (
+                    <>
+                        {this.state.status === "courseSelection" ? (
+                            <LessonSelectionWrapper
+                                selectLesson={this.selectLesson}
+                                selectCourse={this.selectCourse}
+                                history={this.props.history}
+                                removeProgress={this.props.removeProgress}
+                            />
+                        ) : (
+                            ""
+                        )}
+                        {this.state.status === "lessonSelection" ? (
+                            <LessonSelectionWrapper
+                                selectLesson={this.selectLesson}
+                                removeProgress={this.props.removeProgress}
+                                history={this.props.history}
+                                courseNum={this.props.courseNum}
+                            />
+                        ) : (
+                            ""
+                        )}
+                        {this.state.status === "learning" ? (
+                            <>
+                                {isTransitioning ? (
+                                    <Box py={4}>
+                                        <ProblemCardSkeleton />
+                                    </Box>
+                                ) : (
+                                    <ErrorBoundary
+                                        componentName={"Problem"}
+                                        descriptor={"problem"}
+                                    >
+                                        <ProblemWrapper
+                                            problem={this.state.currProblem}
+                                            problemComplete={this.problemComplete}
+                                            lesson={this.lesson}
+                                            seed={this.state.seed}
+                                            lessonID={this.props.lessonID}
+                                            displayMastery={this.displayMastery}
+                                            progressPercent={this.getProgressBarData().percent / 100}
+                                        />
+                                    </ErrorBoundary>
+                                )}
+                            </>
+                        ) : (
+                            ""
+                        )}
+                        {this.state.status === "exhausted" ? (
+                            <Box style={{
+                                ...mobileStyles.completionMessage,
+                                ...(isMobile ? mobileStyles.completionMessageMobile : {}),
+                            }}>
+                                <Typography variant={isMobile ? "h5" : "h4"} style={{ fontWeight: 600, color: '#1a1a2e', marginBottom: 12 }}>
+                                    Well Done!
+                                </Typography>
+                                <Typography style={{ color: '#64748B', lineHeight: 1.6 }}>
+                                    Thank you for learning with {SITE_NAME}. You have
+                                    finished all problems in this lesson.
+                                </Typography>
+                            </Box>
+                        ) : (
+                            ""
+                        )}
+                        {this.state.status === "graduated" ? (
+                            <Box style={{
+                                ...mobileStyles.completionMessage,
+                                ...(isMobile ? mobileStyles.completionMessageMobile : {}),
+                            }}>
+                                <Typography variant={isMobile ? "h5" : "h4"} style={{ fontWeight: 600, color: '#10B981', marginBottom: 12 }}>
+                                    Congratulations!
+                                </Typography>
+                                <Typography style={{ color: '#64748B', lineHeight: 1.6 }}>
+                                    Thank you for learning with {SITE_NAME}. You have
+                                    mastered all the skills for this session!
+                                </Typography>
+                            </Box>
+                        ) : (
+                            ""
+                        )}
+                    </>
                 )}
             </div>
         );
     }
 }
-
-// export default withRouter(withTranslation(Platform));
 
 export default withRouter(withTranslation((props) => (
     <LocalizationConsumer>
