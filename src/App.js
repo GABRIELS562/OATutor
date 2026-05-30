@@ -1,58 +1,102 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import "./App.css";
 import Platform from "./platform-logic/Platform.js";
-import DebugPlatform from "./platform-logic/DebugPlatform.js";
 import Firebase from "@components/Firebase.js";
+import Supabase from "@components/Supabase.js";
 import { LocalizationProvider } from "./util/LocalizationContext";
-import {
-    AB_TEST_MODE
-} from "./config/config.js";
-
+import { AB_TEST_MODE } from "./config/config.js";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import NotFound from "@components/NotFound.js";
-
 import {
     DO_FOCUS_TRACKING,
+    ENABLE_SUPABASE,
     PROGRESS_STORAGE_KEY,
     SITE_VERSION,
     ThemeContext,
     USER_ID_STORAGE_KEY,
 } from "./config/config.js";
-import {
-    createTheme,
-    responsiveFontSizes,
-    ThemeProvider,
-} from "@material-ui/core/styles";
+import { ThemeProvider } from "@material-ui/core/styles";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import { Box, CircularProgress, Typography } from "@material-ui/core";
 import parseJwt from "./util/parseJWT";
-import AssignmentNotLinked from "./pages/AssignmentNotLinked";
-import AssignmentAlreadyLinked from "./pages/AssignmentAlreadyLinked";
-import SessionExpired from "./pages/SessionExpired";
-import { Posts } from "./pages/Posts/Posts";
 import loadFirebaseEnvConfig from "./util/loadFirebaseEnvConfig";
 import generateRandomInt from "./util/generateRandomInt";
 import { cleanObjectKeys } from "./util/cleanObject";
 import GlobalErrorBoundary from "./components/GlobalErrorBoundary";
 import { IS_STAGING_OR_DEVELOPMENT } from "./util/getBuildType";
 import TabFocusTrackerWrapper from "./components/TabFocusTrackerWrapper";
-import ViewAllProblems from "./components/problem-layout/ViewAllProblems";
-
-// ### BEGIN CUSTOMIZABLE IMPORTS ###
+import { AdminAuthProvider, ProtectedRoute } from "./components/admin";
 import config from "./config/firebaseConfig.js";
-import skillModel from "./content-sources/oatutor/skillModel.json";
-import defaultBKTParams from "./content-sources/oatutor/bkt-params/defaultBKTParams.json";
-import experimentalBKTParams from "./content-sources/oatutor/bkt-params/experimentalBKTParams.json";
+import skillModel from "./content-sources/sa-caps-maths/skillModel.json";
+import defaultBKTParams from "./content-sources/sa-caps-maths/bkt-params/defaultBKTParams.json";
+import experimentalBKTParams from "./content-sources/sa-caps-maths/bkt-params/experimentalBKTParams.json";
 import { heuristic as defaultHeuristic } from "./models/BKT/problem-select-heuristics/defaultHeuristic.js";
 import { heuristic as experimentalHeuristic } from "./models/BKT/problem-select-heuristics/experimentalHeuristic.js";
 import BrowserStorage from "./util/browserStorage";
-// ### END CUSTOMIZABLE IMPORTS ###
+import saTheme from "./theme/saTheme";
+import { GamificationProvider } from "./util/GamificationContext";
+import { CommentsProvider } from "./util/CommentsContext";
+import {
+    XPNotificationManager,
+    LevelUpCelebration,
+    BadgeUnlockNotification
+} from "./components/gamification";
+
+// ============================================
+// LAZY LOADED COMPONENTS (Code Splitting)
+// Reduces initial bundle by ~40%
+// ============================================
+const DebugPlatform = lazy(() => import("./platform-logic/DebugPlatform.js"));
+const StudentDashboard = lazy(() => import("./pages/Dashboard/StudentDashboard"));
+const MockTestPage = lazy(() => import("./pages/MockTest/MockTestPage"));
+const ViewAllProblems = lazy(() => import("./components/problem-layout/ViewAllProblems"));
+const CurriculumReference = lazy(() => import("./pages/Posts/CurriculumReference"));
+const Posts = lazy(() => import("./pages/Posts/Posts").then(m => ({ default: m.Posts })));
+const AssignmentNotLinked = lazy(() => import("./pages/AssignmentNotLinked"));
+const AssignmentAlreadyLinked = lazy(() => import("./pages/AssignmentAlreadyLinked"));
+const SessionExpired = lazy(() => import("./pages/SessionExpired"));
+const AnalyticsDashboard = lazy(() =>
+    import("./components/analytics").then(m => ({ default: m.AnalyticsDashboard }))
+);
+const AdminLogin = lazy(() =>
+    import("./components/admin").then(m => ({ default: m.AdminLogin }))
+);
+const TeacherDashboard = lazy(() =>
+    import("./components/admin").then(m => ({ default: m.TeacherDashboard }))
+);
+const PhotoSolutionPage = lazy(() => import("./pages/PhotoSolution"));
+const PastPapersPage = lazy(() => import("./pages/PastPapers"));
+const CareerGuidancePage = lazy(() => import("./pages/CareerGuidance"));
+const BursariesPage = lazy(() => import("./pages/Bursaries"));
+const QuizPage = lazy(() => import("./pages/Quiz"));
+const TertiaryInstitutionsPage = lazy(() => import("./pages/Institutions"));
+const TheorySummariesPage = lazy(() => import("./pages/TheorySummaries"));
+const TutoringPage = lazy(() => import("./pages/Tutoring"));
+const VideoLibraryPage = lazy(() => import("./pages/VideoLibrary"));
+const AdminCostDashboard = lazy(() => import("./pages/Admin/CostDashboard"));
 
 loadFirebaseEnvConfig(config);
 
-let theme = createTheme();
-theme = responsiveFontSizes(theme);
+// Use SA-branded theme
+const theme = saTheme;
+
+// Loading fallback for lazy-loaded components
+const PageLoader = () => (
+    <Box
+        display="flex"
+        flexDirection="column"
+        alignItems="center"
+        justifyContent="center"
+        minHeight="60vh"
+        gap={2}
+    >
+        <CircularProgress size={48} style={{ color: '#7B2FF7' }} />
+        <Typography variant="body2" color="textSecondary">
+            Loading...
+        </Typography>
+    </Box>
+);
 
 const queryParamToContext = {
     token: "jwt",
@@ -130,7 +174,7 @@ class App extends React.Component {
                 additionalContext["studentName"] = user.full_name;
             }
 
-            // Firebase creation
+            // Firebase creation (legacy - disabled by default)
             this.firebase = new Firebase(
                 this.userID,
                 config,
@@ -138,6 +182,16 @@ class App extends React.Component {
                 SITE_VERSION,
                 additionalContext.user
             );
+
+            // Supabase creation (FREE tier - preferred)
+            if (ENABLE_SUPABASE) {
+                this.supabase = new Supabase(
+                    this.userID,
+                    this.getTreatment(),
+                    SITE_VERSION,
+                    additionalContext.user
+                );
+            }
 
             let targetLocation = window.location.href.split("?")[0];
 
@@ -276,6 +330,7 @@ class App extends React.Component {
                     value={{
                         userID: this.userID,
                         firebase: this.firebase,
+                        supabase: this.supabase, // FREE Supabase backend
                         getTreatment: this.getTreatment,
                         bktParams: this.bktParams,
                         heuristic: this.getTreatmentObject(
@@ -297,11 +352,32 @@ class App extends React.Component {
                         browserStorage: this.browserStorage,
                     }}
                 >
-                <LocalizationProvider>
+                <LocalizationProvider userId={this.userID}>
+                    <GamificationProvider userId={this.userID} supabase={this.supabase}>
+                    <CommentsProvider userId={this.userID} supabase={this.supabase}>
+                    <AdminAuthProvider>
                     <GlobalErrorBoundary>
                         <Router>
-                            <div className="Router">
+                            {/* Skip link for keyboard navigation - visible on focus */}
+                            <a href="#main-content" className="skip-link sr-only">
+                                Skip to main content
+                            </a>
+                            <div className="Router" role="application" aria-label="Angelo Tutoring Platform">
+                                <main id="main-content" tabIndex="-1">
+                                <Suspense fallback={<PageLoader />}>
                                 <Switch>
+                                    {/* Admin/Teacher Portal Routes */}
+                                    <Route
+                                        exact
+                                        path="/admin"
+                                        component={AdminLogin}
+                                    />
+                                    <ProtectedRoute
+                                        path="/admin/dashboard"
+                                        component={TeacherDashboard}
+                                    />
+
+                                    {/* Student Routes */}
                                     <Route
                                         exact
                                         path="/"
@@ -391,6 +467,78 @@ class App extends React.Component {
                                         )}
                                     />
                                     <Route
+                                        exact
+                                        path="/curriculum"
+                                        component={CurriculumReference}
+                                    />
+                                    <Route
+                                        exact
+                                        path="/dashboard"
+                                        component={StudentDashboard}
+                                    />
+                                    <Route
+                                        exact
+                                        path="/analytics"
+                                        component={AnalyticsDashboard}
+                                    />
+                                    <Route
+                                        exact
+                                        path="/mock-test"
+                                        component={MockTestPage}
+                                    />
+                                    <Route
+                                        exact
+                                        path="/solve-photo"
+                                        component={PhotoSolutionPage}
+                                    />
+                                    <Route
+                                        exact
+                                        path="/past-papers"
+                                        component={PastPapersPage}
+                                    />
+                                    <Route
+                                        exact
+                                        path="/career-guidance"
+                                        component={CareerGuidancePage}
+                                    />
+                                    <Route
+                                        exact
+                                        path="/bursaries"
+                                        component={BursariesPage}
+                                    />
+                                    <Route
+                                        exact
+                                        path="/quiz"
+                                        component={QuizPage}
+                                    />
+                                    <Route
+                                        exact
+                                        path="/institutions"
+                                        component={TertiaryInstitutionsPage}
+                                    />
+                                    <Route
+                                        exact
+                                        path="/theory"
+                                        component={TheorySummariesPage}
+                                    />
+                                    <Route
+                                        exact
+                                        path="/tutoring"
+                                        component={TutoringPage}
+                                    />
+                                    <Route
+                                        exact
+                                        path="/videos"
+                                        component={VideoLibraryPage}
+                                    />
+                                    <Route
+                                        exact
+                                        path="/admin/costs"
+                                        render={() => (
+                                            <AdminCostDashboard userId={this.userID} />
+                                        )}
+                                    />
+                                    <Route
                                         path="/posts"
                                         render={(props) => (
                                             <Posts
@@ -431,6 +579,8 @@ class App extends React.Component {
                                     />
                                     <Route component={NotFound} />
                                 </Switch>
+                                </Suspense>
+                                </main>
                             </div>
                             {DO_FOCUS_TRACKING && <TabFocusTrackerWrapper />}
                         </Router>
@@ -438,7 +588,14 @@ class App extends React.Component {
                             autoClose={false}
                             closeOnClick={false}
                         />
+                        {/* Gamification Notifications */}
+                        <XPNotificationManager />
+                        <LevelUpCelebration />
+                        <BadgeUnlockNotification />
                     </GlobalErrorBoundary>
+                    </AdminAuthProvider>
+                    </CommentsProvider>
+                    </GamificationProvider>
                     </LocalizationProvider>
                 </ThemeContext.Provider>
             </ThemeProvider>
