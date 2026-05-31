@@ -59,10 +59,10 @@ const useStyles = makeStyles((theme) => ({
     },
     // Color variants
     primary: {
-        background: 'linear-gradient(90deg, #7B2FF7 0%, #9D5FFF 100%)',
+        background: 'linear-gradient(90deg, #58CC02 0%, #89E219 100%)',
     },
     secondary: {
-        background: 'linear-gradient(90deg, #00D4FF 0%, #00A7CC 100%)',
+        background: 'linear-gradient(90deg, #1CB0F6 0%, #0095D9 100%)',
     },
     success: {
         background: 'linear-gradient(90deg, #10B981 0%, #34D399 100%)',
@@ -74,7 +74,7 @@ const useStyles = makeStyles((theme) => ({
         background: 'linear-gradient(90deg, #EF4444 0%, #F87171 100%)',
     },
     rainbow: {
-        background: 'linear-gradient(90deg, #7B2FF7, #00D4FF, #10B981, #F59E0B, #F72585)',
+        background: 'linear-gradient(90deg, #58CC02, #1CB0F6, #FF9600, #CE82FF, #FF4B4B)',
         backgroundSize: '200% 100%',
         animation: '$shimmer 2s linear infinite',
     },
@@ -93,7 +93,7 @@ const useStyles = makeStyles((theme) => ({
     },
     // Glow effect
     glow: {
-        boxShadow: '0 0 20px rgba(123, 47, 247, 0.5)',
+        boxShadow: '0 0 20px rgba(88, 204, 2, 0.5)',
     },
     // Striped pattern
     striped: {

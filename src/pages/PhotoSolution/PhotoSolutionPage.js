@@ -63,10 +63,9 @@ const useStyles = makeStyles((theme) => ({
     },
     title: {
         flex: 1,
-        fontWeight: 600,
-        background: 'linear-gradient(135deg, #1a237e 0%, #0d47a1 100%)',
-        WebkitBackgroundClip: 'text',
-        WebkitTextFillColor: 'transparent',
+        fontWeight: 700,
+        color: '#58CC02',
+        fontFamily: "'Nunito', sans-serif",
     },
     helpButton: {
         color: '#666',
@@ -88,7 +87,7 @@ const useStyles = makeStyles((theme) => ({
     },
     stepperContainer: {
         padding: theme.spacing(2),
-        backgroundColor: 'rgba(26, 35, 126, 0.02)',
+        backgroundColor: 'rgba(88, 204, 2, 0.02)',
     },
     stepper: {
         backgroundColor: 'transparent',
@@ -115,9 +114,9 @@ const useStyles = makeStyles((theme) => ({
     ocrResult: {
         marginTop: theme.spacing(2),
         padding: theme.spacing(2),
-        backgroundColor: 'rgba(26, 35, 126, 0.03)',
-        borderRadius: theme.shape.borderRadius,
-        borderLeft: '4px solid #1a237e',
+        backgroundColor: 'rgba(88, 204, 2, 0.03)',
+        borderRadius: 16,
+        borderLeft: '4px solid #58CC02',
     },
     ocrLabel: {
         fontSize: '0.75rem',
@@ -137,11 +136,16 @@ const useStyles = makeStyles((theme) => ({
     },
     solveButton: {
         flex: 1,
-        background: 'linear-gradient(135deg, #1a237e 0%, #0d47a1 100%)',
+        backgroundColor: '#58CC02',
         color: 'white',
         padding: theme.spacing(1.5),
+        borderRadius: 16,
+        boxShadow: '0 4px 0 0 #58A700',
+        fontWeight: 700,
+        fontFamily: "'Nunito', sans-serif",
         '&:hover': {
-            background: 'linear-gradient(135deg, #0d47a1 0%, #1a237e 100%)',
+            backgroundColor: '#58A700',
+            boxShadow: '0 2px 0 0 #4B9200',
         },
     },
     resetButton: {

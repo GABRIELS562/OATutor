@@ -16,9 +16,9 @@ const styles = theme => ({
     content: {
         padding: 20,
         borderRadius: 12,
-        background: 'linear-gradient(135deg, rgba(0, 212, 255, 0.08) 0%, rgba(8, 145, 178, 0.08) 100%)',
-        border: '2px solid rgba(0, 212, 255, 0.3)',
-        borderLeft: '4px solid #00D4FF',
+        background: 'linear-gradient(135deg, rgba(28, 176, 246, 0.08) 0%, rgba(8, 145, 178, 0.08) 100%)',
+        border: '2px solid rgba(28, 176, 246, 0.3)',
+        borderLeft: '4px solid #1CB0F6',
         [theme.breakpoints.down('sm')]: {
             padding: 16,
             borderRadius: 10,
@@ -52,7 +52,7 @@ const styles = theme => ({
     },
     stepItem: {
         padding: '12px 0',
-        borderBottom: '1px solid rgba(0, 212, 255, 0.15)',
+        borderBottom: '1px solid rgba(28, 176, 246, 0.15)',
         '&:last-child': {
             borderBottom: 'none',
         },

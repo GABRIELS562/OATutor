@@ -16,8 +16,9 @@ const styles = theme => ({
     title: {
         textAlign: 'center',
         marginBottom: 12,
-        fontWeight: 600,
-        color: '#1a1a2e',
+        fontWeight: 700,
+        color: '#3C3C3C',
+        fontFamily: "'Nunito', sans-serif",
         fontSize: '0.95rem',
         [theme.breakpoints.down('sm')]: {
             fontSize: '0.9rem',

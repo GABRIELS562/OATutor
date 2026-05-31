@@ -19,7 +19,7 @@ export const LoadingFallback = ({ message = 'Loading...' }) => (
         <CircularProgress
             size={48}
             style={{
-                background: 'linear-gradient(135deg, #7B2FF7 0%, #F72585 100%)',
+                background: '#58CC02',
                 borderRadius: '50%',
             }}
         />

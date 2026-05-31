@@ -41,12 +41,13 @@ const styles = theme => ({
         },
     },
     header: {
-        background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)',
+        background: '#58CC02',
         color: '#fff',
         padding: '20px 16px',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
+        borderRadius: '16px 16px 0 0',
     },
     headerTitle: {
         fontWeight: 700,
@@ -60,10 +61,10 @@ const styles = theme => ({
         padding: '16px 20px',
         transition: 'all 0.2s ease',
         '&:hover': {
-            background: 'rgba(123, 47, 247, 0.08)',
+            background: 'rgba(88, 204, 2, 0.08)',
         },
         '&:active': {
-            background: 'rgba(123, 47, 247, 0.12)',
+            background: 'rgba(88, 204, 2, 0.12)',
         },
     },
     listItemIcon: {
@@ -80,7 +81,7 @@ const styles = theme => ({
     listItemTextPrimary: {
         fontWeight: 600,
         fontSize: '0.95rem',
-        color: '#1a1a2e',
+        color: '#3C3C3C',
     },
     listItemTextSecondary: {
         fontSize: '0.8rem',

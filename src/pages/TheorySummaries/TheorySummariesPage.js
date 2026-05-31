@@ -79,7 +79,8 @@ const useStyles = makeStyles((theme) => ({
     },
     title: {
         fontWeight: 700,
-        color: '#1a1a2e',
+        color: '#3C3C3C',
+        fontFamily: "'Nunito', sans-serif",
     },
     filtersRow: {
         display: 'flex',
@@ -153,7 +154,7 @@ const useStyles = makeStyles((theme) => ({
     },
     formulaName: {
         fontWeight: 600,
-        color: '#7B2FF7',
+        color: '#58CC02',
     },
     formulaText: {
         fontSize: '1.1rem',
@@ -219,7 +220,7 @@ const TheorySummariesPage = ({ history }) => {
 
     const getCategoryColor = (categoryId) => {
         const cat = THEORY_CATEGORIES.find(c => c.id === categoryId);
-        return cat?.color || '#7B2FF7';
+        return cat?.color || '#58CC02';
     };
 
     return (
@@ -426,7 +427,7 @@ const TheorySummariesPage = ({ history }) => {
                             {selectedSummary.formulas && (
                                 <>
                                     <Typography className={classes.sectionTitle}>
-                                        <Functions style={{ color: '#7B2FF7' }} />
+                                        <Functions style={{ color: '#58CC02' }} />
                                         Important Formulas
                                     </Typography>
                                     {selectedSummary.formulas.map((formula, i) => (

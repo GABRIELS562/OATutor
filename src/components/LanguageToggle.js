@@ -82,7 +82,7 @@ const useStyles = makeStyles((theme) => ({
         minWidth: 160,
     },
     activeMenuItem: {
-        backgroundColor: 'rgba(123, 47, 247, 0.1)',
+        backgroundColor: 'rgba(88, 204, 2, 0.1)',
     },
 }));
 
@@ -91,7 +91,7 @@ const useStyles = makeStyles((theme) => ({
  */
 export const LanguageToggleButtons = ({ size = 'small' }) => {
     const classes = useStyles();
-    const { language, setLanguage, LANGUAGE_NAMES } = useLocalization();
+    const { language, setLanguage } = useLocalization();
 
     return (
         <ButtonGroup size={size} variant="outlined" color="primary">

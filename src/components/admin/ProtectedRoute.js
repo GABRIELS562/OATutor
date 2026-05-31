@@ -16,10 +16,10 @@ const LoadingScreen = () => (
         justifyContent="center"
         minHeight="100vh"
         style={{
-            background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
+            background: '#3C3C3C',
         }}
     >
-        <CircularProgress style={{ color: '#7B2FF7', marginBottom: 16 }} />
+        <CircularProgress style={{ color: '#58CC02', marginBottom: 16 }} />
         <Typography style={{ color: '#fff' }}>Loading...</Typography>
     </Box>
 );

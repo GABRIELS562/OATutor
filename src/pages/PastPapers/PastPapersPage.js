@@ -63,10 +63,9 @@ const useStyles = makeStyles((theme) => ({
         flex: 1,
     },
     title: {
-        fontWeight: 600,
-        background: 'linear-gradient(135deg, #1a237e 0%, #0d47a1 100%)',
-        WebkitBackgroundClip: 'text',
-        WebkitTextFillColor: 'transparent',
+        fontWeight: 700,
+        color: '#58CC02',
+        fontFamily: "'Nunito', sans-serif",
     },
     subtitle: {
         color: '#666',
@@ -91,7 +90,7 @@ const useStyles = makeStyles((theme) => ({
         gap: theme.spacing(2),
     },
     storageIcon: {
-        color: '#1a237e',
+        color: '#58CC02',
     },
     storageInfo: {
         flex: 1,
@@ -137,15 +136,16 @@ const useStyles = makeStyles((theme) => ({
     },
     quickFilterChip: {
         cursor: 'pointer',
+        borderRadius: 16,
         '&:hover': {
-            backgroundColor: 'rgba(26, 35, 126, 0.15)',
+            backgroundColor: 'rgba(88, 204, 2, 0.15)',
         },
     },
     quickFilterActive: {
-        backgroundColor: '#1a237e',
+        backgroundColor: '#58CC02',
         color: 'white',
         '&:hover': {
-            backgroundColor: '#0d47a1',
+            backgroundColor: '#58A700',
         },
     },
 }));

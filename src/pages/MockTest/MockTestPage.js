@@ -47,9 +47,7 @@ const useStyles = makeStyles((theme) => ({
     },
     title: {
         fontWeight: 700,
-        background: 'linear-gradient(135deg, #7B2FF7 0%, #F72585 100%)',
-        WebkitBackgroundClip: 'text',
-        WebkitTextFillColor: 'transparent',
+        color: '#58CC02',
         marginBottom: theme.spacing(1),
     },
     subtitle: {
@@ -61,14 +59,14 @@ const useStyles = makeStyles((theme) => ({
         flexDirection: 'column',
         borderRadius: 16,
         transition: 'all 0.3s ease',
-        border: '1px solid rgba(123, 47, 247, 0.1)',
+        border: '1px solid rgba(88, 204, 2, 0.1)',
         '&:hover': {
             transform: 'translateY(-4px)',
-            boxShadow: '0 8px 30px rgba(123, 47, 247, 0.15)',
+            boxShadow: '0 8px 30px rgba(88, 204, 2, 0.15)',
         },
     },
     cardHeader: {
-        background: 'linear-gradient(135deg, #7B2FF7 0%, #F72585 100%)',
+        background: '#58CC02',
         color: 'white',
         padding: theme.spacing(2),
         borderRadius: '16px 16px 0 0',
@@ -85,13 +83,13 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: 700,
         textAlign: 'center',
         fontFamily: 'monospace',
-        color: '#7B2FF7',
+        color: '#58CC02',
     },
     timerWarning: {
         color: '#F59E0B',
     },
     timerDanger: {
-        color: '#F72585',
+        color: '#FF4B4B',
     },
     progressSection: {
         marginTop: theme.spacing(3),
@@ -113,8 +111,9 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         margin: '0 auto',
         marginBottom: theme.spacing(3),
-        background: 'linear-gradient(135deg, #7B2FF7 0%, #F72585 100%)',
+        background: '#58CC02',
         color: 'white',
+        boxShadow: '0 6px 0 0 #58A700',
     },
     scoreText: {
         fontSize: '2.5rem',
@@ -124,7 +123,7 @@ const useStyles = makeStyles((theme) => ({
         padding: theme.spacing(2),
         textAlign: 'center',
         borderRadius: 12,
-        background: 'rgba(123, 47, 247, 0.05)',
+        background: 'rgba(88, 204, 2, 0.05)',
     },
     backButton: {
         marginBottom: theme.spacing(2),

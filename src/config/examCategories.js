@@ -15,7 +15,7 @@ export const EXAM_CATEGORIES = [
         name: 'Activities',
         shortName: 'Activities',
         icon: 'assignment',
-        color: '#7B2FF7',
+        color: '#58CC02',
         description: 'Interactive learning activities'
     },
     {
@@ -23,7 +23,7 @@ export const EXAM_CATEGORIES = [
         name: 'Practice Problems',
         shortName: 'Practice',
         icon: 'school',
-        color: '#00D4FF',
+        color: '#1CB0F6',
         description: 'General practice problems'
     },
     {
@@ -55,7 +55,7 @@ export const EXAM_CATEGORIES = [
         name: 'November Exams',
         shortName: 'Nov',
         icon: 'star',
-        color: '#F72585',
+        color: '#FF9600',
         description: 'Final exam (NSC/IEB) preparation'
     },
     {

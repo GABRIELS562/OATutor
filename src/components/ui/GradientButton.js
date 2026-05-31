@@ -72,26 +72,28 @@ const useStyles = makeStyles((theme) => ({
     // Gradient variants
     primary: {
         '&::before': {
-            background: 'linear-gradient(135deg, #7B2FF7 0%, #9D5FFF 100%)',
+            background: '#58CC02',
         },
         '&::after': {
-            background: 'linear-gradient(135deg, #9D5FFF 0%, #7B2FF7 100%)',
+            background: '#58A700',
         },
-        boxShadow: '0 4px 20px rgba(123, 47, 247, 0.4)',
+        boxShadow: '0 4px 0 0 #58A700',
+        borderRadius: 16,
         '&:hover': {
-            boxShadow: '0 6px 30px rgba(123, 47, 247, 0.5)',
+            boxShadow: '0 2px 0 0 #4B9200',
         },
     },
     secondary: {
         '&::before': {
-            background: 'linear-gradient(135deg, #00D4FF 0%, #00A7CC 100%)',
+            background: '#1CB0F6',
         },
         '&::after': {
-            background: 'linear-gradient(135deg, #00A7CC 0%, #00D4FF 100%)',
+            background: '#0095D9',
         },
-        boxShadow: '0 4px 20px rgba(0, 212, 255, 0.4)',
+        boxShadow: '0 4px 0 0 #0095D9',
+        borderRadius: 16,
         '&:hover': {
-            boxShadow: '0 6px 30px rgba(0, 212, 255, 0.5)',
+            boxShadow: '0 2px 0 0 #007AB8',
         },
     },
     success: {
@@ -108,15 +110,16 @@ const useStyles = makeStyles((theme) => ({
     },
     warning: {
         '&::before': {
-            background: 'linear-gradient(135deg, #F59E0B 0%, #FBBF24 100%)',
+            background: '#FF9600',
         },
         '&::after': {
-            background: 'linear-gradient(135deg, #FBBF24 0%, #F59E0B 100%)',
+            background: '#E68600',
         },
-        color: '#1a1a2e',
-        boxShadow: '0 4px 20px rgba(245, 158, 11, 0.4)',
+        color: '#FFFFFF',
+        boxShadow: '0 4px 0 0 #E68600',
+        borderRadius: 16,
         '&:hover': {
-            boxShadow: '0 6px 30px rgba(245, 158, 11, 0.5)',
+            boxShadow: '0 2px 0 0 #CC7700',
         },
     },
     danger: {
@@ -133,30 +136,32 @@ const useStyles = makeStyles((theme) => ({
     },
     pink: {
         '&::before': {
-            background: 'linear-gradient(135deg, #F72585 0%, #FF6B9D 100%)',
+            background: '#FF9600',
         },
         '&::after': {
-            background: 'linear-gradient(135deg, #FF6B9D 0%, #F72585 100%)',
+            background: '#E68600',
         },
-        boxShadow: '0 4px 20px rgba(247, 37, 133, 0.4)',
+        boxShadow: '0 4px 0 0 #E68600',
+        borderRadius: 16,
         '&:hover': {
-            boxShadow: '0 6px 30px rgba(247, 37, 133, 0.5)',
+            boxShadow: '0 2px 0 0 #CC7700',
         },
     },
     rainbow: {
         '&::before': {
-            background: 'linear-gradient(135deg, #7B2FF7, #00D4FF, #10B981, #F59E0B, #F72585)',
+            background: 'linear-gradient(135deg, #58CC02, #1CB0F6, #FF9600, #CE82FF, #FF4B4B)',
             backgroundSize: '400% 400%',
             animation: '$rainbowShift 4s ease infinite',
         },
         '&::after': {
-            background: 'linear-gradient(135deg, #F72585, #F59E0B, #10B981, #00D4FF, #7B2FF7)',
+            background: 'linear-gradient(135deg, #FF4B4B, #CE82FF, #FF9600, #1CB0F6, #58CC02)',
             backgroundSize: '400% 400%',
             animation: '$rainbowShift 4s ease infinite',
         },
-        boxShadow: '0 4px 20px rgba(123, 47, 247, 0.4)',
+        boxShadow: '0 4px 0 0 #58A700',
+        borderRadius: 16,
         '&:hover': {
-            boxShadow: '0 6px 30px rgba(123, 47, 247, 0.5)',
+            boxShadow: '0 2px 0 0 #4B9200',
         },
     },
     // Outlined variant
@@ -168,17 +173,19 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     outlinedPrimary: {
-        borderColor: '#7B2FF7',
-        color: '#7B2FF7',
+        borderColor: '#58CC02',
+        color: '#58CC02',
+        borderRadius: 16,
         '&:hover': {
-            background: 'rgba(123, 47, 247, 0.1)',
+            background: 'rgba(88, 204, 2, 0.1)',
         },
     },
     outlinedSecondary: {
-        borderColor: '#00D4FF',
-        color: '#00D4FF',
+        borderColor: '#1CB0F6',
+        color: '#1CB0F6',
+        borderRadius: 16,
         '&:hover': {
-            background: 'rgba(0, 212, 255, 0.1)',
+            background: 'rgba(28, 176, 246, 0.1)',
         },
     },
     // Sizes
@@ -221,13 +228,13 @@ const useStyles = makeStyles((theme) => ({
     },
     '@keyframes pulse': {
         '0%': {
-            boxShadow: '0 4px 20px rgba(123, 47, 247, 0.4)',
+            boxShadow: '0 4px 0 0 #58A700',
         },
         '50%': {
-            boxShadow: '0 4px 40px rgba(123, 47, 247, 0.6)',
+            boxShadow: '0 4px 20px rgba(88, 204, 2, 0.6)',
         },
         '100%': {
-            boxShadow: '0 4px 20px rgba(123, 47, 247, 0.4)',
+            boxShadow: '0 4px 0 0 #58A700',
         },
     },
 }));

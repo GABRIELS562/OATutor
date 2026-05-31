@@ -96,7 +96,7 @@ export default class GlobalErrorBoundary extends ErrorBoundary {
                         </div>
 
                         <h1 style={{
-                            color: '#1a1a2e',
+                            color: '#3C3C3C',
                             marginBottom: '16px',
                             fontSize: '24px',
                         }}>
@@ -145,7 +145,7 @@ export default class GlobalErrorBoundary extends ErrorBoundary {
                             <button
                                 onClick={this.handleRefresh}
                                 style={{
-                                    backgroundColor: '#1a1a2e',
+                                    backgroundColor: '#3C3C3C',
                                     color: 'white',
                                     border: 'none',
                                     padding: '14px 28px',
@@ -155,8 +155,8 @@ export default class GlobalErrorBoundary extends ErrorBoundary {
                                     fontFamily: 'inherit',
                                     transition: 'background-color 0.2s',
                                 }}
-                                onMouseOver={(e) => e.target.style.backgroundColor = '#2a2a4e'}
-                                onMouseOut={(e) => e.target.style.backgroundColor = '#1a1a2e'}
+                                onMouseOver={(e) => e.target.style.backgroundColor = '#4A4A4A'}
+                                onMouseOut={(e) => e.target.style.backgroundColor = '#3C3C3C'}
                             >
                                 Try Again
                             </button>
@@ -165,8 +165,8 @@ export default class GlobalErrorBoundary extends ErrorBoundary {
                                 onClick={this.handleGoHome}
                                 style={{
                                     backgroundColor: 'transparent',
-                                    color: '#1a1a2e',
-                                    border: '2px solid #1a1a2e',
+                                    color: '#3C3C3C',
+                                    border: '2px solid #3C3C3C',
                                     padding: '12px 28px',
                                     borderRadius: '8px',
                                     fontSize: '16px',
@@ -175,12 +175,12 @@ export default class GlobalErrorBoundary extends ErrorBoundary {
                                     transition: 'all 0.2s',
                                 }}
                                 onMouseOver={(e) => {
-                                    e.target.style.backgroundColor = '#1a1a2e';
+                                    e.target.style.backgroundColor = '#3C3C3C';
                                     e.target.style.color = 'white';
                                 }}
                                 onMouseOut={(e) => {
                                     e.target.style.backgroundColor = 'transparent';
-                                    e.target.style.color = '#1a1a2e';
+                                    e.target.style.color = '#3C3C3C';
                                 }}
                             >
                                 Go to Homepage

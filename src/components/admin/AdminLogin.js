@@ -29,7 +29,7 @@ import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 const useStyles = makeStyles((theme) => ({
     root: {
         minHeight: '100vh',
-        background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
+        background: '#3C3C3C',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -51,13 +51,13 @@ const useStyles = makeStyles((theme) => ({
     },
     logoIcon: {
         fontSize: 48,
-        color: '#7B2FF7',
+        color: '#58CC02',
         marginRight: theme.spacing(1.5),
     },
     logoText: {
         fontWeight: 700,
         fontSize: '1.8rem',
-        background: 'linear-gradient(135deg, #7B2FF7 0%, #F72585 100%)',
+        background: 'linear-gradient(135deg, #58CC02 0%, #FF9600 100%)',
         WebkitBackgroundClip: 'text',
         WebkitTextFillColor: 'transparent',
     },
@@ -86,16 +86,16 @@ const useStyles = makeStyles((theme) => ({
     loginButton: {
         marginTop: theme.spacing(2),
         padding: theme.spacing(1.5),
-        borderRadius: 12,
+        borderRadius: 16,
         fontSize: '1rem',
-        fontWeight: 600,
-        background: 'linear-gradient(135deg, #7B2FF7 0%, #F72585 100%)',
-        boxShadow: '0 4px 15px rgba(123, 47, 247, 0.35)',
+        fontWeight: 700,
+        background: '#58CC02',
+        boxShadow: '0 4px 0 0 #58A700',
         '&:hover': {
-            boxShadow: '0 6px 20px rgba(123, 47, 247, 0.45)',
-            transform: 'translateY(-2px)',
+            boxShadow: '0 2px 0 0 #58A700',
+            transform: 'translateY(2px)',
         },
-        transition: 'all 0.3s ease',
+        transition: 'all 0.1s ease',
     },
     backLink: {
         display: 'flex',
@@ -105,19 +105,19 @@ const useStyles = makeStyles((theme) => ({
         color: '#64748B',
         textDecoration: 'none',
         '&:hover': {
-            color: '#7B2FF7',
+            color: '#58CC02',
         },
     },
     demoInfo: {
         marginTop: theme.spacing(3),
         padding: theme.spacing(2),
-        backgroundColor: 'rgba(123, 47, 247, 0.05)',
-        borderRadius: 12,
-        border: '1px dashed rgba(123, 47, 247, 0.3)',
+        backgroundColor: 'rgba(88, 204, 2, 0.05)',
+        borderRadius: 16,
+        border: '1px dashed rgba(88, 204, 2, 0.3)',
     },
     demoTitle: {
         fontWeight: 600,
-        color: '#7B2FF7',
+        color: '#58CC02',
         fontSize: '0.85rem',
         marginBottom: theme.spacing(1),
     },

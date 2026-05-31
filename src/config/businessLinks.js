@@ -9,8 +9,8 @@ export const BUSINESS_LINKS = [
         shortName: 'Book Tutoring',
         description: 'Schedule a one-on-one session with our expert tutors',
         icon: 'event',
-        color: '#7B2FF7',
-        gradient: 'linear-gradient(135deg, #7B2FF7 0%, #A855F7 100%)',
+        color: '#58CC02',
+        gradient: '#58CC02',
         url: 'https://calendly.com/angelo-tutoring', // Replace with actual booking link
         external: true,
         featured: true,
@@ -35,8 +35,8 @@ export const BUSINESS_LINKS = [
         shortName: 'Website',
         description: 'Learn more about Angelo Tutoring services',
         icon: 'language',
-        color: '#00D4FF',
-        gradient: 'linear-gradient(135deg, #00D4FF 0%, #0891B2 100%)',
+        color: '#1CB0F6',
+        gradient: '#1CB0F6',
         url: 'https://angelotutoring.co.za', // Replace with actual website
         external: true,
         featured: false,

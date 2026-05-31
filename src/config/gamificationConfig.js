@@ -67,7 +67,7 @@ export const LEVEL_CONFIG = {
         "Beginner": "#94A3B8",      // Gray
         "Learner": "#10B981",       // Green
         "Scholar": "#3B82F6",       // Blue
-        "Expert": "#7B2FF7",        // Purple
+        "Expert": "#CE82FF",        // Purple (Duolingo)
         "Master": "#F59E0B",        // Gold
         "Grandmaster": "#EF4444",   // Red
         "Legend": "#EC4899",        // Pink (gradient)

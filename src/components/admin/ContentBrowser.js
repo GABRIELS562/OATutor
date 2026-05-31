@@ -47,7 +47,7 @@ import EcoIcon from '@material-ui/icons/Eco'; // Biology icon
 const CONTENT_STRUCTURE = {
     Mathematics: {
         icon: <FunctionsIcon />,
-        color: '#7B2FF7',
+        color: '#58CC02',
         grades: {
             10: [
                 {
@@ -173,7 +173,7 @@ const CONTENT_STRUCTURE = {
     },
     Physics: {
         icon: <MemoryIcon />,
-        color: '#00D4FF',
+        color: '#1CB0F6',
         grades: {
             10: [
                 { topic: 'Mechanics', skills: ['phys-newtons-laws'], problems: 12, difficulty: 'Medium' },
@@ -324,7 +324,7 @@ const useStyles = makeStyles((theme) => ({
             marginBottom: 0,
         },
         '&:hover': {
-            backgroundColor: 'rgba(123, 47, 247, 0.08)',
+            backgroundColor: 'rgba(88, 204, 2, 0.08)',
         },
     },
     skillName: {
@@ -349,7 +349,7 @@ const ContentBrowser = ({ onSelectProblem, onAddToAssignment }) => {
         switch (difficulty) {
             case 'Easy': return '#10B981';
             case 'Medium': return '#F59E0B';
-            case 'Hard': return '#F72585';
+            case 'Hard': return '#FF4B4B';
             default: return '#64748B';
         }
     };

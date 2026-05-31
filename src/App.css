@@ -7,8 +7,8 @@
   --text-primary: #1e293b;
   --text-secondary: #64748b;
   --border-color: rgba(0, 0, 0, 0.1);
-  --accent-primary: #7B2FF7;
-  --accent-secondary: #00D4FF;
+  --accent-primary: #58CC02;
+  --accent-secondary: #1CB0F6;
 }
 
 /* Dark mode overrides are applied by ThemeToggleContext */
@@ -183,7 +183,7 @@ html:not(.dark-mode) .MuiTableCell-root {
 }
 
 .dark-mode .MuiPaper-root {
-  background-color: #16213e;
+  background-color: #3C3C3C;
   color: #ffffff;
 }
 
@@ -199,7 +199,7 @@ html:not(.dark-mode) .MuiTableCell-root {
 .dark-mode .MuiCard-root,
 .dark-mode .MuiAccordion-root,
 .dark-mode .MuiDialog-paper {
-  background-color: #16213e;
+  background-color: #3C3C3C;
   color: #ffffff;
 }
 
@@ -220,7 +220,7 @@ html:not(.dark-mode) .MuiTableCell-root {
 .dark-mode .MuiDrawer-paper,
 .dark-mode .MuiMenu-paper,
 .dark-mode .MuiPopover-paper {
-  background-color: #16213e;
+  background-color: #3C3C3C;
   color: #ffffff;
 }
 
@@ -241,13 +241,15 @@ html:not(.dark-mode) .MuiTableCell-root {
   position: absolute;
   top: -40px;
   left: 0;
-  background: #7B2FF7;
+  background: #58CC02;
   color: white;
   padding: 8px 16px;
   z-index: 10000;
   text-decoration: none;
-  border-radius: 0 0 4px 0;
+  border-radius: 0 0 16px 0;
   transition: top 0.3s;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
 }
 
 .skip-link:focus {

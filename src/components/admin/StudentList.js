@@ -228,7 +228,7 @@ const useStyles = makeStyles((theme) => ({
     },
     studentRow: {
         '&:hover': {
-            backgroundColor: 'rgba(123, 47, 247, 0.04)',
+            backgroundColor: 'rgba(88, 204, 2, 0.04)',
         },
     },
     studentInfo: {
@@ -239,7 +239,7 @@ const useStyles = makeStyles((theme) => ({
     avatar: {
         width: 40,
         height: 40,
-        backgroundColor: '#7B2FF7',
+        backgroundColor: '#58CC02',
     },
     studentName: {
         fontWeight: 600,
@@ -257,19 +257,19 @@ const useStyles = makeStyles((theme) => ({
         height: 8,
         borderRadius: 4,
         width: 80,
-        backgroundColor: 'rgba(123, 47, 247, 0.1)',
+        backgroundColor: 'rgba(88, 204, 2, 0.1)',
     },
     progressBarMaths: {
-        backgroundColor: '#7B2FF7',
+        backgroundColor: '#58CC02',
     },
     progressBarScience: {
-        backgroundColor: '#00D4FF',
+        backgroundColor: '#1CB0F6',
     },
     trendUp: {
         color: '#10B981',
     },
     trendDown: {
-        color: '#F72585',
+        color: '#FF4B4B',
     },
     streakBadge: {
         display: 'flex',
@@ -285,7 +285,7 @@ const useStyles = makeStyles((theme) => ({
         color: '#10B981',
     },
     lastActiveOld: {
-        color: '#F72585',
+        color: '#FF4B4B',
     },
 }));
 
@@ -373,9 +373,9 @@ const StudentList = ({ onSelectStudent }) => {
     };
 
     const getLevelColor = (level) => {
-        if (level >= 15) return '#F72585';
-        if (level >= 10) return '#7B2FF7';
-        if (level >= 5) return '#00D4FF';
+        if (level >= 15) return '#FF9600';
+        if (level >= 10) return '#58CC02';
+        if (level >= 5) return '#1CB0F6';
         return '#64748B';
     };
 

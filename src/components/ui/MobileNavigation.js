@@ -56,7 +56,7 @@ const useStyles = makeStyles((theme) => ({
             width: '85%',
             maxWidth: 320,
             borderRadius: '0 20px 20px 0',
-            background: 'linear-gradient(180deg, #1a1a2e 0%, #16213e 100%)',
+            background: '#3C3C3C',
             color: '#fff',
             paddingBottom: 'env(safe-area-inset-bottom)',
         },
@@ -78,7 +78,7 @@ const useStyles = makeStyles((theme) => ({
         width: 40,
         height: 40,
         borderRadius: 10,
-        background: 'linear-gradient(135deg, #00D4FF 0%, #7B2FF7 50%, #F72585 100%)',
+        background: '#58CC02',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -91,10 +91,7 @@ const useStyles = makeStyles((theme) => ({
         fontSize: 18,
     },
     logoAccent: {
-        background: 'linear-gradient(135deg, #00D4FF 0%, #7B2FF7 50%, #F72585 100%)',
-        WebkitBackgroundClip: 'text',
-        WebkitTextFillColor: 'transparent',
-        backgroundClip: 'text',
+        color: '#58CC02',
     },
     closeButton: {
         color: '#fff',
@@ -121,11 +118,11 @@ const useStyles = makeStyles((theme) => ({
         transition: 'all 0.2s ease',
         minHeight: 52, // Touch-friendly
         '&:hover': {
-            backgroundColor: 'rgba(123, 47, 247, 0.15)',
+            backgroundColor: 'rgba(88, 204, 2, 0.15)',
         },
         '&.active': {
-            background: 'linear-gradient(135deg, rgba(123, 47, 247, 0.2) 0%, rgba(247, 37, 133, 0.2) 100%)',
-            borderLeft: '3px solid #7B2FF7',
+            background: 'rgba(88, 204, 2, 0.2)',
+            borderLeft: '3px solid #58CC02',
         },
     },
     navItemIcon: {
@@ -143,7 +140,7 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     activeIcon: {
-        color: '#7B2FF7',
+        color: '#58CC02',
     },
     subNavItem: {
         paddingLeft: theme.spacing(6),
@@ -151,7 +148,7 @@ const useStyles = makeStyles((theme) => ({
         margin: theme.spacing(0.25, 1.5),
         borderRadius: 10,
         '&:hover': {
-            backgroundColor: 'rgba(123, 47, 247, 0.1)',
+            backgroundColor: 'rgba(88, 204, 2, 0.1)',
         },
     },
     statsContainer: {
@@ -188,12 +185,12 @@ const useStyles = makeStyles((theme) => ({
         borderRadius: 20,
     },
     levelBadge: {
-        background: 'linear-gradient(135deg, #7B2FF7 0%, #F72585 100%)',
+        background: '#58CC02',
         color: '#fff',
         fontWeight: 600,
     },
     streakBadge: {
-        background: 'linear-gradient(135deg, #F72585 0%, #E11D48 100%)',
+        background: '#FF9600',
         color: '#fff',
     },
     divider: {
@@ -222,8 +219,8 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     courseChip: {
-        background: 'rgba(0, 212, 255, 0.15)',
-        color: '#00D4FF',
+        background: 'rgba(28, 176, 246, 0.15)',
+        color: '#1CB0F6',
         fontSize: 11,
         height: 24,
         marginLeft: theme.spacing(1),
@@ -403,7 +400,7 @@ function MobileNavigation({ currentLesson, courseNum }) {
                         </div>
                         <div className={classes.statsRow}>
                             <span className={classes.statsLabel}>
-                                <EmojiEventsIcon style={{ fontSize: 16, color: '#7B2FF7' }} />
+                                <EmojiEventsIcon style={{ fontSize: 16, color: '#58CC02' }} />
                                 Level
                             </span>
                             <Chip

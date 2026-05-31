@@ -37,7 +37,7 @@ import SettingsIcon from '@material-ui/icons/Settings';
 const useStyles = makeStyles((theme) => ({
     root: {
         minHeight: '100vh',
-        background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
+        background: '#3C3C3C',
         paddingBottom: '40px',
     },
     header: {
@@ -59,17 +59,17 @@ const useStyles = makeStyles((theme) => ({
     },
     analyticsButton: {
         color: '#fff',
-        background: 'rgba(123, 47, 247, 0.2)',
+        background: 'rgba(88, 204, 2, 0.2)',
         '&:hover': {
-            background: 'rgba(123, 47, 247, 0.4)',
+            background: 'rgba(88, 204, 2, 0.4)',
         },
     },
     mainCard: {
-        background: 'linear-gradient(135deg, rgba(123, 47, 247, 0.2) 0%, rgba(247, 37, 133, 0.2) 100%)',
+        background: 'rgba(88, 204, 2, 0.15)',
         borderRadius: '24px',
         padding: '32px',
         marginBottom: '24px',
-        border: '1px solid rgba(255,255,255,0.1)',
+        border: '1px solid rgba(88, 204, 2, 0.2)',
     },
     levelBadge: {
         width: '120px',
@@ -79,7 +79,7 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'column',
-        boxShadow: '0 8px 32px rgba(123, 47, 247, 0.4)',
+        boxShadow: '0 8px 32px rgba(88, 204, 2, 0.4)',
         margin: '0 auto 16px',
     },
     levelNumber: {
@@ -101,7 +101,7 @@ const useStyles = makeStyles((theme) => ({
     },
     xpProgressBar: {
         borderRadius: '6px',
-        background: 'linear-gradient(90deg, #7B2FF7 0%, #F72585 100%)',
+        background: '#58CC02',
     },
     statCard: {
         background: 'rgba(255,255,255,0.05)',
@@ -150,8 +150,8 @@ const useStyles = makeStyles((theme) => ({
         transition: 'all 0.3s ease',
     },
     badgeEarned: {
-        background: 'rgba(123, 47, 247, 0.2)',
-        border: '1px solid rgba(123, 47, 247, 0.4)',
+        background: 'rgba(88, 204, 2, 0.2)',
+        border: '1px solid rgba(88, 204, 2, 0.4)',
     },
     badgeLocked: {
         opacity: 0.5,
@@ -185,8 +185,8 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     goalSelected: {
-        background: 'rgba(123, 47, 247, 0.2)',
-        border: '2px solid #7B2FF7',
+        background: 'rgba(88, 204, 2, 0.2)',
+        border: '2px solid #58CC02',
     },
     activityCard: {
         background: 'rgba(255,255,255,0.05)',
@@ -212,16 +212,16 @@ const useStyles = makeStyles((theme) => ({
             color: '#fff',
         },
         '& .MuiTabs-indicator': {
-            background: 'linear-gradient(90deg, #7B2FF7 0%, #F72585 100%)',
+            background: '#58CC02',
         },
     },
     // Analytics Banner
     analyticsBanner: {
-        background: 'linear-gradient(135deg, rgba(0, 212, 255, 0.15) 0%, rgba(123, 47, 247, 0.15) 100%)',
+        background: 'rgba(28, 176, 246, 0.15)',
         borderRadius: '16px',
         padding: '16px 20px',
         marginBottom: '24px',
-        border: '1px solid rgba(0, 212, 255, 0.3)',
+        border: '1px solid rgba(28, 176, 246, 0.3)',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
@@ -234,7 +234,7 @@ const useStyles = makeStyles((theme) => ({
         gap: '12px',
     },
     analyticsBannerIcon: {
-        background: 'linear-gradient(135deg, #00D4FF 0%, #7B2FF7 100%)',
+        background: '#1CB0F6',
         borderRadius: '12px',
         width: '48px',
         height: '48px',
@@ -253,14 +253,16 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '12px',
     },
     analyticsViewButton: {
-        background: 'linear-gradient(135deg, #00D4FF 0%, #7B2FF7 100%)',
+        background: '#1CB0F6',
         color: '#fff',
         fontWeight: 600,
         padding: '8px 20px',
-        borderRadius: '20px',
+        borderRadius: '16px',
         textTransform: 'none',
+        boxShadow: '0 4px 0 0 #0095D9',
         '&:hover': {
-            background: 'linear-gradient(135deg, #00B8E0 0%, #6B1FE7 100%)',
+            background: '#0095D9',
+            boxShadow: '0 2px 0 0 #007AB8',
         },
     },
 }));
@@ -458,7 +460,7 @@ const StudentDashboard = () => {
                             <Grid container spacing={3}>
                                 <Grid item xs={6} sm={3}>
                                     <Box textAlign="center">
-                                        <Typography style={{ color: '#7B2FF7', fontSize: '32px', fontWeight: 700 }}>
+                                        <Typography style={{ color: '#58CC02', fontSize: '32px', fontWeight: 700 }}>
                                             {dailyActivity.xpEarned}
                                         </Typography>
                                         <Typography style={{ color: 'rgba(255,255,255,0.7)', fontSize: '12px' }}>
@@ -468,7 +470,7 @@ const StudentDashboard = () => {
                                 </Grid>
                                 <Grid item xs={6} sm={3}>
                                     <Box textAlign="center">
-                                        <Typography style={{ color: '#00D4FF', fontSize: '32px', fontWeight: 700 }}>
+                                        <Typography style={{ color: '#1CB0F6', fontSize: '32px', fontWeight: 700 }}>
                                             {dailyActivity.problemsSolved}
                                         </Typography>
                                         <Typography style={{ color: 'rgba(255,255,255,0.7)', fontSize: '12px' }}>
@@ -527,11 +529,13 @@ const StudentDashboard = () => {
                                 variant="contained"
                                 size="large"
                                 style={{
-                                    background: 'linear-gradient(135deg, #7B2FF7 0%, #F72585 100%)',
+                                    background: '#58CC02',
                                     color: '#fff',
-                                    fontWeight: 600,
+                                    fontWeight: 700,
+                                    fontFamily: "'Nunito', sans-serif",
                                     padding: '12px 48px',
-                                    borderRadius: '30px',
+                                    borderRadius: '16px',
+                                    boxShadow: '0 4px 0 0 #58A700',
                                 }}
                             >
                                 Continue Learning
@@ -542,11 +546,12 @@ const StudentDashboard = () => {
                                 variant="outlined"
                                 size="large"
                                 style={{
-                                    borderColor: '#00D4FF',
-                                    color: '#00D4FF',
-                                    fontWeight: 600,
+                                    borderColor: '#1CB0F6',
+                                    color: '#1CB0F6',
+                                    fontWeight: 700,
+                                    fontFamily: "'Nunito', sans-serif",
                                     padding: '12px 32px',
-                                    borderRadius: '30px',
+                                    borderRadius: '16px',
                                 }}
                             >
                                 View Analytics
@@ -573,7 +578,7 @@ const StudentDashboard = () => {
                                                         <Typography style={{ fontWeight: 600 }}>{badge.name}</Typography>
                                                         <Typography style={{ fontSize: '12px' }}>{badge.description}</Typography>
                                                         {badge.xpReward > 0 && (
-                                                            <Typography style={{ fontSize: '12px', color: '#A855F7', marginTop: '4px' }}>
+                                                            <Typography style={{ fontSize: '12px', color: '#58CC02', marginTop: '4px' }}>
                                                                 +{badge.xpReward} XP
                                                             </Typography>
                                                         )}
@@ -596,8 +601,8 @@ const StudentDashboard = () => {
                                                             size="small"
                                                             style={{
                                                                 marginTop: '8px',
-                                                                background: 'rgba(123, 47, 247, 0.3)',
-                                                                color: '#A855F7',
+                                                                background: 'rgba(88, 204, 2, 0.3)',
+                                                                color: '#58CC02',
                                                                 fontSize: '10px',
                                                                 height: '20px',
                                                             }}
@@ -642,7 +647,7 @@ const StudentDashboard = () => {
                                             label="Selected"
                                             size="small"
                                             style={{
-                                                background: '#7B2FF7',
+                                                background: '#58CC02',
                                                 color: '#fff',
                                             }}
                                         />

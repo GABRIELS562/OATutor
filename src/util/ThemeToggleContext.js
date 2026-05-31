@@ -102,16 +102,16 @@ export function ThemeToggleProvider({ children }) {
             body.classList.remove('light-mode');
             root.setAttribute('data-theme', 'dark');
 
-            // Set dark mode CSS variables
-            root.style.setProperty('--bg-primary', '#0f0f23');
-            root.style.setProperty('--bg-secondary', '#1a1a2e');
-            root.style.setProperty('--bg-card', '#16213e');
+            // Set dark mode CSS variables (Duolingo-inspired neutrals)
+            root.style.setProperty('--bg-primary', '#3C3C3C');
+            root.style.setProperty('--bg-secondary', '#777777');
+            root.style.setProperty('--bg-card', '#3C3C3C');
             root.style.setProperty('--text-primary', '#ffffff');
             root.style.setProperty('--text-secondary', '#b0b0b0');
             root.style.setProperty('--border-color', 'rgba(255, 255, 255, 0.1)');
 
             // Apply background color directly to body for immediate effect
-            body.style.backgroundColor = '#0f0f23';
+            body.style.backgroundColor = '#3C3C3C';
             body.style.color = '#ffffff';
         } else {
             // Apply light mode
@@ -137,7 +137,7 @@ export function ThemeToggleProvider({ children }) {
         // Update meta theme-color for mobile browsers
         const metaThemeColor = document.querySelector('meta[name="theme-color"]');
         if (metaThemeColor) {
-            metaThemeColor.setAttribute('content', isDark ? '#0f0f23' : '#1a237e');
+            metaThemeColor.setAttribute('content', isDark ? '#3C3C3C' : '#58CC02');
         }
     }, [isDark]);
 

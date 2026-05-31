@@ -129,10 +129,10 @@ const useStyles = makeStyles((theme) => ({
         borderTop: '1px solid rgba(0, 0, 0, 0.06)',
     },
     summaryCard: {
-        backgroundColor: 'rgba(123, 47, 247, 0.04)',
+        backgroundColor: 'rgba(88, 204, 2, 0.04)',
         borderRadius: 12,
         padding: theme.spacing(3),
-        border: '1px solid rgba(123, 47, 247, 0.1)',
+        border: '1px solid rgba(88, 204, 2, 0.1)',
     },
     summaryRow: {
         display: 'flex',
@@ -463,10 +463,10 @@ const AssignmentCreator = ({ selectedProblems = [], onClearProblems }) => {
                                             borderRadius: 12,
                                             cursor: 'pointer',
                                             borderColor: assignment.selectedClasses.includes(classData.id)
-                                                ? '#7B2FF7'
+                                                ? '#58CC02'
                                                 : 'rgba(0, 0, 0, 0.12)',
                                             backgroundColor: assignment.selectedClasses.includes(classData.id)
-                                                ? 'rgba(123, 47, 247, 0.04)'
+                                                ? 'rgba(88, 204, 2, 0.04)'
                                                 : 'transparent',
                                         }}
                                         onClick={() => handleClassToggle(classData.id)}

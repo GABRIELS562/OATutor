@@ -72,15 +72,17 @@ const useStyles = makeStyles((theme) => ({
     },
     title: {
         fontWeight: 700,
-        color: '#1a1a2e',
+        color: '#3C3C3C',
+        fontFamily: "'Nunito', sans-serif",
     },
     heroSection: {
-        background: 'linear-gradient(135deg, #7B2FF7 0%, #1a237e 100%)',
+        background: '#58CC02',
         color: 'white',
         padding: theme.spacing(4),
-        borderRadius: theme.shape.borderRadius * 2,
+        borderRadius: 16,
         marginBottom: theme.spacing(4),
         textAlign: 'center',
+        fontFamily: "'Nunito', sans-serif",
     },
     searchSection: {
         marginBottom: theme.spacing(4),
@@ -116,7 +118,7 @@ const useStyles = makeStyles((theme) => ({
         width: 64,
         height: 64,
         marginRight: theme.spacing(2),
-        backgroundColor: '#7B2FF7',
+        backgroundColor: '#58CC02',
         fontSize: '1.5rem',
     },
     tutorName: {
@@ -544,7 +546,7 @@ const TutoringPage = ({ history }) => {
                                         width: 56,
                                         height: 56,
                                         marginRight: 16,
-                                        backgroundColor: '#7B2FF7'
+                                        backgroundColor: '#58CC02'
                                     }}
                                 >
                                     {selectedTutor.initials}

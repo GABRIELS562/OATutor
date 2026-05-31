@@ -61,8 +61,8 @@ export const getSubjectForSkill = (skillId) => {
  */
 export const getSubjectColor = (subject) => {
     const colors = {
-        Mathematics: { primary: '#7B2FF7', secondary: '#A855F7', gradient: 'linear-gradient(135deg, #7B2FF7 0%, #A855F7 100%)' },
-        Physics: { primary: '#00D4FF', secondary: '#0891B2', gradient: 'linear-gradient(135deg, #00D4FF 0%, #0891B2 100%)' },
+        Mathematics: { primary: '#58CC02', secondary: '#89E219', gradient: '#58CC02' },
+        Physics: { primary: '#1CB0F6', secondary: '#0095D9', gradient: '#1CB0F6' },
         Chemistry: { primary: '#10B981', secondary: '#059669', gradient: 'linear-gradient(135deg, #10B981 0%, #059669 100%)' },
         Biology: { primary: '#F59E0B', secondary: '#D97706', gradient: 'linear-gradient(135deg, #F59E0B 0%, #D97706 100%)' },
     };
@@ -355,9 +355,9 @@ const formatSkillName = (skillId) => {
  */
 export const getMasteryLevel = (mastery) => {
     if (mastery >= 0.95) return { label: 'Mastered', color: '#10B981', icon: 'star' };
-    if (mastery >= 0.75) return { label: 'Proficient', color: '#7B2FF7', icon: 'trophy' };
-    if (mastery >= 0.50) return { label: 'Developing', color: '#F59E0B', icon: 'trending_up' };
-    if (mastery >= 0.25) return { label: 'Learning', color: '#00D4FF', icon: 'school' };
+    if (mastery >= 0.75) return { label: 'Proficient', color: '#CE82FF', icon: 'trophy' };
+    if (mastery >= 0.50) return { label: 'Developing', color: '#FF9600', icon: 'trending_up' };
+    if (mastery >= 0.25) return { label: 'Learning', color: '#1CB0F6', icon: 'school' };
     return { label: 'Beginner', color: '#94A3B8', icon: 'flag' };
 };
 

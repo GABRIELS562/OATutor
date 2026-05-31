@@ -72,10 +72,9 @@ const useStyles = makeStyles((theme) => ({
         flex: 1,
     },
     title: {
-        fontWeight: 600,
-        background: 'linear-gradient(135deg, #7B2FF7 0%, #F72585 100%)',
-        WebkitBackgroundClip: 'text',
-        WebkitTextFillColor: 'transparent',
+        fontWeight: 700,
+        color: '#58CC02',
+        fontFamily: "'Nunito', sans-serif",
     },
     subtitle: {
         color: '#666',
@@ -143,8 +142,9 @@ const useStyles = makeStyles((theme) => ({
         position: 'absolute',
         top: 8,
         left: 8,
-        backgroundColor: '#F72585',
+        backgroundColor: '#FF9600',
         color: 'white',
+        borderRadius: 16,
     },
     durationBadge: {
         position: 'absolute',

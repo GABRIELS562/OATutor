@@ -514,7 +514,7 @@ export const SkillMasteryGrid = ({ skills, maxItems = 6, onViewAll }) => {
                 <Box textAlign="center" mt={2}>
                     <Typography
                         style={{
-                            color: '#7B2FF7',
+                            color: '#58CC02',
                             fontSize: '13px',
                             fontWeight: 600,
                             cursor: 'pointer',

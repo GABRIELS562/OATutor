@@ -11,7 +11,7 @@ import { Card, CardContent, CardActions, Grid, Box } from '@material-ui/core';
 const useStyles = makeStyles((theme) => ({
     // Base skeleton animation
     skeleton: {
-        background: 'linear-gradient(90deg, rgba(123, 47, 247, 0.05) 25%, rgba(123, 47, 247, 0.12) 50%, rgba(123, 47, 247, 0.05) 75%)',
+        background: 'linear-gradient(90deg, rgba(88, 204, 2, 0.05) 25%, rgba(88, 204, 2, 0.12) 50%, rgba(88, 204, 2, 0.05) 75%)',
         backgroundSize: '200% 100%',
         animation: '$shimmer 1.5s infinite ease-in-out',
         borderRadius: 8,
@@ -26,14 +26,14 @@ const useStyles = makeStyles((theme) => ({
         borderRadius: 16,
         overflow: 'hidden',
         boxShadow: '0 4px 20px rgba(0, 0, 0, 0.06)',
-        border: '1px solid rgba(123, 47, 247, 0.08)',
+        border: '1px solid rgba(88, 204, 2, 0.08)',
         height: '100%',
         display: 'flex',
         flexDirection: 'column',
     },
     cardHeader: {
         height: 120,
-        background: 'linear-gradient(135deg, rgba(123, 47, 247, 0.15) 0%, rgba(0, 212, 255, 0.15) 100%)',
+        background: 'linear-gradient(135deg, rgba(88, 204, 2, 0.15) 0%, rgba(0, 212, 255, 0.15) 100%)',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -101,7 +101,7 @@ const useStyles = makeStyles((theme) => ({
     // Problem card skeleton
     problemCardSkeleton: {
         borderRadius: 16,
-        boxShadow: '0 4px 25px rgba(123, 47, 247, 0.08)',
+        boxShadow: '0 4px 25px rgba(88, 204, 2, 0.08)',
         padding: theme.spacing(3),
         marginBottom: theme.spacing(2),
         [theme.breakpoints.down('xs')]: {
@@ -143,7 +143,7 @@ const useStyles = makeStyles((theme) => ({
         padding: theme.spacing(3),
         textAlign: 'center',
         borderRadius: 16,
-        border: '1px solid rgba(123, 47, 247, 0.1)',
+        border: '1px solid rgba(88, 204, 2, 0.1)',
         height: '100%',
         [theme.breakpoints.down('xs')]: {
             padding: theme.spacing(2),
@@ -190,8 +190,8 @@ const useStyles = makeStyles((theme) => ({
         width: 40,
         height: 40,
         borderRadius: '50%',
-        border: '3px solid rgba(123, 47, 247, 0.2)',
-        borderTopColor: '#7B2FF7',
+        border: '3px solid rgba(88, 204, 2, 0.2)',
+        borderTopColor: '#58CC02',
         animation: '$spin 0.8s linear infinite',
         [theme.breakpoints.down('xs')]: {
             width: 32,
@@ -203,7 +203,7 @@ const useStyles = makeStyles((theme) => ({
     },
     spinnerText: {
         marginTop: theme.spacing(1.5),
-        color: '#7B2FF7',
+        color: '#58CC02',
         fontWeight: 500,
         fontSize: 14,
         [theme.breakpoints.down('xs')]: {
@@ -222,7 +222,7 @@ const useStyles = makeStyles((theme) => ({
         width: 8,
         height: 8,
         borderRadius: '50%',
-        background: 'rgba(123, 47, 247, 0.3)',
+        background: 'rgba(88, 204, 2, 0.3)',
         animation: '$pulse 1.4s ease-in-out infinite',
         '&:nth-child(2)': {
             animationDelay: '0.2s',
@@ -234,11 +234,11 @@ const useStyles = makeStyles((theme) => ({
     '@keyframes pulse': {
         '0%, 100%': {
             transform: 'scale(1)',
-            background: 'rgba(123, 47, 247, 0.3)',
+            background: 'rgba(88, 204, 2, 0.3)',
         },
         '50%': {
             transform: 'scale(1.2)',
-            background: '#7B2FF7',
+            background: '#58CC02',
         },
     },
 }));

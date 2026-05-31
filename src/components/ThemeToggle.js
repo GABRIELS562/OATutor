@@ -15,11 +15,11 @@ import { useLocalization } from '../util/LocalizationContext';
  */
 export const ThemeToggleButton = ({ iconColor = 'inherit', size = 'medium' }) => {
     const { isDark, toggleTheme } = useThemeToggle();
-    const { translate } = useLocalization();
+    const { t } = useLocalization();
 
     const label = isDark
-        ? (translate?.('theme.switchToLight') || 'Switch to light mode')
-        : (translate?.('theme.switchToDark') || 'Switch to dark mode');
+        ? (t('settings.lightMode') || 'Switch to light mode')
+        : (t('settings.darkMode') || 'Switch to dark mode');
 
     return (
         <Tooltip title={label}>

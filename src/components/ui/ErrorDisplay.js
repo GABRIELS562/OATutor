@@ -29,8 +29,8 @@ const useStyles = makeStyles((theme) => ({
     errorPaper: {
         padding: theme.spacing(4),
         borderRadius: 16,
-        border: '1px solid rgba(247, 37, 133, 0.15)',
-        background: 'linear-gradient(180deg, rgba(247, 37, 133, 0.03) 0%, rgba(255, 255, 255, 1) 100%)',
+        border: '1px solid rgba(255, 75, 75, 0.15)',
+        background: 'linear-gradient(180deg, rgba(255, 75, 75, 0.03) 0%, rgba(255, 255, 255, 1) 100%)',
         [theme.breakpoints.down('xs')]: {
             padding: theme.spacing(3),
             borderRadius: 12,
@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
     },
     errorIcon: {
         fontSize: 64,
-        color: '#F72585',
+        color: '#FF4B4B',
         marginBottom: theme.spacing(2),
         [theme.breakpoints.down('xs')]: {
             fontSize: 48,
@@ -54,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
     },
     infoIcon: {
         fontSize: 64,
-        color: '#00D4FF',
+        color: '#1CB0F6',
         marginBottom: theme.spacing(2),
         [theme.breakpoints.down('xs')]: {
             fontSize: 48,
@@ -62,7 +62,7 @@ const useStyles = makeStyles((theme) => ({
     },
     errorTitle: {
         fontWeight: 700,
-        color: '#1a1a2e',
+        color: '#3C3C3C',
         marginBottom: theme.spacing(1),
         fontSize: '1.5rem',
         [theme.breakpoints.down('xs')]: {
@@ -80,18 +80,18 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     retryButton: {
-        background: 'linear-gradient(135deg, #7B2FF7 0%, #F72585 100%)',
+        background: 'linear-gradient(135deg, #58CC02 0%, #FF4B4B 100%)',
         color: '#fff',
         padding: theme.spacing(1.5, 4),
         borderRadius: 10,
         fontWeight: 600,
         textTransform: 'none',
-        boxShadow: '0 4px 15px rgba(123, 47, 247, 0.35)',
+        boxShadow: '0 4px 15px rgba(88, 204, 2, 0.35)',
         minWidth: 150,
         minHeight: 48, // Touch-friendly
         '&:hover': {
-            background: 'linear-gradient(135deg, #7B2FF7 0%, #F72585 100%)',
-            boxShadow: '0 6px 20px rgba(123, 47, 247, 0.45)',
+            background: 'linear-gradient(135deg, #58CC02 0%, #FF4B4B 100%)',
+            boxShadow: '0 6px 20px rgba(88, 204, 2, 0.45)',
             transform: 'translateY(-2px)',
         },
         '&:disabled': {
@@ -106,8 +106,8 @@ const useStyles = makeStyles((theme) => ({
     },
     secondaryButton: {
         marginLeft: theme.spacing(2),
-        borderColor: '#7B2FF7',
-        color: '#7B2FF7',
+        borderColor: '#58CC02',
+        color: '#58CC02',
         minHeight: 48,
         [theme.breakpoints.down('xs')]: {
             marginLeft: 0,
@@ -133,7 +133,7 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         justifyContent: 'center',
         '&:hover': {
-            color: '#7B2FF7',
+            color: '#58CC02',
         },
     },
     expandIcon: {
@@ -145,7 +145,7 @@ const useStyles = makeStyles((theme) => ({
     technicalDetails: {
         marginTop: theme.spacing(2),
         padding: theme.spacing(2),
-        background: 'rgba(123, 47, 247, 0.04)',
+        background: 'rgba(88, 204, 2, 0.04)',
         borderRadius: 8,
         textAlign: 'left',
         fontSize: '0.8rem',
@@ -162,7 +162,7 @@ const useStyles = makeStyles((theme) => ({
         bottom: 0,
         left: 0,
         right: 0,
-        background: 'linear-gradient(135deg, #F72585 0%, #E11D48 100%)',
+        background: 'linear-gradient(135deg, #FF4B4B 0%, #E11D48 100%)',
         color: '#fff',
         padding: theme.spacing(1.5, 2),
         display: 'flex',
@@ -186,16 +186,16 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         alignItems: 'center',
         gap: theme.spacing(1),
-        color: '#7B2FF7',
+        color: '#58CC02',
         fontSize: '0.9rem',
         marginTop: theme.spacing(1),
     },
     retryCount: {
-        background: 'rgba(123, 47, 247, 0.1)',
+        background: 'rgba(88, 204, 2, 0.1)',
         padding: theme.spacing(0.5, 1.5),
         borderRadius: 20,
         fontSize: '0.8rem',
-        color: '#7B2FF7',
+        color: '#58CC02',
         fontWeight: 500,
         marginTop: theme.spacing(1),
     },
@@ -439,7 +439,7 @@ export const InfoDisplay = ({ title, message, onAction, actionLabel = 'Continue'
 
     return (
         <Box className={classes.errorContainer}>
-            <Paper className={classes.errorPaper} elevation={0} style={{ borderColor: 'rgba(0, 212, 255, 0.15)' }}>
+            <Paper className={classes.errorPaper} elevation={0} style={{ borderColor: 'rgba(28, 176, 246, 0.15)' }}>
                 <InfoIcon className={classes.infoIcon} />
                 <Typography variant="h5" className={classes.errorTitle}>
                     {title || 'Information'}
@@ -451,7 +451,7 @@ export const InfoDisplay = ({ title, message, onAction, actionLabel = 'Continue'
                     <Button
                         className={classes.retryButton}
                         onClick={onAction}
-                        style={{ background: 'linear-gradient(135deg, #00D4FF 0%, #0891B2 100%)' }}
+                        style={{ background: 'linear-gradient(135deg, #1CB0F6 0%, #0891B2 100%)' }}
                     >
                         {actionLabel}
                     </Button>

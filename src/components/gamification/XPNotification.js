@@ -21,9 +21,9 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         gap: '8px',
         padding: '12px 24px',
-        background: 'linear-gradient(135deg, #7B2FF7 0%, #F72585 100%)',
+        background: 'linear-gradient(135deg, #58CC02 0%, #FF9600 100%)',
         borderRadius: '30px',
-        boxShadow: '0 8px 32px rgba(123, 47, 247, 0.4)',
+        boxShadow: '0 8px 32px rgba(88, 204, 2, 0.4)',
         animation: '$popIn 0.3s ease-out, $floatUp 1.5s ease-in-out 0.3s forwards',
     },
     icon: {

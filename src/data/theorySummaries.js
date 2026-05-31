@@ -7,7 +7,7 @@
 
 export const THEORY_CATEGORIES = [
     { id: 'algebra', name: 'Algebra', icon: 'functions', color: '#1a237e' },
-    { id: 'functions', name: 'Functions & Graphs', icon: 'show_chart', color: '#7B2FF7' },
+    { id: 'functions', name: 'Functions & Graphs', icon: 'show_chart', color: '#58CC02' },
     { id: 'calculus', name: 'Calculus', icon: 'trending_up', color: '#00897b' },
     { id: 'trigonometry', name: 'Trigonometry', icon: 'architecture', color: '#f4511e' },
     { id: 'geometry', name: 'Euclidean Geometry', icon: 'category', color: '#6a1b9a' },

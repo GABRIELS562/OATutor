@@ -79,8 +79,8 @@ const useStyles = makeStyles((theme) => ({
     },
     appBar: {
         zIndex: theme.zIndex.drawer + 1,
-        background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)',
-        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)',
+        background: '#58CC02',
+        boxShadow: '0 4px 0 0 #58A700',
     },
     toolbar: {
         display: 'flex',
@@ -94,7 +94,7 @@ const useStyles = makeStyles((theme) => ({
     },
     logoIcon: {
         fontSize: 32,
-        color: '#7B2FF7',
+        color: '#FFFFFF',
     },
     logoText: {
         fontWeight: 700,
@@ -121,19 +121,19 @@ const useStyles = makeStyles((theme) => ({
     },
     navItem: {
         margin: theme.spacing(0.5, 1.5),
-        borderRadius: 12,
+        borderRadius: 16,
         '&:hover': {
-            backgroundColor: 'rgba(123, 47, 247, 0.08)',
+            backgroundColor: 'rgba(88, 204, 2, 0.08)',
         },
     },
     navItemActive: {
-        backgroundColor: 'rgba(123, 47, 247, 0.12)',
+        backgroundColor: 'rgba(88, 204, 2, 0.12)',
         '& .MuiListItemIcon-root': {
-            color: '#7B2FF7',
+            color: '#58CC02',
         },
         '& .MuiListItemText-primary': {
-            color: '#7B2FF7',
-            fontWeight: 600,
+            color: '#58CC02',
+            fontWeight: 700,
         },
     },
     navIcon: {
@@ -153,7 +153,7 @@ const useStyles = makeStyles((theme) => ({
     avatar: {
         width: 38,
         height: 38,
-        backgroundColor: '#7B2FF7',
+        backgroundColor: '#58A700',
         cursor: 'pointer',
     },
     pageHeader: {
@@ -203,8 +203,8 @@ const useStyles = makeStyles((theme) => ({
         transition: 'all 0.3s ease',
         border: '1px solid transparent',
         '&:hover': {
-            borderColor: '#7B2FF7',
-            boxShadow: '0 8px 30px rgba(123, 47, 247, 0.15)',
+            borderColor: '#58CC02',
+            boxShadow: '0 8px 30px rgba(88, 204, 2, 0.15)',
         },
     },
     mobileDrawer: {
@@ -232,10 +232,10 @@ const NAV_ITEMS = [
 
 // Mock quick stats
 const QUICK_STATS = [
-    { label: 'Total Students', value: 115, icon: <PeopleIcon />, color: '#7B2FF7' },
+    { label: 'Total Students', value: 115, icon: <PeopleIcon />, color: '#58CC02' },
     { label: 'Active Today', value: 78, icon: <TrendingUpIcon />, color: '#10B981' },
-    { label: 'Avg Accuracy', value: '74%', icon: <SchoolIcon />, color: '#00D4FF' },
-    { label: 'Assignments Due', value: 3, icon: <AssignmentIcon />, color: '#F59E0B' },
+    { label: 'Avg Accuracy', value: '74%', icon: <SchoolIcon />, color: '#1CB0F6' },
+    { label: 'Assignments Due', value: 3, icon: <AssignmentIcon />, color: '#FF9600' },
 ];
 
 const TeacherDashboard = () => {
@@ -379,9 +379,9 @@ const TeacherDashboard = () => {
                                 >
                                     <Box
                                         className={classes.statIcon}
-                                        style={{ backgroundColor: 'rgba(123, 47, 247, 0.1)', margin: 0 }}
+                                        style={{ backgroundColor: 'rgba(88, 204, 2, 0.1)', margin: 0 }}
                                     >
-                                        <AddIcon style={{ color: '#7B2FF7', fontSize: 26 }} />
+                                        <AddIcon style={{ color: '#58CC02', fontSize: 26 }} />
                                     </Box>
                                     <Box>
                                         <Typography style={{ fontWeight: 600 }}>
@@ -401,9 +401,9 @@ const TeacherDashboard = () => {
                                 >
                                     <Box
                                         className={classes.statIcon}
-                                        style={{ backgroundColor: 'rgba(0, 212, 255, 0.1)', margin: 0 }}
+                                        style={{ backgroundColor: 'rgba(28, 176, 246, 0.1)', margin: 0 }}
                                     >
-                                        <PeopleIcon style={{ color: '#00D4FF', fontSize: 26 }} />
+                                        <PeopleIcon style={{ color: '#1CB0F6', fontSize: 26 }} />
                                     </Box>
                                     <Box>
                                         <Typography style={{ fontWeight: 600 }}>
@@ -445,9 +445,9 @@ const TeacherDashboard = () => {
                                 >
                                     <Box
                                         className={classes.statIcon}
-                                        style={{ backgroundColor: 'rgba(26, 35, 126, 0.1)', margin: 0 }}
+                                        style={{ backgroundColor: 'rgba(206, 130, 255, 0.1)', margin: 0 }}
                                     >
-                                        <SlideshowIcon style={{ color: '#1a237e', fontSize: 26 }} />
+                                        <SlideshowIcon style={{ color: '#CE82FF', fontSize: 26 }} />
                                     </Box>
                                     <Box>
                                         <Typography style={{ fontWeight: 600 }}>
@@ -525,10 +525,10 @@ const TeacherDashboard = () => {
                                                 style={{
                                                     backgroundColor:
                                                         item.due === 'Tomorrow'
-                                                            ? 'rgba(247, 37, 133, 0.1)'
-                                                            : 'rgba(245, 158, 11, 0.1)',
+                                                            ? 'rgba(255, 75, 75, 0.1)'
+                                                            : 'rgba(255, 150, 0, 0.1)',
                                                     color:
-                                                        item.due === 'Tomorrow' ? '#F72585' : '#F59E0B',
+                                                        item.due === 'Tomorrow' ? '#FF4B4B' : '#FF9600',
                                                     fontWeight: 600,
                                                 }}
                                             />

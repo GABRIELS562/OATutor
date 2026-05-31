@@ -856,10 +856,10 @@ class Platform extends React.Component {
                                     />
 
                                     {/* Language Toggle */}
-                                    <LanguageToggleMenu iconColor="#fff" />
+                                    <LanguageToggleMenu iconColor="#3C3C3C" />
 
                                     {/* Theme Toggle (Dark/Light) */}
-                                    <ThemeToggleButton iconColor="#fff" size="small" />
+                                    <ThemeToggleButton iconColor="#3C3C3C" size="small" />
 
                                     {/* Dashboard Button - hidden on very small screens */}
                                     {!isMobile && (
@@ -868,8 +868,8 @@ class Platform extends React.Component {
                                                 size="small"
                                                 onClick={() => this.props.history.push('/dashboard')}
                                                 style={{
-                                                    color: '#fff',
-                                                    backgroundColor: 'rgba(255,255,255,0.1)',
+                                                    color: '#3C3C3C',
+                                                    backgroundColor: 'rgba(0,0,0,0.05)',
                                                     padding: '8px',
                                                 }}
                                             >

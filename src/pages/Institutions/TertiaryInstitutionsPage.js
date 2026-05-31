@@ -78,7 +78,8 @@ const useStyles = makeStyles((theme) => ({
     },
     title: {
         fontWeight: 700,
-        color: '#1a1a2e',
+        color: '#3C3C3C',
+        fontFamily: "'Nunito', sans-serif",
     },
     filtersRow: {
         display: 'flex',
@@ -116,7 +117,7 @@ const useStyles = makeStyles((theme) => ({
         marginBottom: theme.spacing(0.5),
     },
     shortName: {
-        color: '#7B2FF7',
+        color: '#58CC02',
         fontWeight: 500,
         marginBottom: theme.spacing(1),
     },
@@ -138,9 +139,10 @@ const useStyles = makeStyles((theme) => ({
     },
     cardHeader: {
         position: 'relative',
-        backgroundColor: '#7B2FF7',
+        backgroundColor: '#58CC02',
         color: 'white',
         padding: theme.spacing(2),
+        borderRadius: '16px 16px 0 0',
     },
     chipContainer: {
         display: 'flex',
@@ -149,8 +151,8 @@ const useStyles = makeStyles((theme) => ({
         marginTop: theme.spacing(1),
     },
     programChip: {
-        backgroundColor: '#f3e5f5',
-        color: '#7B2FF7',
+        backgroundColor: '#E8F5E9',
+        color: '#58CC02',
     },
     dialogContent: {
         padding: theme.spacing(3),
@@ -172,10 +174,12 @@ const useStyles = makeStyles((theme) => ({
         marginTop: theme.spacing(2),
     },
     applyButton: {
-        backgroundColor: '#7B2FF7',
+        backgroundColor: '#58CC02',
         color: 'white',
+        borderRadius: 16,
+        boxShadow: '0 4px 0 0 #58A700',
         '&:hover': {
-            backgroundColor: '#6B1FE7',
+            backgroundColor: '#58A700',
         },
     },
     nsfasChip: {
@@ -201,7 +205,7 @@ const useStyles = makeStyles((theme) => ({
     statValue: {
         fontWeight: 700,
         fontSize: '1.5rem',
-        color: '#7B2FF7',
+        color: '#58CC02',
     },
     statLabel: {
         fontSize: '0.75rem',

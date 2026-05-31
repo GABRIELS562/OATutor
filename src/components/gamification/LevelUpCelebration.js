@@ -80,15 +80,15 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '18px',
         fontWeight: 600,
         borderRadius: '30px',
-        background: 'linear-gradient(135deg, #00D4FF 0%, #7B2FF7 100%)',
+        background: 'linear-gradient(135deg, #1CB0F6 0%, #58CC02 100%)',
         color: '#fff',
         border: 'none',
         cursor: 'pointer',
-        boxShadow: '0 4px 20px rgba(123, 47, 247, 0.4)',
+        boxShadow: '0 4px 20px rgba(88, 204, 2, 0.4)',
         animation: '$slideUp 0.5s ease-out 0.5s both',
         '&:hover': {
             transform: 'scale(1.05)',
-            boxShadow: '0 8px 30px rgba(123, 47, 247, 0.6)',
+            boxShadow: '0 8px 30px rgba(88, 204, 2, 0.6)',
         },
     },
     stars: {
@@ -158,7 +158,7 @@ const LevelUpCelebration = () => {
     const { showLevelUp, clearLevelUp, getLevelInfo } = useGamification();
     const levelInfo = getLevelInfo();
 
-    const color = levelInfo.titleColor || '#7B2FF7';
+    const color = levelInfo.titleColor || '#58CC02';
     const colorLight = lightenColor(color, 30);
     const classes = useStyles({ color, colorLight });
 
@@ -171,7 +171,7 @@ const LevelUpCelebration = () => {
                 id: i,
                 left: `${Math.random() * 100}%`,
                 delay: `${Math.random() * 2}s`,
-                color: ['#7B2FF7', '#00D4FF', '#F72585', '#10B981', '#F59E0B'][Math.floor(Math.random() * 5)],
+                color: ['#58CC02', '#1CB0F6', '#FF9600', '#10B981', '#F59E0B'][Math.floor(Math.random() * 5)],
                 size: Math.random() * 10 + 5,
             }));
             setConfetti(pieces);

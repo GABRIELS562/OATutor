@@ -60,7 +60,8 @@ const useStyles = makeStyles((theme) => ({
     },
     title: {
         fontWeight: 700,
-        color: '#1a1a2e',
+        color: '#3C3C3C',
+        fontFamily: "'Nunito', sans-serif",
     },
     setupCard: {
         padding: theme.spacing(4),
@@ -78,7 +79,7 @@ const useStyles = makeStyles((theme) => ({
         cursor: 'pointer',
     },
     topicChipSelected: {
-        backgroundColor: '#1a237e',
+        backgroundColor: '#58CC02',
         color: 'white',
     },
     startButton: {
@@ -112,8 +113,8 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     optionSelected: {
-        borderColor: '#1a237e',
-        backgroundColor: 'rgba(26, 35, 126, 0.05)',
+        borderColor: '#58CC02',
+        backgroundColor: 'rgba(88, 204, 2, 0.05)',
     },
     optionCorrect: {
         borderColor: '#4caf50',
@@ -294,7 +295,7 @@ const QuizPage = ({ history }) => {
     // Render setup screen
     const renderSetup = () => (
         <Paper className={classes.setupCard}>
-            <School style={{ fontSize: 60, color: '#1a237e', marginBottom: 16 }} />
+            <School style={{ fontSize: 60, color: '#58CC02', marginBottom: 16 }} />
             <Typography variant="h4" gutterBottom>
                 Topic Quiz
             </Typography>

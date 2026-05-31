@@ -33,7 +33,7 @@ const styles = theme => ({
         marginBottom: 8,
         fontWeight: 700,
         fontSize: '1.5rem',
-        color: '#1a1a2e',
+        color: '#3C3C3C',
         [theme.breakpoints.down('sm')]: {
             fontSize: '1.25rem',
         },

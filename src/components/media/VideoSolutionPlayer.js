@@ -37,8 +37,8 @@ const useStyles = makeStyles((theme) => ({
     container: {
         borderRadius: 16,
         overflow: 'hidden',
-        background: 'linear-gradient(135deg, rgba(123, 47, 247, 0.1) 0%, rgba(0, 212, 255, 0.1) 100%)',
-        border: '1px solid rgba(123, 47, 247, 0.2)',
+        background: 'linear-gradient(135deg, rgba(88, 204, 2, 0.1) 0%, rgba(28, 176, 246, 0.1) 100%)',
+        border: '1px solid rgba(88, 204, 2, 0.2)',
     },
     videoWrapper: {
         position: 'relative',
@@ -78,14 +78,14 @@ const useStyles = makeStyles((theme) => ({
         marginBottom: theme.spacing(1),
     },
     progressSlider: {
-        color: '#7B2FF7',
+        color: '#58CC02',
         height: 4,
         '& .MuiSlider-thumb': {
             height: 12,
             width: 12,
             backgroundColor: '#fff',
             '&:hover, &.Mui-focusVisible': {
-                boxShadow: '0 0 0 8px rgba(123, 47, 247, 0.16)',
+                boxShadow: '0 0 0 8px rgba(88, 204, 2, 0.16)',
             },
         },
         '& .MuiSlider-rail': {
@@ -131,7 +131,7 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     chaptersSection: {
-        borderTop: '1px solid rgba(123, 47, 247, 0.2)',
+        borderTop: '1px solid rgba(88, 204, 2, 0.2)',
     },
     chapterHeader: {
         display: 'flex',
@@ -140,7 +140,7 @@ const useStyles = makeStyles((theme) => ({
         padding: theme.spacing(1.5, 2),
         cursor: 'pointer',
         '&:hover': {
-            backgroundColor: 'rgba(123, 47, 247, 0.05)',
+            backgroundColor: 'rgba(88, 204, 2, 0.05)',
         },
     },
     chapterTitle: {
@@ -156,12 +156,12 @@ const useStyles = makeStyles((theme) => ({
     chapterItem: {
         borderLeft: '3px solid transparent',
         '&:hover': {
-            backgroundColor: 'rgba(123, 47, 247, 0.05)',
+            backgroundColor: 'rgba(88, 204, 2, 0.05)',
         },
     },
     chapterItemActive: {
-        borderLeftColor: '#7B2FF7',
-        backgroundColor: 'rgba(123, 47, 247, 0.1)',
+        borderLeftColor: '#58CC02',
+        backgroundColor: 'rgba(88, 204, 2, 0.1)',
     },
     chapterItemCompleted: {
         '& .MuiListItemText-primary': {
@@ -198,9 +198,9 @@ const useStyles = makeStyles((theme) => ({
     playButtonLarge: {
         width: 80,
         height: 80,
-        backgroundColor: 'rgba(123, 47, 247, 0.9)',
+        backgroundColor: 'rgba(88, 204, 2, 0.9)',
         '&:hover': {
-            backgroundColor: '#7B2FF7',
+            backgroundColor: '#58CC02',
         },
     },
 }));

@@ -18,9 +18,9 @@ export const popupStyles = {
         fontSize: '16px',
         overflowY: 'auto',
         scrollbarWidth: 'thin',
-        scrollbarColor: '#7B2FF7 #f1f5f9',
+        scrollbarColor: '#58CC02 #f1f5f9',
         boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
-        border: '1px solid rgba(123, 47, 247, 0.1)',
+        border: '1px solid rgba(88, 204, 2, 0.1)',
         outline: 'none',
         '&::-webkit-scrollbar': {
             width: '8px',
@@ -30,7 +30,7 @@ export const popupStyles = {
             borderRadius: '4px',
         },
         '&::-webkit-scrollbar-thumb': {
-            background: 'linear-gradient(180deg, #7B2FF7, #F72585)',
+            background: 'linear-gradient(180deg, #58CC02, #FF9600)',
             borderRadius: '4px',
         },
         '& ul': {
@@ -42,15 +42,15 @@ export const popupStyles = {
             },
         },
         '& h2': {
-            color: '#1a1a2e',
+            color: '#3C3C3C',
             fontWeight: 700,
             marginBottom: '16px',
             paddingBottom: '12px',
             borderBottom: '3px solid',
-            borderImage: 'linear-gradient(90deg, #00D4FF, #7B2FF7, #F72585) 1',
+            borderImage: 'linear-gradient(90deg, #1CB0F6, #58CC02, #FF9600) 1',
         },
         '& h3': {
-            color: '#7B2FF7',
+            color: '#58CC02',
             fontWeight: 600,
             marginTop: '24px',
             marginBottom: '8px',
@@ -72,7 +72,7 @@ export const popupStyles = {
             },
         },
         '& strong': {
-            color: '#1a1a2e',
+            color: '#3C3C3C',
         },
     },
     button: {
@@ -89,14 +89,14 @@ export const popupStyles = {
         },
     },
     iconButton: {
-        backgroundColor: 'rgba(123, 47, 247, 0.1)',
-        color: '#7B2FF7',
+        backgroundColor: 'rgba(88, 204, 2, 0.1)',
+        color: '#58CC02',
         borderRadius: '50%',
         padding: '4px',
         fontSize: 24,
         transition: 'all 0.2s ease',
         '&:hover': {
-            backgroundColor: 'rgba(123, 47, 247, 0.2)',
+            backgroundColor: 'rgba(88, 204, 2, 0.2)',
         },
     }
 };

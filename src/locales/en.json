@@ -79,5 +79,79 @@
         "mathsCoach": "The Maths Coach",
         "whatsapp": "WhatsApp Us",
         "videos": "Video Tutorials"
+    },
+    "navigation": {
+        "home": "Home",
+        "dashboard": "Dashboard",
+        "pastPapers": "Past Papers",
+        "videos": "Videos",
+        "quiz": "Quiz",
+        "theory": "Theory",
+        "careers": "Careers",
+        "bursaries": "Bursaries",
+        "institutions": "Institutions",
+        "settings": "Settings",
+        "logout": "Log Out"
+    },
+    "subjects": {
+        "mathematics": "Mathematics",
+        "physical_sciences": "Physical Sciences",
+        "physics": "Physics",
+        "chemistry": "Chemistry"
+    },
+    "grades": {
+        "grade10": "Grade 10",
+        "grade11": "Grade 11",
+        "grade12": "Grade 12"
+    },
+    "settings": {
+        "title": "Settings",
+        "language": "Language",
+        "theme": "Theme",
+        "darkMode": "Dark Mode",
+        "lightMode": "Light Mode",
+        "notifications": "Notifications",
+        "dailyReminders": "Daily Reminders",
+        "sound": "Sound",
+        "account": "Account",
+        "privacy": "Privacy",
+        "about": "About"
+    },
+    "common": {
+        "loading": "Loading...",
+        "error": "Error",
+        "retry": "Retry",
+        "cancel": "Cancel",
+        "save": "Save",
+        "close": "Close",
+        "back": "Back",
+        "next": "Next",
+        "previous": "Previous",
+        "search": "Search",
+        "filter": "Filter",
+        "sort": "Sort",
+        "all": "All",
+        "none": "None",
+        "yes": "Yes",
+        "no": "No",
+        "ok": "OK",
+        "continue": "Continue",
+        "start": "Start",
+        "finish": "Finish",
+        "reset": "Reset",
+        "clear": "Clear",
+        "select": "Select",
+        "selected": "Selected",
+        "showing": "Showing",
+        "of": "of",
+        "results": "results",
+        "noResults": "No results",
+        "tryAgain": "Try Again"
+    },
+    "errors": {
+        "networkError": "Network error. Please check your connection.",
+        "loadError": "Could not load. Please try again.",
+        "saveError": "Could not save. Please try again.",
+        "unknownError": "Something went wrong. Please try again."
     }
 }

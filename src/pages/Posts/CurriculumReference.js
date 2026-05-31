@@ -103,13 +103,13 @@ const useIsDarkMode = () => {
 const subjectConfig = {
     mathematics: {
         icon: <MenuBookIcon />,
-        color: "#7B2FF7",
-        gradient: "linear-gradient(135deg, #7B2FF7 0%, #A855F7 100%)"
+        color: "#58CC02",
+        gradient: "linear-gradient(135deg, #58CC02 0%, #A855F7 100%)"
     },
     physicalSciences: {
         icon: <ScienceIcon />,
-        color: "#00D4FF",
-        gradient: "linear-gradient(135deg, #00D4FF 0%, #0891B2 100%)"
+        color: "#1CB0F6",
+        gradient: "linear-gradient(135deg, #1CB0F6 0%, #0891B2 100%)"
     },
     lifeSciences: {
         icon: <BiotechIcon />,
@@ -133,7 +133,7 @@ const CurriculumReference = () => {
         cardBg: isDarkMode ? "#1e1e32" : "#ffffff",
         accordionBg: isDarkMode ? "#252540" : "#ffffff",
         accordionDetailsBg: isDarkMode ? "#1a1a30" : "#fafafa",
-        textPrimary: isDarkMode ? "#ffffff" : "#1a1a2e",
+        textPrimary: isDarkMode ? "#ffffff" : "#3C3C3C",
         textSecondary: isDarkMode ? "#94A3B8" : "#64748B",
         textMuted: isDarkMode ? "#CBD5E1" : "#374151",
         chipBg: isDarkMode ? "#2d2d4a" : "#ffffff",
@@ -153,7 +153,7 @@ const CurriculumReference = () => {
             {/* Header */}
             <Box
                 style={{
-                    background: "linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)",
+                    background: "#3C3C3C",
                     padding: "40px 20px",
                     color: "#fff",
                     marginBottom: "30px"
@@ -242,8 +242,8 @@ const CurriculumReference = () => {
                         marginBottom: "24px",
                         borderRadius: "16px",
                         background: isDarkMode
-                            ? "linear-gradient(135deg, rgba(123, 47, 247, 0.15) 0%, rgba(0, 212, 255, 0.1) 100%)"
-                            : "linear-gradient(135deg, rgba(123, 47, 247, 0.08) 0%, rgba(0, 212, 255, 0.05) 100%)",
+                            ? "linear-gradient(135deg, rgba(88, 204, 2, 0.15) 0%, rgba(28, 176, 246, 0.1) 100%)"
+                            : "linear-gradient(135deg, rgba(88, 204, 2, 0.08) 0%, rgba(28, 176, 246, 0.05) 100%)",
                         border: `1px solid ${config.color}30`
                     }}
                 >
@@ -406,11 +406,11 @@ const CurriculumReference = () => {
                         marginTop: "32px",
                         borderRadius: "12px",
                         background: isDarkMode
-                            ? "linear-gradient(135deg, rgba(123, 47, 247, 0.15) 0%, rgba(0, 212, 255, 0.15) 100%)"
-                            : "linear-gradient(135deg, rgba(123, 47, 247, 0.05) 0%, rgba(0, 212, 255, 0.05) 100%)",
+                            ? "linear-gradient(135deg, rgba(88, 204, 2, 0.15) 0%, rgba(28, 176, 246, 0.15) 100%)"
+                            : "linear-gradient(135deg, rgba(88, 204, 2, 0.05) 0%, rgba(28, 176, 246, 0.05) 100%)",
                         border: isDarkMode
-                            ? "1px solid rgba(123, 47, 247, 0.3)"
-                            : "1px solid rgba(123, 47, 247, 0.1)"
+                            ? "1px solid rgba(88, 204, 2, 0.3)"
+                            : "1px solid rgba(88, 204, 2, 0.1)"
                     }}
                 >
                     <Typography variant="body2" style={{ textAlign: "center", color: colors.textSecondary }}>

@@ -67,7 +67,8 @@ const useStyles = makeStyles((theme) => ({
     },
     title: {
         fontWeight: 700,
-        color: '#1a1a2e',
+        color: '#3C3C3C',
+        fontFamily: "'Nunito', sans-serif",
     },
     subtitle: {
         color: '#666',

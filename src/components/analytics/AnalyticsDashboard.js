@@ -53,7 +53,7 @@ import { SubjectProgressOverview, SubjectComparisonChart } from './SubjectProgre
 const useStyles = makeStyles((theme) => ({
     root: {
         minHeight: '100vh',
-        background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
+        background: '#3C3C3C',
         paddingBottom: '40px',
     },
     header: {
@@ -145,7 +145,7 @@ const useStyles = makeStyles((theme) => ({
             color: '#fff',
         },
         '& .MuiTabs-indicator': {
-            background: 'linear-gradient(90deg, #7B2FF7 0%, #F72585 100%)',
+            background: 'linear-gradient(90deg, #58CC02 0%, #FF9600 100%)',
             height: '3px',
             borderRadius: '3px',
         },
@@ -270,7 +270,7 @@ const useStyles = makeStyles((theme) => ({
     },
     // CTA button
     ctaButton: {
-        background: 'linear-gradient(135deg, #7B2FF7 0%, #F72585 100%)',
+        background: 'linear-gradient(135deg, #58CC02 0%, #FF9600 100%)',
         color: '#fff',
         fontWeight: 600,
         padding: '12px 32px',
@@ -405,7 +405,7 @@ const AnalyticsDashboard = () => {
                 </Box>
                 <Container maxWidth="lg">
                     <Box className={classes.loadingContainer}>
-                        <CircularProgress style={{ color: '#7B2FF7' }} />
+                        <CircularProgress style={{ color: '#58CC02' }} />
                         <Typography className={classes.loadingText}>
                             Loading your progress data...
                         </Typography>
@@ -479,7 +479,7 @@ const AnalyticsDashboard = () => {
 
                             <Paper className={classes.summaryCard} elevation={0}>
                                 <Box className={classes.summaryIcon}>
-                                    <TrendingUpIcon style={{ color: '#7B2FF7', fontSize: 'inherit' }} />
+                                    <TrendingUpIcon style={{ color: '#58CC02', fontSize: 'inherit' }} />
                                 </Box>
                                 <Typography className={classes.summaryValue}>
                                     {overallStats?.accuracy || 0}%
@@ -503,7 +503,7 @@ const AnalyticsDashboard = () => {
 
                             <Paper className={classes.summaryCard} elevation={0}>
                                 <Box className={classes.summaryIcon}>
-                                    <TimerIcon style={{ color: '#00D4FF', fontSize: 'inherit' }} />
+                                    <TimerIcon style={{ color: '#1CB0F6', fontSize: 'inherit' }} />
                                 </Box>
                                 <Typography className={classes.summaryValue}>
                                     {overallStats?.totalTimeMinutes || 0}m
@@ -538,7 +538,7 @@ const AnalyticsDashboard = () => {
                                             value={overallStats?.masteryPercentage || 0}
                                             title="Overall Mastery"
                                             label={`${overallStats?.masteredSkills || 0}/${overallStats?.totalSkills || 0} skills`}
-                                            color="#7B2FF7"
+                                            color="#58CC02"
                                         />
                                         <ProgressRing
                                             value={overallStats?.accuracy || 0}
@@ -557,7 +557,7 @@ const AnalyticsDashboard = () => {
                                             title="This Week's Activity"
                                             labelKey="dayName"
                                             series={[
-                                                { key: 'attempts', label: 'Attempted', color: '#7B2FF7' },
+                                                { key: 'attempts', label: 'Attempted', color: '#58CC02' },
                                                 { key: 'correct', label: 'Correct', color: '#10B981' },
                                             ]}
                                         />
@@ -624,7 +624,7 @@ const AnalyticsDashboard = () => {
                                             {
                                                 label: 'Proficient',
                                                 value: skillMastery.filter(s => s.mastery >= 75 && s.mastery < 95).length,
-                                                color: '#7B2FF7',
+                                                color: '#58CC02',
                                             },
                                             {
                                                 label: 'Developing',
@@ -634,7 +634,7 @@ const AnalyticsDashboard = () => {
                                             {
                                                 label: 'Learning',
                                                 value: skillMastery.filter(s => s.mastery < 50).length,
-                                                color: '#00D4FF',
+                                                color: '#1CB0F6',
                                             },
                                         ]}
                                         title="Skill Distribution"

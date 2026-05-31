@@ -46,11 +46,14 @@ const useStyles = makeStyles((theme) => ({
     },
     header: {
         padding: theme.spacing(2),
-        background: 'linear-gradient(135deg, #7B2FF7 0%, #F72585 100%)',
+        background: '#58CC02',
         color: 'white',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
+        borderRadius: '16px 16px 0 0',
+        fontFamily: "'Nunito', sans-serif",
+        fontWeight: 700,
     },
     title: {
         display: 'flex',
@@ -78,8 +81,8 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     currentUser: {
-        backgroundColor: 'rgba(123, 47, 247, 0.08)',
-        borderLeft: `4px solid ${theme.palette.primary.main}`,
+        backgroundColor: 'rgba(88, 204, 2, 0.08)',
+        borderLeft: '4px solid #58CC02',
     },
     rank: {
         fontWeight: 700,
@@ -137,7 +140,7 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         alignItems: 'center',
         gap: 2,
-        color: '#F72585',
+        color: '#FF9600',
     },
     emptyState: {
         textAlign: 'center',
@@ -157,7 +160,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         alignItems: 'flex-end',
         padding: theme.spacing(2),
-        backgroundColor: 'rgba(123, 47, 247, 0.05)',
+        backgroundColor: 'rgba(88, 204, 2, 0.05)',
     },
     podiumItem: {
         display: 'flex',

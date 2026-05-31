@@ -171,7 +171,7 @@ const useStyles = makeStyles((theme) => ({
         color: '#10B981',
     },
     trendDown: {
-        color: '#F72585',
+        color: '#FF4B4B',
     },
     progressSection: {
         marginTop: theme.spacing(4),
@@ -189,8 +189,8 @@ const useStyles = makeStyles((theme) => ({
         marginBottom: theme.spacing(0.5),
     },
     strugglingChip: {
-        backgroundColor: 'rgba(247, 37, 133, 0.1)',
-        color: '#F72585',
+        backgroundColor: 'rgba(255, 75, 75, 0.1)',
+        color: '#FF4B4B',
         fontWeight: 600,
     },
     performerRow: {
@@ -271,7 +271,7 @@ const ClassStats = ({ onExport }) => {
     const getProgressColor = (value) => {
         if (value >= 75) return '#10B981';
         if (value >= 60) return '#F59E0B';
-        return '#F72585';
+        return '#FF4B4B';
     };
 
     return (
@@ -321,9 +321,9 @@ const ClassStats = ({ onExport }) => {
                             <CardContent>
                                 <Box
                                     className={classes.statIcon}
-                                    style={{ backgroundColor: 'rgba(123, 47, 247, 0.1)' }}
+                                    style={{ backgroundColor: 'rgba(88, 204, 2, 0.1)' }}
                                 >
-                                    <PeopleIcon style={{ color: '#7B2FF7' }} />
+                                    <PeopleIcon style={{ color: '#58CC02' }} />
                                 </Box>
                                 <Typography className={classes.statValue}>
                                     {stats.activeStudents}/{stats.totalStudents}
@@ -337,9 +337,9 @@ const ClassStats = ({ onExport }) => {
                             <CardContent>
                                 <Box
                                     className={classes.statIcon}
-                                    style={{ backgroundColor: 'rgba(0, 212, 255, 0.1)' }}
+                                    style={{ backgroundColor: 'rgba(28, 176, 246, 0.1)' }}
                                 >
-                                    <EmojiEventsIcon style={{ color: '#00D4FF' }} />
+                                    <EmojiEventsIcon style={{ color: '#1CB0F6' }} />
                                 </Box>
                                 <Typography className={classes.statValue}>
                                     {stats.averageXP.toLocaleString()}
@@ -387,9 +387,9 @@ const ClassStats = ({ onExport }) => {
                             <CardContent>
                                 <Box
                                     className={classes.statIcon}
-                                    style={{ backgroundColor: 'rgba(247, 37, 133, 0.1)' }}
+                                    style={{ backgroundColor: 'rgba(255, 150, 0, 0.1)' }}
                                 >
-                                    <TimelineIcon style={{ color: '#F72585' }} />
+                                    <TimelineIcon style={{ color: '#FF9600' }} />
                                 </Box>
                                 <Typography className={classes.statValue}>Lvl {stats.averageLevel}</Typography>
                                 <Typography className={classes.statLabel}>Avg Level</Typography>
@@ -401,9 +401,9 @@ const ClassStats = ({ onExport }) => {
                             <CardContent>
                                 <Box
                                     className={classes.statIcon}
-                                    style={{ backgroundColor: 'rgba(123, 47, 247, 0.1)' }}
+                                    style={{ backgroundColor: 'rgba(88, 204, 2, 0.1)' }}
                                 >
-                                    <SchoolIcon style={{ color: '#7B2FF7' }} />
+                                    <SchoolIcon style={{ color: '#58CC02' }} />
                                 </Box>
                                 <Typography className={classes.statValue}>
                                     {stats.totalProblems.toLocaleString()}
@@ -461,7 +461,7 @@ const ClassStats = ({ onExport }) => {
                                     mb={2}
                                 >
                                     <Box display="flex" alignItems="center" gap={1}>
-                                        <TrendingDownIcon style={{ color: '#F72585' }} />
+                                        <TrendingDownIcon style={{ color: '#FF4B4B' }} />
                                         <Typography>{topic.topic}</Typography>
                                     </Box>
                                     <Chip
@@ -489,7 +489,7 @@ const ClassStats = ({ onExport }) => {
                                                     : index === 1
                                                     ? '#C0C0C0'
                                                     : '#CD7F32',
-                                            color: index === 0 ? '#1a1a2e' : '#fff',
+                                            color: index === 0 ? '#3C3C3C' : '#fff',
                                         }}
                                     >
                                         {index + 1}
@@ -500,7 +500,7 @@ const ClassStats = ({ onExport }) => {
                                             Level {student.level}
                                         </Typography>
                                     </Box>
-                                    <Typography style={{ fontWeight: 700, color: '#7B2FF7' }}>
+                                    <Typography style={{ fontWeight: 700, color: '#58CC02' }}>
                                         {student.xp.toLocaleString()} XP
                                     </Typography>
                                 </Box>

@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
         borderRadius: theme.shape.borderRadius * 2,
         // Glassmorphism effect
         background: theme.palette.type === 'dark'
-            ? 'rgba(22, 33, 62, 0.6)'
+            ? 'rgba(60, 60, 60, 0.6)'
             : 'rgba(255, 255, 255, 0.7)',
         backdropFilter: 'blur(20px)',
         WebkitBackdropFilter: 'blur(20px)',
@@ -41,8 +41,8 @@ const useStyles = makeStyles((theme) => ({
         '&:hover': {
             borderColor: theme.palette.primary.main,
             background: theme.palette.type === 'dark'
-                ? 'rgba(123, 47, 247, 0.1)'
-                : 'rgba(123, 47, 247, 0.05)',
+                ? 'rgba(88, 204, 2, 0.1)'
+                : 'rgba(88, 204, 2, 0.05)',
         },
         '&:active': {
             transform: 'scale(0.98)',
@@ -56,7 +56,7 @@ const useStyles = makeStyles((theme) => ({
             left: 0,
             right: 0,
             height: 4,
-            background: 'linear-gradient(90deg, #7B2FF7, #00D4FF, #F72585)',
+            background: 'linear-gradient(90deg, #58CC02, #1CB0F6, #FF9600)',
             backgroundSize: '200% 100%',
             animation: '$shimmer 3s linear infinite',
         },
@@ -69,13 +69,13 @@ const useStyles = makeStyles((theme) => ({
             left: -50,
             right: -50,
             bottom: -50,
-            background: 'radial-gradient(circle at 30% 30%, rgba(123, 47, 247, 0.15), transparent 50%)',
+            background: 'radial-gradient(circle at 30% 30%, rgba(88, 204, 2, 0.15), transparent 50%)',
             pointerEvents: 'none',
         },
     },
     // Accent colors
     primary: {
-        borderColor: 'rgba(123, 47, 247, 0.3)',
+        borderColor: 'rgba(88, 204, 2, 0.3)',
         '&::before': {
             content: '""',
             position: 'absolute',
@@ -83,11 +83,12 @@ const useStyles = makeStyles((theme) => ({
             left: 0,
             right: 0,
             height: 3,
-            background: 'linear-gradient(90deg, #7B2FF7, #9D5FFF)',
+            background: '#58CC02',
+            borderRadius: '16px 16px 0 0',
         },
     },
     secondary: {
-        borderColor: 'rgba(0, 212, 255, 0.3)',
+        borderColor: 'rgba(28, 176, 246, 0.3)',
         '&::before': {
             content: '""',
             position: 'absolute',
@@ -95,7 +96,8 @@ const useStyles = makeStyles((theme) => ({
             left: 0,
             right: 0,
             height: 3,
-            background: 'linear-gradient(90deg, #00D4FF, #00A7CC)',
+            background: '#1CB0F6',
+            borderRadius: '16px 16px 0 0',
         },
     },
     success: {

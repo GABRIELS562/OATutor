@@ -227,7 +227,7 @@ const useStyles = makeStyles((theme) => ({
 /**
  * Bar Chart Component
  */
-export const BarChart = ({ data, title, valueKey = 'value', labelKey = 'label', color = '#7B2FF7' }) => {
+export const BarChart = ({ data, title, valueKey = 'value', labelKey = 'label', color = '#58CC02' }) => {
     const classes = useStyles();
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('xs'));
@@ -283,7 +283,7 @@ export const BarChart = ({ data, title, valueKey = 'value', labelKey = 'label', 
 /**
  * Progress Ring Component
  */
-export const ProgressRing = ({ value, maxValue = 100, title, label, color = '#7B2FF7', size = 140 }) => {
+export const ProgressRing = ({ value, maxValue = 100, title, label, color = '#58CC02', size = 140 }) => {
     const classes = useStyles();
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('xs'));
@@ -340,7 +340,7 @@ export const ProgressRing = ({ value, maxValue = 100, title, label, color = '#7B
 /**
  * Line Chart Component for trends
  */
-export const LineChart = ({ data, title, xKey = 'label', yKey = 'value', color = '#7B2FF7' }) => {
+export const LineChart = ({ data, title, xKey = 'label', yKey = 'value', color = '#58CC02' }) => {
     const classes = useStyles();
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('xs'));
@@ -480,7 +480,7 @@ export const HorizontalBarChart = ({ data, title, valueKey = 'value', labelKey =
                 {data.map((item, index) => {
                     const value = item[valueKey] || 0;
                     const percentage = (value / max) * 100;
-                    const barColor = item.color?.primary || item.color || '#7B2FF7';
+                    const barColor = item.color?.primary || item.color || '#58CC02';
 
                     return (
                         <Box key={index} className={classes.horizontalBarRow}>

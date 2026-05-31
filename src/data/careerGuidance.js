@@ -10,7 +10,7 @@ export const CAREER_FIELDS = [
         id: 'engineering',
         name: 'Engineering',
         icon: 'engineering',
-        color: '#1a237e',
+        color: '#1CB0F6',
         description: 'Design, build and maintain systems, structures, and technology',
     },
     {
