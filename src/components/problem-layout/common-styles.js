@@ -1,23 +1,27 @@
-// Angelo Tutoring - Custom Styles with Mobile Responsiveness
+// Angelo Tutoring - Duolingo-Inspired Custom Styles
 const angeloColors = {
-    primary: '#7B2FF7',      // Purple
-    secondary: '#00D4FF',    // Cyan
-    accent: '#F72585',       // Pink
-    success: '#10B981',      // Green
-    warning: '#F59E0B',      // Amber
-    error: '#F72585',        // Pink/Red
-    background: '#F8FAFC',
-    dark: '#1a1a2e',
-    darkPaper: '#16213e',
-    text: '#1E293B',
-    textSecondary: '#64748B',
+    primary: '#58CC02',      // Duolingo Green
+    secondary: '#1CB0F6',    // Duolingo Blue
+    accent: '#FF9600',       // Duolingo Orange
+    success: '#58CC02',      // Green
+    warning: '#FFC800',      // Yellow
+    error: '#FF4B4B',        // Red
+    background: '#FFFFFF',
+    dark: '#131F24',
+    darkPaper: '#1A2A31',
+    text: '#3C3C3C',
+    textSecondary: '#777777',
+    // Extra Duolingo colors
+    greenDark: '#58A700',
+    blueDark: '#1899D6',
+    purple: '#CE82FF',
 };
 
 const gradients = {
-    primary: 'linear-gradient(135deg, #00D4FF 0%, #7B2FF7 50%, #F72585 100%)',
-    button: 'linear-gradient(135deg, #7B2FF7 0%, #F72585 100%)',
-    success: 'linear-gradient(135deg, #10B981 0%, #059669 100%)',
-    card: 'linear-gradient(180deg, rgba(123, 47, 247, 0.02) 0%, rgba(0, 212, 255, 0.02) 100%)',
+    primary: 'linear-gradient(135deg, #58CC02 0%, #89E219 100%)',
+    button: '#58CC02',  // Solid green for Duolingo style
+    success: '#58CC02',
+    card: 'linear-gradient(180deg, rgba(88, 204, 2, 0.02) 0%, rgba(28, 176, 246, 0.02) 100%)',
 };
 
 const styles = theme => ({
@@ -111,9 +115,9 @@ const styles = theme => ({
         },
     },
 
-    // Button - touch-friendly
+    // Button - Duolingo 3D style
     button: {
-        background: gradients.button,
+        background: '#58CC02',
         color: '#FFFFFF',
         marginLeft: 'auto',
         marginRight: 'auto',
@@ -121,14 +125,15 @@ const styles = theme => ({
         paddingRight: 28,
         paddingTop: 12,
         paddingBottom: 12,
-        borderRadius: 10,
-        fontWeight: 600,
+        borderRadius: 16,
+        fontWeight: 700,
         textTransform: 'none',
-        boxShadow: '0 4px 15px rgba(123, 47, 247, 0.35)',
-        transition: 'all 0.3s ease',
+        boxShadow: '0 4px 0 0 #58A700',
+        transition: 'all 0.1s ease',
         border: 'none',
-        minHeight: 44, // Touch-friendly minimum
-        fontSize: '0.95rem',
+        minHeight: 44,
+        fontSize: '1rem',
+        fontFamily: '"Nunito", sans-serif',
         [theme.breakpoints.down('sm')]: {
             paddingLeft: 20,
             paddingRight: 20,
@@ -139,24 +144,22 @@ const styles = theme => ({
             paddingLeft: 16,
             paddingRight: 16,
             minHeight: 52,
-            width: '100%', // Full width on mobile
+            width: '100%',
             fontSize: '1.05rem',
         },
         '&:hover': {
-            background: gradients.button,
-            boxShadow: '0 6px 20px rgba(123, 47, 247, 0.45)',
-            transform: 'translateY(-2px)',
-            '@media (hover: none)': {
-                transform: 'none',
-            },
+            background: '#89E219',
+            boxShadow: '0 4px 0 0 #58CC02',
+            transform: 'none',
         },
         '&:active': {
-            transform: 'scale(0.98)',
+            boxShadow: '0 2px 0 0 #58A700',
+            transform: 'translateY(2px)',
         },
         '&:disabled': {
-            background: '#E2E8F0',
-            color: '#94A3B8',
-            boxShadow: 'none',
+            background: '#E5E5E5',
+            color: '#AFAFAF',
+            boxShadow: '0 4px 0 0 #CDCDCD',
         },
     },
 

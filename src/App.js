@@ -88,7 +88,7 @@ const PageLoader = () => (
         minHeight="60vh"
         gap={2}
     >
-        <CircularProgress size={48} style={{ color: '#7B2FF7' }} />
+        <CircularProgress size={48} style={{ color: '#58CC02' }} />
         <Typography variant="body2" color="textSecondary">
             Loading...
         </Typography>

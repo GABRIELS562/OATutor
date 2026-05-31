@@ -47,52 +47,53 @@ const courseIcons = {
     'default': '📚'
 };
 
-// Course colors mapping
+// Duolingo-style Course colors mapping
 const courseColors = {
-    'Mathematics': { primary: '#7B2FF7', secondary: '#A855F7', gradient: 'linear-gradient(135deg, #7B2FF7 0%, #A855F7 100%)' },
-    'Physical Sciences': { primary: '#00D4FF', secondary: '#67E8F9', gradient: 'linear-gradient(135deg, #00D4FF 0%, #0891B2 100%)' },
-    'Life Sciences': { primary: '#10B981', secondary: '#34D399', gradient: 'linear-gradient(135deg, #10B981 0%, #059669 100%)' },
-    'default': { primary: '#7B2FF7', secondary: '#F72585', gradient: 'linear-gradient(135deg, #7B2FF7 0%, #F72585 100%)' }
+    'Mathematics': { primary: '#CE82FF', secondary: '#DDA0FF', gradient: '#CE82FF', shadow: '#A855F7' },
+    'Physical Sciences': { primary: '#1CB0F6', secondary: '#84D8FF', gradient: '#1CB0F6', shadow: '#1899D6' },
+    'Life Sciences': { primary: '#58CC02', secondary: '#89E219', gradient: '#58CC02', shadow: '#58A700' },
+    'default': { primary: '#58CC02', secondary: '#89E219', gradient: '#58CC02', shadow: '#58A700' }
 };
 
-// Custom styles for mobile responsiveness
+// Duolingo-style mobile responsiveness
 const mobileStyles = {
-    // Hero section responsive styles
+    // Hero section - clean white Duolingo style
     heroContainer: {
-        background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
-        color: '#fff',
+        background: '#FFFFFF',
+        color: '#3C3C3C',
         padding: '40px 16px 60px',
         textAlign: 'center',
         position: 'relative',
         overflow: 'hidden',
         marginBottom: '-30px',
+        borderBottom: '2px solid #E5E5E5',
     },
     heroContainerMobile: {
         padding: '32px 12px 48px',
         marginBottom: '-24px',
     },
     heroTitle: {
-        fontWeight: 700,
+        fontWeight: 800,
         marginBottom: '12px',
         fontSize: 'clamp(1.5rem, 5vw, 2.8rem)',
         lineHeight: 1.2,
+        color: '#3C3C3C',
+        fontFamily: '"Nunito", sans-serif',
     },
     heroSubtitle: {
-        opacity: 0.9,
+        opacity: 0.8,
         maxWidth: '600px',
         margin: '0 auto 24px',
-        fontWeight: 400,
+        fontWeight: 600,
         lineHeight: 1.6,
         fontSize: 'clamp(0.9rem, 2.5vw, 1.1rem)',
         padding: '0 8px',
+        color: '#777777',
     },
     tagline: {
-        background: 'linear-gradient(135deg, #00D4FF 0%, #7B2FF7 50%, #F72585 100%)',
-        WebkitBackgroundClip: 'text',
-        WebkitTextFillColor: 'transparent',
-        backgroundClip: 'text',
+        color: '#58CC02',
         fontSize: 'clamp(0.75rem, 2vw, 1.1rem)',
-        fontWeight: 600,
+        fontWeight: 800,
         letterSpacing: '1.5px',
         textTransform: 'uppercase',
         marginBottom: '8px',
@@ -105,23 +106,26 @@ const mobileStyles = {
         padding: '0 8px',
     },
     chip: {
-        background: 'rgba(255,255,255,0.15)',
+        background: '#58CC02',
         color: '#fff',
-        fontWeight: 500,
-        padding: '4px 8px',
+        fontWeight: 700,
+        padding: '6px 12px',
         fontSize: 'clamp(0.7rem, 1.8vw, 0.85rem)',
+        borderRadius: '12px',
+        boxShadow: '0 2px 0 0 #58A700',
     },
-    // Card responsive styles
+    // Duolingo-style Card responsive styles
     courseCard: {
         borderRadius: '16px',
         overflow: 'hidden',
-        transition: 'all 0.3s ease',
+        transition: 'all 0.15s ease',
         cursor: 'pointer',
-        border: 'none',
-        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.06)',
+        border: '2px solid #E5E5E5',
+        boxShadow: '0 4px 0 0 #E5E5E5',
         height: '100%',
         display: 'flex',
         flexDirection: 'column',
+        background: '#FFFFFF',
     },
     cardHeader: {
         padding: '24px 16px',

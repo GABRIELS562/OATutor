@@ -38,11 +38,12 @@ let problemPool = require(`@generated/processed-content-pool/${CONTENT_SOURCE}.j
 
 let seed = Date.now().toString();
 
-// Custom styles for mobile responsiveness
+// Duolingo-style mobile responsiveness
 const mobileStyles = {
     appBar: {
-        background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)',
-        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.25)',
+        background: '#FFFFFF',
+        boxShadow: 'none',
+        borderBottom: '2px solid #E5E5E5',
     },
     toolbar: {
         minHeight: 64,
@@ -64,7 +65,9 @@ const mobileStyles = {
         overflow: 'hidden',
         textOverflow: 'ellipsis',
         whiteSpace: 'nowrap',
-        color: '#fff',
+        color: '#3C3C3C',
+        fontWeight: 700,
+        fontFamily: '"Nunito", sans-serif',
     },
     lessonTitleMobile: {
         fontSize: '12px',
@@ -83,7 +86,8 @@ const mobileStyles = {
         fontSize: '12px',
         marginLeft: '8px',
         whiteSpace: 'nowrap',
-        color: '#fff',
+        color: '#3C3C3C',
+        fontWeight: 700,
     },
     masteryDisplayMobile: {
         fontSize: '10px',
@@ -91,8 +95,8 @@ const mobileStyles = {
     },
     progressContainer: {
         padding: '10px 20px',
-        background: '#fff',
-        borderBottom: '1px solid rgba(123, 47, 247, 0.1)',
+        background: '#FFFFFF',
+        borderBottom: '2px solid #E5E5E5',
     },
     progressContainerMobile: {
         padding: '8px 12px',
