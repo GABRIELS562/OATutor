@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-area-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute Values",
+        "text": "$$\\text{Area} = \\frac{1}{2} \\times 8 \\times 6 \\times \\sin 60°$$\\n\\n$$= \\frac{1}{2} \\times 48 \\times \\sin 60°$$\\n\\n$$= 24 \\times \\sin 60°$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-area-001b-h2",
+        "type": "hint",
+        "dependencies": ["trig-area-001b-h1"],
+        "title": "Use Special Angle",
+        "text": "Recall: $\\sin 60° = \\frac{\\sqrt{3}}{2} \\approx 0.866$\\n\\n$$\\text{Area} = 24 \\times \\frac{\\sqrt{3}}{2} = 12\\sqrt{3}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-area-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["20.78"],
+        "dependencies": ["trig-area-001b-h2"],
+        "title": "Final Answer",
+        "text": "$$\\text{Area} = 12\\sqrt{3} \\approx 20.78 \\text{ cm}^2$$\\n\\nAlternatively: $24 \\times 0.866 = 20.78$ cm²",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

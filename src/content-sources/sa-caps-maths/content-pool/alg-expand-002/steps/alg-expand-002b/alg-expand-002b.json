@@ -1,0 +1,10 @@
+{
+    "id": "alg-expand-002b",
+    "stepAnswer": ["9x^2 - 24x + 16", "9x^2-24x+16"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Apply the Formula",
+    "stepBody": "Now apply the formula $(a - b)^2 = a^2 - 2ab + b^2$ to $(3x - 4)^2$.\n\nHere: $a = 3x$ and $b = 4$\n\nCalculate:\n- $a^2 = (3x)^2 = ?$\n- $2ab = 2(3x)(4) = ?$\n- $b^2 = (4)^2 = ?$\n\nWrite the final expanded form:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["expansion", "special-products", "algebraic-manipulation"]
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-maxmin-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Differentiate the Area",
+        "text": "Differentiate $A = 120x - 2x^2$:\n\n$\\frac{dA}{dx} = 120 - 4x$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-maxmin-002b-h2",
+        "type": "hint",
+        "dependencies": ["calc-maxmin-002b-h1"],
+        "title": "Find Critical Point",
+        "text": "Set $\\frac{dA}{dx} = 0$:\n\n$120 - 4x = 0$\n\n$4x = 120$\n\n$x = 30$\n\nVerify it's a maximum: $\\frac{d^2A}{dx^2} = -4 < 0$ (maximum confirmed)",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-maxmin-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["1800"],
+        "dependencies": ["calc-maxmin-002b-h2"],
+        "title": "Calculate Maximum Area",
+        "text": "When $x = 30$:\n\n- Width = 30 m\n- Length = $120 - 2(30) = 60$ m\n\nMaximum Area = $30 \\times 60 = 1800$ m$^2$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

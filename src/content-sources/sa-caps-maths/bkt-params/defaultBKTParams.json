@@ -1,0 +1,956 @@
+{
+  "geo-tangent-theorem": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "geo-proof-writing": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.15
+  },
+  "geo-cyclic-quad": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "geo-circle-theorems": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "geo-pythagoras": {
+    "probMastery": 0.5,
+    "probTransit": 0.25,
+    "probSlip": 0.08,
+    "probGuess": 0.25
+  },
+  "trig-compound-add": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "trig-general-solution": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.12
+  },
+  "trig-special-angles": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.2
+  },
+  "trig-double-angle": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "trig-equations": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "trig-identities": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.12
+  },
+  "trig-area": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "sine-rule": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "cosine-rule": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "anl-distance-formula": {
+    "probMastery": 0.45,
+    "probTransit": 0.22,
+    "probSlip": 0.06,
+    "probGuess": 0.25
+  },
+  "anl-circle-center-form": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.1,
+    "probGuess": 0.18
+  },
+  "anl-tangent-circle": {
+    "probMastery": 0.15,
+    "probTransit": 0.08,
+    "probSlip": 0.18,
+    "probGuess": 0.1
+  },
+  "stats-regression-line": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "stats-correlation": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "exponent-laws": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "prime-bases": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "surd-simplification": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "rationalise-denominator": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "alg-simplify": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "factorisation": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "trinomial-factor": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "gradient": {
+    "probMastery": 0.45,
+    "probTransit": 0.22,
+    "probSlip": 0.06,
+    "probGuess": 0.25
+  },
+  "linear-graph": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "linear-equations": {
+    "probMastery": 0.45,
+    "probTransit": 0.22,
+    "probSlip": 0.06,
+    "probGuess": 0.25
+  },
+  "simultaneous-equations": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "solving-equations": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "inequalities": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "quadratic-factoring": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "quadratic-formula": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "simple-interest": {
+    "probMastery": 0.45,
+    "probTransit": 0.22,
+    "probSlip": 0.06,
+    "probGuess": 0.25
+  },
+  "parabola-vertex": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "parabola-axis": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "hyperbola-asymptotes": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "hyperbola-domain-range": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "exponential-graph": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "exponential-growth": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "arithmetic-sequence": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "geometric-sequence": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "sigma-notation": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "first-principles": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.12
+  },
+  "limits": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "optimization": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.12
+  },
+  "stationary-points": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "rate-of-change": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "motion-calculus": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.12
+  },
+  "integration": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.12
+  },
+  "area-under-curve": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.12
+  },
+  "compound-interest": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "annuities": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.12
+  },
+  "permutations": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "combinations": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "probability": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "phys-newtons-laws": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "phys-momentum": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "phys-projectile": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.15,
+    "probGuess": 0.15
+  },
+  "phys-ohms-law": {
+    "probMastery": 0.45,
+    "probTransit": 0.22,
+    "probSlip": 0.08,
+    "probGuess": 0.25
+  },
+  "phys-circuits": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "phys-em-induction": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.12
+  },
+  "phys-doppler": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "phys-photoelectric": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.1
+  },
+  "chem-functional-groups": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "chem-iupac-naming": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "chem-organic-reactions": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.12
+  },
+  "chem-reaction-rates": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.1,
+    "probGuess": 0.18
+  },
+  "chem-equilibrium": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "chem-ph-calc": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "chem-titrations": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.15,
+    "probGuess": 0.15
+  },
+  "chem-galvanic": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "chem-electrolysis": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.12
+  },
+  "bio-meiosis": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "bio-genetic-crosses": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "bio-dna-structure": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "bio-protein-synthesis": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.15,
+    "probGuess": 0.15
+  },
+  "bio-natural-selection": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "bio-speciation": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "bio-human-evolution": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "bio-brain-structure": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "bio-nerve-impulse": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.15,
+    "probGuess": 0.15
+  },
+  "bio-reflex-arc": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "bio-hormones": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "bio-homeostasis": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "bio-gametogenesis": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "bio-menstrual-cycle": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "bio-pregnancy": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "fractions": {
+    "probMastery": 0.5,
+    "probTransit": 0.25,
+    "probSlip": 0.05,
+    "probGuess": 0.3
+  },
+  "zero-product-property": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "simplification": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "quadratic-inequalities": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "interval-notation": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "parabola-equation": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "substitution": {
+    "probMastery": 0.45,
+    "probTransit": 0.22,
+    "probSlip": 0.06,
+    "probGuess": 0.25
+  },
+  "expansion": {
+    "probMastery": 0.45,
+    "probTransit": 0.22,
+    "probSlip": 0.06,
+    "probGuess": 0.25
+  },
+  "differentiation": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "modelling": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.12
+  },
+  "maxima": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "arithmetic-sequences": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "series-sum": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "algebraic-manipulation": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "special-angles": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "quadrants": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "trig-area-rule": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "formula-recall": {
+    "probMastery": 0.45,
+    "probTransit": 0.22,
+    "probSlip": 0.06,
+    "probGuess": 0.25
+  },
+  "calculation": {
+    "probMastery": 0.45,
+    "probTransit": 0.22,
+    "probSlip": 0.06,
+    "probGuess": 0.25
+  },
+  "exponents": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "acceleration": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "algebraic-simplification": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "area-between-curves": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.12
+  },
+  "asymptotes": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "complementary-counting": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "conditional-probability": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "counting": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "definite-integrals": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.12
+  },
+  "dependent-events": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "exponential-decay": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "exponential-functions": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "financial-mathematics": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "grouping": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "hyperbola": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "intercepts": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "linear-functions": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "logarithms": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "motion": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "negative-exponents": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "perpendicular-lines": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "quadratic-equations": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "rationalisation": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "related-rates": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.12
+  },
+  "restrictions": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "straight-line-equation": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "surds": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "transformations": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "trinomials": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "velocity": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "without-replacement": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "inverse-function": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "domain-range": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "completing-square": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "geo-proportionality": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "geo-similar-triangles": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "phys-work-energy": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "phys-waves": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "phys-optics": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "chem-stoichiometry": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "bio-photosynthesis": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "bio-respiration": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "bio-ecology": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "bio-classification": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "bio-plant-structure": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "alg-expansion": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "differentiation-rules": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "tangent-line": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "curve-sketching": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.12
+  },
+  "difference-of-squares": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.22
+  },
+  "perfect-square-trinomial": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  }
+}

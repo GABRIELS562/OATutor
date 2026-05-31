@@ -1,0 +1,35 @@
+[
+    {
+        "id": "poly-007b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Add the Equations",
+        "text": "Adding equation 1 and equation 2:\n\n$(a + b) + (2a - b) = 11 + 10$\n\n$3a = 21$\n\n$a = 7$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-007b-h2",
+        "type": "hint",
+        "dependencies": ["poly-007b-h1"],
+        "title": "Find b",
+        "text": "Substitute $a = 7$ into equation 1:\n\n$7 + b = 11$\n\n$b = 4$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-007b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["a = 7, b = 4"],
+        "dependencies": ["poly-007b-h2"],
+        "title": "Final Answer",
+        "text": "$a = 7$ and $b = 4$\n\nSo $f(x) = x^3 + 7x^2 + 4x - 12$\n\nVerify: $f(1) = 1 + 7 + 4 - 12 = 0$ ✓\n$f(-2) = -8 + 28 - 8 - 12 = 0$ ✓",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

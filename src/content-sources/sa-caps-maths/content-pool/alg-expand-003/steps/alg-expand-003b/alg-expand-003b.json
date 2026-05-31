@@ -1,0 +1,10 @@
+{
+    "id": "alg-expand-003b",
+    "stepAnswer": ["25x^2 - 9", "25x^2-9"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Apply the Formula",
+    "stepBody": "Apply the difference of two squares formula:\n\n$(a + b)(a - b) = a^2 - b^2$\n\nFor $(5x + 3)(5x - 3)$, we have $a = 5x$ and $b = 3$.\n\nWhat is the expanded form?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["expansion", "difference-of-squares", "algebraic-manipulation"]
+}

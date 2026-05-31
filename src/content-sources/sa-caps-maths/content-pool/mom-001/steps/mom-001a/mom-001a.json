@@ -1,0 +1,17 @@
+{
+  "id": "mom-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "m₁v₁ + m₂v₂ = (m₁ + m₂)v",
+    "m1v1 + m2v2 = (m1 + m2)v",
+    "p₁ + p₂ = p_total",
+    "Σp_before = Σp_after"
+  ],
+  "stepExplanation": "In a collision where objects stick together (inelastic collision), we use conservation of momentum: $$m_1v_1 + m_2v_2 = (m_1 + m_2)v_f$$ where the total momentum before equals total momentum after.",
+  "stepTitle": "Identify the Principle",
+  "stepBody": "This is an inelastic collision where the cars stick together. Which principle and equation should we apply?"
+}

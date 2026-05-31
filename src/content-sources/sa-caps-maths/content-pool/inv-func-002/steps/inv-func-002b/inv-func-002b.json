@@ -1,0 +1,10 @@
+{
+    "id": "inv-func-002b",
+    "stepAnswer": ["x>=-4", "x >= -4", "[-4;infinity)", "x \\geq -4"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: State the Domain of the Inverse",
+    "stepBody": "The domain of $f^{-1}$ equals the range of $f$.\n\nWhat is the domain of $f^{-1}(x) = \\sqrt{x + 4}$?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["inverse-function", "domain-range"]
+}

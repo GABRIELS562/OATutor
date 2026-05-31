@@ -1,0 +1,14 @@
+{
+  "id": "chem-ph-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "2"
+  ],
+  "stepExplanation": "$$pH = -\\log[H^+] = -\\log(0.01) = -\\log(10^{-2}) = 2$$",
+  "stepTitle": "Calculate pH",
+  "stepBody": "Use pH = -log[H⁺] to calculate the pH. What is pH when [H⁺] = 0.01 mol/dm³?"
+}

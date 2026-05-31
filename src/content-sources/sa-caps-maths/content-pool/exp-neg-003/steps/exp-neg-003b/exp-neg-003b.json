@@ -1,0 +1,10 @@
+{
+    "id": "exp-neg-003b",
+    "stepAnswer": ["x^2*y^4", "x^2y^4", "y^4*x^2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Simplify the y Terms and Combine",
+    "stepBody": "Now simplify $\\frac{y^{3}}{y^{-1}}$ and combine with the x result.\n\nRemember: $\\frac{a^m}{a^n} = a^{m-n}$\n\nEnter your final answer as: x^2*y^4",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["exponent-laws", "simplification"]
+}

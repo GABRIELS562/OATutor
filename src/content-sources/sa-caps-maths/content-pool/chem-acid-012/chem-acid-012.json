@@ -1,0 +1,18 @@
+{
+  "id": "chem-acid-012",
+  "title": "pOH and pH Relationship",
+  "body": "A solution has a hydroxide ion concentration [OH-] of 5 x 10^-3 mol/dm^3. Calculate the pH of the solution at 25 degrees Celsius. (At 25 degrees C, pH + pOH = 14)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-ph-calc"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "Siyavula Grade 12 Physical Sciences - Acids and Bases",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

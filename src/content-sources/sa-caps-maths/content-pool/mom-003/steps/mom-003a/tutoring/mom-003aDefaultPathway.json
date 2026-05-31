@@ -1,0 +1,32 @@
+[
+    {
+        "id": "mom-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Elastic vs Inelastic",
+        "text": "In elastic collisions, objects bounce apart and kinetic energy is conserved. In inelastic collisions, objects may stick together and some kinetic energy is converted to other forms.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "mom-003a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Conservation of Momentum",
+        "text": "Total momentum before = Total momentum after. This applies to ALL collisions in isolated systems.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "mom-003a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "What We Know",
+        "text": "Before: 2 kg at 6 m/s, 4 kg at rest. After: 2 kg at -2 m/s, 4 kg at unknown velocity v. Use conservation of momentum to find v.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

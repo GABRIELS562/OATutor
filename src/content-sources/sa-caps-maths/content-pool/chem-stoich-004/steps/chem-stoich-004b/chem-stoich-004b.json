@@ -1,0 +1,15 @@
+{
+  "id": "chem-stoich-004b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "85.7",
+    "86"
+  ],
+  "stepExplanation": "Percentage yield = (actual yield / theoretical yield) x 100 = (4.8 / 5.6) x 100 = 85.7%",
+  "stepTitle": "Calculate Percentage Yield",
+  "stepBody": "Using percentage yield = (actual yield / theoretical yield) x 100, calculate the percentage yield."
+}

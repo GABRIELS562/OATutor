@@ -1,0 +1,22 @@
+[
+  {
+    "id": "neuro-003a-h1",
+    "type": "hint",
+    "title": "Calcium's Role",
+    "text": "The action potential opens voltage-gated calcium channels. Calcium influx triggers vesicle fusion with the membrane - this is why calcium is essential for synaptic transmission.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "neuro-003a-h2",
+    "type": "hint",
+    "title": "Vesicle Fusion",
+    "text": "Synaptic vesicles contain thousands of neurotransmitter molecules. When they fuse with the presynaptic membrane, the contents are released into the synaptic cleft through exocytosis.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

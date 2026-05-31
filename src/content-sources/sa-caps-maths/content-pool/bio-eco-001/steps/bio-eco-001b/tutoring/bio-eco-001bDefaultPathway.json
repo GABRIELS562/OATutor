@@ -1,0 +1,32 @@
+[
+    {
+        "id": "bio-eco-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Role of Predators",
+        "text": "Predators keep prey populations in check. When predators are removed, their prey populations typically grow because fewer individuals are being eaten.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "bio-eco-001b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "What Do Snakes Eat?",
+        "text": "Snakes prey on frogs and may also prey on mice directly. If snakes are removed, what happens to the animals they were eating?",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "bio-eco-001b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "The Answer",
+        "text": "With fewer predators hunting them, mice will have higher survival rates. Initially, the mouse population will INCREASE.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

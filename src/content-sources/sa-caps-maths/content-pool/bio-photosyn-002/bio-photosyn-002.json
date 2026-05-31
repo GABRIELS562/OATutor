@@ -1,0 +1,14 @@
+{
+  "id": "bio-photosyn-002",
+  "title": "Photosynthesis - Calvin Cycle",
+  "body": "The diagram below shows the Calvin Cycle (light-independent reactions):\n\n```\n[CALVIN CYCLE DIAGRAM]\n                    CO2 (from air)\n                       |\n                       v\n    RuBP (5C) ----> 3-PGA (3C) x 2\n       ^               |\n       |          [ATP, NADPH used]\n       |               v\n    [ATP used]     G3P (3C) x 2\n       |               |\n       +----<----+-----+\n                 |      \n              (1 G3P exits to make glucose)\n```\n\nIf 6 molecules of CO2 enter the Calvin Cycle, how many molecules of G3P are produced, and how many are used to regenerate RuBP?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-photosynthesis"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "oer": "DBE NSC Life Sciences Paper 1/2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

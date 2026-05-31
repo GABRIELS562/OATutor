@@ -1,0 +1,13 @@
+{
+  "id": "chem-iupac-001",
+  "title": "IUPAC Naming - Organic Compounds",
+  "body": "Name the following organic compound using IUPAC nomenclature: CH\u2083-CH\u2082-CH\u2082-OH",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["chem-iupac-naming"],
+      "difficultyCodes": ["easy"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

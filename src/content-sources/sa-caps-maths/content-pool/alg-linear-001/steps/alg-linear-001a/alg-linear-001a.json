@@ -1,0 +1,10 @@
+{
+    "id": "alg-linear-001a",
+    "stepAnswer": ["2x-3+2x+2=20", "2x-3+2(x+1)=20"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find Common Denominator and Multiply",
+    "stepBody": "The LCD of 4 and 2 is 4. Multiply each term by 4 to eliminate fractions.\\n\\nWrite the equation after multiplying by 4 (without denominators):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["linear-equations", "fractions"]
+}

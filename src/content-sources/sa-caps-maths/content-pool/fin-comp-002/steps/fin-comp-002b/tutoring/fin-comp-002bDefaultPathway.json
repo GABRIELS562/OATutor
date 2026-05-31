@@ -1,0 +1,25 @@
+[
+    {
+        "id": "fin-comp-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute Values",
+        "text": "$P = \\frac{100000}{(1.006)^{96}}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-comp-002b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["R56 247.92"],
+        "dependencies": ["fin-comp-002b-h1"],
+        "title": "Calculate",
+        "text": "$(1.006)^{96} = 1.77806...$\n\n$P = \\frac{100000}{1.77806} = R56\\,247.92$\n\nSipho must invest R56 247.92 now.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

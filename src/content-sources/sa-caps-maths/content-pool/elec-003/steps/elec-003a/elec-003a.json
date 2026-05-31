@@ -1,0 +1,17 @@
+{
+  "id": "elec-003a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "F = qE",
+    "F=qE",
+    "F = Eq",
+    "Force = charge × electric field"
+  ],
+  "stepExplanation": "The force on a charge q in an electric field E is: $$F = qE$$. The direction of the force depends on the sign of the charge - positive charges experience force in the direction of E, negative charges in the opposite direction.",
+  "stepTitle": "State the Force-Field Relationship",
+  "stepBody": "What is the formula for the force experienced by a charged particle in an electric field?"
+}

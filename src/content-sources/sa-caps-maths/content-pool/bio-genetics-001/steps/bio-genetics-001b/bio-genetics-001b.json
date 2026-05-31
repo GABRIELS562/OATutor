@@ -1,0 +1,15 @@
+{
+  "id": "bio-genetics-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "25",
+    "25%"
+  ],
+  "stepExplanation": "1 out of 4 offspring are tt = 1/4 = **25%** will be short.",
+  "stepTitle": "Calculate Percentage",
+  "stepBody": "Only tt individuals are short (homozygous recessive). Out of 4 offspring, how many are tt? Express this as a percentage."
+}

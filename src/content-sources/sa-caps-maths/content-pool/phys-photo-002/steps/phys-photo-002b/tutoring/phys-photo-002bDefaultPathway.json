@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-photo-002b-h1",
+    "type": "hint",
+    "title": "Einstein's Photoelectric Equation",
+    "text": "Einstein's photoelectric equation states: E_k(max) = hf - W. The photon energy (hf) is used to overcome the work function (W) and any remaining energy becomes kinetic energy of the electron.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-photo-002b-h2",
+    "type": "hint",
+    "title": "Substituting Values",
+    "text": "E_k(max) = hf - W = 5.30 x 10^-19 - 3.0 x 10^-19 = 2.30 x 10^-19 J. This is the maximum kinetic energy because it assumes the photon transfers ALL its excess energy to the electron. Some electrons will have less kinetic energy if they lose energy escaping from deeper in the metal.",
+    "variabilization": {},
+    "dependencies": ["phys-photo-002b-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

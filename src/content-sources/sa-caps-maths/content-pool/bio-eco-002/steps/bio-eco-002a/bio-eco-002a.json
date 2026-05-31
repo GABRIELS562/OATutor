@@ -1,0 +1,16 @@
+{
+  "id": "bio-eco-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "1000",
+    "1000 kJ",
+    "1 000 kJ"
+  ],
+  "stepExplanation": "Using the **10% Rule**:\n\nIf only 10% of energy passes to the next level, and snakes receive 100 kJ:\n- Mice must have 100 kJ / 0.10 = **1000 kJ** available\n\nThis can also be read directly from the pyramid:\n- Mice (primary consumers) = 1000 kJ\n- Snakes (secondary consumers) = 100 kJ\n- This confirms the 10% transfer rule: 1000 kJ x 10% = 100 kJ",
+  "stepTitle": "Calculate Energy Required",
+  "stepBody": "If only 10% of energy transfers to the next level, how much energy (in kJ) must the mice consume from grass to have 100 kJ available for snakes?"
+}

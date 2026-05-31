@@ -1,0 +1,35 @@
+[
+    {
+        "id": "seq-geom-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "The Geometric Sum Formula",
+        "text": "For a geometric series where $r \\neq 1$:\n$$S_n = \\frac{a(r^n - 1)}{r - 1}$$\n\nOr equivalently:\n$$S_n = \\frac{a(1 - r^n)}{1 - r}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "seq-geom-002b-h2",
+        "type": "hint",
+        "dependencies": ["seq-geom-002b-h1"],
+        "title": "Substitute Values",
+        "text": "Using $a = 5$, $r = 2$, $n = 10$:\n\n$$S_{10} = \\frac{5(2^{10} - 1)}{2 - 1}$$\n\n$2^{10} = 1024$\n\n$$S_{10} = \\frac{5(1024 - 1)}{1}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "seq-geom-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["5115"],
+        "dependencies": ["seq-geom-002b-h2"],
+        "title": "Final Calculation",
+        "text": "$$S_{10} = \\frac{5(1023)}{1}$$\n$$S_{10} = 5 \\times 1023$$\n$$S_{10} = 5115$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

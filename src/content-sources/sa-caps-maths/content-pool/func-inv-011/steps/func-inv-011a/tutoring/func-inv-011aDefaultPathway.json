@@ -1,0 +1,36 @@
+[
+    {
+        "id": "func-inv-011a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Why Restrict the Domain?",
+        "text": "A quadratic function like $y = x^2$ is NOT one-to-one over all real numbers (it fails the horizontal line test).\n\nBy restricting to $x \\geq 0$, we only take the right half of the parabola, making it one-to-one and invertible.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-inv-011a-h2",
+        "type": "hint",
+        "dependencies": ["func-inv-011a-h1"],
+        "title": "Finding the Inverse",
+        "text": "Starting with $y = x^2 - 4$:\n\n1. Swap $x$ and $y$: $x = y^2 - 4$\n2. Add 4: $x + 4 = y^2$\n3. Take square root: $y = \\pm\\sqrt{x+4}$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-inv-011a-h3",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": ["Positive: y = sqrt(x+4)"],
+        "dependencies": ["func-inv-011a-h2"],
+        "title": "Choose the Correct Root",
+        "text": "Since the original domain was $x \\geq 0$, the range of the inverse must also be $y \\geq 0$.\n\nWhich root do we choose?",
+        "choices": ["Positive: y = sqrt(x+4)", "Negative: y = -sqrt(x+4)", "Both roots"],
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

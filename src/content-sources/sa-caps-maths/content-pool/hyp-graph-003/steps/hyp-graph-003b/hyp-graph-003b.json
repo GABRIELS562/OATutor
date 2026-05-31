@@ -1,0 +1,10 @@
+{
+    "id": "hyp-graph-003b",
+    "stepAnswer": ["no y-intercept", "undefined", "none", "does not exist"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the Y-Intercept",
+    "stepBody": "To find the y-intercept, set $x = 0$ and solve for $y$.\n\nWhat is the y-intercept? (If there is no y-intercept, write 'no y-intercept')",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["intercepts", "hyperbola-asymptotes"]
+}

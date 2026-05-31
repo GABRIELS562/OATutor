@@ -1,0 +1,13 @@
+{
+  "id": "phys-ohm-001",
+  "title": "Ohm's Law - Current Calculation",
+  "body": "A 12 V battery is connected to a resistor. The current flowing through the circuit is 0.5 A. Calculate the resistance of the resistor.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-ohms-law"],
+      "difficultyCodes": ["easy"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

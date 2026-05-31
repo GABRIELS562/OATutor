@@ -1,0 +1,15 @@
+{
+  "id": "chem-stoich-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.25",
+    "0,25"
+  ],
+  "stepExplanation": "n = m/M = 24.5 g / 98 g/mol = 0.25 mol",
+  "stepTitle": "Calculate Moles",
+  "stepBody": "Using n = m/M, calculate the number of moles of H2SO4."
+}

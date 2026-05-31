@@ -1,0 +1,10 @@
+{
+    "id": "seq-geom-001",
+    "title": "Geometric Sequence: Finding Terms",
+    "body": "Consider the geometric sequence: $2; 6; 18; 54; ...$\n\na) Determine the common ratio.\nb) Calculate the 8th term of the sequence.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Sequences and Series",
+    "license": "CC BY 4.0",
+    "lesson": "Geometric Sequences",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

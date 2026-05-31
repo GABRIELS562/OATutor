@@ -1,0 +1,10 @@
+{
+    "id": "calc-tangent-001",
+    "title": "Equation of a Tangent Line",
+    "body": "Find the equation of the tangent to the curve $y = x^3 - 2x^2 + x$ at the point where $x = 2$.\n\nGive your answer in the form $y = mx + c$.",
+    "variabilization": {},
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Differential Calculus - Equation of a Tangent",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

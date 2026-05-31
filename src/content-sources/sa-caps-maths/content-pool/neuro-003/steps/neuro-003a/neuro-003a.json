@@ -1,0 +1,16 @@
+{
+  "id": "neuro-003a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "vesicles fuse with membrane and release neurotransmitters",
+    "exocytosis releases neurotransmitters into synaptic cleft",
+    "vesicles release neurotransmitters"
+  ],
+  "stepExplanation": "When an action potential reaches the axon terminal, calcium ions enter the cell. This causes synaptic vesicles to fuse with the presynaptic membrane and release neurotransmitters into the synaptic cleft through **exocytosis**.",
+  "stepTitle": "Describe Neurotransmitter Release",
+  "stepBody": "When an action potential arrives at the presynaptic terminal, what happens to the synaptic vesicles containing neurotransmitters?"
+}

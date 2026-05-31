@@ -1,0 +1,16 @@
+{
+  "id": "evol-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "dark moths camouflaged and survived better to reproduce",
+    "dark moths were better camouflaged so avoided predation",
+    "dark moths had higher survival and passed on dark alleles"
+  ],
+  "stepExplanation": "On soot-covered trees, **dark moths were camouflaged** while light moths were visible to predators (birds). Dark moths survived longer, reproduced more, and passed the dark allele to offspring. Over generations, the dark allele frequency increased in the population.",
+  "stepTitle": "Explain the Selection Process",
+  "stepBody": "After industrialization, why did dark moths have a selective advantage, and how did this lead to changes in the population?"
+}

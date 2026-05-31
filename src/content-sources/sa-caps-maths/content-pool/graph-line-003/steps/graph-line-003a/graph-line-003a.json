@@ -1,0 +1,10 @@
+{
+    "id": "graph-line-003a",
+    "stepAnswer": ["-2", "m=-2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Determine the Gradient of the Perpendicular Line",
+    "stepBody": "For perpendicular lines, $m_1 \\times m_2 = -1$.\n\nThe given line is $y = \\frac{1}{2}x + 4$. What is the gradient of the perpendicular line?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["gradient", "linear-graph"]
+}

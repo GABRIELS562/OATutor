@@ -1,0 +1,10 @@
+{
+    "id": "calc-deriv-001b",
+    "stepAnswer": ["41", "f'(1)=41"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Evaluate at a Point",
+    "stepBody": "Using your answer for $f'(x)$, calculate the value of $f'(1)$.\n\nWhat is the gradient of the function at $x = 1$?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "rate-of-change"]
+}

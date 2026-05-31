@@ -1,0 +1,18 @@
+{
+  "id": "bio-eye-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "myopia",
+    "short-sightedness",
+    "shortsightedness",
+    "near-sightedness",
+    "nearsightedness"
+  ],
+  "stepExplanation": "The learner has **MYOPIA (short-sightedness)**.\n\nDiagnosis reasoning:\n- CAN see near objects clearly (reading a book) - CHECK\n- CANNOT see distant objects clearly (chalkboard) - CHECK\n\nCause of myopia:\n- Eyeball is too LONG (elongated), OR\n- Lens is too CURVED (refracts light too much)\n- Light rays from distant objects converge IN FRONT of the retina\n- By the time light reaches the retina, the image is blurred",
+  "stepTitle": "Diagnose the Condition",
+  "stepBody": "Based on the symptoms (cannot see far, can see near), what eye condition does the learner have?"
+}

@@ -1,0 +1,10 @@
+{
+    "id": "num-surds-001b",
+    "stepAnswer": ["4sqrt(2)", "4sqrt2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Combine Like Surds",
+    "stepBody": "Combine the like surds:\n\n$$6\\sqrt{2} + 3\\sqrt{2} - 5\\sqrt{2}$$\n\nThink of this like combining like terms: $6a + 3a - 5a$\n\nEnter the simplified answer (use sqrt for $\\sqrt{}$):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["surds", "simplification"]
+}

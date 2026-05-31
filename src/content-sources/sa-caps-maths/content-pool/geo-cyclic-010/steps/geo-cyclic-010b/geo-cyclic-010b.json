@@ -1,0 +1,10 @@
+{
+    "id": "geo-cyclic-010b",
+    "stepAnswer": ["77"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate exterior angle RQT",
+    "stepBody": "The exterior angle of a cyclic quadrilateral equals the interior opposite angle.\n\nFirst find angle PSR + angle PRS = angle S of the quadrilateral.\nThen use the exterior angle property.\n\nCalculate angle RQT.",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["geo-cyclic-quad", "geo-proof-writing"]
+}

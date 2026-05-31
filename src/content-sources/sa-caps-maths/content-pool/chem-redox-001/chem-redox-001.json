@@ -1,0 +1,17 @@
+{
+  "id": "chem-redox-001",
+  "title": "Oxidation Numbers",
+  "body": "In the reaction: 2Fe + 3Cl₂ → 2FeCl₃, determine the oxidation number change for Fe.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-galvanic"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

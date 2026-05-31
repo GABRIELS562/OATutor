@@ -1,0 +1,14 @@
+{
+  "id": "wep-003",
+  "title": "Power Calculation",
+  "body": "A crane lifts a 500 kg load vertically through a height of 30 m in 25 seconds at constant velocity. Taking g = 10 m/s², calculate the power output of the crane.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-newtons-laws"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "chem-org-012a-h1",
+    "type": "hint",
+    "title": "Understanding Addition Reactions",
+    "text": "In addition reactions, atoms or groups are added to a molecule without any atoms being removed. The double bond (C=C) becomes a single bond (C-C) as atoms add on.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "chem-org-012a-h2",
+    "type": "hint",
+    "title": "Alkene Reactivity",
+    "text": "Alkenes are unsaturated (contain C=C double bonds). The pi bond in the double bond is relatively weak and breaks easily, allowing new atoms to add.",
+    "variabilization": {},
+    "dependencies": ["chem-org-012a-h1"],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "chem-org-012a-h3",
+    "type": "hint",
+    "title": "Halogenation",
+    "text": "When a halogen (F$$_2$$, Cl$$_2$$, Br$$_2$$, I$$_2$$) adds across a double bond, it is called halogenation - a specific type of addition reaction.",
+    "variabilization": {},
+    "dependencies": ["chem-org-012a-h2"],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+    "license": "CC BY 4.0"
+  }
+]

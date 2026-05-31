@@ -1,0 +1,17 @@
+{
+  "id": "circ-003b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "960 Ω, 0.25 A",
+    "960, 0.25",
+    "R = 960 Ω, I = 0.25 A",
+    "960 ohms and 0.25 A"
+  ],
+  "stepExplanation": "Finding resistance using P = V²/R:\n$$R = \\frac{V^2}{P} = \\frac{(240)^2}{60} = \\frac{57600}{60} = 960 \\text{ Ω}$$\n\nFinding current using P = IV:\n$$I = \\frac{P}{V} = \\frac{60}{240} = 0.25 \\text{ A}$$\n\nAlternatively, I = V/R = 240/960 = 0.25 A (confirms our answer).",
+  "stepTitle": "Calculate Resistance and Current",
+  "stepBody": "Use the power equations with P = 60 W and V = 240 V. Give resistance in ohms and current in amperes."
+}

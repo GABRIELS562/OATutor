@@ -1,0 +1,17 @@
+{
+  "id": "bio-respir-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "lactic acid",
+    "lactate",
+    "lactic acid buildup",
+    "lactic acid accumulation"
+  ],
+  "stepExplanation": "Muscle fatigue and cramping are caused by **lactic acid accumulation**.\n\nMechanism:\n1. Pyruvate is reduced to lactic acid (lactate)\n2. Lactic acid builds up in muscle tissue\n3. This lowers the pH (increases acidity)\n4. Acidic conditions interfere with muscle contraction\n5. Result: fatigue, pain, and cramping\n\nAfter exercise, oxygen debt is repaid: lactic acid is transported to the liver and converted back to glucose (Cori cycle).",
+  "stepTitle": "Cause of Muscle Fatigue",
+  "stepBody": "What substance accumulates in muscles during anaerobic respiration that causes fatigue and cramping?"
+}

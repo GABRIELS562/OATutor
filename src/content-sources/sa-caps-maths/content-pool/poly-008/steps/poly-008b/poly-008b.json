@@ -1,0 +1,10 @@
+{
+    "id": "poly-008b",
+    "stepAnswer": ["x = 1, x = 2, x = -3", "1, 2, -3", "x = -3, x = 1, x = 2", "x = 1 or x = 2 or x = -3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Factorise Completely and Solve",
+    "stepBody": "We have $x^3 - 7x + 6 = (x - 1)(x^2 + x - 6)$\n\nFactorise $x^2 + x - 6$ (find two numbers that multiply to -6 and add to 1).\n\nThen solve $(x - 1)(x^2 + x - 6) = 0$ for all values of $x$.",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trinomial-factor", "solving-equations", "zero-product-property"]
+}

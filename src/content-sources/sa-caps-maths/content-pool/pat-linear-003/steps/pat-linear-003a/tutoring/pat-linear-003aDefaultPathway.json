@@ -1,0 +1,35 @@
+[
+    {
+        "id": "pat-linear-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify the Components",
+        "text": "A linear formula has the form $y = mx + c$ where:\n- $c$ is the constant (y-intercept) = the flat fee = R15\n- $m$ is the rate of change (gradient) = R8 per km",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "pat-linear-003a-h2",
+        "type": "hint",
+        "dependencies": ["pat-linear-003a-h1"],
+        "title": "Build the Formula",
+        "text": "Cost = Flat fee + (Rate per km x Distance)\n\n$C = 15 + 8d$\n\nOr equivalently: $C = 8d + 15$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "pat-linear-003a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["C=15+8d"],
+        "dependencies": ["pat-linear-003a-h2"],
+        "title": "The Formula",
+        "text": "The formula is $C = 15 + 8d$ or $C = 8d + 15$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-double-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Use Pythagorean Identity",
+        "text": "$$\\sin^2 A = 1 - \\cos^2 A$$\n$$= 1 - \\left(-\\frac{3}{5}\\right)^2$$\n$$= 1 - \\frac{9}{25}$$\n$$= \\frac{16}{25}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-double-001a-h2",
+        "type": "hint",
+        "dependencies": ["trig-double-001a-h1"],
+        "title": "Determine the Sign",
+        "text": "In the second quadrant (90° < A < 180°):\n- Sine is POSITIVE\n- Cosine is NEGATIVE\n- Tangent is NEGATIVE\n\nRemember: CAST rule - only Sine is positive in quadrant 2.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-double-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["4/5"],
+        "dependencies": ["trig-double-001a-h2"],
+        "title": "Calculate sin A",
+        "text": "$$\\sin A = +\\sqrt{\\frac{16}{25}} = \\frac{4}{5}$$\n\n(Positive because A is in quadrant 2)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

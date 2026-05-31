@@ -1,0 +1,20 @@
+{
+    "id": "chem-rate-010b",
+    "type": "scaffold",
+    "problemType": "MultipleChoice",
+    "answerType": "string",
+    "hpiVariables": [],
+    "variabilization": {},
+    "stepAnswer": [
+        "The rate increases"
+    ],
+    "stepExplanation": "Increasing the concentration of HCl means there are more HCl particles per unit volume. This results in more frequent collisions between Zn and H$$^+$$ ions, so the reaction rate increases.",
+    "stepTitle": "Effect of Concentration",
+    "stepBody": "If the concentration of HCl is increased (for example, from 1 mol/dm$$^3$$ to 2 mol/dm$$^3$$), how does this affect the reaction rate?",
+    "choices": [
+        "The rate increases",
+        "The rate decreases",
+        "The rate stays the same",
+        "The reaction stops"
+    ]
+}

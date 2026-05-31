@@ -1,0 +1,35 @@
+[
+    {
+        "id": "graph-line-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute a Point",
+        "text": "Using point $A(-1, 5)$ and $m = -2$:\n\n$y = mx + c$\n$5 = -2(-1) + c$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "graph-line-001b-h2",
+        "type": "hint",
+        "dependencies": ["graph-line-001b-h1"],
+        "title": "Solve for c",
+        "text": "$5 = 2 + c$\n$c = 5 - 2 = 3$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "graph-line-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["y=-2x+3"],
+        "dependencies": ["graph-line-001b-h2"],
+        "title": "Write the Final Equation",
+        "text": "With $m = -2$ and $c = 3$:\n\n$$y = -2x + 3$$\n\nVerify with point $B(3, -3)$: $y = -2(3) + 3 = -6 + 3 = -3$ ✓",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

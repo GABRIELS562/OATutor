@@ -1,0 +1,22 @@
+[
+  {
+    "id": "evol-003a-h1",
+    "type": "hint",
+    "title": "Homologous vs Analogous",
+    "text": "Homologous structures: same structure, different function (evidence of common ancestry). Analogous structures: different structure, same function (evidence of convergent evolution).",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "evol-003a-h2",
+    "type": "hint",
+    "title": "Comparative Anatomy",
+    "text": "Comparative anatomy is the study of similarities and differences in anatomy across species. It provides evidence for evolution by revealing shared ancestral structures.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

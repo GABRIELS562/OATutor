@@ -1,0 +1,16 @@
+{
+  "id": "evol-003a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "homologous structures",
+    "homology",
+    "comparative anatomy showing homologous structures"
+  ],
+  "stepExplanation": "These are **homologous structures** - anatomical features in different species that share the same basic structure and embryonic origin but may have different functions. This is evidence from **comparative anatomy**.",
+  "stepTitle": "Identify the Type of Evidence",
+  "stepBody": "What term describes anatomical structures in different species that have the same underlying structure but different functions?"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "bio-class-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "Kingdom Phylum Class Order Family Genus Species",
+    "Kingdom, Phylum, Class, Order, Family, Genus, Species"
+  ],
+  "stepExplanation": "The taxonomic hierarchy from broadest to most specific is: Kingdom, Phylum, Class, Order, Family, Genus, Species. A helpful mnemonic is 'King Philip Came Over For Good Soup' or 'Keep Ponds Clean Or Fish Get Sick'.",
+  "stepTitle": "Taxonomic Hierarchy",
+  "stepBody": "List the seven main taxonomic levels from broadest (Kingdom) to most specific (Species)."
+}

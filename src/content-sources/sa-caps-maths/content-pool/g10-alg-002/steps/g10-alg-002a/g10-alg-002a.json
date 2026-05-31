@@ -1,0 +1,10 @@
+{
+    "id": "g10-alg-002a",
+    "stepAnswer": ["3x", "(3x)^2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Identify the Perfect Squares",
+    "stepBody": "The expression $9x^2 - 16$ is a difference of two squares.\n\nRecall: $a^2 - b^2 = (a + b)(a - b)$\n\nFirst, identify what value of $a$ satisfies $a^2 = 9x^2$.\n\nWhat is $a$? (Enter as: 3x)",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "difference-of-squares"]
+}

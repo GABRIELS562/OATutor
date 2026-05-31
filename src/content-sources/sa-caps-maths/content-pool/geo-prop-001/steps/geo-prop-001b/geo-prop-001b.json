@@ -1,0 +1,10 @@
+{
+    "id": "geo-prop-001b",
+    "stepAnswer": ["3:8"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate the Ratio AD:AB",
+    "stepBody": "Calculate AB first, then express AD:AB as a ratio in simplest form.\n\nAB = AD + DB",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["geo-proportional-sides"]
+}

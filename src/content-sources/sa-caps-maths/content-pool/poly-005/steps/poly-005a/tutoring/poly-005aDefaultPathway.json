@@ -1,0 +1,35 @@
+[
+    {
+        "id": "poly-005a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Factor Theorem Form",
+        "text": "The Factor Theorem says $(x - a)$ is a factor if $f(a) = 0$.\n\nWe have $(x + 2)$, which can be written as $(x - (-2))$.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-005a-h2",
+        "type": "hint",
+        "dependencies": ["poly-005a-h1"],
+        "title": "Identify the Value",
+        "text": "Comparing $(x + 2)$ with $(x - a)$:\n\n$x + 2 = x - (-2)$\n\nSo $a = -2$, meaning we substitute $x = -2$.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-005a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": ["-2"],
+        "dependencies": ["poly-005a-h2"],
+        "title": "The Value to Substitute",
+        "text": "We substitute $x = -2$ into $f(x)$ and set the result equal to zero.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

@@ -1,0 +1,17 @@
+{
+  "id": "phys-gravity-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "6.8 × 10⁶",
+    "6.8 x 10^6",
+    "6800000",
+    "6 800 000"
+  ],
+  "stepExplanation": "The distance from the centre of Earth equals the radius plus the altitude:\n$$r = R_{Earth} + h = 6.4 \\times 10^6 + 400 \\times 10^3$$\n$$r = 6.4 \\times 10^6 + 0.4 \\times 10^6 = 6.8 \\times 10^6 \\text{ m}$$",
+  "stepTitle": "Calculate the Distance from Earth's Centre",
+  "stepBody": "Calculate the distance from Earth's centre to the satellite. Remember: r = R_Earth + altitude. Give your answer in metres."
+}

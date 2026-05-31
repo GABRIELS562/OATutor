@@ -1,0 +1,20 @@
+{
+    "id": "bio-class-003b",
+    "type": "scaffold",
+    "problemType": "MultipleChoice",
+    "answerType": "string",
+    "hpiVariables": [],
+    "variabilization": {},
+    "stepAnswer": [
+        "Presence or absence of backbone"
+    ],
+    "stepExplanation": "Good dichotomous key characteristics are: 1) Observable and measurable, 2) Consistent (don't change with age, season, etc.), 3) Contrasting between groups. 'Presence/absence of backbone' is ideal - it's a fixed characteristic. Color can vary, size can change with age, and location doesn't define the organism.",
+    "stepTitle": "Good Key Characteristics",
+    "stepBody": "Which characteristic would be BEST to use in a dichotomous key for animals?",
+    "choices": [
+        "Color of the organism",
+        "Presence or absence of backbone",
+        "Size in centimeters",
+        "Where it was found"
+    ]
+}

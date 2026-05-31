@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-gensol-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Recognise the Quadratic",
+        "text": "This is a quadratic equation in sin x. Let y = sin x:\n$$2y^2 - y - 1 = 0$$\n\nWe can factorise or use the quadratic formula.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-gensol-003a-h2",
+        "type": "hint",
+        "dependencies": ["trig-gensol-003a-h1"],
+        "title": "Factorise",
+        "text": "Factorise 2y² - y - 1:\n- Find factors of 2 × (-1) = -2 that add to -1\n- These are -2 and +1\n- So: 2y² - 2y + y - 1 = 2y(y-1) + 1(y-1) = (2y+1)(y-1)\n\n$$(2y + 1)(y - 1) = 0$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-gensol-003a-h3",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": ["sin x = 1 or sin x = -1/2"],
+        "dependencies": ["trig-gensol-003a-h2"],
+        "title": "Solve for sin x",
+        "text": "From (2y + 1)(y - 1) = 0:\n- 2y + 1 = 0 gives y = -1/2, so sin x = -1/2\n- y - 1 = 0 gives y = 1, so sin x = 1",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

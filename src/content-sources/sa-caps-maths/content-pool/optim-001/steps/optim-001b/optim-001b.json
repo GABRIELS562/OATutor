@@ -1,0 +1,10 @@
+{
+    "id": "optim-001b",
+    "stepAnswer": ["x=50m, y=100m", "50m by 100m", "50 m and 100 m", "x = 50, y = 100"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the Dimensions for Maximum Area",
+    "stepBody": "Given $A = 200x - 2x^2$, find the value of $x$ that maximises the area using differentiation.\n\nThen find $y$ using the constraint.\n\nWhat are the dimensions (x and y) for maximum area?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["optimization", "differentiation", "maximum"]
+}

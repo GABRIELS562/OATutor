@@ -1,0 +1,10 @@
+{
+    "id": "trig-comp-002",
+    "title": "Compound Angle: Cosine of Difference",
+    "body": "Simplify without using a calculator:\n\n$$\\cos 80° \\cos 20° + \\sin 80° \\sin 20°$$\n\nGive your answer as a single trigonometric ratio.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 2",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Trigonometry - Compound Angles",
+    "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

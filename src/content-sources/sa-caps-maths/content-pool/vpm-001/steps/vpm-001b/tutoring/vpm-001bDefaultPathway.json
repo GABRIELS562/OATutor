@@ -1,0 +1,32 @@
+[
+    {
+        "id": "vpm-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Setting Up the Equation",
+        "text": "Start with v² = u² + 2as. Substitute v = 0, u = 25, and a = -9.8 to get: 0 = (25)² + 2(-9.8)(s)",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "vpm-001b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Solving for s",
+        "text": "Simplify: 0 = 625 - 19.6s. Rearrange to get: 19.6s = 625, so s = 625/19.6",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "vpm-001b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Final Calculation",
+        "text": "s = 625 ÷ 19.6 = 31.89 m. The positive answer confirms the ball rises upward as expected.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

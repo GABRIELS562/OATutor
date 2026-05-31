@@ -1,0 +1,16 @@
+{
+  "id": "bio-protein-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "AUG CGU UAA",
+    "AUGCGUUAA",
+    "5'-AUG CGU UAA-3'"
+  ],
+  "stepExplanation": "mRNA: 5'-AUG CGU UAA-3' (includes start codon AUG and stop codon UAA)",
+  "stepTitle": "mRNA Sequence",
+  "stepBody": "Write the mRNA sequence complementary to 3'-TAC GCA ATT-5'"
+}

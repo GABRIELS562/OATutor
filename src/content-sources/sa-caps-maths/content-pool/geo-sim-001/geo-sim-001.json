@@ -1,0 +1,10 @@
+{
+    "id": "geo-sim-001",
+    "title": "Similar Triangles: Proportional Sides",
+    "body": "In the diagram, triangle ABC is similar to triangle DEF with $$\\angle A = \\angle D$$, $$\\angle B = \\angle E$$, and $$\\angle C = \\angle F$$.\n\nGiven: AB = 6 cm, BC = 8 cm, AC = 10 cm, and DE = 9 cm.\n\na) Calculate the length of EF.\nb) Calculate the length of DF.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Euclidean Geometry",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Euclidean Geometry - Similar Triangles",
+    "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

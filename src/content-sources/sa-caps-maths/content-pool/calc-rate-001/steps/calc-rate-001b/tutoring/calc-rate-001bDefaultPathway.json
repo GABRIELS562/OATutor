@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-rate-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Use the Rate Formula",
+        "text": "We have $\\frac{dA}{dt} = 2\\pi r \\cdot \\frac{dr}{dt}$\\n\\nGiven: $\\frac{dA}{dt} = 100\\pi$ and $\\frac{dr}{dt} = 2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "calc-rate-001b-h2",
+        "type": "hint",
+        "dependencies": ["calc-rate-001b-h1"],
+        "title": "Solve for r",
+        "text": "$$100\\pi = 2\\pi r \\cdot 2$$\\n$$100\\pi = 4\\pi r$$\\n$$r = \\frac{100\\pi}{4\\pi} = 25$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "calc-rate-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["25"],
+        "dependencies": ["calc-rate-001b-h2"],
+        "title": "Final Answer",
+        "text": "The radius must be $r = 25$ metres for the area to increase at $100\\pi$ m$^2$/s.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

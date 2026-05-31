@@ -1,0 +1,17 @@
+{
+  "id": "phys-energy-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "7500",
+    "7 500",
+    "7500 W",
+    "7.5 kW"
+  ],
+  "stepExplanation": "Power is the rate of doing work:\n$$P = \\frac{W}{t} = \\frac{60000}{8} = 7500 \\text{ W} = 7.5 \\text{ kW}$$",
+  "stepTitle": "Calculate Power",
+  "stepBody": "Using P = W/t, calculate the power output. The work done is 60000 J and the time is 8 seconds. Give your answer in Watts."
+}

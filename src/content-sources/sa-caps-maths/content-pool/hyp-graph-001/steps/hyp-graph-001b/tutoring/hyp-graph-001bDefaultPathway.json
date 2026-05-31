@@ -1,0 +1,35 @@
+[
+    {
+        "id": "hyp-graph-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understand the Standard Form",
+        "text": "For a hyperbola $y = \\frac{a}{x - p} + q$:\n- The horizontal asymptote is $y = q$\n- This is the value $y$ approaches as $x \\to \\infty$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "hyp-graph-001b-h2",
+        "type": "hint",
+        "dependencies": ["hyp-graph-001b-h1"],
+        "title": "Identify q",
+        "text": "In $y = \\frac{3}{x - 2} + 1$:\n\nComparing with $y = \\frac{a}{x - p} + q$:\n- $a = 3$\n- $p = 2$\n- $q = 1$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "hyp-graph-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["y=1"],
+        "dependencies": ["hyp-graph-001b-h2"],
+        "title": "State the Horizontal Asymptote",
+        "text": "Since $q = 1$, the horizontal asymptote is $y = 1$.\n\nAs $x \\to \\infty$, $\\frac{3}{x-2} \\to 0$, so $y \\to 0 + 1 = 1$.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

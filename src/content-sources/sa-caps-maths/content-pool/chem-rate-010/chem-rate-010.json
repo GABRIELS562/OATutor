@@ -1,0 +1,15 @@
+{
+  "id": "chem-rate-010",
+  "title": "Factors Affecting Reaction Rate",
+  "body": "Zinc granules react with dilute hydrochloric acid according to the equation:\n\nZn(s) + 2HCl(aq) --> ZnCl$$_2$$(aq) + H$$_2$$(g)\n\nExplain how each of the following changes would affect the rate of the reaction:\n(a) Using zinc powder instead of zinc granules\n(b) Increasing the concentration of HCl",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["chem-reaction-rates"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/reaction-rates",
+  "license": "CC BY 4.0",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

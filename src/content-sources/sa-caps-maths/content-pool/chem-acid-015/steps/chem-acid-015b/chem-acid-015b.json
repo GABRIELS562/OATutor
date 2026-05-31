@@ -1,0 +1,15 @@
+{
+  "id": "chem-acid-015b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.075",
+    "0,075"
+  ],
+  "stepExplanation": "C(CH3COOH) = n/V = 0.0015 mol / 0.020 dm^3 = 0.075 mol/dm^3",
+  "stepTitle": "Calculate Acid Concentration",
+  "stepBody": "Using C = n/V, calculate the concentration of acetic acid in mol/dm^3."
+}

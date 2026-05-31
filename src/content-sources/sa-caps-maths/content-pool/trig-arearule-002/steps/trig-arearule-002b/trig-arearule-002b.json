@@ -1,0 +1,10 @@
+{
+    "id": "trig-arearule-002b",
+    "stepAnswer": ["53.1"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find Angle Q",
+    "stepBody": "Given that sin(Q) = 0.8, find the acute angle Q.\n\nRound to one decimal place.",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-area"]
+}

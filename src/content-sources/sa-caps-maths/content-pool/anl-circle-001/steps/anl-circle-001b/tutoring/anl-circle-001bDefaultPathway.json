@@ -1,0 +1,35 @@
+[
+    {
+        "id": "anl-circle-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Circle Equation Format",
+        "text": "The standard form of a circle equation with centre (a, b) and radius r is:\\n$$(x-a)^2 + (y-b)^2 = r^2$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "anl-circle-001b-h2",
+        "type": "hint",
+        "dependencies": ["anl-circle-001b-h1"],
+        "title": "Substitute Values",
+        "text": "Centre: (3, -2), so a = 3 and b = -2\\nRadius: r = 5, so $$r^2 = 25$$\\n\\n**Important:** $$(y-(-2)) = (y+2)$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "anl-circle-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(x-3)^2+(y+2)^2=25"],
+        "dependencies": ["anl-circle-001b-h2"],
+        "title": "Write the Equation",
+        "text": "$$(x-3)^2 + (y-(-2))^2 = 5^2$$\\n$$(x-3)^2 + (y+2)^2 = 25$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

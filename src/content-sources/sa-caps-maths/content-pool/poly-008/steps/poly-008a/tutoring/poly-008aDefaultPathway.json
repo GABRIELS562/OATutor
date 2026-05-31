@@ -1,0 +1,35 @@
+[
+    {
+        "id": "poly-008a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Testing x = 1",
+        "text": "$f(1) = (1)^3 - 7(1) + 6$\n$= 1 - 7 + 6$\n$= 0$ ✓\n\nSince $f(1) = 0$, $(x - 1)$ is a factor.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-008a-h2",
+        "type": "hint",
+        "dependencies": ["poly-008a-h1"],
+        "title": "Division Setup",
+        "text": "Note: Write $x^3 - 7x + 6$ as $x^3 + 0x^2 - 7x + 6$ to keep track of all terms.\n\nUsing synthetic division with 1:\n```\n1 | 1   0  -7   6\n  |     1   1  -6\n  |_____________\n    1   1  -6   0\n```",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-008a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(x - 1)"],
+        "dependencies": ["poly-008a-h2"],
+        "title": "The Factor",
+        "text": "$(x - 1)$ is a factor.\n\nThe quotient is $x^2 + x - 6$.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

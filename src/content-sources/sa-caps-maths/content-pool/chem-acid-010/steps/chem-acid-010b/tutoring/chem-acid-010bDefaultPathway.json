@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-acid-010b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "pH Formula",
+        "text": "The formula is pH = -log[H+]. You already calculated log[H+] = -3.60",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-010b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply the Negative Sign",
+        "text": "pH = -(-3.60) = 3.60. The negative of a negative gives a positive value.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-010b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Interpret the Result",
+        "text": "pH = 3.60 is less than 7, confirming this is an acidic solution. This makes sense given the relatively high [H+].",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "id": "anl-circ-010b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Reading Centre from Standard Form",
+        "text": "In the standard form $$(x-a)^2 + (y-b)^2 = r^2$$:\n- Centre is at (a, b)\n- Radius is r\n\nFrom $$(x-3)^2 + (y+2)^2 = 25$$:\n- a = 3\n- Note: (y+2) = (y-(-2)), so b = -2",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "anl-circ-010b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["5"],
+        "dependencies": ["anl-circ-010b-h1"],
+        "title": "Calculate Radius",
+        "text": "Since $$r^2 = 25$$, what is the radius r?\n\n$$r = \\sqrt{25} = ?$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    }
+]

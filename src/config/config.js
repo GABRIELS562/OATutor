@@ -1,5 +1,5 @@
 import React from "react";
-import courses from "../content-sources/oatutor/coursePlans.json";
+import courses from "../content-sources/sa-caps-maths/coursePlans.json";
 import { calculateSemester } from "../util/calculateSemester.js";
 
 import { SITE_NAME } from "@common/global-config";
@@ -14,13 +14,23 @@ const CURRENT_SEMESTER = calculateSemester(Date.now());
  * Default language for the platform
  * @type {string}
  */
-const DEFAULT_LANGUAGE = "en"; // Supported Options: 'en', 'es', 'se'
+const DEFAULT_LANGUAGE = "en"; // Supported Options: 'en', 'af' (English, Afrikaans)
 
 /**
  * Available languages for the platform
+ * South Africa: English and Afrikaans for bilingual support
  * @type {string[]}
  */
-const AVAILABLE_LANGUAGES = ["en", "es", "se"];
+const AVAILABLE_LANGUAGES = ["en", "af"];
+
+/**
+ * Language display names for UI
+ * @type {Object}
+ */
+const LANGUAGE_NAMES = {
+    en: "English",
+    af: "Afrikaans"
+};
 
 /**
  * If user does not access the website through Canvas, show a warning (for the first time).
@@ -39,7 +49,14 @@ const SHOW_COPYRIGHT = false;
  * feedback, user interactions, and site logs.
  * @type {boolean}
  */
-const ENABLE_FIREBASE = true;
+const ENABLE_FIREBASE = false; // Set to true once Firebase is configured
+
+/**
+ * Enable Supabase backend (FREE alternative to Firebase)
+ * Set REACT_APP_SUPABASE_URL and REACT_APP_SUPABASE_ANON_KEY in .env
+ * @type {boolean}
+ */
+const ENABLE_SUPABASE = true; // FREE: 500MB database, 50K MAU
 
 /**
  * If ENABLE_FIREBASE, indicates whether the site should use Firebase to store, process, and analyze general user
@@ -141,6 +158,7 @@ export {
     ThemeContext,
     SITE_VERSION,
     ENABLE_FIREBASE,
+    ENABLE_SUPABASE,
     DO_LOG_DATA,
     DO_LOG_MOUSE_DATA,
     AB_TEST_MODE,
@@ -168,6 +186,7 @@ export {
     DO_FOCUS_TRACKING,
     findLessonById,
     SHOW_NOT_CANVAS_WARNING,
-    DEFAULT_LANGUAGE, 
-    AVAILABLE_LANGUAGES
+    DEFAULT_LANGUAGE,
+    AVAILABLE_LANGUAGES,
+    LANGUAGE_NAMES
 };

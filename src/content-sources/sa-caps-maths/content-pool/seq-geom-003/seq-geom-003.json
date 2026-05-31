@@ -1,0 +1,10 @@
+{
+    "id": "seq-geom-003",
+    "title": "Convergent Geometric Series: Sum to Infinity",
+    "body": "Consider the geometric sequence: $18; 6; 2; \\frac{2}{3}; ...$\n\na) Show that the series converges and find the common ratio.\nb) Calculate the sum to infinity.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Sequences and Series",
+    "license": "CC BY 4.0",
+    "lesson": "Geometric Sequences",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

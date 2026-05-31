@@ -1,0 +1,10 @@
+{
+    "id": "alg-exponent-001a",
+    "stepAnswer": ["3^(x+2)*3^(2x)/3^(3x-3)", "3^(x+2).3^(2x)/3^(3x-3)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Express All Bases as Powers of 3",
+    "stepBody": "Note that $9 = 3^2$ and $27 = 3^3$.\\n\\nRewrite the expression with all terms as powers of 3.\\n\\nEnter as: 3^(x+2)*3^(2x)/3^(3x-3)",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["exponent-laws", "prime-bases"]
+}

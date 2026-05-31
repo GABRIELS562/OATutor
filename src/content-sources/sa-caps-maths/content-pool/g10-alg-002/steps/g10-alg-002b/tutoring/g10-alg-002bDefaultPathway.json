@@ -1,0 +1,35 @@
+[
+    {
+        "id": "g10-alg-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find the Second Value",
+        "text": "We need $b$ where $b^2 = 16$:\n\n$\\sqrt{16} = 4$\n\nSo $b = 4$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "g10-alg-002b-h2",
+        "type": "hint",
+        "dependencies": ["g10-alg-002b-h1"],
+        "title": "Apply the Formula",
+        "text": "Using $a^2 - b^2 = (a + b)(a - b)$ with $a = 3x$ and $b = 4$:\n\n$9x^2 - 16 = (3x)^2 - (4)^2 = (3x + 4)(3x - 4)$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "g10-alg-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(3x+4)(3x-4)"],
+        "dependencies": ["g10-alg-002b-h2"],
+        "title": "Verify the Answer",
+        "text": "Check by expanding: $(3x + 4)(3x - 4)$\n\n$= 9x^2 - 12x + 12x - 16$\n$= 9x^2 - 16$ \\checkmark\n\nThe factorised form is $(3x + 4)(3x - 4)$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

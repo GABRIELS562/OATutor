@@ -1,0 +1,10 @@
+{
+    "id": "ineq-linear-002",
+    "title": "Inequality with Negative Coefficient",
+    "body": "Solve the following inequality:\n\n$$-2x + 6 \\geq 10$$\n\nRemember: When dividing by a negative number, the inequality sign reverses!",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 10)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Equations and Inequalities",
+    "courseName": "CAPS Grade 10 Mathematics"
+}

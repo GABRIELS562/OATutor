@@ -1,0 +1,35 @@
+[
+    {
+        "id": "poly-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understanding the Factor Theorem",
+        "text": "The Factor Theorem says: $(x - a)$ is a factor of polynomial $f(x)$ if and only if $f(a) = 0$.\n\nSince we're testing $(x - 2)$, we need $a = 2$.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-001a-h2",
+        "type": "hint",
+        "dependencies": ["poly-001a-h1"],
+        "title": "Substitute Step by Step",
+        "text": "Calculate $f(2) = (2)^3 - 4(2)^2 + (2) + 6$:\n\n- $(2)^3 = 8$\n- $4(2)^2 = 4 \\times 4 = 16$\n- So: $f(2) = 8 - 16 + 2 + 6$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": ["0"],
+        "dependencies": ["poly-001a-h2"],
+        "title": "Complete the Calculation",
+        "text": "$f(2) = 8 - 16 + 2 + 6 = -8 + 8 = 0$\n\nSince $f(2) = 0$, by the Factor Theorem, $(x - 2)$ IS a factor of $f(x)$.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

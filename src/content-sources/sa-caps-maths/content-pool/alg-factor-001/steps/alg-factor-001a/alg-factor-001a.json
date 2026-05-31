@@ -1,0 +1,10 @@
+{
+    "id": "alg-factor-001a",
+    "stepAnswer": ["3 and 4", "3, 4", "4 and 3", "4, 3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find Two Numbers",
+    "stepBody": "To factorise $x^2 + 7x + 12$, we need two numbers that:\n- Multiply to give 12 (the constant term)\n- Add to give 7 (the coefficient of $x$)\n\nWhat are these two numbers? (Enter as: a and b)",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "trinomials"]
+}

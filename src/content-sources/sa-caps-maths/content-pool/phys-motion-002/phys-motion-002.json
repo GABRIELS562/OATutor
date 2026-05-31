@@ -1,0 +1,14 @@
+{
+  "id": "phys-motion-002",
+  "title": "Equations of Motion - Displacement",
+  "body": "A motorcycle travelling at 20 m/s applies brakes and decelerates uniformly at 4 m/s² until it comes to rest. Calculate the displacement of the motorcycle during braking.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-kinematics"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-nerv-010a-h1",
+    "type": "hint",
+    "title": "Ion Distribution at Rest",
+    "text": "At rest, the neuron maintains higher Na+ concentration outside and higher K+ concentration inside (maintained by the sodium-potassium pump). This creates the resting potential of -70mV. When stimulated, specific ion channels open.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/the-human-nervous-system",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-nerv-010a-h2",
+    "type": "hint",
+    "title": "Voltage-Gated Channels",
+    "text": "Voltage-gated channels open in response to changes in membrane potential. Sodium channels open first at threshold. Sodium ions carry a positive charge, so when they enter the cell, the inside becomes more positive - this is called depolarisation (DE-polarisation = removing the negative polarity).",
+    "variabilization": {},
+    "dependencies": ["bio-nerv-010a-h1"],
+    "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/the-human-nervous-system",
+    "license": "CC BY 4.0"
+  }
+]

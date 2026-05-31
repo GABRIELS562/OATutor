@@ -1,0 +1,14 @@
+{
+  "id": "phys-energy-001",
+  "title": "Work, Energy and Power - Kinetic Energy",
+  "body": "A 1200 kg car is travelling at 25 m/s. Calculate the kinetic energy of the car.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-energy"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

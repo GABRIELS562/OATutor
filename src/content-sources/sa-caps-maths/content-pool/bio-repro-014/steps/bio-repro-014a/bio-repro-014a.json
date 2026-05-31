@@ -1,0 +1,20 @@
+{
+    "id": "bio-repro-014a",
+    "type": "scaffold",
+    "problemType": "MultipleChoice",
+    "answerType": "string",
+    "hpiVariables": [],
+    "variabilization": {},
+    "stepAnswer": [
+        "They are kept separate by the placental barrier"
+    ],
+    "stepExplanation": "Maternal and fetal blood do NOT mix. They are separated by the placental barrier (thin membrane). Substances diffuse across this barrier between the two blood supplies. This protects the fetus from some harmful substances and immune rejection.",
+    "stepTitle": "Blood Separation",
+    "stepBody": "How are maternal and fetal blood related in the placenta?",
+    "choices": [
+        "They mix freely",
+        "They are kept separate by the placental barrier",
+        "Only fetal blood flows through the placenta",
+        "Only maternal blood flows through the placenta"
+    ]
+}

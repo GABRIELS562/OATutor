@@ -1,0 +1,35 @@
+[
+    {
+        "id": "para-turn-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understand the Form",
+        "text": "In the form $y = a(x - p)^2 + q$:\n- The turning point is at $(p; q)$\n- $a$ determines if it opens up ($a > 0$) or down ($a < 0$)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "para-turn-003b-h2",
+        "type": "hint",
+        "dependencies": ["para-turn-003b-h1"],
+        "title": "Extract p and q",
+        "text": "From $y = -2(x - 2)^2 + 2$:\n- $p = 2$ (note: $x - p = x - 2$)\n- $q = 2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "para-turn-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(2;2)"],
+        "dependencies": ["para-turn-003b-h2"],
+        "title": "State the Turning Point",
+        "text": "The turning point is $(2; 2)$.\n\nSince $a = -2 < 0$, this is a maximum turning point and the parabola opens downward.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

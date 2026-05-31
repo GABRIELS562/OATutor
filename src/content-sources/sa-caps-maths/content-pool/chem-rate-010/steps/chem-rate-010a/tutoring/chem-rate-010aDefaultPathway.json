@@ -1,0 +1,36 @@
+[
+  {
+    "id": "chem-rate-010a-h1",
+    "type": "hint",
+    "title": "Surface Area and Particle Size",
+    "text": "When a solid is broken into smaller pieces, the total surface area increases. Think of a sugar cube versus powdered sugar - the powder has much more surface exposed.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/reaction-rates",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "chem-rate-010a-h2",
+    "type": "hint",
+    "title": "Collision Theory",
+    "text": "For a reaction to occur, particles must collide with sufficient energy and correct orientation. More surface area = more particles available for collision = more effective collisions per second.",
+    "variabilization": {},
+    "dependencies": ["chem-rate-010a-h1"],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/reaction-rates",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "chem-rate-010a-h3",
+    "type": "scaffold",
+    "problemType": "MultipleChoice",
+    "answerType": "string",
+    "hintAnswer": ["surface area increases"],
+    "title": "Particle Size Effect",
+    "text": "When zinc granules are ground into powder, what happens to the total surface area?",
+    "variabilization": {},
+    "dependencies": ["chem-rate-010a-h2"],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/reaction-rates",
+    "license": "CC BY 4.0",
+    "choices": ["surface area increases", "surface area decreases", "surface area stays the same", "zinc melts"]
+  }
+]

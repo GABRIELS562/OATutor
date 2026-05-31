@@ -1,0 +1,19 @@
+{
+  "id": "phys-mom-020",
+  "title": "Conservation of Momentum - Collision",
+  "body": "A trolley A of mass 4 kg moving at 6 m/s to the right collides with trolley B of mass 2 kg moving at 3 m/s to the left. After the collision, they stick together and move as one object. Taking rightward as positive, calculate: (a) the total momentum before the collision, and (b) the velocity of the combined trolleys after the collision.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-momentum"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "Siyavula Physical Sciences Grade 12 - Momentum and Impulse",
+  "license": "CC BY 4.0",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

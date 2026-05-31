@@ -1,0 +1,35 @@
+[
+    {
+        "id": "geo-prop-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Similar Triangle Ratios",
+        "text": "In similar triangles, corresponding sides are in the same ratio.\n\nSince PQ corresponds to LM:\n$$\\frac{PQ}{LM} = \\frac{KP}{KL}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "geo-prop-002b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["15"],
+        "dependencies": ["geo-prop-002b-h1"],
+        "title": "Calculate KL",
+        "text": "KL = KP + PL = 6 + 9 = ?",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "geo-prop-002b-h3",
+        "type": "hint",
+        "dependencies": ["geo-prop-002b-h2"],
+        "title": "Final Ratio",
+        "text": "$$\\frac{PQ}{LM} = \\frac{KP}{KL} = \\frac{6}{15} = \\frac{2}{5}$$\n\nTherefore, PQ:LM = 2:5",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    }
+]

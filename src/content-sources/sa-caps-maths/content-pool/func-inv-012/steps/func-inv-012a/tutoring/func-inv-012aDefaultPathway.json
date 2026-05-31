@@ -1,0 +1,36 @@
+[
+    {
+        "id": "func-inv-012a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "The Relationship Between Exponentials and Logarithms",
+        "text": "The exponential function $y = a^x$ and the logarithmic function $y = \\log_a(x)$ are inverses of each other.\n\nThis means:\n- If $y = a^x$, then $x = \\log_a(y)$\n- The graphs are reflections of each other in the line $y = x$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-inv-012a-h2",
+        "type": "hint",
+        "dependencies": ["func-inv-012a-h1"],
+        "title": "Converting Between Forms",
+        "text": "Starting with $y = 2^x$:\n\n1. Swap $x$ and $y$: $x = 2^y$\n2. Solve for $y$ using logarithms: $y = \\log_2(x)$\n\nTherefore $f^{-1}(x) = \\log_2(x)$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-inv-012a-h3",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": ["log_2(x)"],
+        "dependencies": ["func-inv-012a-h2"],
+        "title": "Identify the Correct Inverse",
+        "text": "What is the inverse of $f(x) = 2^x$?",
+        "choices": ["log_2(x)", "2^x", "x^2", "ln(x)"],
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

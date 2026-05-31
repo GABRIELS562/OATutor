@@ -1,0 +1,10 @@
+{
+    "id": "fin-comp-003b",
+    "stepAnswer": ["6.94 years", "7 years", "n = 6.94", "approximately 7 years"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Solve for n Using Logarithms",
+    "stepBody": "Solve $2 = (1.105)^n$ using logarithms.\n\nRecall: If $a = b^n$, then $n = \\frac{\\log a}{\\log b}$\n\nHow long will it take for the investment to double (to 2 decimal places)?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["compound-interest", "logarithms", "solving-exponentials"]
+}

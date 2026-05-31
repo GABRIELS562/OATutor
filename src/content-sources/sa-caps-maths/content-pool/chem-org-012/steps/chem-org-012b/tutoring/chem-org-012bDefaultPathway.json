@@ -1,0 +1,41 @@
+[
+  {
+    "id": "chem-org-012b-h1",
+    "type": "hint",
+    "title": "Bromine Water Test",
+    "text": "The bromine water test is used to distinguish between saturated and unsaturated compounds. Unsaturated compounds (with C=C bonds) will decolourise bromine water.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "chem-org-012b-h2",
+    "type": "hint",
+    "title": "Why Decolourisation Occurs",
+    "text": "The reddish-brown colour comes from Br$$_2$$ molecules. When Br$$_2$$ adds across the C=C double bond, the Br$$_2$$ is consumed and the solution loses its colour.",
+    "variabilization": {},
+    "dependencies": ["chem-org-012b-h1"],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "chem-org-012b-h3",
+    "type": "scaffold",
+    "problemType": "MultipleChoice",
+    "answerType": "string",
+    "hintAnswer": ["alkanes do not decolourise bromine water"],
+    "title": "Comparing Saturated and Unsaturated",
+    "text": "What happens when bromine water is added to an alkane (saturated compound)?",
+    "variabilization": {},
+    "dependencies": ["chem-org-012b-h2"],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+    "license": "CC BY 4.0",
+    "choices": [
+      "alkanes decolourise bromine water quickly",
+      "alkanes do not decolourise bromine water",
+      "alkanes turn bromine water blue",
+      "alkanes produce a precipitate"
+    ]
+  }
+]

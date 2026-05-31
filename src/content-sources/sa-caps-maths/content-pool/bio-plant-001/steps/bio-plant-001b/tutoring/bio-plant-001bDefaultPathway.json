@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-plant-001b-h1",
+    "type": "hint",
+    "title": "Auxin and Cell Elongation",
+    "text": "In stems, auxin promotes cell elongation. Cells on the side with more auxin will elongate more, causing that side to become longer.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-plant-001b-h2",
+    "type": "hint",
+    "title": "Differential Growth",
+    "text": "When one side of a stem grows faster than the other, the stem bends. If the shaded side grows more (longer), the stem curves towards the shorter (lit) side - bending towards the light.",
+    "variabilization": {},
+    "dependencies": ["bio-plant-001b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "dna-trans-001a-h1",
+    "type": "hint",
+    "title": "RNA vs DNA",
+    "text": "RNA differs from DNA in three ways: it is single-stranded, contains ribose sugar, and has Uracil (U) instead of Thymine (T).",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "dna-trans-001a-h2",
+    "type": "hint",
+    "title": "Complementary Base Pairing",
+    "text": "Purines pair with pyrimidines: A pairs with U (in RNA) or T (in DNA), and G always pairs with C.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

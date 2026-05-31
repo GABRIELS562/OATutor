@@ -1,0 +1,16 @@
+{
+  "id": "phys-optics-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "sin θc = n₂/n₁",
+    "sin θc = n2/n1",
+    "sinθc = n2/n1"
+  ],
+  "stepExplanation": "At the critical angle, the refracted ray travels along the boundary (θ₂ = 90°). Using Snell's Law:\n$$n_1 \\sin\\theta_c = n_2 \\sin 90°$$\n$$\\sin\\theta_c = \\frac{n_2}{n_1}$$\nwhere n₁ is the denser medium and n₂ is the less dense medium.",
+  "stepTitle": "State the Critical Angle Formula",
+  "stepBody": "Write down the formula for calculating the critical angle (θc) using the refractive indices."
+}

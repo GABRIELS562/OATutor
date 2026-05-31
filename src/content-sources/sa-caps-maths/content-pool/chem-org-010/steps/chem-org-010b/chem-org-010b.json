@@ -1,0 +1,17 @@
+{
+  "id": "chem-org-010b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "pent-2-ene",
+    "Pent-2-ene",
+    "2-pentene",
+    "trans-pent-2-ene"
+  ],
+  "stepExplanation": "The compound is pent-2-ene. It has 5 carbons (pent-), a double bond (-ene) at position 2. Number from the end that gives the lowest position to the double bond.",
+  "stepTitle": "Complete the IUPAC Name",
+  "stepBody": "The chain has 5 carbons and contains a C=C double bond. Number the chain from the end nearest the double bond and write the complete IUPAC name."
+}

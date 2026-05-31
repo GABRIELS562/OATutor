@@ -1,0 +1,15 @@
+{
+  "id": "chem-titration-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.002",
+    "2 × 10⁻³"
+  ],
+  "stepExplanation": "n = 0.1 × 0.020 = 0.002 mol",
+  "stepTitle": "Moles of HCl",
+  "stepBody": "Calculate moles of HCl using n = CV (convert cm³ to dm³)."
+}

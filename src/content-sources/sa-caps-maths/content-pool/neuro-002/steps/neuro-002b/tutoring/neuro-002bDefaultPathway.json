@@ -1,0 +1,22 @@
+[
+  {
+    "id": "neuro-002b-h1",
+    "type": "hint",
+    "title": "Broca's Area",
+    "text": "Broca's area in the frontal lobe controls speech production. Damage causes Broca's aphasia - the patient understands language but cannot speak fluently.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "neuro-002b-h2",
+    "type": "hint",
+    "title": "Wernicke's Area",
+    "text": "Wernicke's area in the temporal lobe is responsible for language comprehension. Damage causes Wernicke's aphasia - fluent but meaningless speech and difficulty understanding others.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

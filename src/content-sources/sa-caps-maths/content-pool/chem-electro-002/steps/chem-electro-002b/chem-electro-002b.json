@@ -1,0 +1,16 @@
+{
+  "id": "chem-electro-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "1.56",
+    "1,56",
+    "+1.56"
+  ],
+  "stepExplanation": "E°cell = E°cathode - E°anode = E°(Ag⁺/Ag) - E°(Zn²⁺/Zn) = 0.80 - (-0.76) = 0.80 + 0.76 = 1.56 V",
+  "stepTitle": "Standard EMF of the Cell",
+  "stepBody": "Calculate E°cell using E°cell = E°cathode - E°anode. Give your answer in volts."
+}

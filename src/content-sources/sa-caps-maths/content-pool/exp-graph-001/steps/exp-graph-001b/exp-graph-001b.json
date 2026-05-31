@@ -1,0 +1,10 @@
+{
+    "id": "exp-graph-001b",
+    "stepAnswer": ["y=3(3)^x-2", "y = 3(3)^x - 2", "y=3*3^x-2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find b and Write the Complete Equation",
+    "stepBody": "Using $a = 3$, $q = -2$, and the point $(1, 7)$, find $b$ and write the equation.\n\nWrite the complete equation:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["exponential-graph", "substitution"]
+}

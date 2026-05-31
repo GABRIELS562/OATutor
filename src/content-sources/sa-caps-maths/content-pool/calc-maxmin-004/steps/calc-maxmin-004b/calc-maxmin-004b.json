@@ -1,0 +1,10 @@
+{
+    "id": "calc-maxmin-004b",
+    "stepAnswer": ["80", "80m", "80 metres"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find Maximum Height",
+    "stepBody": "The maximum height occurs when velocity equals zero (momentarily at rest).\n\nSet $v(t) = 0$ to find when this occurs, then calculate $h$ at that time.\n\nWhat is the maximum height reached (in metres)?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["optimization", "rate-of-change", "stationary-points"]
+}

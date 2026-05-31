@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-roc-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute t = 4",
+        "text": "Using $P'(t) = 24 + 6t$:\n\n$P'(4) = 24 + 6(4)$\n\n$P'(4) = 24 + 24$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-roc-001b-h2",
+        "type": "hint",
+        "dependencies": ["calc-roc-001b-h1"],
+        "title": "Interpret the Result",
+        "text": "$P'(4) = 48$\n\nSince $P$ is measured in thousands, this means the population is increasing at a rate of 48 thousand bacteria per hour.",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-roc-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["48"],
+        "dependencies": ["calc-roc-001b-h2"],
+        "title": "Final Answer",
+        "text": "The rate of population growth after 4 hours is 48 thousand per hour (or 48,000 bacteria per hour).\n\nNote: The rate is increasing over time (since $P''(t) = 6 > 0$), meaning the population growth is accelerating.",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

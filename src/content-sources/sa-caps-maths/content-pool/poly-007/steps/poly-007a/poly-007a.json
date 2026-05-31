@@ -1,0 +1,10 @@
+{
+    "id": "poly-007a",
+    "stepAnswer": ["a + b = 11", "a + b = 11, -4a + 2b = 4", "1 + a + b - 12 = 0"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Form Equations Using the Factor Theorem",
+    "stepBody": "Since $(x - 1)$ is a factor, $f(1) = 0$:\n$$f(1) = (1)^3 + a(1)^2 + b(1) - 12 = 0$$\n$$1 + a + b - 12 = 0$$\n\nSimplify this equation.\n\nAlso, since $(x + 2)$ is a factor, $f(-2) = 0$:\n$$f(-2) = (-2)^3 + a(-2)^2 + b(-2) - 12 = 0$$\n\nWhat equation do you get from $f(1) = 0$?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factor-theorem", "simultaneous-equations", "algebraic-manipulation"]
+}

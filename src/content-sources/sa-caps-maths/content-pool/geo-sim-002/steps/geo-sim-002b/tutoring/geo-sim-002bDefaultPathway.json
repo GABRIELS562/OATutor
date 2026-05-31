@@ -1,0 +1,38 @@
+[
+    {
+        "id": "geo-sim-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Basic Proportionality Theorem",
+        "text": "If a line is drawn parallel to one side of a triangle, it divides the other two sides proportionally.\n\n$$\\frac{PS}{SQ} = \\frac{PT}{TR}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "geo-sim-002b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["0.667"],
+        "dependencies": ["geo-sim-002b-h1"],
+        "title": "Calculate the Ratio",
+        "text": "$$\\frac{PS}{SQ} = \\frac{4}{6} = \\frac{2}{3}$$\n\nWhat is 4 divided by 6 (to 3 decimal places)?",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "geo-sim-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["7.5"],
+        "dependencies": ["geo-sim-002b-h2"],
+        "title": "Solve for TR",
+        "text": "$$\\frac{4}{6} = \\frac{5}{TR}$$\n\nCross multiply: $$4 \\times TR = 6 \\times 5$$\n\n$$TR = \\frac{30}{4} = ?$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    }
+]

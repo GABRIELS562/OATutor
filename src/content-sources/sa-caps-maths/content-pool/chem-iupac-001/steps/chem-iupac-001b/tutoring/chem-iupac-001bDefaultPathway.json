@@ -1,0 +1,22 @@
+[
+  {
+    "id": "chem-iupac-001b-h1",
+    "type": "hint",
+    "title": "Carbon Chain Length",
+    "text": "Count the carbons: CH₃-CH₂-CH₂-OH has 3 carbons. 3 carbons = 'prop'",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "chem-iupac-001b-h2",
+    "type": "hint",
+    "title": "Alcohol Suffix",
+    "text": "Alcohols end in '-ol'. The -OH is on carbon 1, so it's propan-1-ol.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

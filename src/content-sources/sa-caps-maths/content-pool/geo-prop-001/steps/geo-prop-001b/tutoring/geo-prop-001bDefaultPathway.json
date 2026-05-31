@@ -1,0 +1,25 @@
+[
+    {
+        "id": "geo-prop-001b-h1",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["8"],
+        "dependencies": [],
+        "title": "Calculate AB",
+        "text": "AB = AD + DB = 3 + 5 = ?",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "geo-prop-001b-h2",
+        "type": "hint",
+        "dependencies": ["geo-prop-001b-h1"],
+        "title": "Express as Ratio",
+        "text": "$$\\frac{AD}{AB} = \\frac{3}{8}$$\n\nAs a ratio: AD:AB = 3:8\n\nThis ratio is already in simplest form.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    }
+]

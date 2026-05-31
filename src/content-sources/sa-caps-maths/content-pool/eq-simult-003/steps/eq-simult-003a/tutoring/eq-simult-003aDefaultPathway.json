@@ -1,0 +1,35 @@
+[
+    {
+        "id": "eq-simult-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Translate Sum",
+        "text": "\"The sum of two numbers is 15\" means:\n\n$x + y = 15$ ... equation (1)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "eq-simult-003a-h2",
+        "type": "hint",
+        "dependencies": ["eq-simult-003a-h1"],
+        "title": "Translate Difference",
+        "text": "\"Their difference is 3\" means (larger minus smaller):\n\n$x - y = 3$ ... equation (2)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "eq-simult-003a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x+y=15 and x-y=3"],
+        "dependencies": ["eq-simult-003a-h2"],
+        "title": "The Two Equations",
+        "text": "The simultaneous equations are:\n\n$x + y = 15$\n$x - y = 3$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

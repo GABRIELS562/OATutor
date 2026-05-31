@@ -1,0 +1,12 @@
+{
+  "id": "g11-func-003b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": ["y = 1", "1"],
+  "stepExplanation": "The horizontal asymptote is y = q. In g(x) = 3/(x - 2) + 1, we have q = 1, so the horizontal asymptote is y = 1. As x approaches infinity, 3/(x-2) approaches 0, leaving only y = 1.",
+  "stepTitle": "Find the horizontal asymptote",
+  "stepBody": "For the hyperbola g(x) = 3/(x - 2) + 1, what is the equation of the horizontal asymptote?"
+}

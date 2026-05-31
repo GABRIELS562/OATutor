@@ -1,0 +1,10 @@
+{
+    "id": "func-hyp-001",
+    "title": "Hyperbola: Finding Asymptotes and Intercepts",
+    "body": "Given the hyperbola function:\\n\\n$$f(x) = \\frac{3}{x-2} + 1$$\\n\\na) Find the equations of the asymptotes.\\nb) Find the x-intercept and y-intercept.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 11)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Functions - Hyperbola",
+    "courseName": "CAPS Grade 11 Mathematics"
+}

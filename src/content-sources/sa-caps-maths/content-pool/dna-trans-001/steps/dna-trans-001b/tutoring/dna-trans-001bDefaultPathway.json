@@ -1,0 +1,22 @@
+[
+  {
+    "id": "dna-trans-001b-h1",
+    "type": "hint",
+    "title": "Antiparallel Strands",
+    "text": "DNA and RNA strands are antiparallel. If the template is 3' to 5', the mRNA will be 5' to 3'. RNA polymerase always synthesizes in the 5' to 3' direction.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "dna-trans-001b-h2",
+    "type": "hint",
+    "title": "Step-by-Step Conversion",
+    "text": "T->A, A->U, C->G, G->C, G->C, A->U, T->A, C->G, A->U, A->U, T->A, T->A gives AUGCCUAGUUAA.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "id": "chem-acid-014b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "3.16 x 10^-5",
+    "3.2 x 10^-5"
+  ],
+  "stepExplanation": "[H+] = 10^(-4.5) = 10^(-5) x 10^(0.5) = 10^(-5) x 3.16 = 3.16 x 10^-5 mol/dm^3",
+  "stepTitle": "Calculate [H+]",
+  "stepBody": "Using [H+] = 10^(-pH) or antilog(-pH), calculate the hydrogen ion concentration in mol/dm^3."
+}

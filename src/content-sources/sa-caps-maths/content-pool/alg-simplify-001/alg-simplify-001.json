@@ -1,0 +1,10 @@
+{
+    "id": "alg-simplify-001",
+    "title": "Simplifying Algebraic Expressions with Exponents",
+    "body": "Simplify the following expression:\n\n$$\\frac{3x^2y^3 \\times 2x^3y}{6x^4y^2}$$",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 10)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Algebraic Simplification",
+    "courseName": "CAPS Grade 10 Mathematics"
+}

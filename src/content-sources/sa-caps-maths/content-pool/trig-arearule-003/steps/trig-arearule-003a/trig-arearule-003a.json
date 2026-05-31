@@ -1,0 +1,10 @@
+{
+    "id": "trig-arearule-003a",
+    "stepAnswer": ["5100"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Set Up the Calculation",
+    "stepBody": "Using the Area Rule: Area = ½ab·sin(C)\n\nCalculate ½ × 120 × 85.\n\nWhat is this value?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-area"]
+}

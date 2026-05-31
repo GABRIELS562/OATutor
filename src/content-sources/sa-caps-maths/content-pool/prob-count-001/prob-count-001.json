@@ -1,0 +1,10 @@
+{
+    "id": "prob-count-001",
+    "title": "Counting Principles: Permutations",
+    "body": "A committee of 5 people must be arranged in a row for a photograph. The chairperson must be in the centre position.\\n\\na) In how many ways can the remaining 4 people be arranged?\\nb) If two specific members refuse to sit next to each other, how many valid arrangements are there?",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Counting and Probability",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

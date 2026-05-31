@@ -1,0 +1,16 @@
+{
+  "id": "bio-genetics-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "TT, Tt, Tt, tt",
+    "TT,Tt,Tt,tt",
+    "TT, Tt, tT, tt"
+  ],
+  "stepExplanation": "The Punnett square gives: TT, Tt, Tt, tt (or written as 1 TT : 2 Tt : 1 tt)",
+  "stepTitle": "Complete the Punnett Square",
+  "stepBody": "In a Punnett square for Tt × Tt, what are the four possible genotypes of offspring? (List them separated by commas)"
+}

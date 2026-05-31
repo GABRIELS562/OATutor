@@ -1,0 +1,17 @@
+{
+  "id": "bio-plant-002",
+  "title": "Geotropism - Plant Response to Gravity",
+  "body": "Geotropism (gravitropism) is the growth response of plants to gravity. Roots grow downward (positive geotropism) while shoots grow upward (negative geotropism). Explain how auxin causes these opposite responses.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-hormones"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

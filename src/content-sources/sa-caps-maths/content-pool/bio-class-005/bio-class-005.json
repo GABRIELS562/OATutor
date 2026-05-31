@@ -1,0 +1,17 @@
+{
+  "id": "bio-class-005",
+  "title": "South African Biodiversity Hotspots",
+  "body": "South Africa is one of the most biodiverse countries in the world, containing two of the world's 36 biodiversity hotspots. Describe the Cape Floristic Region and explain why it is unique.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-classification"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 11 Life Sciences"
+}

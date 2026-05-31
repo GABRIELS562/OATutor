@@ -1,0 +1,16 @@
+{
+  "id": "bio-photosyn-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "10",
+    "10 G3P",
+    "10 molecules"
+  ],
+  "stepExplanation": "Of the 12 G3P molecules produced:\n- **2 G3P** molecules (containing 6 carbons total) exit to form 1 glucose molecule (C6H12O6)\n- **10 G3P** molecules are recycled to regenerate RuBP (the 5-carbon acceptor molecule)\n\nThis ensures the cycle can continue capturing more CO2.",
+  "stepTitle": "G3P Used for RuBP Regeneration",
+  "stepBody": "If 2 G3P molecules are used to make one glucose molecule, how many of the 12 G3P molecules are used to regenerate RuBP?"
+}

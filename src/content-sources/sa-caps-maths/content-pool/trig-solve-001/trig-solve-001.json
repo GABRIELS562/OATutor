@@ -1,0 +1,10 @@
+{
+    "id": "trig-solve-001",
+    "title": "Solving Trigonometric Equations",
+    "body": "Solve for $\\theta$ where $0° \\leq \\theta \\leq 360°$:\\n\\n$$2\\cos\\theta + 1 = 0$$",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 2 (Grade 11)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Trigonometric Equations",
+    "courseName": "CAPS Grade 11 Mathematics"
+}

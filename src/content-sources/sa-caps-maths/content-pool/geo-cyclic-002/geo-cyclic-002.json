@@ -1,0 +1,17 @@
+{
+  "id": "geo-cyclic-002",
+  "title": "Cyclic Quadrilateral Properties",
+  "body": "ABCD is a cyclic quadrilateral with ∠A = 75° and ∠B = 110°. Calculate ∠C and ∠D.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "geo-cyclic-quad"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

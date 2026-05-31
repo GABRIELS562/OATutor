@@ -1,0 +1,61 @@
+[
+    {
+        "id": "trig-double-010b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Three Forms of cos 2A",
+        "text": "The double angle formula for cosine has THREE equivalent forms:\n1. $$\\cos 2A = \\cos^2 A - \\sin^2 A$$\n2. $$\\cos 2A = 2\\cos^2 A - 1$$\n3. $$\\cos 2A = 1 - 2\\sin^2 A$$\n\nChoose the form that best suits the given information.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-double-010b-h2",
+        "type": "hint",
+        "dependencies": ["trig-double-010b-h1"],
+        "title": "Choose the Best Formula",
+        "text": "Since we know both sin theta = 3/5 and cos theta = 4/5, we can use the first form:\n$$\\cos 2\\theta = \\cos^2\\theta - \\sin^2\\theta$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-double-010b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["16/25"],
+        "dependencies": ["trig-double-010b-h2"],
+        "title": "Calculate cos^2 theta",
+        "text": "Calculate $$\\cos^2\\theta = \\left(\\frac{4}{5}\\right)^2 = ?$$\n\nEnter as a fraction.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-double-010b-h4",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["9/25"],
+        "dependencies": ["trig-double-010b-h3"],
+        "title": "Calculate sin^2 theta",
+        "text": "Calculate $$\\sin^2\\theta = \\left(\\frac{3}{5}\\right)^2 = ?$$\n\nEnter as a fraction.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-double-010b-h5",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["7/25"],
+        "dependencies": ["trig-double-010b-h4"],
+        "title": "Final Calculation",
+        "text": "$$\\cos 2\\theta = \\frac{16}{25} - \\frac{9}{25} = \\frac{7}{25}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

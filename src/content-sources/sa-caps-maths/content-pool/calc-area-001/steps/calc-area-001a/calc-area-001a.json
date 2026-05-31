@@ -1,0 +1,10 @@
+{
+    "id": "calc-area-001a",
+    "stepAnswer": ["integral from 0 to 2 of (4-x^2) dx + integral from 2 to 3 of (x^2-4) dx", "-integral(x^2-4,0,2)+integral(x^2-4,2,3)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Set Up the Integral",
+    "stepBody": "The curve $f(x) = x^2 - 4$ crosses the x-axis. To find the total area between the curve and the x-axis from $x = 0$ to $x = 3$, we need to account for regions above and below the axis.\\n\\nFirst, find where $f(x) = 0$, then describe how to set up the integral for the total area.",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["integration", "area-under-curve"]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "bio-repro-014",
+  "title": "Placenta Structure and Function",
+  "body": "The placenta is a vital organ that develops during pregnancy. It serves as the interface between mother and fetus. Explain the structure and functions of the placenta.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-pregnancy",
+        "bio-hormones"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

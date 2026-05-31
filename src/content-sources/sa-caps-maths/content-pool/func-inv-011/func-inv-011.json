@@ -1,0 +1,10 @@
+{
+    "id": "func-inv-011",
+    "title": "Inverse of a Quadratic Function with Restricted Domain",
+    "body": "Consider the function $f(x) = x^2 - 4$ where $x \\geq 0$.\n\n(a) Find the inverse function $f^{-1}(x)$.\n\n(b) State the domain and range of $f^{-1}(x)$.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Functions Chapter 3.2",
+    "license": "CC BY 4.0 - Creative Commons Attribution",
+    "lesson": "3.2 Inverse Functions",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

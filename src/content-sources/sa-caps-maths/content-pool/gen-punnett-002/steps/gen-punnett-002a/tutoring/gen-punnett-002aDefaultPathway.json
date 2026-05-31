@@ -1,0 +1,22 @@
+[
+  {
+    "id": "gen-punnett-002a-h1",
+    "type": "hint",
+    "title": "Law of Independent Assortment",
+    "text": "Mendel's Law of Independent Assortment states that alleles of different genes separate independently during gamete formation. Each gamete gets one allele from each gene.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "gen-punnett-002a-h2",
+    "type": "hint",
+    "title": "FOIL Method for Gametes",
+    "text": "For BbSs: First allele B can combine with S or s (giving BS, Bs). Second allele b can combine with S or s (giving bS, bs).",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

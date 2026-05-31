@@ -1,0 +1,10 @@
+{
+    "id": "alg-fact-001a",
+    "stepAnswer": ["3x", "3x"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Highest Common Factor (HCF)",
+    "stepBody": "Look at each term: $6x^3$, $-9x^2$, $12x$\n\nTo find the HCF:\n- Find the HCF of the coefficients: 6, 9, 12\n- Find the lowest power of $x$ that appears in all terms\n\nWhat is the HCF of all three terms?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "common-factor", "HCF"]
+}

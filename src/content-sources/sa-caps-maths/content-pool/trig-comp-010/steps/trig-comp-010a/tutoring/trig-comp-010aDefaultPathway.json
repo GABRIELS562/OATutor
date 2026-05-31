@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-comp-010a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Special Angles Review",
+        "text": "The special angles are: 0°, 30°, 45°, 60°, 90°. We need to express 15° using these angles.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-comp-010a-h2",
+        "type": "hint",
+        "dependencies": ["trig-comp-010a-h1"],
+        "title": "Finding the Difference",
+        "text": "Look for two special angles whose difference equals 15°:\n- 45° - 30° = 15° (both are special angles)\n- 60° - 45° = 15° (both are special angles too!)\n\nEither combination works, but 45° - 30° is commonly used.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-comp-010a-h3",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": ["45° - 30°"],
+        "dependencies": ["trig-comp-010a-h2"],
+        "title": "Confirm the Expression",
+        "text": "$$15° = 45° - 30°$$\n\nWe will use the compound angle formula for sin(A - B).",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

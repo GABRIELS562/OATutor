@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-wave-010b-h1",
+    "type": "hint",
+    "title": "Wave Equation",
+    "text": "The fundamental wave equation relates speed (v), frequency (f), and wavelength: v = f times wavelength. This applies to all types of waves.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-wave-010b-h2",
+    "type": "hint",
+    "title": "Final Calculation",
+    "text": "Substitute the values: v = 660 Hz times 0.433 m = 285.78 m/s. This is approximately 286 m/s. The wave speed on a string depends on the tension and mass per unit length of the string.",
+    "variabilization": {},
+    "dependencies": ["phys-wave-010b-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

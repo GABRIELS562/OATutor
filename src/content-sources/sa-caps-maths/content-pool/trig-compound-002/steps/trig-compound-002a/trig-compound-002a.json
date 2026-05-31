@@ -1,0 +1,15 @@
+{
+  "id": "trig-compound-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "cos45cos30 + sin45sin30",
+    "cos45°cos30° + sin45°sin30°"
+  ],
+  "stepExplanation": "cos(45° - 30°) = cos45°cos30° + sin45°sin30°",
+  "stepTitle": "Apply the Formula",
+  "stepBody": "cos(A - B) = cos A cos B + sin A sin B. Write cos 15° = cos(45° - 30°) in expanded form."
+}

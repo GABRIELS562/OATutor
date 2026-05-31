@@ -1,0 +1,17 @@
+{
+  "id": "mom-003b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "4",
+    "4 m/s",
+    "+4",
+    "+4 m/s"
+  ],
+  "stepExplanation": "Using conservation of momentum:\n$$m_1u_1 + m_2u_2 = m_1v_1 + m_2v_2$$\n$$(2)(6) + (4)(0) = (2)(-2) + (4)(v_2)$$\n$$12 + 0 = -4 + 4v_2$$\n$$12 + 4 = 4v_2$$\n$$16 = 4v_2$$\n$$v_2 = 4 \\text{ m/s}$$\nThe 4 kg ball moves at 4 m/s in the original direction of the 2 kg ball.",
+  "stepTitle": "Calculate the Velocity",
+  "stepBody": "Using conservation of momentum with m₁ = 2 kg, u₁ = 6 m/s, m₂ = 4 kg, u₂ = 0, v₁ = -2 m/s, find v₂. Give your answer in m/s."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "chem-redox-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "+3",
+    "3"
+  ],
+  "stepExplanation": "Fe + 3(-1) = 0, so Fe = +3. Fe is oxidized from 0 to +3",
+  "stepTitle": "Final Oxidation State",
+  "stepBody": "What is the oxidation number of Fe in FeCl₃? (Cl is -1)"
+}

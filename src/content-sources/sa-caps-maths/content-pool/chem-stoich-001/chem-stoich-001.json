@@ -1,0 +1,18 @@
+{
+  "id": "chem-stoich-001",
+  "title": "Mole Calculation from Mass",
+  "body": "Calculate the number of moles in 24.5 g of sulfuric acid (H2SO4). (Molar masses: H = 1 g/mol, S = 32 g/mol, O = 16 g/mol)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-stoichiometry"
+      ],
+      "difficultyCodes": [
+        "easy"
+      ]
+    }
+  ],
+  "oer": "Siyavula Grade 11 Physical Sciences - Stoichiometry",
+  "courseName": "CAPS Grade 11 Physical Sciences"
+}

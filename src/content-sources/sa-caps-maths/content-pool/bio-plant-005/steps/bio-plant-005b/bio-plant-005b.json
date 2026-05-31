@@ -1,0 +1,16 @@
+{
+  "id": "bio-plant-005b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "seedless grapes",
+    "larger fruit",
+    "fruit size"
+  ],
+  "stepExplanation": "Gibberellins are used to produce larger, seedless grapes. They promote stem elongation between fruit clusters (easier harvesting) and can increase berry size. Gibberellins are also used to break seed dormancy and stimulate germination in brewing (malting of barley).",
+  "stepTitle": "Gibberellin Applications",
+  "stepBody": "What type of fruit is commonly treated with gibberellins to increase size and produce seedless varieties?"
+}

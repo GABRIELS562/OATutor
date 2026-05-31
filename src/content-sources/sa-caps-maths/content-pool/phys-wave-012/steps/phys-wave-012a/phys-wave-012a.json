@@ -1,0 +1,16 @@
+{
+  "id": "phys-wave-012a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "1.328",
+    "1.33",
+    "340/256"
+  ],
+  "stepExplanation": "Using v = f times wavelength, we get wavelength = v/f = 340/256 = 1.328 m",
+  "stepTitle": "Calculate Wavelength",
+  "stepBody": "First, use the wave equation to find the wavelength. If v = 340 m/s and f = 256 Hz, calculate the wavelength in metres."
+}

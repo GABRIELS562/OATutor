@@ -1,0 +1,15 @@
+{
+  "id": "g11-func-002",
+  "title": "Parabola: Finding the Equation from Turning Point",
+  "body": "A parabola has a turning point at (2, -3) and passes through the point (0, 5). Determine the equation of the parabola in the form y = a(x - p)^2 + q.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["parabola-vertex"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "oer": "https://www.siyavula.com/read/za/mathematics/grade-11/functions",
+  "license": "CC BY 4.0",
+  "courseName": "CAPS Grade 11 Mathematics"
+}

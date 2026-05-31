@@ -1,0 +1,10 @@
+{
+    "id": "calc-tangent-003",
+    "title": "Tangent Line at a Given Point",
+    "body": "The function $f(x) = -x^2 + 4x - 3$ represents a parabola.\n\nFind the equation of the tangent to this curve at the point $(1, 0)$.",
+    "variabilization": {},
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Differential Calculus - Equation of a Tangent",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

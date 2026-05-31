@@ -1,0 +1,35 @@
+[
+    {
+        "id": "inv-func-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find the Range of f",
+        "text": "For $f(x) = x^2 - 4$ where $x \\geq 0$:\n\n- When $x = 0$: $f(0) = 0 - 4 = -4$\n- As $x$ increases, $f(x)$ increases\n\nRange of $f$: $y \\geq -4$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "inv-func-002b-h2",
+        "type": "hint",
+        "dependencies": ["inv-func-002b-h1"],
+        "title": "Apply the Relationship",
+        "text": "Key principle: Domain of $f^{-1}$ = Range of $f$\n\nSince Range of $f$ is $y \\geq -4$, the Domain of $f^{-1}$ is $x \\geq -4$.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "inv-func-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x>=-4"],
+        "dependencies": ["inv-func-002b-h2"],
+        "title": "State the Domain",
+        "text": "Domain of $f^{-1}$: $x \\geq -4$ or $x \\in [-4; \\infty)$\n\nThis also makes sense because we need $x + 4 \\geq 0$ under the square root.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

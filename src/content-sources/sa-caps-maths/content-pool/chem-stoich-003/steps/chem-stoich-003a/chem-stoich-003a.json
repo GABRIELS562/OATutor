@@ -1,0 +1,15 @@
+{
+    "id": "chem-stoich-003a",
+    "type": "scaffold",
+    "problemType": "TextBox",
+    "answerType": "string",
+    "hpiVariables": [],
+    "variabilization": {},
+    "stepAnswer": [
+        "oxygen",
+        "O2"
+    ],
+    "stepExplanation": "n(H2) = 5/2 = 2.5 mol. n(O2) = 20/32 = 0.625 mol. From ratio 2:1, H2 needs 2.5/2 = 1.25 mol O2, but only 0.625 mol available. O2 is limiting.",
+    "stepTitle": "Identify Limiting Reagent",
+    "stepBody": "Calculate moles of each reactant and use the mole ratio to determine which reagent is limiting. (Answer: hydrogen or oxygen)"
+}

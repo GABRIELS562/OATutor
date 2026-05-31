@@ -1,0 +1,15 @@
+{
+  "id": "anl-distance-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "25",
+    "9 + 16"
+  ],
+  "stepExplanation": "(4-1)² + (6-2)² = 9 + 16 = 25",
+  "stepTitle": "Apply Formula",
+  "stepBody": "d = √[(x₂-x₁)² + (y₂-y₁)²]. Calculate (x₂-x₁)² + (y₂-y₁)²."
+}

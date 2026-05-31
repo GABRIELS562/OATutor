@@ -1,0 +1,18 @@
+{
+  "id": "chem-ester-001",
+  "title": "Esterification Reaction",
+  "body": "Ethanol (C₂H₅OH) reacts with ethanoic acid (CH₃COOH) in the presence of concentrated sulfuric acid to form an ester. Write the name and molecular formula of the ester produced.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-organic-reactions"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "DBE NSC Physical Sciences Paper 2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

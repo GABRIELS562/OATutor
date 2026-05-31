@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-stoich-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify Atoms",
+        "text": "H2SO4 contains: 2 H atoms, 1 S atom, 4 O atoms",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-001a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Multiply by Atomic Masses",
+        "text": "H: 2 x 1 = 2 g/mol, S: 1 x 32 = 32 g/mol, O: 4 x 16 = 64 g/mol",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-001a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Add Together",
+        "text": "Total M = 2 + 32 + 64 = 98 g/mol",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

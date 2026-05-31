@@ -1,0 +1,14 @@
+{
+  "id": "bio-photosyn-001",
+  "title": "Photosynthesis - Light-Dependent Reactions",
+  "body": "Study the diagram of a chloroplast below:\n\n```\n[CHLOROPLAST DIAGRAM]\n         OUTER MEMBRANE\n    ________________________\n   |   STROMA              |\n   |    _______            |\n   |   |THYLAKOID|--GRANUM  |\n   |   |_MEMBRANE_|         |\n   |      (stacked)         |\n   |________________________|\n         INNER MEMBRANE\n```\n\nThe light-dependent reactions of photosynthesis occur in a specific part of the chloroplast. Identify this location and explain what happens during these reactions.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-photosynthesis"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "oer": "DBE NSC Life Sciences Paper 1/2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

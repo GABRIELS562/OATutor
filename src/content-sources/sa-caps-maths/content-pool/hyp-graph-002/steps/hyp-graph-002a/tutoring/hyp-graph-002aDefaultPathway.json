@@ -1,0 +1,35 @@
+[
+    {
+        "id": "hyp-graph-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find p from Vertical Asymptote",
+        "text": "The vertical asymptote is at $x = -1$.\n\nFor $y = \\frac{a}{x - p} + q$, the vertical asymptote is $x = p$.\n\nTherefore, $p = -1$.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "hyp-graph-002a-h2",
+        "type": "hint",
+        "dependencies": ["hyp-graph-002a-h1"],
+        "title": "Find q from Horizontal Asymptote",
+        "text": "The horizontal asymptote is at $y = 3$.\n\nFor $y = \\frac{a}{x - p} + q$, the horizontal asymptote is $y = q$.\n\nTherefore, $q = 3$.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "hyp-graph-002a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["p=-1 and q=3"],
+        "dependencies": ["hyp-graph-002a-h2"],
+        "title": "State p and q",
+        "text": "From the asymptotes:\n- $p = -1$ (from vertical asymptote $x = -1$)\n- $q = 3$ (from horizontal asymptote $y = 3$)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-expand-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify a and b",
+        "text": "In $(5x + 3)(5x - 3)$:\n\n- $a = 5x$\n- $b = 3$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-expand-003b-h2",
+        "type": "hint",
+        "dependencies": ["alg-expand-003b-h1"],
+        "title": "Calculate a^2 and b^2",
+        "text": "- $a^2 = (5x)^2 = 25x^2$\n- $b^2 = 3^2 = 9$\n\nUsing $(a+b)(a-b) = a^2 - b^2$:\n$(5x + 3)(5x - 3) = 25x^2 - 9$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-expand-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["25x^2 - 9"],
+        "dependencies": ["alg-expand-003b-h2"],
+        "title": "Final Answer",
+        "text": "$(5x + 3)(5x - 3) = 25x^2 - 9$\n\nNote: This is much quicker than using FOIL! Recognizing special products saves time.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    }
+]

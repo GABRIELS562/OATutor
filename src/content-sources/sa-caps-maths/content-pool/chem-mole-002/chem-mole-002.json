@@ -1,0 +1,18 @@
+{
+  "id": "chem-mole-002",
+  "title": "Stoichiometry: Mass from Balanced Equation",
+  "body": "In the reaction: 2Mg + O₂ → 2MgO, calculate the mass of magnesium oxide (MgO) produced when 12 g of magnesium reacts completely. (Relative atomic masses: Mg = 24, O = 16)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-stoichiometry"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "DBE NSC Physical Sciences Paper 2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

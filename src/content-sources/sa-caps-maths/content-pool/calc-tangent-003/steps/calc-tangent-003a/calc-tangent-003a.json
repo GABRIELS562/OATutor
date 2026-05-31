@@ -1,0 +1,10 @@
+{
+    "id": "calc-tangent-003a",
+    "stepAnswer": ["2", "m=2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Calculate the Gradient at x = 1",
+    "stepBody": "Find $f'(x)$ for $f(x) = -x^2 + 4x - 3$, then calculate $f'(1)$.\n\nWhat is the gradient of the tangent at the point $(1, 0)$?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "rate-of-change"]
+}

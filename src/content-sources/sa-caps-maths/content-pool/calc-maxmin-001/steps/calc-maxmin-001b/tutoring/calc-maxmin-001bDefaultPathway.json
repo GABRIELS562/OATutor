@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-maxmin-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find Second Derivative",
+        "text": "Differentiate $f'(x) = 3x^2 - 12x + 9$:\n\n$f''(x) = 6x - 12$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-maxmin-001b-h2",
+        "type": "hint",
+        "dependencies": ["calc-maxmin-001b-h1"],
+        "title": "Second Derivative Test",
+        "text": "The second derivative test:\n\n- If $f''(x) < 0$, the point is a LOCAL MAXIMUM\n- If $f''(x) > 0$, the point is a LOCAL MINIMUM\n- If $f''(x) = 0$, the test is inconclusive",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-maxmin-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(1,5) is max, (3,1) is min"],
+        "dependencies": ["calc-maxmin-001b-h2"],
+        "title": "Apply the Test",
+        "text": "At $x = 1$:\n$f''(1) = 6(1) - 12 = -6 < 0$\nSo $(1, 5)$ is a LOCAL MAXIMUM\n\nAt $x = 3$:\n$f''(3) = 6(3) - 12 = 6 > 0$\nSo $(3, 1)$ is a LOCAL MINIMUM",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

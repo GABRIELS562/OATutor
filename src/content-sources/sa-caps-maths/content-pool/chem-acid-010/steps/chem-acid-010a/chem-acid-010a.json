@@ -1,0 +1,15 @@
+{
+  "id": "chem-acid-010a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "-3.60",
+    "-3.6"
+  ],
+  "stepExplanation": "log(2.5 x 10^-4) = log(2.5) + log(10^-4) = 0.398 + (-4) = -3.602",
+  "stepTitle": "Calculate the Logarithm",
+  "stepBody": "First, calculate log[H+] = log(2.5 x 10^-4). What is this value?"
+}

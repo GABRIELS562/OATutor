@@ -1,0 +1,10 @@
+{
+    "id": "func-linear-002b",
+    "stepAnswer": ["y=-x/2+3", "y = -x/2 + 3", "y=-0.5x+3", "y = -0.5x + 3", "y=-(1/2)x+3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the Equation of L2",
+    "stepBody": "Using $m_2 = -\\frac{1}{2}$ and point $(4, 1)$, find the equation.\n\nSubstitute into $y = mx + c$:\n$$1 = -\\frac{1}{2}(4) + c$$\n$$1 = -2 + c$$\n$$c = 3$$\n\nWrite the equation of line $L_2$ in the form $y = mx + c$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["linear-functions", "perpendicular-lines"]
+}

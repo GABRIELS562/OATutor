@@ -1,0 +1,10 @@
+{
+    "id": "func-linear-001b",
+    "stepAnswer": ["y=-x+3", "y = -x + 3", "y=-1x+3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the y-intercept",
+    "stepBody": "Using $m = -1$ and point $A(-2, 5)$, find $c$ in $y = mx + c$.\n\nSubstitute into $y = mx + c$:\n$$5 = (-1)(-2) + c$$\n$$5 = 2 + c$$\n$$c = 3$$\n\nWrite the equation of the line in the form $y = mx + c$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["linear-functions", "straight-line-equation"]
+}

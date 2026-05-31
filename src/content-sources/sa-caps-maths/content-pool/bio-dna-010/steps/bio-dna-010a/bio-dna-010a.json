@@ -1,0 +1,15 @@
+{
+  "id": "bio-dna-010a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "22%",
+    "22"
+  ],
+  "stepExplanation": "According to Chargaff's rules, adenine (A) always pairs with thymine (T) through two hydrogen bonds. Therefore, if A = 22%, then T must also equal 22%.",
+  "stepTitle": "Apply Chargaff's First Rule",
+  "stepBody": "According to Chargaff's rules, adenine pairs with thymine (A=T). If the DNA contains 22% adenine, what percentage of the DNA is thymine?"
+}

@@ -1,0 +1,48 @@
+[
+    {
+        "id": "anl-circ-012a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Midpoint Formula",
+        "text": "The midpoint M of a line segment with endpoints $$(x_1, y_1)$$ and $$(x_2, y_2)$$ is:\n\n$$M = \\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "anl-circ-012a-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["1"],
+        "dependencies": ["anl-circ-012a-h1"],
+        "title": "Calculate x-coordinate",
+        "text": "$$x_M = \\frac{-3 + 5}{2} = \\frac{2}{2} = ?$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "anl-circ-012a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["1"],
+        "dependencies": ["anl-circ-012a-h2"],
+        "title": "Calculate y-coordinate",
+        "text": "$$y_M = \\frac{4 + (-2)}{2} = \\frac{2}{2} = ?$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "anl-circ-012a-h4",
+        "type": "hint",
+        "dependencies": ["anl-circ-012a-h3"],
+        "title": "Centre Coordinates",
+        "text": "Therefore, the centre M is at (1, 1)",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    }
+]

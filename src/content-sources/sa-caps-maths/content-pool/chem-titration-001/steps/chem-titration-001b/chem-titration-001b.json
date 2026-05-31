@@ -1,0 +1,15 @@
+{
+  "id": "chem-titration-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.08",
+    "0,08"
+  ],
+  "stepExplanation": "[NaOH] = 0.002/0.025 = 0.08 mol/dm³",
+  "stepTitle": "NaOH Concentration",
+  "stepBody": "NaOH:HCl ratio is 1:1. Calculate [NaOH] = n/V."
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-wave-010a-h1",
+    "type": "hint",
+    "title": "Standing Wave Pattern",
+    "text": "For a string fixed at both ends, nodes occur at both ends. The third harmonic has 3 antinodes and 4 nodes. The relationship between string length L and wavelength is: L = n(wavelength/2), which gives wavelength = 2L/n.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-wave-010a-h2",
+    "type": "hint",
+    "title": "Substituting Values",
+    "text": "With L = 0.65 m and n = 3 (third harmonic), substitute into wavelength = 2L/n = 2(0.65)/3 = 1.30/3 = 0.433 m.",
+    "variabilization": {},
+    "dependencies": ["phys-wave-010a-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

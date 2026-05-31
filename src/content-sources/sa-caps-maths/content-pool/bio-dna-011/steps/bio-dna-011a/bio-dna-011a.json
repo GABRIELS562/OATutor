@@ -1,0 +1,20 @@
+{
+  "id": "bio-dna-011a",
+  "type": "scaffold",
+  "problemType": "MultipleChoice",
+  "answerType": "string",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "5' to 3' direction only"
+  ],
+  "stepExplanation": "DNA polymerase can only add nucleotides to the 3' end of a growing DNA strand. This means new DNA can only be synthesised in the 5' to 3' direction. This is a fundamental constraint that affects how replication occurs on both strands.",
+  "stepTitle": "Understand DNA Polymerase Directionality",
+  "stepBody": "In which direction can DNA polymerase synthesise new DNA?",
+  "choices": [
+    "5' to 3' direction only",
+    "3' to 5' direction only",
+    "Both directions equally",
+    "Either direction depending on the strand"
+  ]
+}

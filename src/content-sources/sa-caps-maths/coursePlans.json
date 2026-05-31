@@ -1,0 +1,752 @@
+[
+  {
+    "courseName": "CAPS Grade 10 Mathematics",
+    "language": "en",
+    "courseOER": "https://www.education.gov.za/Curriculum/NationalSeniorCertificate.aspx <DBE NSC Past Papers>",
+    "courseLicense": "https://www.education.gov.za <Public Domain - SA DBE>",
+    "lessons": [
+      {
+        "id": "exponents-surds-10",
+        "name": "Exponents and Surds",
+        "topics": "Exponent laws, simplifying surds, rationalising denominators",
+        "allowRecycle": true,
+        "examCategories": ["practice", "march-test", "june-exam", "sept-test"],
+        "learningObjectives": {
+          "exponent-laws": 0.85,
+          "prime-bases": 0.85,
+          "surd-simplification": 0.85
+        },
+        "curriculumNotes": [
+          "Apply laws of exponents to expressions with integer exponents",
+          "Simplify expressions with rational exponents",
+          "Simplify surds (√a × √b = √ab, √a ÷ √b = √(a/b))",
+          "Rationalise denominators with single surds"
+        ]
+      },
+      {
+        "id": "algebraic-simplification-10",
+        "name": "Algebraic Simplification",
+        "topics": "Simplifying algebraic expressions with exponents",
+        "allowRecycle": true,
+        "examCategories": ["practice", "march-test", "june-exam", "sept-test"],
+        "learningObjectives": {
+          "alg-simplify": 0.85,
+          "exponent-laws": 0.85
+        },
+        "curriculumNotes": [
+          "Multiply and divide algebraic expressions",
+          "Add and subtract like terms",
+          "Simplify algebraic fractions",
+          "Apply exponent laws in algebraic expressions"
+        ]
+      },
+      {
+        "id": "factorisation-10",
+        "name": "Factorisation",
+        "topics": "Common factors, trinomials, difference of squares, grouping",
+        "allowRecycle": true,
+        "examCategories": ["practice", "march-test", "june-exam", "sept-test"],
+        "learningObjectives": {
+          "factorisation": 0.85,
+          "trinomial-factor": 0.85
+        },
+        "curriculumNotes": [
+          "Factorise by taking out a common factor",
+          "Factorise difference of two squares (a² - b²)",
+          "Factorise trinomials (ax² + bx + c)",
+          "Factorise by grouping in pairs",
+          "Factorise sum and difference of two cubes"
+        ]
+      },
+      {
+        "id": "algebraic-equations-10",
+        "name": "Algebraic Equations",
+        "topics": "Linear equations, simultaneous equations",
+        "allowRecycle": true,
+        "examCategories": ["practice", "march-test", "june-exam", "sept-test"],
+        "learningObjectives": {
+          "linear-equations": 0.85,
+          "simultaneous-equations": 0.85
+        },
+        "curriculumNotes": [
+          "Solve linear equations in one unknown",
+          "Solve simultaneous linear equations algebraically",
+          "Solve simultaneous equations by substitution method",
+          "Solve simultaneous equations by elimination method",
+          "Solve word problems leading to equations"
+        ]
+      },
+      {
+        "id": "algebraic-inequalities-10",
+        "name": "Algebraic Inequalities",
+        "topics": "Solving and graphing inequalities",
+        "allowRecycle": true,
+        "examCategories": ["practice", "march-test", "june-exam", "sept-test"],
+        "learningObjectives": {
+          "inequalities": 0.85
+        },
+        "curriculumNotes": [
+          "Solve linear inequalities in one variable",
+          "Represent solution on a number line",
+          "Use interval notation for solutions",
+          "Understand when to reverse inequality sign"
+        ]
+      },
+      {
+        "id": "quadratic-equations-10",
+        "name": "Quadratic Equations",
+        "topics": "Solving by factorisation, completing the square, quadratic formula",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test"],
+        "learningObjectives": {
+          "quadratic-factoring": 0.85,
+          "quadratic-formula": 0.85
+        },
+        "curriculumNotes": [
+          "Solve quadratic equations by factorisation",
+          "Apply zero-product property",
+          "Solve equations of the form ax² + bx + c = 0",
+          "Check solutions by substitution"
+        ]
+      },
+      {
+        "id": "linear-functions-10",
+        "name": "Linear Functions and Graphs",
+        "topics": "Gradient, y-intercept, parallel and perpendicular lines",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test"],
+        "learningObjectives": {
+          "gradient": 0.85,
+          "linear-graph": 0.85
+        },
+        "curriculumNotes": [
+          "Understand function notation f(x)",
+          "Calculate gradient using m = (y₂-y₁)/(x₂-x₁)",
+          "Sketch graphs of y = mx + c",
+          "Determine equation of a straight line",
+          "Identify parallel lines (equal gradients)",
+          "Identify perpendicular lines (m₁ × m₂ = -1)"
+        ]
+      },
+      {
+        "id": "surds-simplification-10",
+        "name": "Surds and Simplification",
+        "topics": "Simplifying surds, operations with surds",
+        "allowRecycle": true,
+        "examCategories": ["practice", "march-test", "june-exam", "sept-test"],
+        "learningObjectives": {
+          "surd-simplification": 0.85,
+          "rationalise-denominator": 0.85
+        },
+        "curriculumNotes": [
+          "Simplify surds like √48 = 4√3",
+          "Add and subtract like surds",
+          "Multiply and divide surds",
+          "Rationalise denominators (single and binomial)"
+        ]
+      },
+      {
+        "id": "simple-interest-10",
+        "name": "Simple Interest",
+        "topics": "Simple interest calculations, finding rate, time, principal",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test"],
+        "learningObjectives": {
+          "simple-interest": 0.85
+        },
+        "curriculumNotes": [
+          "Apply formula A = P(1 + in)",
+          "Calculate simple interest I = Pin",
+          "Find principal, rate, or time",
+          "Solve real-world financial problems"
+        ]
+      }
+    ]
+  },
+  {
+    "courseName": "CAPS Grade 11 Mathematics",
+    "language": "en",
+    "courseOER": "https://www.education.gov.za/Curriculum/NationalSeniorCertificate.aspx <DBE NSC Past Papers>",
+    "courseLicense": "https://www.education.gov.za <Public Domain - SA DBE>",
+    "lessons": [
+      {
+        "id": "functions-parabola-11",
+        "name": "Functions and Graphs - Parabolas",
+        "topics": "Quadratic functions, turning points, axis of symmetry",
+        "allowRecycle": true,
+        "examCategories": ["practice", "march-test", "june-exam", "sept-test"],
+        "learningObjectives": {
+          "parabola-vertex": 0.85,
+          "parabola-axis": 0.85
+        },
+        "curriculumNotes": [
+          "Sketch y = a(x - p)² + q (turning point form)",
+          "Identify turning point (p, q)",
+          "Determine axis of symmetry x = p",
+          "Find intercepts with axes",
+          "Determine domain and range",
+          "Effect of a, p, q on the shape"
+        ]
+      },
+      {
+        "id": "functions-hyperbola-11",
+        "name": "Functions - Hyperbola",
+        "topics": "Hyperbolic functions, asymptotes, domain and range",
+        "allowRecycle": true,
+        "examCategories": ["practice", "march-test", "june-exam", "sept-test"],
+        "learningObjectives": {
+          "hyperbola-asymptotes": 0.85,
+          "hyperbola-domain-range": 0.85
+        },
+        "curriculumNotes": [
+          "Sketch y = a/(x - p) + q",
+          "Identify vertical asymptote x = p",
+          "Identify horizontal asymptote y = q",
+          "Determine domain and range",
+          "Find axes of symmetry"
+        ]
+      },
+      {
+        "id": "functions-exponential-11",
+        "name": "Functions - Exponential",
+        "topics": "Exponential functions, growth and decay",
+        "allowRecycle": true,
+        "examCategories": ["practice", "march-test", "june-exam", "sept-test"],
+        "learningObjectives": {
+          "exponential-graph": 0.85,
+          "exponential-growth": 0.85
+        },
+        "curriculumNotes": [
+          "Sketch y = abˣ + q",
+          "Identify horizontal asymptote y = q",
+          "Distinguish growth (b > 1) and decay (0 < b < 1)",
+          "Determine domain and range",
+          "Find y-intercept"
+        ]
+      },
+      {
+        "id": "trigonometry-rules-11",
+        "name": "Trigonometry - Area, Sine and Cosine Rules",
+        "topics": "Sine rule, cosine rule, area of triangle",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test"],
+        "learningObjectives": {
+          "sine-rule": 0.85,
+          "cosine-rule": 0.85,
+          "trig-area": 0.85
+        },
+        "curriculumNotes": [
+          "Apply sine rule: a/sinA = b/sinB = c/sinC",
+          "Apply cosine rule: a² = b² + c² - 2bc·cosA",
+          "Calculate area = ½ab·sinC",
+          "Solve 2D and 3D problems",
+          "Identify ambiguous case of sine rule"
+        ]
+      },
+      {
+        "id": "trig-equations-11",
+        "name": "Trigonometric Equations",
+        "topics": "Solving trigonometric equations, identities",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test"],
+        "learningObjectives": {
+          "trig-equations": 0.85,
+          "trig-identities": 0.85
+        },
+        "curriculumNotes": [
+          "Solve equations like sinθ = k, cosθ = k, tanθ = k",
+          "Find solutions in specific intervals",
+          "Use identities: sin²θ + cos²θ = 1",
+          "Use tanθ = sinθ/cosθ",
+          "Prove simple trigonometric identities"
+        ]
+      }
+    ]
+  },
+  {
+    "courseName": "CAPS Grade 12 Mathematics",
+    "language": "en",
+    "courseOER": "https://www.education.gov.za/Curriculum/NationalSeniorCertificate.aspx <DBE NSC Past Papers>",
+    "courseLicense": "https://www.education.gov.za <Public Domain - SA DBE>",
+    "lessons": [
+      {
+        "id": "sequences-series-12",
+        "name": "Patterns, Sequences and Series",
+        "topics": "Arithmetic and geometric sequences, sigma notation",
+        "allowRecycle": true,
+        "examCategories": ["practice", "march-test", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "arithmetic-sequence": 0.85,
+          "geometric-sequence": 0.85,
+          "sigma-notation": 0.85
+        },
+        "curriculumNotes": [
+          "Find nth term: Tₙ = a + (n-1)d (arithmetic)",
+          "Find nth term: Tₙ = arⁿ⁻¹ (geometric)",
+          "Sum of arithmetic series: Sₙ = n/2[2a + (n-1)d]",
+          "Sum of geometric series: Sₙ = a(rⁿ - 1)/(r - 1)",
+          "Sum to infinity: S∞ = a/(1-r) when |r| < 1",
+          "Use sigma (Σ) notation"
+        ]
+      },
+      {
+        "id": "calculus-first-principles-12",
+        "name": "Differential Calculus - First Principles",
+        "topics": "Limits, differentiation from first principles",
+        "allowRecycle": true,
+        "examCategories": ["practice", "march-test", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "limits": 0.85,
+          "first-principles": 0.85
+        },
+        "curriculumNotes": [
+          "Understand concept of a limit",
+          "Calculate limits at a point",
+          "Apply first principles: f'(x) = lim[h→0] (f(x+h) - f(x))/h",
+          "Differentiate xⁿ from first principles"
+        ]
+      },
+      {
+        "id": "calculus-rate-12",
+        "name": "Differential Calculus - Rate of Change",
+        "topics": "Rate of change, related rates, motion",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "rate-of-change": 0.85,
+          "motion-calculus": 0.85
+        },
+        "curriculumNotes": [
+          "Apply rules: d/dx[xⁿ] = nxⁿ⁻¹",
+          "Interpret derivative as rate of change",
+          "Velocity v = ds/dt, acceleration a = dv/dt",
+          "Solve motion problems"
+        ]
+      },
+      {
+        "id": "calculus-optimization-12",
+        "name": "Differential Calculus - Optimization",
+        "topics": "Maximum and minimum problems",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "optimization": 0.85,
+          "stationary-points": 0.85
+        },
+        "curriculumNotes": [
+          "Find stationary points (f'(x) = 0)",
+          "Determine nature using second derivative",
+          "Sketch cubic functions",
+          "Solve practical optimization problems"
+        ]
+      },
+      {
+        "id": "integral-calculus-12",
+        "name": "Integral Calculus - Area",
+        "topics": "Integration, area under curve, area between curves",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "integration": 0.85,
+          "area-under-curve": 0.85
+        },
+        "curriculumNotes": [
+          "Integrate using ∫xⁿdx = xⁿ⁺¹/(n+1) + c",
+          "Calculate definite integrals",
+          "Find area under a curve",
+          "Find area between curves"
+        ]
+      },
+      {
+        "id": "financial-maths-12",
+        "name": "Financial Mathematics - Compound Interest",
+        "topics": "Compound interest, annuities, loan repayments",
+        "allowRecycle": true,
+        "examCategories": ["practice", "march-test", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "compound-interest": 0.85,
+          "annuities": 0.85
+        },
+        "curriculumNotes": [
+          "Apply A = P(1 + i)ⁿ for compound growth",
+          "Calculate future value of annuities",
+          "Calculate present value of annuities",
+          "Analyse loan repayment schedules",
+          "Compare different investment options"
+        ]
+      },
+      {
+        "id": "counting-probability-12",
+        "name": "Counting and Probability",
+        "topics": "Permutations, combinations, probability",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "permutations": 0.85,
+          "combinations": 0.85,
+          "probability": 0.85
+        },
+        "curriculumNotes": [
+          "Use fundamental counting principle",
+          "Calculate permutations: nPr = n!/(n-r)!",
+          "Calculate combinations: nCr = n!/[r!(n-r)!]",
+          "Apply to probability problems",
+          "Solve problems with/without repetition"
+        ]
+      }
+    ]
+  },
+  {
+    "courseName": "CAPS Grade 12 Mathematics Paper 2",
+    "language": "en",
+    "courseOER": "https://www.education.gov.za/Curriculum/NationalSeniorCertificate.aspx <DBE NSC Past Papers>",
+    "courseLicense": "https://www.education.gov.za <Public Domain - SA DBE>",
+    "lessons": [
+      {
+        "id": "euclidean-geometry-tangent-12",
+        "name": "Euclidean Geometry - Tangent Properties",
+        "topics": "Circle theorems, tangent properties",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "geo-tangent-theorem": 0.85,
+          "geo-proof-writing": 0.85
+        },
+        "curriculumNotes": [
+          "Tangent perpendicular to radius at point of contact",
+          "Two tangents from external point are equal",
+          "Tan-chord angle equals inscribed angle",
+          "Write formal geometric proofs"
+        ]
+      },
+      {
+        "id": "euclidean-geometry-cyclic-12",
+        "name": "Euclidean Geometry - Cyclic Quadrilaterals",
+        "topics": "Cyclic quadrilateral properties and proofs",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "geo-cyclic-quad": 0.85,
+          "geo-proof-writing": 0.85
+        },
+        "curriculumNotes": [
+          "Opposite angles of cyclic quad are supplementary",
+          "Exterior angle equals interior opposite angle",
+          "Angles in same segment are equal",
+          "Prove points are concyclic"
+        ]
+      },
+      {
+        "id": "trigonometry-compound-12",
+        "name": "Trigonometry - Compound Angles",
+        "topics": "Compound angle formulae, double angles",
+        "allowRecycle": true,
+        "examCategories": ["practice", "march-test", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "trig-compound-add": 0.85,
+          "trig-double-angle": 0.85
+        },
+        "curriculumNotes": [
+          "Apply cos(A ± B) = cosA·cosB ∓ sinA·sinB",
+          "Apply sin(A ± B) = sinA·cosB ± cosA·sinB",
+          "Derive and use double angle formulae",
+          "sin2A = 2sinA·cosA",
+          "cos2A = cos²A - sin²A = 2cos²A - 1 = 1 - 2sin²A"
+        ]
+      },
+      {
+        "id": "trigonometry-general-12",
+        "name": "Trigonometry - General Solution",
+        "topics": "General solutions of trigonometric equations",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "trig-general-solution": 0.85
+        },
+        "curriculumNotes": [
+          "General solution for sinθ = k",
+          "General solution for cosθ = k",
+          "General solution for tanθ = k",
+          "Apply reference angles",
+          "Find solutions in specific intervals"
+        ]
+      },
+      {
+        "id": "analytical-geometry-circle-12",
+        "name": "Analytical Geometry - Equation of a Circle",
+        "topics": "Circle equations, tangents to circles",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "anl-circle-center-form": 0.85,
+          "anl-tangent-circle": 0.85
+        },
+        "curriculumNotes": [
+          "Standard form: (x - a)² + (y - b)² = r²",
+          "General form: x² + y² + Dx + Ey + F = 0",
+          "Find centre and radius from equation",
+          "Equation of tangent to circle at a point",
+          "Tangent perpendicular to radius"
+        ]
+      },
+      {
+        "id": "statistics-regression-12",
+        "name": "Statistics - Regression",
+        "topics": "Regression line, correlation coefficient",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "stats-regression-line": 0.85,
+          "stats-correlation": 0.85
+        },
+        "curriculumNotes": [
+          "Calculate regression line (least squares)",
+          "Interpret gradient and y-intercept",
+          "Calculate correlation coefficient r",
+          "Interpret strength of correlation",
+          "Make predictions using regression"
+        ]
+      }
+    ]
+  },
+  {
+    "courseName": "CAPS Grade 12 Physical Sciences",
+    "language": "en",
+    "courseOER": "https://www.education.gov.za/Curriculum/NationalSeniorCertificate.aspx <DBE NSC Past Papers>",
+    "courseLicense": "https://www.education.gov.za <Public Domain - SA DBE>",
+    "lessons": [
+      {
+        "id": "mechanics-12",
+        "name": "Mechanics",
+        "topics": "Newton's laws, momentum, impulse, vertical projectile motion",
+        "allowRecycle": true,
+        "examCategories": ["practice", "march-test", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "phys-newtons-laws": 0.85,
+          "phys-momentum": 0.85,
+          "phys-projectile": 0.85
+        },
+        "curriculumNotes": [
+          "Apply Newton's First, Second, Third Laws",
+          "Calculate momentum p = mv",
+          "Apply impulse-momentum theorem Fnet·Δt = Δp",
+          "Conservation of momentum in collisions",
+          "Vertical projectile motion with g = 9.8 m/s²"
+        ]
+      },
+      {
+        "id": "electricity-12",
+        "name": "Electricity and Magnetism",
+        "topics": "Ohm's law, series/parallel circuits, electromagnetic induction",
+        "allowRecycle": true,
+        "examCategories": ["practice", "march-test", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "phys-ohms-law": 0.85,
+          "phys-circuits": 0.85,
+          "phys-em-induction": 0.85
+        },
+        "curriculumNotes": [
+          "Apply Ohm's Law V = IR",
+          "Calculate resistance in series and parallel",
+          "Use P = VI = I²R = V²/R for power",
+          "Apply Faraday's Law of electromagnetic induction",
+          "Understand AC generators and transformers"
+        ]
+      },
+      {
+        "id": "waves-12",
+        "name": "Waves, Sound and Light",
+        "topics": "Doppler effect, electromagnetic spectrum, photoelectric effect",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "phys-doppler": 0.85,
+          "phys-photoelectric": 0.85
+        },
+        "curriculumNotes": [
+          "Apply Doppler effect formula",
+          "Calculate observed frequency for moving source/observer",
+          "Explain photoelectric effect",
+          "Apply E = hf for photon energy",
+          "Calculate threshold frequency and work function"
+        ]
+      },
+      {
+        "id": "chemistry-organic-12",
+        "name": "Organic Chemistry",
+        "topics": "Functional groups, IUPAC naming, reactions",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "chem-functional-groups": 0.85,
+          "chem-iupac-naming": 0.85,
+          "chem-organic-reactions": 0.85
+        },
+        "curriculumNotes": [
+          "Identify functional groups (alkanes, alkenes, alcohols, etc.)",
+          "Apply IUPAC naming rules",
+          "Write structural and molecular formulae",
+          "Describe addition, substitution, elimination reactions",
+          "Explain esterification and hydrolysis"
+        ]
+      },
+      {
+        "id": "chemistry-rates-12",
+        "name": "Chemical Rates and Equilibrium",
+        "topics": "Rate of reaction, equilibrium constants, Le Chatelier",
+        "allowRecycle": true,
+        "examCategories": ["practice", "march-test", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "chem-reaction-rates": 0.85,
+          "chem-equilibrium": 0.85
+        },
+        "curriculumNotes": [
+          "Factors affecting reaction rate",
+          "Interpret rate graphs",
+          "Write equilibrium constant expression Kc",
+          "Apply Le Chatelier's principle",
+          "Predict effect of changes on equilibrium"
+        ]
+      },
+      {
+        "id": "chemistry-acids-12",
+        "name": "Acids and Bases",
+        "topics": "pH calculations, titrations, buffer solutions",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "chem-ph-calc": 0.85,
+          "chem-titrations": 0.85
+        },
+        "curriculumNotes": [
+          "Calculate pH = -log[H⁺]",
+          "Distinguish strong and weak acids/bases",
+          "Perform acid-base titration calculations",
+          "Interpret titration curves",
+          "Calculate concentration from titration data"
+        ]
+      },
+      {
+        "id": "chemistry-electrochem-12",
+        "name": "Electrochemistry",
+        "topics": "Galvanic cells, electrolytic cells, standard electrode potentials",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "chem-galvanic": 0.85,
+          "chem-electrolysis": 0.85
+        },
+        "curriculumNotes": [
+          "Describe galvanic (voltaic) cells",
+          "Write half-reactions (oxidation and reduction)",
+          "Use standard electrode potentials (E°)",
+          "Calculate cell EMF",
+          "Describe electrolytic cells and applications"
+        ]
+      }
+    ]
+  },
+  {
+    "courseName": "CAPS Grade 12 Life Sciences",
+    "language": "en",
+    "courseOER": "https://www.education.gov.za/Curriculum/NationalSeniorCertificate.aspx <DBE NSC Past Papers>",
+    "courseLicense": "https://www.education.gov.za <Public Domain - SA DBE>",
+    "lessons": [
+      {
+        "id": "genetics-12",
+        "name": "Genetics and Inheritance",
+        "topics": "Meiosis, genetic crosses, DNA, protein synthesis",
+        "allowRecycle": true,
+        "examCategories": ["practice", "march-test", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "bio-meiosis": 0.85,
+          "bio-genetic-crosses": 0.85,
+          "bio-dna-structure": 0.85,
+          "bio-protein-synthesis": 0.85
+        },
+        "curriculumNotes": [
+          "Describe stages of meiosis",
+          "Explain crossing over and genetic variation",
+          "Construct and interpret Punnett squares",
+          "Solve monohybrid and dihybrid crosses",
+          "Describe DNA replication, transcription, translation"
+        ]
+      },
+      {
+        "id": "evolution-12",
+        "name": "Evolution",
+        "topics": "Natural selection, speciation, human evolution, fossil evidence",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "bio-natural-selection": 0.85,
+          "bio-speciation": 0.85,
+          "bio-human-evolution": 0.85
+        },
+        "curriculumNotes": [
+          "Explain Darwin's theory of natural selection",
+          "Describe types of speciation (allopatric, sympatric)",
+          "Interpret fossil evidence for evolution",
+          "Trace human evolution from hominids",
+          "Explain punctuated equilibrium vs gradualism"
+        ]
+      },
+      {
+        "id": "nervous-system-12",
+        "name": "Human Nervous System",
+        "topics": "Brain structure, nerve impulses, reflex arc, disorders",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "bio-brain-structure": 0.85,
+          "bio-nerve-impulse": 0.85,
+          "bio-reflex-arc": 0.85
+        },
+        "curriculumNotes": [
+          "Describe structure of neuron",
+          "Explain transmission of nerve impulse",
+          "Describe synaptic transmission",
+          "Identify components of reflex arc",
+          "Locate and describe brain regions (cerebrum, cerebellum, medulla)"
+        ]
+      },
+      {
+        "id": "endocrine-12",
+        "name": "Endocrine System",
+        "topics": "Hormones, homeostasis, feedback mechanisms, disorders",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "bio-hormones": 0.85,
+          "bio-homeostasis": 0.85
+        },
+        "curriculumNotes": [
+          "Compare nervous and endocrine systems",
+          "Describe negative feedback in homeostasis",
+          "Explain blood glucose regulation (insulin, glucagon)",
+          "Describe thyroid hormone regulation",
+          "Explain disorders: diabetes, hypo/hyperthyroidism"
+        ]
+      },
+      {
+        "id": "reproduction-12",
+        "name": "Human Reproduction",
+        "topics": "Reproductive systems, gametogenesis, menstrual cycle, pregnancy",
+        "allowRecycle": true,
+        "examCategories": ["practice", "june-exam", "sept-test", "nov-exam"],
+        "learningObjectives": {
+          "bio-gametogenesis": 0.85,
+          "bio-menstrual-cycle": 0.85,
+          "bio-pregnancy": 0.85
+        },
+        "curriculumNotes": [
+          "Describe male and female reproductive systems",
+          "Compare spermatogenesis and oogenesis",
+          "Explain hormonal control of menstrual cycle",
+          "Describe fertilisation and implantation",
+          "Explain role of placenta in pregnancy"
+        ]
+      }
+    ]
+  }
+]

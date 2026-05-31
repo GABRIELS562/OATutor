@@ -1,0 +1,32 @@
+[
+    {
+        "id": "wep-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Work Done",
+        "text": "W = mgh = (500 kg)(10 m/s²)(30 m) = 150,000 J. This is the gravitational potential energy gained by the load.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "wep-003b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Power",
+        "text": "P = W/t = 150,000 J ÷ 25 s = 6000 W.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "wep-003b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Convert to kW",
+        "text": "6000 W = 6 kW. This represents the useful power output of the crane. The actual motor power would be higher due to inefficiencies.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

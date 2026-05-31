@@ -1,0 +1,17 @@
+{
+  "id": "vpm-003b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "40.31",
+    "40.3",
+    "40",
+    "40.31 m/s"
+  ],
+  "stepExplanation": "Using v² = u² + 2as with u = 5 m/s, a = 10 m/s², s = 80 m:\n$$v^2 = (5)^2 + 2(10)(80)$$\n$$v^2 = 25 + 1600 = 1625$$\n$$v = \\sqrt{1625} = 40.31 \\text{ m/s}$$",
+  "stepTitle": "Calculate Final Velocity",
+  "stepBody": "Using v² = u² + 2as, with u = 5 m/s, a = 10 m/s², and s = 80 m, calculate the final velocity. Give your answer in m/s (round to 2 decimal places)."
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-doppler-010a-h1",
+    "type": "hint",
+    "title": "Doppler Formula Selection",
+    "text": "The Doppler formula depends on whether the source, observer, or both are moving. For a moving observer approaching a stationary source, use f' = f(v + v_o)/v. For a moving observer receding, use f' = f(v - v_o)/v.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-doppler-010a-h2",
+    "type": "hint",
+    "title": "Understanding the Physics",
+    "text": "When you move towards a sound source, you encounter the wavefronts more frequently than if you were stationary. This increases the frequency you perceive. The opposite happens when moving away.",
+    "variabilization": {},
+    "dependencies": ["phys-doppler-010a-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

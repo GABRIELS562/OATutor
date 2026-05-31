@@ -1,0 +1,16 @@
+{
+  "id": "phys-doppler-012a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "302.2",
+    "302",
+    "v - v_s = 302.2"
+  ],
+  "stepExplanation": "Rearranging f' = fv/(v - v_s) to solve for (v - v_s): v - v_s = fv/f' = 400 x 340/450 = 136000/450 = 302.2 m/s",
+  "stepTitle": "Rearrange and Calculate",
+  "stepBody": "For a source approaching, f' = fv/(v - v_s). Rearrange to find (v - v_s) = fv/f'. Calculate this value using f = 400 Hz, f' = 450 Hz, v = 340 m/s."
+}

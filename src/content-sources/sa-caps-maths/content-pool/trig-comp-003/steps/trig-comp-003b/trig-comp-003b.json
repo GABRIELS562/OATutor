@@ -1,0 +1,10 @@
+{
+    "id": "trig-comp-003b",
+    "stepAnswer": ["56/65"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Apply sin(A + B) Formula",
+    "stepBody": "Using sin(A + B) = sin A cos B + cos A sin B:\n\n$$\\sin(A + B) = \\frac{3}{5} \\cdot \\frac{12}{13} + \\frac{4}{5} \\cdot \\frac{5}{13}$$\n\nCalculate the answer as a fraction: numerator/denominator",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-compound-add"]
+}

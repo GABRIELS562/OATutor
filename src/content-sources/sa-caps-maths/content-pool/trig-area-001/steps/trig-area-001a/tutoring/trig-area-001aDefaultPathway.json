@@ -1,0 +1,25 @@
+[
+    {
+        "id": "trig-area-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Area Rule",
+        "text": "The area of a triangle when two sides and the included angle are known is:\\n\\n$$\\text{Area} = \\frac{1}{2}ab\\sin C$$\\n\\nwhere $a$ and $b$ are the two sides and $C$ is the angle between them.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-area-001a-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["Area = 1/2 * a * b * sin C"],
+        "dependencies": ["trig-area-001a-h1"],
+        "title": "Formula",
+        "text": "$$\\text{Area} = \\frac{1}{2} \\times AB \\times BC \\times \\sin \\hat{B}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-repro-014b-h1",
+    "type": "hint",
+    "title": "Hormone Transition",
+    "text": "Early pregnancy relies on the corpus luteum for progesterone. By about week 10-12, the placenta is mature enough to produce its own hormones and takes over this role.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-repro-014b-h2",
+    "type": "hint",
+    "title": "Key Pregnancy Hormones",
+    "text": "Progesterone: maintains the thick uterine lining and prevents uterine contractions. Oestrogen: promotes growth of the uterus and prepares breasts for lactation. Both are essential for a healthy pregnancy.",
+    "variabilization": {},
+    "dependencies": ["bio-repro-014b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

@@ -1,0 +1,10 @@
+{
+    "id": "func-exp-001",
+    "title": "Exponential Function: Finding the Equation",
+    "body": "An exponential function $f(x) = a \\cdot b^x + q$ has a horizontal asymptote at $y = -2$ and passes through the points $(0, 1)$ and $(1, 4)$.\\n\\na) Determine the value of $q$.\\nb) Find the values of $a$ and $b$.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 11)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Functions - Exponential",
+    "courseName": "CAPS Grade 11 Mathematics"
+}

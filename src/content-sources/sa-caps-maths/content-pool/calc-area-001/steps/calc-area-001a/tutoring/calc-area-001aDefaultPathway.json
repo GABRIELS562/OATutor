@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-area-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find the x-intercepts",
+        "text": "Set $f(x) = 0$:\\n$$x^2 - 4 = 0$$\\n$$x^2 = 4$$\\n$$x = \\pm 2$$\\n\\nWithin our interval $[0, 3]$, the curve crosses the x-axis at $x = 2$.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "calc-area-001a-h2",
+        "type": "hint",
+        "dependencies": ["calc-area-001a-h1"],
+        "title": "Determine Regions",
+        "text": "For $0 \\le x < 2$: $f(x) = x^2 - 4 < 0$ (below x-axis)\\nFor $2 < x \\le 3$: $f(x) = x^2 - 4 > 0$ (above x-axis)\\n\\nWe need absolute value for total area.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "calc-area-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["-integral(x^2-4,0,2)+integral(x^2-4,2,3)"],
+        "dependencies": ["calc-area-001a-h2"],
+        "title": "Set Up the Area Integral",
+        "text": "Total Area = $-\\int_0^2 (x^2-4)dx + \\int_2^3 (x^2-4)dx$\\n\\nOr equivalently: $\\int_0^2 (4-x^2)dx + \\int_2^3 (x^2-4)dx$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

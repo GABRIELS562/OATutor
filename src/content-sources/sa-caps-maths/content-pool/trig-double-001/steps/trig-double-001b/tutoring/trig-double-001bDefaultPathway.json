@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-double-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Double Angle Formula",
+        "text": "The double angle formula for sine is:\n$$\\sin 2A = 2 \\sin A \\cos A$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-double-001b-h2",
+        "type": "hint",
+        "dependencies": ["trig-double-001b-h1"],
+        "title": "Substitute Values",
+        "text": "$$\\sin 2A = 2 \\cdot \\frac{4}{5} \\cdot \\left(-\\frac{3}{5}\\right)$$\n$$= 2 \\cdot \\frac{4 \\times (-3)}{5 \\times 5}$$\n$$= 2 \\cdot \\frac{-12}{25}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-double-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["-24/25"],
+        "dependencies": ["trig-double-001b-h2"],
+        "title": "Final Answer",
+        "text": "$$\\sin 2A = \\frac{-24}{25}$$\n\nNote: The negative answer makes sense because 2A is in the third or fourth quadrant when A is in the second quadrant.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

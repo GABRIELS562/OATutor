@@ -1,0 +1,17 @@
+{
+  "id": "circ-003a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "P = V²/R",
+    "P=V²/R",
+    "P = IV",
+    "P = I²R"
+  ],
+  "stepExplanation": "Electrical power can be calculated using three equivalent formulas:\n- $$P = IV$$ (power = current × voltage)\n- $$P = I^2R$$ (useful when current is known)\n- $$P = \\frac{V^2}{R}$$ (useful when voltage is known)\nThese are derived by combining P = IV with Ohm's law (V = IR).",
+  "stepTitle": "State the Power Formulas",
+  "stepBody": "What formulas relate electrical power to voltage, current, and resistance?"
+}

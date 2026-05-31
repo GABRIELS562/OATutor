@@ -1,0 +1,10 @@
+{
+    "id": "trig-double-010a",
+    "stepAnswer": ["4/5"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find cos theta",
+    "stepBody": "Given sin theta = 3/5 and theta is in the first quadrant, use the Pythagorean identity to find cos theta.\n\nEnter as a fraction: 4/5",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-identities", "pythagorean-identity"]
+}

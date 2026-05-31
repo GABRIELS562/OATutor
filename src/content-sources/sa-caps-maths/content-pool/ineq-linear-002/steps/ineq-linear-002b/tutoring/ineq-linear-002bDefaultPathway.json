@@ -1,0 +1,35 @@
+[
+    {
+        "id": "ineq-linear-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Why Reverse the Sign?",
+        "text": "When you multiply or divide both sides of an inequality by a negative number, the inequality sign reverses.\n\nExample: $2 < 5$, but $-2 > -5$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "ineq-linear-002b-h2",
+        "type": "hint",
+        "dependencies": ["ineq-linear-002b-h1"],
+        "title": "Divide by -2",
+        "text": "$-2x \\geq 4$\n\n$\\frac{-2x}{-2} \\leq \\frac{4}{-2}$ (sign reverses!)\n\n$x \\leq -2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "ineq-linear-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x<=-2"],
+        "dependencies": ["ineq-linear-002b-h2"],
+        "title": "Final Answer",
+        "text": "$x \\leq -2$\n\nIn interval notation: $(-\\infty, -2]$\n\nOn a number line: closed circle at -2, arrow pointing left.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

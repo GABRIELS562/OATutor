@@ -1,0 +1,10 @@
+{
+    "id": "seq-arithmetic-001a",
+    "stepAnswer": ["4", "d=4"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Common Difference",
+    "stepBody": "Using $T_n = a + (n-1)d$:\\n\\n$T_3 = 8$ means $a + 2d = 8$\\n$T_7 = 24$ means $a + 6d = 24$\\n\\nFind the common difference $d$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["arithmetic-sequences", "simultaneous-equations"]
+}

@@ -1,0 +1,48 @@
+[
+    {
+        "id": "anl-circ-011a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Gradient Formula",
+        "text": "The gradient (slope) between two points $$(x_1, y_1)$$ and $$(x_2, y_2)$$ is:\n\n$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "anl-circ-011a-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["4"],
+        "dependencies": ["anl-circ-011a-h1"],
+        "title": "Calculate Change in y",
+        "text": "$$y_2 - y_1 = 3 - (-1) = 3 + 1 = ?$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "anl-circ-011a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["3"],
+        "dependencies": ["anl-circ-011a-h2"],
+        "title": "Calculate Change in x",
+        "text": "$$x_2 - x_1 = 5 - 2 = ?$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "anl-circ-011a-h4",
+        "type": "hint",
+        "dependencies": ["anl-circ-011a-h3"],
+        "title": "Final Gradient",
+        "text": "$$m_{MP} = \\frac{4}{3}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    }
+]

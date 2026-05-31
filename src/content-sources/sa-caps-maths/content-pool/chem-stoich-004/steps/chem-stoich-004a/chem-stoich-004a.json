@@ -1,0 +1,15 @@
+{
+  "id": "chem-stoich-004a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "5.6",
+    "5,6"
+  ],
+  "stepExplanation": "M(CaCO3) = 40 + 12 + 48 = 100 g/mol. n = 10/100 = 0.1 mol. M(CaO) = 40 + 16 = 56 g/mol. Theoretical m(CaO) = 0.1 x 56 = 5.6 g",
+  "stepTitle": "Calculate Theoretical Yield",
+  "stepBody": "Calculate the theoretical yield of CaO that should be produced from 10 g of CaCO3."
+}

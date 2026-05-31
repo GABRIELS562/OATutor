@@ -1,0 +1,10 @@
+{
+    "id": "calc-roc-001",
+    "title": "Rate of Change: Population Growth",
+    "body": "The population $P$ (in thousands) of a bacteria culture after $t$ hours is modeled by:\n\n$$P(t) = 100 + 24t + 3t^2$$\n\nFind the rate of growth of the population after 4 hours.",
+    "variabilization": {},
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Differential Calculus - Rate of Change",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

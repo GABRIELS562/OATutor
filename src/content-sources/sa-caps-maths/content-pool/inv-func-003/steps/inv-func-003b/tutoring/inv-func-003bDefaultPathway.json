@@ -1,0 +1,35 @@
+[
+    {
+        "id": "inv-func-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find the Range of f",
+        "text": "For $f(x) = 2^x$:\n- As $x \\to -\\infty$, $2^x \\to 0$ (but never reaches 0)\n- As $x \\to \\infty$, $2^x \\to \\infty$\n\nRange of $f$: $y > 0$ (all positive real numbers)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "inv-func-003b-h2",
+        "type": "hint",
+        "dependencies": ["inv-func-003b-h1"],
+        "title": "Apply the Relationship",
+        "text": "Domain of $f^{-1}$ = Range of $f$\n\nSince Range of $f$ is $y > 0$, the Domain of $f^{-1}$ is $x > 0$.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "inv-func-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x>0"],
+        "dependencies": ["inv-func-003b-h2"],
+        "title": "State the Domain",
+        "text": "Domain of $f^{-1}$: $x > 0$ or $x \\in (0; \\infty)$\n\nThis makes sense because:\n- You cannot take the logarithm of zero or negative numbers\n- The logarithm function is only defined for positive inputs",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

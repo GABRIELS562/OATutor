@@ -1,0 +1,35 @@
+[
+    {
+        "id": "curve-sketch-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find f'(x)",
+        "text": "$f(x) = -x^3 + 4x^2 + 11x - 30$\n\n$f'(x) = -3x^2 + 8x + 11$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "curve-sketch-003b-h2",
+        "type": "hint",
+        "dependencies": ["curve-sketch-003b-h1"],
+        "title": "Solve f'(x) = 0",
+        "text": "$-3x^2 + 8x + 11 = 0$\n\nMultiply by $-1$: $3x^2 - 8x - 11 = 0$\n\nUsing the quadratic formula or factorisation:\n$(3x - 11)(x + 1) = 0$\n\n$x = \\frac{11}{3}$ or $x = -1$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "curve-sketch-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(-1, -36) local minimum; (11/3, 400/27) local maximum"],
+        "dependencies": ["curve-sketch-003b-h2"],
+        "title": "Calculate y-coordinates",
+        "text": "At $x = -1$: $f(-1) = -(-1)^3 + 4(-1)^2 + 11(-1) - 30 = 1 + 4 - 11 - 30 = -36$\n\nAt $x = \\frac{11}{3}$: $f(\\frac{11}{3}) = \\frac{400}{27} \\approx 14.81$\n\nTurning points: $(-1, -36)$ local minimum; $(\\frac{11}{3}, \\frac{400}{27})$ local maximum",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

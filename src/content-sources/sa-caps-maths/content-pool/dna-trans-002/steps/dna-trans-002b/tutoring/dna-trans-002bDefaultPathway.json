@@ -1,0 +1,22 @@
+[
+  {
+    "id": "dna-trans-002b-h1",
+    "type": "hint",
+    "title": "Start and Stop Codons",
+    "text": "AUG is the universal start codon (codes for Methionine). UGA, UAA, and UAG are stop codons that signal the ribosome to release the polypeptide.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "dna-trans-002b-h2",
+    "type": "hint",
+    "title": "Building the Polypeptide",
+    "text": "tRNA anticodons pair with mRNA codons, bringing amino acids in order: AUG brings Met, GCU brings Ala, UAC brings Tyr. UGA stops translation - this amino acid is not added.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

@@ -1,0 +1,10 @@
+{
+    "id": "seq-arith-002b",
+    "stepAnswer": ["5050", "S50=5050"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate S50",
+    "stepBody": "Use the sum formula for an arithmetic series:\n$$S_n = \\frac{n}{2}[2a + (n-1)d]$$\n\nWith $a = 3$, $d = 4$, and $n = 50$, calculate $S_{50}$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["arithmetic-sequence", "series-sum"]
+}

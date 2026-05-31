@@ -1,0 +1,10 @@
+{
+    "id": "fin-annuity-001b",
+    "stepAnswer": ["R184537.94", "184537.94", "R184 537.94", "184537,94"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate the Future Value",
+    "stepBody": "Using $F = x \\cdot \\frac{(1+i)^n - 1}{i}$ with $x = 2500$, $i = 0.007$, $n = 60$:\n\nCalculate the total amount after 5 years (round to the nearest cent):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["annuities", "future-value", "calculation"]
+}

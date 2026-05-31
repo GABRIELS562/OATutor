@@ -1,0 +1,35 @@
+[
+    {
+        "id": "diff-rules-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Power Rule Formula",
+        "text": "The power rule states: if $f(x) = ax^n$, then $f'(x) = n \\cdot ax^{n-1}$\n\nApply this to each term separately.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "diff-rules-001a-h2",
+        "type": "hint",
+        "dependencies": ["diff-rules-001a-h1"],
+        "title": "Differentiate Term by Term",
+        "text": "- $\\frac{d}{dx}(4x^5) = 5 \\times 4x^4 = 20x^4$\n- $\\frac{d}{dx}(-3x^3) = 3 \\times (-3)x^2 = -9x^2$\n- $\\frac{d}{dx}(2x^2) = 2 \\times 2x^1 = 4x$\n- $\\frac{d}{dx}(-7x) = -7$\n- $\\frac{d}{dx}(9) = 0$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "diff-rules-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["20x^4 - 9x^2 + 4x - 7"],
+        "dependencies": ["diff-rules-001a-h2"],
+        "title": "Complete Answer",
+        "text": "Combining all terms: $f'(x) = 20x^4 - 9x^2 + 4x - 7$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

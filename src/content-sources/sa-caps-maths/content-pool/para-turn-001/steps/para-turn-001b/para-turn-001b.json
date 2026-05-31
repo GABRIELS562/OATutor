@@ -1,0 +1,10 @@
+{
+    "id": "para-turn-001b",
+    "stepAnswer": ["(3;-4)", "(3, -4)", "(3,-4)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the Complete Turning Point",
+    "stepBody": "Substitute $x = 3$ into the equation to find the y-coordinate.\n\nWrite the turning point as $(x; y)$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["parabola-vertex", "substitution"]
+}

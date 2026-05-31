@@ -1,0 +1,10 @@
+{
+    "id": "calc-tangent-004",
+    "title": "Finding a Point Given Tangent Gradient",
+    "body": "Find the point on the curve $y = x^3 - 3x^2 - 9x + 5$ where the gradient of the tangent is equal to $15$.",
+    "variabilization": {},
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Differential Calculus - Equation of a Tangent",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

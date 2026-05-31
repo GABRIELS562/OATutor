@@ -1,0 +1,10 @@
+{
+    "id": "trig-sine-001b",
+    "stepAnswer": ["10.65"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Substitute and Solve",
+    "stepBody": "Using the Sine Rule:\n$$\\frac{8}{\\sin 42°} = \\frac{b}{\\sin 63°}$$\n\nSolve for b. Round to two decimal places.",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["sine-rule"]
+}

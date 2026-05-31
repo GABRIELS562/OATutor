@@ -1,0 +1,10 @@
+{
+    "id": "inv-func-001b",
+    "stepAnswer": ["f^(-1)(x)=(x+6)/3", "f^{-1}(x) = (x + 6)/3", "y=(x+6)/3", "f^-1(x)=x/3+2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Solve for y to get the Inverse",
+    "stepBody": "From $x = 3y - 6$, make $y$ the subject.\n\nWrite the inverse function $f^{-1}(x)$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["inverse-function", "linear-graph"]
+}

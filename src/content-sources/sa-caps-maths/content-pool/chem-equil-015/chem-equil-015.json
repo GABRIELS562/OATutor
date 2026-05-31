@@ -1,0 +1,19 @@
+{
+  "id": "chem-equil-015",
+  "title": "Industrial Application - Haber Process",
+  "body": "The Haber process for ammonia synthesis is: N2(g) + 3H2(g) <=> 2NH3(g), delta H = -92 kJ. In industry, conditions of 450 degrees C and 200 atm pressure are used with an iron catalyst. Explain why a moderate temperature (450 degrees C) is used rather than a low temperature.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-equilibrium",
+        "chem-reaction-rates"
+      ],
+      "difficultyCodes": [
+        "hard"
+      ]
+    }
+  ],
+  "oer": "Siyavula Grade 12 Physical Sciences - Chemical Equilibrium",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "chem-kinetics-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.015",
+    "0,015",
+    "1.5 × 10⁻²"
+  ],
+  "stepExplanation": "Average rate = Change in concentration / Time = 0.60 / 40 = 0.015 mol/dm³/s",
+  "stepTitle": "Average Rate of Reaction",
+  "stepBody": "Calculate the average rate using: Rate = Change in concentration / Time. Give units as mol/dm³/s."
+}

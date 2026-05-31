@@ -1,0 +1,17 @@
+{
+  "id": "mom-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "525",
+    "525 N",
+    "-525",
+    "-525 N"
+  ],
+  "stepExplanation": "Taking the initial direction of the ball as positive:\n$$F\\Delta t = m(v_f - v_i)$$\n$$F(0.02) = 0.15((-40) - 30)$$\n$$F(0.02) = 0.15(-70)$$\n$$F(0.02) = -10.5$$\n$$F = -525 \\text{ N}$$\nThe magnitude is 525 N. The negative sign indicates the force is opposite to the ball's initial direction.",
+  "stepTitle": "Calculate the Force",
+  "stepBody": "Using FΔt = m(v_f - v_i) with m = 0.15 kg, v_i = +30 m/s, v_f = -40 m/s, and Δt = 0.02 s, calculate the magnitude of the average force. Give your answer in N."
+}

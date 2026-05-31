@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-diff-012b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Cancel h",
+        "text": "Cancel $h$ from numerator and denominator:\n\n$$\\frac{-h}{hx(x+h)} = \\frac{-1}{x(x+h)}$$\n\nNow we can take the limit.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-diff-012b-h2",
+        "type": "hint",
+        "dependencies": ["calc-diff-012b-h1"],
+        "title": "Take the Limit",
+        "text": "Take the limit as $h \\to 0$:\n\n$$f'(x) = \\lim_{h \\to 0} \\frac{-1}{x(x+h)}$$\n\nAs $h \\to 0$, $(x+h) \\to x$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-diff-012b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["-1/x^2"],
+        "dependencies": ["calc-diff-012b-h2"],
+        "title": "Final Answer",
+        "text": "Substituting $h = 0$:\n\n$$f'(x) = \\frac{-1}{x \\cdot x} = \\frac{-1}{x^2} = -x^{-2}$$\n\nVerification using the power rule:\n$f(x) = x^{-1}$\n$f'(x) = -1 \\cdot x^{-2} = -\\frac{1}{x^2}$ (Correct!)",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "endo-001b-h1",
+    "type": "hint",
+    "title": "Glucose Transporters",
+    "text": "Insulin binds to receptors on cell membranes, causing glucose transport proteins (GLUT4) to move to the cell surface. This allows glucose to enter cells for respiration or storage.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "endo-001b-h2",
+    "type": "hint",
+    "title": "Negative Feedback Loop",
+    "text": "As blood glucose decreases, this is detected by beta cells which then reduce insulin secretion. The response (lowered glucose) inhibits the stimulus (high glucose) - this is negative feedback.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

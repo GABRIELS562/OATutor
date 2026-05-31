@@ -1,0 +1,25 @@
+[
+    {
+        "id": "diff-rules-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitution",
+        "text": "To find $f'(0)$, substitute $x = 0$ into the derivative:\n\n$f'(0) = 20(0)^4 - 9(0)^2 + 4(0) - 7$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "diff-rules-001b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["-7"],
+        "dependencies": ["diff-rules-001b-h1"],
+        "title": "Calculate",
+        "text": "$f'(0) = 0 - 0 + 0 - 7 = -7$\n\nThe gradient of the tangent at $x = 0$ is $-7$.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

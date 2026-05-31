@@ -1,0 +1,35 @@
+[
+    {
+        "id": "pat-linear-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Set Up the Equation",
+        "text": "We need to find when $T_n = 91$:\n\n$5n - 9 = 91$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "pat-linear-002b-h2",
+        "type": "hint",
+        "dependencies": ["pat-linear-002b-h1"],
+        "title": "Solve for n",
+        "text": "$5n - 9 = 91$\n$5n = 91 + 9$\n$5n = 100$\n$n = 20$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "pat-linear-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["20"],
+        "dependencies": ["pat-linear-002b-h2"],
+        "title": "Final Answer",
+        "text": "The value 91 is the 20th term of the sequence.\n\nVerify: $T_{20} = 5(20) - 9 = 100 - 9 = 91$ (correct!)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

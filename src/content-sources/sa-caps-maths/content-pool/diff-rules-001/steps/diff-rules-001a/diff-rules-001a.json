@@ -1,0 +1,10 @@
+{
+    "id": "diff-rules-001a",
+    "stepAnswer": ["20x^4-9x^2+4x-7", "20x^4 - 9x^2 + 4x - 7"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Apply the Power Rule to Each Term",
+    "stepBody": "Apply the power rule to each term of $f(x) = 4x^5 - 3x^3 + 2x^2 - 7x + 9$.\n\nRemember:\n- Multiply the coefficient by the exponent\n- Reduce the exponent by 1\n- The derivative of a constant is 0\n\nWrite $f'(x)$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "power-rule"]
+}

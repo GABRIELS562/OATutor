@@ -1,0 +1,17 @@
+{
+  "id": "geo-cyclic-003",
+  "title": "Exterior Angle of Cyclic Quad",
+  "body": "PQRS is a cyclic quadrilateral. Side RS is extended to T. If ∠PQR = 72°, calculate ∠PST.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "geo-cyclic-quad"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

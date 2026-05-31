@@ -1,0 +1,16 @@
+{
+  "id": "trig-compound-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "(√6+√2)/4",
+    "(√2+√6)/4",
+    "0.966"
+  ],
+  "stepExplanation": "= (√2/2)(√3/2) + (√2/2)(1/2) = √6/4 + √2/4 = (√6+√2)/4",
+  "stepTitle": "Evaluate",
+  "stepBody": "Substitute special angle values and simplify. cos45°=√2/2, cos30°=√3/2, sin45°=√2/2, sin30°=1/2"
+}

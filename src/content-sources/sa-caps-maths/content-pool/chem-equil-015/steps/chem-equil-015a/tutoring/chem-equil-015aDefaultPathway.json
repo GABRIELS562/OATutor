@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-equil-015a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify Reaction Type",
+        "text": "Delta H = -92 kJ means the forward reaction is exothermic (releases heat).",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-015a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply Le Chatelier",
+        "text": "Lowering temperature removes heat. The system shifts to replace heat by favoring the exothermic direction.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-015a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Effect on NH3",
+        "text": "Forward reaction is favored, so more NH3 is produced. Lower temperature = higher yield.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

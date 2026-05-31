@@ -1,0 +1,10 @@
+{
+    "id": "fin-annuity-002",
+    "title": "Present Value Annuity (Loan Repayment)",
+    "body": "Mpho takes out a home loan of R850 000 at an interest rate of 11.25% per annum, compounded monthly. She agrees to repay the loan over 20 years with equal monthly payments.\n\nCalculate the monthly repayment amount.\n\nPresent Value Annuity Formula: $P = x \\cdot \\frac{1 - (1+i)^{-n}}{i}$",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Financial Mathematics - Annuities",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

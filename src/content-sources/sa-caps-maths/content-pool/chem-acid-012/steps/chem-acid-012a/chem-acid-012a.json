@@ -1,0 +1,15 @@
+{
+  "id": "chem-acid-012a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "2.30",
+    "2.3"
+  ],
+  "stepExplanation": "pOH = -log[OH-] = -log(5 x 10^-3) = -(log 5 + log 10^-3) = -(0.70 + (-3)) = -(-2.30) = 2.30",
+  "stepTitle": "Calculate pOH",
+  "stepBody": "First, calculate the pOH using pOH = -log[OH-]. What is the pOH of this solution?"
+}

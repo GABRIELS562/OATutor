@@ -1,0 +1,115 @@
+name: CI/CD - Online Tutor App
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository_owner }}/online-tutor
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Lint
+        run: npm run lint --if-present
+        continue-on-error: true
+
+      - name: Run tests
+        run: npm test -- --watchAll=false --passWithNoTests
+        env:
+          CI: true
+
+  build-and-push:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    permissions:
+      contents: read
+      packages: write
+    outputs:
+      image_tag: ${{ steps.meta.outputs.tags }}
+      short_sha: ${{ steps.vars.outputs.short_sha }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set variables
+        id: vars
+        run: echo "short_sha=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+
+      - name: Log in to Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract metadata
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=sha,prefix=v0.0.0-
+            type=raw,value=latest
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+  deploy:
+    needs: build-and-push
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update ArgoCD Application
+        env:
+          ARGOCD_SERVER: ${{ secrets.ARGOCD_SERVER }}
+          ARGOCD_AUTH_TOKEN: ${{ secrets.ARGOCD_AUTH_TOKEN }}
+          IMAGE_TAG: v0.0.0-${{ needs.build-and-push.outputs.short_sha }}
+        run: |
+          # Install ArgoCD CLI
+          curl -sSL -o argocd https://github.com/argoproj/argo-cd/releases/latest/download/argocd-linux-amd64
+          chmod +x argocd
+
+          # Update the application with new image tag
+          ./argocd app set online-tutor \
+            --server $ARGOCD_SERVER \
+            --auth-token $ARGOCD_AUTH_TOKEN \
+            --grpc-web \
+            --parameter image.tag=$IMAGE_TAG \
+            --parameter forceRollout=$(date +%s)
+
+          # Sync the application
+          ./argocd app sync online-tutor \
+            --server $ARGOCD_SERVER \
+            --auth-token $ARGOCD_AUTH_TOKEN \
+            --grpc-web \
+            --prune
+
+          echo "Deployed image tag: $IMAGE_TAG"

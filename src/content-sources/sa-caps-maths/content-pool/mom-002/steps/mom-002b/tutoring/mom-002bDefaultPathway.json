@@ -1,0 +1,32 @@
+[
+    {
+        "id": "mom-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Change in Velocity",
+        "text": "The ball goes from +30 m/s to -40 m/s. Change in velocity: Δv = v_f - v_i = -40 - 30 = -70 m/s. The negative shows direction reversal.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "mom-002b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Change in Momentum",
+        "text": "Δp = mΔv = 0.15 × (-70) = -10.5 kg·m/s. This is also the impulse delivered by the bat.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "mom-002b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Finding the Force",
+        "text": "F = Δp/Δt = -10.5/0.02 = -525 N. The magnitude is 525 N - this is a large force acting for a very short time!",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

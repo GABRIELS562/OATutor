@@ -1,0 +1,10 @@
+{
+    "id": "para-turn-002a",
+    "stepAnswer": ["(x+4)(x-2)", "(x-2)(x+4)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Factorise the Quadratic",
+    "stepBody": "To find x-intercepts, set $y = 0$ and solve $x^2 + 2x - 8 = 0$.\n\nFactorise the expression $x^2 + 2x - 8$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["intercepts", "factorisation"]
+}

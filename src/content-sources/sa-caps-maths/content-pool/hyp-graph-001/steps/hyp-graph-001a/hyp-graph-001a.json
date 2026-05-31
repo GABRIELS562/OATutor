@@ -1,0 +1,10 @@
+{
+    "id": "hyp-graph-001a",
+    "stepAnswer": ["x=2", "x = 2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Vertical Asymptote",
+    "stepBody": "The vertical asymptote occurs where the denominator equals zero.\n\nFor $y = \\frac{3}{x - 2} + 1$, what is the equation of the vertical asymptote?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["hyperbola-asymptotes", "asymptotes"]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-doppler-012a-h1",
+    "type": "hint",
+    "title": "Rearranging the Formula",
+    "text": "Starting with f' = fv/(v - v_s), multiply both sides by (v - v_s): f'(v - v_s) = fv. Then divide by f': (v - v_s) = fv/f'.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-doppler-012a-h2",
+    "type": "hint",
+    "title": "Substituting Values",
+    "text": "(v - v_s) = fv/f' = (400 x 340)/450 = 136000/450 = 302.2 m/s. This is the effective 'wavelength compression' factor.",
+    "variabilization": {},
+    "dependencies": ["phys-doppler-012a-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-diff-010b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate f(x+h) - f(x)",
+        "text": "Subtract $f(x)$ from $f(x+h)$:\n\n$f(x+h) - f(x)$\n\n$= (x^2 + 2xh + h^2 - 4x - 4h + 3) - (x^2 - 4x + 3)$\n\n$= x^2 + 2xh + h^2 - 4x - 4h + 3 - x^2 + 4x - 3$\n\n$= 2xh + h^2 - 4h$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-diff-010b-h2",
+        "type": "hint",
+        "dependencies": ["calc-diff-010b-h1"],
+        "title": "Divide by h and Factor",
+        "text": "Divide by $h$ and factor:\n\n$\\frac{f(x+h) - f(x)}{h} = \\frac{2xh + h^2 - 4h}{h}$\n\nFactor out $h$ from the numerator:\n\n$= \\frac{h(2x + h - 4)}{h} = 2x + h - 4$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-diff-010b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["2x-4"],
+        "dependencies": ["calc-diff-010b-h2"],
+        "title": "Take the Limit as h approaches 0",
+        "text": "Now take the limit:\n\n$f'(x) = \\lim_{h \\to 0}(2x + h - 4)$\n\nAs $h \\to 0$:\n\n$f'(x) = 2x + 0 - 4 = 2x - 4$\n\nVerification using the power rule: $\\frac{d}{dx}(x^2 - 4x + 3) = 2x - 4$ (correct!)",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

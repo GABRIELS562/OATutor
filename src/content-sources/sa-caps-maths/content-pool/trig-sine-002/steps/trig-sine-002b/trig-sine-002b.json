@@ -1,0 +1,10 @@
+{
+    "id": "trig-sine-002b",
+    "stepAnswer": ["45.8"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate Angle Q",
+    "stepBody": "From the Sine Rule:\n$$\\frac{\\sin Q}{15} = \\frac{\\sin 35°}{12}$$\n\nSolve for Q in degrees. Round to one decimal place.",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["sine-rule"]
+}

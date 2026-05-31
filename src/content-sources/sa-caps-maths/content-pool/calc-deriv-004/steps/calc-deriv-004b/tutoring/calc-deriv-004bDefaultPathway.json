@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-deriv-004b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply Power Rule to Each Term",
+        "text": "Differentiate term by term:\n\n- $\\frac{d}{dx}(2x^3) = 6x^2$\n- $\\frac{d}{dx}(-3x^2) = -6x$\n- $\\frac{d}{dx}(8x) = 8$\n- $\\frac{d}{dx}(-12) = 0$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-deriv-004b-h2",
+        "type": "hint",
+        "dependencies": ["calc-deriv-004b-h1"],
+        "title": "Remember Constant Rule",
+        "text": "The derivative of a constant is always zero:\n\n$\\frac{d}{dx}(c) = 0$\n\nSo $\\frac{d}{dx}(-12) = 0$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-deriv-004b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["6x^2-6x+8"],
+        "dependencies": ["calc-deriv-004b-h2"],
+        "title": "Final Answer",
+        "text": "Combining all terms:\n\n$f'(x) = 6x^2 - 6x + 8$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "evol-001a-h1",
+    "type": "hint",
+    "title": "Requirements for Natural Selection",
+    "text": "Natural selection requires: (1) Variation in traits, (2) Heritability of traits, (3) Differential survival/reproduction based on traits, (4) Selection pressure from the environment.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "evol-001a-h2",
+    "type": "hint",
+    "title": "Industrial Melanism",
+    "text": "This famous example is called industrial melanism. The dark form (melanic) was always present but rare. Industrialization changed the environment, giving dark moths an advantage.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

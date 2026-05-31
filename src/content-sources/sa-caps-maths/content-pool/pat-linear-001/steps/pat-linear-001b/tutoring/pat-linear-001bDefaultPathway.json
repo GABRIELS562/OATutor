@@ -1,0 +1,35 @@
+[
+    {
+        "id": "pat-linear-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute n = 20",
+        "text": "To find $T_{20}$, substitute $n = 20$ into the general term:\n\n$T_n = 3n + 2$\n$T_{20} = 3(20) + 2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "pat-linear-001b-h2",
+        "type": "hint",
+        "dependencies": ["pat-linear-001b-h1"],
+        "title": "Calculate",
+        "text": "$T_{20} = 3(20) + 2$\n$T_{20} = 60 + 2$\n$T_{20} = 62$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "pat-linear-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["62"],
+        "dependencies": ["pat-linear-001b-h2"],
+        "title": "Final Answer",
+        "text": "The 20th term of the sequence is $T_{20} = 62$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

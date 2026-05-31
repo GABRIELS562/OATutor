@@ -1,0 +1,10 @@
+{
+    "id": "calc-maxmin-004",
+    "title": "Rate of Change Application",
+    "body": "A stone is thrown vertically upward. Its height $h$ (in metres) above the ground after $t$ seconds is given by:\n\n$$h(t) = 40t - 5t^2$$\n\nFind:\na) The velocity of the stone after 2 seconds\nb) The maximum height reached",
+    "variabilization": {},
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Differential Calculus - Rate of Change Applications",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

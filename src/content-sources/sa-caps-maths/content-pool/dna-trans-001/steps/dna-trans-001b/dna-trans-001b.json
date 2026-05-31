@@ -1,0 +1,15 @@
+{
+  "id": "dna-trans-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "5'-AUGCCUAGUUAA-3'",
+    "AUGCCUAGUUAA"
+  ],
+  "stepExplanation": "Reading the template strand 3' to 5' and applying base pairing: T->A, A->U, C->G, G->C, G->C, A->U, T->A, C->G, A->U, A->U, T->A, T->A. The mRNA is **5'-AUGCCUAGUUAA-3'**.",
+  "stepTitle": "Write the mRNA Sequence",
+  "stepBody": "Apply the base pairing rules to the template strand 3'-TACGGATCAATT-5'. Write the mRNA sequence in the 5' to 3' direction."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "chem-kinetics-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "string",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "increases",
+    "increase",
+    "faster",
+    "speeds up"
+  ],
+  "stepExplanation": "A lower activation energy means more particles have sufficient energy to overcome the energy barrier. This increases the number of successful collisions, so the reaction rate increases.",
+  "stepTitle": "Effect on Reaction Rate",
+  "stepBody": "Does the reaction rate increase or decrease when activation energy is lowered?"
+}

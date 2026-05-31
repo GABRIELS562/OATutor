@@ -1,0 +1,35 @@
+[
+    {
+        "id": "g10-alg-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Recognise the Pattern",
+        "text": "The difference of two squares pattern is:\n\n$$a^2 - b^2 = (a + b)(a - b)$$\n\nLook at $9x^2 - 16$. Is this a difference (subtraction) of two perfect squares?",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "g10-alg-002a-h2",
+        "type": "hint",
+        "dependencies": ["g10-alg-002a-h1"],
+        "title": "Find the Square Root",
+        "text": "To find $a$, take the square root of $9x^2$:\n\n$\\sqrt{9x^2} = \\sqrt{9} \\times \\sqrt{x^2} = 3 \\times x = 3x$\n\nSo $a = 3x$ because $(3x)^2 = 9x^2$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "g10-alg-002a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["3x"],
+        "dependencies": ["g10-alg-002a-h2"],
+        "title": "Confirm the Value",
+        "text": "Check: $(3x)^2 = 3^2 \\times x^2 = 9x^2$ \\checkmark\n\nTherefore $a = 3x$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

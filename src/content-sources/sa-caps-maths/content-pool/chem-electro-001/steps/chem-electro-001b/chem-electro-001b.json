@@ -1,0 +1,16 @@
+{
+  "id": "chem-electro-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "1.19",
+    "1,19",
+    "1.2"
+  ],
+  "stepExplanation": "Cu²⁺ + 2e⁻ → Cu. Moles of electrons = Q/F = 3600/96500 = 0.0373 mol. Moles of Cu = 0.0373/2 = 0.0186 mol. Mass = nM = 0.0186 × 64 = 1.19 g",
+  "stepTitle": "Mass of Copper Deposited",
+  "stepBody": "Cu²⁺ requires 2 electrons per atom. Calculate moles of electrons, then moles and mass of Cu."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phys-circ-011b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "1.2",
+    "1.2 A",
+    "1,2",
+    "1,2 A"
+  ],
+  "stepExplanation": "Using Ohm's Law: I = V/R = 12/10 = 1.2 A. Since R3 is in series with the battery, all current flows through it.",
+  "stepTitle": "Current Through R3",
+  "stepBody": "Using Ohm's Law (I = V/R), calculate the current in the circuit. Since R3 is in series, what current flows through it?"
+}

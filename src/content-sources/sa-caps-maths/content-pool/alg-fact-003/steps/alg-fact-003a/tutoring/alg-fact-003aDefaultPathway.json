@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-fact-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "The AC Method",
+        "text": "When factorising $ax^2 + bx + c$ with $a \\neq 1$:\n\n1. Multiply $a \\times c$\n2. Find two numbers that multiply to $ac$ and add to $b$\n3. Use these to split the middle term\n\nHere: $a = 2$, $b = 7$, $c = 3$\nSo $ac = 2 \\times 3 = 6$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-fact-003a-h2",
+        "type": "hint",
+        "dependencies": ["alg-fact-003a-h1"],
+        "title": "Find the Factor Pair",
+        "text": "Factor pairs of 6:\n- $1 \\times 6 = 6$ (sum = $7$) ✓\n- $2 \\times 3 = 6$ (sum = $5$)\n\nThe pair $1$ and $6$ works: $1 \\times 6 = 6$ and $1 + 6 = 7$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-fact-003a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["6 and 1"],
+        "dependencies": ["alg-fact-003a-h2"],
+        "title": "The Two Numbers",
+        "text": "The numbers are $6$ and $1$.\n\nThese will be used to split the middle term $7x$ into $6x + 1x$.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    }
+]

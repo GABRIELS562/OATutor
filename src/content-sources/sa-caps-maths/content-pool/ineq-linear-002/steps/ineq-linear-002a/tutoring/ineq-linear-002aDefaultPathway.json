@@ -1,0 +1,35 @@
+[
+    {
+        "id": "ineq-linear-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Subtract 6 from Both Sides",
+        "text": "$-2x + 6 \\geq 10$\n$-2x + 6 - 6 \\geq 10 - 6$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "ineq-linear-002a-h2",
+        "type": "hint",
+        "dependencies": ["ineq-linear-002a-h1"],
+        "title": "Simplify",
+        "text": "$-2x \\geq 4$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "ineq-linear-002a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["-2x>=4"],
+        "dependencies": ["ineq-linear-002a-h2"],
+        "title": "Result",
+        "text": "$-2x \\geq 4$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

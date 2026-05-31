@@ -6,7 +6,10 @@ import CardContent from "@material-ui/core/CardContent";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import IconButton from "@material-ui/core/IconButton";
-import { fetchDynamicHint } from "./DynamicHintHelper";
+import VisibilityIcon from "@material-ui/icons/Visibility";
+import VisibilityOffIcon from "@material-ui/icons/VisibilityOff";
+import { fetchDynamicHint } from "./HintServiceWrapper"; // Uses FREE Groq AI
+import WorkedSolutionPanel from "./WorkedSolutionPanel";
 
 import { checkAnswer } from "../../platform-logic/checkAnswer.js";
 import styles from "./common-styles.js";
@@ -19,7 +22,6 @@ import {
 import {
     DYNAMIC_HINT_URL,
     DYNAMIC_HINT_TEMPLATE,
-    ENABLE_BOTTOM_OUT_HINTS,
     ThemeContext,
 } from "../../config/config.js";
 
@@ -35,6 +37,7 @@ import {
 import { joinList } from "../../util/formListString";
 import withTranslation from "../../util/withTranslation.js"
 import CryptoJS from "crypto-js";
+import { recordProblemAttempt as recordGamificationAttempt } from "../../util/gamificationHelper";
 
 class ProblemCard extends React.Component {
     static contextType = ThemeContext;
@@ -55,9 +58,6 @@ class ProblemCard extends React.Component {
         this.allowRetry = this.giveStuFeedback;
 
         this.giveStuBottomHint = props.giveStuBottomHint;
-        console.log("ProblemCard - giveStuBottomHint:", this.giveStuBottomHint);
-        console.log("ProblemCard - all props:", props);
-
         this.giveDynamicHint = props.giveDynamicHint;
         this.showHints = this.giveStuHints == null || this.giveStuHints;
         this.showCorrectness = this.giveStuFeedback;
@@ -95,9 +95,6 @@ class ProblemCard extends React.Component {
         }
 
         // Bottom out hints option
-
-        console.log("Constructor - About to check bottom hints:", this.giveStuBottomHint, context.debug, context["use_expanded_view"]);
-
         if (
             this.giveStuBottomHint &&
             !(context.debug && context["use_expanded_view"])
@@ -150,8 +147,14 @@ class ProblemCard extends React.Component {
             activeHintType: "none", // "none", or "normal".
             hints: this.hints,
             // When we are currently streaming the response from ChatGPT, this variable is `true`
-            isGeneratingHint: false, 
+            isGeneratingHint: false,
             lastAIHintHash: null,
+            // Gamification tracking
+            attemptCount: 0,
+            problemStartTime: Date.now(),
+            // View Answer / Worked Solution feature
+            showWorkedSolution: false,
+            viewedAnswerBeforeAttempt: false,
         };
 
          // This is used for AI hint generation
@@ -209,7 +212,6 @@ class ProblemCard extends React.Component {
     componentDidMount() {
         // Start an asynchronous task
         this.updateBioInfo();
-        console.log("student show hints status: ", this.showHints);
     }
 
     componentDidUpdate(prevProps) {
@@ -241,7 +243,7 @@ class ProblemCard extends React.Component {
         const { seed, problemVars, problemID, courseName, answerMade, lesson } =
             this.props;
 
-        if (inputVal == '') {
+        if (inputVal === '') {
             toastNotifyEmpty(this.translate)
             return;
         }
@@ -285,9 +287,28 @@ class ProblemCard extends React.Component {
             toastNotifyCompletion(this.translate);
         }
 
+        // Track attempt count
+        const newAttemptCount = this.state.attemptCount + 1;
+
+        // Record gamification XP on correct answer
+        if (isCorrect) {
+            const timeSeconds = Math.floor((Date.now() - this.state.problemStartTime) / 1000);
+            const hintsUsed = this.state.hintsFinished.filter(h => h > 0).length;
+
+            recordGamificationAttempt({
+                isCorrect: true,
+                hintsUsed,
+                attempts: newAttemptCount,
+                timeSeconds,
+                knowledgeComponents: knowledgeComponents || [],
+                lessonId: lesson,
+            });
+        }
+
         this.setState({
             isCorrect,
             checkMarkOpacity: isCorrect ? "100" : "0",
+            attemptCount: newAttemptCount,
         });
         answerMade(this.index, knowledgeComponents, isCorrect);
     };
@@ -333,6 +354,66 @@ class ProblemCard extends React.Component {
                 );
             }
         );
+    };
+
+    // Toggle View Answer / Worked Solution panel
+    toggleWorkedSolution = () => {
+        const { isCorrect } = this.state;
+        const { seed, problemVars, problemID, courseName, lesson } = this.props;
+        const { variabilization } = this.step;
+        const hasNotAttempted = isCorrect === null;
+
+        this.setState(prevState => {
+            const newShowState = !prevState.showWorkedSolution;
+
+            // Track if viewed before attempting (for analytics)
+            if (newShowState && hasNotAttempted && !prevState.viewedAnswerBeforeAttempt) {
+                // Log analytics event
+                this.context.firebase.log(
+                    null,
+                    problemID,
+                    this.step,
+                    null,
+                    null,
+                    this.state.hintsFinished,
+                    "viewAnswerBeforeAttempt",
+                    chooseVariables(
+                        Object.assign({}, problemVars, variabilization),
+                        seed
+                    ),
+                    lesson,
+                    courseName,
+                    this.giveDynamicHint ? "dynamic" : "regular",
+                    this.state.dynamicHint,
+                    this.state.bioInfo
+                );
+
+                // Save to localStorage for analytics tracking
+                try {
+                    const viewedAnswers = JSON.parse(
+                        localStorage.getItem('viewedAnswersBeforeAttempt') || '[]'
+                    );
+                    viewedAnswers.push({
+                        stepId: this.step.id,
+                        problemId: problemID,
+                        timestamp: Date.now()
+                    });
+                    // Keep only last 100 entries to avoid localStorage bloat
+                    if (viewedAnswers.length > 100) {
+                        viewedAnswers.shift();
+                    }
+                    localStorage.setItem('viewedAnswersBeforeAttempt', JSON.stringify(viewedAnswers));
+                } catch (e) {
+                    console.debug('Could not save viewedAnswersBeforeAttempt to localStorage');
+                }
+            }
+
+            return {
+                showWorkedSolution: newShowState,
+                viewedAnswerBeforeAttempt: prevState.viewedAnswerBeforeAttempt ||
+                    (newShowState && hasNotAttempted),
+            };
+        });
     };
 
     unlockHint = (hintNum, hintType) => {
@@ -447,7 +528,6 @@ class ProblemCard extends React.Component {
         // If the current hash matches the last hash, skip regeneration
         // If forceRegenerate is true, the regenerate button was pressed
         if ((currentHash === lastAIHintHash) && !forceRegenerate) {
-            console.log("Hint already generated for this answer, skipping regeneration.");
             return;
         }
 
@@ -457,7 +537,7 @@ class ProblemCard extends React.Component {
             lastAIHintHash: currentHash,
         });
     
-        const [parsed, correctAnswer, reason] = checkAnswer({
+        const [parsed, correctAnswer] = checkAnswer({
             attempt: this.state.inputVal,
             actual: this.step.stepAnswer,
             answerType: this.step.answerType,
@@ -523,9 +603,6 @@ class ProblemCard extends React.Component {
             }
 
             // Bottom out hints option
-
-            console.log("Constructor - About to check bottom hints:", this.giveStuBottomHint, this.context.debug, this.context["use_expanded_view"]);
-
             if (
                 this.giveStuBottomHint &&
                 !(this.context.debug && this.context["use_expanded_view"])
@@ -727,6 +804,20 @@ class ProblemCard extends React.Component {
                             index={this.props.index}
                         />
                     </div>
+
+                    {/* Worked Solution Panel - View/Hide Answer Feature */}
+                    <WorkedSolutionPanel
+                        step={this.step}
+                        isVisible={this.state.showWorkedSolution}
+                        viewedBeforeAttempt={this.state.viewedAnswerBeforeAttempt}
+                        problemID={problemID}
+                        seed={seed}
+                        stepVars={Object.assign(
+                            {},
+                            problemVars,
+                            this.step.variabilization
+                        )}
+                    />
                 </CardContent>
                 <CardActions>
                     <Grid
@@ -735,12 +826,13 @@ class ProblemCard extends React.Component {
                         justifyContent="center"
                         alignItems="center"
                     >
-                        <Grid item xs={false} sm={false} md={4} />
-                        <Grid item xs={4} sm={4} md={1}>
+                        <Grid item xs={false} sm={false} md={3} />
+                        <Grid item xs={3} sm={3} md={1}>
                             {this.showHints && (
                                 <center>
                                     <IconButton
-                                        aria-label="delete"
+                                        aria-label={this.state.displayHints ? "Hide hints" : "Show hints"}
+                                        aria-expanded={this.state.displayHints}
                                         onClick={this.toggleHints}
                                         title="View available hints"
                                         disabled={
@@ -758,13 +850,13 @@ class ProblemCard extends React.Component {
                                                     ? "image"
                                                     : "image image-grayed-out"
                                             }
-                                            alt="hintToggle"
+                                            alt="Raise hand icon - click to get a hint"
                                         />
                                     </IconButton>
                                 </center>
                             )}
                         </Grid>
-                        <Grid item xs={4} sm={4} md={2}>
+                        <Grid item xs={3} sm={3} md={2}>
                             <center>
                                 <Button
                                     className={classes.button}
@@ -783,7 +875,25 @@ class ProblemCard extends React.Component {
                                 </Button>
                             </center>
                         </Grid>
-                        <Grid item xs={4} sm={3} md={1}>
+                        <Grid item xs={3} sm={3} md={2}>
+                            <center>
+                                <Button
+                                    className={classes.viewAnswerButton}
+                                    size="small"
+                                    onClick={this.toggleWorkedSolution}
+                                    startIcon={this.state.showWorkedSolution ?
+                                        <VisibilityOffIcon /> : <VisibilityIcon />}
+                                    {...stagingProp({
+                                        "data-selenium-target": `view-answer-button-${this.props.index}`,
+                                    })}
+                                >
+                                    {this.state.showWorkedSolution ?
+                                        translate('workedSolution.hide') :
+                                        translate('workedSolution.view')}
+                                </Button>
+                            </center>
+                        </Grid>
+                        <Grid item xs={3} sm={3} md={1}>
                             <div
                                 style={{
                                     display: "flex",
@@ -791,6 +901,9 @@ class ProblemCard extends React.Component {
                                     alignContent: "center",
                                     justifyContent: "center",
                                 }}
+                                role="status"
+                                aria-live="polite"
+                                aria-atomic="true"
                             >
                                 {(!this.showCorrectness ||
                                     !this.allowRetry) && (
@@ -798,7 +911,7 @@ class ProblemCard extends React.Component {
                                         className={classes.checkImage}
                                         style={{
                                             opacity:
-                                                this.state.isCorrect == null
+                                                this.state.isCorrect === null
                                                     ? 0
                                                     : 1,
                                             width: "45%",
@@ -826,7 +939,8 @@ class ProblemCard extends React.Component {
                                                     this.state.checkMarkOpacity,
                                                 width: "45%",
                                             }}
-                                            alt="Green Checkmark Icon"
+                                            alt="Correct answer"
+                                            aria-label="Your answer is correct"
                                             {...stagingProp({
                                                 "data-selenium-target": `step-correct-img-${this.props.index}`,
                                             })}
@@ -844,7 +958,8 @@ class ProblemCard extends React.Component {
                                                     this.state.checkMarkOpacity,
                                                 width: "45%",
                                             }}
-                                            alt="Red X Icon"
+                                            alt="Incorrect answer"
+                                            aria-label="Your answer is incorrect, please try again"
                                             {...stagingProp({
                                                 "data-selenium-target": `step-correct-img-${this.props.index}`,
                                             })}
@@ -853,7 +968,7 @@ class ProblemCard extends React.Component {
                                     )}
                             </div>
                         </Grid>
-                        <Grid item xs={false} sm={1} md={4} />
+                        <Grid item xs={false} sm={false} md={3} />
                     </Grid>
                 </CardActions>
             </Card>

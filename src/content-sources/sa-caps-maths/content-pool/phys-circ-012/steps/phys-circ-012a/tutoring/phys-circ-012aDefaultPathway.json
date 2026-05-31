@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-circ-012a-h1",
+    "type": "hint",
+    "title": "Ohm's Law",
+    "text": "Ohm's Law states V = IR, which can be rearranged to I = V/R to find current when voltage and resistance are known.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-circ-012a-h2",
+    "type": "hint",
+    "title": "Substitution",
+    "text": "Substitute the values: I = 220 V / 20 ohm = 11 A",
+    "variabilization": {},
+    "dependencies": ["phys-circ-012a-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

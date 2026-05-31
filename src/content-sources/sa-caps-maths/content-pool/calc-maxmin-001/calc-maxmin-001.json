@@ -1,0 +1,10 @@
+{
+    "id": "calc-maxmin-001",
+    "title": "Finding Stationary Points",
+    "body": "Find the coordinates of the stationary points of the function:\n\n$$f(x) = x^3 - 6x^2 + 9x + 1$$\n\nDetermine whether each point is a local maximum, local minimum, or point of inflection.",
+    "variabilization": {},
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Differential Calculus - Maximum and Minimum Problems",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

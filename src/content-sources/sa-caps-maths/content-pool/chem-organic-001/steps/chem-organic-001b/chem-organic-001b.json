@@ -1,0 +1,15 @@
+{
+  "id": "chem-organic-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "C3H6O2",
+    "C₃H₆O₂"
+  ],
+  "stepExplanation": "Methyl ethanoate: CH₃COOCH₃ = C₃H₆O₂",
+  "stepTitle": "Molecular Formula",
+  "stepBody": "Write the molecular formula of methyl ethanoate (CH₃COOCH₃)."
+}

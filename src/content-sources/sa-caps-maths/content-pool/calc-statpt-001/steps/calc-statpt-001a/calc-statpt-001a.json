@@ -1,0 +1,10 @@
+{
+    "id": "calc-statpt-001a",
+    "stepAnswer": ["x=-1 and x=3", "x=-1, x=3", "-1 and 3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find x-values of Stationary Points",
+    "stepBody": "Find $f'(x)$ and solve $f'(x) = 0$ to find the x-coordinates of the stationary points.\n\nGiven: $f(x) = -x^3 + 3x^2 + 9x - 27$\n\nWhat are the x-values of the stationary points?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "stationary-points"]
+}

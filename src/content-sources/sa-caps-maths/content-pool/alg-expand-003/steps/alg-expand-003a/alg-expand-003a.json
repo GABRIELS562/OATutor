@@ -1,0 +1,10 @@
+{
+    "id": "alg-expand-003a",
+    "stepAnswer": ["difference of two squares", "difference of squares", "DOTS"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Identify the Pattern",
+    "stepBody": "Look at $(5x + 3)(5x - 3)$.\n\nNotice that:\n- Both brackets have the same first term ($5x$)\n- The second terms are the same number but with opposite signs ($+3$ and $-3$)\n\nThis is the pattern $(a + b)(a - b)$.\n\nWhat is this special product pattern called?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["expansion", "difference-of-squares", "special-products"]
+}

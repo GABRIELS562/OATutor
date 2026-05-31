@@ -1,0 +1,15 @@
+{
+  "id": "bio-reproduction-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "14",
+    "day 14"
+  ],
+  "stepExplanation": "Ovulation occurs around day 14 (middle of the 28-day cycle)",
+  "stepTitle": "Ovulation Day",
+  "stepBody": "In a 28-day cycle, on approximately which day does ovulation occur?"
+}

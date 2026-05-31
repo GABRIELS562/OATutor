@@ -1,0 +1,10 @@
+{
+    "id": "func-inv-012",
+    "title": "Inverse of an Exponential Function",
+    "body": "Consider the function $f(x) = 2^x$.\n\n(a) Write down $f^{-1}(x)$ in logarithmic form.\n\n(b) Calculate $f^{-1}(8)$ without a calculator.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Functions Chapter 3.2",
+    "license": "CC BY 4.0 - Creative Commons Attribution",
+    "lesson": "3.2 Inverse Functions",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "chem-acid-011",
+  "title": "Titration Calculation - Strong Acid and Strong Base",
+  "body": "25 cm^3 of hydrochloric acid (HCl) is titrated against 0.1 mol/dm^3 sodium hydroxide (NaOH). It requires 20 cm^3 of NaOH for complete neutralization. The balanced equation is: HCl + NaOH -> NaCl + H2O. Calculate the concentration of the hydrochloric acid.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-titrations"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "Siyavula Grade 12 Physical Sciences - Acids and Bases",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

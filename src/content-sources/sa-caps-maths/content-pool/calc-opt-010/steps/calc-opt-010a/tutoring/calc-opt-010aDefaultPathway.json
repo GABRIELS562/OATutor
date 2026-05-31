@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-opt-010a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Visualise the Box",
+        "text": "When squares of side $x$ are cut from each corner:\n- The original length (24 cm) loses $x$ from both ends: $24 - 2x$\n- The original width (18 cm) loses $x$ from both ends: $18 - 2x$\n- When folded up, the height becomes $x$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-opt-010a-h2",
+        "type": "hint",
+        "dependencies": ["calc-opt-010a-h1"],
+        "title": "Volume Formula",
+        "text": "Volume of a rectangular box = length x width x height\n\n$V = (24 - 2x)(18 - 2x)(x)$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-opt-010a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["4x^3-84x^2+432x"],
+        "dependencies": ["calc-opt-010a-h2"],
+        "title": "Expand the Volume Function",
+        "text": "Expanding:\n$(24-2x)(18-2x) = 432 - 48x - 36x + 4x^2 = 432 - 84x + 4x^2$\n\n$V = x(432 - 84x + 4x^2) = 432x - 84x^2 + 4x^3$\n\nOr: $V = 4x^3 - 84x^2 + 432x$\n\nNote: Valid domain is $0 < x < 9$ (width must be positive)",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

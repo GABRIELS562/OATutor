@@ -1,0 +1,10 @@
+{
+    "id": "func-log-001",
+    "title": "Evaluating Logarithms Without a Calculator",
+    "body": "Determine the value of each expression without using a calculator:\n\n(a) $\\log_3 81$\n\n(b) $\\log_5\\left(\\frac{1}{25}\\right)$",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Functions Chapter 3.3",
+    "license": "CC BY 4.0 - Creative Commons Attribution",
+    "lesson": "3.3 Logarithmic Functions",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

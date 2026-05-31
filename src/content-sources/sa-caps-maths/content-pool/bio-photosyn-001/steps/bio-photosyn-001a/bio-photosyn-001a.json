@@ -1,0 +1,17 @@
+{
+  "id": "bio-photosyn-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "thylakoid membrane",
+    "thylakoid",
+    "thylakoid membranes",
+    "grana"
+  ],
+  "stepExplanation": "The light-dependent reactions occur in the **thylakoid membrane** (also acceptable: grana). This is where chlorophyll and other photosynthetic pigments are located to capture light energy.",
+  "stepTitle": "Location of Light-Dependent Reactions",
+  "stepBody": "In which specific structure of the chloroplast do the light-dependent reactions take place?"
+}

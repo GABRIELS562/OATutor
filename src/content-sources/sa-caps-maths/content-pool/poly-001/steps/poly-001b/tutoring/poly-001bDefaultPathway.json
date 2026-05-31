@@ -1,0 +1,35 @@
+[
+    {
+        "id": "poly-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Recall the Factor Theorem Condition",
+        "text": "The Factor Theorem states: $(x - a)$ is a factor of $f(x)$ if and only if $f(a) = 0$.\n\nWe found that $f(2) = 0$.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-001b-h2",
+        "type": "hint",
+        "dependencies": ["poly-001b-h1"],
+        "title": "Apply the Theorem",
+        "text": "Since $f(2) = 0$, the condition of the Factor Theorem is satisfied.\n\nThis means $(x - 2)$ divides $f(x)$ exactly with no remainder.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["Yes"],
+        "dependencies": ["poly-001b-h2"],
+        "title": "The Answer",
+        "text": "Yes, $(x - 2)$ is a factor of $x^3 - 4x^2 + x + 6$.\n\nIn fact, we can write: $x^3 - 4x^2 + x + 6 = (x - 2)(x^2 - 2x - 3) = (x - 2)(x - 3)(x + 1)$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

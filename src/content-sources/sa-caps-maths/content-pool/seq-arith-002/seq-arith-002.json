@@ -1,0 +1,10 @@
+{
+    "id": "seq-arith-002",
+    "title": "Arithmetic Sequence: Sum of Terms",
+    "body": "The first term of an arithmetic sequence is 3 and the common difference is 4.\n\na) Write down the first 5 terms of the sequence.\nb) Calculate the sum of the first 50 terms.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Sequences and Series",
+    "license": "CC BY 4.0",
+    "lesson": "Arithmetic Sequences",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

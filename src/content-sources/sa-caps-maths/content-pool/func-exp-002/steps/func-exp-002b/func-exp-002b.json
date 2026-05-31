@@ -1,0 +1,10 @@
+{
+    "id": "func-exp-002b",
+    "stepAnswer": ["15", "t=15"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Time for 12.5% to Remain",
+    "stepBody": "After how many years will only 12.5% of the substance remain?\\n\\n(Hint: 12.5% = 1/8)",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["exponential-decay", "logarithms"]
+}

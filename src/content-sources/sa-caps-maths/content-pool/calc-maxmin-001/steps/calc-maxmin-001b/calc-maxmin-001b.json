@@ -1,0 +1,10 @@
+{
+    "id": "calc-maxmin-001b",
+    "stepAnswer": ["(1,5) is max, (3,1) is min", "local max at (1,5), local min at (3,1)", "maximum at x=1, minimum at x=3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Classify the Stationary Points",
+    "stepBody": "Use the second derivative test to classify each stationary point.\n\nFind $f''(x)$ and evaluate at $x = 1$ and $x = 3$.\n\nClassify each point as maximum or minimum:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "stationary-points", "optimization"]
+}

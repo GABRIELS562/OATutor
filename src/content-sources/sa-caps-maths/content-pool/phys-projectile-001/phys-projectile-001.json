@@ -1,0 +1,17 @@
+{
+  "id": "phys-projectile-001",
+  "title": "Vertical Projectile Motion",
+  "body": "A ball is thrown vertically upward with an initial velocity of 20 m/s. Taking g = 10 m/s², calculate the maximum height reached by the ball.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-projectile"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

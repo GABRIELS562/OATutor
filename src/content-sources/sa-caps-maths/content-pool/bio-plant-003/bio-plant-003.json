@@ -1,0 +1,17 @@
+{
+  "id": "bio-plant-003",
+  "title": "Photoperiodism - Plant Response to Day Length",
+  "body": "Photoperiodism is the response of plants to the relative lengths of day and night. This affects flowering in many plants. Explain how short-day and long-day plants differ.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-hormones"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

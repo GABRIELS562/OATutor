@@ -1,0 +1,35 @@
+[
+    {
+        "id": "g10-alg-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understanding Grouping",
+        "text": "Factoring by grouping works when we can pair terms and find a common factor.\n\nGroup: $(2x^3 + 6x^2) + (3x + 9)$\n\nLook for the HCF in each group separately.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "g10-alg-003a-h2",
+        "type": "hint",
+        "dependencies": ["g10-alg-003a-h1"],
+        "title": "Factor Each Group",
+        "text": "For the first group $(2x^3 + 6x^2)$:\n- HCF of $2x^3$ and $6x^2$ is $2x^2$\n- $2x^3 + 6x^2 = 2x^2(x + 3)$\n\nFor the second group $(3x + 9)$:\n- HCF of $3x$ and $9$ is $3$\n- $3x + 9 = 3(x + 3)$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "g10-alg-003a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["2x^2(x+3)+3(x+3)"],
+        "dependencies": ["g10-alg-003a-h2"],
+        "title": "Combined Result",
+        "text": "After factoring each group:\n\n$2x^3 + 6x^2 + 3x + 9 = 2x^2(x + 3) + 3(x + 3)$\n\nNotice that both terms now have $(x + 3)$ as a common factor!",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

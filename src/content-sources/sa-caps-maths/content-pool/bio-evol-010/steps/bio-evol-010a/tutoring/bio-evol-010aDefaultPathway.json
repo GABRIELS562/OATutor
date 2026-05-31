@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-evol-010a-h1",
+    "type": "hint",
+    "title": "Understanding the Foramen Magnum",
+    "text": "The foramen magnum is the large opening at the base of the skull through which the spinal cord passes. Its position determines how the head is positioned relative to the spine.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/human-evolution",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-evol-010a-h2",
+    "type": "hint",
+    "title": "Quadruped vs Biped Balance",
+    "text": "In quadrupeds (four-legged animals), the head projects forward and muscles at the back of the neck hold it up. In bipeds, the head needs to balance on top of the spine - think about where the 'pivot point' should be for this to work efficiently.",
+    "variabilization": {},
+    "dependencies": ["bio-evol-010a-h1"],
+    "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/human-evolution",
+    "license": "CC BY 4.0"
+  }
+]

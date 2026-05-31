@@ -1,0 +1,35 @@
+[
+    {
+        "id": "exp-graph-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Set g(x) = 0",
+        "text": "$2^{x+1} - 4 = 0$\n$2^{x+1} = 4$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "exp-graph-003b-h2",
+        "type": "hint",
+        "dependencies": ["exp-graph-003b-h1"],
+        "title": "Express 4 as a Power of 2",
+        "text": "Since $4 = 2^2$:\n\n$2^{x+1} = 2^2$\n\nWhen bases are equal, exponents are equal:\n$x + 1 = 2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "exp-graph-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x=1"],
+        "dependencies": ["exp-graph-003b-h2"],
+        "title": "Solve for x",
+        "text": "$x + 1 = 2$\n$x = 1$\n\nThe x-intercept is $(1; 0)$.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

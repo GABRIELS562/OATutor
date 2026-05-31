@@ -1,0 +1,10 @@
+{
+    "id": "poly-007",
+    "title": "Finding Unknown Coefficients Using Two Conditions",
+    "body": "The polynomial $f(x) = x^3 + ax^2 + bx - 12$ has factors $(x - 1)$ and $(x + 2)$.\n\nFind the values of $a$ and $b$.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Polynomials Chapter 7.2",
+    "license": "CC-BY - Siyavula Education",
+    "lesson": "Factor Theorem Applications",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

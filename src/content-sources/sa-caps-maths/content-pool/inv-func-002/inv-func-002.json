@@ -1,0 +1,10 @@
+{
+    "id": "inv-func-002",
+    "title": "Inverse of a Quadratic Function with Domain Restriction",
+    "body": "Given the function $f(x) = x^2 - 4$ where $x \\geq 0$.\n\nDetermine the inverse function $f^{-1}(x)$ and state its domain.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 11)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Functions and Graphs - Inverse Functions",
+    "courseName": "CAPS Grade 11 Mathematics"
+}

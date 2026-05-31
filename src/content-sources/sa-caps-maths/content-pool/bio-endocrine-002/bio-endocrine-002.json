@@ -1,0 +1,14 @@
+{
+  "id": "bio-endocrine-002",
+  "title": "Endocrine System - Thyroid Gland and TSH Feedback",
+  "body": "Study the diagram of the hypothalamus-pituitary-thyroid axis:\n\n```\n[THYROID HORMONE REGULATION]\n\n    +------------------+\n    |   HYPOTHALAMUS   |\n    +--------|---------+\n             | Releases TRH\n             | (Thyrotropin-Releasing Hormone)\n             v\n    +------------------+\n    | PITUITARY GLAND  |\n    | (Anterior lobe)  |\n    +--------|---------+\n             | Releases TSH\n             | (Thyroid-Stimulating Hormone)\n             v\n    +------------------+\n    |  THYROID GLAND   |\n    +--------|---------+\n             | Releases T3 and T4\n             | (Thyroid hormones)\n             v\n    +------------------+\n    |  TARGET CELLS    |\n    | - Increase       |\n    |   metabolic rate |\n    +------------------+\n             |\n             | NEGATIVE FEEDBACK\n             | (High T3/T4 inhibits TRH and TSH release)\n             v\n    <--------+--------->\n       Back to Hypothalamus\n       and Pituitary\n```\n\nA patient has an overactive thyroid (hyperthyroidism). Predict the levels of TSH in their blood and explain why using the concept of negative feedback.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-endocrine-system"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "oer": "DBE NSC Life Sciences Paper 1/2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

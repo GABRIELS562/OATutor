@@ -1,0 +1,17 @@
+{
+  "id": "vpm-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "31.89",
+    "31.9",
+    "32",
+    "31.89 m"
+  ],
+  "stepExplanation": "Using v² = u² + 2as with v = 0, u = 25 m/s, and a = -9.8 m/s²:\n$$0 = (25)^2 + 2(-9.8)(s)$$\n$$0 = 625 - 19.6s$$\n$$19.6s = 625$$\n$$s = \\frac{625}{19.6} = 31.89 \\text{ m}$$",
+  "stepTitle": "Calculate Maximum Height",
+  "stepBody": "Using v² = u² + 2as, with v = 0 m/s, u = 25 m/s, and a = -9.8 m/s², calculate the maximum height s. Give your answer in metres (round to 2 decimal places)."
+}

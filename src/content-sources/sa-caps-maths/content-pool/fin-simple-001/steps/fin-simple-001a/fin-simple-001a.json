@@ -1,0 +1,10 @@
+{
+    "id": "fin-simple-001a",
+    "stepAnswer": ["5100", "R5100", "R 5100", "5 100"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Calculate the Simple Interest",
+    "stepBody": "Use the simple interest formula: $$I = P \\times r \\times t$$\n\nWhere:\n- $P = R15\\,000$ (principal)\n- $r = 8.5\\% = 0.085$ (rate as decimal)\n- $t = 4$ years\n\n$$I = 15000 \\times 0.085 \\times 4$$\n\nCalculate the interest earned:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["simple-interest", "financial-mathematics"]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "evol-003b-h1",
+    "type": "hint",
+    "title": "Descent with Modification",
+    "text": "Darwin's concept of descent with modification explains how ancestral structures are inherited and then modified for different purposes. The pentadactyl limb is a classic example.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "evol-003b-h2",
+    "type": "hint",
+    "title": "Adaptive Radiation",
+    "text": "From one ancestral limb design, different lineages evolved limbs specialized for grasping (human), swimming (whale), flying (bat), and running (dog). This diversification from a common ancestor is called adaptive radiation.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

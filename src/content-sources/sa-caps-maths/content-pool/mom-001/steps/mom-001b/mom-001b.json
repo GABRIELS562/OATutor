@@ -1,0 +1,17 @@
+{
+  "id": "mom-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "6",
+    "6 m/s",
+    "+6",
+    "+6 m/s"
+  ],
+  "stepExplanation": "Taking the direction of the 1500 kg car as positive:\n$$m_1v_1 + m_2v_2 = (m_1 + m_2)v_f$$\n$$(1500)(20) + (1000)(-15) = (1500 + 1000)v_f$$\n$$30000 - 15000 = 2500v_f$$\n$$15000 = 2500v_f$$\n$$v_f = 6 \\text{ m/s}$$\nThe positive answer means they move in the direction of the heavier car.",
+  "stepTitle": "Calculate Common Velocity",
+  "stepBody": "Taking the direction of the 1500 kg car as positive (so the 1000 kg car has velocity -15 m/s), calculate the common velocity after collision. Give your answer in m/s."
+}

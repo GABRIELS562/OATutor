@@ -1,0 +1,15 @@
+{
+  "id": "bio-evol-030",
+  "title": "Natural Selection - Antibiotic Resistance in Bacteria",
+  "body": "In hospitals, MRSA (Methicillin-resistant Staphylococcus aureus) has become a serious problem. A population of Staphylococcus aureus bacteria is exposed to the antibiotic methicillin. Initially, most bacteria die, but over time the population becomes resistant. Explain this phenomenon using Darwin's theory of natural selection.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-natural-selection"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/human-evolution",
+  "license": "CC BY 4.0",
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

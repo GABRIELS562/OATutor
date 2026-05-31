@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-evol-030b-h1",
+    "type": "hint",
+    "title": "Differential Survival and Reproduction",
+    "text": "Natural selection requires: (1) Variation in a trait, (2) The trait must be heritable, (3) The trait must affect survival or reproduction. Consider what happens when only resistant bacteria survive to reproduce.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/human-evolution",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-evol-030b-h2",
+    "type": "hint",
+    "title": "Allele Frequency Changes",
+    "text": "Evolution is defined as a change in allele frequency in a population over time. If resistant bacteria survive and reproduce while non-resistant bacteria die, what happens to the frequency of the resistance allele in subsequent generations?",
+    "variabilization": {},
+    "dependencies": ["bio-evol-030b-h1"],
+    "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/human-evolution",
+    "license": "CC BY 4.0"
+  }
+]

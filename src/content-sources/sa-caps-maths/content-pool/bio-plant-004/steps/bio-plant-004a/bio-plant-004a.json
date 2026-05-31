@@ -1,0 +1,16 @@
+{
+  "id": "bio-plant-004a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "tendrils",
+    "climbing plants",
+    "vines"
+  ],
+  "stepExplanation": "Thigmotropism is commonly seen in tendrils of climbing plants (like peas, grapes, and passion fruit). When a tendril touches a support, the side in contact grows slower while the opposite side grows faster, causing the tendril to coil around the support.",
+  "stepTitle": "Thigmotropism Example",
+  "stepBody": "Which plant structure commonly shows thigmotropism by coiling around supports?"
+}

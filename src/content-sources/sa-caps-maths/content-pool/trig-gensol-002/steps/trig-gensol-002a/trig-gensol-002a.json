@@ -1,0 +1,16 @@
+{
+    "id": "trig-gensol-002a",
+    "stepAnswer": ["2x = 150 + 360n or 2x = 210 + 360n"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 1: Solve for 2x",
+    "stepBody": "The reference angle where cos(theta) = sqrt(3)/2 is 30°.\n\nSince cos 2x is NEGATIVE, 2x is in quadrant 2 or quadrant 3.\n\nWhat is the general solution for 2x?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-general-solution"],
+    "choices": [
+        "2x = 150 + 360n or 2x = 210 + 360n",
+        "2x = 30 + 360n or 2x = 330 + 360n",
+        "2x = 150 + 180n",
+        "2x = 30 + 360n or 2x = 150 + 360n"
+    ]
+}

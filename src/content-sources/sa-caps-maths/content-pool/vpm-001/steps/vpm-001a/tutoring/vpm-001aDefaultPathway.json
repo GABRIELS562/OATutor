@@ -1,0 +1,32 @@
+[
+    {
+        "id": "vpm-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understanding Maximum Height",
+        "text": "At maximum height, all kinetic energy has converted to potential energy. The ball stops momentarily before falling back down, so v = 0 at this point.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "vpm-001a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Choosing the Right Equation",
+        "text": "We have: u = 25 m/s (up), v = 0 (at max height), a = -9.8 m/s² (down). We need s (height). The equation v² = u² + 2as contains all these variables.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "vpm-001a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Sign Convention",
+        "text": "Take upward as positive. Initial velocity is +25 m/s, but gravity acts downward so a = -9.8 m/s².",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

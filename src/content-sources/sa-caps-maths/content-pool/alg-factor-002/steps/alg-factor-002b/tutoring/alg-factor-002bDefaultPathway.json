@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-factor-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify the Common Factor",
+        "text": "In $2x^2(x+2) - 3(x+2)$, notice that $(x+2)$ appears in both terms.\n\nThis is the common bracket factor.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-factor-002b-h2",
+        "type": "hint",
+        "dependencies": ["alg-factor-002b-h1"],
+        "title": "Factor Out the Common Bracket",
+        "text": "Factor out $(x+2)$:\n\n$$2x^2(x+2) - 3(x+2) = (x+2)(2x^2 - 3)$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-factor-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(x+2)(2x^2-3)"],
+        "dependencies": ["alg-factor-002b-h2"],
+        "title": "Final Factorised Form",
+        "text": "The fully factorised form is:\n\n$$(x+2)(2x^2-3)$$\n\nNote: $2x^2 - 3$ cannot be factorised further over the integers.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

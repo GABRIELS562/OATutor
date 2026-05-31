@@ -1,0 +1,10 @@
+{
+    "id": "exp-neg-002b",
+    "stepAnswer": ["1", "3^0"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Simplify Using Exponent Laws",
+    "stepBody": "From $\\frac{3^{-2}}{3^{-2}}$, use the division law of exponents.\n\nRemember: $\\frac{a^m}{a^n} = a^{m-n}$\n\nWhat is the final answer?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["exponent-laws", "simplification"]
+}

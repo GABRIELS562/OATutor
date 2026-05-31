@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-circ-012b-h1",
+    "type": "hint",
+    "title": "Calculate Power First",
+    "text": "Power can be calculated using P = VI. With V = 220 V and I = 11 A: P = 220 * 11 = 2420 W = 2.42 kW",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-circ-012b-h2",
+    "type": "hint",
+    "title": "Energy Calculation",
+    "text": "Energy = Power * time. E = 2.42 kW * 2 h = 4.84 kWh. This is the unit used for electricity billing.",
+    "variabilization": {},
+    "dependencies": ["phys-circ-012b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

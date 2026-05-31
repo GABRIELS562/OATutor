@@ -1,0 +1,10 @@
+{
+    "id": "pat-linear-003b",
+    "stepAnswer": ["111", "R111"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate the Cost for 12 km",
+    "stepBody": "Using your formula $C = 15 + 8d$, calculate the cost for a 12 km journey.\n\nEnter the answer as a number (or with R prefix):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["arithmetic-sequence", "substitution"]
+}

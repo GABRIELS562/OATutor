@@ -1,0 +1,17 @@
+{
+  "id": "phys-circuits-001",
+  "title": "Series and Parallel Circuits",
+  "body": "Two resistors of 4Ω and 6Ω are connected in parallel. This combination is then connected in series with a 5Ω resistor. Calculate the total resistance of the circuit.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-circuits"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

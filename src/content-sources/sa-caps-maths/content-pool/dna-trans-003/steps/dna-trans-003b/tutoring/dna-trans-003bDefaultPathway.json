@@ -1,0 +1,22 @@
+[
+  {
+    "id": "dna-trans-003b-h1",
+    "type": "hint",
+    "title": "Types of Point Mutations",
+    "text": "Silent: same amino acid (due to redundancy). Missense: different amino acid. Nonsense: creates a stop codon. Frameshift: insertion/deletion shifts reading frame.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "dna-trans-003b-h2",
+    "type": "hint",
+    "title": "Analyzing the Change",
+    "text": "Proline to Leucine is a change from one amino acid to another. The protein's shape and function may be altered depending on where this change occurs in the protein structure.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

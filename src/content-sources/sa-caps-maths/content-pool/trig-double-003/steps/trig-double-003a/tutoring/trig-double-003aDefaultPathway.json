@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-double-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Strategy for This Problem",
+        "text": "We want tan x = sin x / cos x on the right side.\n\nLook at the denominator: 1 + cos 2x. If we use cos 2x = 2cos²x - 1, then:\n1 + (2cos²x - 1) = 2cos²x\n\nThis gives us cos²x in the denominator!",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-double-003a-h2",
+        "type": "hint",
+        "dependencies": ["trig-double-003a-h1"],
+        "title": "The Numerator",
+        "text": "For sin 2x, we use the standard formula:\n$$\\sin 2x = 2\\sin x \\cos x$$\n\nThis gives us sin x cos x in the numerator.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-double-003a-h3",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": ["sin 2x = 2sin(x)cos(x) and cos 2x = 2cos²x - 1"],
+        "dependencies": ["trig-double-003a-h2"],
+        "title": "Best Choice",
+        "text": "Use: sin 2x = 2sin(x)cos(x) and cos 2x = 2cos²x - 1",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "optim-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Differentiate and Set Equal to Zero",
+        "text": "$A = 200x - 2x^2$\n\n$\\frac{dA}{dx} = 200 - 4x$\n\nFor maximum: $200 - 4x = 0$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "optim-001b-h2",
+        "type": "hint",
+        "dependencies": ["optim-001b-h1"],
+        "title": "Solve for x",
+        "text": "$200 - 4x = 0$\n$4x = 200$\n$x = 50$ m\n\nConfirm maximum: $\\frac{d^2A}{dx^2} = -4 < 0$ (confirms maximum)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "optim-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x = 50 m, y = 100 m"],
+        "dependencies": ["optim-001b-h2"],
+        "title": "Find y",
+        "text": "$y = 200 - 2x = 200 - 2(50) = 100$ m\n\nDimensions: $x = 50$ m and $y = 100$ m\n\nMaximum area: $A = 50 \\times 100 = 5000$ m$^2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

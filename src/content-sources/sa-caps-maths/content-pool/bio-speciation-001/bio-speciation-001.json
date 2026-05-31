@@ -1,0 +1,17 @@
+{
+  "id": "bio-speciation-001",
+  "title": "Speciation - Geographic Isolation",
+  "body": "A population of squirrels is divided by a new river. After thousands of years, the two groups can no longer interbreed. What type of speciation occurred?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-speciation"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

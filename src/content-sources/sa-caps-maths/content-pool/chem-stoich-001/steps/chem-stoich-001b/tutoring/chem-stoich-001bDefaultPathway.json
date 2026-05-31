@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-stoich-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify Given Values",
+        "text": "Mass (m) = 24.5 g, Molar mass (M) = 98 g/mol",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-001b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply Formula",
+        "text": "n = m/M = 24.5/98",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-001b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate",
+        "text": "n = 0.25 mol. This is 1/4 of a mole of sulfuric acid.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

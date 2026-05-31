@@ -1,0 +1,17 @@
+{
+  "id": "chem-ester-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "string",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "propanoic acid and methanol",
+    "methanol and propanoic acid",
+    "CH₃CH₂COOH and CH₃OH",
+    "propanoic acid, methanol"
+  ],
+  "stepExplanation": "Hydrolysis of an ester produces a carboxylic acid and an alcohol. Methyl propanoate → propanoic acid (CH₃CH₂COOH) + methanol (CH₃OH)",
+  "stepTitle": "Products of Hydrolysis",
+  "stepBody": "Name the two products formed when methyl propanoate is hydrolyzed."
+}

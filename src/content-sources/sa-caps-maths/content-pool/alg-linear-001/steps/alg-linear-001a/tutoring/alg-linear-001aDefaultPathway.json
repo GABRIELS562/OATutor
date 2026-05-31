@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-linear-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify the LCD",
+        "text": "Look at the denominators: 4 and 2. The Lowest Common Denominator (LCD) is 4.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-linear-001a-h2",
+        "type": "hint",
+        "dependencies": ["alg-linear-001a-h1"],
+        "title": "Multiply Each Term",
+        "text": "Multiply every term by 4:\\n\\n$$4 \\times \\frac{2x-3}{4} + 4 \\times \\frac{x+1}{2} = 4 \\times 5$$\\n\\n$$= (2x-3) + 2(x+1) = 20$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-linear-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["2x-3+2x+2=20"],
+        "dependencies": ["alg-linear-001a-h2"],
+        "title": "Expand and Simplify",
+        "text": "Expand $2(x+1) = 2x + 2$\\n\\nSo: $(2x-3) + (2x+2) = 20$\\n\\nWrite as: 2x-3+2x+2=20",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

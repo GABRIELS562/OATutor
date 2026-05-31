@@ -1,0 +1,10 @@
+{
+    "id": "poly-004a",
+    "stepAnswer": ["(x - 1)(x - 2)(x - 3)", "(x-1)(x-2)(x-3)", "(x - 1)(x - 3)(x - 2)", "(x - 2)(x - 1)(x - 3)", "(x - 2)(x - 3)(x - 1)", "(x - 3)(x - 1)(x - 2)", "(x - 3)(x - 2)(x - 1)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Factorise the Cubic",
+    "stepBody": "First, factorise $x^3 - 6x^2 + 11x - 6$.\n\nTest $f(1)$: $1 - 6 + 11 - 6 = 0$ ✓, so $(x-1)$ is a factor.\n\nDivide by $(x-1)$ to get $x^2 - 5x + 6$, which factors as $(x-2)(x-3)$.\n\nWrite the complete factorisation:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factor-theorem", "polynomial-factorisation", "trinomial-factor"]
+}

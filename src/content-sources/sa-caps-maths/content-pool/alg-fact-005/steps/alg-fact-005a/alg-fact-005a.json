@@ -1,0 +1,10 @@
+{
+    "id": "alg-fact-005a",
+    "stepAnswer": ["2x and 3", "3 and 2x"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Identify the Cube Roots",
+    "stepBody": "The expression $8x^3 - 27$ is a **difference of two cubes**.\n\nRecall the formula: $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$\n\nFind $a$ and $b$ by taking cube roots:\n- $\\sqrt[3]{8x^3} = ?$\n- $\\sqrt[3]{27} = ?$\n\nWhat are $a$ and $b$? (Write as: a and b)",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "difference-of-cubes", "cube-roots"]
+}

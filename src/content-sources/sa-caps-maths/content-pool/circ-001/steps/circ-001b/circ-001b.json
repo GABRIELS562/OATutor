@@ -1,0 +1,16 @@
+{
+  "id": "circ-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "8",
+    "8 Ω",
+    "8 ohms"
+  ],
+  "stepExplanation": "Step 1 - Parallel combination (6 Ω and 12 Ω):\n$$R_p = \\frac{R_1 \\times R_2}{R_1 + R_2} = \\frac{6 \\times 12}{6 + 12} = \\frac{72}{18} = 4 \\text{ Ω}$$\n\nStep 2 - Series combination (4 Ω parallel result with 4 Ω):\n$$R_{total} = R_p + R_3 = 4 + 4 = 8 \\text{ Ω}$$",
+  "stepTitle": "Calculate Total Resistance",
+  "stepBody": "First find the parallel resistance of 6 Ω and 12 Ω, then add the 4 Ω in series. Give your answer in ohms."
+}

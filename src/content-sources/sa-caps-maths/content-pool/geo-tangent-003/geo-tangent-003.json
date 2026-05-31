@@ -1,0 +1,17 @@
+{
+  "id": "geo-tangent-003",
+  "title": "Tangent-Chord Angle",
+  "body": "XY is a tangent to circle O at point P. Chord PQ makes an angle of 55° with the tangent. Calculate the angle subtended by PQ at the center.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "geo-tangent-theorem"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

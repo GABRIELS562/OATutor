@@ -1,0 +1,10 @@
+{
+    "id": "func-parabola-001a",
+    "stepAnswer": ["1", "a=1"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Value of a",
+    "stepBody": "Using the x-intercepts, we can write $y = a(x + 2)(x - 4)$.\\n\\nSubstitute the point $(1, -9)$ to find $a$.\\n\\nWhat is the value of $a$?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["parabola-equation", "substitution"]
+}

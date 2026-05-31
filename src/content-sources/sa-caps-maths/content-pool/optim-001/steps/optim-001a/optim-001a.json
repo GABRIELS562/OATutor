@@ -1,0 +1,10 @@
+{
+    "id": "optim-001a",
+    "stepAnswer": ["A=200x-2x^2", "A = 200x - 2x^2", "A(x) = 200x - 2x^2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Express the Area as a Function of x",
+    "stepBody": "The farmer has 200m of fencing for two sides of length $x$ and one side of length $y$ (parallel to the river).\n\nConstraint: $2x + y = 200$\n\nExpress the area $A = xy$ as a function of $x$ only:\n\nWrite A in terms of x:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["optimization", "constraint-equations"]
+}

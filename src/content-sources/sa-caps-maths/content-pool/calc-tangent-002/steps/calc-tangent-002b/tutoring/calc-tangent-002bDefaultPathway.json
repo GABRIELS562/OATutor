@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-tangent-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Set Derivative to Zero",
+        "text": "For a horizontal tangent, the gradient must be zero:\n\n$\\frac{dy}{dx} = 0$\n\n$3x^2 - 12x + 9 = 0$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-tangent-002b-h2",
+        "type": "hint",
+        "dependencies": ["calc-tangent-002b-h1"],
+        "title": "Simplify and Factor",
+        "text": "Divide by 3:\n\n$x^2 - 4x + 3 = 0$\n\nFactor:\n\n$(x - 1)(x - 3) = 0$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-tangent-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x=1 and x=3"],
+        "dependencies": ["calc-tangent-002b-h2"],
+        "title": "Solve for x",
+        "text": "From $(x - 1)(x - 3) = 0$:\n\n$x = 1$ or $x = 3$\n\nThe tangent is horizontal at $x = 1$ and $x = 3$.\n\nThese are the stationary points of the curve.",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

@@ -1,0 +1,14 @@
+{
+  "id": "phys-optics-002",
+  "title": "Optics - Critical Angle and Total Internal Reflection",
+  "body": "Light travels from water (n = 1.33) into air (n = 1.00). Calculate the critical angle for total internal reflection to occur.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-optics"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

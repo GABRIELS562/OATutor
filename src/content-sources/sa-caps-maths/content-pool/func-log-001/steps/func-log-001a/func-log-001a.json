@@ -1,0 +1,10 @@
+{
+    "id": "func-log-001a",
+    "stepAnswer": ["4"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Evaluate log_3(81)",
+    "stepBody": "Calculate $\\log_3 81$ without a calculator.\n\nHint: Express 81 as a power of 3.\n\nEnter your numerical answer:",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "knowledgeComponents": ["logarithms", "exponential-functions"]
+}

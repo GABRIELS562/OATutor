@@ -1,0 +1,16 @@
+{
+  "id": "bio-plant-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "shaded side",
+    "dark side",
+    "away from light"
+  ],
+  "stepExplanation": "Auxin moves from the lit side to the shaded side of the stem. Light causes auxin to redistribute laterally, accumulating on the side away from the light source.",
+  "stepTitle": "Auxin Distribution",
+  "stepBody": "When a plant shoot is exposed to unidirectional light, to which side does auxin migrate?"
+}

@@ -1,0 +1,10 @@
+{
+    "id": "func-hyp-001a",
+    "stepAnswer": ["x=2 and y=1", "x=2, y=1"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Asymptotes",
+    "stepBody": "For the hyperbola $f(x) = \\frac{3}{x-2} + 1$, identify the vertical and horizontal asymptotes.\\n\\nWrite your answer as: x=? and y=?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["hyperbola", "asymptotes"]
+}

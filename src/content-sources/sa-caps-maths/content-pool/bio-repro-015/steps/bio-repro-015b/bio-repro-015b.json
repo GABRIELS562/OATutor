@@ -1,0 +1,16 @@
+{
+  "id": "bio-repro-015b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "menstruation",
+    "period",
+    "menses"
+  ],
+  "stepExplanation": "When the corpus luteum degenerates (in absence of pregnancy), progesterone levels drop. This causes the uterine lining to break down and shed - menstruation. The low progesterone also removes inhibition of FSH, allowing a new cycle to begin.",
+  "stepTitle": "Result of Progesterone Drop",
+  "stepBody": "What happens when progesterone levels drop at the end of the luteal phase (if no pregnancy occurs)?"
+}

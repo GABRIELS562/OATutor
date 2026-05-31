@@ -1,0 +1,15 @@
+{
+  "id": "stats-correlation-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "strong",
+    "Strong"
+  ],
+  "stepExplanation": "|r| = 0.85 > 0.7, so this is a STRONG correlation",
+  "stepTitle": "Strength",
+  "stepBody": "Is this correlation weak, moderate, or strong? (|r| > 0.7 is strong)"
+}

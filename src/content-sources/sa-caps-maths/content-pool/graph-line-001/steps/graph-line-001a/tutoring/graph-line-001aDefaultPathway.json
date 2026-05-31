@@ -1,0 +1,35 @@
+[
+    {
+        "id": "graph-line-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify the Coordinates",
+        "text": "From point $A(-1, 5)$: $x_1 = -1$ and $y_1 = 5$\n\nFrom point $B(3, -3)$: $x_2 = 3$ and $y_2 = -3$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "graph-line-001a-h2",
+        "type": "hint",
+        "dependencies": ["graph-line-001a-h1"],
+        "title": "Substitute into the Formula",
+        "text": "$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{-3 - 5}{3 - (-1)} = \\frac{-8}{4}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "graph-line-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["-2"],
+        "dependencies": ["graph-line-001a-h2"],
+        "title": "Simplify the Gradient",
+        "text": "$m = \\frac{-8}{4} = -2$\n\nThe gradient is $-2$, meaning the line slopes downward from left to right.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,15 @@
+{
+  "id": "phys-emfield-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "60",
+    "60 V"
+  ],
+  "stepExplanation": "Using Faraday's Law: $$\\varepsilon = -N\\frac{\\Delta\\Phi}{\\Delta t}$$\n$$|\\varepsilon| = N\\frac{|\\Delta\\Phi|}{\\Delta t} = 200 \\times \\frac{0.03}{0.1} = 200 \\times 0.3 = 60 \\text{ V}$$",
+  "stepTitle": "Calculate the Induced EMF",
+  "stepBody": "Using Faraday's Law (ε = -NΔΦ/Δt), calculate the magnitude of the induced EMF. N = 200 turns, |ΔΦ| = 0.03 Wb, Δt = 0.1 s. Give your answer in Volts."
+}

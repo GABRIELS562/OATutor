@@ -1,0 +1,15 @@
+{
+  "id": "gen-punnett-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "3/16",
+    "3 out of 16"
+  ],
+  "stepExplanation": "Black fur requires at least one B allele (probability 3/4). Long hair requires homozygous ss (probability 1/4). Multiply: 3/4 x 1/4 = **3/16**.",
+  "stepTitle": "Calculate the Probability",
+  "stepBody": "For black fur with long hair, the offspring needs B_ (at least one B) and ss (homozygous recessive). Using probability multiplication, what fraction of offspring will show this phenotype?"
+}

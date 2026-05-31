@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-class-002b-h1",
+    "type": "hint",
+    "title": "Prokaryotes vs Eukaryotes",
+    "text": "Prokaryotes lack a nucleus and membrane-bound organelles. Eukaryotes have a true nucleus and organelles like mitochondria and endoplasmic reticulum.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-class-002b-h2",
+    "type": "hint",
+    "title": "Oldest Life Forms",
+    "text": "Prokaryotes were the first life forms on Earth (about 3.5 billion years ago). 'Pro' means before, 'karyon' means nucleus - so prokaryotes evolved before organisms with nuclei. Bacteria are the most common prokaryotes.",
+    "variabilization": {},
+    "dependencies": ["bio-class-002b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

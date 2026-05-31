@@ -1,0 +1,18 @@
+{
+  "id": "chem-stoich-004",
+  "title": "Percentage Yield Calculation",
+  "body": "In an experiment, 10 g of calcium carbonate (CaCO3) was heated to produce calcium oxide (CaO) and carbon dioxide (CO2). The equation is: CaCO3 -> CaO + CO2. The actual yield of CaO was 4.8 g. Calculate the percentage yield. (Molar masses: Ca = 40, C = 12, O = 16)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-stoichiometry"
+      ],
+      "difficultyCodes": [
+        "hard"
+      ]
+    }
+  ],
+  "oer": "Siyavula Grade 11 Physical Sciences - Stoichiometry",
+  "courseName": "CAPS Grade 11 Physical Sciences"
+}

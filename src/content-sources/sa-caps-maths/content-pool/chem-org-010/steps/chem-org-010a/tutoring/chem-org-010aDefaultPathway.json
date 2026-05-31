@@ -1,0 +1,36 @@
+[
+  {
+    "id": "chem-org-010a-h1",
+    "type": "hint",
+    "title": "Identifying the Main Chain",
+    "text": "In IUPAC naming, the longest carbon chain must contain the functional group (in this case, the double bond). Start counting from one end.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "chem-org-010a-h2",
+    "type": "hint",
+    "title": "Carbon Prefixes",
+    "text": "Remember the carbon prefixes: meth- (1), eth- (2), prop- (3), but- (4), pent- (5), hex- (6), hept- (7), oct- (8), non- (9), dec- (10).",
+    "variabilization": {},
+    "dependencies": ["chem-org-010a-h1"],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "chem-org-010a-h3",
+    "type": "scaffold",
+    "problemType": "MultipleChoice",
+    "answerType": "string",
+    "hintAnswer": ["5"],
+    "title": "Counting Carbons",
+    "text": "CH$$_3$$-CH=CH-CH$$_2$$-CH$$_3$$ can be written as C-C=C-C-C. How many carbons?",
+    "variabilization": {},
+    "dependencies": ["chem-org-010a-h2"],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+    "license": "CC BY 4.0",
+    "choices": ["3", "4", "5", "6"]
+  }
+]

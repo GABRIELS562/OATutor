@@ -1,0 +1,35 @@
+[
+    {
+        "id": "fin-compound-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Compound Interest Formula",
+        "text": "$$A = P(1 + i)^n$$\\n\\nwhere:\\n- $A$ = final amount\\n- $P$ = principal (initial amount)\\n- $i$ = interest rate per period\\n- $n$ = number of compounding periods",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-compound-001a-h2",
+        "type": "hint",
+        "dependencies": ["fin-compound-001a-h1"],
+        "title": "Monthly Compounding Adjustment",
+        "text": "For monthly compounding:\\n\\n- Interest rate per month: $i = \\frac{8.5\\%}{12} = \\frac{0.085}{12}$\\n- Number of months: $n = 5 \\times 12 = 60$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-compound-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["A = P(1 + i)^n"],
+        "dependencies": ["fin-compound-001a-h2"],
+        "title": "Formula Setup",
+        "text": "$$A = 15000\\left(1 + \\frac{0.085}{12}\\right)^{60}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

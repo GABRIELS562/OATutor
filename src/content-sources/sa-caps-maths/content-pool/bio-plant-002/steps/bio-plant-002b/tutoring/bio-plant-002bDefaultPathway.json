@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-plant-002b-h1",
+    "type": "hint",
+    "title": "Different Sensitivity",
+    "text": "Roots and shoots have different sensitivities to auxin. The same concentration that promotes growth in shoots can inhibit growth in roots. Roots are much more sensitive to auxin.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-plant-002b-h2",
+    "type": "hint",
+    "title": "Opposite Effects",
+    "text": "In stems: high auxin = faster growth (elongation). In roots: high auxin = slower growth (inhibition). This explains why auxin accumulation on the lower side causes shoots to bend up but roots to bend down.",
+    "variabilization": {},
+    "dependencies": ["bio-plant-002b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

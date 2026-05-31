@@ -1,0 +1,16 @@
+{
+  "id": "bio-evolution-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "brown",
+    "Brown",
+    "brown beetles"
+  ],
+  "stepExplanation": "Brown beetles are camouflaged on brown bark, so they survive better (selective advantage)",
+  "stepTitle": "Selection Pressure",
+  "stepBody": "Which beetle colour has a survival advantage and why?"
+}

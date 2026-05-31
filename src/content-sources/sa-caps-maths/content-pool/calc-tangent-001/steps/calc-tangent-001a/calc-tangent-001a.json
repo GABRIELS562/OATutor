@@ -1,0 +1,10 @@
+{
+    "id": "calc-tangent-001a",
+    "stepAnswer": ["5", "m=5"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Gradient of the Tangent",
+    "stepBody": "Find $\\frac{dy}{dx}$ and evaluate it at $x = 2$ to get the gradient of the tangent.\n\nGiven: $y = x^3 - 2x^2 + x$\n\nWhat is the gradient $m$ at $x = 2$?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "rate-of-change"]
+}

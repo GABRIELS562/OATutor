@@ -1,0 +1,18 @@
+{
+  "id": "chem-mole-001",
+  "title": "Mole Calculations from Mass",
+  "body": "Calculate the number of moles of calcium carbonate (CaCO₃) in a 50 g sample. (Relative atomic masses: Ca = 40, C = 12, O = 16)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-stoichiometry"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "DBE NSC Physical Sciences Paper 2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

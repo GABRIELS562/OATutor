@@ -1,0 +1,16 @@
+{
+  "id": "bio-plant-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "inhibits",
+    "slows",
+    "reduces"
+  ],
+  "stepExplanation": "In roots, high auxin concentration INHIBITS cell elongation. So the lower side of a horizontal root grows slower while the upper side grows faster, causing the root to bend downward (positive geotropism). This is opposite to the effect in stems!",
+  "stepTitle": "Auxin Effect on Roots",
+  "stepBody": "In root cells, does a high concentration of auxin stimulate or inhibit cell elongation?"
+}

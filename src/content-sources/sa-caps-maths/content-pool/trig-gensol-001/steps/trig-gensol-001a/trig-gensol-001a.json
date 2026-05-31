@@ -1,0 +1,10 @@
+{
+    "id": "trig-gensol-001a",
+    "stepAnswer": ["30"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Reference Angle",
+    "stepBody": "First find the reference angle where sin x = 1/2.\n\nThis is a special angle. What is the reference angle in degrees?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-general-solution", "trig-special-angles"]
+}

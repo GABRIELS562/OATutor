@@ -1,0 +1,15 @@
+{
+  "id": "phys-wave-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "v = fλ",
+    "v = f × λ"
+  ],
+  "stepExplanation": "v = fλ",
+  "stepTitle": "Wave Equation",
+  "stepBody": "What is the relationship between wave speed (v), frequency (f), and wavelength (λ)?"
+}

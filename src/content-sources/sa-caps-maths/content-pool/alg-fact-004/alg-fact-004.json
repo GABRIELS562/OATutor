@@ -1,0 +1,10 @@
+{
+    "id": "alg-fact-004",
+    "title": "Factorising Difference of Two Squares",
+    "body": "Factorise completely:\n\n$$49x^2 - 16y^2$$",
+    "variabilization": {},
+    "oer": "Siyavula Grade 10 Mathematics - Algebraic Expressions Chapter 2.4",
+    "license": "CC-BY - Siyavula Education",
+    "lesson": "Factorising Special Products",
+    "courseName": "CAPS Grade 10 Mathematics"
+}

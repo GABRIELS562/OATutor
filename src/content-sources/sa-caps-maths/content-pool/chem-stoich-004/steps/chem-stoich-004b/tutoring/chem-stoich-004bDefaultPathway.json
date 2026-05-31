@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-stoich-004b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify Values",
+        "text": "Actual yield = 4.8 g. Theoretical yield = 5.6 g",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-004b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply Formula",
+        "text": "% yield = (4.8 / 5.6) x 100",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-004b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate",
+        "text": "% yield = 0.857 x 100 = 85.7%. This means 14.3% was lost during the process.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

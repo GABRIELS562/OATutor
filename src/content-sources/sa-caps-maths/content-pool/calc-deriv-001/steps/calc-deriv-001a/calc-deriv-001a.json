@@ -1,0 +1,10 @@
+{
+    "id": "calc-deriv-001a",
+    "stepAnswer": ["20x^3-9x^2+4x-7", "20x^3 - 9x^2 + 4x - 7"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Apply the Power Rule to Each Term",
+    "stepBody": "Apply the power rule $\\frac{d}{dx}(x^n) = nx^{n-1}$ to each term of:\n\n$$f(x) = 5x^4 - 3x^3 + 2x^2 - 7x + 4$$\n\nWrite $f'(x)$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "power-rule"]
+}

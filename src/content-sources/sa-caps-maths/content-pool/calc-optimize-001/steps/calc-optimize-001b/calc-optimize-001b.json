@@ -1,0 +1,10 @@
+{
+    "id": "calc-optimize-001b",
+    "stepAnswer": ["50", "x=50", "50m"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find x for Maximum Area",
+    "stepBody": "Area $A = x(200 - 2x) = 200x - 2x^2$\\n\\nUse calculus to find the value of $x$ that gives maximum area.\\n\\nWhat is $x$?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["optimization", "differentiation", "maxima"]
+}

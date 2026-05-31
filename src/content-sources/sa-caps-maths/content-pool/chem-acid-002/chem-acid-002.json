@@ -1,0 +1,18 @@
+{
+  "id": "chem-acid-002",
+  "title": "pH and Hydrogen Ion Concentration",
+  "body": "A solution of hydrochloric acid has a pH of 2. Calculate the hydrogen ion concentration [H⁺] and determine whether this is a strong or weak acid solution.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-acids-bases"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "DBE NSC Physical Sciences Paper 2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

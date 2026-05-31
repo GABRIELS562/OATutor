@@ -1,0 +1,15 @@
+{
+  "id": "chem-equil-012a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.40",
+    "0.4"
+  ],
+  "stepExplanation": "Using ICE table: Initial PCl5 = 0.50, Change = -x. From stoichiometry: x = [Cl2] = 0.10. So [PCl5] at equilibrium = 0.50 - 0.10 = 0.40 mol/dm^3",
+  "stepTitle": "Find Equilibrium Concentrations",
+  "stepBody": "Using an ICE table (Initial, Change, Equilibrium), determine the equilibrium concentration of PCl5 in mol/dm^3."
+}

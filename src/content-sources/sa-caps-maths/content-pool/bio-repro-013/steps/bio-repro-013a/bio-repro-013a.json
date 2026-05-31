@@ -1,0 +1,15 @@
+{
+  "id": "bio-repro-013a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "blastocyst",
+    "blastula"
+  ],
+  "stepExplanation": "By day 5-6 after fertilization, the dividing cells form a hollow ball called a blastocyst. The blastocyst consists of an outer layer (trophoblast) that will form the placenta and an inner cell mass that will become the embryo.",
+  "stepTitle": "Pre-implantation Structure",
+  "stepBody": "What is the name of the hollow ball of cells that implants in the uterine wall approximately 6-7 days after fertilization?"
+}

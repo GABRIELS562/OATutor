@@ -1,0 +1,17 @@
+{
+  "id": "bio-nerv-010b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "potassium",
+    "K+",
+    "potassium ions",
+    "K+ ions"
+  ],
+  "stepExplanation": "During repolarisation: (1) Sodium channels close (inactivate), (2) Voltage-gated POTASSIUM (K+) channels open, (3) Potassium ions rush OUT of the cell down their concentration gradient, (4) The loss of positive ions makes the inside negative again, (5) This restores the negative resting potential. The membrane may briefly become more negative than resting potential (hyperpolarisation) before returning to -70mV.",
+  "stepTitle": "Repolarisation Phase",
+  "stepBody": "After depolarisation, the membrane must return to its resting state. Which ion moves OUT of the neuron during repolarisation to restore the negative resting potential?"
+}

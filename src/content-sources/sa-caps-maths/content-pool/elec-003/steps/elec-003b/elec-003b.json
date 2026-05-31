@@ -1,0 +1,18 @@
+{
+  "id": "elec-003b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.01",
+    "0.01 N",
+    "10 mN",
+    "0.01 N toward positive plate",
+    "positive plate"
+  ],
+  "stepExplanation": "Converting charge: q = 5 μC = 5 × 10⁻⁶ C\n\nForce magnitude:\n$$F = qE = (5 \\times 10^{-6})(2000) = 0.01 \\text{ N} = 10 \\text{ mN}$$\n\nDirection: Since the charge is negative, it experiences a force opposite to the electric field direction - toward the positive plate.",
+  "stepTitle": "Calculate Force and Determine Direction",
+  "stepBody": "Calculate F = qE using q = 5 μC and E = 2000 N/C. Give the magnitude in N and state which plate the sphere moves toward."
+}

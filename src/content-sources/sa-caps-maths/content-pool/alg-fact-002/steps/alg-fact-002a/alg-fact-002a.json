@@ -1,0 +1,10 @@
+{
+    "id": "alg-fact-002a",
+    "stepAnswer": ["3 and -8", "-8 and 3", "3, -8", "-8, 3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find Two Numbers",
+    "stepBody": "To factorise $x^2 - 5x - 24$, we need two numbers that:\n\n- **Multiply** to give $-24$ (the constant term)\n- **Add** to give $-5$ (the coefficient of $x$)\n\nWhat are these two numbers? (Enter as: a and b)",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "trinomial-factor"]
+}

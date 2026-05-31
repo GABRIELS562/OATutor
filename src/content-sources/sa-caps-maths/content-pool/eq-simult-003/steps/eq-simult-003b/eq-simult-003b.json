@@ -1,0 +1,10 @@
+{
+    "id": "eq-simult-003b",
+    "stepAnswer": ["x=9,y=6", "x=9 and y=6", "(9,6)", "9 and 6"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Solve the Equations",
+    "stepBody": "Solve the simultaneous equations:\n$$x + y = 15$$\n$$x - y = 3$$\n\nFind the two numbers.\n\nEnter as: x=9,y=6",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["linear-equations", "simultaneous-equations"]
+}

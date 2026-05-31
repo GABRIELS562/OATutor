@@ -1,0 +1,10 @@
+{
+    "id": "geo-cyclic-010",
+    "title": "Cyclic Quadrilateral: Exterior Angle",
+    "body": "PQRS is a cyclic quadrilateral. Side PQ is produced to T.\n\nGiven: $$\\angle QPR = 35°$$ and $$\\angle PRS = 42°$$.\n\na) Calculate $$\\angle PSR$$ (angle subtended by the same arc PR).\nb) Calculate $$\\angle RQT$$ (exterior angle of cyclic quadrilateral).",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Euclidean Geometry",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Euclidean Geometry - Cyclic Quadrilaterals",
+    "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

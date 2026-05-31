@@ -1,0 +1,13 @@
+{
+  "id": "gen-punnett-002",
+  "title": "Genetics - Dihybrid Cross",
+  "body": "In guinea pigs, black fur (B) is dominant over white (b), and short hair (S) is dominant over long hair (s). A guinea pig heterozygous for both traits (BbSs) is crossed with another heterozygous guinea pig (BbSs). What fraction of offspring will have black fur and long hair?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-genetic-crosses"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

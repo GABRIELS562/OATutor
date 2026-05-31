@@ -1,0 +1,20 @@
+{
+    "id": "bio-class-002b",
+    "type": "scaffold",
+    "problemType": "MultipleChoice",
+    "answerType": "string",
+    "hpiVariables": [],
+    "variabilization": {},
+    "stepAnswer": [
+        "Monera"
+    ],
+    "stepExplanation": "Monera is the only kingdom containing prokaryotes (organisms without a membrane-bound nucleus). All other kingdoms contain eukaryotes. Monera includes bacteria and cyanobacteria (blue-green algae).",
+    "stepTitle": "Prokaryotic Kingdom",
+    "stepBody": "Which kingdom contains only prokaryotic organisms?",
+    "choices": [
+        "Monera",
+        "Protista",
+        "Fungi",
+        "Plantae"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "prob-count-002b",
+    "stepAnswer": ["3/7", "0.429", "0.43"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Conditional Probability",
+    "stepBody": "Calculate the probability that the second ball is blue, given that the first ball was red.\\n\\nGive your answer as a fraction:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["probability", "conditional-probability"]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "bio-class-004b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "genetic diversity",
+    "genetic variation"
+  ],
+  "stepExplanation": "Genetic diversity is crucial for species survival. It provides the raw material for natural selection and adaptation. A population with low genetic diversity is vulnerable to diseases and environmental changes because individuals are too similar to each other.",
+  "stepTitle": "Survival and Adaptation",
+  "stepBody": "Which level of biodiversity allows a species to adapt to changing environmental conditions?"
+}

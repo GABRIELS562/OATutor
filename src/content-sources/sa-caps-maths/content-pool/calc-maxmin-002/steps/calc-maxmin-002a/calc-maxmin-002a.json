@@ -1,0 +1,10 @@
+{
+    "id": "calc-maxmin-002a",
+    "stepAnswer": ["A=120x-2x^2", "A = 120x - 2x^2", "A=x(120-2x)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Set Up the Area Formula",
+    "stepBody": "If the width is $x$ metres (two sides perpendicular to the river), express the area $A$ in terms of $x$.\n\nTotal fencing: 120m (covers two widths plus one length)\n\nWrite the formula for $A$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["optimization", "algebraic-modeling"]
+}

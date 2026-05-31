@@ -1,0 +1,16 @@
+{
+  "id": "chem-acid-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "string",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "strong",
+    "Strong",
+    "strong acid"
+  ],
+  "stepExplanation": "HCl is a strong acid because it ionizes completely in water. pH 2 indicates an acidic solution (pH < 7). The [H⁺] equals the HCl concentration, confirming complete ionization.",
+  "stepTitle": "Strong or Weak Acid",
+  "stepBody": "Is HCl a strong or weak acid? (Consider: does it ionize completely or partially?)"
+}

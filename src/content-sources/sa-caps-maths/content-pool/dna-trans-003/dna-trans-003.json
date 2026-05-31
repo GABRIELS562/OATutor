@@ -1,0 +1,13 @@
+{
+  "id": "dna-trans-003",
+  "title": "DNA - Point Mutation Effects",
+  "body": "The original DNA coding strand sequence is: 5'-ATGCCTTACGAA-3'. A point mutation changes the middle C to T, giving: 5'-ATGCTTTACGAA-3'. If CCU codes for Proline and CUU codes for Leucine, what type of mutation is this and how does it affect the protein?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-protein-synthesis"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

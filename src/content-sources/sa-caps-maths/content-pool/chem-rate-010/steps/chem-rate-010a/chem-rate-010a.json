@@ -1,0 +1,20 @@
+{
+    "id": "chem-rate-010a",
+    "type": "scaffold",
+    "problemType": "MultipleChoice",
+    "answerType": "string",
+    "hpiVariables": [],
+    "variabilization": {},
+    "stepAnswer": [
+        "The rate increases"
+    ],
+    "stepExplanation": "Using zinc powder instead of granules INCREASES the surface area. More surface area means more zinc particles are exposed to the acid, so more collisions occur per second, and the reaction rate increases.",
+    "stepTitle": "Effect of Surface Area",
+    "stepBody": "Zinc powder has smaller particles than zinc granules. How does using zinc powder affect the reaction rate compared to using zinc granules?",
+    "choices": [
+        "The rate increases",
+        "The rate decreases",
+        "The rate stays the same",
+        "The reaction stops"
+    ]
+}

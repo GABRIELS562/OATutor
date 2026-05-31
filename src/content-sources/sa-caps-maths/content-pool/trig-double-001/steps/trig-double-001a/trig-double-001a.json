@@ -1,0 +1,10 @@
+{
+    "id": "trig-double-001a",
+    "stepAnswer": ["4/5"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find sin A",
+    "stepBody": "Given cos A = -3/5 with A in the second quadrant.\n\nUsing sin²A + cos²A = 1, find sin A.\n\n(Remember: In the second quadrant, sine is positive)\n\nEnter as a fraction: numerator/denominator",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-double-angle", "pythagorean-identity"]
+}

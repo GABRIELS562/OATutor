@@ -1,0 +1,16 @@
+{
+  "id": "chem-kinetics-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.60",
+    "0,60",
+    "0.6"
+  ],
+  "stepExplanation": "Change in concentration = Initial - Final = 0.80 - 0.20 = 0.60 mol/dm³",
+  "stepTitle": "Change in Concentration",
+  "stepBody": "Calculate the change in concentration of reactant A in mol/dm³."
+}

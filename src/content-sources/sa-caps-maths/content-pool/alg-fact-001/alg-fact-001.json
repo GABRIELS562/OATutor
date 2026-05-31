@@ -1,0 +1,10 @@
+{
+    "id": "alg-fact-001",
+    "title": "Factorising - Common Factor",
+    "body": "Factorise completely:\n\n$$6x^3 - 9x^2 + 12x$$",
+    "variabilization": {},
+    "oer": "Siyavula Grade 10 Mathematics - Algebraic Expressions Chapter 2.4",
+    "license": "CC-BY - Siyavula Education",
+    "lesson": "Factorisation",
+    "courseName": "CAPS Grade 10 Mathematics"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "chem-kinetics-001",
+  "title": "Reaction Rate Calculation",
+  "body": "In a reaction, the concentration of reactant A decreases from 0.80 mol/dm³ to 0.20 mol/dm³ in 40 seconds. Calculate the average rate of reaction.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-reaction-rates"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "DBE NSC Physical Sciences Paper 2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

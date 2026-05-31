@@ -1,0 +1,16 @@
+{
+  "id": "endo-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "TRH and TSH decrease",
+    "both decrease",
+    "TRH decreases and TSH decreases"
+  ],
+  "stepExplanation": "High thyroxine levels inhibit the release of TRH from the hypothalamus and TSH from the pituitary. This is **negative feedback** - the product (thyroxine) inhibits the factors that stimulate its production, preventing excess hormone accumulation.",
+  "stepTitle": "Describe the Feedback Effect",
+  "stepBody": "When thyroxine levels are high, what happens to TRH and TSH levels? Is this positive or negative feedback?"
+}

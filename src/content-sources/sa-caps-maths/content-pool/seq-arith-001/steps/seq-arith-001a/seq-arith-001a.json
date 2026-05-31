@@ -1,0 +1,10 @@
+{
+    "id": "seq-arith-001a",
+    "stepAnswer": ["6", "d=6"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Common Difference",
+    "stepBody": "An arithmetic sequence has a constant difference between consecutive terms.\n\nLook at the sequence: $5; 11; 17; 23; ...$\n\nFind the common difference $d$ by subtracting any term from the next term:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["arithmetic-sequence"]
+}

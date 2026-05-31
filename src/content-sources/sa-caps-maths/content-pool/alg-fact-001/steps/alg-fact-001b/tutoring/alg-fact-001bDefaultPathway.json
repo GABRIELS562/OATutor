@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-fact-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Divide Each Term",
+        "text": "Divide each term by the HCF ($3x$):\n\n- $\\frac{6x^3}{3x} = 2x^2$\n- $\\frac{-9x^2}{3x} = -3x$\n- $\\frac{12x}{3x} = 4$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-fact-001b-h2",
+        "type": "hint",
+        "dependencies": ["alg-fact-001b-h1"],
+        "title": "Write the Factorised Form",
+        "text": "Put the HCF outside and the quotients inside:\n\n$6x^3 - 9x^2 + 12x = 3x(2x^2 - 3x + 4)$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-fact-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["3x(2x^2 - 3x + 4)"],
+        "dependencies": ["alg-fact-001b-h2"],
+        "title": "Final Answer",
+        "text": "$6x^3 - 9x^2 + 12x = 3x(2x^2 - 3x + 4)$\n\nVerify: Expand to check: $3x \\times 2x^2 - 3x \\times 3x + 3x \\times 4 = 6x^3 - 9x^2 + 12x$ ✓",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    }
+]

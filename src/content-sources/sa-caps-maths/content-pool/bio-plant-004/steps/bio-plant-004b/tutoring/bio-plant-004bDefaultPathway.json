@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-plant-004b-h1",
+    "type": "hint",
+    "title": "Speed Difference",
+    "text": "Tropisms involve growth and take hours or days. Nastic movements happen in seconds or minutes. They cannot involve growth - something else must be responsible.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-plant-004b-h2",
+    "type": "hint",
+    "title": "Water and Cell Shape",
+    "text": "Plant cells can change shape rapidly by moving water in or out. When cells lose water, they lose turgor (become flaccid) and shrink. When cells gain water, they become turgid. This can cause rapid movements.",
+    "variabilization": {},
+    "dependencies": ["bio-plant-004b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

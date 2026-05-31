@@ -1,0 +1,32 @@
+[
+    {
+        "id": "vpm-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understanding the Motion",
+        "text": "The stone starts 45 m above ground, goes up, stops momentarily, then falls all the way to the ground. Total vertical displacement is -45 m (taking up as positive).",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "vpm-002a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Setting Up Variables",
+        "text": "Let up be positive. Then: u = +15 m/s, a = -10 m/s², and s = -45 m (stone ends 45 m below starting point).",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "vpm-002a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Choosing the Equation",
+        "text": "We need s = ut + ½at² because it contains s, u, a, and t. This will give a quadratic equation to solve for t.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

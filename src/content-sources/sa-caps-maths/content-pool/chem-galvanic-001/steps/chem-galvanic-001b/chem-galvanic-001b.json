@@ -1,0 +1,16 @@
+{
+  "id": "chem-galvanic-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "1.1",
+    "1.10",
+    "1,1"
+  ],
+  "stepExplanation": "EMF = (+0.34) - (-0.76) = +1.10 V",
+  "stepTitle": "Calculate EMF",
+  "stepBody": "EMF = E°cathode - E°anode. Calculate the cell EMF in volts."
+}

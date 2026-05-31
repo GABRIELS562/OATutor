@@ -1,0 +1,48 @@
+[
+    {
+        "id": "func-inv-010a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understanding Inverse Functions",
+        "text": "An inverse function 'undoes' what the original function does. If $f(a) = b$, then $f^{-1}(b) = a$.\n\nThe inverse is found by swapping $x$ and $y$, then solving for $y$.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-inv-010a-h2",
+        "type": "hint",
+        "dependencies": ["func-inv-010a-h1"],
+        "title": "Step-by-Step Process",
+        "text": "Starting with $f(x) = 3x - 6$:\n\n1. Write as $y = 3x - 6$\n2. Swap $x$ and $y$: $x = 3y - 6$\n3. Solve for $y$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-inv-010a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["3y = x + 6"],
+        "dependencies": ["func-inv-010a-h2"],
+        "title": "Isolate the y-term",
+        "text": "From $x = 3y - 6$, add 6 to both sides.\n\nWhat do you get?",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-inv-010a-h4",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(x+6)/3", "y = (x+6)/3"],
+        "dependencies": ["func-inv-010a-h3"],
+        "title": "Solve for y",
+        "text": "From $3y = x + 6$, divide both sides by 3.\n\nTherefore $f^{-1}(x) = ?$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

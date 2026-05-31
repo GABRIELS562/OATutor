@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-evol-020b-h1",
+    "type": "hint",
+    "title": "Cranial Capacity Comparison",
+    "text": "Modern human brains average about 1400 cc. Chimpanzee brains average about 350-400 cc. If Australopithecus had about 450 cc but was already walking upright, what does this tell us about the sequence of evolutionary changes?",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/human-evolution",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-evol-020b-h2",
+    "type": "hint",
+    "title": "Evidence for Bipedalism",
+    "text": "Features indicating bipedalism include: foramen magnum position (underneath skull), S-curved spine, bowl-shaped pelvis, and angle of femur (thigh bone). Australopithecus had these features despite having a small brain, telling us which trait evolved first.",
+    "variabilization": {},
+    "dependencies": ["bio-evol-020b-h1"],
+    "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/human-evolution",
+    "license": "CC BY 4.0"
+  }
+]

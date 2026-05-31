@@ -1,0 +1,13 @@
+{
+  "id": "gen-punnett-001",
+  "title": "Genetics - Incomplete Dominance Cross",
+  "body": "In snapdragon flowers, red colour (R) is incompletely dominant over white (r). When a red flower (RR) is crossed with a white flower (rr), all F1 offspring are pink (Rr). If two pink F1 plants are crossed, what phenotypic ratio will appear in the F2 generation?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-genetic-crosses"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

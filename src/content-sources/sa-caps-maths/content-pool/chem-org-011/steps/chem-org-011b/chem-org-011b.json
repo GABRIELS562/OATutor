@@ -1,0 +1,16 @@
+{
+  "id": "chem-org-011b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "ethyl propanoate",
+    "Ethyl propanoate",
+    "ethylpropanoate"
+  ],
+  "stepExplanation": "The ester name comes from: (1) the alkyl group of the alcohol (ethyl- from ethanol) and (2) the acid name with -oic acid changed to -oate (propanoate from propanoic acid). Answer: ethyl propanoate",
+  "stepTitle": "Name the Ester",
+  "stepBody": "Using IUPAC nomenclature, name the ester formed. Remember: The alcohol contributes the first part (alkyl group) and the acid contributes the second part (-oate ending)."
+}

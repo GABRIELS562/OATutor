@@ -1,0 +1,22 @@
+[
+  {
+    "id": "dna-trans-003a-h1",
+    "type": "hint",
+    "title": "Coding Strand vs Template Strand",
+    "text": "The coding strand has the same sequence as mRNA (except T instead of U). The DNA coding strand 5'-ATG-3' corresponds to mRNA 5'-AUG-3'.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "dna-trans-003a-h2",
+    "type": "hint",
+    "title": "Locating the Mutation",
+    "text": "In ATGCCTTACGAA, the codons are ATG-CCT-TAC-GAA. The C in CCT changes to T, making CTT. In mRNA terms: CCU becomes CUU.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

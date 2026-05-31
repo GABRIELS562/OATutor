@@ -1,0 +1,13 @@
+{
+  "id": "chem-ph-001",
+  "title": "pH Calculation - Strong Acid",
+  "body": "Calculate the pH of a 0.01 mol/dm\u00b3 HCl solution. (HCl is a strong acid that fully dissociates)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["chem-ph-calc"],
+      "difficultyCodes": ["easy"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

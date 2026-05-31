@@ -1,0 +1,17 @@
+{
+  "id": "chem-rate-001",
+  "title": "Reaction Rate Factors",
+  "body": "A reaction between zinc and hydrochloric acid is studied. Predict how the reaction rate changes when the acid concentration is doubled.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-reaction-rates"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

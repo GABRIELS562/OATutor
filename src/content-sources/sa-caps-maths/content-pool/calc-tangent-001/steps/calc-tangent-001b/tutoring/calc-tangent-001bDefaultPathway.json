@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-tangent-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find the Point of Tangency",
+        "text": "Substitute $x = 2$ into the original equation to find $y$:\n\n$y = (2)^3 - 2(2)^2 + 2$\n\n$y = 8 - 8 + 2 = 2$\n\nSo the point of tangency is $(2, 2)$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-tangent-001b-h2",
+        "type": "hint",
+        "dependencies": ["calc-tangent-001b-h1"],
+        "title": "Use Point-Gradient Form",
+        "text": "The point-gradient form is: $y - y_1 = m(x - x_1)$\n\nWith $m = 5$ and point $(2, 2)$:\n\n$y - 2 = 5(x - 2)$\n\n$y - 2 = 5x - 10$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-tangent-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["y=5x-8"],
+        "dependencies": ["calc-tangent-001b-h2"],
+        "title": "Simplify to Standard Form",
+        "text": "$y = 5x - 10 + 2$\n\n$y = 5x - 8$\n\nThe equation of the tangent is $y = 5x - 8$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "bio-dna-011a-h1",
+    "type": "hint",
+    "title": "DNA Polymerase Function",
+    "text": "DNA polymerase is the enzyme that synthesises new DNA strands during replication. It adds nucleotides one at a time to a growing chain.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Grade 12 Life Sciences",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-dna-011a-h2",
+    "type": "hint",
+    "title": "Directionality Constraint",
+    "text": "DNA polymerase can only add new nucleotides to the free 3'-OH (hydroxyl) group of the growing strand. This means synthesis always proceeds from the 5' end toward the 3' end of the new strand.",
+    "variabilization": {},
+    "dependencies": ["bio-dna-011a-h1"],
+    "oer": "Siyavula Grade 12 Life Sciences",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-dna-011a-h3",
+    "type": "hint",
+    "title": "Remember the Rule",
+    "text": "Think of it as 'building onto the 3' end' - new nucleotides are always added at the 3' end, so the strand grows in the 5' to 3' direction.",
+    "variabilization": {},
+    "dependencies": ["bio-dna-011a-h2"],
+    "oer": "Siyavula Grade 12 Life Sciences",
+    "license": "CC BY 4.0"
+  }
+]

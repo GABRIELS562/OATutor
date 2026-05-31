@@ -1,0 +1,35 @@
+[
+    {
+        "id": "graph-line-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify the Form",
+        "text": "The equation $y = 3x - 2$ is in the form $y = mx + c$ where:\n- $m$ is the gradient\n- $c$ is the y-intercept",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "graph-line-002a-h2",
+        "type": "hint",
+        "dependencies": ["graph-line-002a-h1"],
+        "title": "Extract the Gradient",
+        "text": "Comparing $y = 3x - 2$ with $y = mx + c$:\n\nThe coefficient of $x$ is $3$, so $m = 3$.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "graph-line-002a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["3"],
+        "dependencies": ["graph-line-002a-h2"],
+        "title": "Apply Parallel Line Property",
+        "text": "Parallel lines have equal gradients.\n\nSince the original line has $m = 3$, the parallel line also has gradient $m = 3$.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

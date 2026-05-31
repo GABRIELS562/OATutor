@@ -1,0 +1,35 @@
+[
+    {
+        "id": "para-turn-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find Two Numbers",
+        "text": "We need two numbers that:\n- Multiply to give $-8$ (the constant term)\n- Add to give $+2$ (the coefficient of $x$)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "para-turn-002a-h2",
+        "type": "hint",
+        "dependencies": ["para-turn-002a-h1"],
+        "title": "Identify the Numbers",
+        "text": "The numbers are $+4$ and $-2$:\n- $4 \\times (-2) = -8$ ✓\n- $4 + (-2) = 2$ ✓",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "para-turn-002a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(x+4)(x-2)"],
+        "dependencies": ["para-turn-002a-h2"],
+        "title": "Write the Factorised Form",
+        "text": "$x^2 + 2x - 8 = (x + 4)(x - 2)$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

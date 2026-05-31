@@ -1,0 +1,16 @@
+{
+  "id": "gen-punnett-003a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "X^H Y, X^h Y",
+    "XH Y, Xh Y",
+    "X^H Y and X^h Y"
+  ],
+  "stepExplanation": "Sons inherit their X chromosome from the mother and Y from the father. From mother X^H X^h: sons can get either X^H or X^h, paired with Y from father.",
+  "stepTitle": "Identify Male Offspring Genotypes",
+  "stepBody": "Sons receive their X chromosome from the mother. What are the two possible genotypes for male offspring from this cross?"
+}

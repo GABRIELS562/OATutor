@@ -1,0 +1,35 @@
+[
+    {
+        "id": "poly-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understanding the Remainder Theorem",
+        "text": "The Remainder Theorem: When $p(x)$ is divided by $(x - a)$, the remainder equals $p(a)$.\n\nThis is related to the Factor Theorem - if the remainder is 0, then $(x-a)$ is a factor.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-002a-h2",
+        "type": "hint",
+        "dependencies": ["poly-002a-h1"],
+        "title": "Finding the Value of a",
+        "text": "The divisor is $(x - 3)$, which is in the form $(x - a)$.\n\nComparing: $x - 3 = x - a$\n\nTherefore: $a = 3$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-002a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": ["3"],
+        "dependencies": ["poly-002a-h2"],
+        "title": "The Value to Substitute",
+        "text": "We need to substitute $x = 3$ into the polynomial to find the remainder.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

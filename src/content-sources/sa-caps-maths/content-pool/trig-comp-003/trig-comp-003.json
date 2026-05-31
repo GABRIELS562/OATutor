@@ -1,0 +1,10 @@
+{
+    "id": "trig-comp-003",
+    "title": "Compound Angle: Sine of Sum",
+    "body": "If $$\\sin A = \\frac{3}{5}$$ with A acute, and $$\\cos B = \\frac{12}{13}$$ with B acute,\n\ncalculate the exact value of $$\\sin(A + B)$$.\n\nLeave your answer as a fraction.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 2",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Trigonometry - Compound Angles",
+    "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

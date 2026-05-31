@@ -1,0 +1,32 @@
+[
+  {
+    "id": "phys-proj-010a-h1",
+    "type": "hint",
+    "title": "Identify Key Information",
+    "text": "At maximum height: $$v_f = 0$$. Given: $$v_i = +25$$ m/s (upward), $$a = -10$$ m/s^2 (gravity acts downward).",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "phys-proj-010a-h2",
+    "type": "hint",
+    "title": "Choose the Correct Equation",
+    "text": "Use $$v_f^2 = v_i^2 + 2a \\Delta y$$ because we know initial velocity, final velocity (0), and acceleration, and we want displacement.",
+    "variabilization": {},
+    "dependencies": ["phys-proj-010a-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "phys-proj-010a-h3",
+    "type": "hint",
+    "title": "Solve for Height",
+    "text": "$$0 = (25)^2 + 2(-10) \\Delta y$$. So $$0 = 625 - 20 \\Delta y$$, giving $$\\Delta y = \\frac{625}{20} = 31.25$$ m.",
+    "variabilization": {},
+    "dependencies": ["phys-proj-010a-h2"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  }
+]

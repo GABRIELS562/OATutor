@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-factor-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understanding the Method",
+        "text": "For $x^2 + bx + c$, we need two numbers that multiply to $c$ and add to $b$.\n\nHere: multiply to 12, add to 7.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-factor-001a-h2",
+        "type": "hint",
+        "dependencies": ["alg-factor-001a-h1"],
+        "title": "List Factor Pairs of 12",
+        "text": "Factor pairs of 12:\n- $1 \\times 12 = 12$ (sum = 13)\n- $2 \\times 6 = 12$ (sum = 8)\n- $3 \\times 4 = 12$ (sum = 7) ✓",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-factor-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["3 and 4"],
+        "dependencies": ["alg-factor-001a-h2"],
+        "title": "The Two Numbers",
+        "text": "The numbers 3 and 4 multiply to give 12 and add to give 7.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

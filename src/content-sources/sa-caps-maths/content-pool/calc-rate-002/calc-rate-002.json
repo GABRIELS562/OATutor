@@ -1,0 +1,10 @@
+{
+    "id": "calc-rate-002",
+    "title": "Rate of Change: Motion Problems",
+    "body": "A particle moves along a straight line according to $s(t) = t^3 - 6t^2 + 9t + 2$, where $s$ is in metres and $t$ is in seconds.\\n\\na) Find the velocity function and determine when the particle is at rest.\\nb) Find the acceleration when $t = 2$ seconds.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Differential Calculus - Rate of Change",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

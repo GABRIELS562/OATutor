@@ -1,0 +1,16 @@
+{
+  "id": "bio-repro-014b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "progesterone",
+    "oestrogen",
+    "progesterone and oestrogen"
+  ],
+  "stepExplanation": "After the first trimester, the placenta takes over hormone production from the corpus luteum. It produces progesterone (maintains uterine lining, prevents contractions) and oestrogen (stimulates breast development for milk production).",
+  "stepTitle": "Placental Hormones",
+  "stepBody": "Name one hormone produced by the placenta to maintain pregnancy."
+}

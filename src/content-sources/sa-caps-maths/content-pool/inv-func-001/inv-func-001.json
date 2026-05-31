@@ -1,0 +1,10 @@
+{
+    "id": "inv-func-001",
+    "title": "Finding the Inverse of a Linear Function",
+    "body": "Given the function $f(x) = 3x - 6$.\n\nDetermine the inverse function $f^{-1}(x)$.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 11)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Functions and Graphs - Inverse Functions",
+    "courseName": "CAPS Grade 11 Mathematics"
+}

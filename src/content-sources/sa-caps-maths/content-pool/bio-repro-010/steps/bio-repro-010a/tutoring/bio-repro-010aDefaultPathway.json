@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-repro-010a-h1",
+    "type": "hint",
+    "title": "Understanding Meiosis I",
+    "text": "Remember that meiosis I is a reduction division. One diploid cell (2n) divides to produce two haploid cells (n). This halves the chromosome number.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-repro-010a-h2",
+    "type": "hint",
+    "title": "Understanding Meiosis II",
+    "text": "Meiosis II is similar to mitosis. Each of the two cells from meiosis I divides again. So 2 cells become 4 cells, all haploid (n=23 in humans).",
+    "variabilization": {},
+    "dependencies": ["bio-repro-010a-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

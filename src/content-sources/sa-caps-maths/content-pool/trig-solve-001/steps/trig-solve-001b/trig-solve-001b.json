@@ -1,0 +1,10 @@
+{
+    "id": "trig-solve-001b",
+    "stepAnswer": ["120 and 240", "120° and 240°", "θ=120° or θ=240°", "120, 240"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find All Angles",
+    "stepBody": "If $\\cos\\theta = -\\frac{1}{2}$ and $0° \\leq \\theta \\leq 360°$, find all values of $\\theta$.\\n\\nRecall: $\\cos 60° = \\frac{1}{2}$ (special angle)\\n\\nEnter both angles (e.g., 120 and 240):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-equations", "special-angles", "quadrants"]
+}

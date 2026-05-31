@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-acid-013b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Rearrange the Formula",
+        "text": "From C = n/V, we get V = n/C",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-013b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute Values",
+        "text": "V = 0.015 mol / 0.2 mol/dm^3 = 0.075 dm^3",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-013b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Convert to cm^3",
+        "text": "0.075 dm^3 x 1000 = 75 cm^3",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

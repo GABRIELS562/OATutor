@@ -1,0 +1,10 @@
+{
+    "id": "calc-deriv-002",
+    "title": "Differentiation with Negative and Fractional Exponents",
+    "body": "Differentiate the following function:\n\n$$y = \\frac{3}{x^2} - \\frac{4}{\\sqrt{x}} + 2x$$\n\nFirst rewrite using negative exponents, then find $\\frac{dy}{dx}$.",
+    "variabilization": {},
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Differential Calculus - Rules for Differentiation",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

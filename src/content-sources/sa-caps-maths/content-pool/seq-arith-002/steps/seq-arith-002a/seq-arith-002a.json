@@ -1,0 +1,10 @@
+{
+    "id": "seq-arith-002a",
+    "stepAnswer": ["3, 7, 11, 15, 19", "3;7;11;15;19"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Write the First 5 Terms",
+    "stepBody": "Given:\n- First term $a = 3$\n- Common difference $d = 4$\n\nWrite the first 5 terms of this arithmetic sequence (separate with commas):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["arithmetic-sequence"]
+}

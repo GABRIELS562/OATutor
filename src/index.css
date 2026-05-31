@@ -1,8 +1,127 @@
+/* Google Fonts - Titillium Web */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;500;600;700&display=swap');
+
+/* JAG Online Custom CSS Variables */
+:root {
+    /* Primary colors */
+    --jag-cyan: #00D4FF;
+    --jag-purple: #7B2FF7;
+    --jag-pink: #F72585;
+
+    /* UI colors */
+    --jag-bg: #F8FAFC;
+    --jag-bg-gradient: linear-gradient(180deg, #F8FAFC 0%, #EEF2F6 100%);
+    --jag-dark: #1a1a2e;
+    --jag-dark-paper: #16213e;
+    --jag-text: #1E293B;
+    --jag-text-secondary: #64748B;
+
+    /* Gradients */
+    --jag-gradient-primary: linear-gradient(135deg, #00D4FF 0%, #7B2FF7 50%, #F72585 100%);
+    --jag-gradient-button: linear-gradient(135deg, #7B2FF7 0%, #F72585 100%);
+    --jag-gradient-header: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+
+    /* Shadows */
+    --jag-shadow-sm: 0 2px 10px rgba(123, 47, 247, 0.08);
+    --jag-shadow-md: 0 4px 20px rgba(123, 47, 247, 0.1);
+    --jag-shadow-lg: 0 8px 30px rgba(123, 47, 247, 0.15);
+
+    /* Other */
+    --jag-success: #10B981;
+    --jag-warning: #F59E0B;
+    --jag-error: #F72585;
+    --jag-radius: 12px;
+    --jag-radius-lg: 16px;
+
+    /* Touch targets */
+    --jag-touch-target: 44px;
+    --jag-touch-target-mobile: 48px;
+
+    /* Spacing */
+    --jag-spacing-xs: 4px;
+    --jag-spacing-sm: 8px;
+    --jag-spacing-md: 16px;
+    --jag-spacing-lg: 24px;
+    --jag-spacing-xl: 32px;
+}
+
+/* Manual dark mode override (via ThemeToggle component) */
+:root.theme-dark,
+[data-theme="dark"] {
+    --jag-bg: #0f0f1a;
+    --jag-bg-gradient: linear-gradient(180deg, #0f0f1a 0%, #1a1a2e 100%);
+    --jag-text: #E2E8F0;
+    --jag-text-secondary: #94A3B8;
+    --jag-dark-paper: #1e1e32;
+    --jag-cyan: #22D3EE;
+    --jag-purple: #A855F7;
+    --jag-pink: #F472B6;
+    --jag-shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.3);
+    --jag-shadow-md: 0 4px 20px rgba(0, 0, 0, 0.4);
+    --jag-shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Manual dark mode - force text colors */
+:root.theme-dark body,
+[data-theme="dark"] body {
+    background: var(--jag-bg);
+    color: var(--jag-text);
+}
+
+:root.theme-dark .MuiCard-root,
+:root.theme-dark .MuiPaper-root,
+[data-theme="dark"] .MuiCard-root,
+[data-theme="dark"] .MuiPaper-root {
+    background-color: #1e1e32 !important;
+    color: #E2E8F0 !important;
+}
+
+:root.theme-dark .MuiCard-root *,
+:root.theme-dark .MuiCardContent-root *,
+[data-theme="dark"] .MuiCard-root *,
+[data-theme="dark"] .MuiCardContent-root * {
+    color: #E2E8F0 !important;
+}
+
+:root.theme-dark h1, :root.theme-dark h2, :root.theme-dark h3,
+:root.theme-dark h4, :root.theme-dark h5, :root.theme-dark h6,
+[data-theme="dark"] h1, [data-theme="dark"] h2, [data-theme="dark"] h3,
+[data-theme="dark"] h4, [data-theme="dark"] h5, [data-theme="dark"] h6 {
+    color: #FFFFFF !important;
+}
+
+/* Force light mode when explicitly set */
+:root.theme-light,
+[data-theme="light"] {
+    --jag-bg: #F8FAFC;
+    --jag-bg-gradient: linear-gradient(180deg, #F8FAFC 0%, #EEF2F6 100%);
+    --jag-text: #1E293B;
+    --jag-text-secondary: #64748B;
+    --jag-cyan: #00D4FF;
+    --jag-purple: #7B2FF7;
+    --jag-pink: #F72585;
+    --jag-shadow-sm: 0 2px 10px rgba(123, 47, 247, 0.08);
+    --jag-shadow-md: 0 4px 20px rgba(123, 47, 247, 0.1);
+    --jag-shadow-lg: 0 8px 30px rgba(123, 47, 247, 0.15);
+}
+
 body {
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: var(--jag-bg-gradient);
+    color: var(--jag-text);
+    /* Prevent horizontal scroll on mobile */
+    overflow-x: hidden;
+    /* Smooth momentum scrolling on iOS */
+    -webkit-overflow-scrolling: touch;
+}
+
+html {
+    /* Prevent text size adjustment on orientation change */
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
 
 html, body, #root, .Router, .Router > * {
@@ -18,7 +137,74 @@ footer {
 *::before,
 *::after {
     box-sizing: border-box;
-    font-family: 'Titillium Web', 'sans-serif';
+    font-family: 'Titillium Web', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Selection color - purple gradient effect */
+::selection {
+    background: rgba(123, 47, 247, 0.25);
+    color: var(--jag-purple);
+}
+
+::-moz-selection {
+    background: rgba(123, 47, 247, 0.25);
+    color: var(--jag-purple);
+}
+
+/* Modern scrollbar styling */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(123, 47, 247, 0.05);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, var(--jag-purple) 0%, var(--jag-pink) 100%);
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, var(--jag-cyan) 0%, var(--jag-purple) 100%);
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+    outline: 2px solid var(--jag-purple);
+    outline-offset: 3px;
+    border-radius: 4px;
+}
+
+/* Better focus for touch devices */
+@media (hover: none) {
+    *:focus-visible {
+        outline: 3px solid var(--jag-purple);
+        outline-offset: 2px;
+    }
+}
+
+/* Skip link - visible on focus */
+.skip-link:focus {
+    position: fixed !important;
+    left: 50% !important;
+    top: 16px !important;
+    transform: translateX(-50%);
+    z-index: 9999 !important;
+    padding: 12px 24px;
+    background: var(--jag-purple);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: var(--jag-radius);
+    box-shadow: var(--jag-shadow-lg);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -27,25 +213,76 @@ footer {
     }
 }
 
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+    font-family: 'Fira Code', source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    background: rgba(123, 47, 247, 0.08);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.6; }
+}
+
+@keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
+
+@keyframes scaleIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideInRight {
+    from { opacity: 0; transform: translateX(20px); }
+    to { opacity: 1; transform: translateX(0); }
 }
 
 .revealable {
     opacity: 0.2;
+    transition: opacity 300ms ease, transform 300ms ease;
 }
 
 .revealable.revealed {
     opacity: 1;
-    transition: opacity 500ms ease;
+    transform: translateY(0);
+    animation: fadeIn 0.5s ease;
 }
 
+/* Blockquote styling */
 blockquote {
     position: relative;
-    margin: -0.4em 1em 1.4em;
-    padding: 0.6em 0.8em 0.6em 1em;
-    color: rgb(100, 100, 100);
+    margin: 1em 1em 1.5em;
+    padding: 1em 1em 1em 1.5em;
+    color: var(--jag-text-secondary);
+    background: rgba(123, 47, 247, 0.04);
+    border-radius: var(--jag-radius);
+    font-style: italic;
 }
 
 blockquote:before {
@@ -56,11 +293,1162 @@ blockquote:before {
     left: 0;
     content: "";
     width: 4px;
-    border-radius: 8px;
-    background: rgb(180, 184, 188);
+    border-radius: 4px;
+    background: var(--jag-gradient-primary);
 }
 
+/* Toast notifications */
 .Toastify__toast-container--top-right {
-    top: 4.5em !important;
-    right: 0.5em !important;
+    top: 5em !important;
+    right: 1em !important;
+}
+
+.Toastify__toast {
+    border-radius: var(--jag-radius) !important;
+    box-shadow: var(--jag-shadow-md) !important;
+    font-family: 'Titillium Web', sans-serif !important;
+}
+
+.Toastify__toast--success {
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%) !important;
+}
+
+.Toastify__toast--error {
+    background: linear-gradient(135deg, #F72585 0%, #E11D48 100%) !important;
+}
+
+.Toastify__toast--warning {
+    background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%) !important;
+}
+
+/* Links */
+a {
+    color: var(--jag-purple);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--jag-pink);
+}
+
+/* Make links touch-friendly on mobile */
+@media (max-width: 768px) {
+    a {
+        padding: 4px 0;
+    }
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--jag-text);
+    margin-top: 0;
+    line-height: 1.3;
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 1.5em;
+}
+
+li {
+    margin-bottom: 0.5em;
+    line-height: 1.6;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+th, td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid rgba(123, 47, 247, 0.1);
+}
+
+th {
+    background: rgba(123, 47, 247, 0.05);
+    font-weight: 600;
+    color: var(--jag-purple);
+}
+
+tr:hover {
+    background: rgba(123, 47, 247, 0.02);
+}
+
+/* Input focus glow */
+input:focus, textarea:focus, select:focus {
+    box-shadow: 0 0 0 3px rgba(123, 47, 247, 0.15);
+}
+
+/* Button base styles */
+button {
+    cursor: pointer;
+    font-family: inherit;
+    /* Prevent double-tap zoom on mobile */
+    touch-action: manipulation;
+}
+
+/* Utility classes */
+.text-gradient {
+    background: var(--jag-gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.bg-gradient {
+    background: var(--jag-gradient-primary);
+}
+
+.card-hover {
+    transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--jag-shadow-lg);
+}
+
+/* Loading skeleton animation */
+.skeleton {
+    background: linear-gradient(
+        90deg,
+        rgba(123, 47, 247, 0.05) 25%,
+        rgba(123, 47, 247, 0.1) 50%,
+        rgba(123, 47, 247, 0.05) 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: var(--jag-radius);
+}
+
+/* =========================================
+   MOBILE-FIRST RESPONSIVE DESIGN
+   ========================================= */
+
+/* Small phones (320px - 480px) */
+@media (max-width: 480px) {
+    :root {
+        --jag-radius: 8px;
+        --jag-radius-lg: 12px;
+        --jag-touch-target: 48px;
+        --jag-touch-target-mobile: 52px;
+    }
+
+    body {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.3rem; }
+    h3 { font-size: 1.15rem; }
+
+    /* Make touch targets larger (minimum 48px on mobile) */
+    button,
+    .MuiButton-root,
+    .MuiIconButton-root,
+    input[type="submit"],
+    input[type="button"] {
+        min-height: 48px !important;
+        min-width: 48px;
+        padding: 12px 20px !important;
+        font-size: 16px !important;
+    }
+
+    /* Full-width inputs on mobile - prevent iOS zoom */
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    textarea,
+    select,
+    .MuiTextField-root,
+    .MuiInputBase-root {
+        font-size: 16px !important; /* Prevents iOS zoom */
+        width: 100%;
+    }
+
+    /* Larger input fields */
+    .MuiOutlinedInput-input {
+        padding: 14px 16px !important;
+    }
+
+    /* Cards take full width with small margin */
+    .MuiCard-root,
+    .MuiPaper-root {
+        margin-left: 8px !important;
+        margin-right: 8px !important;
+        border-radius: var(--jag-radius) !important;
+    }
+
+    /* Grid adjustments */
+    .MuiGrid-container {
+        padding: 0 4px;
+    }
+
+    /* Toolbar compact */
+    .MuiToolbar-root {
+        padding: 4px 8px !important;
+        min-height: 56px !important;
+    }
+
+    /* Hide less important elements */
+    .mobile-hide {
+        display: none !important;
+    }
+
+    /* Larger close buttons for modals */
+    .MuiDialog-paper .MuiIconButton-root {
+        padding: 12px !important;
+    }
+}
+
+/* Tablets and larger phones (481px - 768px) */
+@media (max-width: 768px) {
+    :root {
+        --jag-radius: 10px;
+        --jag-radius-lg: 14px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    h1 { font-size: 1.75rem; }
+    h2 { font-size: 1.5rem; }
+    h3 { font-size: 1.25rem; }
+
+    /* Touch-friendly button sizes */
+    button,
+    .MuiButton-root {
+        min-height: 44px;
+        padding: 10px 16px;
+    }
+
+    /* Stack navigation items */
+    .MuiToolbar-root > .MuiGrid-container {
+        flex-wrap: wrap;
+    }
+
+    /* Full-width cards on medium screens */
+    .MuiGrid-item {
+        max-width: 100%;
+    }
+
+    /* Improve spacing */
+    .MuiContainer-root {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+
+    /* Toast notifications - move to bottom on mobile */
+    .Toastify__toast-container--top-right {
+        top: auto !important;
+        bottom: 1em !important;
+        right: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        padding: 0 12px !important;
+    }
+
+    .Toastify__toast {
+        margin-bottom: 8px !important;
+    }
+}
+
+/* Problem card mobile optimization */
+@media (max-width: 768px) {
+    /* Step navigation - larger touch targets */
+    .step-navigation-button {
+        min-width: 100px;
+        padding: 12px 20px;
+        margin: 4px;
+    }
+
+    /* Math input wider on mobile */
+    .mq-editable-field {
+        min-height: 50px;
+        font-size: 18px !important;
+    }
+
+    /* MathQuill improvements for mobile */
+    .mq-root-block {
+        font-size: 18px !important;
+        padding: 8px 12px !important;
+    }
+
+    /* Hint sections - better readability */
+    .dynamicHintContainer,
+    .hint-container {
+        padding: 16px;
+        margin: 12px 0;
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    /* Problem body - improve readability */
+    .problem-body,
+    .step-body {
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    /* Answer input area */
+    .answer-input-container {
+        margin: 16px 0;
+    }
+
+    .answer-input-container input,
+    .answer-input-container textarea {
+        font-size: 18px;
+        padding: 14px;
+        border-radius: 10px;
+    }
+
+    /* Submit button - prominent on mobile */
+    .submit-button,
+    button[type="submit"] {
+        width: 100%;
+        padding: 16px 24px;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 12px;
+        margin-top: 16px;
+    }
+
+    /* Multiple choice options - larger touch targets */
+    .MuiRadio-root,
+    .MuiCheckbox-root {
+        padding: 12px !important;
+    }
+
+    .MuiFormControlLabel-root {
+        min-height: 48px;
+        margin-bottom: 8px;
+    }
+}
+
+/* Lesson selection mobile optimization */
+@media (max-width: 768px) {
+    /* Lesson cards in single column on small screens */
+    .lesson-card-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .lesson-card {
+        margin: 8px 0;
+        padding: 16px;
+    }
+
+    /* Course selector */
+    .course-selector {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .course-selector button {
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
+
+/* Dashboard mobile optimization */
+@media (max-width: 768px) {
+    .dashboard-stats-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 8px !important;
+    }
+
+    .dashboard-stat-card {
+        padding: 12px !important;
+    }
+
+    .badge-grid {
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 8px !important;
+    }
+}
+
+/* Navigation header mobile */
+@media (max-width: 600px) {
+    /* Compact logo on mobile */
+    .brand-logo-container {
+        max-width: 140px;
+    }
+
+    .brand-tagline {
+        display: none;
+    }
+
+    /* Hide lesson title on mobile */
+    .lesson-title-container {
+        display: none !important;
+    }
+
+    /* Gamification stats - super compact */
+    .gamification-stats-container {
+        gap: 4px !important;
+        padding: 4px 8px !important;
+    }
+
+    .gamification-stat-item {
+        padding: 2px 4px !important;
+    }
+
+    .gamification-stat-label {
+        display: none;
+    }
+
+    /* Dashboard button smaller on mobile */
+    .MuiIconButton-root {
+        padding: 8px !important;
+    }
+
+    /* Simplify AppBar on mobile */
+    .MuiAppBar-root .MuiToolbar-root {
+        padding: 0 8px !important;
+    }
+}
+
+/* Safe area for notched phones (iPhone X+, etc.) */
+@supports (padding: max(0px)) {
+    .MuiAppBar-root {
+        padding-top: max(0px, env(safe-area-inset-top));
+    }
+
+    .MuiDrawer-paper {
+        padding-top: max(16px, env(safe-area-inset-top));
+        padding-bottom: max(16px, env(safe-area-inset-bottom));
+    }
+
+    .bottom-navigation,
+    .Toastify__toast-container--bottom-center,
+    .Toastify__toast-container--bottom-right {
+        padding-bottom: max(16px, env(safe-area-inset-bottom));
+    }
+
+    /* Fixed bottom elements */
+    .fixed-bottom {
+        padding-bottom: max(16px, env(safe-area-inset-bottom));
+    }
+}
+
+/* Touch feedback */
+@media (hover: none) and (pointer: coarse) {
+    /* Remove hover effects on touch devices - use active instead */
+    .card-hover:hover {
+        transform: none;
+        box-shadow: var(--jag-shadow-md);
+    }
+
+    .card-hover:active {
+        transform: scale(0.98);
+        box-shadow: var(--jag-shadow-sm);
+    }
+
+    /* Button touch feedback */
+    button:active,
+    .MuiButton-root:active {
+        transform: scale(0.97);
+        opacity: 0.9;
+    }
+
+    /* Card touch feedback */
+    .MuiCard-root:active {
+        transform: scale(0.99);
+    }
+
+    /* List item touch feedback */
+    .MuiListItem-button:active {
+        background-color: rgba(123, 47, 247, 0.1) !important;
+    }
+}
+
+/* Prevent text selection on UI elements */
+.no-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Smooth scrolling for scrollable containers */
+.scroll-container {
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+
+/* Hide scrollbar but keep functionality */
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Horizontal scroll container for mobile */
+.horizontal-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    gap: 12px;
+    padding: 8px 0;
+}
+
+.horizontal-scroll > * {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+}
+
+/* Print styles */
+@media print {
+    body {
+        background: white;
+    }
+
+    .no-print,
+    .MuiAppBar-root,
+    .MuiDrawer-root,
+    .Toastify__toast-container {
+        display: none !important;
+    }
+
+    .MuiCard-root {
+        box-shadow: none !important;
+        border: 1px solid #ddd !important;
+    }
+}
+
+/* Disable interactions helper */
+.disable-interactions {
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+/* Accessible hiding */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    :root {
+        --jag-purple: #6B21A8;
+        --jag-cyan: #0284C7;
+        --jag-pink: #BE185D;
+    }
+
+    .MuiButton-containedPrimary {
+        border: 2px solid #000 !important;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+}
+
+/* Dark mode support - automatically follows system preference */
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Override light colors for dark mode */
+        --jag-bg: #0f0f1a;
+        --jag-bg-gradient: linear-gradient(180deg, #0f0f1a 0%, #1a1a2e 100%);
+        --jag-text: #E2E8F0;
+        --jag-text-secondary: #94A3B8;
+        --jag-dark-paper: #1e1e32;
+
+        /* Slightly brighter accent colors for dark mode */
+        --jag-cyan: #22D3EE;
+        --jag-purple: #A855F7;
+        --jag-pink: #F472B6;
+
+        /* Adjusted shadows for dark mode */
+        --jag-shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.3);
+        --jag-shadow-md: 0 4px 20px rgba(0, 0, 0, 0.4);
+        --jag-shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    body {
+        background: var(--jag-bg);
+        color: var(--jag-text);
+    }
+
+    /* Material-UI Paper components */
+    .MuiPaper-root {
+        background-color: var(--jag-dark-paper) !important;
+        color: var(--jag-text) !important;
+    }
+
+    /* Cards */
+    .MuiCard-root {
+        background-color: #1e1e32 !important;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    /* Inputs */
+    .MuiInputBase-root,
+    .MuiOutlinedInput-root {
+        background-color: rgba(255, 255, 255, 0.05) !important;
+        color: var(--jag-text) !important;
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+        border-color: rgba(255, 255, 255, 0.15) !important;
+    }
+
+    .MuiInputBase-root:hover .MuiOutlinedInput-notchedOutline {
+        border-color: var(--jag-purple) !important;
+    }
+
+    .MuiInputLabel-root {
+        color: var(--jag-text-secondary) !important;
+    }
+
+    /* Buttons - keep gradient buttons, adjust others */
+    .MuiButton-outlined {
+        border-color: rgba(255, 255, 255, 0.2) !important;
+        color: var(--jag-text) !important;
+    }
+
+    .MuiButton-outlined:hover {
+        background-color: rgba(255, 255, 255, 0.05) !important;
+    }
+
+    /* Typography */
+    .MuiTypography-root {
+        color: inherit;
+    }
+
+    .MuiTypography-colorTextSecondary {
+        color: var(--jag-text-secondary) !important;
+    }
+
+    /* Dividers */
+    .MuiDivider-root {
+        background-color: rgba(255, 255, 255, 0.1) !important;
+    }
+
+    /* Tables */
+    .MuiTableCell-root {
+        border-color: rgba(255, 255, 255, 0.1) !important;
+        color: var(--jag-text) !important;
+    }
+
+    .MuiTableCell-head {
+        background-color: rgba(123, 47, 247, 0.1) !important;
+        color: var(--jag-text) !important;
+    }
+
+    /* Chips */
+    .MuiChip-root {
+        background-color: rgba(255, 255, 255, 0.1) !important;
+        color: var(--jag-text) !important;
+    }
+
+    /* Lists */
+    .MuiListItem-root:hover {
+        background-color: rgba(255, 255, 255, 0.05) !important;
+    }
+
+    /* Tabs */
+    .MuiTab-root {
+        color: var(--jag-text-secondary) !important;
+    }
+
+    .MuiTab-root.Mui-selected {
+        color: var(--jag-purple) !important;
+    }
+
+    /* Tooltips */
+    .MuiTooltip-tooltip {
+        background-color: #2d2d44 !important;
+        color: var(--jag-text) !important;
+    }
+
+    /* Progress bars */
+    .MuiLinearProgress-root {
+        background-color: rgba(255, 255, 255, 0.1) !important;
+    }
+
+    /* Drawer */
+    .MuiDrawer-paper {
+        background-color: #1a1a2e !important;
+    }
+
+    /* Selection */
+    ::selection {
+        background-color: var(--jag-purple);
+        color: white;
+    }
+
+    /* Scrollbar for dark mode */
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #1a1a2e;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #3d3d5c;
+        border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #5a5a7a;
+    }
+
+    /* Problem cards in dark mode */
+    .problem-card,
+    .lesson-card {
+        background-color: #1e1e32 !important;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    /* CRITICAL: Force all text to be light in dark mode */
+    .MuiCard-root,
+    .MuiCard-root *,
+    .MuiCardContent-root,
+    .MuiCardContent-root *,
+    .MuiPaper-root *,
+    .problem-card *,
+    [class*="problemBody"],
+    [class*="stepBody"],
+    [class*="questionText"],
+    [class*="hintText"],
+    p, span, div {
+        color: var(--jag-text) !important;
+    }
+
+    /* Ensure headings are bright */
+    h1, h2, h3, h4, h5, h6,
+    .MuiTypography-h1,
+    .MuiTypography-h2,
+    .MuiTypography-h3,
+    .MuiTypography-h4,
+    .MuiTypography-h5,
+    .MuiTypography-h6 {
+        color: #FFFFFF !important;
+    }
+
+    /* Math content - ensure KaTeX/MathJax is visible */
+    .katex, .katex *,
+    .MathJax, .MathJax *,
+    .math-field, .math-field *,
+    mjx-container, mjx-container * {
+        color: var(--jag-text) !important;
+    }
+
+    /* Problem step text */
+    [class*="MuiCardContent"] p,
+    [class*="MuiCardContent"] span,
+    [class*="Card"] p,
+    [class*="Card"] span {
+        color: #E2E8F0 !important;
+    }
+
+    /* Icons - slightly brighter */
+    .MuiSvgIcon-root {
+        color: var(--jag-text-secondary);
+    }
+
+    /* Links */
+    a {
+        color: var(--jag-cyan);
+    }
+
+    a:hover {
+        color: var(--jag-purple);
+    }
+
+    /* Code blocks if any */
+    code, pre {
+        background-color: rgba(0, 0, 0, 0.3) !important;
+        color: var(--jag-cyan) !important;
+    }
+}
+
+/* Landscape orientation adjustments for mobile */
+@media (max-height: 500px) and (orientation: landscape) {
+    .MuiToolbar-root {
+        min-height: 48px !important;
+    }
+
+    .hero-section {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+}
+
+/* Large text accessibility */
+@media (min-resolution: 192dpi) {
+    body {
+        font-size: 15px;
+    }
+}
+
+/* Animation utilities */
+.animate-fade-in {
+    animation: fadeIn 0.3s ease-out;
+}
+
+.animate-fade-in-up {
+    animation: fadeInUp 0.4s ease-out;
+}
+
+.animate-scale-in {
+    animation: scaleIn 0.3s ease-out;
+}
+
+.animate-slide-in-right {
+    animation: slideInRight 0.3s ease-out;
+}
+
+/* Stagger animation for lists */
+.stagger-children > *:nth-child(1) { animation-delay: 0ms; }
+.stagger-children > *:nth-child(2) { animation-delay: 50ms; }
+.stagger-children > *:nth-child(3) { animation-delay: 100ms; }
+.stagger-children > *:nth-child(4) { animation-delay: 150ms; }
+.stagger-children > *:nth-child(5) { animation-delay: 200ms; }
+.stagger-children > *:nth-child(6) { animation-delay: 250ms; }
+
+/* ============================================
+   DARK MODE - CurriculumReference Page Fixes
+   ============================================ */
+
+/* Curriculum page container - light mode */
+.curriculum-reference-page {
+    background: #f8fafc;
+}
+
+/* Curriculum page container - dark mode */
+:root.theme-dark .curriculum-reference-page,
+[data-theme="dark"] .curriculum-reference-page {
+    background: var(--jag-bg) !important;
+}
+
+/* All text inside curriculum page - dark mode */
+:root.theme-dark .curriculum-reference-page .MuiTypography-root,
+:root.theme-dark .curriculum-reference-page p,
+:root.theme-dark .curriculum-reference-page span,
+:root.theme-dark .curriculum-reference-page div,
+[data-theme="dark"] .curriculum-reference-page .MuiTypography-root,
+[data-theme="dark"] .curriculum-reference-page p,
+[data-theme="dark"] .curriculum-reference-page span,
+[data-theme="dark"] .curriculum-reference-page div {
+    color: #E2E8F0 !important;
+}
+
+/* Headings in curriculum page - brighter */
+:root.theme-dark .curriculum-reference-page .MuiTypography-h4,
+:root.theme-dark .curriculum-reference-page .MuiTypography-h5,
+:root.theme-dark .curriculum-reference-page .MuiTypography-h6,
+[data-theme="dark"] .curriculum-reference-page .MuiTypography-h4,
+[data-theme="dark"] .curriculum-reference-page .MuiTypography-h5,
+[data-theme="dark"] .curriculum-reference-page .MuiTypography-h6 {
+    color: #FFFFFF !important;
+}
+
+/* Papers and cards inside curriculum page */
+:root.theme-dark .curriculum-reference-page .MuiPaper-root,
+[data-theme="dark"] .curriculum-reference-page .MuiPaper-root {
+    background-color: #1e1e32 !important;
+}
+
+/* Accordion styling for curriculum page */
+:root.theme-dark .curriculum-reference-page .MuiAccordion-root,
+[data-theme="dark"] .curriculum-reference-page .MuiAccordion-root {
+    background-color: #252540 !important;
+}
+
+:root.theme-dark .curriculum-reference-page .MuiAccordionSummary-root,
+[data-theme="dark"] .curriculum-reference-page .MuiAccordionSummary-root {
+    background-color: #252540 !important;
+}
+
+:root.theme-dark .curriculum-reference-page .MuiAccordionDetails-root,
+[data-theme="dark"] .curriculum-reference-page .MuiAccordionDetails-root {
+    background-color: #1a1a30 !important;
+}
+
+/* Chips - unselected (white background) */
+:root.theme-dark .curriculum-reference-page .MuiChip-root,
+[data-theme="dark"] .curriculum-reference-page .MuiChip-root {
+    background-color: #2d2d4a !important;
+    color: #CBD5E1 !important;
+    border-color: #3d3d5c !important;
+}
+
+/* Tabs */
+:root.theme-dark .curriculum-reference-page .MuiTab-root,
+[data-theme="dark"] .curriculum-reference-page .MuiTab-root {
+    color: #94A3B8 !important;
+}
+
+:root.theme-dark .curriculum-reference-page .Mui-selected,
+[data-theme="dark"] .curriculum-reference-page .Mui-selected {
+    color: var(--jag-purple) !important;
+}
+
+/* List items */
+:root.theme-dark .curriculum-reference-page .MuiListItemText-primary,
+[data-theme="dark"] .curriculum-reference-page .MuiListItemText-primary {
+    color: #CBD5E1 !important;
+}
+
+/* Grade chips - unselected */
+.grade-chip {
+    background-color: #fff !important;
+    color: #64748B !important;
+}
+
+:root.theme-dark .grade-chip,
+[data-theme="dark"] .grade-chip {
+    background-color: #2d2d4a !important;
+    color: #CBD5E1 !important;
+    border-color: #4a4a6a !important;
+}
+
+/* Grade chips - selected (keep the gradient) */
+.grade-chip-selected {
+    color: #fff !important;
+}
+
+/* Light mode styles for curriculum page */
+.curriculum-reference-page .MuiAccordionSummary-root {
+    background-color: #fff;
+}
+
+.curriculum-reference-page .MuiAccordionDetails-root {
+    background-color: #fafafa;
+}
+
+/* Ensure text inherits properly in light mode too */
+.curriculum-reference-page .MuiTypography-root {
+    color: inherit;
+}
+
+.curriculum-reference-page .MuiTypography-h5,
+.curriculum-reference-page .MuiTypography-h6 {
+    color: #1a1a2e;
+}
+
+:root.theme-dark .curriculum-reference-page .MuiTypography-h5,
+:root.theme-dark .curriculum-reference-page .MuiTypography-h6,
+[data-theme="dark"] .curriculum-reference-page .MuiTypography-h5,
+[data-theme="dark"] .curriculum-reference-page .MuiTypography-h6 {
+    color: #FFFFFF !important;
+}
+
+/* Dark mode for Curriculum page - override hardcoded inline styles */
+:root.theme-dark [style*="background: rgb(248, 250, 252)"],
+:root.theme-dark [style*='background: "#f8fafc"'],
+:root.theme-dark [style*="background: #f8fafc"],
+[data-theme="dark"] [style*="background: rgb(248, 250, 252)"],
+[data-theme="dark"] [style*='background: "#f8fafc"'],
+[data-theme="dark"] [style*="background: #f8fafc"] {
+    background: var(--jag-bg) !important;
+}
+
+/* Fix all MUI Accordion components in dark mode */
+:root.theme-dark .MuiAccordion-root,
+:root.theme-dark .MuiAccordionSummary-root,
+:root.theme-dark .MuiAccordionDetails-root,
+[data-theme="dark"] .MuiAccordion-root,
+[data-theme="dark"] .MuiAccordionSummary-root,
+[data-theme="dark"] .MuiAccordionDetails-root {
+    background-color: #1e1e32 !important;
+    color: #E2E8F0 !important;
+}
+
+/* Fix Accordion Summary backgrounds (white backgrounds in light mode) */
+:root.theme-dark .MuiAccordionSummary-root[style*="background: rgb(255, 255, 255)"],
+:root.theme-dark .MuiAccordionSummary-root[style*="background: #fff"],
+[data-theme="dark"] .MuiAccordionSummary-root[style*="background: rgb(255, 255, 255)"],
+[data-theme="dark"] .MuiAccordionSummary-root[style*="background: #fff"] {
+    background-color: #252540 !important;
+}
+
+/* Fix Accordion Details backgrounds (fafafa in light mode) */
+:root.theme-dark .MuiAccordionDetails-root[style*="background: rgb(250, 250, 250)"],
+:root.theme-dark .MuiAccordionDetails-root[style*="background: #fafafa"],
+[data-theme="dark"] .MuiAccordionDetails-root[style*="background: rgb(250, 250, 250)"],
+[data-theme="dark"] .MuiAccordionDetails-root[style*="background: #fafafa"] {
+    background-color: #1a1a30 !important;
+}
+
+/* Fix all text with dark colors in Curriculum page - override inline styles */
+:root.theme-dark .MuiTypography-root[style*="color: rgb(26, 26, 46)"],
+:root.theme-dark .MuiTypography-root[style*='color: "#1a1a2e"'],
+:root.theme-dark .MuiTypography-root[style*="color: #1a1a2e"],
+[data-theme="dark"] .MuiTypography-root[style*="color: rgb(26, 26, 46)"],
+[data-theme="dark"] .MuiTypography-root[style*='color: "#1a1a2e"'],
+[data-theme="dark"] .MuiTypography-root[style*="color: #1a1a2e"] {
+    color: #FFFFFF !important;
+}
+
+/* Fix gray text (#64748B and #374151) */
+:root.theme-dark .MuiTypography-root[style*="color: rgb(100, 116, 139)"],
+:root.theme-dark .MuiTypography-root[style*='color: "#64748B"'],
+:root.theme-dark .MuiTypography-root[style*="color: #64748B"],
+[data-theme="dark"] .MuiTypography-root[style*="color: rgb(100, 116, 139)"],
+[data-theme="dark"] .MuiTypography-root[style*='color: "#64748B"'],
+[data-theme="dark"] .MuiTypography-root[style*="color: #64748B"] {
+    color: #94A3B8 !important;
+}
+
+:root.theme-dark .MuiTypography-root[style*="color: rgb(55, 65, 81)"],
+:root.theme-dark .MuiTypography-root[style*='color: "#374151"'],
+:root.theme-dark .MuiTypography-root[style*="color: #374151"],
+[data-theme="dark"] .MuiTypography-root[style*="color: rgb(55, 65, 81)"],
+[data-theme="dark"] .MuiTypography-root[style*='color: "#374151"'],
+[data-theme="dark"] .MuiTypography-root[style*="color: #374151"] {
+    color: #CBD5E1 !important;
+}
+
+/* Fix Chips with white background (unselected grade chips) */
+:root.theme-dark .MuiChip-root[style*="background: rgb(255, 255, 255)"],
+:root.theme-dark .MuiChip-root[style*="background: #fff"],
+[data-theme="dark"] .MuiChip-root[style*="background: rgb(255, 255, 255)"],
+[data-theme="dark"] .MuiChip-root[style*="background: #fff"] {
+    background: #2d2d4a !important;
+    border-color: #3d3d5c !important;
+}
+
+:root.theme-dark .MuiChip-root[style*="color: rgb(100, 116, 139)"],
+:root.theme-dark .MuiChip-root[style*='color: "#64748B"'],
+[data-theme="dark"] .MuiChip-root[style*="color: rgb(100, 116, 139)"],
+[data-theme="dark"] .MuiChip-root[style*='color: "#64748B"'] {
+    color: #CBD5E1 !important;
+}
+
+/* Fix MUI List items in dark mode */
+:root.theme-dark .MuiListItem-root,
+:root.theme-dark .MuiListItemText-root,
+:root.theme-dark .MuiListItemText-primary,
+[data-theme="dark"] .MuiListItem-root,
+[data-theme="dark"] .MuiListItemText-root,
+[data-theme="dark"] .MuiListItemText-primary {
+    color: #E2E8F0 !important;
+}
+
+/* Fix Tabs component */
+:root.theme-dark .MuiTabs-root,
+:root.theme-dark .MuiTab-root,
+[data-theme="dark"] .MuiTabs-root,
+[data-theme="dark"] .MuiTab-root {
+    color: #E2E8F0 !important;
+}
+
+:root.theme-dark .MuiTab-root.Mui-selected,
+[data-theme="dark"] .MuiTab-root.Mui-selected {
+    color: var(--jag-purple) !important;
+}
+
+/* Expand icon in accordions */
+:root.theme-dark .MuiAccordionSummary-expandIcon,
+:root.theme-dark .MuiSvgIcon-root,
+[data-theme="dark"] .MuiAccordionSummary-expandIcon,
+[data-theme="dark"] .MuiAccordionSummary-expandIcon .MuiSvgIcon-root {
+    color: #94A3B8 !important;
+}
+
+/* Override ALL Typography within Accordion components specifically */
+:root.theme-dark .MuiAccordion-root .MuiTypography-root,
+[data-theme="dark"] .MuiAccordion-root .MuiTypography-root {
+    color: #E2E8F0 !important;
+}
+
+/* Specifically for topic name typography which has fontWeight 600 */
+:root.theme-dark .MuiAccordionSummary-content .MuiTypography-root,
+[data-theme="dark"] .MuiAccordionSummary-content .MuiTypography-root {
+    color: #FFFFFF !important;
+}
+
+/* Caption/subtitle text in accordion */
+:root.theme-dark .MuiTypography-caption,
+[data-theme="dark"] .MuiTypography-caption {
+    color: #94A3B8 !important;
+}
+
+/* Footer/info Paper section */
+:root.theme-dark .MuiPaper-root[style*="background: linear-gradient"],
+[data-theme="dark"] .MuiPaper-root[style*="background: linear-gradient"] {
+    background: rgba(123, 47, 247, 0.15) !important;
+    border-color: rgba(123, 47, 247, 0.3) !important;
+}
+
+/* ============================================
+   DARK MODE - Global Inline Style Overrides
+   These catch inline styles from React components
+   ============================================ */
+
+/* Override any element with hardcoded dark text colors */
+:root.theme-dark [style*="color: #1a1a2e"],
+:root.theme-dark [style*="color: rgb(26, 26, 46)"],
+[data-theme="dark"] [style*="color: #1a1a2e"],
+[data-theme="dark"] [style*="color: rgb(26, 26, 46)"] {
+    color: #FFFFFF !important;
+}
+
+:root.theme-dark [style*="color: #64748B"],
+:root.theme-dark [style*="color: rgb(100, 116, 139)"],
+[data-theme="dark"] [style*="color: #64748B"],
+[data-theme="dark"] [style*="color: rgb(100, 116, 139)"] {
+    color: #94A3B8 !important;
+}
+
+:root.theme-dark [style*="color: #374151"],
+:root.theme-dark [style*="color: rgb(55, 65, 81)"],
+[data-theme="dark"] [style*="color: #374151"],
+[data-theme="dark"] [style*="color: rgb(55, 65, 81)"] {
+    color: #CBD5E1 !important;
+}
+
+/* Override any element with hardcoded light backgrounds */
+:root.theme-dark [style*="background: #fff"],
+:root.theme-dark [style*="background: rgb(255, 255, 255)"],
+:root.theme-dark [style*="background-color: #fff"],
+:root.theme-dark [style*="background-color: rgb(255, 255, 255)"],
+[data-theme="dark"] [style*="background: #fff"],
+[data-theme="dark"] [style*="background: rgb(255, 255, 255)"],
+[data-theme="dark"] [style*="background-color: #fff"],
+[data-theme="dark"] [style*="background-color: rgb(255, 255, 255)"] {
+    background-color: #252540 !important;
+}
+
+:root.theme-dark [style*="background: #fafafa"],
+:root.theme-dark [style*="background: rgb(250, 250, 250)"],
+:root.theme-dark [style*="background: #f8fafc"],
+:root.theme-dark [style*="background: rgb(248, 250, 252)"],
+[data-theme="dark"] [style*="background: #fafafa"],
+[data-theme="dark"] [style*="background: rgb(250, 250, 250)"],
+[data-theme="dark"] [style*="background: #f8fafc"],
+[data-theme="dark"] [style*="background: rgb(248, 250, 252)"] {
+    background-color: #1a1a30 !important;
+}
+
+/* Ensure all container backgrounds respect dark mode */
+:root.theme-dark .MuiContainer-root,
+[data-theme="dark"] .MuiContainer-root {
+    color: #E2E8F0;
 }

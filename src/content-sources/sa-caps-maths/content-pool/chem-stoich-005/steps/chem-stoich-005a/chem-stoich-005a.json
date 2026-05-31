@@ -1,0 +1,15 @@
+{
+  "id": "chem-stoich-005a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.1",
+    "0,1"
+  ],
+  "stepExplanation": "M(NaOH) = 23 + 16 + 1 = 40 g/mol. n = m/M = 4.0/40 = 0.1 mol",
+  "stepTitle": "Calculate Moles",
+  "stepBody": "Calculate the number of moles of NaOH dissolved."
+}

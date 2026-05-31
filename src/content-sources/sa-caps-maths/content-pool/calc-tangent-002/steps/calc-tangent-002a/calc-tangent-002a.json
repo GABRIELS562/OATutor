@@ -1,0 +1,10 @@
+{
+    "id": "calc-tangent-002a",
+    "stepAnswer": ["3x^2-12x+9", "3x^2 - 12x + 9"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Derivative",
+    "stepBody": "Differentiate $y = x^3 - 6x^2 + 9x + 2$.\n\nFind $\\frac{dy}{dx}$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "stationary-points"]
+}

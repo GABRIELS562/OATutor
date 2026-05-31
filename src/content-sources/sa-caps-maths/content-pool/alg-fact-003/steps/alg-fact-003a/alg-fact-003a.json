@@ -1,0 +1,10 @@
+{
+    "id": "alg-fact-003a",
+    "stepAnswer": ["6 and 1", "1 and 6"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find Two Numbers (AC Method)",
+    "stepBody": "For $ax^2 + bx + c$ when $a \\neq 1$, use the **AC method**:\n\nFind two numbers that:\n- **Multiply** to give $a \\times c = 2 \\times 3 = 6$\n- **Add** to give $b = 7$\n\nWhat are these two numbers?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "trinomial-factor", "AC-method"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bio-nerve-001",
+  "title": "Nervous System - Reflex Arc",
+  "body": "When you touch a hot stove, you pull your hand away before you feel the pain. Name the type of response and list the 5 components of the reflex arc in order.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-reflex-arc"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

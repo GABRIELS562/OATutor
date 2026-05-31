@@ -1,0 +1,18 @@
+{
+  "id": "chem-stoich-005",
+  "title": "Concentration and Volume Calculations",
+  "body": "A solution is prepared by dissolving 4.0 g of sodium hydroxide (NaOH) in water to make 500 cm^3 of solution. Calculate the concentration of the solution in mol/dm^3. (Molar masses: Na = 23, O = 16, H = 1)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-stoichiometry"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "Siyavula Grade 11 Physical Sciences - Stoichiometry",
+  "courseName": "CAPS Grade 11 Physical Sciences"
+}

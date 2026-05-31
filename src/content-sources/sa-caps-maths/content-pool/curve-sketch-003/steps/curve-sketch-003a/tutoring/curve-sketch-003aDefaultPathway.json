@@ -1,0 +1,35 @@
+[
+    {
+        "id": "curve-sketch-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Factor Out (x - 2)",
+        "text": "Since $x = 2$ is a root, $(x - 2)$ is a factor.\n\nDividing $-x^3 + 4x^2 + 11x - 30$ by $(x - 2)$:\n$-x^3 + 4x^2 + 11x - 30 = -(x - 2)(x^2 - 2x - 15)$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "curve-sketch-003a-h2",
+        "type": "hint",
+        "dependencies": ["curve-sketch-003a-h1"],
+        "title": "Factorise the Quadratic",
+        "text": "$x^2 - 2x - 15 = (x - 5)(x + 3)$\n\nSo: $f(x) = -(x - 2)(x - 5)(x + 3)$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "curve-sketch-003a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x = -3, x = 2, x = 5"],
+        "dependencies": ["curve-sketch-003a-h2"],
+        "title": "X-intercepts",
+        "text": "The x-intercepts are at $x = -3$, $x = 2$, and $x = 5$.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

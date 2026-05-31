@@ -1,0 +1,10 @@
+{
+    "id": "eq-simult-001b",
+    "stepAnswer": ["1", "y=1"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Solve for y",
+    "stepBody": "Now substitute $x = 3$ into one of the original equations to find y.\n\nWhat is the value of y?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["linear-equations", "substitution"]
+}

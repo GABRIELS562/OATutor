@@ -1,0 +1,35 @@
+[
+    {
+        "id": "poly-006b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Synthetic Division Process",
+        "text": "```\n1 | 2   3  -8   3\n  |     2   5  -3\n  |_____________\n    2   5  -3   0\n```\n\nStep by step:\n1. Bring down 2\n2. $1 \\times 2 = 2$, add to 3: $3 + 2 = 5$\n3. $1 \\times 5 = 5$, add to -8: $-8 + 5 = -3$\n4. $1 \\times (-3) = -3$, add to 3: $3 + (-3) = 0$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-006b-h2",
+        "type": "hint",
+        "dependencies": ["poly-006b-h1"],
+        "title": "Reading the Result",
+        "text": "The bottom row gives the coefficients of the quotient, with the last number being the remainder.\n\nCoefficients: 2, 5, -3, | 0\n\nQuotient: $2x^2 + 5x - 3$ (degree one less than dividend)\nRemainder: 0",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-006b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["2x^2 + 5x - 3"],
+        "dependencies": ["poly-006b-h2"],
+        "title": "Final Answer",
+        "text": "Quotient: $2x^2 + 5x - 3$\nRemainder: $0$\n\nSince the remainder is 0, $(x - 1)$ is a factor of $2x^3 + 3x^2 - 8x + 3$.\n\nWe can write: $2x^3 + 3x^2 - 8x + 3 = (x - 1)(2x^2 + 5x - 3)$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

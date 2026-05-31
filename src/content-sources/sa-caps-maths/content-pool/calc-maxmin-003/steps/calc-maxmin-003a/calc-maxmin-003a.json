@@ -1,0 +1,10 @@
+{
+    "id": "calc-maxmin-003a",
+    "stepAnswer": ["V=x(24-2x)(16-2x)", "V = x(24-2x)(16-2x)", "V=4x^3-80x^2+384x"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Express Volume in Terms of x",
+    "stepBody": "After cutting squares of side $x$ cm from each corner:\n- Length of box = $24 - 2x$\n- Width of box = $16 - 2x$\n- Height of box = $x$\n\nWrite the volume formula $V$ in terms of $x$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["optimization", "algebraic-modeling"]
+}

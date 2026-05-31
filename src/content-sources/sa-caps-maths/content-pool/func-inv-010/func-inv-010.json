@@ -1,0 +1,10 @@
+{
+    "id": "func-inv-010",
+    "title": "Finding the Inverse of a Linear Function",
+    "body": "Given the function $f(x) = 3x - 6$:\n\n(a) Determine $f^{-1}(x)$, the inverse of $f$.\n\n(b) Find the value of $f^{-1}(9)$.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Functions Chapter 3.2",
+    "license": "CC BY 4.0 - Creative Commons Attribution",
+    "lesson": "3.2 Inverse Functions",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

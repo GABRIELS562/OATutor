@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-stoich-005a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Molar Mass",
+        "text": "M(NaOH) = Na + O + H = 23 + 16 + 1 = 40 g/mol",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-005a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply Formula",
+        "text": "n = m/M = 4.0 g / 40 g/mol",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-005a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate",
+        "text": "n = 0.1 mol NaOH",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

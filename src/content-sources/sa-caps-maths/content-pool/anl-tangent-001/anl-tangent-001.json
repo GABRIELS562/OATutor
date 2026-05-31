@@ -1,0 +1,17 @@
+{
+  "id": "anl-tangent-001",
+  "title": "Tangent to Circle",
+  "body": "Find the equation of the tangent to the circle x² + y² = 25 at the point (3, 4).",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "anl-tangent-circle"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

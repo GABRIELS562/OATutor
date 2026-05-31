@@ -1,0 +1,10 @@
+{
+    "id": "calc-area-002",
+    "title": "Integration: Area Between Two Curves",
+    "body": "Find the area enclosed between the curves $f(x) = 6 - x^2$ and $g(x) = x$.\\n\\na) Find the points of intersection.\\nb) Calculate the enclosed area.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Integral Calculus - Area",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

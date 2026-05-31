@@ -1,0 +1,16 @@
+{
+    "id": "trig-gensol-001b",
+    "stepAnswer": ["x = 30 + 360n or x = 150 + 360n"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 2: Write the General Solution",
+    "stepBody": "Since sin x is positive, x is in quadrant 1 or quadrant 2.\n\nUsing the general solution formula for sine:\n- Quadrant 1: x = reference angle + 360°n\n- Quadrant 2: x = 180° - reference angle + 360°n\n\nSelect the correct general solution (where n is any integer).",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-general-solution"],
+    "choices": [
+        "x = 30 + 360n or x = 150 + 360n",
+        "x = 30 + 180n",
+        "x = 30 + 360n or x = 210 + 360n",
+        "x = 30 + 360n"
+    ]
+}

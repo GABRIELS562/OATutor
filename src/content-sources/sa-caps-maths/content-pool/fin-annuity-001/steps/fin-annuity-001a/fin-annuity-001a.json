@@ -1,0 +1,10 @@
+{
+    "id": "fin-annuity-001a",
+    "stepAnswer": ["x=2500, i=0.007, n=60", "x = 2500, i = 0.007, n = 60", "2500; 0.007; 60"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Identify the Variables",
+    "stepBody": "For the future value annuity formula $F = x \\cdot \\frac{(1+i)^n - 1}{i}$:\n\n- $x$ = regular payment amount\n- $i$ = interest rate per period\n- $n$ = number of payments\n\nIdentify the values of $x$, $i$, and $n$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["annuities", "future-value", "formula-identification"]
+}

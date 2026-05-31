@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-newton-001a-h1",
+    "type": "hint",
+    "title": "Newton's Laws Review",
+    "text": "Newton's Second Law describes the relationship between force, mass, and acceleration.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "phys-newton-001a-h2",
+    "type": "hint",
+    "title": "The Formula",
+    "text": "The formula is written as F = ma, where F is force in Newtons, m is mass in kg, and a is acceleration in m/s².",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "id": "evol-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "no gene flow, different mutations, different selection pressures",
+    "genetic drift, mutation, and natural selection acted differently",
+    "isolated populations evolved independently"
+  ],
+  "stepExplanation": "Separated populations evolved independently because: (1) **No gene flow** - no exchange of alleles between populations, (2) **Different mutations** - random mutations occurred independently, (3) **Different selection pressures** - different environments on each rim selected for different traits, (4) **Genetic drift** - random changes in allele frequencies in each population.",
+  "stepTitle": "Explain the Divergence Process",
+  "stepBody": "What processes caused the separated populations to become genetically different over millions of years?"
+}

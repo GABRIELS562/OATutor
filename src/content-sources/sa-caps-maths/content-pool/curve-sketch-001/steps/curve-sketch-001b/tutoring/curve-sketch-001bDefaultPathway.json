@@ -1,0 +1,35 @@
+[
+    {
+        "id": "curve-sketch-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Second Derivative",
+        "text": "$f'(x) = 3x^2 - 12x + 9$\n\n$f''(x) = 6x - 12$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "curve-sketch-001b-h2",
+        "type": "hint",
+        "dependencies": ["curve-sketch-001b-h1"],
+        "title": "Classify Using Second Derivative Test",
+        "text": "At $x = 1$: $f''(1) = 6(1) - 12 = -6 < 0$ (concave down, so LOCAL MAXIMUM)\n\nAt $x = 3$: $f''(3) = 6(3) - 12 = 6 > 0$ (concave up, so LOCAL MINIMUM)\n\nY-coordinates:\n$f(1) = 1 - 6 + 9 + 2 = 6$\n$f(3) = 27 - 54 + 27 + 2 = 2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "curve-sketch-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(1, 6) is a local maximum; (3, 2) is a local minimum"],
+        "dependencies": ["curve-sketch-001b-h2"],
+        "title": "Complete Answer",
+        "text": "Local maximum at $(1, 6)$\nLocal minimum at $(3, 2)$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

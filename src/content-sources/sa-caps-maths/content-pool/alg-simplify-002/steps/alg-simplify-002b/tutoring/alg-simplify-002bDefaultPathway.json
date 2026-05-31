@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-simplify-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understanding Negative Exponents",
+        "text": "A negative exponent means the reciprocal:\n\n$$a^{-n} = \\frac{1}{a^n}$$\n\nSo $a^{-5} = \\frac{1}{a^5}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-simplify-002b-h2",
+        "type": "hint",
+        "dependencies": ["alg-simplify-002b-h1"],
+        "title": "Move Terms with Negative Exponents",
+        "text": "Move $a^{-5}$ to the denominator to make it positive:\n\n$$2a^{-5}b^4 = \\frac{2b^4}{a^5}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-simplify-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["2b^4/a^5"],
+        "dependencies": ["alg-simplify-002b-h2"],
+        "title": "Final Answer",
+        "text": "The final answer with positive exponents is:\n\n$$\\frac{2b^4}{a^5}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

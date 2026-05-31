@@ -1,0 +1,16 @@
+{
+  "id": "phys-wave-010b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "286",
+    "286 m/s",
+    "285.78"
+  ],
+  "stepExplanation": "Using the wave equation v = f times wavelength: v = 660 Hz times 0.433 m = 285.78 m/s, which rounds to 286 m/s.",
+  "stepTitle": "Calculate Wave Speed",
+  "stepBody": "Now use the wave equation v = f times wavelength to calculate the speed of waves on the string. Give your answer in m/s."
+}

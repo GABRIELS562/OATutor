@@ -1,0 +1,10 @@
+{
+    "id": "fin-comp-001a",
+    "stepAnswer": ["i=0.02375, n=24", "i = 0.02375 and n = 24", "i=0,02375; n=24"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Identify the Values",
+    "stepBody": "For compound interest: $A = P(1 + i)^n$\n\nWhere:\n- $P$ = principal amount\n- $i$ = interest rate per period\n- $n$ = number of periods\n\nGiven: 9.5% per annum compounded quarterly for 6 years.\n\nWhat are the values of $i$ (rate per quarter) and $n$ (total number of quarters)?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["compound-interest", "formula-identification"]
+}

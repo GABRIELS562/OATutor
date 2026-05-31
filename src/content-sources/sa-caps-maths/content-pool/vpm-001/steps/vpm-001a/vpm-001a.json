@@ -1,0 +1,16 @@
+{
+  "id": "vpm-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "v² = u² + 2as",
+    "v²=u²+2as",
+    "vf² = vi² + 2as"
+  ],
+  "stepExplanation": "At maximum height, the ball momentarily stops, so final velocity v = 0. We know initial velocity u, acceleration a (gravity), and need displacement s. The equation $$v^2 = u^2 + 2as$$ relates these quantities without requiring time.",
+  "stepTitle": "Identify the Equation",
+  "stepBody": "At maximum height, the ball's velocity is zero. Which equation of motion can we use to find height without knowing time?"
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-deriv-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Converting to Negative Exponents",
+        "text": "Remember these conversions:\n\n- $\\frac{1}{x^n} = x^{-n}$\n- $\\sqrt{x} = x^{\\frac{1}{2}}$\n- $\\frac{1}{\\sqrt{x}} = x^{-\\frac{1}{2}}$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-deriv-002a-h2",
+        "type": "hint",
+        "dependencies": ["calc-deriv-002a-h1"],
+        "title": "Convert Each Term",
+        "text": "Convert term by term:\n\n- $\\frac{3}{x^2} = 3x^{-2}$\n- $\\frac{4}{\\sqrt{x}} = \\frac{4}{x^{1/2}} = 4x^{-1/2}$\n- $2x$ stays as $2x$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-deriv-002a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["y=3x^(-2)-4x^(-1/2)+2x"],
+        "dependencies": ["calc-deriv-002a-h2"],
+        "title": "Rewritten Form",
+        "text": "The rewritten function is:\n\n$y = 3x^{-2} - 4x^{-1/2} + 2x$\n\nNow you can apply the power rule to each term.",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

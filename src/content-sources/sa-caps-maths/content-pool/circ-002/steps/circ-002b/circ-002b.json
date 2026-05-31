@@ -1,0 +1,17 @@
+{
+  "id": "circ-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "2 A, 11 V",
+    "2, 11",
+    "I = 2 A, V = 11 V",
+    "2 A and 11 V"
+  ],
+  "stepExplanation": "Finding current:\n$$I = \\frac{\\varepsilon}{R + r} = \\frac{12}{5.5 + 0.5} = \\frac{12}{6} = 2 \\text{ A}$$\n\nFinding terminal voltage:\n$$V = IR = (2)(5.5) = 11 \\text{ V}$$\n\nAlternatively: V = ε - Ir = 12 - (2)(0.5) = 12 - 1 = 11 V",
+  "stepTitle": "Calculate Current and Terminal Voltage",
+  "stepBody": "Use ε = I(R + r) to find current, then V = IR for terminal voltage. Give current in A and voltage in V."
+}

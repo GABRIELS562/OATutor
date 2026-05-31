@@ -1,0 +1,12 @@
+{
+  "id": "g11-func-003a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": ["x = 2", "2"],
+  "stepExplanation": "The vertical asymptote occurs where the denominator equals zero. For g(x) = 3/(x - 2) + 1, set x - 2 = 0, giving x = 2.",
+  "stepTitle": "Find the vertical asymptote",
+  "stepBody": "For the hyperbola g(x) = 3/(x - 2) + 1, find the value of x where the function is undefined. What is the equation of the vertical asymptote?"
+}

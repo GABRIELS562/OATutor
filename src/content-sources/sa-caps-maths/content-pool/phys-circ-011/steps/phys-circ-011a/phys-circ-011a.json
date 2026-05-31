@@ -1,0 +1,16 @@
+{
+  "id": "phys-circ-011a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "10",
+    "10 ohm",
+    "10 ohms"
+  ],
+  "stepExplanation": "First, find parallel combination: 1/Rp = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2, so Rp = 2 ohm. Then total resistance: Rtotal = Rp + R3 = 2 + 8 = 10 ohm.",
+  "stepTitle": "Calculate Total Resistance",
+  "stepBody": "First calculate the equivalent resistance of R1 and R2 in parallel using 1/Rp = 1/R1 + 1/R2, then add R3 in series. What is the total resistance?"
+}

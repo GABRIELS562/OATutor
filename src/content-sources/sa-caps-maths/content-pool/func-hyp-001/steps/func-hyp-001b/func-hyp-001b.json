@@ -1,0 +1,10 @@
+{
+    "id": "func-hyp-001b",
+    "stepAnswer": ["(-1, 0) and (0, -0.5)", "x=-1, y=-0.5", "x=-1 and y=-1/2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the Intercepts",
+    "stepBody": "Find the x-intercept (set $y = 0$) and y-intercept (set $x = 0$) for $f(x) = \\frac{3}{x-2} + 1$.\\n\\nWrite coordinates or values: x=? and y=?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["hyperbola", "intercepts"]
+}

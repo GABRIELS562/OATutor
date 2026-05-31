@@ -1,0 +1,17 @@
+{
+  "id": "bio-repro-015a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "inhibits",
+    "decreases",
+    "reduces",
+    "suppresses"
+  ],
+  "stepExplanation": "High progesterone (and oestrogen) levels inhibit the release of GnRH from the hypothalamus, and FSH and LH from the pituitary. This is negative feedback - the products of the pathway inhibit the pathway itself.",
+  "stepTitle": "Effect on Pituitary Hormones",
+  "stepBody": "How do high levels of progesterone affect FSH and LH release from the pituitary gland? (inhibits/stimulates)"
+}

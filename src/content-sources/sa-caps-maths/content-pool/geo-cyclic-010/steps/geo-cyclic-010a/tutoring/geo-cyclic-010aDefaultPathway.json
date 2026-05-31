@@ -1,0 +1,22 @@
+[
+    {
+        "id": "geo-cyclic-010a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Angles on Same Arc",
+        "text": "**Theorem:** Angles subtended by the same arc (or chord) at the circumference are equal.\n\nBoth angles QPR and PSR are inscribed angles that intercept the same arc QR.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "geo-cyclic-010a-h2",
+        "type": "hint",
+        "dependencies": ["geo-cyclic-010a-h1"],
+        "title": "Apply the Theorem",
+        "text": "Since both angles are subtended by arc QR:\n\n$$\\angle PSR = \\angle QPR = 35°$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    }
+]

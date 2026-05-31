@@ -1,0 +1,15 @@
+{
+  "id": "phys-motion-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "50",
+    "50 m"
+  ],
+  "stepExplanation": "Using v² = u² + 2as, where v = 0, u = 20 m/s, a = -4 m/s² (negative because decelerating):\n$$0 = (20)^2 + 2(-4)s$$\n$$0 = 400 - 8s$$\n$$8s = 400$$\n$$s = 50 \\text{ m}$$",
+  "stepTitle": "Calculate the Displacement",
+  "stepBody": "Using v² = u² + 2as, calculate the displacement. Given: u = 20 m/s, v = 0 m/s (comes to rest), a = -4 m/s². Give your answer in metres."
+}

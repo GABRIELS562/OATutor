@@ -1,0 +1,10 @@
+{
+    "id": "curve-sketch-001a",
+    "stepAnswer": ["x=1 and x=3", "x=1, x=3", "1 and 3", "1, 3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the x-values of Stationary Points",
+    "stepBody": "To find stationary points, set $f'(x) = 0$ and solve.\n\nFirst, find $f'(x)$ for $f(x) = x^3 - 6x^2 + 9x + 2$, then solve $f'(x) = 0$.\n\nWhat are the x-values of the stationary points?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["stationary-points", "differentiation"]
+}

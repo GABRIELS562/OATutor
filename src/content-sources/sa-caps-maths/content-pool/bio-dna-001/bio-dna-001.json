@@ -1,0 +1,13 @@
+{
+  "id": "bio-dna-001",
+  "title": "DNA Structure - Base Pairing",
+  "body": "A strand of DNA has the following sequence: 5'-ATGCCTAA-3'. What is the complementary strand sequence (written 3' to 5')?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-dna-structure"],
+      "difficultyCodes": ["easy"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "trig-2d3d-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "22",
+    "22 m",
+    "21.95"
+  ],
+  "stepExplanation": "Total = 50 × tan 52° ≈ 64 m. Flagpole = 64 - 42 = 22 m",
+  "stepTitle": "Flagpole Height",
+  "stepBody": "Total height = 50 × tan 52° ≈ 64 m. Flagpole height = Total - Building."
+}

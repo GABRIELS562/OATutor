@@ -1,0 +1,32 @@
+[
+    {
+        "id": "circ-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Parallel First",
+        "text": "Calculate the 6 Ω || 12 Ω combination: Rp = (6×12)/(6+12) = 72/18 = 4 Ω. Notice this is less than both 6 Ω and 12 Ω.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "circ-001b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Then Series",
+        "text": "Now add the parallel result to the 4 Ω in series: R_total = 4 Ω + 4 Ω = 8 Ω.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "circ-001b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Check Your Answer",
+        "text": "The total resistance (8 Ω) should be greater than the parallel combination alone (4 Ω) since series resistors add. It should be less than all three in series (22 Ω).",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

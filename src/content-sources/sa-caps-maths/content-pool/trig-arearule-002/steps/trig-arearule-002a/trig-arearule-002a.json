@@ -1,0 +1,10 @@
+{
+    "id": "trig-arearule-002a",
+    "stepAnswer": ["0.8"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find sin Q",
+    "stepBody": "Rearrange the Area Rule: Area = ½pr·sin(Q)\n\nSubstitute the known values and solve for sin(Q).\n\nWhat is the value of sin(Q)?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-area"]
+}

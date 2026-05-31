@@ -1,0 +1,16 @@
+{
+  "id": "chem-org-010a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "5",
+    "five",
+    "Five"
+  ],
+  "stepExplanation": "The longest carbon chain containing the double bond has 5 carbons. This gives the root name 'pent-'.",
+  "stepTitle": "Count the Carbon Chain",
+  "stepBody": "Count the longest continuous carbon chain that includes the double bond. How many carbon atoms are in this chain?"
+}

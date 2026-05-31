@@ -1,0 +1,16 @@
+{
+  "id": "phys-emf-010b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "15",
+    "15 V",
+    "15V"
+  ],
+  "stepExplanation": "Using Faraday's Law: EMF = -N * (change in flux / change in time) = -200 * (-0.015 / 0.2) = -200 * (-0.075) = 15 V. The magnitude of induced EMF is 15 V.",
+  "stepTitle": "Induced EMF",
+  "stepBody": "Apply Faraday's Law: EMF = -N * (change in flux / change in time), where N = 200 turns, change in flux = -0.015 Wb, and time = 0.2 s. What is the magnitude of the induced EMF?"
+}

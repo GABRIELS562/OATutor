@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-acid-012b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Use the Relationship",
+        "text": "pH + pOH = 14, therefore pH = 14 - pOH",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-012b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute Values",
+        "text": "pH = 14 - 2.30 = 11.70",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-012b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Verify the Result",
+        "text": "pH = 11.70 is greater than 7, confirming this is a basic (alkaline) solution. This makes sense because the solution contains hydroxide ions.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

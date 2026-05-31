@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-circ-010a-h1",
+    "type": "hint",
+    "title": "Understanding Terminal Potential Difference",
+    "text": "The terminal potential difference (V) is the voltage available to the external circuit. It equals the EMF minus the voltage lost across the internal resistance. Use the formula: V = EMF - Ir",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-circ-010a-h2",
+    "type": "hint",
+    "title": "Substitute the Values",
+    "text": "Substitute: V = 24 V - (4 A)(0.5 ohm) = 24 V - 2 V = 22 V",
+    "variabilization": {},
+    "dependencies": ["phys-circ-010a-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

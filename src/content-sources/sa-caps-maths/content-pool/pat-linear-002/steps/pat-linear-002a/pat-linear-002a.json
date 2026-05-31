@@ -1,0 +1,10 @@
+{
+    "id": "pat-linear-002a",
+    "stepAnswer": ["5n-9", "5n - 9", "-9+5n"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the General Term",
+    "stepBody": "First find the common difference and write the general term $T_n$.\n\nRemember: $T_n = a + (n-1)d$ where $a$ is the first term.\n\nEnter as: 5n-9",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["arithmetic-sequence", "linear-equations"]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "poly-008",
+    "title": "Solving a Cubic Equation",
+    "body": "Solve for $x$ if:\n\n$$x^3 - 7x + 6 = 0$$",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Polynomials Chapter 7.3",
+    "license": "CC-BY - Siyavula Education",
+    "lesson": "Solving Cubic Equations",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

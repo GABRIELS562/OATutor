@@ -1,0 +1,17 @@
+{
+  "id": "wep-003b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "6000",
+    "6000 W",
+    "6 kW",
+    "6000 watts"
+  ],
+  "stepExplanation": "Work done against gravity:\n$$W = mgh = (500)(10)(30) = 150000 \\text{ J}$$\n\nPower:\n$$P = \\frac{W}{t} = \\frac{150000}{25} = 6000 \\text{ W} = 6 \\text{ kW}$$",
+  "stepTitle": "Calculate Power",
+  "stepBody": "Calculate the work done in lifting the load (W = mgh), then find the power (P = W/t). Give your answer in watts."
+}

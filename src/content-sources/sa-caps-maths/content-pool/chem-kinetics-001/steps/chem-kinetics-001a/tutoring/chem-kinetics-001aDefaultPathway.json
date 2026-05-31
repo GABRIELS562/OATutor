@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-kinetics-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Getting Started",
+        "text": "Identify the key information given in the problem. What are you asked to find?",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-kinetics-001a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply Your Knowledge",
+        "text": "Use the relevant formula or concept you have learned. Set up the calculation systematically.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-kinetics-001a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Check Your Work",
+        "text": "Make sure your answer has the correct units and is reasonable for the context.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

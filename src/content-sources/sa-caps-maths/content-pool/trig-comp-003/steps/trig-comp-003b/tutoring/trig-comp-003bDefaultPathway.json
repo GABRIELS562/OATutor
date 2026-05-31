@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-comp-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate First Term",
+        "text": "$$\\sin A \\cos B = \\frac{3}{5} \\cdot \\frac{12}{13} = \\frac{36}{65}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-comp-003b-h2",
+        "type": "hint",
+        "dependencies": ["trig-comp-003b-h1"],
+        "title": "Calculate Second Term",
+        "text": "$$\\cos A \\sin B = \\frac{4}{5} \\cdot \\frac{5}{13} = \\frac{20}{65}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-comp-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["56/65"],
+        "dependencies": ["trig-comp-003b-h2"],
+        "title": "Add the Terms",
+        "text": "$$\\sin(A + B) = \\frac{36}{65} + \\frac{20}{65} = \\frac{56}{65}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

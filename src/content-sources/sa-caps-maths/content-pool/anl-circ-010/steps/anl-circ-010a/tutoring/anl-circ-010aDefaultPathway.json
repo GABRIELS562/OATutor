@@ -1,0 +1,35 @@
+[
+    {
+        "id": "anl-circ-010a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Completing the Square Method",
+        "text": "To complete the square for $$x^2 - 6x$$:\n1. Take half the coefficient of x: $$\\frac{-6}{2} = -3$$\n2. Square it: $$(-3)^2 = 9$$\n3. Add and subtract 9\n\n$$x^2 - 6x + 9 = (x-3)^2$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "anl-circ-010a-h2",
+        "type": "hint",
+        "dependencies": ["anl-circ-010a-h1"],
+        "title": "Complete Square for y",
+        "text": "To complete the square for $$y^2 + 4y$$:\n1. Take half the coefficient of y: $$\\frac{4}{2} = 2$$\n2. Square it: $$2^2 = 4$$\n3. Add and subtract 4\n\n$$y^2 + 4y + 4 = (y+2)^2$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "anl-circ-010a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["25"],
+        "dependencies": ["anl-circ-010a-h2"],
+        "title": "Calculate r squared",
+        "text": "Rearranging:\n$$x^2 - 6x + 9 + y^2 + 4y + 4 = 12 + 9 + 4$$\n$$(x-3)^2 + (y+2)^2 = ?$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    }
+]

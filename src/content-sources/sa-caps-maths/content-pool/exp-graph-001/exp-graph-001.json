@@ -1,0 +1,10 @@
+{
+    "id": "exp-graph-001",
+    "title": "Finding the Equation of an Exponential Graph",
+    "body": "An exponential function of the form $y = a \\cdot b^x + q$ has a horizontal asymptote at $y = -2$ and passes through the points $(0, 1)$ and $(1, 7)$.\n\nDetermine the equation of the exponential function.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 11)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Functions and Graphs - Exponential Functions",
+    "courseName": "CAPS Grade 11 Mathematics"
+}

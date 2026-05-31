@@ -1,0 +1,10 @@
+{
+    "id": "seq-geom-001a",
+    "stepAnswer": ["3", "r=3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Common Ratio",
+    "stepBody": "A geometric sequence has a constant ratio between consecutive terms.\n\nLook at the sequence: $2; 6; 18; 54; ...$\n\nFind the common ratio $r$ by dividing any term by the previous term:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["geometric-sequence"]
+}

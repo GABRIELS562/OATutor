@@ -1,0 +1,25 @@
+[
+    {
+        "id": "diff-rules-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Chain Rule Steps",
+        "text": "The chain rule says: differentiate the outer function, keep the inner function, then multiply by the derivative of the inner function.\n\n1. Outer derivative: $4[g(x)]^3$\n2. Keep inner: $(3x^2 - 5x + 2)^3$\n3. Multiply by inner derivative: $(6x - 5)$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "diff-rules-003b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["4(3x^2 - 5x + 2)^3(6x - 5)"],
+        "dependencies": ["diff-rules-003b-h1"],
+        "title": "Complete Answer",
+        "text": "$h'(x) = 4(3x^2 - 5x + 2)^3 \\cdot (6x - 5)$\n\nThis can also be written as:\n$h'(x) = (24x - 20)(3x^2 - 5x + 2)^3$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

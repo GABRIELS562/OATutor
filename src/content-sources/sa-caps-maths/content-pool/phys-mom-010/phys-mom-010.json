@@ -1,0 +1,19 @@
+{
+  "id": "phys-mom-010",
+  "title": "Impulse and Change in Momentum",
+  "body": "A hockey player hits a stationary ball of mass 150 g with a force that acts for 0.02 s. The ball leaves the hockey stick at a velocity of 20 m/s. Calculate: (a) the impulse delivered to the ball, and (b) the average force exerted by the hockey stick on the ball.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-momentum"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "Siyavula Physical Sciences Grade 12 - Momentum and Impulse",
+  "license": "CC BY 4.0",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

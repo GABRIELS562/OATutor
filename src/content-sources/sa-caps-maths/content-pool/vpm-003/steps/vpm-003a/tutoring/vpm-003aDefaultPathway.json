@@ -1,0 +1,32 @@
+[
+    {
+        "id": "vpm-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Direction Convention",
+        "text": "Take downward as positive (since all motion is downward). Then u = +5 m/s, a = +10 m/s², and s = +80 m.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "vpm-003a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "What We Know",
+        "text": "We have: initial velocity (u = 5 m/s), displacement (s = 80 m), acceleration (a = 10 m/s²). We need final velocity (v).",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "vpm-003a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Selecting the Formula",
+        "text": "The equation v² = u² + 2as contains v, u, a, and s - exactly what we need. No time is involved.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

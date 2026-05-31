@@ -1,0 +1,10 @@
+{
+    "id": "diff-rules-002",
+    "title": "Differentiation with Negative and Fractional Exponents",
+    "body": "Differentiate the following function:\n\n$$g(x) = \\frac{6}{x^2} - \\frac{4}{\\sqrt{x}} + 3x$$\n\nHint: First rewrite using negative and fractional exponents.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Differential Calculus - Rules of Differentiation",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

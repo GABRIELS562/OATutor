@@ -1,0 +1,10 @@
+{
+    "id": "pat-linear-001a",
+    "stepAnswer": ["3n+2", "3n + 2", "2+3n"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the General Term",
+    "stepBody": "For a linear sequence, $T_n = a + (n-1)d$ or $T_n = dn + c$\n\nwhere $a$ is the first term and $d$ is the common difference.\n\nFirst find the common difference, then write the general term.\n\nEnter as: 3n+2",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["arithmetic-sequence", "linear-equations"]
+}

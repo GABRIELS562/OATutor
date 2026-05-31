@@ -1,0 +1,10 @@
+{
+    "id": "fin-annuity-002b",
+    "stepAnswer": ["R8847.67", "8847.67", "R8 847.67", "8847,67"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate the Monthly Payment",
+    "stepBody": "Using $x = \\frac{Pi}{1 - (1+i)^{-n}}$ with:\n- $P = 850000$\n- $i = \\frac{0.1125}{12} = 0.009375$ (monthly rate)\n- $n = 20 \\times 12 = 240$ (months)\n\nCalculate the monthly payment (round to the nearest cent):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["annuities", "present-value", "loan-repayment"]
+}

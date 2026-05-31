@@ -1,0 +1,10 @@
+{
+    "id": "calc-deriv-003",
+    "title": "Differentiation from First Principles",
+    "body": "Use the definition of the derivative (first principles) to find $f'(x)$ if:\n\n$$f(x) = 2x^2 + 3x$$\n\nRecall: $f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$",
+    "variabilization": {},
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Differential Calculus - First Principles",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

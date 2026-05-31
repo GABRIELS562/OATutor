@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-acid-013a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Moles of Acid",
+        "text": "n(H2SO4) = 0.15 x 0.050 = 0.0075 mol (convert 50 cm^3 to 0.050 dm^3)",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-013a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify the Mole Ratio",
+        "text": "From H2SO4 + 2KOH -> K2SO4 + 2H2O, the mole ratio H2SO4:KOH = 1:2",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-013a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Moles of KOH",
+        "text": "n(KOH) = 2 x n(H2SO4) = 2 x 0.0075 = 0.015 mol",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

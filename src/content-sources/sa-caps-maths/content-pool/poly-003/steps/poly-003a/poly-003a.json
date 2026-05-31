@@ -1,0 +1,10 @@
+{
+    "id": "poly-003a",
+    "stepAnswer": ["(x - 2)", "x - 2", "(x-2)", "x-2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find One Factor Using Factor Theorem",
+    "stepBody": "Test integer factors of the constant term (-6).\n\nPossible values to test: $\\pm 1, \\pm 2, \\pm 3, \\pm 6$\n\nCalculate $f(1), f(-1), f(2), f(-2)$, etc. until you find $f(a) = 0$.\n\nWhich linear factor $(x - a)$ is a factor of $f(x)$?\n\n(Write your answer in the form $(x - a)$ or $(x + a)$)",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factor-theorem", "factorisation", "polynomial-factors"]
+}

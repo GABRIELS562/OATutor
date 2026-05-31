@@ -1,0 +1,17 @@
+{
+  "id": "stats-mean-001",
+  "title": "Mean from Frequency Table",
+  "body": "Calculate the mean of: Score 1 (freq 3), Score 2 (freq 5), Score 3 (freq 2).",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "stats-regression-line"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

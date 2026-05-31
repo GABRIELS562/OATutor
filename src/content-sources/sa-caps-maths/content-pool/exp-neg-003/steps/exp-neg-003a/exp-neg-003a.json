@@ -1,0 +1,10 @@
+{
+    "id": "exp-neg-003a",
+    "stepAnswer": ["x^2", "x^(2)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Simplify the x Terms",
+    "stepBody": "First, simplify $\\frac{x^{-2}}{x^{-4}}$ using the division law: $\\frac{a^m}{a^n} = a^{m-n}$\n\nWhat is the simplified form of the x terms?\n\nEnter as: x^2",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["exponent-laws", "simplification"]
+}

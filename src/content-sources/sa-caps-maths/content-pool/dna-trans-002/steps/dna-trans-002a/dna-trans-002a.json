@@ -1,0 +1,15 @@
+{
+  "id": "dna-trans-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "AUG, GCU, UAC, UGA",
+    "AUG GCU UAC UGA"
+  ],
+  "stepExplanation": "Reading the mRNA in the 5' to 3' direction, we divide it into triplets: AUG-GCU-UAC-UGA. Each triplet (codon) codes for one amino acid or a stop signal.",
+  "stepTitle": "Identify the Codons",
+  "stepBody": "Divide the mRNA sequence into codons (triplets of three bases), reading from 5' to 3'. What are the four codons?"
+}

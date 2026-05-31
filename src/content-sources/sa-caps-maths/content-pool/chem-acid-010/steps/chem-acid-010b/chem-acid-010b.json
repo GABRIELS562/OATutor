@@ -1,0 +1,15 @@
+{
+  "id": "chem-acid-010b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "3.60",
+    "3.6"
+  ],
+  "stepExplanation": "pH = -log[H+] = -(-3.60) = 3.60. The solution is acidic (pH < 7).",
+  "stepTitle": "Calculate pH",
+  "stepBody": "Apply the pH formula: pH = -log[H+]. What is the pH of this solution?"
+}

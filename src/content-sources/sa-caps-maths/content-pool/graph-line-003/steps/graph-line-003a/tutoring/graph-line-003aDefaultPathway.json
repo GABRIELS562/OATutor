@@ -1,0 +1,35 @@
+[
+    {
+        "id": "graph-line-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify the Given Gradient",
+        "text": "From $y = \\frac{1}{2}x + 4$, the gradient is $m_1 = \\frac{1}{2}$.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "graph-line-003a-h2",
+        "type": "hint",
+        "dependencies": ["graph-line-003a-h1"],
+        "title": "Apply the Perpendicular Condition",
+        "text": "For perpendicular lines: $m_1 \\times m_2 = -1$\n\n$\\frac{1}{2} \\times m_2 = -1$\n\n$m_2 = \\frac{-1}{\\frac{1}{2}}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "graph-line-003a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["-2"],
+        "dependencies": ["graph-line-003a-h2"],
+        "title": "Calculate the Perpendicular Gradient",
+        "text": "$m_2 = -1 \\div \\frac{1}{2} = -1 \\times 2 = -2$\n\nThe perpendicular gradient is the negative reciprocal of the original gradient.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

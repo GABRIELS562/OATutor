@@ -1,0 +1,16 @@
+{
+  "id": "chem-rate-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "doubles",
+    "increases",
+    "rate doubles"
+  ],
+  "stepExplanation": "Rate approximately doubles when concentration doubles (first-order reaction)",
+  "stepTitle": "Rate Change",
+  "stepBody": "What happens to the reaction rate when concentration doubles?"
+}

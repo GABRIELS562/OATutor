@@ -1,0 +1,10 @@
+{
+    "id": "seq-geom-001b",
+    "stepAnswer": ["4374", "T8=4374"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the 8th Term",
+    "stepBody": "Use the general term formula for geometric sequences:\n$$T_n = ar^{n-1}$$\n\nWith $a = 2$ (first term) and $r = 3$ (common ratio), calculate $T_8$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["geometric-sequence"]
+}

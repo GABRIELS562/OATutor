@@ -1,0 +1,10 @@
+{
+    "id": "calc-diff-012b",
+    "stepAnswer": ["-1/x^2", "-1/(x^2)", "-x^(-2)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Cancel h and Find the Limit",
+    "stepBody": "After cancelling $h$, take the limit as $h \\to 0$.\n\nWhat is $f'(x)$?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["first-principles", "limits", "differentiation"]
+}

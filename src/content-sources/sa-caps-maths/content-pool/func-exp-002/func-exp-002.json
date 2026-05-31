@@ -1,0 +1,10 @@
+{
+    "id": "func-exp-002",
+    "title": "Exponential Growth and Decay",
+    "body": "A radioactive substance decays according to the formula $A(t) = A_0 \\cdot 2^{-t/5}$, where $A(t)$ is the amount remaining after $t$ years and $A_0$ is the initial amount.\\n\\na) What fraction of the substance remains after 10 years?\\nb) After how many years will only 12.5% of the substance remain?",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 11)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Functions - Exponential",
+    "courseName": "CAPS Grade 11 Mathematics"
+}

@@ -1,0 +1,16 @@
+{
+    "id": "trig-arearule-001a",
+    "stepAnswer": ["Area = ½ab·sin(C)"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 1: Identify the Area Formula",
+    "stepBody": "We have two sides and the included angle. Which formula calculates the area?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-area"],
+    "choices": [
+        "Area = ½ab·sin(C)",
+        "Area = ½ × base × height",
+        "Area = a² + b² - 2ab·cos(C)",
+        "Area = ½(a + b + c)"
+    ]
+}

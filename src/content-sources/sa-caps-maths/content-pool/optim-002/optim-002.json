@@ -1,0 +1,10 @@
+{
+    "id": "optim-002",
+    "title": "Optimization: Maximum Profit",
+    "body": "A company manufactures and sells $x$ items per week. The weekly cost function is $C(x) = 500 + 12x$ rands, and the demand function is $p = 60 - 0.02x$ rands per item (where $p$ is the price).\n\nFind the number of items that should be produced weekly to maximise profit.\n\nRecall: Profit = Revenue - Cost, and Revenue = price $\\times$ quantity.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Differential Calculus - Optimization",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

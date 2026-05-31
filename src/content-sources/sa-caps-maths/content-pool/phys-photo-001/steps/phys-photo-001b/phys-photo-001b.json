@@ -1,0 +1,16 @@
+{
+  "id": "phys-photo-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "4.97 x 10^-19",
+    "4.97e-19",
+    "5.0 x 10^-19"
+  ],
+  "stepExplanation": "E = hc/lambda = (6.63 x 10^-34 x 3.0 x 10^8)/(400 x 10^-9) = (19.89 x 10^-26)/(4 x 10^-7) = 4.97 x 10^-19 J",
+  "stepTitle": "Calculate Photon Energy",
+  "stepBody": "Calculate E = hc/lambda using h = 6.63 x 10^-34 J.s, c = 3.0 x 10^8 m/s, and lambda = 400 nm = 400 x 10^-9 m. Give your answer in joules using scientific notation."
+}

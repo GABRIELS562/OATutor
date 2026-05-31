@@ -1,0 +1,10 @@
+{
+    "id": "calc-deriv-004b",
+    "stepAnswer": ["6x^2-6x+8", "6x^2 - 6x + 8"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Differentiate",
+    "stepBody": "Differentiate $f(x) = 2x^3 - 3x^2 + 8x - 12$ using the power rule.\n\nFind $f'(x)$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "power-rule"]
+}

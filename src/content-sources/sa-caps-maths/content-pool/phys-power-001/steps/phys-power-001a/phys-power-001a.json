@@ -1,0 +1,15 @@
+{
+  "id": "phys-power-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "5000",
+    "5000 J"
+  ],
+  "stepExplanation": "W = mgh = 100 × 10 × 5 = 5000 J",
+  "stepTitle": "Calculate Work Done",
+  "stepBody": "Work = mgh. Calculate the work done against gravity."
+}

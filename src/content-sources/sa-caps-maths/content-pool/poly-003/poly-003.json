@@ -1,0 +1,10 @@
+{
+    "id": "poly-003",
+    "title": "Factorising Cubic Polynomials",
+    "body": "Factorise completely:\n\n$$f(x) = x^3 + 2x^2 - 5x - 6$$\n\n(Hint: First use the Factor Theorem to find one factor, then use long division or inspection.)",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Polynomials Chapter 7.3",
+    "license": "CC-BY - Siyavula Education",
+    "lesson": "Factorising Cubic Polynomials",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

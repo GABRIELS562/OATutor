@@ -1,0 +1,16 @@
+{
+    "id": "trig-gensol-003a",
+    "stepAnswer": ["sin x = 1 or sin x = -1/2"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 1: Factorise and Solve for sin x",
+    "stepBody": "The equation 2sin²x - sin x - 1 = 0 is a quadratic in sin x.\n\nLet y = sin x, then: 2y² - y - 1 = 0\n\nFactorise: (2y + 1)(y - 1) = 0\n\nWhat are the solutions for sin x?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-general-solution", "quadratic-equations"],
+    "choices": [
+        "sin x = 1 or sin x = -1/2",
+        "sin x = -1 or sin x = 1/2",
+        "sin x = 1 or sin x = 1/2",
+        "sin x = -1 or sin x = -1/2"
+    ]
+}

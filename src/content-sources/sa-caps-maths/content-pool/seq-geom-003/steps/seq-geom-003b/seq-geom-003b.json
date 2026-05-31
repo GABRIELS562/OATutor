@@ -1,0 +1,10 @@
+{
+    "id": "seq-geom-003b",
+    "stepAnswer": ["27", "S=27"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate Sum to Infinity",
+    "stepBody": "For a convergent geometric series where $|r| < 1$, the sum to infinity is:\n$$S_\\infty = \\frac{a}{1 - r}$$\n\nWith $a = 18$ and $r = \\frac{1}{3}$, calculate $S_\\infty$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["geometric-sequence", "series-sum"]
+}

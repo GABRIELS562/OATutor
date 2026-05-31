@@ -1,0 +1,18 @@
+{
+  "id": "elec-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "450000",
+    "4.5 × 10⁵",
+    "4.5×10⁵",
+    "450000 N/C",
+    "4.5 × 10⁵ N/C"
+  ],
+  "stepExplanation": "Converting units:\n- Q = 8 μC = 8 × 10⁻⁶ C\n- r = 40 cm = 0.40 m\n\nCalculating electric field:\n$$E = \\frac{kQ}{r^2} = \\frac{(9 \\times 10^9)(8 \\times 10^{-6})}{(0.40)^2}$$\n$$E = \\frac{72000}{0.16} = 450000 \\text{ N/C} = 4.5 \\times 10^5 \\text{ N/C}$$",
+  "stepTitle": "Calculate Electric Field Strength",
+  "stepBody": "Convert units and apply E = kQ/r². Give your answer in N/C."
+}

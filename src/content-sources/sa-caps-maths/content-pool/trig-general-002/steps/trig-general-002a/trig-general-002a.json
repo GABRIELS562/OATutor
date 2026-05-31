@@ -1,0 +1,15 @@
+{
+  "id": "trig-general-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "30",
+    "30°"
+  ],
+  "stepExplanation": "sin 30° = 0.5, so reference angle = 30°",
+  "stepTitle": "Reference Angle",
+  "stepBody": "What is the reference angle where sin θ = 0.5?"
+}

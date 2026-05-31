@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-optimize-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Differentiate the Area",
+        "text": "$A = 200x - 2x^2$\\n\\n$\\frac{dA}{dx} = 200 - 4x$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "calc-optimize-001b-h2",
+        "type": "hint",
+        "dependencies": ["calc-optimize-001b-h1"],
+        "title": "Set Derivative to Zero",
+        "text": "For maximum/minimum, set $\\frac{dA}{dx} = 0$:\\n\\n$200 - 4x = 0$\\n$4x = 200$\\n$x = 50$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "calc-optimize-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["50"],
+        "dependencies": ["calc-optimize-001b-h2"],
+        "title": "Verify Maximum",
+        "text": "$x = 50$ metres\\n\\nVerify: $\\frac{d^2A}{dx^2} = -4 < 0$ (concave down, so maximum)\\n\\nDimensions: $50m \\times 100m$\\nMaximum area: $5000 m^2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

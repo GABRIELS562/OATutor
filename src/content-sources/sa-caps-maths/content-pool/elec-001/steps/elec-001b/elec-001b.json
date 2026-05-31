@@ -1,0 +1,17 @@
+{
+  "id": "elec-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "2.4",
+    "2.4 N",
+    "2.40",
+    "2.40 N"
+  ],
+  "stepExplanation": "Converting units:\n- Q₁ = 4 μC = 4 × 10⁻⁶ C\n- Q₂ = 6 μC = 6 × 10⁻⁶ C (use magnitude)\n- r = 30 cm = 0.30 m\n\nApplying Coulomb's Law:\n$$F = \\frac{kQ_1Q_2}{r^2} = \\frac{(9 \\times 10^9)(4 \\times 10^{-6})(6 \\times 10^{-6})}{(0.30)^2}$$\n$$F = \\frac{(9 \\times 10^9)(24 \\times 10^{-12})}{0.09}$$\n$$F = \\frac{0.216}{0.09} = 2.4 \\text{ N}$$",
+  "stepTitle": "Calculate the Force",
+  "stepBody": "Convert the charges to coulombs and distance to metres, then apply Coulomb's Law. Give your answer in newtons."
+}

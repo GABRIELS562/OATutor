@@ -1,0 +1,22 @@
+[
+  {
+    "id": "chem-ph-001b-h1",
+    "type": "hint",
+    "title": "pH Formula",
+    "text": "pH = -log[H⁺]. Remember that 0.01 = 10⁻².",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "chem-ph-001b-h2",
+    "type": "hint",
+    "title": "Log Calculation",
+    "text": "log(10⁻²) = -2, so pH = -(-2) = 2",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

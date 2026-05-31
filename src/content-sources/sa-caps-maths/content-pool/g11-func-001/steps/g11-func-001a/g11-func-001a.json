@@ -1,0 +1,12 @@
+{
+  "id": "g11-func-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": ["3", "x = 3"],
+  "stepExplanation": "For f(x) = ax^2 + bx + c, the x-coordinate of the turning point is x = -b/(2a). Here a = 1, b = -6, so x = -(-6)/(2(1)) = 6/2 = 3.",
+  "stepTitle": "Find the x-coordinate of the turning point",
+  "stepBody": "For the parabola f(x) = x^2 - 6x + 5, use the formula x = -b/(2a) to find the x-coordinate of the turning point. What is the value of x?"
+}

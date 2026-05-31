@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-maxmin-004b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find When Velocity = 0",
+        "text": "At maximum height, the stone momentarily stops (v = 0):\n\n$v(t) = 40 - 10t = 0$\n\n$10t = 40$\n\n$t = 4$ seconds",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-maxmin-004b-h2",
+        "type": "hint",
+        "dependencies": ["calc-maxmin-004b-h1"],
+        "title": "Calculate Maximum Height",
+        "text": "Substitute $t = 4$ into the height formula:\n\n$h(4) = 40(4) - 5(4)^2$\n\n$h(4) = 160 - 5(16)$\n\n$h(4) = 160 - 80$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-maxmin-004b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["80"],
+        "dependencies": ["calc-maxmin-004b-h2"],
+        "title": "Maximum Height",
+        "text": "$h(4) = 80$ metres\n\nThe maximum height reached is 80 metres, occurring 4 seconds after the stone is thrown.\n\nNote: We can verify this is a maximum since $\\frac{d^2h}{dt^2} = -10 < 0$.",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

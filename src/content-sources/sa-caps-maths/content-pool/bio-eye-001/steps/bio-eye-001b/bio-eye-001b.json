@@ -1,0 +1,17 @@
+{
+  "id": "bio-eye-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "accommodation",
+    "changes shape",
+    "changes its shape",
+    "becomes thicker or thinner"
+  ],
+  "stepExplanation": "The lens focuses light through a process called **ACCOMMODATION**:\n\n**For NEAR objects:**\n1. Ciliary muscles CONTRACT (become shorter and thicker)\n2. Suspensory ligaments become SLACK/loose\n3. Lens becomes MORE CURVED (thicker/rounder)\n4. Greater refraction of light rays\n\n**For FAR objects:**\n1. Ciliary muscles RELAX (become longer and thinner)\n2. Suspensory ligaments become TAUT/tight\n3. Lens becomes LESS CURVED (flatter/thinner)\n4. Less refraction of light rays\n\nThis adjustment ensures a sharp image forms on the retina regardless of object distance.",
+  "stepTitle": "Function of the Lens",
+  "stepBody": "What is the name of the process by which the lens changes shape to focus on objects at different distances?"
+}

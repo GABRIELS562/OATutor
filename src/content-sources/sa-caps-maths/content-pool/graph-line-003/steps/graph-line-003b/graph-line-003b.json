@@ -1,0 +1,10 @@
+{
+    "id": "graph-line-003b",
+    "stepAnswer": ["y=-2x+11", "y = -2x + 11"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the Equation of the Perpendicular Line",
+    "stepBody": "Using $m = -2$ and the point $(4, 3)$, find $c$ and write the equation.\n\nWhat is the equation of the perpendicular line?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["linear-graph", "intercepts"]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "neuro-001",
+  "title": "Nervous System - Reflex Arc Components",
+  "body": "When you accidentally touch a hot stove, you immediately pull your hand away before consciously feeling pain. Identify the correct sequence of structures involved in this spinal reflex arc.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-reflex-arc"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

@@ -1,0 +1,80 @@
+{
+  "contentSource": "sa-caps-maths",
+  "version": "1.0.0",
+  "description": "South African CAPS Mathematics Paper 2 Content",
+  "lastUpdated": "2025-02-23",
+  "problems": [
+    {
+      "id": "geo-tangent-001",
+      "topic": "Euclidean Geometry",
+      "subTopic": "Tangent Properties",
+      "gradeLevel": 12,
+      "marks": 4,
+      "cognitiveLevel": "Routine Procedures",
+      "source": "NSC 2022 Paper 2"
+    },
+    {
+      "id": "geo-cyclic-001",
+      "topic": "Euclidean Geometry",
+      "subTopic": "Cyclic Quadrilaterals",
+      "gradeLevel": 12,
+      "marks": 4,
+      "cognitiveLevel": "Routine Procedures",
+      "source": "NSC 2023 Paper 2"
+    },
+    {
+      "id": "trig-compound-001",
+      "topic": "Trigonometry",
+      "subTopic": "Compound Angles",
+      "gradeLevel": 12,
+      "marks": 5,
+      "cognitiveLevel": "Complex Procedures",
+      "source": "NSC 2021 Paper 2"
+    },
+    {
+      "id": "trig-general-001",
+      "topic": "Trigonometry",
+      "subTopic": "General Solution",
+      "gradeLevel": 12,
+      "marks": 6,
+      "cognitiveLevel": "Complex Procedures",
+      "source": "NSC 2020 Paper 2"
+    },
+    {
+      "id": "anl-circle-001",
+      "topic": "Analytical Geometry",
+      "subTopic": "Equation of Circle",
+      "gradeLevel": 12,
+      "marks": 5,
+      "cognitiveLevel": "Routine Procedures",
+      "source": "NSC 2022 Paper 2"
+    },
+    {
+      "id": "stats-regression-001",
+      "topic": "Statistics",
+      "subTopic": "Regression Line",
+      "gradeLevel": 12,
+      "marks": 6,
+      "cognitiveLevel": "Complex Procedures",
+      "source": "NSC 2021 Paper 2"
+    }
+  ],
+  "topicCoverage": {
+    "Euclidean Geometry": {
+      "totalProblems": 2,
+      "gradeDistribution": { "10": 0, "11": 0, "12": 2 }
+    },
+    "Trigonometry": {
+      "totalProblems": 2,
+      "gradeDistribution": { "10": 0, "11": 0, "12": 2 }
+    },
+    "Analytical Geometry": {
+      "totalProblems": 1,
+      "gradeDistribution": { "10": 0, "11": 0, "12": 1 }
+    },
+    "Statistics": {
+      "totalProblems": 1,
+      "gradeDistribution": { "10": 0, "11": 0, "12": 1 }
+    }
+  }
+}

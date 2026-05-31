@@ -1,0 +1,32 @@
+[
+    {
+        "id": "bio-eco-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "What are Trophic Levels?",
+        "text": "Trophic levels represent the position an organism occupies in a food chain. Level 1 = Producers (plants), Level 2 = Primary consumers (herbivores), Level 3+ = Secondary/Tertiary consumers (carnivores).",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "bio-eco-001a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify the Producer",
+        "text": "Look for the organism that gets its energy from the sun through photosynthesis. In this food web, grass is the producer (Trophic Level 1).",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "bio-eco-001a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Count the Levels",
+        "text": "Count upward from producers: Grass → Herbivores (grasshopper, mouse, rabbit) → Small carnivores (frog, snake) → Top predators (hawk, owl). How many distinct levels is that?",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

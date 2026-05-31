@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-class-003a-h1",
+    "type": "hint",
+    "title": "The Meaning of Dichotomous",
+    "text": "The word 'dichotomous' literally means 'divided into two parts'. Think of it as a branching path where you always choose between two options.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-class-003a-h2",
+    "type": "hint",
+    "title": "How the Key Works",
+    "text": "At each step, you observe a characteristic and choose which of two descriptions matches your specimen. This leads you to either an identification or another pair of choices until you identify the organism.",
+    "variabilization": {},
+    "dependencies": ["bio-class-003a-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

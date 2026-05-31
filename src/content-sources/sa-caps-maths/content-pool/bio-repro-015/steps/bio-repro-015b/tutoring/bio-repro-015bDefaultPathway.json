@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-repro-015b-h1",
+    "type": "hint",
+    "title": "Corpus Luteum Lifespan",
+    "text": "Without HCG from a pregnancy, the corpus luteum only lasts about 10-14 days. It then degenerates into the corpus albicans, causing progesterone to fall rapidly.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-repro-015b-h2",
+    "type": "hint",
+    "title": "Progesterone and the Uterine Lining",
+    "text": "Progesterone maintains the thick, blood-rich endometrium (uterine lining). When progesterone drops, the blood vessels constrict, the lining breaks down, and it is shed along with blood - this is menstruation.",
+    "variabilization": {},
+    "dependencies": ["bio-repro-015b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

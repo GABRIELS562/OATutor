@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-tangent-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Point-Gradient Form",
+        "text": "Use the point-gradient form: $y - y_1 = m(x - x_1)$\n\nWith $m = 2$ and point $(1, 0)$:\n\n$y - 0 = 2(x - 1)$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-tangent-003b-h2",
+        "type": "hint",
+        "dependencies": ["calc-tangent-003b-h1"],
+        "title": "Expand and Simplify",
+        "text": "$y = 2(x - 1)$\n\n$y = 2x - 2$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-tangent-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["y=2x-2"],
+        "dependencies": ["calc-tangent-003b-h2"],
+        "title": "Final Equation",
+        "text": "The equation of the tangent to the parabola at $(1, 0)$ is:\n\n$y = 2x - 2$\n\nNote: This tangent line touches the parabola at exactly one point.",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

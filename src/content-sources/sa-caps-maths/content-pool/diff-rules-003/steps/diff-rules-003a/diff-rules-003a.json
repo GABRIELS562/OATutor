@@ -1,0 +1,10 @@
+{
+    "id": "diff-rules-003a",
+    "stepAnswer": ["6x-5", "6x - 5"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Identify the Inner Function and Its Derivative",
+    "stepBody": "For $h(x) = (3x^2 - 5x + 2)^4$, identify the inner function $g(x) = 3x^2 - 5x + 2$.\n\nFind $g'(x)$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "chain-rule"]
+}

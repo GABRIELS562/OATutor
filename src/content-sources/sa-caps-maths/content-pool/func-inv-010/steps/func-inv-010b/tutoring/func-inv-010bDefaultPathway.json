@@ -1,0 +1,38 @@
+[
+    {
+        "id": "func-inv-010b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitution",
+        "text": "To find $f^{-1}(9)$, substitute $x = 9$ into the inverse function.\n\n$f^{-1}(9) = \\frac{9+6}{3}$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-inv-010b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": ["15"],
+        "dependencies": ["func-inv-010b-h1"],
+        "title": "Add the Numerator",
+        "text": "What is $9 + 6$?",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-inv-010b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": ["5"],
+        "dependencies": ["func-inv-010b-h2"],
+        "title": "Final Calculation",
+        "text": "What is $\\frac{15}{3}$?\n\nTherefore $f^{-1}(9) = ?$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

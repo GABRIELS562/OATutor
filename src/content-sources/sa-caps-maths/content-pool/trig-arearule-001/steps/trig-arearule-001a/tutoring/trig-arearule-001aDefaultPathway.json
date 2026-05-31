@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-arearule-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "The Area Rule",
+        "text": "The Area Rule states:\n$$\\text{Area} = \\frac{1}{2}ab\\sin C$$\n\nwhere a and b are two sides, and C is the **included angle** between them.",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-arearule-001a-h2",
+        "type": "hint",
+        "dependencies": ["trig-arearule-001a-h1"],
+        "title": "Visual Understanding",
+        "text": "Think of it this way: In a right triangle, Area = ½ × base × height. The sin(C) term gives us the perpendicular height when the triangle is not right-angled.",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-arearule-001a-h3",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": ["Area = ½ab·sin(C)"],
+        "dependencies": ["trig-arearule-001a-h2"],
+        "title": "Correct Formula",
+        "text": "The Area Rule: $$\\text{Area} = \\frac{1}{2}ab\\sin C$$",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    }
+]

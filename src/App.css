@@ -13,7 +13,166 @@
 
 /* Dark mode overrides are applied by ThemeToggleContext */
 
-/* Global dark mode styles */
+/* ============================================
+   LIGHT MODE STYLES (Default)
+   These ensure proper styling when NOT in dark mode
+   ============================================ */
+:root:not(.dark-mode) body,
+html:not(.dark-mode) body {
+  background-color: var(--bg-primary, #ffffff);
+  color: var(--text-primary, #1e293b);
+}
+
+:root:not(.dark-mode) .MuiPaper-root,
+html:not(.dark-mode) .MuiPaper-root {
+  background-color: var(--bg-card, #ffffff);
+  color: var(--text-primary, #1e293b);
+}
+
+:root:not(.dark-mode) .MuiTypography-colorTextPrimary,
+html:not(.dark-mode) .MuiTypography-colorTextPrimary {
+  color: var(--text-primary, #1e293b);
+}
+
+:root:not(.dark-mode) .MuiTypography-colorTextSecondary,
+html:not(.dark-mode) .MuiTypography-colorTextSecondary {
+  color: var(--text-secondary, #64748b);
+}
+
+:root:not(.dark-mode) .MuiCard-root,
+:root:not(.dark-mode) .MuiAccordion-root,
+:root:not(.dark-mode) .MuiDialog-paper,
+html:not(.dark-mode) .MuiCard-root,
+html:not(.dark-mode) .MuiAccordion-root,
+html:not(.dark-mode) .MuiDialog-paper {
+  background-color: var(--bg-card, #ffffff);
+  color: var(--text-primary, #1e293b);
+}
+
+:root:not(.dark-mode) .MuiInputBase-root,
+html:not(.dark-mode) .MuiInputBase-root {
+  color: var(--text-primary, #1e293b);
+}
+
+:root:not(.dark-mode) .MuiInputLabel-root,
+html:not(.dark-mode) .MuiInputLabel-root {
+  color: var(--text-secondary, #64748b);
+}
+
+:root:not(.dark-mode) .MuiOutlinedInput-notchedOutline,
+html:not(.dark-mode) .MuiOutlinedInput-notchedOutline {
+  border-color: var(--border-color, rgba(0, 0, 0, 0.23));
+}
+
+/* Light mode drawer and menu backgrounds */
+:root:not(.dark-mode) .MuiDrawer-paper,
+:root:not(.dark-mode) .MuiMenu-paper,
+:root:not(.dark-mode) .MuiPopover-paper,
+html:not(.dark-mode) .MuiDrawer-paper,
+html:not(.dark-mode) .MuiMenu-paper,
+html:not(.dark-mode) .MuiPopover-paper {
+  background-color: var(--bg-card, #ffffff);
+  color: var(--text-primary, #1e293b);
+}
+
+/* Light mode list items */
+:root:not(.dark-mode) .MuiListItem-root,
+:root:not(.dark-mode) .MuiMenuItem-root,
+html:not(.dark-mode) .MuiListItem-root,
+html:not(.dark-mode) .MuiMenuItem-root {
+  color: var(--text-primary, #1e293b);
+}
+
+/* Light mode table cells */
+:root:not(.dark-mode) .MuiTableCell-root,
+html:not(.dark-mode) .MuiTableCell-root {
+  color: var(--text-primary, #1e293b);
+  border-color: var(--border-color, rgba(0, 0, 0, 0.12));
+}
+
+/* ============================================
+   EXPLICIT LIGHT MODE CLASS STYLES
+   Applied when .light-mode class is present
+   ============================================ */
+.light-mode,
+.light-mode body {
+  background-color: #ffffff !important;
+  color: #1e293b !important;
+}
+
+.light-mode .MuiPaper-root {
+  background-color: #ffffff !important;
+  color: #1e293b !important;
+}
+
+.light-mode .MuiCard-root,
+.light-mode .MuiAccordion-root,
+.light-mode .MuiDialog-paper {
+  background-color: #ffffff !important;
+  color: #1e293b !important;
+}
+
+.light-mode .MuiTypography-root {
+  color: inherit;
+}
+
+.light-mode .MuiTypography-colorTextPrimary {
+  color: #1e293b !important;
+}
+
+.light-mode .MuiTypography-colorTextSecondary {
+  color: #64748b !important;
+}
+
+.light-mode .MuiInputBase-root {
+  color: #1e293b !important;
+}
+
+.light-mode .MuiInputLabel-root {
+  color: #64748b !important;
+}
+
+.light-mode .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0.23) !important;
+}
+
+.light-mode .MuiDrawer-paper,
+.light-mode .MuiMenu-paper,
+.light-mode .MuiPopover-paper {
+  background-color: #ffffff !important;
+  color: #1e293b !important;
+}
+
+.light-mode .MuiListItem-root,
+.light-mode .MuiMenuItem-root {
+  color: #1e293b !important;
+}
+
+.light-mode .MuiTableCell-root {
+  color: #1e293b !important;
+  border-color: rgba(0, 0, 0, 0.12) !important;
+}
+
+.light-mode .MuiButton-root:not(.MuiButton-containedPrimary):not(.MuiButton-containedSecondary) {
+  color: #1e293b;
+}
+
+.light-mode .MuiIconButton-root {
+  color: #64748b;
+}
+
+.light-mode .MuiSelect-icon {
+  color: #64748b;
+}
+
+.light-mode .MuiChip-root:not(.MuiChip-colorPrimary):not(.MuiChip-colorSecondary) {
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+/* ============================================
+   DARK MODE STYLES
+   ============================================ */
 .dark-mode {
   background-color: #0f0f23 !important;
 }
@@ -25,6 +184,7 @@
 
 .dark-mode .MuiPaper-root {
   background-color: #16213e;
+  color: #ffffff;
 }
 
 .dark-mode .MuiTypography-colorTextPrimary {
@@ -54,6 +214,26 @@
 
 .dark-mode .MuiOutlinedInput-notchedOutline {
   border-color: rgba(255, 255, 255, 0.23);
+}
+
+/* Dark mode drawer and menu backgrounds */
+.dark-mode .MuiDrawer-paper,
+.dark-mode .MuiMenu-paper,
+.dark-mode .MuiPopover-paper {
+  background-color: #16213e;
+  color: #ffffff;
+}
+
+/* Dark mode list items */
+.dark-mode .MuiListItem-root,
+.dark-mode .MuiMenuItem-root {
+  color: #ffffff;
+}
+
+/* Dark mode table cells */
+.dark-mode .MuiTableCell-root {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.12);
 }
 
 /* Skip link for accessibility */

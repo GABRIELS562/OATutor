@@ -1,0 +1,35 @@
+[
+    {
+        "id": "geo-cyclic-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Cyclic Quadrilateral Property",
+        "text": "In a cyclic quadrilateral (quadrilateral inscribed in a circle), opposite angles are supplementary.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "geo-cyclic-001a-h2",
+        "type": "hint",
+        "dependencies": ["geo-cyclic-001a-h1"],
+        "title": "Supplementary Angles",
+        "text": "Supplementary angles add up to 180°.\\n\\nSo: $$\\angle A + \\angle C = 180°$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "geo-cyclic-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["108"],
+        "dependencies": ["geo-cyclic-001a-h2"],
+        "title": "Calculate",
+        "text": "$$\\angle C = 180° - \\angle A = 180° - 72° = ?$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

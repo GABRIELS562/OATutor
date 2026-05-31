@@ -1,0 +1,10 @@
+{
+    "id": "calc-statpt-002a",
+    "stepAnswer": ["x=1", "1"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the x-coordinate of the Point of Inflection",
+    "stepBody": "A point of inflection occurs where $f''(x) = 0$ and the concavity changes.\n\nFind $f''(x)$ for $f(x) = x^3 - 3x^2 - 9x + 5$ and solve $f''(x) = 0$.\n\nWhat is the x-coordinate of the point of inflection?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "stationary-points"]
+}

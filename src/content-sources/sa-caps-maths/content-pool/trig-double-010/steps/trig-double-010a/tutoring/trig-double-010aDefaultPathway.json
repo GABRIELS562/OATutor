@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-double-010a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Pythagorean Identity",
+        "text": "The fundamental Pythagorean identity states:\n$$\\sin^2\\theta + \\cos^2\\theta = 1$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-double-010a-h2",
+        "type": "hint",
+        "dependencies": ["trig-double-010a-h1"],
+        "title": "Substitute and Solve",
+        "text": "$$\\left(\\frac{3}{5}\\right)^2 + \\cos^2\\theta = 1$$\n$$\\frac{9}{25} + \\cos^2\\theta = 1$$\n$$\\cos^2\\theta = 1 - \\frac{9}{25} = \\frac{16}{25}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-double-010a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["4/5"],
+        "dependencies": ["trig-double-010a-h2"],
+        "title": "Take Square Root",
+        "text": "$$\\cos\\theta = \\pm\\sqrt{\\frac{16}{25}} = \\pm\\frac{4}{5}$$\n\nSince theta is in the FIRST quadrant, cos theta is POSITIVE.\n$$\\cos\\theta = \\frac{4}{5}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

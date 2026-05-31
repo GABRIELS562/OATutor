@@ -1,0 +1,16 @@
+{
+  "id": "bio-repro-010b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "23",
+    "n=23",
+    "haploid"
+  ],
+  "stepExplanation": "Each sperm cell is haploid (n=23 chromosomes in humans). This is half the diploid number, ensuring that when fertilization occurs, the zygote will have the full diploid number (2n=46).",
+  "stepTitle": "Chromosome Number",
+  "stepBody": "What is the chromosome number (n) in each mature sperm cell if the original primary spermatocyte had 2n=46?"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "bio-dna-012b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "string",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "Met-Ala-Phe-Lys",
+    "Methionine-Alanine-Phenylalanine-Lysine",
+    "Met Ala Phe Lys"
+  ],
+  "stepExplanation": "Using the genetic code: AUG = Methionine (Met) - also the start codon; GCA = Alanine (Ala); UUC = Phenylalanine (Phe); AAG = Lysine (Lys); UAA = Stop codon. The polypeptide is Met-Ala-Phe-Lys (4 amino acids, as translation stops at the stop codon).",
+  "stepTitle": "Translate mRNA to Amino Acids",
+  "stepBody": "Using the mRNA sequence AUG GCA UUC AAG UAA, identify each codon and use the genetic code table to determine the amino acid sequence. Note: AUG is the start codon and UAA is a stop codon."
+}

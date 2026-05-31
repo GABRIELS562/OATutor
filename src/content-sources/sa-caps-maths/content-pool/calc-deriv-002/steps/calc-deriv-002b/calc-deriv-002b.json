@@ -1,0 +1,10 @@
+{
+    "id": "calc-deriv-002b",
+    "stepAnswer": ["-6x^(-3)+2x^(-3/2)+2", "-6/x^3+2/x^(3/2)+2", "-6x^-3 + 2x^-1.5 + 2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Differentiate Using Power Rule",
+    "stepBody": "Apply the power rule to $y = 3x^{-2} - 4x^{-1/2} + 2x$.\n\nFind $\\frac{dy}{dx}$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "power-rule"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phys-gravity-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "8.65",
+    "8.7",
+    "8.65 m/s²",
+    "8.7 m/s²"
+  ],
+  "stepExplanation": "Using g = GM/r² for gravitational acceleration:\n$$g = \\frac{GM}{r^2} = \\frac{(6.67 \\times 10^{-11})(6.0 \\times 10^{24})}{(6.8 \\times 10^6)^2}$$\n$$g = \\frac{4.0 \\times 10^{14}}{4.62 \\times 10^{13}} = 8.65 \\text{ m/s}^2$$",
+  "stepTitle": "Calculate Gravitational Acceleration",
+  "stepBody": "Use g = GM/r² to calculate the gravitational acceleration at this altitude. Give your answer in m/s² (to 2 decimal places)."
+}

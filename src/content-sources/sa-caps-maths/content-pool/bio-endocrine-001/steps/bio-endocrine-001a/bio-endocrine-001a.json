@@ -1,0 +1,15 @@
+{
+  "id": "bio-endocrine-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "insulin",
+    "Insulin"
+  ],
+  "stepExplanation": "When blood glucose rises after a meal, the **beta cells** of the islets of Langerhans in the pancreas detect this increase and release **INSULIN** into the bloodstream.\n\nInsulin is a peptide hormone that acts as the \"key\" that allows glucose to enter cells.",
+  "stepTitle": "Identify the Hormone",
+  "stepBody": "Which hormone is released by the pancreas when blood glucose levels are HIGH (after eating)?"
+}

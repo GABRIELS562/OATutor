@@ -1,0 +1,12 @@
+[
+  {
+    "id": "phys-doppler-001b-h1",
+    "type": "hint",
+    "title": "Hint",
+    "text": "Think about: Calculate Observed Frequency",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

@@ -1,0 +1,10 @@
+{
+    "id": "anl-circ-012a",
+    "stepAnswer": ["(1,1)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find Centre of Circle",
+    "stepBody": "The centre of a circle is the midpoint of any diameter.\n\nUse the midpoint formula to find M, the midpoint of AB.\n\nA(-3, 4) and B(5, -2).\n\nEnter as: (x,y)",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["anl-midpoint-formula", "anl-circle-center-form"]
+}

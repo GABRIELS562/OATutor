@@ -1,0 +1,16 @@
+{
+    "id": "trig-gensol-003b",
+    "stepAnswer": ["x = 90 + 360n or x = 210 + 360n or x = 330 + 360n"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 2: Find the General Solution",
+    "stepBody": "From sin x = 1: x = 90° (special value)\n\nFrom sin x = -1/2: reference angle is 30°, and sine is negative in Q3 and Q4.\n\nSelect the complete general solution.",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-general-solution"],
+    "choices": [
+        "x = 90 + 360n or x = 210 + 360n or x = 330 + 360n",
+        "x = 90 + 360n or x = 30 + 360n or x = 150 + 360n",
+        "x = 90 + 180n or x = 210 + 180n",
+        "x = 270 + 360n or x = 210 + 360n or x = 330 + 360n"
+    ]
+}

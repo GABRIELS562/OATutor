@@ -1,0 +1,17 @@
+{
+  "id": "bio-endocrine-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "glycogenesis",
+    "glycogen formation",
+    "glucose to glycogen",
+    "storing glucose as glycogen"
+  ],
+  "stepExplanation": "Insulin lowers blood glucose through several mechanisms:\n\n1. **Increased glucose uptake** - Insulin signals body cells (especially muscle and fat cells) to take up glucose from the blood\n\n2. **GLYCOGENESIS** - In the liver and muscles, glucose is converted to glycogen (animal starch) for storage\n\n3. **Increased cellular respiration** - More glucose is used for energy production\n\n4. **Lipogenesis** - Excess glucose is converted to fat for long-term storage\n\nThe process of converting glucose to glycogen is called **GLYCOGENESIS** (glyco = sugar, genesis = formation).\n\nThis is an example of **negative feedback**: high glucose triggers a response (insulin release) that REVERSES the change (lowers glucose).",
+  "stepTitle": "Effect of Insulin",
+  "stepBody": "What is the name of the process where glucose is converted to glycogen in the liver for storage?"
+}

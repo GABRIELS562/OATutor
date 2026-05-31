@@ -1,0 +1,35 @@
+[
+    {
+        "id": "poly-007a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "First Equation from f(1) = 0",
+        "text": "$f(1) = 1 + a + b - 12 = 0$\n\nSimplifying: $a + b - 11 = 0$\n\nOr: $a + b = 11$ ... (equation 1)",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-007a-h2",
+        "type": "hint",
+        "dependencies": ["poly-007a-h1"],
+        "title": "Second Equation from f(-2) = 0",
+        "text": "$f(-2) = (-2)^3 + a(-2)^2 + b(-2) - 12 = 0$\n\n$-8 + 4a - 2b - 12 = 0$\n\n$4a - 2b - 20 = 0$\n\n$4a - 2b = 20$\n\nOr: $2a - b = 10$ ... (equation 2)",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-007a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["a + b = 11"],
+        "dependencies": ["poly-007a-h2"],
+        "title": "The Two Equations",
+        "text": "From $f(1) = 0$: $a + b = 11$\nFrom $f(-2) = 0$: $2a - b = 10$\n\nNow solve these simultaneous equations.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

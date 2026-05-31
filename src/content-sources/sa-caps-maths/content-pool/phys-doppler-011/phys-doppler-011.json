@@ -1,0 +1,17 @@
+{
+  "id": "phys-doppler-011",
+  "title": "Doppler Effect - Source Moving Away",
+  "body": "A train whistle emits sound at 500 Hz. The train moves away from a stationary observer at 30 m/s. Calculate the frequency heard by the observer. (Speed of sound = 340 m/s)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-doppler"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

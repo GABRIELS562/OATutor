@@ -1,0 +1,16 @@
+{
+  "id": "bio-eye-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "lens",
+    "the lens",
+    "crystalline lens"
+  ],
+  "stepExplanation": "The structures are:\n- **A = Cornea** - transparent front covering, does most of the light refraction\n- **B = Pupil** - opening in the iris that controls light entry\n- **C = Lens** - transparent, flexible structure that fine-tunes focus\n- **D = Retina** - light-sensitive layer with photoreceptors (rods and cones)\n- **E = Optic nerve** - transmits visual information to the brain\n\nStructure C is the **LENS**.",
+  "stepTitle": "Identify Structure C",
+  "stepBody": "What is the name of structure C in the diagram?"
+}

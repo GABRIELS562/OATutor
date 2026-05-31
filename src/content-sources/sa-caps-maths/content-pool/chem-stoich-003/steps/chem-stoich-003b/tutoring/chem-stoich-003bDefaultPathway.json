@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-stoich-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Use Mole Ratio",
+        "text": "O2:H2O = 1:2. From 0.625 mol O2, we get 2 x 0.625 = 1.25 mol H2O",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-003b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Molar Mass of Water",
+        "text": "M(H2O) = 2(1) + 16 = 18 g/mol",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-003b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Mass",
+        "text": "m = n x M = 1.25 x 18 = 22.5 g water",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

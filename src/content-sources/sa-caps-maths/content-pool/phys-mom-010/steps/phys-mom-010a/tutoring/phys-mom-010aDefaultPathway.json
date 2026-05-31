@@ -1,0 +1,32 @@
+[
+  {
+    "id": "phys-mom-010a-h1",
+    "type": "hint",
+    "title": "Recall the Impulse-Momentum Theorem",
+    "text": "Impulse equals the change in momentum: $$J = \\Delta p = m \\Delta v = m(v_f - v_i)$$",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "phys-mom-010a-h2",
+    "type": "hint",
+    "title": "Convert Units",
+    "text": "Convert the mass from grams to kilograms: 150 g = 0.15 kg. Always use SI units in physics calculations.",
+    "variabilization": {},
+    "dependencies": ["phys-mom-010a-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "phys-mom-010a-h3",
+    "type": "hint",
+    "title": "Substitute Values",
+    "text": "Substitute: Impulse = 0.15 kg x (20 m/s - 0 m/s) = 0.15 x 20 = 3 kg.m/s",
+    "variabilization": {},
+    "dependencies": ["phys-mom-010a-h2"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  }
+]

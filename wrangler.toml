@@ -1,0 +1,19 @@
+# Angelo Tutoring - Cloudflare Pages Configuration
+# Deploy using: npm run deploy:cloudflare
+
+name = "angelo-tutoring"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "build"
+
+# Custom domain configuration
+# After deploying, add your custom domain in Cloudflare Dashboard:
+# Pages > angelo-tutoring > Custom domains > Add custom domain
+# Domain: jagdevops.com
+
+[env.production]
+# Environment variables are set in Cloudflare Dashboard
+# Pages > angelo-tutoring > Settings > Environment variables
+
+[env.production.vars]
+REACT_APP_BUILD_TYPE = "production"
+REACT_APP_SITE_NAME = "Angelo Tutoring"

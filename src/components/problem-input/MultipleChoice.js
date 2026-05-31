@@ -3,6 +3,7 @@ import Radio from '@material-ui/core/Radio';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
+import FormLabel from '@material-ui/core/FormLabel';
 import { renderText } from '../../platform-logic/renderText.js';
 import { ThemeContext } from "../../config/config";
 
@@ -36,15 +37,26 @@ class MultipleChoice extends React.Component {
         }
 
         return (
-            <div style={{ marginRight: "5%", textAlign: "center" }}>
-                <FormControl>
-                    <RadioGroup value={this.state.value} onChange={this.handleChange}>
+            <div style={{ marginRight: "5%", textAlign: "center" }} role="group" aria-label="Answer choices">
+                <FormControl component="fieldset">
+                    <FormLabel component="legend" className="sr-only">
+                        Select your answer
+                    </FormLabel>
+                    <RadioGroup
+                        value={this.state.value}
+                        onChange={this.handleChange}
+                        aria-label="Answer options"
+                    >
                         {choices.length > 0
                             ? choices.map((choice, i) =>
-                                <FormControlLabel value={choice} control={<Radio/>}
+                                <FormControlLabel
+                                    value={choice}
+                                    control={<Radio color="primary" />}
                                     label={renderText(choice, null, variabilization, this.context)}
-                                    key={choice}/>)
-                            : "Error: This problem has no answer choices. Please submit feedback."}
+                                    key={choice}
+                                    aria-label={`Option ${i + 1}: ${choice}`}
+                                />)
+                            : <span role="alert">Error: This problem has no answer choices. Please submit feedback.</span>}
                     </RadioGroup>
                 </FormControl>
             </div>

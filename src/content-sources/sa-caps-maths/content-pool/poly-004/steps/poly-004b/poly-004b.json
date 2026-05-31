@@ -1,0 +1,10 @@
+{
+    "id": "poly-004b",
+    "stepAnswer": ["x = 1, x = 2, x = 3", "1, 2, 3", "x = 1 or x = 2 or x = 3", "x=1, x=2, x=3", "1; 2; 3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Solve the Equation",
+    "stepBody": "Now that we have:\n\n$$(x - 1)(x - 2)(x - 3) = 0$$\n\nUse the zero product property to find all values of $x$.\n\n(Write your answer as: x = a, x = b, x = c or just: a, b, c)",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["zero-product-property", "solving-equations", "cubic-equations"]
+}

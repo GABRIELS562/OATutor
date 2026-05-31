@@ -1,0 +1,16 @@
+{
+  "id": "neuro-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "medulla oblongata",
+    "medulla",
+    "brain stem"
+  ],
+  "stepExplanation": "The **medulla oblongata** (part of the brain stem) controls vital involuntary functions like breathing, heart rate, and blood pressure. It was not affected by this stroke.",
+  "stepTitle": "Identify Autonomic Control Center",
+  "stepBody": "Which region of the brain controls involuntary vital functions such as breathing and heart rate?"
+}

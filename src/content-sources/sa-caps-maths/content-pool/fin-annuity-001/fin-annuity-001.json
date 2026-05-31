@@ -1,0 +1,10 @@
+{
+    "id": "fin-annuity-001",
+    "title": "Future Value Annuity",
+    "body": "Themba deposits R2 500 at the end of every month into a savings account that earns 8.4% per annum, compounded monthly.\n\nCalculate the total amount in the account after 5 years.\n\nFuture Value Annuity Formula: $F = x \\cdot \\frac{(1+i)^n - 1}{i}$",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Financial Mathematics - Annuities",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "bio-evol-010",
+  "title": "Human Evolution - Bipedalism Adaptations",
+  "body": "The evolution of bipedalism (walking upright on two legs) in hominins involved significant anatomical changes compared to quadrupedal apes. Study the skeletal differences between humans and chimpanzees and explain how specific features are adaptive for bipedal locomotion.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-human-evolution"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/human-evolution",
+  "license": "CC BY 4.0",
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

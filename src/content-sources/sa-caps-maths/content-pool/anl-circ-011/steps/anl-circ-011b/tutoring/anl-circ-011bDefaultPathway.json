@@ -1,0 +1,35 @@
+[
+    {
+        "id": "anl-circ-011b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Perpendicular Gradients",
+        "text": "A tangent to a circle is perpendicular to the radius at the point of contact.\n\nFor perpendicular lines: $$m_1 \\times m_2 = -1$$\n\nIf $$m_{radius} = \\frac{4}{3}$$, then $$m_{tangent} = -\\frac{3}{4}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "anl-circ-011b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["-3/4"],
+        "dependencies": ["anl-circ-011b-h1"],
+        "title": "Gradient of Tangent",
+        "text": "If $$m_{MP} = \\frac{4}{3}$$, what is the gradient of the tangent?\n\n$$m_{tangent} = -\\frac{1}{m_{MP}} = ?$$ (enter as fraction)",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "anl-circ-011b-h3",
+        "type": "hint",
+        "dependencies": ["anl-circ-011b-h2"],
+        "title": "Point-Gradient Form",
+        "text": "Using point P(5, 3) and gradient $$m = -\\frac{3}{4}$$:\n\n$$y - y_1 = m(x - x_1)$$\n$$y - 3 = -\\frac{3}{4}(x - 5)$$\n$$y - 3 = -\\frac{3}{4}x + \\frac{15}{4}$$\n$$y = -\\frac{3}{4}x + \\frac{15}{4} + 3$$\n$$y = -\\frac{3}{4}x + \\frac{15}{4} + \\frac{12}{4}$$\n$$y = -\\frac{3}{4}x + \\frac{27}{4}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    }
+]

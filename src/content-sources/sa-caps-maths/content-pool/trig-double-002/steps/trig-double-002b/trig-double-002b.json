@@ -1,0 +1,10 @@
+{
+    "id": "trig-double-002b",
+    "stepAnswer": ["sqrt(2)/2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Apply the Identity",
+    "stepBody": "Using cos²A - sin²A = cos 2A with A = 22.5°:\n\n$$\\cos^2 22.5° - \\sin^2 22.5° = \\cos(2 \\times 22.5°) = \\cos 45°$$\n\nWhat is the exact value of cos 45°?\n\nEnter as: sqrt(2)/2",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-double-angle", "trig-special-angles"]
+}

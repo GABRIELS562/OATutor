@@ -1,0 +1,25 @@
+[
+    {
+        "id": "geo-cyclic-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Same Property",
+        "text": "The same property applies: $$\\angle B + \\angle D = 180°$$ (opposite angles supplementary)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "geo-cyclic-001b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["95"],
+        "dependencies": ["geo-cyclic-001b-h1"],
+        "title": "Calculate",
+        "text": "$$\\angle D = 180° - \\angle B = 180° - 85° = ?$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

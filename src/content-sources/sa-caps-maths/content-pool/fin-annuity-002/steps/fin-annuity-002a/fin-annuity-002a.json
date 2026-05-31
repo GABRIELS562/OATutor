@@ -1,0 +1,10 @@
+{
+    "id": "fin-annuity-002a",
+    "stepAnswer": ["x=Pi/[1-(1+i)^(-n)]", "x = Pi / [1 - (1+i)^(-n)]", "x = (P*i) / (1 - (1+i)^(-n))"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Rearrange Formula for Monthly Payment",
+    "stepBody": "The present value annuity formula is $P = x \\cdot \\frac{1 - (1+i)^{-n}}{i}$\n\nWhere:\n- $P$ = loan amount (present value)\n- $x$ = monthly payment\n- $i$ = monthly interest rate\n- $n$ = number of payments\n\nRearrange to make $x$ the subject:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["annuities", "present-value", "formula-rearrangement"]
+}

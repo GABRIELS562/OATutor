@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-fact-004a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Recognise the Pattern",
+        "text": "$49x^2 - 16y^2$ is the difference of two squares because:\n\n- $49x^2 = (7x)^2$ is a perfect square\n- $16y^2 = (4y)^2$ is a perfect square\n- They are subtracted (difference)",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-fact-004a-h2",
+        "type": "hint",
+        "dependencies": ["alg-fact-004a-h1"],
+        "title": "Find the Square Roots",
+        "text": "$\\sqrt{49x^2} = \\sqrt{49} \\times \\sqrt{x^2} = 7x$\n\n$\\sqrt{16y^2} = \\sqrt{16} \\times \\sqrt{y^2} = 4y$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-fact-004a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["7x and 4y"],
+        "dependencies": ["alg-fact-004a-h2"],
+        "title": "The Values",
+        "text": "$a = 7x$ and $b = 4y$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    }
+]

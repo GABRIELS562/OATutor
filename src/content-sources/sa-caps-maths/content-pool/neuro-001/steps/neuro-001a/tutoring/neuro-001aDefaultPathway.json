@@ -1,0 +1,22 @@
+[
+  {
+    "id": "neuro-001a-h1",
+    "type": "hint",
+    "title": "Stimulus to Response Pathway",
+    "text": "Think of information flow: something must detect the stimulus (receptor), send information to the CNS (sensory neuron), process it (interneuron), send commands (motor neuron), and produce a response (effector).",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "neuro-001a-h2",
+    "type": "hint",
+    "title": "Afferent vs Efferent",
+    "text": "Sensory neurons are afferent (toward CNS). Motor neurons are efferent (away from CNS). Remember: 'Afferent Arrives, Efferent Exits'.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

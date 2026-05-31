@@ -1,0 +1,10 @@
+{
+    "id": "func-linear-002",
+    "title": "Parallel and Perpendicular Lines",
+    "body": "The line $L_1$ has equation $y = 2x - 3$.\n\nFind the equation of line $L_2$ that is perpendicular to $L_1$ and passes through the point $(4, 1)$.\n\nGive your answer in the form $y = mx + c$.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 10)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Linear Functions and Graphs",
+    "courseName": "CAPS Grade 10 Mathematics"
+}

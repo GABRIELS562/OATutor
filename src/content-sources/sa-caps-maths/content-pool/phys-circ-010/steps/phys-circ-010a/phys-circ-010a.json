@@ -1,0 +1,16 @@
+{
+  "id": "phys-circ-010a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "22",
+    "22 V",
+    "22V"
+  ],
+  "stepExplanation": "Using V = EMF - Ir, we get V = 24 - (4)(0.5) = 24 - 2 = 22 V. The terminal potential difference is the EMF minus the voltage drop across the internal resistance.",
+  "stepTitle": "Terminal Potential Difference",
+  "stepBody": "Calculate the terminal potential difference using V = EMF - Ir, where EMF = 24 V, I = 4 A, and r = 0.5 ohm."
+}

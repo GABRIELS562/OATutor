@@ -1,0 +1,16 @@
+{
+  "id": "bio-photosyn-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "12",
+    "12 G3P",
+    "12 molecules"
+  ],
+  "stepExplanation": "Each CO2 molecule that enters the Calvin Cycle produces 2 molecules of G3P (via the intermediate 3-PGA).\n\nCalculation: 6 CO2 x 2 = **12 G3P molecules** produced.",
+  "stepTitle": "Calculate Total G3P Produced",
+  "stepBody": "Each CO2 molecule results in 2 G3P molecules. If 6 CO2 molecules enter the cycle, how many G3P molecules are produced in total?"
+}

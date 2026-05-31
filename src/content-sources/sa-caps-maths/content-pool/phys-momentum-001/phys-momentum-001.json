@@ -1,0 +1,17 @@
+{
+  "id": "phys-momentum-001",
+  "title": "Momentum - Collision Problem",
+  "body": "A 2 kg ball moving at 5 m/s collides with a stationary 3 kg ball. After collision, the 2 kg ball moves at 1 m/s in the same direction. Calculate the velocity of the 3 kg ball after the collision.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-momentum"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

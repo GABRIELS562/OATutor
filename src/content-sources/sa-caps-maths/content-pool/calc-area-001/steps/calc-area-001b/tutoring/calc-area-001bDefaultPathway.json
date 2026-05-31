@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-area-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Evaluate First Integral",
+        "text": "$$\\int_0^2 (4-x^2)dx = \\left[4x - \\frac{x^3}{3}\\right]_0^2$$\\n$$= \\left(8 - \\frac{8}{3}\\right) - (0)$$\\n$$= 8 - \\frac{8}{3} = \\frac{24-8}{3} = \\frac{16}{3}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "calc-area-001b-h2",
+        "type": "hint",
+        "dependencies": ["calc-area-001b-h1"],
+        "title": "Evaluate Second Integral",
+        "text": "$$\\int_2^3 (x^2-4)dx = \\left[\\frac{x^3}{3} - 4x\\right]_2^3$$\\n$$= \\left(9 - 12\\right) - \\left(\\frac{8}{3} - 8\\right)$$\\n$$= -3 - \\frac{8}{3} + 8 = 5 - \\frac{8}{3} = \\frac{15-8}{3} = \\frac{7}{3}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "calc-area-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["23/3"],
+        "dependencies": ["calc-area-001b-h2"],
+        "title": "Total Area",
+        "text": "Total Area = $\\frac{16}{3} + \\frac{7}{3} = \\frac{23}{3} \\approx 7.67$ square units",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "id": "alg-fact-001b",
+    "stepAnswer": ["3x(2x^2 - 3x + 4)", "3x(2x^2-3x+4)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Factor Out the HCF",
+    "stepBody": "Take out the common factor $3x$ from each term:\n\n$$6x^3 - 9x^2 + 12x = 3x(\\;?\\;)$$\n\nDivide each term by $3x$ to find what goes in the bracket.\n\nWrite the complete factorised form:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "common-factor", "algebraic-manipulation"]
+}

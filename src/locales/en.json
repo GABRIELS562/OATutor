@@ -28,11 +28,34 @@
         "Mastery": "Lesson Mastery: ",
         "LoggedIn": "Not logged in"
     },
-    "hintsystem": 
+    "hintsystem":
     {
         "hint": "Hint ",
         "answer": "Answer",
         "answerIs": "The answer is "
+    },
+    "workedSolution":
+    {
+        "view": "View Answer",
+        "hide": "Hide Answer",
+        "header": "Worked Solution",
+        "finalAnswer": "Final Answer",
+        "viewedBeforeAttempt": "You viewed the answer before attempting this problem",
+        "noSteps": "No step-by-step solution available for this problem."
+    },
+    "examCategories":
+    {
+        "filterTitle": "Filter by Category",
+        "all": "All Content",
+        "activities": "Activities",
+        "practice": "Practice Problems",
+        "marchTest": "March Tests",
+        "juneExam": "June Exams",
+        "septTest": "September Tests",
+        "novExam": "November Exams",
+        "ieb": "IEB Papers",
+        "showingResults": "Showing {count} of {total} lessons",
+        "noResults": "No lessons found for this category"
     },
     "toast":
     {
@@ -42,5 +65,19 @@
         "cantProcess": "Our system could not process that answer",
         "stepComplete": "Step Completed!",
         "provideAnswer": "Please provide an answer."
+    },
+    "businessLinks":
+    {
+        "menuTitle": "More Options",
+        "sectionTitle": "Get More Help",
+        "sectionSubtitle": "Connect with us for tutoring, resources, and support",
+        "openLink": "Open",
+        "poweredBy": "Powered by Angelo Tutoring",
+        "bookTutoring": "Book Online Tutoring",
+        "joinTeam": "Join Our Tutoring Team",
+        "visitWebsite": "Visit Our Website",
+        "mathsCoach": "The Maths Coach",
+        "whatsapp": "WhatsApp Us",
+        "videos": "Video Tutorials"
     }
 }

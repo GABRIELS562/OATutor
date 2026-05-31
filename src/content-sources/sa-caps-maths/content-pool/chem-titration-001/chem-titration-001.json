@@ -1,0 +1,17 @@
+{
+  "id": "chem-titration-001",
+  "title": "Acid-Base Titration",
+  "body": "25 cm³ of NaOH solution is neutralized by 20 cm³ of 0.1 mol/dm³ HCl. Calculate the concentration of NaOH.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-titrations"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

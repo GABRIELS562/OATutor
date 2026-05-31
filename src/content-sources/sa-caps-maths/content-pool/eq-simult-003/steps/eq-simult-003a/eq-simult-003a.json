@@ -1,0 +1,10 @@
+{
+    "id": "eq-simult-003a",
+    "stepAnswer": ["x+y=15 and x-y=3", "x+y=15, x-y=3", "x+y=15;x-y=3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Write the Equations",
+    "stepBody": "Translate the word problem into two simultaneous equations.\n\n- \"The sum of two numbers is 15\"\n- \"Their difference is 3\"\n\nEnter as: x+y=15 and x-y=3",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["linear-equations", "simultaneous-equations"]
+}

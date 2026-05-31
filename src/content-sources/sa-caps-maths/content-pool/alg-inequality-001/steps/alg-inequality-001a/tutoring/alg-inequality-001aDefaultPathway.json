@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-inequality-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Factorise the Quadratic",
+        "text": "Find two numbers that:\\n- Multiply to give $-5$\\n- Add to give $-4$\\n\\nThese are $-5$ and $+1$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-inequality-001a-h2",
+        "type": "hint",
+        "dependencies": ["alg-inequality-001a-h1"],
+        "title": "Write the Factors",
+        "text": "$$x^2 - 4x - 5 = (x - 5)(x + 1)$$\\n\\nSet $(x-5)(x+1) = 0$ to find critical values:\\n\\n$x = 5$ or $x = -1$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-inequality-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["-1 and 5"],
+        "dependencies": ["alg-inequality-001a-h2"],
+        "title": "Critical Values",
+        "text": "The critical values (where the expression equals zero) are:\\n\\n$$x = -1$$ and $$x = 5$$\\n\\nThese divide the number line into three regions.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

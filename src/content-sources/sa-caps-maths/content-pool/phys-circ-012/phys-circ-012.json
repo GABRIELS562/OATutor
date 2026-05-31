@@ -1,0 +1,19 @@
+{
+  "id": "phys-circ-012",
+  "title": "Power and Energy in Electric Circuits",
+  "body": "An electric heater has a resistance of 20 ohm and is connected to a 220 V supply. Calculate: (a) the current drawn by the heater, and (b) the energy consumed if the heater is used for 2 hours. Express your answer in kilowatt-hours (kWh).",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-circuits",
+        "phys-ohms-law"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences",
+  "source": "Siyavula Grade 12 Physical Sciences - Electric Circuits"
+}

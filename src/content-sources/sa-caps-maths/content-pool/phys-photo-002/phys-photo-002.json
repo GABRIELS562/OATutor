@@ -1,0 +1,17 @@
+{
+  "id": "phys-photo-002",
+  "title": "Photoelectric Effect - Work Function and Kinetic Energy",
+  "body": "Light of frequency 8.0 x 10^14 Hz is incident on a metal with a work function of 3.0 x 10^-19 J. Calculate the maximum kinetic energy of the ejected photoelectrons. (h = 6.63 x 10^-34 J.s)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-photoelectric"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

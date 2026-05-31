@@ -1,0 +1,10 @@
+{
+    "id": "calc-derivative-001",
+    "title": "Differentiation from First Principles",
+    "body": "Use the definition of the derivative (first principles) to find $f'(x)$ if:\\n\\n$$f(x) = 3x^2 - 2x + 1$$\\n\\nRecall: $f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Differential Calculus - First Principles",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

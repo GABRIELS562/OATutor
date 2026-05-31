@@ -1,0 +1,10 @@
+{
+    "id": "geo-prop-002b",
+    "stepAnswer": ["2:5"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate ratio PQ:LM",
+    "stepBody": "Since triangles KPQ and KLM are similar, the ratio of corresponding sides equals the ratio $$\\frac{KP}{KL}$$.\n\nKL = KP + PL = 6 + 9 = 15\n\nCalculate PQ:LM in simplest form.",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["geo-similar-triangles", "geo-proportional-sides"]
+}

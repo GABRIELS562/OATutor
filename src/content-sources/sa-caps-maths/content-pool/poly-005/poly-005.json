@@ -1,0 +1,10 @@
+{
+    "id": "poly-005",
+    "title": "Finding Unknown Coefficients",
+    "body": "Given that $(x + 2)$ is a factor of $f(x) = x^3 + ax^2 - x + 6$, find the value of $a$.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Polynomials Chapter 7.2",
+    "license": "CC-BY - Siyavula Education",
+    "lesson": "Factor Theorem Applications",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

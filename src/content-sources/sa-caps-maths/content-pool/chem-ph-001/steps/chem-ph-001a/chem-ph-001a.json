@@ -1,0 +1,17 @@
+{
+  "id": "chem-ph-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.01",
+    "0,01",
+    "1e-2",
+    "10^-2"
+  ],
+  "stepExplanation": "Since HCl fully dissociates, [H⁺] = [HCl] = 0.01 mol/dm³",
+  "stepTitle": "Find [H⁺] Concentration",
+  "stepBody": "Since HCl fully dissociates: HCl → H⁺ + Cl⁻, what is the [H⁺] concentration in mol/dm³?"
+}

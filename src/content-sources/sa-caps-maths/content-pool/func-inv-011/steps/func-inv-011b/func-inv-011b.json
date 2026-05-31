@@ -1,0 +1,10 @@
+{
+    "id": "func-inv-011b",
+    "stepAnswer": ["Domain: x >= -4; Range: y >= 0", "x >= -4, y >= 0"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: State Domain and Range of Inverse",
+    "stepBody": "For $f^{-1}(x) = \\sqrt{x+4}$, state the domain and range.\n\nEnter as: Domain: x >= ?; Range: y >= ?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["domain-range", "inverse-function"]
+}

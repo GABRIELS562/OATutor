@@ -1,0 +1,16 @@
+{
+    "id": "trig-comp-012a",
+    "stepAnswer": ["(tan A + tan B)/(1 - tan A tan B)"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 1: Write the tan(A + B) Formula",
+    "stepBody": "Select the correct compound angle formula for tan(A + B):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-compound-add"],
+    "choices": [
+        "(tan A + tan B)/(1 - tan A tan B)",
+        "(tan A - tan B)/(1 + tan A tan B)",
+        "(tan A + tan B)/(1 + tan A tan B)",
+        "tan A tan B/(tan A + tan B)"
+    ]
+}

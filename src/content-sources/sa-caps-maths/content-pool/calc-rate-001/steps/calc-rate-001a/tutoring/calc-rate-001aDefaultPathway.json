@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-rate-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Set Up the Relationship",
+        "text": "The area of a circle is $A = \\pi r^2$.\\n\\nWe need to find $\\frac{dA}{dt}$ when $r = 10$ and $\\frac{dr}{dt} = 2$ m/s.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "calc-rate-001a-h2",
+        "type": "hint",
+        "dependencies": ["calc-rate-001a-h1"],
+        "title": "Differentiate with Respect to Time",
+        "text": "Using the chain rule:\\n$$\\frac{dA}{dt} = \\frac{dA}{dr} \\cdot \\frac{dr}{dt} = 2\\pi r \\cdot \\frac{dr}{dt}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "calc-rate-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["40pi"],
+        "dependencies": ["calc-rate-001a-h2"],
+        "title": "Calculate the Rate",
+        "text": "Substitute $r = 10$ and $\\frac{dr}{dt} = 2$:\\n$$\\frac{dA}{dt} = 2\\pi(10)(2) = 40\\pi \\approx 125.66 \\text{ m}^2/\\text{s}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "ineq-linear-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Divide All Parts by 2",
+        "text": "$-4 < 2x \\leq 8$\n$\\frac{-4}{2} < \\frac{2x}{2} \\leq \\frac{8}{2}$\n$-2 < x \\leq 4$\n\nSince we're dividing by a positive number, the signs don't change.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "ineq-linear-003b-h2",
+        "type": "hint",
+        "dependencies": ["ineq-linear-003b-h1"],
+        "title": "Convert to Interval Notation",
+        "text": "$-2 < x \\leq 4$ means:\n- x is greater than -2 (not including -2)\n- x is less than or equal to 4 (including 4)\n\nInterval notation: $(-2, 4]$\n- Round bracket at -2 (not included)\n- Square bracket at 4 (included)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "ineq-linear-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(-2,4]"],
+        "dependencies": ["ineq-linear-003b-h2"],
+        "title": "Final Answer",
+        "text": "$-2 < x \\leq 4$\n\nInterval notation: $(-2, 4]$\n\nOn a number line: open circle at -2, closed circle at 4, shaded between.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

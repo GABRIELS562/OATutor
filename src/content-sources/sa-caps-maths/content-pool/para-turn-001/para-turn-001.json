@@ -1,0 +1,10 @@
+{
+    "id": "para-turn-001",
+    "title": "Finding the Turning Point of a Parabola",
+    "body": "Given the parabola $y = x^2 - 6x + 5$.\n\nDetermine the coordinates of the turning point.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 11)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Functions and Graphs - Parabolas",
+    "courseName": "CAPS Grade 11 Mathematics"
+}

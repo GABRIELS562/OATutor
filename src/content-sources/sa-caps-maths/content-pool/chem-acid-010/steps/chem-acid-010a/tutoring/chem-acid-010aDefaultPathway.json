@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-acid-010a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Break Down Scientific Notation",
+        "text": "For 2.5 x 10^-4, separate it into log(2.5) and log(10^-4). Remember that log(10^-4) = -4.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-010a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate log(2.5)",
+        "text": "Using your calculator, log(2.5) = 0.398 (approximately 0.4)",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-010a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Add the Values",
+        "text": "log(2.5 x 10^-4) = 0.398 + (-4) = -3.602 (round to -3.60)",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,15 @@
+{
+  "id": "bio-class-005b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "endemic",
+    "endemism"
+  ],
+  "stepExplanation": "Endemic species are found only in one specific geographic area. The Cape Floristic Region has extremely high endemism - about 70% of its plant species are endemic (found nowhere else). This makes the region irreplaceable for global biodiversity.",
+  "stepTitle": "Unique Species",
+  "stepBody": "What term describes species that are found only in one specific geographic location?"
+}

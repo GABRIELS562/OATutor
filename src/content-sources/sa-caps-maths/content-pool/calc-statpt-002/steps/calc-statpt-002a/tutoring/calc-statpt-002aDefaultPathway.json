@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-statpt-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find First and Second Derivatives",
+        "text": "$f(x) = x^3 - 3x^2 - 9x + 5$\n\n$f'(x) = 3x^2 - 6x - 9$\n\n$f''(x) = 6x - 6$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-statpt-002a-h2",
+        "type": "hint",
+        "dependencies": ["calc-statpt-002a-h1"],
+        "title": "Solve f''(x) = 0",
+        "text": "Set $f''(x) = 0$:\n\n$6x - 6 = 0$\n\n$6x = 6$\n\n$x = 1$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-statpt-002a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x=1"],
+        "dependencies": ["calc-statpt-002a-h2"],
+        "title": "x-coordinate",
+        "text": "The potential point of inflection is at $x = 1$.\n\nWe need to verify that concavity actually changes at this point.",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

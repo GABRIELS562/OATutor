@@ -1,0 +1,18 @@
+{
+  "id": "phys-gravity-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "2.05 × 10²⁰",
+    "2.05 x 10^20",
+    "2.05e20",
+    "2.0 × 10²⁰",
+    "2 × 10²⁰"
+  ],
+  "stepExplanation": "Substituting into F = Gm₁m₂/r²:\n$$F = \\frac{(6.67 \\times 10^{-11})(6.0 \\times 10^{24})(7.4 \\times 10^{22})}{(3.8 \\times 10^8)^2}$$\n$$F = \\frac{2.96 \\times 10^{37}}{1.44 \\times 10^{17}}$$\n$$F = 2.05 \\times 10^{20} \\text{ N}$$",
+  "stepTitle": "Calculate the Gravitational Force",
+  "stepBody": "Substitute the values into F = Gm₁m₂/r² and calculate the gravitational force. Express your answer in scientific notation (e.g., 2.05 × 10²⁰ N)."
+}

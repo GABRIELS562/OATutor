@@ -1,0 +1,38 @@
+[
+    {
+        "id": "geo-prop-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Proportion Theorem Statement",
+        "text": "**Proportion Theorem (Midpoint Theorem generalization):**\n\nIf a line is drawn parallel to one side of a triangle, it divides the other two sides in the same ratio.\n\nDE || BC implies: $$\\frac{AD}{DB} = \\frac{AE}{EC}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "geo-prop-001a-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["0.6"],
+        "dependencies": ["geo-prop-001a-h1"],
+        "title": "Calculate the Ratio AD/DB",
+        "text": "$$\\frac{AD}{DB} = \\frac{3}{5} = ?$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "geo-prop-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["7.5"],
+        "dependencies": ["geo-prop-001a-h2"],
+        "title": "Solve for EC",
+        "text": "$$\\frac{3}{5} = \\frac{4.5}{EC}$$\n\nCross multiply: $$3 \\times EC = 5 \\times 4.5 = 22.5$$\n\n$$EC = \\frac{22.5}{3} = ?$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    }
+]

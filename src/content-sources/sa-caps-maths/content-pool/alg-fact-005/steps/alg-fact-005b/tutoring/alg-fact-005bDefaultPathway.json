@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-fact-005b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate the Second Bracket",
+        "text": "For $a^2 + ab + b^2$ with $a = 2x$ and $b = 3$:\n\n- $a^2 = (2x)^2 = 4x^2$\n- $ab = (2x)(3) = 6x$\n- $b^2 = 3^2 = 9$\n\nSo: $a^2 + ab + b^2 = 4x^2 + 6x + 9$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-fact-005b-h2",
+        "type": "hint",
+        "dependencies": ["alg-fact-005b-h1"],
+        "title": "Memory Aid",
+        "text": "For **difference** of cubes ($a^3 - b^3$):\n\n$(a - b)(a^2 + ab + b^2)$ - SOAP: **S**ame sign, **O**pposite sign, **A**lways **P**ositive\n\nThe first bracket has the SAME sign as the original.\nThe middle term has the OPPOSITE sign.\nThe last term is ALWAYS POSITIVE.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-fact-005b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(2x - 3)(4x^2 + 6x + 9)"],
+        "dependencies": ["alg-fact-005b-h2"],
+        "title": "Final Answer",
+        "text": "$8x^3 - 27 = (2x - 3)(4x^2 + 6x + 9)$\n\nNote: The trinomial $4x^2 + 6x + 9$ cannot be factorised further over the real numbers.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    }
+]

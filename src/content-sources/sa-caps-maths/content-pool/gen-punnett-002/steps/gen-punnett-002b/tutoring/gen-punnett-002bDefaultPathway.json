@@ -1,0 +1,22 @@
+[
+  {
+    "id": "gen-punnett-002b-h1",
+    "type": "hint",
+    "title": "Product Rule",
+    "text": "When two independent events must both occur, multiply their individual probabilities. For B_ from Bb x Bb: 3/4 show dominant phenotype.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "gen-punnett-002b-h2",
+    "type": "hint",
+    "title": "Recessive Phenotype Probability",
+    "text": "For ss from Ss x Ss: only 1/4 are homozygous recessive (ss). So black fur (3/4) AND long hair (1/4) = 3/4 x 1/4 = 3/16.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

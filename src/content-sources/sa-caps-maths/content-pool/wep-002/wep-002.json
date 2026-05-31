@@ -1,0 +1,14 @@
+{
+  "id": "wep-002",
+  "title": "Conservation of Mechanical Energy",
+  "body": "A 2 kg ball is dropped from a height of 20 m above the ground. Ignoring air resistance and taking g = 10 m/s², calculate the speed of the ball when it is 5 m above the ground.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-newtons-laws"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

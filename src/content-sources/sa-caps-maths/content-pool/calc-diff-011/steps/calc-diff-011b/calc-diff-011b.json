@@ -1,0 +1,10 @@
+{
+    "id": "calc-diff-011b",
+    "stepAnswer": ["1/(2sqrt(x))", "1/(2*sqrt(x))", "0.5/sqrt(x)", "0.5x^(-0.5)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Rationalise and Find the Limit",
+    "stepBody": "Rationalise the numerator by multiplying by $\\frac{\\sqrt{x+h} + \\sqrt{x}}{\\sqrt{x+h} + \\sqrt{x}}$, simplify, then take the limit as $h \\to 0$.\n\nWhat is $f'(x)$? Express using sqrt() notation:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["first-principles", "limits", "differentiation", "rationalising"]
+}

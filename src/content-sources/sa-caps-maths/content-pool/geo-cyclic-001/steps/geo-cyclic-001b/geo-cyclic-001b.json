@@ -1,0 +1,10 @@
+{
+    "id": "geo-cyclic-001b",
+    "stepAnswer": ["95"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find angle D",
+    "stepBody": "Using the same property for the other pair of opposite angles.\n\nIf angle B = 85°, calculate angle D.",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["geo-cyclic-quad"]
+}

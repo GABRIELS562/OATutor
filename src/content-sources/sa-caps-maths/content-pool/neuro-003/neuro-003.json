@@ -1,0 +1,13 @@
+{
+  "id": "neuro-003",
+  "title": "Nervous System - Synaptic Transmission",
+  "body": "At a synapse, a nerve impulse must cross the synaptic cleft to reach the next neuron. Explain the role of neurotransmitters in this process and describe what happens when the neurotransmitter binds to receptors on the postsynaptic membrane.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-reflex-arc"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

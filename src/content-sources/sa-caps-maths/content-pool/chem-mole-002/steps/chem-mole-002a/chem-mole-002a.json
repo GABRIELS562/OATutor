@@ -1,0 +1,15 @@
+{
+  "id": "chem-mole-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.5",
+    "0,5"
+  ],
+  "stepExplanation": "n(Mg) = m/M = 12/24 = 0.5 mol",
+  "stepTitle": "Moles of Magnesium",
+  "stepBody": "Calculate the number of moles of Mg that reacts. (M of Mg = 24 g/mol)"
+}

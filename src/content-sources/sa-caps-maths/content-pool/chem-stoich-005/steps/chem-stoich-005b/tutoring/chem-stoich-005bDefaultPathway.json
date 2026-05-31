@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-stoich-005b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Convert Volume",
+        "text": "500 cm^3 / 1000 = 0.5 dm^3",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-005b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply Formula",
+        "text": "C = n/V = 0.1 mol / 0.5 dm^3",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-005b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate",
+        "text": "C = 0.2 mol/dm^3",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

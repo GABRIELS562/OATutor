@@ -1,0 +1,10 @@
+{
+    "id": "calc-diff-010a",
+    "stepAnswer": ["x^2+2xh+h^2-4x-4h+3", "(x+h)^2-4(x+h)+3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find f(x+h)",
+    "stepBody": "Substitute $(x+h)$ for $x$ in $f(x) = x^2 - 4x + 3$.\n\nWrite the fully expanded form of $f(x+h)$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["first-principles", "substitution", "algebraic-expansion"]
+}

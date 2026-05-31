@@ -1,0 +1,14 @@
+{
+  "id": "phys-optics-001",
+  "title": "Optics - Snell's Law and Refraction",
+  "body": "A ray of light travels from air into glass. The angle of incidence is 45° and the refractive index of glass is 1.5. Calculate the angle of refraction.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-optics"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

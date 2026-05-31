@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-photo-002a-h1",
+    "type": "hint",
+    "title": "Photon Energy Formula",
+    "text": "The energy of a photon is E = hf where h is Planck's constant and f is frequency.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-photo-002a-h2",
+    "type": "hint",
+    "title": "Calculation",
+    "text": "E = hf = 6.63 x 10^-34 x 8.0 x 10^14. Multiply the numbers: 6.63 x 8.0 = 53.04. Add the exponents: -34 + 14 = -20. So E = 53.04 x 10^-20 = 5.30 x 10^-19 J.",
+    "variabilization": {},
+    "dependencies": ["phys-photo-002a-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "id": "phys-emfield-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "942",
+    "942.5",
+    "942 V",
+    "943"
+  ],
+  "stepExplanation": "The maximum EMF for an AC generator is:\n$$\\varepsilon_{max} = NAB\\omega$$\n$$\\varepsilon_{max} = 150 \\times 0.04 \\times 0.5 \\times 314$$\n$$\\varepsilon_{max} = 150 \\times 0.04 \\times 0.5 \\times 314 = 942 \\text{ V}$$",
+  "stepTitle": "Calculate Maximum EMF",
+  "stepBody": "Using ε_max = NABω, calculate the maximum EMF. Given: N = 150, A = 0.04 m², B = 0.5 T, ω = 314 rad/s. Give your answer in Volts."
+}

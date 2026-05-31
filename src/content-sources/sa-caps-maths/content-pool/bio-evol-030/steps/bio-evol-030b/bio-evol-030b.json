@@ -1,0 +1,17 @@
+{
+  "id": "bio-evol-030b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "increases",
+    "more resistant",
+    "increase",
+    "higher proportion"
+  ],
+  "stepExplanation": "Over generations with continued antibiotic exposure, the proportion of resistant bacteria INCREASES. This is because: (1) Non-resistant bacteria die - they cannot reproduce, (2) Resistant bacteria survive and reproduce, passing the resistance gene to offspring, (3) The resistance allele frequency increases in the population, (4) Eventually, most or all of the population carries the resistance gene. This is evolution by natural selection - a change in allele frequency over generations due to differential survival and reproduction.",
+  "stepTitle": "Population Change Over Time",
+  "stepBody": "After several generations of antibiotic exposure, what happens to the proportion of resistant bacteria in the population? Does it increase, decrease, or stay the same?"
+}

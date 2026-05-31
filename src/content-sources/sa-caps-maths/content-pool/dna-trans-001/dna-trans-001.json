@@ -1,0 +1,13 @@
+{
+  "id": "dna-trans-001",
+  "title": "DNA - Transcription Process",
+  "body": "A DNA template strand has the sequence: 3'-TACGGATCAATT-5'. What will be the sequence of the mRNA produced during transcription?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-protein-synthesis"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "bio-eco-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "4",
+    "four",
+    "4 trophic levels"
+  ],
+  "stepExplanation": "The food web has **4 trophic levels**:\n\n1. **Producers** (Trophic Level 1): Grass - makes food through photosynthesis\n2. **Primary Consumers** (Trophic Level 2): Grasshopper, Mouse, Rabbit - herbivores\n3. **Secondary Consumers** (Trophic Level 3): Frog, Snake, Owl - carnivores eating herbivores\n4. **Tertiary Consumers** (Trophic Level 4): Hawk, Owl - top predators\n\nNote: Some organisms like the owl can occupy multiple trophic levels depending on what they eat.",
+  "stepTitle": "Identify Trophic Levels",
+  "stepBody": "How many trophic levels are present in this food web? Count from producers to top predators."
+}

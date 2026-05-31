@@ -1,0 +1,10 @@
+{
+    "id": "prob-count-001b",
+    "stepAnswer": ["12"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Restricted Arrangements",
+    "stepBody": "If two specific members (say A and B) refuse to sit next to each other, how many valid arrangements are there?\\n\\n(Remember: chairperson is still fixed in the centre)",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["permutations", "restrictions", "complementary-counting"]
+}

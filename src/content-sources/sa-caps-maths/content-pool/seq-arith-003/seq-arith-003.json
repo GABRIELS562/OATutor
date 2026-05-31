@@ -1,0 +1,10 @@
+{
+    "id": "seq-arith-003",
+    "title": "Arithmetic Sequence: Finding Number of Terms",
+    "body": "In an arithmetic sequence, the first term is 2 and the last term is 98. The common difference is 4.\n\na) How many terms are in this sequence?\nb) What is the sum of all the terms?",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Sequences and Series",
+    "license": "CC BY 4.0",
+    "lesson": "Arithmetic Sequences",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

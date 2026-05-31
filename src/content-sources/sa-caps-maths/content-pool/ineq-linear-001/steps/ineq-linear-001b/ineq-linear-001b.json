@@ -1,0 +1,10 @@
+{
+    "id": "ineq-linear-001b",
+    "stepAnswer": ["(-infinity,4)", "(-inf,4)", "x<4"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Interval Notation",
+    "stepBody": "Write the solution $x < 4$ in interval notation.\n\nOn a number line, this would be represented with an open circle at 4 and an arrow pointing left.\n\nEnter as: (-infinity,4)",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["inequalities", "interval-notation"]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "geo-proof-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "70",
+    "70°"
+  ],
+  "stepExplanation": "∠ACB = ∠AOB ÷ 2 = 140° ÷ 2 = 70°",
+  "stepTitle": "Calculate ∠ACB",
+  "stepBody": "If ∠AOB = 140°, calculate ∠ACB."
+}

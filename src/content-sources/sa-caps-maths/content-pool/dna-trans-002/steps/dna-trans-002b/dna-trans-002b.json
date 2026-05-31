@@ -1,0 +1,16 @@
+{
+  "id": "dna-trans-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "Met-Ala-Tyr",
+    "Methionine-Alanine-Tyrosine",
+    "Met, Ala, Tyr"
+  ],
+  "stepExplanation": "AUG = Methionine (Met), GCU = Alanine (Ala), UAC = Tyrosine (Tyr), UGA = Stop. The polypeptide is **Met-Ala-Tyr** (3 amino acids).",
+  "stepTitle": "Translate to Amino Acids",
+  "stepBody": "Using the genetic code provided, translate each codon to its amino acid. What is the amino acid sequence? (Remember: stop codons terminate translation)"
+}

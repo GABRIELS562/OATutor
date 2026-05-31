@@ -1,0 +1,17 @@
+{
+  "id": "chem-acid-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.01",
+    "0,01",
+    "1 × 10⁻²",
+    "10⁻²"
+  ],
+  "stepExplanation": "pH = -log[H⁺], so [H⁺] = 10^(-pH) = 10^(-2) = 0.01 mol/dm³",
+  "stepTitle": "Hydrogen Ion Concentration",
+  "stepBody": "Use the formula [H⁺] = 10^(-pH) to calculate the hydrogen ion concentration in mol/dm³."
+}

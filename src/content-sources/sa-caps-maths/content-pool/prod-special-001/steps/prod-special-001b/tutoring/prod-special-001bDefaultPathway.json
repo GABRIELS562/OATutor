@@ -1,0 +1,35 @@
+[
+    {
+        "id": "prod-special-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply the Formula",
+        "text": "Using $a^2 - b^2 = (a + b)(a - b)$\n\nWith $a = x$ and $b = 7$:\n\n$x^2 - 7^2 = (x + 7)(x - 7)$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "prod-special-001b-h2",
+        "type": "hint",
+        "dependencies": ["prod-special-001b-h1"],
+        "title": "Verify by Expanding",
+        "text": "You can verify by expanding:\n\n$(x + 7)(x - 7)$\n$= x^2 - 7x + 7x - 49$\n$= x^2 - 49$ (correct!)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "prod-special-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(x+7)(x-7)"],
+        "dependencies": ["prod-special-001b-h2"],
+        "title": "Final Answer",
+        "text": "$x^2 - 49 = (x + 7)(x - 7)$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

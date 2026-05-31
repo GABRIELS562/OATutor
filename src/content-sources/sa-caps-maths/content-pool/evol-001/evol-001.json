@@ -1,0 +1,13 @@
+{
+  "id": "evol-001",
+  "title": "Evolution - Natural Selection in Action",
+  "body": "Before industrialization in England, most peppered moths were light-colored, with few dark moths. After factories covered trees with soot, dark moths became more common. Explain how natural selection caused this change using Darwin's principles.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-natural-selection"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-comp-012a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Tangent Compound Formulas",
+        "text": "The tangent compound angle formulas are:\n- $$\\tan(A + B) = \\frac{\\tan A + \\tan B}{1 - \\tan A \\tan B}$$\n- $$\\tan(A - B) = \\frac{\\tan A - \\tan B}{1 + \\tan A \\tan B}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-comp-012a-h2",
+        "type": "hint",
+        "dependencies": ["trig-comp-012a-h1"],
+        "title": "Memory Aid",
+        "text": "For tan(A + B): numerator has PLUS, denominator has MINUS\nFor tan(A - B): numerator has MINUS, denominator has PLUS\n\nThink: opposite signs in numerator and denominator.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-comp-012a-h3",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": ["(tan A + tan B)/(1 - tan A tan B)"],
+        "dependencies": ["trig-comp-012a-h2"],
+        "title": "Confirm Formula",
+        "text": "$$\\tan(A + B) = \\frac{\\tan A + \\tan B}{1 - \\tan A \\tan B}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

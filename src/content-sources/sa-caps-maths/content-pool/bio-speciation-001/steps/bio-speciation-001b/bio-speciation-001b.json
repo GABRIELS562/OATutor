@@ -1,0 +1,16 @@
+{
+  "id": "bio-speciation-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "allopatric",
+    "Allopatric",
+    "allopatric speciation"
+  ],
+  "stepExplanation": "ALLOPATRIC speciation occurs when populations are geographically separated",
+  "stepTitle": "Speciation Type",
+  "stepBody": "What is the name for speciation caused by geographic isolation?"
+}

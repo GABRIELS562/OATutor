@@ -1,0 +1,61 @@
+[
+    {
+        "id": "trig-compound-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Compound Angle Formula",
+        "text": "The cosine addition formula is:\\n$$\\cos(A + B) = \\cos A \\cos B - \\sin A \\sin B$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-compound-001b-h2",
+        "type": "hint",
+        "dependencies": ["trig-compound-001b-h1"],
+        "title": "Substitute Values",
+        "text": "$$\\cos 75° = \\cos(45° + 30°)$$\\n$$= \\cos 45° \\cdot \\cos 30° - \\sin 45° \\cdot \\sin 30°$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-compound-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["sqrt(6)/4"],
+        "dependencies": ["trig-compound-001b-h2"],
+        "title": "Calculate First Term",
+        "text": "Calculate $$\\cos 45° \\cdot \\cos 30°$$:\\n$$= \\frac{\\sqrt{2}}{2} \\cdot \\frac{\\sqrt{3}}{2} = ?$$\\n\\nEnter as: sqrt(6)/4",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-compound-001b-h4",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["sqrt(2)/4"],
+        "dependencies": ["trig-compound-001b-h3"],
+        "title": "Calculate Second Term",
+        "text": "Calculate $$\\sin 45° \\cdot \\sin 30°$$:\\n$$= \\frac{\\sqrt{2}}{2} \\cdot \\frac{1}{2} = ?$$\\n\\nEnter as: sqrt(2)/4",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-compound-001b-h5",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(sqrt(6)-sqrt(2))/4"],
+        "dependencies": ["trig-compound-001b-h4"],
+        "title": "Final Answer",
+        "text": "Now subtract:\\n$$\\cos 75° = \\frac{\\sqrt{6}}{4} - \\frac{\\sqrt{2}}{4} = \\frac{\\sqrt{6} - \\sqrt{2}}{4}$$\\n\\nEnter as: (sqrt(6)-sqrt(2))/4",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,17 @@
+{
+  "id": "phys-power-001",
+  "title": "Power Calculation",
+  "body": "A motor lifts a 100 kg mass through 5 m in 10 seconds. Calculate the power output. (g = 10 m/s²)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-newtons-laws"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

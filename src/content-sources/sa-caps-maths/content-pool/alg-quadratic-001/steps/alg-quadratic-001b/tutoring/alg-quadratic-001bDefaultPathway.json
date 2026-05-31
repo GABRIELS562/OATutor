@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-quadratic-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Zero Product Property",
+        "text": "If $A \\times B = 0$, then either $A = 0$ or $B = 0$ (or both).\\n\\nApply this to $(x-2)(x-3) = 0$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-quadratic-001b-h2",
+        "type": "hint",
+        "dependencies": ["alg-quadratic-001b-h1"],
+        "title": "Solve Each Factor",
+        "text": "Set each factor equal to zero:\\n\\n$x - 2 = 0 \\Rightarrow x = 2$\\n\\n$x - 3 = 0 \\Rightarrow x = 3$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-quadratic-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x=2 or x=3"],
+        "dependencies": ["alg-quadratic-001b-h2"],
+        "title": "State the Solution",
+        "text": "$$x = 2$$ or $$x = 3$$\\n\\nVerify $x=2$: $2^2 - 5(2) + 6 = 4 - 10 + 6 = 0$ ✓\\nVerify $x=3$: $3^2 - 5(3) + 6 = 9 - 15 + 6 = 0$ ✓",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

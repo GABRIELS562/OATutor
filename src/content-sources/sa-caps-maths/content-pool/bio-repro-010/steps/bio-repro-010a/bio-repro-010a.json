@@ -1,0 +1,15 @@
+{
+  "id": "bio-repro-010a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "4",
+    "four"
+  ],
+  "stepExplanation": "One primary spermatocyte undergoes meiosis I to form 2 secondary spermatocytes, then meiosis II produces 4 spermatids, which mature into 4 sperm cells.",
+  "stepTitle": "Number of Sperm Cells",
+  "stepBody": "After meiosis I and meiosis II are complete, how many sperm cells are produced from one primary spermatocyte?"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "endo-002a-h1",
+    "type": "hint",
+    "title": "Hypothalamus-Pituitary-Thyroid Axis",
+    "text": "This is a three-level control system. The hypothalamus controls the pituitary, which controls the thyroid. But the thyroid's output (thyroxine) feeds back to both higher levels.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "endo-002a-h2",
+    "type": "hint",
+    "title": "Hormone Receptors",
+    "text": "Both the hypothalamus and anterior pituitary have receptors for thyroxine. When thyroxine binds these receptors, it signals that enough hormone is present in the blood.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

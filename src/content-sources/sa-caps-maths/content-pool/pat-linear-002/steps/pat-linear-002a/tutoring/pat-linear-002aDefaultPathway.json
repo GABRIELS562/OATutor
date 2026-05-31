@@ -1,0 +1,35 @@
+[
+    {
+        "id": "pat-linear-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find the Common Difference",
+        "text": "The common difference $d$ is found by subtracting consecutive terms:\n\n$d = T_2 - T_1 = 1 - (-4) = 1 + 4 = 5$\n\nThe common difference is $d = 5$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "pat-linear-002a-h2",
+        "type": "hint",
+        "dependencies": ["pat-linear-002a-h1"],
+        "title": "Apply the Formula",
+        "text": "Using $T_n = a + (n-1)d$ where $a = -4$ and $d = 5$:\n\n$T_n = -4 + (n-1)(5)$\n$T_n = -4 + 5n - 5$\n$T_n = 5n - 9$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "pat-linear-002a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["5n-9"],
+        "dependencies": ["pat-linear-002a-h2"],
+        "title": "General Term",
+        "text": "The general term is $T_n = 5n - 9$\n\nVerify: $T_1 = 5(1) - 9 = -4$ (correct!)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

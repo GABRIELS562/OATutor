@@ -1,0 +1,10 @@
+{
+    "id": "func-inv-012b",
+    "stepAnswer": ["3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate f^(-1)(8)",
+    "stepBody": "Calculate $f^{-1}(8) = \\log_2(8)$ without a calculator.\n\nEnter your numerical answer:",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "knowledgeComponents": ["logarithms", "exponential-functions"]
+}

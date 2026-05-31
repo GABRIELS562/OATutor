@@ -1,0 +1,16 @@
+{
+  "id": "evol-003b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "common ancestor",
+    "they share a common ancestor",
+    "descended from a common ancestor with this limb structure"
+  ],
+  "stepExplanation": "The shared bone structure indicates that humans, whales, bats, and dogs all **descended from a common ancestor** that had this basic limb pattern. This ancestral structure was modified over millions of years by natural selection to perform different functions in different environments.",
+  "stepTitle": "What Does This Suggest?",
+  "stepBody": "What does the presence of homologous structures in these four very different animals suggest about their evolutionary history?"
+}

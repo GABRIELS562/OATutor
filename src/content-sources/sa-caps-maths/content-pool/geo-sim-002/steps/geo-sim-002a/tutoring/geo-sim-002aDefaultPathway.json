@@ -1,0 +1,22 @@
+[
+    {
+        "id": "geo-sim-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Parallel Line and Transversal",
+        "text": "When a line is parallel to one side of a triangle and intersects the other two sides, it creates a smaller similar triangle.\n\nST || QR creates corresponding angles with transversals PQ and PR.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "geo-sim-002a-h2",
+        "type": "hint",
+        "dependencies": ["geo-sim-002a-h1"],
+        "title": "Similarity Criteria",
+        "text": "**AAA (Angle-Angle-Angle):** If all three angles of one triangle equal the three angles of another triangle, the triangles are similar.\n\nWe have shown all three pairs of angles are equal:\n- Angle P = Angle P (common)\n- Angle PST = Angle PQR (corresponding)\n- Angle PTS = Angle PRQ (corresponding)",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    }
+]

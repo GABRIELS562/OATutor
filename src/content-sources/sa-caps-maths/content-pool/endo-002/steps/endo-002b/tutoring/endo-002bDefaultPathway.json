@@ -1,0 +1,22 @@
+[
+  {
+    "id": "endo-002b-h1",
+    "type": "hint",
+    "title": "Negative vs Positive Feedback",
+    "text": "Negative feedback opposes the initial change to maintain homeostasis. Positive feedback amplifies the initial change (rare in hormonal systems, e.g., oxytocin during childbirth).",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "endo-002b-h2",
+    "type": "hint",
+    "title": "Inhibition Pathway",
+    "text": "High thyroxine inhibits TRH release, so less TSH is released, so less thyroxine is produced. The cycle continues until thyroxine drops to normal levels, when inhibition decreases.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

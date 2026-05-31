@@ -1,0 +1,16 @@
+{
+  "id": "chem-electro-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "string",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "zinc",
+    "Zinc",
+    "Zn"
+  ],
+  "stepExplanation": "The electrode with the more negative (lower) reduction potential is oxidized and acts as the anode. Zn (-0.76 V) < Ag (+0.80 V), so zinc is the anode.",
+  "stepTitle": "Identify the Anode",
+  "stepBody": "Which electrode acts as the anode? (Hint: The anode is where oxidation occurs - the electrode with lower reduction potential.)"
+}

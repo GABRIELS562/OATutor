@@ -1,0 +1,35 @@
+[
+    {
+        "id": "eq-simult-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Add the Equations",
+        "text": "Adding equations (1) and (2):\n\n$(x + y) + (x - y) = 15 + 3$\n$2x = 18$\n$x = 9$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "eq-simult-003b-h2",
+        "type": "hint",
+        "dependencies": ["eq-simult-003b-h1"],
+        "title": "Find y",
+        "text": "Substitute $x = 9$ into equation (1):\n\n$9 + y = 15$\n$y = 6$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "eq-simult-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x=9,y=6"],
+        "dependencies": ["eq-simult-003b-h2"],
+        "title": "Final Answer",
+        "text": "The two numbers are 9 and 6.\n\nVerify: Sum = $9 + 6 = 15$ (correct!)\nDifference = $9 - 6 = 3$ (correct!)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

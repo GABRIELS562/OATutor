@@ -1,0 +1,18 @@
+{
+  "id": "bio-eco-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "heat",
+    "heat energy",
+    "cellular respiration",
+    "respiration",
+    "metabolic processes"
+  ],
+  "stepExplanation": "The other **90% of energy** is lost mainly as:\n\n1. **Heat energy** - released during cellular respiration and metabolic processes\n2. **Movement and activity** - energy used for locomotion, hunting, escaping predators\n3. **Undigested material** - energy in faeces and urine (egested, not absorbed)\n4. **Growth and reproduction** - energy used but not transferred when eaten\n\nThis is why:\n- Food chains rarely exceed 4-5 trophic levels\n- There is less biomass at higher trophic levels\n- Top predators are relatively rare in ecosystems",
+  "stepTitle": "Explain Energy Loss",
+  "stepBody": "What is the PRIMARY form in which the 90% of energy is lost between trophic levels?"
+}

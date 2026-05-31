@@ -1,0 +1,22 @@
+[
+  {
+    "id": "endo-003a-h1",
+    "type": "hint",
+    "title": "Adrenal Gland Anatomy",
+    "text": "The adrenal glands sit on top of the kidneys. Each has two parts: the outer cortex (produces cortisol) and the inner medulla (produces adrenaline/noradrenaline).",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "endo-003a-h2",
+    "type": "hint",
+    "title": "Rapid Response System",
+    "text": "Unlike most endocrine responses, the adrenal medulla is directly controlled by the sympathetic nervous system, allowing near-instant hormone release during emergencies.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

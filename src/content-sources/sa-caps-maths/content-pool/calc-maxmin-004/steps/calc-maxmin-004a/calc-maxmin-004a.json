@@ -1,0 +1,10 @@
+{
+    "id": "calc-maxmin-004a",
+    "stepAnswer": ["20", "20 m/s", "v=20m/s"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find Velocity After 2 Seconds",
+    "stepBody": "Velocity is the rate of change of height with respect to time.\n\nGiven: $h(t) = 40t - 5t^2$\n\nFind $v(t) = \\frac{dh}{dt}$ and calculate $v(2)$.\n\nWhat is the velocity after 2 seconds (in m/s)?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "rate-of-change"]
+}

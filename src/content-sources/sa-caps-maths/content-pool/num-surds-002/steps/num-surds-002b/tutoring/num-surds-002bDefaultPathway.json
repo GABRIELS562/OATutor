@@ -1,0 +1,35 @@
+[
+    {
+        "id": "num-surds-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Multiply the Numerator",
+        "text": "Numerator: $6 \\times (\\sqrt{3} - 1) = 6\\sqrt{3} - 6$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "num-surds-002b-h2",
+        "type": "hint",
+        "dependencies": ["num-surds-002b-h1"],
+        "title": "Multiply the Denominator (Difference of Squares)",
+        "text": "Denominator uses $(a+b)(a-b) = a^2 - b^2$:\n\n$(\\sqrt{3} + 1)(\\sqrt{3} - 1) = (\\sqrt{3})^2 - 1^2 = 3 - 1 = 2$\n\nThis is why the conjugate works - it eliminates the surd!",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "num-surds-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["3sqrt(3)-3"],
+        "dependencies": ["num-surds-002b-h2"],
+        "title": "Simplify the Fraction",
+        "text": "$$\\frac{6\\sqrt{3} - 6}{2} = \\frac{6\\sqrt{3}}{2} - \\frac{6}{2} = 3\\sqrt{3} - 3$$\n\nThis can also be written as $3(\\sqrt{3} - 1)$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

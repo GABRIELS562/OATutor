@@ -1,0 +1,10 @@
+{
+    "id": "fin-annuity-003b",
+    "stepAnswer": ["R4679.33", "4679.33", "R4 679.33", "4679,33"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate the Monthly Payment",
+    "stepBody": "Using $x = \\frac{Fi}{(1+i)^n - 1}$ with:\n- $F = 450000$ (target amount)\n- $i = \\frac{0.09}{12} = 0.0075$ (monthly rate)\n- $n = 6 \\times 12 = 72$ (months)\n\nCalculate the monthly payment into the sinking fund (round to the nearest cent):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["annuities", "sinking-fund", "calculation"]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "bio-repro-012a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "follicle development",
+    "stimulates follicle growth",
+    "follicle maturation"
+  ],
+  "stepExplanation": "FSH (Follicle Stimulating Hormone) stimulates the development and maturation of ovarian follicles. It also stimulates the follicle cells to produce oestrogen.",
+  "stepTitle": "Role of FSH",
+  "stepBody": "What is the primary function of Follicle Stimulating Hormone (FSH) during the follicular phase?"
+}

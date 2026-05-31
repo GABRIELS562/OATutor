@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-optimize-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Draw a Diagram",
+        "text": "Draw a rectangle with river on one side.\\n\\n```\\n    River (no fence needed)\\n    ────────────────────\\n    |                  |\\n  x |                  | x\\n    |                  |\\n    ────────────────────\\n         y (fence)\\n```",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "calc-optimize-001a-h2",
+        "type": "hint",
+        "dependencies": ["calc-optimize-001a-h1"],
+        "title": "Set Up Perimeter Equation",
+        "text": "Fencing needed: $2x + y = 200$ (two perpendicular sides + one parallel side)\\n\\nSolve for $y$: $y = 200 - 2x$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "calc-optimize-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["200-2x"],
+        "dependencies": ["calc-optimize-001a-h2"],
+        "title": "Side Along River",
+        "text": "The side along the river is:\\n\\n$y = 200 - 2x$ metres",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "id": "calc-optimize-001a",
+    "stepAnswer": ["200-2x", "200 - 2x"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Express Side Along River",
+    "stepBody": "Let $x$ be the length of each side perpendicular to the river.\\n\\nIf total fencing is 200m and we use two sides of length $x$, what is the length of the side along the river (in terms of $x$)?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["optimization", "modelling"]
+}

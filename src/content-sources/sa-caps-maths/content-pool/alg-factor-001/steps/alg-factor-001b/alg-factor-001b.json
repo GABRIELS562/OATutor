@@ -1,0 +1,10 @@
+{
+    "id": "alg-factor-001b",
+    "stepAnswer": ["(x+3)(x+4)", "(x+4)(x+3)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Write the Factorised Form",
+    "stepBody": "Using the numbers 3 and 4, write the expression in factorised form.\n\nThe general pattern is: $x^2 + (a+b)x + ab = (x+a)(x+b)$\n\nEnter the factorised form of $x^2 + 7x + 12$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "trinomials"]
+}

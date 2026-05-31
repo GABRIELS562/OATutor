@@ -1,0 +1,35 @@
+[
+    {
+        "id": "geo-cyclic-010b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Exterior Angle Theorem",
+        "text": "**Theorem:** The exterior angle of a cyclic quadrilateral is equal to the interior opposite angle.\n\nAngle RQT (exterior at Q) = Angle S (interior opposite angle)",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "geo-cyclic-010b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["77"],
+        "dependencies": ["geo-cyclic-010b-h1"],
+        "title": "Calculate Angle S",
+        "text": "Angle S = angle PSR + angle PRS = 35 + 42 = ?",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "geo-cyclic-010b-h3",
+        "type": "hint",
+        "dependencies": ["geo-cyclic-010b-h2"],
+        "title": "Final Answer",
+        "text": "Therefore, $$\\angle RQT = \\angle S = 77°$$\n\n(Exterior angle of cyclic quadrilateral equals interior opposite angle)",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    }
+]

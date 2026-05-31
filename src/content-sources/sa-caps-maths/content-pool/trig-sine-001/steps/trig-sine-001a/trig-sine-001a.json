@@ -1,0 +1,16 @@
+{
+    "id": "trig-sine-001a",
+    "stepAnswer": ["a/sin(A) = b/sin(B)"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 1: Write the Sine Rule",
+    "stepBody": "Which form of the Sine Rule should we use to find a missing side?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["sine-rule"],
+    "choices": [
+        "a/sin(A) = b/sin(B)",
+        "sin(A)/a = sin(B)/b",
+        "a² = b² + c² - 2bc·cos(A)",
+        "Area = ½ab·sin(C)"
+    ]
+}

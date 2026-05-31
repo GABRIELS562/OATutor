@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-linear-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Combine Like Terms",
+        "text": "Group the x-terms and constants:\\n\\n$$2x + 2x - 3 + 2 = 20$$\\n$$4x - 1 = 20$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-linear-001b-h2",
+        "type": "hint",
+        "dependencies": ["alg-linear-001b-h1"],
+        "title": "Isolate x",
+        "text": "Add 1 to both sides:\\n$$4x = 21$$\\n\\nDivide by 4:\\n$$x = \\frac{21}{4}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-linear-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["21/4"],
+        "dependencies": ["alg-linear-001b-h2"],
+        "title": "Final Answer",
+        "text": "$$x = \\frac{21}{4} = 5.25$$\\n\\nYou can verify: $\\frac{2(5.25)-3}{4} + \\frac{5.25+1}{2} = \\frac{7.5}{4} + \\frac{6.25}{2} = 1.875 + 3.125 = 5$ ✓",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

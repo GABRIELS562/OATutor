@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-repro-012b-h1",
+    "type": "hint",
+    "title": "LH Surge",
+    "text": "Around day 14, high oestrogen levels trigger a sudden surge (rapid increase) in LH from the pituitary gland.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-repro-012b-h2",
+    "type": "hint",
+    "title": "LH and Ovulation",
+    "text": "The LH surge causes the mature follicle (Graafian follicle) to rupture and release its egg. This process is called ovulation. LH also converts the empty follicle into the corpus luteum.",
+    "variabilization": {},
+    "dependencies": ["bio-repro-012b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

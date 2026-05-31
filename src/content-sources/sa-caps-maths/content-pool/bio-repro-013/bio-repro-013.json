@@ -1,0 +1,17 @@
+{
+  "id": "bio-repro-013",
+  "title": "Pregnancy - Implantation and Early Development",
+  "body": "After fertilization, the zygote undergoes cell division as it travels down the fallopian tube. Describe the key events from fertilization to implantation.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-pregnancy"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

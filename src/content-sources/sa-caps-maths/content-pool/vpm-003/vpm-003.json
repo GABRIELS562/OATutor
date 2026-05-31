@@ -1,0 +1,14 @@
+{
+  "id": "vpm-003",
+  "title": "Vertical Projectile Motion - Object Thrown Downward",
+  "body": "A ball is thrown vertically downward from the top of a 80 m tall building with an initial velocity of 5 m/s. Taking g = 10 m/s², calculate the velocity of the ball just before it hits the ground.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-projectile"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

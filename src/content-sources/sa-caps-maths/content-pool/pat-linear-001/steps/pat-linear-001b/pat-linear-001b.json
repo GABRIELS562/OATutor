@@ -1,0 +1,10 @@
+{
+    "id": "pat-linear-001b",
+    "stepAnswer": ["62"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate the 20th Term",
+    "stepBody": "Using the general term $T_n = 3n + 2$, calculate $T_{20}$.\n\nWhat is the value of the 20th term?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["arithmetic-sequence", "substitution"]
+}

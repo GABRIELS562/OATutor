@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-evol-020a-h1",
+    "type": "hint",
+    "title": "Transitional Fossils",
+    "text": "In evolutionary biology, transitional fossils are important because they show intermediate characteristics between ancestral and descendant groups. Look for features that combine traits of both apes and humans.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/human-evolution",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-evol-020a-h2",
+    "type": "hint",
+    "title": "Out of Africa Hypothesis",
+    "text": "Before the Taung Child discovery, many scientists believed humans evolved in Europe or Asia. Raymond Dart's discovery in South Africa provided crucial evidence that Africa was the 'cradle of humankind'. The skull showed features that placed it between apes and humans.",
+    "variabilization": {},
+    "dependencies": ["bio-evol-020a-h1"],
+    "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/human-evolution",
+    "license": "CC BY 4.0"
+  }
+]

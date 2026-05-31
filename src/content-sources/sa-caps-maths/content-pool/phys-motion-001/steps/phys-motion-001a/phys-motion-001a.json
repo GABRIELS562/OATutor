@@ -1,0 +1,16 @@
+{
+  "id": "phys-motion-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "v = u + at",
+    "v=u+at",
+    "vf = vi + at"
+  ],
+  "stepExplanation": "The equation of motion relating initial velocity, final velocity, acceleration, and time is: $$v = u + at$$ where v is final velocity, u is initial velocity, a is acceleration, and t is time.",
+  "stepTitle": "Identify the Equation",
+  "stepBody": "Which equation of motion relates initial velocity, acceleration, and time to find final velocity?"
+}

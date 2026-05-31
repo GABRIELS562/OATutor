@@ -1,0 +1,10 @@
+{
+    "id": "poly-001a",
+    "stepAnswer": ["0"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Apply the Factor Theorem",
+    "stepBody": "The Factor Theorem states that $(x - a)$ is a factor of $f(x)$ if and only if $f(a) = 0$.\n\nTo test if $(x - 2)$ is a factor, we need to find $f(2)$.\n\nCalculate: $f(2) = (2)^3 - 4(2)^2 + (2) + 6$\n\nWhat is the value of $f(2)$?",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "knowledgeComponents": ["factor-theorem", "polynomial-evaluation"]
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-area-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Set Up the Integral",
+        "text": "The parabola $f(x) = 6 - x^2$ is above $g(x) = x$ between the intersection points.\\n\\nArea = $\\int_{-3}^{2} [f(x) - g(x)] dx = \\int_{-3}^{2} [(6-x^2) - x] dx$\\n$$= \\int_{-3}^{2} (6 - x - x^2) dx$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "calc-area-002b-h2",
+        "type": "hint",
+        "dependencies": ["calc-area-002b-h1"],
+        "title": "Integrate",
+        "text": "$$\\int (6 - x - x^2) dx = 6x - \\frac{x^2}{2} - \\frac{x^3}{3}$$\\n\\nEvaluate from $-3$ to $2$:\\n$$\\left[6x - \\frac{x^2}{2} - \\frac{x^3}{3}\\right]_{-3}^{2}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "calc-area-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["125/6"],
+        "dependencies": ["calc-area-002b-h2"],
+        "title": "Evaluate",
+        "text": "At $x = 2$: $12 - 2 - \\frac{8}{3} = 10 - \\frac{8}{3} = \\frac{22}{3}$\\n\\nAt $x = -3$: $-18 - \\frac{9}{2} + 9 = -9 - \\frac{9}{2} = -\\frac{27}{2}$\\n\\nArea = $\\frac{22}{3} - (-\\frac{27}{2}) = \\frac{22}{3} + \\frac{27}{2} = \\frac{44 + 81}{6} = \\frac{125}{6} \\approx 20.83$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

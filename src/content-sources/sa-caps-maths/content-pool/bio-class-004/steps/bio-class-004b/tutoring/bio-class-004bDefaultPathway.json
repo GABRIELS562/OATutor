@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-class-004b-h1",
+    "type": "hint",
+    "title": "Adaptation Requires Variation",
+    "text": "For a species to adapt to new conditions, some individuals must already have traits that help them survive. These traits come from genetic differences within the population.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-class-004b-h2",
+    "type": "hint",
+    "title": "The Cheetah Example",
+    "text": "Cheetahs have very low genetic diversity due to a population bottleneck. This makes them vulnerable - a disease that kills one cheetah could potentially kill all of them because they're genetically so similar.",
+    "variabilization": {},
+    "dependencies": ["bio-class-004b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

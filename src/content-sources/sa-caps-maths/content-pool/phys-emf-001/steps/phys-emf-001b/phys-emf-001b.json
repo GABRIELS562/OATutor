@@ -1,0 +1,15 @@
+{
+  "id": "phys-emf-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "2",
+    "2 A"
+  ],
+  "stepExplanation": "I = 12/6 = 2 A",
+  "stepTitle": "Calculate Current",
+  "stepBody": "Use I = EMF/R_total to find the current."
+}

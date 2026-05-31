@@ -1,0 +1,35 @@
+[
+    {
+        "id": "graph-line-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute the Point",
+        "text": "Using point $(2, 1)$ where $x = 2$ and $y = 1$:\n\n$y = mx + c$\n$1 = 3(2) + c$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "graph-line-002b-h2",
+        "type": "hint",
+        "dependencies": ["graph-line-002b-h1"],
+        "title": "Solve for c",
+        "text": "$1 = 6 + c$\n$c = 1 - 6 = -5$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "graph-line-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["y=3x-5"],
+        "dependencies": ["graph-line-002b-h2"],
+        "title": "Write the Final Equation",
+        "text": "With $m = 3$ and $c = -5$:\n\n$$y = 3x - 5$$\n\nThis line is parallel to $y = 3x - 2$ (same gradient) but shifted down by 3 units.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

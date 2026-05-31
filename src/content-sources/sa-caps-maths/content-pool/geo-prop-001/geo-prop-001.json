@@ -1,0 +1,10 @@
+{
+    "id": "geo-prop-001",
+    "title": "Proportion Theorem: Line Parallel to Base",
+    "body": "In triangle ABC, D is a point on AB and E is a point on AC such that DE || BC.\n\nGiven: AD = 3, DB = 5, and AE = 4.5.\n\na) Calculate the length of EC.\nb) Calculate the ratio AD:AB.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Euclidean Geometry",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Euclidean Geometry - Ratio and Proportion",
+    "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

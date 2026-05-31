@@ -1,0 +1,10 @@
+{
+    "id": "alg-linear-001",
+    "title": "Solving Linear Equations with Fractions",
+    "body": "Solve for $x$:\\n\\n$$\\frac{2x-3}{4} + \\frac{x+1}{2} = 5$$",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 10)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Algebraic Equations",
+    "courseName": "CAPS Grade 10 Mathematics"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-plant-005a-h1",
+    "type": "hint",
+    "title": "Vegetative Propagation",
+    "text": "Many valuable plants are propagated from cuttings rather than seeds. The challenge is getting roots to form on the cut stem. This is where auxins help.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-plant-005a-h2",
+    "type": "hint",
+    "title": "Rooting Powders",
+    "text": "Commercial rooting powders contain synthetic auxins like IBA (indole-3-butyric acid). When applied to cuttings, they stimulate the formation of adventitious roots, increasing success rate of propagation.",
+    "variabilization": {},
+    "dependencies": ["bio-plant-005a-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

@@ -1,0 +1,10 @@
+{
+    "id": "alg-simplify-001b",
+    "stepAnswer": ["xy^2", "x*y^2", "y^2x"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Divide by the Denominator",
+    "stepBody": "Now divide the simplified numerator by the denominator:\n\n$$\\frac{6x^5y^4}{6x^4y^2}$$\n\nRemember: When dividing, subtract the exponents of like bases.\n\nEnter the final simplified answer:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["exponent-laws", "algebraic-simplification"]
+}

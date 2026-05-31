@@ -1,0 +1,35 @@
+[
+    {
+        "id": "inv-func-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Write in y = form",
+        "text": "Start with the function:\n$f(x) = 3x - 6$\n\nWrite as: $y = 3x - 6$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "inv-func-001a-h2",
+        "type": "hint",
+        "dependencies": ["inv-func-001a-h1"],
+        "title": "Interchange Variables",
+        "text": "To find the inverse, swap $x$ and $y$:\n\nOriginal: $y = 3x - 6$\nInterchanged: $x = 3y - 6$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "inv-func-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x=3y-6"],
+        "dependencies": ["inv-func-001a-h2"],
+        "title": "The Interchanged Equation",
+        "text": "After interchanging $x$ and $y$:\n\n$x = 3y - 6$\n\nThis is the first step to finding the inverse.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

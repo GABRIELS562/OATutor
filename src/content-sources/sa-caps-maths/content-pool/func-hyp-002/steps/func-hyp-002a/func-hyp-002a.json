@@ -1,0 +1,10 @@
+{
+    "id": "func-hyp-002a",
+    "stepAnswer": ["p=3, q=2", "p=3 and q=2", "3 and 2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find p and q from Asymptotes",
+    "stepBody": "The hyperbola $g(x) = \\frac{a}{x+p} + q$ has asymptotes at $x = -3$ and $y = 2$.\\n\\nDetermine the values of $p$ and $q$.\\n\\nWrite as: p=? and q=?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["hyperbola", "asymptotes", "transformations"]
+}

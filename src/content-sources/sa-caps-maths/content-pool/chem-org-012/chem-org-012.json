@@ -1,0 +1,15 @@
+{
+  "id": "chem-org-012",
+  "title": "Addition Reactions of Alkenes",
+  "body": "But-2-ene reacts with bromine water (Br$$_2$$/H$$_2$$O).\n\n(a) What type of reaction is this?\n(b) Write the structural formula of the product.\n(c) Describe the visual observation during this reaction.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["chem-organic-reactions"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+  "license": "CC BY 4.0",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

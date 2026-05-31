@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-photo-001a-h1",
+    "type": "hint",
+    "title": "Planck's Equation",
+    "text": "The energy of a photon is given by E = hf, where h is Planck's constant and f is the frequency. Since c = f x lambda, we can substitute f = c/lambda to get E = hc/lambda.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-photo-001a-h2",
+    "type": "hint",
+    "title": "Why This Formula?",
+    "text": "When wavelength is given directly, E = hc/lambda is more convenient because it avoids the extra step of calculating frequency first. Both E = hf and E = hc/lambda give the same answer.",
+    "variabilization": {},
+    "dependencies": ["phys-photo-001a-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

@@ -1,0 +1,10 @@
+{
+    "id": "geo-cyclic-001",
+    "title": "Cyclic Quadrilateral: Opposite Angles",
+    "body": "ABCD is a cyclic quadrilateral. If $$\\angle A = 72°$$ and $$\\angle B = 85°$$, calculate:\\n\\na) $$\\angle C$$\\nb) $$\\angle D$$",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 2 (2023)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Euclidean Geometry - Cyclic Quadrilaterals",
+    "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

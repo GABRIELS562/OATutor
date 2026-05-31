@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-tangent-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find the Derivative",
+        "text": "Differentiate $f(x) = -x^2 + 4x - 3$:\n\n$f'(x) = -2x + 4$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-tangent-003a-h2",
+        "type": "hint",
+        "dependencies": ["calc-tangent-003a-h1"],
+        "title": "Evaluate at x = 1",
+        "text": "Substitute $x = 1$ into $f'(x) = -2x + 4$:\n\n$f'(1) = -2(1) + 4$\n\n$f'(1) = -2 + 4$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-tangent-003a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["2"],
+        "dependencies": ["calc-tangent-003a-h2"],
+        "title": "Gradient Value",
+        "text": "$f'(1) = 2$\n\nThe gradient of the tangent at $(1, 0)$ is $m = 2$.",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "id": "calc-maxmin-002",
+    "title": "Optimization: Maximum Area Problem",
+    "body": "A farmer wants to fence off a rectangular paddock using 120 metres of fencing. One side of the paddock is against a river and does not need fencing.\n\nLet the width (perpendicular to the river) be $x$ metres.\n\nFind the dimensions that give the maximum area and calculate this maximum area.",
+    "variabilization": {},
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Differential Calculus - Maximum and Minimum Problems",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

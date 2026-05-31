@@ -1,0 +1,10 @@
+{
+    "id": "optim-003b",
+    "stepAnswer": ["x=4m, h=2m", "x = 4 m and h = 2 m", "4m by 4m by 2m", "base 4m, height 2m"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the Dimensions for Minimum Cost",
+    "stepBody": "Given $C = 150x^2 + \\frac{12800}{x}$, find the value of $x$ that minimises the cost.\n\nThen find $h$ using the volume constraint.\n\nWhat are the dimensions (x and h) for minimum cost?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["optimization", "differentiation", "minimum"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "chem-galvanic-001",
+  "title": "Electrochemistry - Galvanic Cell",
+  "body": "In a galvanic cell, zinc (E° = -0.76 V) is connected to copper (E° = +0.34 V). Calculate the EMF of the cell.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-galvanic"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

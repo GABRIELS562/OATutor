@@ -1,0 +1,10 @@
+{
+    "id": "calc-maxmin-001a",
+    "stepAnswer": ["(1,5) and (3,1)", "(1,5), (3,1)", "x=1 and x=3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Stationary Points",
+    "stepBody": "Find the stationary points by setting $f'(x) = 0$.\n\nGiven: $f(x) = x^3 - 6x^2 + 9x + 1$\n\nFind the coordinates of all stationary points:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "stationary-points"]
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-deriv-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply Power Rule to First Term",
+        "text": "For $3x^{-2}$:\n\n$\\frac{d}{dx}(3x^{-2}) = 3 \\times (-2)x^{-2-1} = -6x^{-3}$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-deriv-002b-h2",
+        "type": "hint",
+        "dependencies": ["calc-deriv-002b-h1"],
+        "title": "Apply Power Rule to Second Term",
+        "text": "For $-4x^{-1/2}$:\n\n$\\frac{d}{dx}(-4x^{-1/2}) = -4 \\times (-\\frac{1}{2})x^{-1/2-1} = 2x^{-3/2}$\n\nNote: $-\\frac{1}{2} - 1 = -\\frac{3}{2}$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-deriv-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["-6x^(-3)+2x^(-3/2)+2"],
+        "dependencies": ["calc-deriv-002b-h2"],
+        "title": "Complete Derivative",
+        "text": "Combining all differentiated terms:\n\n$\\frac{dy}{dx} = -6x^{-3} + 2x^{-3/2} + 2$\n\nOr in fraction form:\n\n$\\frac{dy}{dx} = -\\frac{6}{x^3} + \\frac{2}{x^{3/2}} + 2$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

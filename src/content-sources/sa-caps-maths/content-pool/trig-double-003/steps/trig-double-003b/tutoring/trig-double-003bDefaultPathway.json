@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-double-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Simplify the Denominator",
+        "text": "$$1 + (2\\cos^2 x - 1) = 1 + 2\\cos^2 x - 1 = 2\\cos^2 x$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-double-003b-h2",
+        "type": "hint",
+        "dependencies": ["trig-double-003b-h1"],
+        "title": "Cancel Common Factors",
+        "text": "$$\\frac{2\\sin x \\cos x}{2\\cos^2 x}$$\n\nCancel the 2 and one cos x:\n$$= \\frac{\\sin x}{\\cos x}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-double-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["tan(x)"],
+        "dependencies": ["trig-double-003b-h2"],
+        "title": "Final Step",
+        "text": "$$\\frac{\\sin x}{\\cos x} = \\tan x$$\n\nTherefore: $$\\frac{\\sin 2x}{1 + \\cos 2x} = \\tan x$$ (QED)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,13 @@
+{
+  "id": "dna-trans-002",
+  "title": "DNA - Translation and Amino Acids",
+  "body": "An mRNA strand has the sequence: 5'-AUGGCUUACUGA-3'. Using the genetic code, determine the amino acid sequence of the polypeptide produced. (Start codon AUG = Methionine, GCU = Alanine, UAC = Tyrosine, UGA = Stop codon)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-protein-synthesis"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

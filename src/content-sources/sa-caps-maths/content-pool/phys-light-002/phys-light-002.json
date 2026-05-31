@@ -1,0 +1,17 @@
+{
+  "id": "phys-light-002",
+  "title": "Diffraction Grating - First Order Maximum",
+  "body": "A diffraction grating has 500 lines per mm. Monochromatic light of wavelength 550 nm is incident on the grating. Calculate the angle of the first order maximum.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-waves"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

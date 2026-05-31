@@ -1,0 +1,51 @@
+[
+    {
+        "id": "func-inv-011b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Domain and Range Swap",
+        "text": "KEY INSIGHT: The domain of $f^{-1}$ equals the range of $f$, and the range of $f^{-1}$ equals the domain of $f$.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-inv-011b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["y >= -4"],
+        "dependencies": ["func-inv-011b-h1"],
+        "title": "Find the Range of f(x)",
+        "text": "For $f(x) = x^2 - 4$ with $x \\geq 0$:\n\nThe minimum value occurs at $x = 0$: $f(0) = 0^2 - 4 = -4$\n\nAs $x$ increases, $f(x)$ increases without bound.\n\nWhat is the range of $f$?",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-inv-011b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x >= -4"],
+        "dependencies": ["func-inv-011b-h2"],
+        "title": "Domain of the Inverse",
+        "text": "Since the range of $f$ is $y \\geq -4$, what is the domain of $f^{-1}$?",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-inv-011b-h4",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["y >= 0"],
+        "dependencies": ["func-inv-011b-h3"],
+        "title": "Range of the Inverse",
+        "text": "Since the domain of $f$ is $x \\geq 0$, what is the range of $f^{-1}$?",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

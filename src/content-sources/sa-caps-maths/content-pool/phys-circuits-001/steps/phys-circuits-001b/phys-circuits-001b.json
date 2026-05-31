@@ -1,0 +1,15 @@
+{
+  "id": "phys-circuits-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "7.4",
+    "7,4"
+  ],
+  "stepExplanation": "R_total = 2.4 + 5 = 7.4Ω",
+  "stepTitle": "Total Resistance",
+  "stepBody": "Add the parallel combination (2.4Ω) to the series resistor (5Ω). What is the total resistance?"
+}

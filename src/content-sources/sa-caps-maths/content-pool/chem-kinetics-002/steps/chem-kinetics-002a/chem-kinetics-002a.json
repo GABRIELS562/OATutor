@@ -1,0 +1,15 @@
+{
+  "id": "chem-kinetics-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "25",
+    "25 kJ/mol"
+  ],
+  "stepExplanation": "Reduction in Ea = 75 - 50 = 25 kJ/mol",
+  "stepTitle": "Reduction in Activation Energy",
+  "stepBody": "Calculate the decrease in activation energy when the catalyst is added (in kJ/mol)."
+}

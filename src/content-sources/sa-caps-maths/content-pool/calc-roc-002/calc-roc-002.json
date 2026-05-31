@@ -1,0 +1,10 @@
+{
+    "id": "calc-roc-002",
+    "title": "Rate of Change: Cost Function",
+    "body": "The cost (in Rands) of producing $x$ items is given by:\n\n$$C(x) = 500 + 20x - 0.01x^2$$\n\nFind:\na) The marginal cost function (rate of change of cost)\nb) The marginal cost when 100 items are produced",
+    "variabilization": {},
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Differential Calculus - Rate of Change",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

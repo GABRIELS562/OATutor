@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-plant-001a-h1",
+    "type": "hint",
+    "title": "Auxin and Light",
+    "text": "Auxin is a plant hormone produced in the shoot tip. Light affects its distribution - it moves away from the illuminated side.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-plant-001a-h2",
+    "type": "hint",
+    "title": "Lateral Redistribution",
+    "text": "When light hits one side of the stem, auxin is transported laterally (sideways) to the shaded side. This creates an uneven distribution of auxin across the stem.",
+    "variabilization": {},
+    "dependencies": ["bio-plant-001a-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

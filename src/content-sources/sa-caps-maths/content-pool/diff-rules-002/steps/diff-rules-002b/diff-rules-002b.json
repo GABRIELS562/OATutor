@@ -1,0 +1,10 @@
+{
+    "id": "diff-rules-002b",
+    "stepAnswer": ["-12x^(-3)+2x^(-3/2)+3", "-12x^{-3}+2x^{-3/2}+3", "-12/x^3+2/x^(3/2)+3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Differentiate",
+    "stepBody": "Now differentiate $g(x) = 6x^{-2} - 4x^{-1/2} + 3x$ using the power rule.\n\nWrite $g'(x)$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "power-rule", "negative-exponents"]
+}

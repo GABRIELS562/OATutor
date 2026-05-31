@@ -1,0 +1,16 @@
+{
+  "id": "bio-plant-004b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "turgor pressure",
+    "water movement",
+    "turgor"
+  ],
+  "stepExplanation": "Nastic movements are caused by changes in turgor pressure (water pressure in cells). In the Mimosa pudica, touch triggers rapid loss of water from cells in the pulvinus (swelling at the base of leaflets), causing the leaves to fold. This is much faster than growth-based tropisms.",
+  "stepTitle": "Mechanism of Nastic Movement",
+  "stepBody": "Nastic movements like the closing of Mimosa pudica leaves are caused by rapid changes in what cell property?"
+}

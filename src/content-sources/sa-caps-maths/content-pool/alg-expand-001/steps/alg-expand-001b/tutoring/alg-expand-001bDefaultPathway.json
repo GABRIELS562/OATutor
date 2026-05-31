@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-expand-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify Like Terms",
+        "text": "Like terms have the same variable raised to the same power.\n\nIn $2x^2 - 10x + 3x - 15$:\n- $2x^2$ (no like terms)\n- $-10x$ and $+3x$ are like terms\n- $-15$ (no like terms)",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-expand-001b-h2",
+        "type": "hint",
+        "dependencies": ["alg-expand-001b-h1"],
+        "title": "Combine the Like Terms",
+        "text": "Combine $-10x + 3x$:\n\n$-10x + 3x = -7x$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-expand-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["2x^2 - 7x - 15"],
+        "dependencies": ["alg-expand-001b-h2"],
+        "title": "Final Answer",
+        "text": "$(2x + 3)(x - 5) = 2x^2 - 7x - 15$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    }
+]

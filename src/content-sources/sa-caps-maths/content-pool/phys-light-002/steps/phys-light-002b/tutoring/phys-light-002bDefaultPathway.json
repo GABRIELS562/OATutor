@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-light-002b-h1",
+    "type": "hint",
+    "title": "Applying the Grating Equation",
+    "text": "For n=1: d sin(theta) = lambda, so sin(theta) = lambda/d = (550 x 10^-9)/(2 x 10^-6) = 550/2000 = 0.275",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-light-002b-h2",
+    "type": "hint",
+    "title": "Finding the Angle",
+    "text": "theta = arcsin(0.275) = 15.96 degrees. Diffraction gratings separate light into its component wavelengths, which is why they are used in spectrometers to analyse the composition of light sources like stars.",
+    "variabilization": {},
+    "dependencies": ["phys-light-002b-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

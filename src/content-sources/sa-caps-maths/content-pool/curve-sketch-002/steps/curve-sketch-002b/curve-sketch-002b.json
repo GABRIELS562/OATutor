@@ -1,0 +1,10 @@
+{
+    "id": "curve-sketch-002b",
+    "stepAnswer": ["(1,-6)", "(1;-6)", "(1, -6)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find Coordinates and Concavity Intervals",
+    "stepBody": "Find the y-coordinate of the point of inflection by substituting $x = 1$ into $f(x)$.\n\nAlso determine: where is the graph concave up? Where is it concave down?\n\nWrite the coordinates of the point of inflection:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["point-of-inflection", "concavity"]
+}

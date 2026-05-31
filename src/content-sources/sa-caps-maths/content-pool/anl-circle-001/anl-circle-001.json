@@ -1,0 +1,10 @@
+{
+    "id": "anl-circle-001",
+    "title": "Circle Equation: Centre and Radius",
+    "body": "A circle has centre M(3, -2) and passes through the point P(7, 1).\\n\\na) Calculate the radius of the circle.\\nb) Write down the equation of the circle in the form $$(x-a)^2 + (y-b)^2 = r^2$$",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 2 (2022)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Analytical Geometry - Equation of a Circle",
+    "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

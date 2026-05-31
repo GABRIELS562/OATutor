@@ -1,0 +1,10 @@
+{
+    "id": "poly-006",
+    "title": "Synthetic Division",
+    "body": "Use synthetic division to divide:\n\n$$2x^3 + 3x^2 - 8x + 3 \\div (x - 1)$$\n\nFind the quotient and remainder.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Polynomials Chapter 7.2",
+    "license": "CC-BY - Siyavula Education",
+    "lesson": "Polynomial Division",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

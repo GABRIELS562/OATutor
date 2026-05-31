@@ -1,0 +1,10 @@
+{
+    "id": "prob-count-002",
+    "title": "Probability: Independent and Dependent Events",
+    "body": "A bag contains 5 red balls and 3 blue balls. Two balls are drawn without replacement.\\n\\na) Calculate the probability that both balls are red.\\nb) Calculate the probability that the second ball is blue, given that the first ball was red.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Counting and Probability",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

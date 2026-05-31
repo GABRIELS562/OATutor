@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-class-005b-h1",
+    "type": "hint",
+    "title": "Unique to One Place",
+    "text": "Some species have a worldwide distribution (like rats or cockroaches). Others are found only in very specific locations. If a species lives only in one place on Earth, it has a special name.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-class-005b-h2",
+    "type": "hint",
+    "title": "Endemic Means Native Only There",
+    "text": "Endemic comes from Greek 'endemos' meaning 'native'. An endemic species is native to and restricted to a particular area. If its habitat is destroyed, the species will go extinct because it exists nowhere else.",
+    "variabilization": {},
+    "dependencies": ["bio-class-005b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

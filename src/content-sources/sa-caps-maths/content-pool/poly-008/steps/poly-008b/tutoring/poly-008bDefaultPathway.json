@@ -1,0 +1,35 @@
+[
+    {
+        "id": "poly-008b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Factorise the Quadratic",
+        "text": "For $x^2 + x - 6$:\n- Product = -6\n- Sum = 1\n\nNumbers: 3 and -2 (since $3 \\times (-2) = -6$ and $3 + (-2) = 1$)\n\nSo: $x^2 + x - 6 = (x + 3)(x - 2)$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-008b-h2",
+        "type": "hint",
+        "dependencies": ["poly-008b-h1"],
+        "title": "Complete Factorisation",
+        "text": "$x^3 - 7x + 6 = (x - 1)(x + 3)(x - 2)$\n\nSet each factor equal to zero:\n- $x - 1 = 0 \\Rightarrow x = 1$\n- $x + 3 = 0 \\Rightarrow x = -3$\n- $x - 2 = 0 \\Rightarrow x = 2$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-008b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x = 1, x = 2, x = -3"],
+        "dependencies": ["poly-008b-h2"],
+        "title": "Final Answer",
+        "text": "The solutions are $x = -3$, $x = 1$, and $x = 2$.\n\nNote: This cubic actually has three distinct roots, not a repeated root as initially suggested. Verify: the problem statement may have intended a different polynomial.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

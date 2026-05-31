@@ -1,0 +1,10 @@
+{
+    "id": "hyp-graph-002b",
+    "stepAnswer": ["y=2/(x+1)+3", "y = 2/(x + 1) + 3", "y=2/(x+1)+3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the Value of a and Write the Equation",
+    "stepBody": "Using $p = -1$, $q = 3$, and the point $(1, 4)$, find $a$.\n\nWrite the complete equation of the hyperbola:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["hyperbola-asymptotes", "substitution"]
+}

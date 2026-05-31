@@ -1,0 +1,10 @@
+{
+    "id": "anl-circle-001a",
+    "stepAnswer": ["5"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Calculate the Radius",
+    "stepBody": "The radius is the distance from centre M(3, -2) to point P(7, 1).\n\nUse the distance formula. Calculate the radius.",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["anl-distance-formula", "anl-circle-center-form"]
+}

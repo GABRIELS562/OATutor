@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-plant-004a-h1",
+    "type": "hint",
+    "title": "Touch Response",
+    "text": "Thigmotropism ('thigmo' = touch, 'tropism' = turning) is a growth response where the direction of growth depends on where the touch occurs.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-plant-004a-h2",
+    "type": "hint",
+    "title": "Climbing Adaptation",
+    "text": "Climbing plants need support to reach sunlight. Their tendrils (modified leaves or stems) can detect touch and grow around objects. This is an adaptation for competing for light.",
+    "variabilization": {},
+    "dependencies": ["bio-plant-004a-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

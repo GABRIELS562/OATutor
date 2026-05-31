@@ -1,0 +1,12 @@
+[
+  {
+    "id": "bio-dna-001a-h1",
+    "type": "hint",
+    "title": "Complementary Base Pairing",
+    "text": "In DNA, purines pair with pyrimidines. A (purine) pairs with T (pyrimidine), and G (purine) pairs with C (pyrimidine).",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

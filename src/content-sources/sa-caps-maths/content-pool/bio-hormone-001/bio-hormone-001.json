@@ -1,0 +1,17 @@
+{
+  "id": "bio-hormone-001",
+  "title": "Endocrine System - Blood Glucose",
+  "body": "After eating a meal high in carbohydrates, blood glucose levels rise. Which hormone is released by the pancreas to lower blood glucose?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-hormones"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

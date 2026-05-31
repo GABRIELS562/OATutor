@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-repro-011a-h1",
+    "type": "hint",
+    "title": "Unequal Division in Oogenesis",
+    "text": "Unlike spermatogenesis, oogenesis involves unequal cytoplasmic division. This ensures one cell receives most of the cytoplasm and nutrients needed for embryo development.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-repro-011a-h2",
+    "type": "hint",
+    "title": "Polar Bodies",
+    "text": "The smaller cells produced during oogenesis are called polar bodies. They contain the genetic material but lack sufficient cytoplasm to survive. Three polar bodies are produced, but only one functional ovum.",
+    "variabilization": {},
+    "dependencies": ["bio-repro-011a-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

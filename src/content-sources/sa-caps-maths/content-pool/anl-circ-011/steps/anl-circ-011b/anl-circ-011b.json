@@ -1,0 +1,10 @@
+{
+    "id": "anl-circ-011b",
+    "stepAnswer": ["y=-3/4x+27/4"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find Equation of Tangent",
+    "stepBody": "A tangent to a circle is perpendicular to the radius at the point of tangency.\n\nIf the gradient of MP is 4/3, find the gradient of the tangent and write its equation.\n\nEnter in the form: y=mx+c (use fractions like -3/4)",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["anl-tangent-perpendicular", "geo-tangent-theorem"]
+}

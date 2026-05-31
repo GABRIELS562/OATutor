@@ -1,0 +1,16 @@
+{
+  "id": "phys-light-003a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.707",
+    "0.71",
+    "sqrt(2)/2"
+  ],
+  "stepExplanation": "sin(45) = 0.707 (or sqrt(2)/2 exactly). This is one of the standard trigonometric values.",
+  "stepTitle": "Calculate sin(theta1)",
+  "stepBody": "Snell's law states n1 sin(theta1) = n2 sin(theta2). First, calculate sin(45 degrees)."
+}

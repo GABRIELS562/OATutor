@@ -1,0 +1,32 @@
+[
+    {
+        "id": "elec-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Definition of Electric Field",
+        "text": "Electric field E = F/q, which means F = qE. The field represents the force that would act on each coulomb of charge.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "elec-003a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Direction of Force",
+        "text": "Positive charges feel force in the same direction as E (toward negative plate). Negative charges feel force opposite to E (toward positive plate).",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "elec-003a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Uniform Field",
+        "text": "Between parallel plates, the field is uniform - it has the same strength and direction everywhere. The force on the charge will be constant.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

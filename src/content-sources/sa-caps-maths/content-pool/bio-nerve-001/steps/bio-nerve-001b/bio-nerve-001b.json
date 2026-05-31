@@ -1,0 +1,15 @@
+{
+  "id": "bio-nerve-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "sensory neuron, relay neuron, motor neuron",
+    "receptor, sensory neuron, interneuron, motor neuron, effector"
+  ],
+  "stepExplanation": "Receptor → Sensory neuron → Relay/Interneuron → Motor neuron → Effector",
+  "stepTitle": "Reflex Arc Components",
+  "stepBody": "List the 5 components: receptor → ? → ? → ? → effector"
+}

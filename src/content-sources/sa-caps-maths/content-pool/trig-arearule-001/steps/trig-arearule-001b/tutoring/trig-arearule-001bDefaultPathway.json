@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-arearule-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Multiply the Sides",
+        "text": "First calculate: $$\\frac{1}{2}(8)(11) = \\frac{1}{2}(88) = 44$$",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-arearule-001b-h2",
+        "type": "hint",
+        "dependencies": ["trig-arearule-001b-h1"],
+        "title": "Find sin 48°",
+        "text": "Using a calculator: $$\\sin 48° = 0.7431$$",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-arearule-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["32.70"],
+        "dependencies": ["trig-arearule-001b-h2"],
+        "title": "Final Calculation",
+        "text": "$$\\text{Area} = 44 \\times 0.7431 = 32.70 \\text{ cm}^2$$",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    }
+]

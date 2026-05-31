@@ -1,0 +1,25 @@
+[
+    {
+        "id": "geo-sim-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Using the Scale Factor",
+        "text": "The scale factor between the two similar triangles remains constant for all corresponding sides.\n\nScale factor = 1.5",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "geo-sim-001b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["15"],
+        "dependencies": ["geo-sim-001b-h1"],
+        "title": "Calculate DF",
+        "text": "AC corresponds to DF, so:\n$$DF = AC \\times 1.5 = 10 \\times 1.5 = ?$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    }
+]

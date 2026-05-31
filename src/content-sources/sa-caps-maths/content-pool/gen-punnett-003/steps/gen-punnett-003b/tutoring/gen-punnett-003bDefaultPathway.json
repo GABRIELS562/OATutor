@@ -1,0 +1,22 @@
+[
+  {
+    "id": "gen-punnett-003b-h1",
+    "type": "hint",
+    "title": "Hemizygosity in Males",
+    "text": "Males are hemizygous for X-linked genes - they only have one copy. If that copy carries the recessive allele, they express the disorder.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "gen-punnett-003b-h2",
+    "type": "hint",
+    "title": "Calculate the Ratio",
+    "text": "Of male offspring: X^H Y (normal) and X^h Y (haemophilia) each have equal probability. 1 out of 2 = 50%.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

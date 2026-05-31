@@ -1,0 +1,10 @@
+{
+    "id": "prob-count-001a",
+    "stepAnswer": ["24", "4!"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Arrangements of 4 People",
+    "stepBody": "A committee of 5 people must be arranged in a row for a photograph. The chairperson must be in the centre position.\\n\\nIn how many ways can the remaining 4 people be arranged in the other positions?",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["permutations", "counting"]
+}

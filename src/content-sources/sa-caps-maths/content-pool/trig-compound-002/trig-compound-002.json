@@ -1,0 +1,17 @@
+{
+  "id": "trig-compound-002",
+  "title": "Compound Angle - cos(A-B)",
+  "body": "Without using a calculator, calculate cos 15° using the compound angle formula. (Hint: 15° = 45° - 30°)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "trig-compound-add"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

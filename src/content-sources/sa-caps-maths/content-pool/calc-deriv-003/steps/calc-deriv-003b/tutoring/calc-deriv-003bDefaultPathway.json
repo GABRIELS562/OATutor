@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-deriv-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate f(x+h) - f(x)",
+        "text": "$f(x+h) - f(x)$\n\n$= (2x^2 + 4xh + 2h^2 + 3x + 3h) - (2x^2 + 3x)$\n\n$= 2x^2 + 4xh + 2h^2 + 3x + 3h - 2x^2 - 3x$\n\n$= 4xh + 2h^2 + 3h$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-deriv-003b-h2",
+        "type": "hint",
+        "dependencies": ["calc-deriv-003b-h1"],
+        "title": "Divide by h and Factor",
+        "text": "$\\frac{f(x+h) - f(x)}{h} = \\frac{4xh + 2h^2 + 3h}{h}$\n\nFactor out $h$:\n\n$= \\frac{h(4x + 2h + 3)}{h} = 4x + 2h + 3$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-deriv-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["4x+3"],
+        "dependencies": ["calc-deriv-003b-h2"],
+        "title": "Take the Limit",
+        "text": "$f'(x) = \\lim_{h \\to 0}(4x + 2h + 3)$\n\nAs $h \\to 0$:\n\n$f'(x) = 4x + 0 + 3 = 4x + 3$\n\nVerify using the power rule: $\\frac{d}{dx}(2x^2 + 3x) = 4x + 3$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

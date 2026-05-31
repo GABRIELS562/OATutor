@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-gensol-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Where is Sine Positive?",
+        "text": "Using the CAST rule:\n- Quadrant 1: All positive (A)\n- Quadrant 2: Sine positive (S)\n- Quadrant 3: Tangent positive (T)\n- Quadrant 4: Cosine positive (C)\n\nSine is positive in Q1 and Q2.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-gensol-001b-h2",
+        "type": "hint",
+        "dependencies": ["trig-gensol-001b-h1"],
+        "title": "General Solution Formula for Sine",
+        "text": "For sin x = sin alpha (where alpha is the reference angle):\n\nQuadrant 1: x = alpha + 360°n\nQuadrant 2: x = (180° - alpha) + 360°n\n\nWith alpha = 30°:\n- Q1: x = 30° + 360°n\n- Q2: x = 150° + 360°n",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-gensol-001b-h3",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": ["x = 30 + 360n or x = 150 + 360n"],
+        "dependencies": ["trig-gensol-001b-h2"],
+        "title": "Complete General Solution",
+        "text": "$$x = 30° + 360°n$$ or $$x = 150° + 360°n$$, where n is any integer.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

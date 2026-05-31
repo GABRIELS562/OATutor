@@ -1,0 +1,10 @@
+{
+    "id": "pat-linear-002b",
+    "stepAnswer": ["20", "n=20"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find Which Term Equals 91",
+    "stepBody": "Set $T_n = 91$ and solve for $n$.\n\n$5n - 9 = 91$\n\nWhat is the value of n?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["arithmetic-sequence", "linear-equations"]
+}

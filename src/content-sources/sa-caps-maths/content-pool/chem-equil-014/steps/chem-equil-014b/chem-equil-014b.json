@@ -1,0 +1,15 @@
+{
+    "id": "chem-equil-014b",
+    "type": "scaffold",
+    "problemType": "TextBox",
+    "answerType": "string",
+    "hpiVariables": [],
+    "variabilization": {},
+    "stepAnswer": [
+        "right",
+        "forward"
+    ],
+    "stepExplanation": "Qc = 2.25 < Kc = 5.0. When Qc < Kc, the system is not at equilibrium and will shift RIGHT (forward) to produce more products until Qc = Kc.",
+    "stepTitle": "Compare Qc and Kc",
+    "stepBody": "Compare Qc (2.25) with Kc (5.0). Is the system at equilibrium? If not, which direction will the reaction shift? (left, right, or at equilibrium)"
+}

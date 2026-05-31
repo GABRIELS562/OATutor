@@ -1,0 +1,17 @@
+{
+  "id": "chem-equilibrium-001",
+  "title": "Chemical Equilibrium - Le Chatelier",
+  "body": "Consider the equilibrium: N₂(g) + 3H₂(g) ⇌ 2NH₃(g) ΔH = -92 kJ. What happens to the equilibrium position when temperature is increased?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-equilibrium"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

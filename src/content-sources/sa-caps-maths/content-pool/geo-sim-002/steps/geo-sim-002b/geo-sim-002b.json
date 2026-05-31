@@ -1,0 +1,10 @@
+{
+    "id": "geo-sim-002b",
+    "stepAnswer": ["7.5"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate TR",
+    "stepBody": "Using the Basic Proportionality Theorem (also called Thales' theorem):\n\n$$\\frac{PS}{SQ} = \\frac{PT}{TR}$$\n\nGiven PS = 4, SQ = 6, PT = 5, calculate TR.",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["geo-similar-triangles", "geo-proportional-sides"]
+}

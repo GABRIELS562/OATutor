@@ -1,0 +1,10 @@
+{
+    "id": "trig-area-001",
+    "title": "Area Rule Application",
+    "body": "In triangle ABC, $AB = 8$ cm, $BC = 6$ cm, and $\\hat{B} = 60°$.\\n\\nCalculate the area of triangle ABC.\\n\\nGive your answer correct to 2 decimal places.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 2 (Grade 11)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Trigonometry - Area, Sine and Cosine Rules",
+    "courseName": "CAPS Grade 11 Mathematics"
+}

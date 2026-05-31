@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-light-003b-h1",
+    "type": "hint",
+    "title": "Rearranging Snell's Law",
+    "text": "From n1 sin(theta1) = n2 sin(theta2), we get sin(theta2) = (n1/n2) sin(theta1) = (1.00/1.33) x 0.707 = 0.752 x 0.707 = 0.532",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-light-003b-h2",
+    "type": "hint",
+    "title": "Finding the Refracted Angle",
+    "text": "theta2 = arcsin(0.532) = 32.1 degrees. Notice the ray bends towards the normal (from 45 to 32 degrees) because light slows down when entering a denser medium (water). This is why objects in water appear closer to the surface than they actually are.",
+    "variabilization": {},
+    "dependencies": ["phys-light-003b-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

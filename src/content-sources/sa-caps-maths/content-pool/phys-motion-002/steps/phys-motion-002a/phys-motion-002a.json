@@ -1,0 +1,16 @@
+{
+  "id": "phys-motion-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "v² = u² + 2as",
+    "v^2 = u^2 + 2as",
+    "v2 = u2 + 2as"
+  ],
+  "stepExplanation": "When time is not given but we know initial velocity, final velocity, and acceleration, we use: $$v^2 = u^2 + 2as$$ where s is displacement.",
+  "stepTitle": "Identify the Equation",
+  "stepBody": "Which equation of motion relates initial velocity, final velocity, acceleration, and displacement (without using time)?"
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-cosine-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Each Term",
+        "text": "$$a^2 = 49 + 81 - 2(7)(9)\\cos 52°$$\n$$a^2 = 130 - 126 \\cos 52°$$",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-cosine-001b-h2",
+        "type": "hint",
+        "dependencies": ["trig-cosine-001b-h1"],
+        "title": "Evaluate cos 52°",
+        "text": "$$\\cos 52° = 0.6157$$\n\n$$a^2 = 130 - 126(0.6157)$$\n$$a^2 = 130 - 77.58$$\n$$a^2 = 52.42$$",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-cosine-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["7.18"],
+        "dependencies": ["trig-cosine-001b-h2"],
+        "title": "Take the Square Root",
+        "text": "$$a = \\sqrt{52.42} = 7.18$$ cm\n\n(Remember to take the positive square root since length is always positive)",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    }
+]

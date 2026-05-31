@@ -1,0 +1,16 @@
+{
+  "id": "endo-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "hypothalamus and pituitary",
+    "hypothalamus and anterior pituitary",
+    "pituitary and hypothalamus"
+  ],
+  "stepExplanation": "High thyroxine levels are detected by both the **hypothalamus** and the **anterior pituitary gland**. These organs contain receptors that sense thyroxine concentration in the blood.",
+  "stepTitle": "Identify Detection Sites",
+  "stepBody": "When thyroxine levels increase in the blood, which organs detect this change and respond to regulate thyroxine production?"
+}

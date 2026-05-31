@@ -1,0 +1,14 @@
+{
+  "id": "phys-momentum-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "10"
+  ],
+  "stepExplanation": "p_initial = (2 kg × 5 m/s) + (3 kg × 0) = 10 kg·m/s",
+  "stepTitle": "Calculate Initial Momentum",
+  "stepBody": "Calculate the total momentum before the collision. Use p = mv."
+}

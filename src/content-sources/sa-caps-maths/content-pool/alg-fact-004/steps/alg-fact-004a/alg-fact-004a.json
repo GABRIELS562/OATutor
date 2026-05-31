@@ -1,0 +1,10 @@
+{
+    "id": "alg-fact-004a",
+    "stepAnswer": ["7x and 4y", "4y and 7x"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Identify the Square Roots",
+    "stepBody": "The expression $49x^2 - 16y^2$ is a difference of two squares.\n\nRecall: $a^2 - b^2 = (a + b)(a - b)$\n\nFind $a$ and $b$ by taking square roots:\n- $\\sqrt{49x^2} = ?$\n- $\\sqrt{16y^2} = ?$\n\nWhat are $a$ and $b$? (Write as: a and b)",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "difference-of-squares", "square-roots"]
+}

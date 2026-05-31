@@ -1,0 +1,17 @@
+{
+  "id": "stats-variance-001",
+  "title": "Variance and Standard Deviation",
+  "body": "Calculate the standard deviation of the data set: 2, 4, 6, 8, 10. (Mean = 6)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "stats-regression-line"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "chem-redox-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0"
+  ],
+  "stepExplanation": "Elements in their standard form have oxidation number 0",
+  "stepTitle": "Initial Oxidation State",
+  "stepBody": "What is the oxidation number of Fe in its elemental form?"
+}

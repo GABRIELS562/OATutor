@@ -1,0 +1,35 @@
+[
+    {
+        "id": "exp-neg-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Express as Powers of 2",
+        "text": "First, express all bases as powers of 2:\n\n$4 = 2^2$\n$8 = 2^3$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "exp-neg-001a-h2",
+        "type": "hint",
+        "dependencies": ["exp-neg-001a-h1"],
+        "title": "Apply Power of a Power Rule",
+        "text": "$(a^m)^n = a^{mn}$\n\n$4^2 = (2^2)^2 = 2^{4}$\n$8^{-1} = (2^3)^{-1} = 2^{-3}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "exp-neg-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["2^(-3)*2^4/2^(-3)"],
+        "dependencies": ["exp-neg-001a-h2"],
+        "title": "Rewrite the Expression",
+        "text": "$$\\frac{2^{-3} \\cdot 4^2}{8^{-1}} = \\frac{2^{-3} \\cdot 2^{4}}{2^{-3}}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

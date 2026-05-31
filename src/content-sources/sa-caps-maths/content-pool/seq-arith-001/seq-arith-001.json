@@ -1,0 +1,10 @@
+{
+    "id": "seq-arith-001",
+    "title": "Arithmetic Sequence: Finding Terms",
+    "body": "Consider the arithmetic sequence: $5; 11; 17; 23; ...$\n\na) Determine the common difference.\nb) Calculate the 25th term of the sequence.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Sequences and Series",
+    "license": "CC BY 4.0",
+    "lesson": "Arithmetic Sequences",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

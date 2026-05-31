@@ -1,0 +1,17 @@
+{
+  "id": "bio-eye-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "concave",
+    "concave lens",
+    "diverging lens",
+    "diverging"
+  ],
+  "stepExplanation": "Myopia is corrected with a **CONCAVE (diverging) lens**.\n\n```\n[CORRECTION OF MYOPIA]\n\n    Distant object    CONCAVE    Corrected EYE\n         *             LENS      __________\n          \\            /|\\      /          \\\n           \\          / | \\    |            |\n            \\========/  |  \\===|========X   |----Retina\n           /        \\   |  /   |    Image   |\n          /          \\ | /     |   now on   |\n         *            \\|/       \\__retina__/\n                    Diverges\n                    light rays\n```\n\nHow it works:\n1. Concave lens DIVERGES (spreads out) light rays BEFORE they enter the eye\n2. This compensates for the over-refraction by the cornea/lens\n3. The focal point moves BACK onto the retina\n4. Clear image is now formed on the retina",
+  "stepTitle": "Corrective Lens Type",
+  "stepBody": "What type of lens (concave or convex) is used to correct myopia?"
+}

@@ -1,0 +1,10 @@
+{
+    "id": "seq-geom-002",
+    "title": "Geometric Series: Sum of Finite Terms",
+    "body": "The first term of a geometric sequence is 5 and the common ratio is 2.\n\na) Calculate the 10th term.\nb) Calculate the sum of the first 10 terms.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Sequences and Series",
+    "license": "CC BY 4.0",
+    "lesson": "Geometric Sequences",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

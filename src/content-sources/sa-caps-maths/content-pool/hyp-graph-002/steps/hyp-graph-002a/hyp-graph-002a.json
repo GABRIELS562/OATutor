@@ -1,0 +1,10 @@
+{
+    "id": "hyp-graph-002a",
+    "stepAnswer": ["p=-1 and q=3", "p = -1 and q = 3", "p=-1, q=3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Identify p and q from the Asymptotes",
+    "stepBody": "For a hyperbola $y = \\frac{a}{x - p} + q$:\n- Vertical asymptote: $x = p$\n- Horizontal asymptote: $y = q$\n\nWhat are the values of $p$ and $q$?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["hyperbola-asymptotes", "asymptotes"]
+}

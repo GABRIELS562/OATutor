@@ -1,0 +1,16 @@
+{
+  "id": "endo-003b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "increased heart rate, dilated pupils, increased blood glucose",
+    "heart rate increases, breathing rate increases, blood redirected to muscles",
+    "faster heartbeat, dilated airways, more glucose released"
+  ],
+  "stepExplanation": "Adrenaline causes: (1) **Increased heart rate** - pumps more blood to muscles, (2) **Dilation of airways** - increases oxygen intake, (3) **Release of glucose from liver** - provides energy, (4) **Blood diverted to muscles** from digestive system, (5) **Dilated pupils** - improves vision.",
+  "stepTitle": "Describe Three Effects",
+  "stepBody": "List three physiological changes that adrenaline causes in the body to prepare for fight or flight."
+}

@@ -1,0 +1,10 @@
+{
+    "id": "ineq-linear-003a",
+    "stepAnswer": ["-4<2x<=8", "-4 < 2x <= 8"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Subtract 1 from All Parts",
+    "stepBody": "A compound inequality has three parts. Subtract 1 from ALL parts:\n\n$-3 < 2x + 1 \\leq 9$\n\nEnter as: -4<2x<=8",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["inequalities", "linear-equations"]
+}

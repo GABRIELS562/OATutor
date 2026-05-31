@@ -1,0 +1,10 @@
+{
+    "id": "hyp-graph-001",
+    "title": "Finding Asymptotes of a Hyperbola",
+    "body": "Given the hyperbola $y = \\frac{3}{x - 2} + 1$.\n\nDetermine the equations of the horizontal and vertical asymptotes.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 11)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Functions and Graphs - Hyperbolas",
+    "courseName": "CAPS Grade 11 Mathematics"
+}

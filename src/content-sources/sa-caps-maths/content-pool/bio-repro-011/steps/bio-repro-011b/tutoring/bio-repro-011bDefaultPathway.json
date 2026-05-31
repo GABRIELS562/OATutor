@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-repro-011b-h1",
+    "type": "hint",
+    "title": "Meiosis I Products",
+    "text": "During meiosis I, the primary oocyte divides unequally to produce a large secondary oocyte and a small first polar body.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-repro-011b-h2",
+    "type": "hint",
+    "title": "Meiosis II Products",
+    "text": "During meiosis II, the secondary oocyte divides to produce the ovum and a second polar body. The first polar body may also divide to produce a third polar body. Total: 3 polar bodies.",
+    "variabilization": {},
+    "dependencies": ["bio-repro-011b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

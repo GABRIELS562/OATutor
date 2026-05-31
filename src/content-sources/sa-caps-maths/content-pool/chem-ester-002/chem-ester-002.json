@@ -1,0 +1,18 @@
+{
+  "id": "chem-ester-002",
+  "title": "Hydrolysis of Esters",
+  "body": "Methyl propanoate (CH₃CH₂COOCH₃) undergoes acid-catalyzed hydrolysis. Identify the products formed and calculate the molar mass of the alcohol produced. (Relative atomic masses: C = 12, H = 1, O = 16)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-organic-reactions"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "DBE NSC Physical Sciences Paper 2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

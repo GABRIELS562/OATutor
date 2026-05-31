@@ -1,0 +1,15 @@
+{
+  "id": "phys-work-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "80",
+    "80 J"
+  ],
+  "stepExplanation": "W = 20 × 4 = 80 J",
+  "stepTitle": "Calculate Work",
+  "stepBody": "Calculate W = 20 N × 4 m. Give answer in Joules."
+}

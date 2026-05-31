@@ -1,0 +1,16 @@
+{
+  "id": "phys-mom-010a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "3",
+    "3.0",
+    "3.00"
+  ],
+  "stepExplanation": "Impulse = Change in momentum = m(v_f - v_i) = 0.15 kg x (20 - 0) m/s = 3 kg.m/s (or 3 N.s)",
+  "stepTitle": "Calculate the Impulse",
+  "stepBody": "Calculate the impulse delivered to the ball. Use the impulse-momentum theorem: Impulse = Change in momentum = $$m \\Delta v$$. The ball starts from rest ($$v_i = 0$$). Give your answer in kg.m/s or N.s."
+}

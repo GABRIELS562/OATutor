@@ -1,0 +1,14 @@
+{
+  "id": "anl-midpoint-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "2"
+  ],
+  "stepExplanation": "x = (-3 + 7)/2 = 4/2 = 2",
+  "stepTitle": "x-coordinate",
+  "stepBody": "Midpoint x = (x₁ + x₂)/2. Calculate for A(-3, 5) and B(7, -1)."
+}

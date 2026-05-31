@@ -1,0 +1,18 @@
+{
+  "id": "chem-kinetics-002",
+  "title": "Activation Energy and Catalysts",
+  "body": "A reaction has an activation energy of 75 kJ/mol without a catalyst. When a catalyst is added, the activation energy decreases to 50 kJ/mol. Calculate the reduction in activation energy and explain how this affects the reaction rate.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-reaction-rates"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "DBE NSC Physical Sciences Paper 2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

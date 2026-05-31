@@ -1,0 +1,15 @@
+{
+  "id": "chem-equil-014a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "2.25",
+    "2.3"
+  ],
+  "stepExplanation": "Qc = [CO2][H2]/([CO][H2O]) = (0.3)(0.3)/((0.2)(0.2)) = 0.09/0.04 = 2.25",
+  "stepTitle": "Calculate Reaction Quotient Qc",
+  "stepBody": "Calculate the reaction quotient Qc using the current concentrations."
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-arearule-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Use Inverse Sine",
+        "text": "To find Q, use the inverse sine function:\n$$Q = \\sin^{-1}(0.8)$$",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-arearule-002b-h2",
+        "type": "hint",
+        "dependencies": ["trig-arearule-002b-h1"],
+        "title": "Two Possible Angles",
+        "text": "Remember: If sin(Q) = 0.8, then Q could be:\n- The acute angle: Q = sin⁻¹(0.8)\n- The obtuse angle: Q = 180° - sin⁻¹(0.8)\n\nWe want the acute angle.",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-arearule-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["53.1"],
+        "dependencies": ["trig-arearule-002b-h2"],
+        "title": "Calculate the Angle",
+        "text": "$$Q = \\sin^{-1}(0.8) = 53.1°$$",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "seq-arith-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Alternative Sum Formula",
+        "text": "When you know the first and last terms, use:\n$$S_n = \\frac{n}{2}(a + l)$$\n\nThis is often simpler than using $S_n = \\frac{n}{2}[2a + (n-1)d]$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "seq-arith-003b-h2",
+        "type": "hint",
+        "dependencies": ["seq-arith-003b-h1"],
+        "title": "Substitute Values",
+        "text": "With $n = 25$, $a = 2$, and $l = 98$:\n\n$$S_{25} = \\frac{25}{2}(2 + 98)$$\n$$S_{25} = \\frac{25}{2}(100)$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "seq-arith-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["1250"],
+        "dependencies": ["seq-arith-003b-h2"],
+        "title": "Final Answer",
+        "text": "$$S_{25} = \\frac{25}{2}(100)$$\n$$S_{25} = 25 \\times 50$$\n$$S_{25} = 1250$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

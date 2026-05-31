@@ -1,0 +1,18 @@
+{
+  "id": "phys-emf-010a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "-0.015",
+    "-0.015 Wb",
+    "-0,015",
+    "0.015",
+    "0.015 Wb"
+  ],
+  "stepExplanation": "Change in flux = A * (B_final - B_initial) = 0.05 * (0.1 - 0.4) = 0.05 * (-0.3) = -0.015 Wb. The negative sign indicates the flux decreased.",
+  "stepTitle": "Change in Magnetic Flux",
+  "stepBody": "Calculate the change in magnetic flux using the formula: Change in flux = A * (change in B), where A = 0.05 m^2, B changes from 0.4 T to 0.1 T."
+}

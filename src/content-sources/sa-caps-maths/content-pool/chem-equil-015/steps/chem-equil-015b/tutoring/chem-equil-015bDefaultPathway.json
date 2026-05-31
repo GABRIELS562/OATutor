@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-equil-015b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Consider Reaction Rate",
+        "text": "Equilibrium position tells us how much product forms eventually, but rate tells us how fast we get there.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-015b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Temperature and Rate",
+        "text": "Lower temperature = slower reaction rate. At very low temperatures, equilibrium might never be reached in practical time.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-015b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "The Compromise",
+        "text": "450 degrees C is a compromise: fast enough rate for economic production, with acceptable (though not maximum) yield. The iron catalyst speeds up the reaction without changing the equilibrium position.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

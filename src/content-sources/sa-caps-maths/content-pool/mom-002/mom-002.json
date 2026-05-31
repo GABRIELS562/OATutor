@@ -1,0 +1,14 @@
+{
+  "id": "mom-002",
+  "title": "Impulse and Change in Momentum",
+  "body": "A 0.15 kg cricket ball traveling at 30 m/s is hit by a bat and returns in the opposite direction at 40 m/s. If the ball is in contact with the bat for 0.02 s, calculate the average force exerted by the bat on the ball.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-momentum"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

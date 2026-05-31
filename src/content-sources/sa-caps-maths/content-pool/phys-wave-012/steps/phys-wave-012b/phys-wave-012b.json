@@ -1,0 +1,16 @@
+{
+  "id": "phys-wave-012b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.332",
+    "0.33",
+    "33.2 cm"
+  ],
+  "stepExplanation": "For a closed pipe at fundamental frequency, L = wavelength/4. So L = 1.328/4 = 0.332 m = 33.2 cm",
+  "stepTitle": "Calculate Pipe Length",
+  "stepBody": "For a closed pipe resonating at its fundamental frequency, the pipe length L equals one quarter of the wavelength (L = wavelength/4). Calculate the pipe length in metres."
+}

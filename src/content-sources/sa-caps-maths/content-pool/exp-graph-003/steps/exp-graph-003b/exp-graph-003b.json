@@ -1,0 +1,10 @@
+{
+    "id": "exp-graph-003b",
+    "stepAnswer": ["x=1", "(1;0)", "(1, 0)", "1"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the X-Intercept",
+    "stepBody": "To find the x-intercept, set $g(x) = 0$ and solve $2^{x+1} - 4 = 0$.\n\nWhat is the x-intercept?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["exponential-graph", "intercepts"]
+}

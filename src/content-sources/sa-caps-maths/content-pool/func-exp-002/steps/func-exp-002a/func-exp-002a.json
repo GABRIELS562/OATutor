@@ -1,0 +1,10 @@
+{
+    "id": "func-exp-002a",
+    "stepAnswer": ["1/4", "0.25", "25%"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Fraction Remaining After 10 Years",
+    "stepBody": "For the decay formula $A(t) = A_0 \\cdot 2^{-t/5}$, what fraction of the substance remains after 10 years?\\n\\nEnter as a fraction (e.g., 1/4) or decimal:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["exponential-decay", "substitution"]
+}

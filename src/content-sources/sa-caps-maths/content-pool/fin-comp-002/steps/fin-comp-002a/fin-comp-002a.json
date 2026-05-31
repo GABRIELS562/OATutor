@@ -1,0 +1,10 @@
+{
+    "id": "fin-comp-002a",
+    "stepAnswer": ["P=A/(1+i)^n", "P = A/(1+i)^n", "P = A(1+i)^(-n)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Rearrange the Formula for P",
+    "stepBody": "The compound interest formula is $A = P(1 + i)^n$.\n\nWe know $A$ (future value) and need to find $P$ (principal).\n\nRearrange the formula to make $P$ the subject:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["compound-interest", "formula-rearrangement"]
+}

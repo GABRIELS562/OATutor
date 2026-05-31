@@ -1,0 +1,14 @@
+{
+  "id": "vpm-001",
+  "title": "Vertical Projectile Motion - Maximum Height",
+  "body": "A ball is thrown vertically upward from the ground with an initial velocity of 25 m/s. Taking g = 9.8 m/s² downward, calculate the maximum height reached by the ball.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-projectile"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

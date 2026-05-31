@@ -1,0 +1,32 @@
+[
+    {
+        "id": "vpm-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Setting Up the Quadratic",
+        "text": "Substitute: -45 = 15t + ½(-10)t² which gives -45 = 15t - 5t². Rearrange to standard form: 5t² - 15t - 45 = 0, or t² - 3t - 9 = 0.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "vpm-002b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Applying the Quadratic Formula",
+        "text": "For t² - 3t - 9 = 0, use t = (-b ± √(b² - 4ac))/2a with a=1, b=-3, c=-9. So t = (3 ± √(9+36))/2 = (3 ± √45)/2.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "vpm-002b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Finding the Physical Answer",
+        "text": "√45 ≈ 6.71, so t = (3 + 6.71)/2 = 4.5 s or t = (3 - 6.71)/2 = -1.86 s. Time must be positive, so t = 4.5 s.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

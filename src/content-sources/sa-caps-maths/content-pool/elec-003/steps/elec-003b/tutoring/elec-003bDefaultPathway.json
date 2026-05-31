@@ -1,0 +1,32 @@
+[
+    {
+        "id": "elec-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Convert Charge",
+        "text": "q = 5 μC = 5 × 10⁻⁶ C. Use the magnitude for force calculation.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "elec-003b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Force",
+        "text": "F = qE = (5 × 10⁻⁶ C)(2000 N/C) = 0.01 N = 10 mN.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "elec-003b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Determine Direction",
+        "text": "The charge is negative (-5 μC). Negative charges are attracted to positive charges. The electric field points from + to - plate, but our negative charge moves opposite to E, toward the positive plate.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

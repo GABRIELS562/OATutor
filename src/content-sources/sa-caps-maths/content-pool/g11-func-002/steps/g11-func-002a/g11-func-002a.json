@@ -1,0 +1,12 @@
+{
+  "id": "g11-func-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": ["y = a(x - 2)^2 - 3", "a(x - 2)^2 - 3"],
+  "stepExplanation": "The turning point form of a parabola is y = a(x - p)^2 + q, where (p, q) is the turning point. With turning point (2, -3), we get y = a(x - 2)^2 + (-3) = a(x - 2)^2 - 3.",
+  "stepTitle": "Write the equation in turning point form",
+  "stepBody": "Using the turning point form y = a(x - p)^2 + q with turning point (2, -3), write the equation with the unknown constant a."
+}

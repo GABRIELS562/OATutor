@@ -1,0 +1,10 @@
+{
+    "id": "prod-special-001b",
+    "stepAnswer": ["(x+7)(x-7)", "(x-7)(x+7)", "(x + 7)(x - 7)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Apply the Formula",
+    "stepBody": "The difference of two squares formula is:\n$$a^2 - b^2 = (a + b)(a - b)$$\n\nApply this to factorise $x^2 - 7^2$.\n\nEnter as: (x+7)(x-7)",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "difference-of-squares"]
+}

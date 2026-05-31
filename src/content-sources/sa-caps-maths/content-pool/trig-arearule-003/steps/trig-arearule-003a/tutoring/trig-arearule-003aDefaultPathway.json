@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-arearule-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify the Values",
+        "text": "From the problem:\n- a = 120 m\n- b = 85 m\n- C = 72° (included angle)",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-arearule-003a-h2",
+        "type": "hint",
+        "dependencies": ["trig-arearule-003a-h1"],
+        "title": "Calculate the Product",
+        "text": "$$\\frac{1}{2} \\times 120 \\times 85 = \\frac{10200}{2}$$",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-arearule-003a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["5100"],
+        "dependencies": ["trig-arearule-003a-h2"],
+        "title": "Result",
+        "text": "$$\\frac{1}{2} \\times 120 \\times 85 = 5100$$",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    }
+]

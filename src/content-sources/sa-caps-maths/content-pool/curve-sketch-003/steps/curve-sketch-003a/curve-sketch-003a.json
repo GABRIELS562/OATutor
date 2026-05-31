@@ -1,0 +1,10 @@
+{
+    "id": "curve-sketch-003a",
+    "stepAnswer": ["x=-3, x=2, x=5", "x = -3, x = 2, x = 5", "-3, 2, 5", "(-3,0), (2,0), (5,0)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find All x-intercepts",
+    "stepBody": "Given that $x = 2$ is a root, use polynomial division or factorisation to find all x-intercepts of $f(x) = -x^3 + 4x^2 + 11x - 30$.\n\nHint: $(x - 2)$ is a factor. Divide to find the other factor, then factorise completely.\n\nList all x-intercepts:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["polynomial-factorisation", "x-intercepts"]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "diff-rules-002a",
+    "stepAnswer": ["6x^(-2)-4x^(-1/2)+3x", "6x^-2 - 4x^(-1/2) + 3x", "6x^{-2}-4x^{-1/2}+3x"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Rewrite Using Exponents",
+    "stepBody": "Rewrite $g(x) = \\frac{6}{x^2} - \\frac{4}{\\sqrt{x}} + 3x$ using exponent notation.\n\nRecall:\n- $\\frac{1}{x^n} = x^{-n}$\n- $\\sqrt{x} = x^{1/2}$\n\nWrite $g(x)$ with exponents:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "exponent-laws"]
+}

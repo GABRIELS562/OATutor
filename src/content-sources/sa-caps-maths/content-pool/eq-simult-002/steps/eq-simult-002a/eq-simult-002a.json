@@ -1,0 +1,10 @@
+{
+    "id": "eq-simult-002a",
+    "stepAnswer": ["y+2", "y + 2", "2+y"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Make x the Subject",
+    "stepBody": "From the second equation $x - y = 2$, make x the subject.\n\nExpress x in terms of y.\n\nEnter as: y+2",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["linear-equations", "simultaneous-equations"]
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "mom-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Initial Momentum",
+        "text": "Before collision: p = (2)(6) + (4)(0) = 12 + 0 = 12 kg·m/s",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "mom-003b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Final Momentum Expression",
+        "text": "After collision: p = (2)(-2) + (4)(v₂) = -4 + 4v₂. The -2 m/s indicates the 2 kg ball rebounds.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "mom-003b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Solving for v₂",
+        "text": "12 = -4 + 4v₂, so 16 = 4v₂, giving v₂ = 4 m/s. The 4 kg ball moves forward at 4 m/s.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

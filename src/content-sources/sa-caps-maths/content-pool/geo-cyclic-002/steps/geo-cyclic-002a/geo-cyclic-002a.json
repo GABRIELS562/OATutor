@@ -1,0 +1,15 @@
+{
+  "id": "geo-cyclic-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "105",
+    "105°"
+  ],
+  "stepExplanation": "∠A + ∠C = 180° (opposite angles), so ∠C = 180° - 75° = 105°",
+  "stepTitle": "Find ∠C",
+  "stepBody": "In a cyclic quadrilateral, opposite angles are supplementary. Calculate ∠C if ∠A = 75°."
+}

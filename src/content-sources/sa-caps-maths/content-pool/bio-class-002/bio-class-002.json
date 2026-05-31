@@ -1,0 +1,17 @@
+{
+  "id": "bio-class-002",
+  "title": "Five Kingdom Classification",
+  "body": "Robert Whittaker proposed the five kingdom classification system based on cell type, cell number, and mode of nutrition. Identify and describe the five kingdoms.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-classification"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 11 Life Sciences"
+}

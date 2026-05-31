@@ -1,0 +1,10 @@
+{
+    "id": "poly-008a",
+    "stepAnswer": ["(x - 1)", "x - 1", "(x-1)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find One Factor",
+    "stepBody": "Test possible rational roots (factors of 6): $\\pm 1, \\pm 2, \\pm 3, \\pm 6$\n\nLet $f(x) = x^3 - 7x + 6$\n\n$f(1) = 1 - 7 + 6 = 0$ ✓\n\nSo $(x - 1)$ is a factor. Divide $x^3 - 7x + 6$ by $(x - 1)$.\n\nNote: The cubic is $x^3 + 0x^2 - 7x + 6$ (missing $x^2$ term).\n\nWhich factor did we find?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factor-theorem", "polynomial-factorisation"]
+}

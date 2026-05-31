@@ -1,0 +1,22 @@
+[
+  {
+    "id": "g11-func-001b-h1",
+    "type": "hint",
+    "title": "Substitute into the function",
+    "text": "To find the y-coordinate, substitute x = 3 into f(x) = x^2 - 6x + 5. Calculate f(3) = (3)^2 - 6(3) + 5.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-11/functions",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "g11-func-001b-h2",
+    "type": "hint",
+    "title": "Determine maximum or minimum",
+    "text": "Since a = 1 > 0, the parabola opens upward (concave up), meaning the turning point is a minimum. If a < 0, it would be a maximum.",
+    "variabilization": {},
+    "dependencies": ["g11-func-001b-h1"],
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-11/functions",
+    "license": "CC BY 4.0"
+  }
+]

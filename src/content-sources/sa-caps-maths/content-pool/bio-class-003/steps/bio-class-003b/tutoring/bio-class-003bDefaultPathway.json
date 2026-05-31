@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-class-003b-h1",
+    "type": "hint",
+    "title": "Reliable Characteristics",
+    "text": "A good characteristic for a key should be constant - it doesn't change based on age, season, diet, or environment. Structural features are usually more reliable than colors or behaviors.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-class-003b-h2",
+    "type": "hint",
+    "title": "Evaluating Options",
+    "text": "Color can vary within species. Size changes as organisms grow. Location is not a defining characteristic. But the presence or absence of a backbone is a fundamental, unchanging structural feature that clearly divides vertebrates from invertebrates.",
+    "variabilization": {},
+    "dependencies": ["bio-class-003b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

@@ -1,0 +1,10 @@
+{
+    "id": "calc-area-001",
+    "title": "Integration: Area Under a Curve",
+    "body": "Calculate the area bounded by the curve $f(x) = x^2 - 4$, the x-axis, and the lines $x = 0$ and $x = 3$.\\n\\na) Set up the integral for the area.\\nb) Evaluate the integral and find the total area.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Integral Calculus - Area",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

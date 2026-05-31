@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-wave-011a-h1",
+    "type": "hint",
+    "title": "Dividing Powers of Ten",
+    "text": "When dividing numbers in scientific notation, divide the coefficients and subtract the exponents. For 10^a / 10^b = 10^(a-b).",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-wave-011a-h2",
+    "type": "hint",
+    "title": "Performing the Division",
+    "text": "I/I_0 = (1.0 x 10^-5)/(1.0 x 10^-12) = (1.0/1.0) x 10^(-5-(-12)) = 1.0 x 10^(-5+12) = 10^7. This means the sound is 10 million times more intense than the threshold of hearing.",
+    "variabilization": {},
+    "dependencies": ["phys-wave-011a-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

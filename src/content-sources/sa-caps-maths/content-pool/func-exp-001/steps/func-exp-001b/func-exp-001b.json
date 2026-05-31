@@ -1,0 +1,10 @@
+{
+    "id": "func-exp-001b",
+    "stepAnswer": ["a=3, b=2", "a=3 and b=2", "3 and 2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find a and b",
+    "stepBody": "Using $q = -2$, we have $f(x) = a \\cdot b^x - 2$. The function passes through $(0, 1)$ and $(1, 4)$.\\n\\nFind the values of $a$ and $b$.\\n\\nWrite as: a=? and b=?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["exponential-functions", "simultaneous-equations"]
+}

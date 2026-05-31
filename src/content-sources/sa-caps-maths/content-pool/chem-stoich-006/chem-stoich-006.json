@@ -1,0 +1,18 @@
+{
+  "id": "chem-stoich-006",
+  "title": "Empirical Formula Calculation",
+  "body": "A compound contains 40% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Determine the empirical formula of the compound. (Atomic masses: C = 12, H = 1, O = 16)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-stoichiometry"
+      ],
+      "difficultyCodes": [
+        "hard"
+      ]
+    }
+  ],
+  "oer": "Siyavula Grade 11 Physical Sciences - Stoichiometry",
+  "courseName": "CAPS Grade 11 Physical Sciences"
+}

@@ -1,0 +1,25 @@
+[
+    {
+        "id": "fin-comp-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Take Logarithms",
+        "text": "From $2 = (1.105)^n$\n\nTake log of both sides:\n$\\log 2 = n \\log(1.105)$\n\n$n = \\frac{\\log 2}{\\log 1.105}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-comp-003b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["6.94 years"],
+        "dependencies": ["fin-comp-003b-h1"],
+        "title": "Calculate",
+        "text": "$n = \\frac{\\log 2}{\\log 1.105} = \\frac{0.30103}{0.04336} = 6.94$ years\n\nIt will take approximately 6.94 years (or about 7 years) for the investment to double.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "evol-001b-h1",
+    "type": "hint",
+    "title": "Differential Survival",
+    "text": "Birds are visual predators. On dark tree bark, light moths stand out and are eaten more often. Dark moths blend in and survive to reproduce, passing on their color genes.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "evol-001b-h2",
+    "type": "hint",
+    "title": "Allele Frequency Change",
+    "text": "Evolution is defined as a change in allele frequency over time. As more dark moths survive and reproduce, the frequency of the dark color allele increases in the population.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

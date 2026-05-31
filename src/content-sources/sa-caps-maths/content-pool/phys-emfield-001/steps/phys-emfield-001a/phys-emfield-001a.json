@@ -1,0 +1,17 @@
+{
+  "id": "phys-emfield-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "-0.03",
+    "-0.03 Wb",
+    "0.03",
+    "0.03 Wb"
+  ],
+  "stepExplanation": "The change in magnetic flux is:\n$$\\Delta\\Phi = \\Phi_{final} - \\Phi_{initial} = 0.02 - 0.05 = -0.03 \\text{ Wb}$$\nThe magnitude is 0.03 Wb.",
+  "stepTitle": "Calculate Change in Magnetic Flux",
+  "stepBody": "Calculate the change in magnetic flux (ΔΦ = Φ_final - Φ_initial). Give your answer in Webers (Wb)."
+}

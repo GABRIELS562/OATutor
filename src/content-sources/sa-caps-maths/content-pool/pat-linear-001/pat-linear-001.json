@@ -1,0 +1,10 @@
+{
+    "id": "pat-linear-001",
+    "title": "Finding the nth Term of a Linear Sequence",
+    "body": "Consider the sequence: $5, 8, 11, 14, ...$\n\nFind the general term $T_n$ and calculate the value of the 20th term.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 10)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Number Patterns",
+    "courseName": "CAPS Grade 10 Mathematics"
+}

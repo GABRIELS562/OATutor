@@ -1,0 +1,10 @@
+{
+    "id": "geo-tan-001a",
+    "stepAnswer": ["48"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Calculate angle ABC",
+    "stepBody": "The tan-chord angle theorem states: The angle between a tangent and a chord is equal to the inscribed angle subtending the same arc on the opposite side.\n\nAngle TAC (tan-chord angle) = Angle ABC (inscribed angle in alternate segment)\n\nIf angle TAC = 48 degrees, what is angle ABC?",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["geo-tangent-theorem", "geo-proof-writing"]
+}

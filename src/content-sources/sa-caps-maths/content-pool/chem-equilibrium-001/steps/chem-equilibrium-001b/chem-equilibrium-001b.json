@@ -1,0 +1,17 @@
+{
+  "id": "chem-equilibrium-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "left",
+    "Left",
+    "backwards",
+    "reverse"
+  ],
+  "stepExplanation": "Increasing T favors the endothermic direction (reverse), so equilibrium shifts LEFT",
+  "stepTitle": "Predict Shift",
+  "stepBody": "When temperature increases, does equilibrium shift left or right?"
+}

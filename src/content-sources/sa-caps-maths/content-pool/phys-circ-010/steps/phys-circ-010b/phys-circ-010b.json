@@ -1,0 +1,16 @@
+{
+  "id": "phys-circ-010b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "8",
+    "8 W",
+    "8W"
+  ],
+  "stepExplanation": "Power dissipated in internal resistance: P = I^2 * r = (4)^2 * 0.5 = 16 * 0.5 = 8 W. This represents energy lost as heat inside the battery.",
+  "stepTitle": "Power Dissipated in Internal Resistance",
+  "stepBody": "Calculate the power dissipated in the internal resistance using P = I^2 * r, where I = 4 A and r = 0.5 ohm."
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-light-001a-h1",
+    "type": "hint",
+    "title": "Deriving Critical Angle",
+    "text": "At the critical angle, the refracted ray travels along the boundary (angle of refraction = 90 degrees). Using Snell's law: n1 sin(theta_c) = n2 sin(90) = n2. Therefore sin(theta_c) = n2/n1.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-light-001a-h2",
+    "type": "hint",
+    "title": "Condition for TIR",
+    "text": "Total internal reflection only occurs when light travels from a denser to a less dense medium (n1 > n2), and only when the angle of incidence exceeds the critical angle.",
+    "variabilization": {},
+    "dependencies": ["phys-light-001a-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

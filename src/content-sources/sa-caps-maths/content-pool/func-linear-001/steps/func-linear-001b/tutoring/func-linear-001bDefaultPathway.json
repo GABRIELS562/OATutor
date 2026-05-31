@@ -1,0 +1,35 @@
+[
+    {
+        "id": "func-linear-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Using the Point-Slope Form",
+        "text": "We know $m = -1$ and we have point $A(-2, 5)$.\n\nSubstitute into $y = mx + c$:\n$$5 = (-1)(-2) + c$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-linear-001b-h2",
+        "type": "hint",
+        "dependencies": ["func-linear-001b-h1"],
+        "title": "Solve for c",
+        "text": "$$5 = 2 + c$$\n$$c = 5 - 2 = 3$$\n\nSo $c = 3$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-linear-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["y=-x+3"],
+        "dependencies": ["func-linear-001b-h2"],
+        "title": "Write the Equation",
+        "text": "With $m = -1$ and $c = 3$:\n\n$$y = -x + 3$$\n\nVerify with point B: $y = -(4) + 3 = -1$ ✓",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "id": "calc-area-002a",
+    "stepAnswer": ["(-3, -3) and (2, 2)", "x=-3 and x=2", "-3 and 2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find Points of Intersection",
+    "stepBody": "Find the points of intersection of $f(x) = 6 - x^2$ and $g(x) = x$.\\n\\nWrite the x-coordinates or points:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["integration", "simultaneous-equations"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bio-repro-011",
+  "title": "Oogenesis - Egg Cell Formation",
+  "body": "Oogenesis differs from spermatogenesis in the number of functional gametes produced. Compare the outcomes of oogenesis and spermatogenesis from a single primary cell.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-gametogenesis"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

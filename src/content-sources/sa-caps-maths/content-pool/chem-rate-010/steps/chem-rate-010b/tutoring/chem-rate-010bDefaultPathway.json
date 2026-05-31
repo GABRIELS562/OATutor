@@ -1,0 +1,32 @@
+[
+  {
+    "id": "chem-rate-010b-h1",
+    "type": "hint",
+    "title": "Concentration and Particle Density",
+    "text": "Concentration measures how many particles of solute are in a given volume. Higher concentration = more particles per dm$$^3$$.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/reaction-rates",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "chem-rate-010b-h2",
+    "type": "hint",
+    "title": "More Particles, More Collisions",
+    "text": "With more HCl particles in the same volume, there is a higher probability of collisions between H$$^+$$ ions and zinc atoms. More collisions per second means a faster reaction.",
+    "variabilization": {},
+    "dependencies": ["chem-rate-010b-h1"],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/reaction-rates",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "chem-rate-010b-h3",
+    "type": "hint",
+    "title": "Mathematical Relationship",
+    "text": "For most reactions, doubling the concentration approximately doubles the collision frequency, which approximately doubles the reaction rate.",
+    "variabilization": {},
+    "dependencies": ["chem-rate-010b-h2"],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/reaction-rates",
+    "license": "CC BY 4.0"
+  }
+]

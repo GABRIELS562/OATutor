@@ -1,0 +1,32 @@
+[
+    {
+        "id": "mom-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Conservation of Momentum",
+        "text": "In an isolated system, total momentum before collision equals total momentum after. This is the Law of Conservation of Linear Momentum.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "mom-001a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Inelastic Collision",
+        "text": "When objects stick together, it's called a perfectly inelastic collision. The combined mass moves with a common velocity v after collision.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "mom-001a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Setting Up the Equation",
+        "text": "Total momentum before: m₁v₁ + m₂v₂. Total momentum after: (m₁ + m₂)v. These must be equal.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

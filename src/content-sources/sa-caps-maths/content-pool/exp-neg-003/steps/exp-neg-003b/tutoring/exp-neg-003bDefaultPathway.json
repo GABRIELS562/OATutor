@@ -1,0 +1,35 @@
+[
+    {
+        "id": "exp-neg-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Simplify y Terms",
+        "text": "$\\frac{y^{3}}{y^{-1}} = y^{3-(-1)} = y^{3+1} = y^{4}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "exp-neg-003b-h2",
+        "type": "hint",
+        "dependencies": ["exp-neg-003b-h1"],
+        "title": "Combine Results",
+        "text": "From Step 1: $\\frac{x^{-2}}{x^{-4}} = x^{2}$\n\nFrom Step 2: $\\frac{y^{3}}{y^{-1}} = y^{4}$\n\nCombining: $x^{2} \\cdot y^{4} = x^2y^4$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "exp-neg-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x^2*y^4"],
+        "dependencies": ["exp-neg-003b-h2"],
+        "title": "Final Answer",
+        "text": "$$\\frac{x^{-2} \\cdot y^3}{x^{-4} \\cdot y^{-1}} = x^2y^4$$\n\nBoth exponents are now positive!",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

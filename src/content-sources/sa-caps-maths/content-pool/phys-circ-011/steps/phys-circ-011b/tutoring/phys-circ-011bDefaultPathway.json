@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-circ-011b-h1",
+    "type": "hint",
+    "title": "Apply Ohm's Law",
+    "text": "Use I = V/R where V = 12 V (battery voltage) and R = 10 ohm (total resistance calculated in part a).",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-circ-011b-h2",
+    "type": "hint",
+    "title": "Series Current",
+    "text": "In a series circuit, the same current flows through all components. I = 12/10 = 1.2 A flows through R3 (and through the parallel combination).",
+    "variabilization": {},
+    "dependencies": ["phys-circ-011b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

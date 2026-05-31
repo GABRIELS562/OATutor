@@ -1,0 +1,17 @@
+{
+  "id": "chem-iupac-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "alcohol",
+    "hydroxyl",
+    "Alcohol",
+    "Hydroxyl"
+  ],
+  "stepExplanation": "The -OH group is called a hydroxyl group, and compounds containing it are called alcohols.",
+  "stepTitle": "Identify the Functional Group",
+  "stepBody": "What functional group does -OH represent in organic chemistry?"
+}

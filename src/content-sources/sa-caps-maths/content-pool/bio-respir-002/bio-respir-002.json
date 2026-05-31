@@ -1,0 +1,14 @@
+{
+  "id": "bio-respir-002",
+  "title": "Cellular Respiration - Aerobic vs Anaerobic",
+  "body": "Study the comparison diagram below:\n\n```\n[AEROBIC vs ANAEROBIC RESPIRATION]\n\n                    GLUCOSE\n                       |\n                       v\n                  GLYCOLYSIS\n                  (2 ATP + 2 Pyruvate)\n                       |\n          +------------+------------+\n          |                         |\n     [O2 present]             [No O2]\n          |                         |\n          v                         v\n    AEROBIC                   ANAEROBIC\n    (Mitochondria)            (Cytoplasm)\n          |                         |\n          v                         v\n    Krebs + ETC               FERMENTATION\n    = 36-38 ATP               = 2 ATP only\n          |                         |\n          v                         v\n    CO2 + H2O              Lactic acid (animals)\n                           OR Ethanol + CO2 (yeast)\n```\n\nAn athlete sprinting in a 100m race experiences muscle fatigue and cramping. Explain the type of respiration occurring and why this happens.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-cellular-respiration"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "oer": "DBE NSC Life Sciences Paper 1/2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

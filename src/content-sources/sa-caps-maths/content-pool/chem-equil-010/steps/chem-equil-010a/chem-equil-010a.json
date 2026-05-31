@@ -1,0 +1,15 @@
+{
+  "id": "chem-equil-010a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "[HI]^2 / ([H2][I2])",
+    "[HI]^2/([H2][I2])"
+  ],
+  "stepExplanation": "For aA + bB <=> cC + dD, Kc = [C]^c[D]^d / [A]^a[B]^b. For this reaction: Kc = [HI]^2 / ([H2][I2])",
+  "stepTitle": "Write the Kc Expression",
+  "stepBody": "Write the equilibrium constant expression (Kc) for this reaction. Products over reactants, with coefficients as powers."
+}

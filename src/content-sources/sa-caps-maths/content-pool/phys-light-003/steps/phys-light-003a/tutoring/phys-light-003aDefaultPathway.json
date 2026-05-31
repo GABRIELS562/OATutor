@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-light-003a-h1",
+    "type": "hint",
+    "title": "Standard Angle Values",
+    "text": "sin(45 degrees) is a standard value you should memorize: sin(45) = 1/sqrt(2) = sqrt(2)/2 = 0.7071...",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-light-003a-h2",
+    "type": "hint",
+    "title": "Using Your Calculator",
+    "text": "Make sure your calculator is in degree mode. Type sin(45) and you should get 0.7071... Round to 0.707 for our calculation.",
+    "variabilization": {},
+    "dependencies": ["phys-light-003a-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

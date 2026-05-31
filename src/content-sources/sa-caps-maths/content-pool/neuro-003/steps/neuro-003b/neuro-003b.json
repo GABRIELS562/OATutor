@@ -1,0 +1,16 @@
+{
+  "id": "neuro-003b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "ion channels open causing depolarization",
+    "opens ion channels and generates action potential",
+    "depolarization of postsynaptic membrane"
+  ],
+  "stepExplanation": "Neurotransmitters bind to specific receptors on the postsynaptic membrane, causing **ion channels to open**. If excitatory, sodium ions enter and cause depolarization, potentially generating a new action potential. The signal is thus transmitted chemically across the synapse.",
+  "stepTitle": "Effect on Postsynaptic Neuron",
+  "stepBody": "When neurotransmitters bind to receptors on the postsynaptic membrane, what happens to allow the nerve impulse to continue?"
+}

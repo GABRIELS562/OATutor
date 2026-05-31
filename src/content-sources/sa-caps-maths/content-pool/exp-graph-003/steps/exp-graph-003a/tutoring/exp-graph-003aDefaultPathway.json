@@ -1,0 +1,35 @@
+[
+    {
+        "id": "exp-graph-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute x = 0",
+        "text": "$g(0) = 2^{0+1} - 4$\n$g(0) = 2^1 - 4$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "exp-graph-003a-h2",
+        "type": "hint",
+        "dependencies": ["exp-graph-003a-h1"],
+        "title": "Simplify",
+        "text": "$g(0) = 2 - 4 = -2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "exp-graph-003a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(0;-2)"],
+        "dependencies": ["exp-graph-003a-h2"],
+        "title": "State the Y-Intercept",
+        "text": "The y-intercept is $(0; -2)$.\n\nThis is where the graph crosses the y-axis.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

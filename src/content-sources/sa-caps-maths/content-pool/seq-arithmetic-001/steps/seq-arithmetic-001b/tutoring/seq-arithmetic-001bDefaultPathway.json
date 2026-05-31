@@ -1,0 +1,35 @@
+[
+    {
+        "id": "seq-arithmetic-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find the First Term",
+        "text": "From $a + 2d = 8$ with $d = 4$:\\n\\n$a + 2(4) = 8$\\n$a + 8 = 8$\\n$a = 0$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "seq-arithmetic-001b-h2",
+        "type": "hint",
+        "dependencies": ["seq-arithmetic-001b-h1"],
+        "title": "Apply Sum Formula",
+        "text": "$S_{20} = \\frac{20}{2}[2(0) + (20-1)(4)]$\\n\\n$= 10[0 + 19 \\times 4]$\\n\\n$= 10[76]$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "seq-arithmetic-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["760"],
+        "dependencies": ["seq-arithmetic-001b-h2"],
+        "title": "Calculate",
+        "text": "$S_{20} = 10 \\times 76 = 760$\\n\\nAlternatively, using $S_n = \\frac{n}{2}(a + l)$:\\n\\n$T_{20} = 0 + 19(4) = 76$\\n$S_{20} = \\frac{20}{2}(0 + 76) = 10 \\times 76 = 760$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

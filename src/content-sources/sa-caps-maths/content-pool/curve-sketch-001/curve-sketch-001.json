@@ -1,0 +1,10 @@
+{
+    "id": "curve-sketch-001",
+    "title": "Finding Stationary Points",
+    "body": "Given the function $f(x) = x^3 - 6x^2 + 9x + 2$:\n\nFind the coordinates of the stationary points and determine whether each is a local maximum, local minimum, or point of inflection.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Differential Calculus - Curve Sketching",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

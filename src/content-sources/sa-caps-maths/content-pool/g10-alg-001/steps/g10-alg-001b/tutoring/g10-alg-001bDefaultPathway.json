@@ -1,0 +1,35 @@
+[
+    {
+        "id": "g10-alg-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify Like Terms",
+        "text": "Like terms have the same variable raised to the same power.\n\nIn $2x^2 - 10x + 3x - 15$:\n- $2x^2$ is the only $x^2$ term\n- $-10x$ and $+3x$ are like terms (both are $x$ terms)\n- $-15$ is a constant term",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "g10-alg-001b-h2",
+        "type": "hint",
+        "dependencies": ["g10-alg-001b-h1"],
+        "title": "Combine the x Terms",
+        "text": "Add the coefficients of the like terms:\n\n$-10x + 3x = (-10 + 3)x = -7x$\n\nBe careful with signs when combining!",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "g10-alg-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["2x^2 - 7x - 15"],
+        "dependencies": ["g10-alg-001b-h2"],
+        "title": "Final Answer",
+        "text": "Putting it all together:\n\n$2x^2 - 10x + 3x - 15 = 2x^2 - 7x - 15$\n\nThe expression is now fully simplified in standard form (descending powers of $x$).",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

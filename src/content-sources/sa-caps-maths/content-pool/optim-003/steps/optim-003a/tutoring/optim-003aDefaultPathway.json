@@ -1,0 +1,25 @@
+[
+    {
+        "id": "optim-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute h in Terms of x",
+        "text": "From $h = \\frac{32}{x^2}$:\n\nCost of sides = $100 \\times 4x \\times \\frac{32}{x^2} = \\frac{12800}{x}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "optim-003a-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["C = 150x^2 + 12800/x"],
+        "dependencies": ["optim-003a-h1"],
+        "title": "Total Cost Function",
+        "text": "Total cost:\n$C = 150x^2 + \\frac{12800}{x}$\n\nOr: $C = 150x^2 + 12800x^{-1}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

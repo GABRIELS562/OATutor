@@ -1,0 +1,10 @@
+{
+    "id": "calc-statpt-001",
+    "title": "Sketching a Cubic Function Using Calculus",
+    "body": "Given $f(x) = -x^3 + 3x^2 + 9x - 27$\n\nFind the stationary points and determine their nature to help sketch the curve.",
+    "variabilization": {},
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Differential Calculus - Curve Sketching",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

@@ -1,0 +1,10 @@
+{
+    "id": "func-linear-001a",
+    "stepAnswer": ["-1", "-1.0"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Calculate the Gradient",
+    "stepBody": "Find the gradient (slope) of the line through $A(-2, 5)$ and $B(4, -1)$.\n\nUse the formula: $$m = \\frac{y_2 - y_1}{x_2 - x_1}$$\n\n$$m = \\frac{-1 - 5}{4 - (-2)}$$\n\nCalculate the gradient:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["linear-functions", "gradient"]
+}

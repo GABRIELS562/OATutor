@@ -1,0 +1,22 @@
+[
+  {
+    "id": "neuro-001b-h1",
+    "type": "hint",
+    "title": "Speed of Reflexes",
+    "text": "Reflexes are fast because they bypass the brain. The neural pathway is shorter when integration occurs in the spinal cord rather than traveling all the way to the brain and back.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "neuro-001b-h2",
+    "type": "hint",
+    "title": "Protective Function",
+    "text": "Spinal reflexes evolved as protective mechanisms. The withdrawal reflex protects against tissue damage by responding faster than conscious thought allows.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

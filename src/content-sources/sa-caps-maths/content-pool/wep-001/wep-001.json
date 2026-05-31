@@ -1,0 +1,14 @@
+{
+  "id": "wep-001",
+  "title": "Work-Energy Theorem",
+  "body": "A 5 kg block initially at rest on a frictionless surface is pushed with a constant force of 20 N over a distance of 10 m. Calculate the final speed of the block.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-newtons-laws"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

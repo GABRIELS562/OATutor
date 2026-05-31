@@ -1,0 +1,15 @@
+{
+  "id": "geo-tangent-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "6",
+    "6 cm"
+  ],
+  "stepExplanation": "r² = 100 - 64 = 36, so r = 6 cm",
+  "stepTitle": "Find Radius",
+  "stepBody": "Solve for the radius r."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phys-wave-011",
+  "title": "Sound Intensity and Decibels",
+  "body": "A sound has an intensity of 1.0 x 10^-5 W/m^2. Calculate the sound intensity level in decibels. Use the reference intensity I_0 = 1.0 x 10^-12 W/m^2.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-waves"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

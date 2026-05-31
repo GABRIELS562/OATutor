@@ -1,0 +1,18 @@
+{
+  "id": "chem-equil-010",
+  "title": "Equilibrium Constant Kc Calculation",
+  "body": "For the reaction: H2(g) + I2(g) <=> 2HI(g), at equilibrium the concentrations are: [H2] = 0.11 mol/dm^3, [I2] = 0.11 mol/dm^3, [HI] = 0.78 mol/dm^3. Calculate the equilibrium constant Kc.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-equilibrium"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "Siyavula Grade 12 Physical Sciences - Chemical Equilibrium",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-gensol-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Divide by 2",
+        "text": "From 2x = 150° + 360°n:\n$$x = \\frac{150°}{2} + \\frac{360°n}{2}$$\n$$x = 75° + 180°n$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-gensol-002b-h2",
+        "type": "hint",
+        "dependencies": ["trig-gensol-002b-h1"],
+        "title": "Second Solution",
+        "text": "From 2x = 210° + 360°n:\n$$x = \\frac{210°}{2} + \\frac{360°n}{2}$$\n$$x = 105° + 180°n$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-gensol-002b-h3",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": ["x = 75 + 180n or x = 105 + 180n"],
+        "dependencies": ["trig-gensol-002b-h2"],
+        "title": "Complete General Solution",
+        "text": "$$x = 75° + 180°n$$ or $$x = 105° + 180°n$$, where n is any integer.\n\nNote: The period changed from 360° to 180° because we divided by 2.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

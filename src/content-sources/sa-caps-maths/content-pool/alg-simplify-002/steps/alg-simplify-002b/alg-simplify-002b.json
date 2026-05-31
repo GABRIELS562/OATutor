@@ -1,0 +1,10 @@
+{
+    "id": "alg-simplify-002b",
+    "stepAnswer": ["2b^4/a^5", "(2b^4)/a^5"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Express with Positive Exponents",
+    "stepBody": "From $2a^{-5}b^4$, express the answer with positive exponents only.\n\nRecall: $a^{-n} = \\frac{1}{a^n}$\n\nEnter the final answer as a fraction with positive exponents:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["negative-exponents", "algebraic-simplification"]
+}

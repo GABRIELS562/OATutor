@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-exponent-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Express as Powers of Prime",
+        "text": "Always express all bases as powers of the same prime number.\\n\\n$9 = 3^2$\\n$27 = 3^3$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-exponent-001a-h2",
+        "type": "hint",
+        "dependencies": ["alg-exponent-001a-h1"],
+        "title": "Apply Power of a Power Rule",
+        "text": "$(a^m)^n = a^{mn}$\\n\\n$9^x = (3^2)^x = 3^{2x}$\\n$27^{x-1} = (3^3)^{x-1} = 3^{3(x-1)} = 3^{3x-3}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-exponent-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["3^(x+2)*3^(2x)/3^(3x-3)"],
+        "dependencies": ["alg-exponent-001a-h2"],
+        "title": "Rewrite the Expression",
+        "text": "$$\\frac{3^{x+2} \\cdot 9^x}{27^{x-1}} = \\frac{3^{x+2} \\cdot 3^{2x}}{3^{3x-3}}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

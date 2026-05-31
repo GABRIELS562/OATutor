@@ -1,0 +1,12 @@
+[
+  {
+    "id": "chem-ph-001a-h1",
+    "type": "hint",
+    "title": "Strong Acid Dissociation",
+    "text": "Strong acids like HCl dissociate completely. Every HCl molecule releases one H⁺ ion.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

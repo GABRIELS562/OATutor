@@ -1,0 +1,10 @@
+{
+    "id": "fin-annuity-003a",
+    "stepAnswer": ["x=Fi/[(1+i)^n-1]", "x = Fi / [(1+i)^n - 1]", "x = (F*i) / ((1+i)^n - 1)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Rearrange Formula for Monthly Payment",
+    "stepBody": "The future value annuity formula is $F = x \\cdot \\frac{(1+i)^n - 1}{i}$\n\nWhere:\n- $F$ = future value (target amount)\n- $x$ = monthly payment\n- $i$ = monthly interest rate\n- $n$ = number of payments\n\nRearrange to make $x$ the subject:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["annuities", "sinking-fund", "formula-rearrangement"]
+}

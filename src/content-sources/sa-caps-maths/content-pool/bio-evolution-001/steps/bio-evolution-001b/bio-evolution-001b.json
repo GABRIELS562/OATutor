@@ -1,0 +1,16 @@
+{
+  "id": "bio-evolution-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "increases",
+    "more brown",
+    "increase"
+  ],
+  "stepExplanation": "Brown beetles survive and reproduce more, so their proportion INCREASES over generations",
+  "stepTitle": "Population Change",
+  "stepBody": "What happens to the proportion of brown beetles over generations?"
+}

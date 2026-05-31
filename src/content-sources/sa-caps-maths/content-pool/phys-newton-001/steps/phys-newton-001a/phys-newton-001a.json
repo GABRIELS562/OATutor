@@ -1,0 +1,15 @@
+{
+  "id": "phys-newton-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "F = ma",
+    "F=ma"
+  ],
+  "stepExplanation": "Newton's Second Law states that the net force on an object equals its mass multiplied by its acceleration: $$F_{net} = ma$$",
+  "stepTitle": "Identify the Formula",
+  "stepBody": "Which formula relates force, mass, and acceleration according to Newton's Second Law?"
+}

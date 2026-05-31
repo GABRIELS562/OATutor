@@ -1,0 +1,10 @@
+{
+    "id": "calc-rate-002a",
+    "stepAnswer": ["t=1 and t=3", "1 and 3", "t=1, t=3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find When Particle is at Rest",
+    "stepBody": "For $s(t) = t^3 - 6t^2 + 9t + 2$, find the velocity function and determine when the particle is at rest.\\n\\nWrite the values of t when velocity = 0:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["motion", "differentiation", "velocity"]
+}

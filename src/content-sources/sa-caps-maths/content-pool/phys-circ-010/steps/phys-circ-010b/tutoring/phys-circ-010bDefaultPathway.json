@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-circ-010b-h1",
+    "type": "hint",
+    "title": "Power Formula",
+    "text": "Power dissipated in a resistor can be calculated using P = I^2 * R. For internal resistance, use P = I^2 * r where r is the internal resistance.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-circ-010b-h2",
+    "type": "hint",
+    "title": "Calculate the Power",
+    "text": "Substitute: P = (4 A)^2 * 0.5 ohm = 16 * 0.5 = 8 W. This power is converted to heat inside the battery.",
+    "variabilization": {},
+    "dependencies": ["phys-circ-010b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

@@ -1,0 +1,10 @@
+{
+    "id": "alg-fact-003b",
+    "stepAnswer": ["(2x + 1)(x + 3)", "(x + 3)(2x + 1)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Factor by Grouping",
+    "stepBody": "Split the middle term and factor by grouping:\n\n$2x^2 + 7x + 3$\n$= 2x^2 + 6x + x + 3$ (split $7x$ into $6x + x$)\n$= 2x(x + 3) + 1(x + 3)$ (factor each pair)\n$= ?$\n\nWrite the final factorised form:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "trinomial-factor", "grouping"]
+}

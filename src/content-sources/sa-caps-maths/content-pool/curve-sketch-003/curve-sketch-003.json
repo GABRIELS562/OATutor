@@ -1,0 +1,10 @@
+{
+    "id": "curve-sketch-003",
+    "title": "Finding Intercepts and Sketching a Cubic",
+    "body": "For the function $f(x) = -x^3 + 4x^2 + 11x - 30$:\n\n(a) Find the x-intercepts (given that $x = 2$ is one root).\n(b) Find the y-intercept.\n(c) Find the turning points.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Differential Calculus - Curve Sketching",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

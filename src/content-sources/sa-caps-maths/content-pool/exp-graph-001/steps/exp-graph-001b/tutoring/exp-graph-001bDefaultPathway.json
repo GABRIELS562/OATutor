@@ -1,0 +1,35 @@
+[
+    {
+        "id": "exp-graph-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute the Second Point",
+        "text": "Using $(1, 7)$ where $x = 1$ and $y = 7$:\n\n$7 = 3 \\cdot b^1 - 2$\n$7 = 3b - 2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "exp-graph-001b-h2",
+        "type": "hint",
+        "dependencies": ["exp-graph-001b-h1"],
+        "title": "Solve for b",
+        "text": "$7 + 2 = 3b$\n$9 = 3b$\n$b = 3$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "exp-graph-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["y=3(3)^x-2"],
+        "dependencies": ["exp-graph-001b-h2"],
+        "title": "Write the Final Equation",
+        "text": "With $a = 3$, $b = 3$, and $q = -2$:\n\n$$y = 3 \\cdot 3^x - 2$$\n\nSince $b = 3 > 1$, this is an exponential growth function.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

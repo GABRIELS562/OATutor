@@ -1,0 +1,10 @@
+{
+    "id": "ineq-linear-002b",
+    "stepAnswer": ["x<=-2", "x <= -2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Divide by -2 (Reverse the Sign!)",
+    "stepBody": "Divide both sides of $-2x \\geq 4$ by $-2$.\n\nIMPORTANT: When dividing by a negative number, you must REVERSE the inequality sign!\n\nEnter as: x<=-2",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["inequalities", "linear-equations"]
+}

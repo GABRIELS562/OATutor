@@ -1,0 +1,23 @@
+{
+  "id": "chem-org-012a",
+  "type": "scaffold",
+  "problemType": "MultipleChoice",
+  "answerType": "string",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "addition",
+    "Addition",
+    "halogenation",
+    "addition reaction"
+  ],
+  "stepExplanation": "This is an addition reaction. The C=C double bond breaks and the Br atoms add across the double bond. Specifically, this is a halogenation reaction because a halogen (bromine) is being added.",
+  "stepTitle": "Identify the Reaction Type",
+  "stepBody": "When bromine (Br$$_2$$) reacts with an alkene like but-2-ene, what type of reaction occurs?",
+  "choices": [
+    "substitution",
+    "addition",
+    "elimination",
+    "oxidation"
+  ]
+}

@@ -1,0 +1,48 @@
+[
+    {
+        "id": "geo-tangent-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Pythagorean Theorem",
+        "text": "In a right triangle, $$c^2 = a^2 + b^2$$ where c is the hypotenuse (longest side, opposite the right angle).",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "geo-tangent-001b-h2",
+        "type": "hint",
+        "dependencies": ["geo-tangent-001b-h1"],
+        "title": "Identify the Sides",
+        "text": "In triangle OAP:\\n- OP = 13 cm (hypotenuse, opposite the right angle at A)\\n- OA = 5 cm (radius)\\n- PA = ? (tangent, what we need to find)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "geo-tangent-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": ["144"],
+        "dependencies": ["geo-tangent-001b-h2"],
+        "title": "Set Up the Equation",
+        "text": "Using $$OP^2 = OA^2 + PA^2$$:\\n\\n$$13^2 = 5^2 + PA^2$$\\n$$169 = 25 + PA^2$$\\n\\nWhat is $$PA^2$$?",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "geo-tangent-001b-h4",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["12"],
+        "dependencies": ["geo-tangent-001b-h3"],
+        "title": "Find PA",
+        "text": "$$PA^2 = 144$$\\n\\nWhat is $$PA = \\sqrt{144}$$?\\n\\n**Note:** 5-12-13 is a Pythagorean triple!",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

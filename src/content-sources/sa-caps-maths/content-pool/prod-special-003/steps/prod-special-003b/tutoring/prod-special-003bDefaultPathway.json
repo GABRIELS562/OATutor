@@ -1,0 +1,35 @@
+[
+    {
+        "id": "prod-special-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute into Formula",
+        "text": "$(a + b)(a - b) = a^2 - b^2$\n\n$(2x + 3)(2x - 3) = (2x)^2 - (3)^2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "prod-special-003b-h2",
+        "type": "hint",
+        "dependencies": ["prod-special-003b-h1"],
+        "title": "Simplify",
+        "text": "$(2x)^2 = 4x^2$\n$(3)^2 = 9$\n\nSo: $(2x)^2 - (3)^2 = 4x^2 - 9$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "prod-special-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["4x^2-9"],
+        "dependencies": ["prod-special-003b-h2"],
+        "title": "Final Answer",
+        "text": "$(2x + 3)(2x - 3) = 4x^2 - 9$\n\nNote: The middle terms cancel out:\n$(2x)(2x) + (2x)(-3) + (3)(2x) + (3)(-3)$\n$= 4x^2 - 6x + 6x - 9$\n$= 4x^2 - 9$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

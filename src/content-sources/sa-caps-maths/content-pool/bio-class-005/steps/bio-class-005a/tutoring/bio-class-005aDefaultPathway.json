@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-class-005a-h1",
+    "type": "hint",
+    "title": "The Cape Region",
+    "text": "The Cape Floristic Region (CFR) is located at the southern tip of Africa, mainly in the Western Cape province. Despite being a relatively small area, it has exceptional plant diversity.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-class-005a-h2",
+    "type": "hint",
+    "title": "Fine Bush",
+    "text": "The dominant vegetation is called 'fynbos' (pronounced 'fain-boss'), which is Afrikaans for 'fine bush' referring to the fine, small leaves of many plants. The protea (South Africa's national flower) is a famous fynbos plant.",
+    "variabilization": {},
+    "dependencies": ["bio-class-005a-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

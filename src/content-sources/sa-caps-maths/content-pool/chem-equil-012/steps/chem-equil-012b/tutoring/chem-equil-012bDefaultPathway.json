@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-equil-012b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Write Kc Expression",
+        "text": "For PCl5 <=> PCl3 + Cl2: Kc = [PCl3][Cl2]/[PCl5]",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-012b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute Equilibrium Values",
+        "text": "Kc = (0.10)(0.10)/(0.40)",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-012b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate",
+        "text": "Kc = 0.01/0.40 = 0.025. Since Kc < 1, equilibrium favors the reactant (PCl5).",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,14 @@
+{
+  "id": "bio-eye-002",
+  "title": "Human Eye - Vision Defects and Correction",
+  "body": "Study the diagrams showing two common eye defects:\n\n```\n[MYOPIA (Short-sightedness)]\n\n    Distant object          EYE (elongated)\n         *                 __________\n          \\               /          \\\n           \\             |   Lens     |\n            \\===========X|            |----Retina\n           /             |   Image    |\n          /               \\__forms___/\n         *                   BEFORE\n                             retina\n\n    Problem: Eyeball too LONG or lens too CURVED\n    Image forms IN FRONT of retina\n\n\n[HYPEROPIA (Long-sightedness)]\n\n    Near object            EYE (shortened)\n         *                 __________\n          \\               /          \\\n           \\             |   Lens     |\n            \\============|======X     |----Retina\n           /             |       Image|\n          /               \\__would___/\n         *                   form\n                             BEHIND\n                             retina\n\n    Problem: Eyeball too SHORT or lens too FLAT\n    Image would form BEHIND retina\n```\n\nA learner cannot see the chalkboard clearly from the back of the classroom but can read a book easily. Diagnose the condition and state what type of lens would correct it.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-human-eye"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "oer": "DBE NSC Life Sciences Paper 1/2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

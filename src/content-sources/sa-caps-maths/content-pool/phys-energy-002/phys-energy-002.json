@@ -1,0 +1,14 @@
+{
+  "id": "phys-energy-002",
+  "title": "Work, Energy and Power - Power Calculation",
+  "body": "A crane lifts a 500 kg load vertically through a height of 12 m in 8 seconds. Calculate the power output of the crane. (Use g = 10 m/s²)",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-energy"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

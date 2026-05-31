@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-class-001a-h1",
+    "type": "hint",
+    "title": "Hierarchical System",
+    "text": "Classification is hierarchical - each level contains the levels below it. A Kingdom contains many Phyla, each Phylum contains many Classes, and so on down to Species.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-class-001a-h2",
+    "type": "hint",
+    "title": "Memory Aid",
+    "text": "Use a mnemonic sentence where each word starts with the first letter of the taxonomic level: King Philip Came Over For Good Soup (K-P-C-O-F-G-S for Kingdom-Phylum-Class-Order-Family-Genus-Species).",
+    "variabilization": {},
+    "dependencies": ["bio-class-001a-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

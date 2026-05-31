@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-equil-011a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify Reaction Type",
+        "text": "Delta H = -92 kJ means the forward reaction releases heat (exothermic). The reverse reaction absorbs heat (endothermic).",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-011a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Effect of Temperature Increase",
+        "text": "Increasing temperature adds heat energy. The system will shift to use up this extra heat.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-011a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Determine Shift Direction",
+        "text": "The system favors the endothermic direction (reverse) to absorb heat. Equilibrium shifts LEFT towards reactants.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

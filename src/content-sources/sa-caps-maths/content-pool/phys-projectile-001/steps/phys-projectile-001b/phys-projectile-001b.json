@@ -1,0 +1,14 @@
+{
+  "id": "phys-projectile-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "20"
+  ],
+  "stepExplanation": "0 = 20² + 2(-10)s → 0 = 400 - 20s → s = 20 m",
+  "stepTitle": "Calculate Maximum Height",
+  "stepBody": "At maximum height, v = 0. Using v² = u² + 2as with u = 20 m/s and a = -10 m/s², find s (height in metres)."
+}

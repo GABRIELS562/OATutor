@@ -1,0 +1,15 @@
+{
+  "id": "bio-protein-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "U",
+    "Uracil"
+  ],
+  "stepExplanation": "In RNA: A pairs with U (not T), G pairs with C",
+  "stepTitle": "Base Pairing Rules",
+  "stepBody": "In RNA, what base pairs with A? (Remember: RNA has U instead of T)"
+}

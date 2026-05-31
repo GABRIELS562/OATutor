@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-roc-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "What is Marginal Cost?",
+        "text": "Marginal cost represents the cost of producing one additional item.\n\nMathematically, it is the derivative of the cost function:\n\n$C'(x) = \\frac{dC}{dx}$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-roc-002a-h2",
+        "type": "hint",
+        "dependencies": ["calc-roc-002a-h1"],
+        "title": "Differentiate Term by Term",
+        "text": "For $C(x) = 500 + 20x - 0.01x^2$:\n\n$\\frac{d}{dx}(500) = 0$\n\n$\\frac{d}{dx}(20x) = 20$\n\n$\\frac{d}{dx}(-0.01x^2) = -0.02x$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-roc-002a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["20-0.02x"],
+        "dependencies": ["calc-roc-002a-h2"],
+        "title": "Marginal Cost Function",
+        "text": "$C'(x) = 20 - 0.02x$\n\nThis is the marginal cost function.",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

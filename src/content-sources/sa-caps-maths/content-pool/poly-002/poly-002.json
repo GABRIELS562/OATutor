@@ -1,0 +1,10 @@
+{
+    "id": "poly-002",
+    "title": "Remainder Theorem - Finding Remainders",
+    "body": "Use the Remainder Theorem to find the remainder when:\n\n$$p(x) = 2x^3 - 5x^2 + 3x - 7$$\n\nis divided by $(x - 3)$.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Polynomials Chapter 7.2",
+    "license": "CC-BY - Siyavula Education",
+    "lesson": "Remainder Theorem",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

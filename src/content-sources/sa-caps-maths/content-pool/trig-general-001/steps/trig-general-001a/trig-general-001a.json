@@ -1,0 +1,10 @@
+{
+    "id": "trig-general-001a",
+    "stepAnswer": ["(2sinx+1)(sinx-1)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Factorise the Equation",
+    "stepBody": "The equation 2sin²x - sin x - 1 = 0 is a quadratic in sin x.\n\nFactorise. Enter as: (2sinx+1)(sinx-1)",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-general-solution"]
+}

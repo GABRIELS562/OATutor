@@ -1,0 +1,10 @@
+{
+    "id": "para-turn-003",
+    "title": "Writing a Parabola in Turning Point Form",
+    "body": "Given the parabola $y = -2x^2 + 8x - 6$.\n\nWrite the equation in turning point form $y = a(x - p)^2 + q$ and state the turning point.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 11)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Functions and Graphs - Parabolas",
+    "courseName": "CAPS Grade 11 Mathematics"
+}

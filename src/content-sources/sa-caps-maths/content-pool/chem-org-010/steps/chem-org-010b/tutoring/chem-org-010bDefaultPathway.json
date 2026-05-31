@@ -1,0 +1,36 @@
+[
+  {
+    "id": "chem-org-010b-h1",
+    "type": "hint",
+    "title": "Alkene Suffix",
+    "text": "Alkenes (compounds with C=C double bonds) use the suffix '-ene'. The position number indicates where the double bond starts.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "chem-org-010b-h2",
+    "type": "hint",
+    "title": "Lowest Locant Rule",
+    "text": "Always number from the end that gives the double bond the lowest possible number. If numbered from the left: CH$$_3$$(1)-CH(2)=CH(3)-CH$$_2$$(4)-CH$$_3$$(5), the double bond is at position 2.",
+    "variabilization": {},
+    "dependencies": ["chem-org-010b-h1"],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "chem-org-010b-h3",
+    "type": "scaffold",
+    "problemType": "MultipleChoice",
+    "answerType": "string",
+    "hintAnswer": ["pent-2-ene"],
+    "title": "Final Name",
+    "text": "Combining pent- (5 carbons) + 2 (position of double bond) + ene (double bond suffix), what is the IUPAC name?",
+    "variabilization": {},
+    "dependencies": ["chem-org-010b-h2"],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+    "license": "CC BY 4.0",
+    "choices": ["pent-1-ene", "pent-2-ene", "pent-3-ene", "pentene"]
+  }
+]

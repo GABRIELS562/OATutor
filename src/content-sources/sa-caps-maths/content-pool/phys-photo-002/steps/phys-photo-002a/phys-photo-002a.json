@@ -1,0 +1,16 @@
+{
+  "id": "phys-photo-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "5.30 x 10^-19",
+    "5.3 x 10^-19",
+    "5.304 x 10^-19"
+  ],
+  "stepExplanation": "E = hf = 6.63 x 10^-34 x 8.0 x 10^14 = 53.04 x 10^-20 = 5.30 x 10^-19 J",
+  "stepTitle": "Calculate Photon Energy",
+  "stepBody": "First, calculate the energy of the incident photon using E = hf. Give your answer in joules."
+}

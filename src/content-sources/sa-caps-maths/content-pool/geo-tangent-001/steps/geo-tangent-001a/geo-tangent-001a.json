@@ -1,0 +1,16 @@
+{
+    "id": "geo-tangent-001a",
+    "stepAnswer": ["They are perpendicular (90°)"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 1: Identify the Tangent-Radius Property",
+    "stepBody": "What is the relationship between the tangent PA and the radius OA at point A?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["geo-tangent-theorem"],
+    "choices": [
+        "They are perpendicular (90°)",
+        "They are parallel",
+        "They are equal in length",
+        "They form a 45° angle"
+    ]
+}

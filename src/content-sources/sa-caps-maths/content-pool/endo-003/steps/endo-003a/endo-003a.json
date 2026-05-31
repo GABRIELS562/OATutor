@@ -1,0 +1,16 @@
+{
+  "id": "endo-003a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "adrenal medulla releases adrenaline",
+    "adrenaline from adrenal glands",
+    "adrenal gland, adrenaline"
+  ],
+  "stepExplanation": "The **adrenal medulla** (inner part of the adrenal gland) releases **adrenaline** (epinephrine) directly into the bloodstream. This occurs within seconds of perceiving danger.",
+  "stepTitle": "Identify Gland and Hormone",
+  "stepBody": "Which endocrine gland releases the hormone responsible for the fight or flight response, and what is this hormone called?"
+}

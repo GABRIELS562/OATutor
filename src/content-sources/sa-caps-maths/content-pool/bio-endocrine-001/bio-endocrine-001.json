@@ -1,0 +1,14 @@
+{
+  "id": "bio-endocrine-001",
+  "title": "Endocrine System - Negative Feedback in Blood Glucose Regulation",
+  "body": "Study the diagram showing blood glucose regulation:\n\n```\n[BLOOD GLUCOSE HOMEOSTASIS]\n\n              NORMAL BLOOD GLUCOSE\n                   (90 mg/dL)\n                      |\n         +------------+------------+\n         |                         |\n    [INCREASE]                [DECREASE]\n    After eating              During fasting\n         |                         |\n         v                         v\n    High blood               Low blood\n    glucose                  glucose\n         |                         |\n         v                         v\n    BETA CELLS              ALPHA CELLS\n    in Pancreas             in Pancreas\n         |                         |\n         v                         v\n    Release                 Release\n    INSULIN                 GLUCAGON\n         |                         |\n         v                         v\n    - Glucose uptake        - Glycogen breakdown\n      by cells                (glycogenolysis)\n    - Glycogen storage      - Gluconeogenesis\n      (glycogenesis)          in liver\n         |                         |\n         v                         v\n    Blood glucose           Blood glucose\n    DECREASES               INCREASES\n         |                         |\n         +----------->  <----------+\n                   |\n              HOMEOSTASIS\n              (Balance restored)\n```\n\nExplain how the body responds when blood glucose rises after a meal, including the hormone involved and its effects.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-endocrine-system"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "oer": "DBE NSC Life Sciences Paper 1/2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

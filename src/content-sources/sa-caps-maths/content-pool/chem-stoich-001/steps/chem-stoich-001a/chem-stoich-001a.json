@@ -1,0 +1,15 @@
+{
+  "id": "chem-stoich-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "98",
+    "98.0"
+  ],
+  "stepExplanation": "M(H2SO4) = 2(1) + 32 + 4(16) = 2 + 32 + 64 = 98 g/mol",
+  "stepTitle": "Calculate Molar Mass",
+  "stepBody": "First calculate the molar mass of H2SO4. Add up: 2 hydrogen + 1 sulfur + 4 oxygen atoms."
+}

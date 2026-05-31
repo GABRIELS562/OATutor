@@ -1,0 +1,11 @@
+{
+    "id": "geo-sim-002a",
+    "stepAnswer": ["AAA"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 1: Prove Similarity",
+    "stepBody": "To prove triangle PST is similar to triangle PQR:\n\n1. Angle P is common to both triangles\n2. Since ST || QR: angle PST = angle PQR (corresponding angles)\n3. Since ST || QR: angle PTS = angle PRQ (corresponding angles)\n\nWhich similarity criterion proves these triangles are similar?",
+    "choices": ["AAA", "SAS", "SSS", "RHS"],
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["geo-similar-triangles", "geo-proof-writing"]
+}

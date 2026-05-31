@@ -1,0 +1,10 @@
+{
+    "id": "trig-cosine-001",
+    "title": "Cosine Rule: Finding a Side",
+    "body": "In triangle ABC, side b = 7 cm, side c = 9 cm, and the included angle A = 52°.\n\nUse the Cosine Rule to calculate the length of side a.\n\nRound your answer to two decimal places.",
+    "variabilization": {},
+    "oer": "CAPS Grade 11 Mathematics",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Trigonometry - Sine and Cosine Rules",
+    "courseName": "CAPS Grade 11 Mathematics"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "phys-energy-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "60000",
+    "60 000",
+    "60000 J"
+  ],
+  "stepExplanation": "Work done against gravity equals gravitational potential energy gained:\n$$W = mgh = 500 \\times 10 \\times 12 = 60000 \\text{ J}$$",
+  "stepTitle": "Calculate Work Done",
+  "stepBody": "First calculate the work done by the crane to lift the 500 kg load through 12 m. Use W = mgh with g = 10 m/s². Give your answer in Joules."
+}

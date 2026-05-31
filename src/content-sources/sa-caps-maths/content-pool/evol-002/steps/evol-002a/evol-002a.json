@@ -1,0 +1,16 @@
+{
+  "id": "evol-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "allopatric speciation",
+    "allopatric",
+    "geographic speciation"
+  ],
+  "stepExplanation": "This is **allopatric speciation** (also called geographic speciation). 'Allo' means different and 'patric' means homeland. A physical barrier (the Grand Canyon) geographically isolated the two populations.",
+  "stepTitle": "Identify Speciation Type",
+  "stepBody": "What type of speciation occurs when a physical barrier separates populations, preventing gene flow between them?"
+}

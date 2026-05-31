@@ -1,0 +1,25 @@
+[
+    {
+        "id": "fin-annuity-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute Values",
+        "text": "$x = \\frac{450000 \\times 0.0075}{(1.0075)^{72} - 1}$\n\nFirst calculate $(1.0075)^{72} = 1.71255...$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-annuity-003b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["R4 679.33"],
+        "dependencies": ["fin-annuity-003b-h1"],
+        "title": "Calculate",
+        "text": "$x = \\frac{450000 \\times 0.0075}{1.71255 - 1}$\n\n$x = \\frac{3375}{0.71255}$\n\n$x = R4\\,679.33$\n\nThe company must pay R4 679.33 per month into the sinking fund.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

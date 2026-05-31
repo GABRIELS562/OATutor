@@ -1,0 +1,10 @@
+{
+    "id": "func-inv-010b",
+    "stepAnswer": ["5"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate f^(-1)(9)",
+    "stepBody": "Using $f^{-1}(x) = \\frac{x+6}{3}$, calculate $f^{-1}(9)$.\n\nEnter your numerical answer:",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "knowledgeComponents": ["inverse-function", "substitution"]
+}

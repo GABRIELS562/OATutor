@@ -1,0 +1,17 @@
+{
+  "id": "trig-general-002",
+  "title": "General Solution - sin θ",
+  "body": "Solve for θ: sin θ = 0.5, giving the general solution.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "trig-general-solution"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

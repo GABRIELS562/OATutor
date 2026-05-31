@@ -1,0 +1,48 @@
+[
+    {
+        "id": "trig-comp-011b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply the Formula",
+        "text": "$$\\cos(90° - x) = \\cos 90° \\cdot \\cos x + \\sin 90° \\cdot \\sin x$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-comp-011b-h2",
+        "type": "hint",
+        "dependencies": ["trig-comp-011b-h1"],
+        "title": "Values at 90 Degrees",
+        "text": "Recall the special values:\n- $$\\cos 90° = 0$$\n- $$\\sin 90° = 1$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-comp-011b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["0"],
+        "dependencies": ["trig-comp-011b-h2"],
+        "title": "First Term",
+        "text": "Calculate $$\\cos 90° \\cdot \\cos x = ?$$\n\nEnter the value (just the number).",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-comp-011b-h4",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["sin x"],
+        "dependencies": ["trig-comp-011b-h3"],
+        "title": "Final Simplification",
+        "text": "$$\\cos(90° - x) = 0 + 1 \\cdot \\sin x = \\sin x$$\n\nThis proves the co-function identity: $$\\cos(90° - x) = \\sin x$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

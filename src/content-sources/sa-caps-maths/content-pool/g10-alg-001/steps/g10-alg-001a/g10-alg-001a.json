@@ -1,0 +1,10 @@
+{
+    "id": "g10-alg-001a",
+    "stepAnswer": ["2x^2 - 10x + 3x - 15", "2x^2 + 3x - 10x - 15", "2x^2 - 7x - 15"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Apply FOIL Method",
+    "stepBody": "Use the FOIL method to expand $(2x + 3)(x - 5)$:\n\n- **F**irst: $2x \\times x$\n- **O**uter: $2x \\times (-5)$\n- **I**nner: $3 \\times x$\n- **L**ast: $3 \\times (-5)$\n\nWrite out all four terms before simplifying:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["alg-simplify", "binomial-expansion"]
+}

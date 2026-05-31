@@ -1,0 +1,10 @@
+{
+    "id": "hyp-graph-003a",
+    "stepAnswer": ["x=2", "(2;0)", "(2, 0)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the X-Intercept",
+    "stepBody": "To find the x-intercept, set $y = 0$ and solve for $x$.\n\nWhat is the x-intercept?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["intercepts", "hyperbola-asymptotes"]
+}

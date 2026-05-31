@@ -1,0 +1,14 @@
+{
+  "id": "bio-meiosis-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "23"
+  ],
+  "stepExplanation": "Human gametes are haploid (n = 23 chromosomes)",
+  "stepTitle": "Gamete Chromosomes",
+  "stepBody": "How many chromosomes are in each human sperm or egg cell?"
+}

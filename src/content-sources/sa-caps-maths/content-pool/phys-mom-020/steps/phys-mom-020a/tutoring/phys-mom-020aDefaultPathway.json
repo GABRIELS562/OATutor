@@ -1,0 +1,32 @@
+[
+  {
+    "id": "phys-mom-020a-h1",
+    "type": "hint",
+    "title": "Establish Sign Convention",
+    "text": "Taking rightward as positive means: Trolley A velocity = +6 m/s, Trolley B velocity = -3 m/s (leftward is negative).",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "phys-mom-020a-h2",
+    "type": "hint",
+    "title": "Calculate Each Momentum",
+    "text": "Momentum of A: $$p_A = m_A v_A = 4 \\times 6 = 24$$ kg.m/s. Momentum of B: $$p_B = m_B v_B = 2 \\times (-3) = -6$$ kg.m/s.",
+    "variabilization": {},
+    "dependencies": ["phys-mom-020a-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "phys-mom-020a-h3",
+    "type": "hint",
+    "title": "Find Total Momentum",
+    "text": "Total momentum = $$p_A + p_B = 24 + (-6) = 18$$ kg.m/s (positive means rightward).",
+    "variabilization": {},
+    "dependencies": ["phys-mom-020a-h2"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  }
+]

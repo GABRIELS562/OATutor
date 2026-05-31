@@ -1,0 +1,25 @@
+[
+    {
+        "id": "fin-annuity-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute Values",
+        "text": "$x = \\frac{850000 \\times 0.009375}{1 - (1.009375)^{-240}}$\n\nFirst calculate $(1.009375)^{-240} = 0.10053...$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-annuity-002b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["R8 847.67"],
+        "dependencies": ["fin-annuity-002b-h1"],
+        "title": "Calculate",
+        "text": "$x = \\frac{850000 \\times 0.009375}{1 - 0.10053}$\n\n$x = \\frac{7968.75}{0.89947}$\n\n$x = R8\\,847.67$\n\nMpho's monthly payment is R8 847.67",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

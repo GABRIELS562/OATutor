@@ -1,0 +1,16 @@
+{
+  "id": "evol-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "variation and environmental change",
+    "genetic variation in color and change in tree color",
+    "variation in moth color"
+  ],
+  "stepExplanation": "Two key factors: (1) **Genetic variation** - moths naturally varied in color from light to dark due to genetic differences, and (2) **Environmental change** - soot darkened the tree bark, changing which moths were visible to predators.",
+  "stepTitle": "Identify Key Factors",
+  "stepBody": "What two key factors were necessary for natural selection to occur in this peppered moth population?"
+}

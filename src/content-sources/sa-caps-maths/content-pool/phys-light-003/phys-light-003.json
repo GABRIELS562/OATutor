@@ -1,0 +1,17 @@
+{
+  "id": "phys-light-003",
+  "title": "Snell's Law - Refraction into Water",
+  "body": "A ray of light in air (n = 1.00) strikes the surface of water (n = 1.33) at an angle of incidence of 45 degrees. Calculate the angle of refraction.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-waves"
+      ],
+      "difficultyCodes": [
+        "easy"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

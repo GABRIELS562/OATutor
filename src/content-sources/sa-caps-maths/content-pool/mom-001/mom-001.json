@@ -1,0 +1,14 @@
+{
+  "id": "mom-001",
+  "title": "Momentum - Conservation in Collision",
+  "body": "A 1500 kg car traveling at 20 m/s collides head-on with a 1000 kg car traveling at 15 m/s in the opposite direction. If the cars lock together after the collision, calculate their common velocity after impact.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-momentum"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "anl-tangent-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "y = -3/4x + 25/4",
+    "3x + 4y = 25",
+    "y = -0.75x + 6.25"
+  ],
+  "stepExplanation": "m_tangent = -3/4. Using point (3,4): y - 4 = -3/4(x - 3) → 3x + 4y = 25",
+  "stepTitle": "Tangent Equation",
+  "stepBody": "The tangent is perpendicular to the radius. Find its equation in form y = mx + c."
+}

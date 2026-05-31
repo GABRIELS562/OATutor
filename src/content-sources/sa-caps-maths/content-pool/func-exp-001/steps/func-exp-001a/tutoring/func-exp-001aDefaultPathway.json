@@ -1,0 +1,25 @@
+[
+    {
+        "id": "func-exp-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Horizontal Asymptote of Exponential",
+        "text": "For the exponential function $f(x) = a \\cdot b^x + q$, the horizontal asymptote is at $y = q$.\\n\\nThis is because as $x \\to \\infty$ or $x \\to -\\infty$, the function approaches $q$.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-exp-001a-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["-2"],
+        "dependencies": ["func-exp-001a-h1"],
+        "title": "Determine q",
+        "text": "Since the horizontal asymptote is at $y = -2$, we have:\\n$$q = -2$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,15 @@
+{
+  "id": "chem-acid-013b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "75",
+    "75.0"
+  ],
+  "stepExplanation": "V = n/C = 0.015 mol / 0.2 mol/dm^3 = 0.075 dm^3 = 75 cm^3",
+  "stepTitle": "Calculate Volume of KOH",
+  "stepBody": "Using V = n/C, calculate the volume of KOH solution required in cm^3."
+}

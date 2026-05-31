@@ -1,0 +1,35 @@
+[
+    {
+        "id": "para-turn-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify the Coefficients",
+        "text": "For $y = x^2 - 6x + 5$, comparing with $y = ax^2 + bx + c$:\n\n$a = 1$, $b = -6$, $c = 5$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "para-turn-001a-h2",
+        "type": "hint",
+        "dependencies": ["para-turn-001a-h1"],
+        "title": "Apply the Formula",
+        "text": "The axis of symmetry (and x-coordinate of turning point) is:\n\n$x = -\\frac{b}{2a} = -\\frac{-6}{2(1)} = \\frac{6}{2}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "para-turn-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["3"],
+        "dependencies": ["para-turn-001a-h2"],
+        "title": "Calculate the x-coordinate",
+        "text": "$x = \\frac{6}{2} = 3$\n\nThe axis of symmetry is the vertical line $x = 3$.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

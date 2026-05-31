@@ -1,0 +1,14 @@
+{
+  "id": "phys-gravity-001",
+  "title": "Newton's Law of Universal Gravitation - Force Calculation",
+  "body": "Calculate the gravitational force between the Earth and the Moon. Given: Mass of Earth = 6.0 × 10²⁴ kg, Mass of Moon = 7.4 × 10²² kg, Distance between centres = 3.8 × 10⁸ m, G = 6.67 × 10⁻¹¹ N·m²/kg².",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-gravitation"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

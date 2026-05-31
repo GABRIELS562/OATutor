@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-repro-012a-h1",
+    "type": "hint",
+    "title": "FSH Source",
+    "text": "FSH is released from the anterior pituitary gland in response to GnRH (Gonadotropin Releasing Hormone) from the hypothalamus.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-repro-012a-h2",
+    "type": "hint",
+    "title": "FSH Target",
+    "text": "The name gives a clue: Follicle STIMULATING Hormone. It acts on the ovaries to stimulate follicle growth and development. The growing follicles produce oestrogen.",
+    "variabilization": {},
+    "dependencies": ["bio-repro-012a-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

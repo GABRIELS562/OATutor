@@ -1,0 +1,18 @@
+{
+  "id": "chem-electro-002",
+  "title": "Galvanic Cell EMF Calculation",
+  "body": "A galvanic cell is constructed using zinc and silver electrodes. Given: E°(Zn²⁺/Zn) = -0.76 V and E°(Ag⁺/Ag) = +0.80 V. Calculate the standard EMF of the cell and identify which electrode is the anode.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-electrochemistry"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "DBE NSC Physical Sciences Paper 2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

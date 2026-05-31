@@ -72,15 +72,27 @@ const angeloColors = {
 // Create base theme
 let angeloTheme = createTheme({
     palette: {
+        type: 'light', // Explicitly set light mode for MUI
         primary: angeloColors.primary,
         secondary: angeloColors.secondary,
         success: angeloColors.success,
         warning: angeloColors.warning,
         error: angeloColors.error,
-        background: angeloColors.background,
+        background: {
+            default: '#F8FAFC',
+            paper: '#FFFFFF',
+        },
         text: {
-            primary: angeloColors.text.primary,
-            secondary: angeloColors.text.secondary,
+            primary: '#1E293B',
+            secondary: '#64748B',
+        },
+        divider: 'rgba(0, 0, 0, 0.12)',
+        action: {
+            active: 'rgba(0, 0, 0, 0.54)',
+            hover: 'rgba(0, 0, 0, 0.04)',
+            selected: 'rgba(123, 47, 247, 0.08)',
+            disabled: 'rgba(0, 0, 0, 0.26)',
+            disabledBackground: 'rgba(0, 0, 0, 0.12)',
         },
     },
     typography: {
@@ -173,12 +185,14 @@ let angeloTheme = createTheme({
                 },
             },
         },
-        // Card - Modern clean cards with subtle gradient
+        // Card - Modern clean cards with explicit light mode colors
         MuiCard: {
             root: {
                 borderRadius: 16,
                 boxShadow: "0 4px 20px rgba(0, 0, 0, 0.06)",
                 border: "1px solid rgba(123, 47, 247, 0.08)",
+                backgroundColor: "#FFFFFF",
+                color: "#1E293B",
                 background: angeloColors.gradients.card + ", #FFFFFF",
                 transition: "all 0.3s ease",
                 "&:hover": {
@@ -212,8 +226,12 @@ let angeloTheme = createTheme({
                 minHeight: 70,
             },
         },
-        // Paper - Clean modern paper
+        // Paper - Clean modern paper with explicit light mode colors
         MuiPaper: {
+            root: {
+                backgroundColor: '#FFFFFF',
+                color: '#1E293B',
+            },
             rounded: {
                 borderRadius: 16,
             },
@@ -276,10 +294,33 @@ let angeloTheme = createTheme({
                 padding: "8px 14px",
             },
         },
-        // Drawer
+        // Drawer - Explicit light mode colors
         MuiDrawer: {
             paper: {
                 borderRadius: "0 16px 16px 0",
+                backgroundColor: "#FFFFFF",
+                color: "#1E293B",
+            },
+        },
+        // Dialog - Explicit light mode colors
+        MuiDialog: {
+            paper: {
+                backgroundColor: "#FFFFFF",
+                color: "#1E293B",
+            },
+        },
+        // Menu - Explicit light mode colors
+        MuiMenu: {
+            paper: {
+                backgroundColor: "#FFFFFF",
+                color: "#1E293B",
+            },
+        },
+        // Popover - Explicit light mode colors
+        MuiPopover: {
+            paper: {
+                backgroundColor: "#FFFFFF",
+                color: "#1E293B",
             },
         },
         // List
@@ -288,6 +329,7 @@ let angeloTheme = createTheme({
                 borderRadius: 10,
                 margin: "4px 8px",
                 width: "auto",
+                color: "#1E293B",
                 "&.Mui-selected": {
                     background: "rgba(123, 47, 247, 0.08)",
                     "&:hover": {
@@ -299,6 +341,54 @@ let angeloTheme = createTheme({
                 "&:hover": {
                     background: "rgba(123, 47, 247, 0.06)",
                 },
+            },
+        },
+        // MenuItem - Explicit light mode colors
+        MuiMenuItem: {
+            root: {
+                color: "#1E293B",
+            },
+        },
+        // Input fields - Explicit light mode colors
+        MuiInputBase: {
+            root: {
+                color: "#1E293B",
+            },
+        },
+        MuiInputLabel: {
+            root: {
+                color: "#64748B",
+            },
+        },
+        // Table cells - Explicit light mode colors
+        MuiTableCell: {
+            root: {
+                color: "#1E293B",
+                borderBottom: "1px solid rgba(0, 0, 0, 0.12)",
+            },
+            head: {
+                backgroundColor: "#F8FAFC",
+                fontWeight: 600,
+                color: "#1E293B",
+            },
+        },
+        // Accordion - Explicit light mode colors
+        MuiAccordion: {
+            root: {
+                backgroundColor: "#FFFFFF",
+                color: "#1E293B",
+                "&:before": {
+                    backgroundColor: "rgba(0, 0, 0, 0.12)",
+                },
+            },
+        },
+        // Typography defaults
+        MuiTypography: {
+            colorTextPrimary: {
+                color: "#1E293B",
+            },
+            colorTextSecondary: {
+                color: "#64748B",
             },
         },
     },

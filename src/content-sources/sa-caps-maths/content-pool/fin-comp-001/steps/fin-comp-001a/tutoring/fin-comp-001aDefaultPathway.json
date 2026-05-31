@@ -1,0 +1,25 @@
+[
+    {
+        "id": "fin-comp-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Interest Rate Per Period",
+        "text": "Annual rate = 9.5% = 0.095\n\nQuarterly rate: $i = \\frac{0.095}{4} = 0.02375$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-comp-001a-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["i = 0.02375, n = 24"],
+        "dependencies": ["fin-comp-001a-h1"],
+        "title": "Calculate Number of Periods",
+        "text": "Number of quarters: $n = 6 \\times 4 = 24$\n\nSo $i = 0.02375$ and $n = 24$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

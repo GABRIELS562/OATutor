@@ -1,0 +1,15 @@
+{
+  "id": "phys-mom-020a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "18",
+    "18.0"
+  ],
+  "stepExplanation": "p_total = p_A + p_B = (4 kg x 6 m/s) + (2 kg x -3 m/s) = 24 - 6 = 18 kg.m/s to the right",
+  "stepTitle": "Calculate Total Initial Momentum",
+  "stepBody": "Calculate the total momentum of the system before the collision. Remember: Trolley B is moving to the LEFT, so its velocity is negative. Use $$p = mv$$ for each trolley, then add. Give your answer in kg.m/s."
+}

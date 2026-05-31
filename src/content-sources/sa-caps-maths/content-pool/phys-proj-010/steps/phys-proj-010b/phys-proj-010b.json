@@ -1,0 +1,16 @@
+{
+  "id": "phys-proj-010b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "5",
+    "5.0",
+    "5.00"
+  ],
+  "stepExplanation": "Using delta_y = v_i*t + 0.5*a*t^2 with delta_y = 0 (returns to ground): 0 = 25t + 0.5(-10)t^2. So 0 = 25t - 5t^2 = 5t(5-t). Thus t = 0 or t = 5 s. The ball returns at t = 5 s.",
+  "stepTitle": "Calculate Total Time in Air",
+  "stepBody": "Calculate the total time the ball is in the air. The ball returns to its starting point, so total displacement $$\\Delta y = 0$$. Use: $$\\Delta y = v_i t + \\frac{1}{2}at^2$$. Give your answer in seconds."
+}

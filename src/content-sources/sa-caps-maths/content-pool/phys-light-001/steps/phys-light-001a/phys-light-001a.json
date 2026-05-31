@@ -1,0 +1,20 @@
+{
+    "id": "phys-light-001a",
+    "type": "scaffold",
+    "problemType": "MultipleChoice",
+    "answerType": "string",
+    "hpiVariables": [],
+    "variabilization": {},
+    "stepAnswer": [
+        "sin(theta_c) = n2/n1"
+    ],
+    "stepExplanation": "The critical angle formula is sin(theta_c) = n2/n1, where n1 is the refractive index of the denser medium (glass) and n2 is the refractive index of the less dense medium (air).",
+    "stepTitle": "Identify Critical Angle Formula",
+    "stepBody": "The critical angle is the angle of incidence at which the refracted ray travels along the boundary. Which formula correctly gives the critical angle? (n1 = denser medium, n2 = less dense medium)",
+    "choices": [
+        "sin(theta_c) = n2/n1",
+        "sin(theta_c) = n1/n2",
+        "tan(theta_c) = n2/n1",
+        "cos(theta_c) = n2/n1"
+    ]
+}

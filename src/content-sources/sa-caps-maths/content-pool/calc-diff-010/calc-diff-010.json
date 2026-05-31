@@ -1,0 +1,10 @@
+{
+    "id": "calc-diff-010",
+    "title": "Differentiation from First Principles - Quadratic Function",
+    "body": "Use the definition of the derivative (first principles) to determine $f'(x)$ if:\n\n$$f(x) = x^2 - 4x + 3$$\n\nRecall the definition: $f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Differential Calculus",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Differential Calculus - First Principles",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

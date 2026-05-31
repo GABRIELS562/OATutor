@@ -1,0 +1,10 @@
+{
+    "id": "exp-graph-001a",
+    "stepAnswer": ["a=3", "3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Value of a",
+    "stepBody": "The horizontal asymptote is $y = -2$, so $q = -2$.\n\nUsing the point $(0, 1)$ in $y = a \\cdot b^x - 2$, find the value of $a$.",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["exponential-graph", "substitution"]
+}

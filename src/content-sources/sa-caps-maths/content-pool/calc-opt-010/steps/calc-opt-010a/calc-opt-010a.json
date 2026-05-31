@@ -1,0 +1,10 @@
+{
+    "id": "calc-opt-010a",
+    "stepAnswer": ["V=x(24-2x)(18-2x)", "V=(24-2x)(18-2x)x", "4x^3-84x^2+432x"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Express Volume as a Function of x",
+    "stepBody": "After cutting squares of side $x$ from each corner:\n- Length of box = $(24 - 2x)$ cm\n- Width of box = $(18 - 2x)$ cm  \n- Height of box = $x$ cm\n\nWrite the volume $V$ as a function of $x$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["optimization", "volume-formula", "algebraic-modelling"]
+}

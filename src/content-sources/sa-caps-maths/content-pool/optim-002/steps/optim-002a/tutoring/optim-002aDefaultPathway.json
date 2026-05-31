@@ -1,0 +1,25 @@
+[
+    {
+        "id": "optim-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Revenue",
+        "text": "$R(x) = (60 - 0.02x) \\times x$\n$R(x) = 60x - 0.02x^2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "optim-002a-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["P(x) = -0.02x^2 + 48x - 500"],
+        "dependencies": ["optim-002a-h1"],
+        "title": "Calculate Profit",
+        "text": "$P(x) = R(x) - C(x)$\n$P(x) = (60x - 0.02x^2) - (500 + 12x)$\n$P(x) = 60x - 0.02x^2 - 500 - 12x$\n$P(x) = -0.02x^2 + 48x - 500$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

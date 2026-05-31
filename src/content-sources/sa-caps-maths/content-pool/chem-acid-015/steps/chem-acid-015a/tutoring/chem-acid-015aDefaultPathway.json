@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-acid-015a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Convert Volume",
+        "text": "15 cm^3 = 0.015 dm^3 (divide by 1000)",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-015a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Moles of NaOH",
+        "text": "n(NaOH) = 0.1 x 0.015 = 0.0015 mol",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-015a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Use Mole Ratio",
+        "text": "CH3COOH:NaOH = 1:1, so n(CH3COOH) = 0.0015 mol",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

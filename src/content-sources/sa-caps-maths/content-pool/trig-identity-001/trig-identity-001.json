@@ -1,0 +1,17 @@
+{
+  "id": "trig-identity-001",
+  "title": "Trigonometric Identities",
+  "body": "Simplify: (sin²θ + cos²θ) / (1 - sin²θ)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "trig-compound-add"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

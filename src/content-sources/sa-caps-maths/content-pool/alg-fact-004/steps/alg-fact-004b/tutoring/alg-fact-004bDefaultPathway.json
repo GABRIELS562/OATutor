@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-fact-004b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply the Formula",
+        "text": "Using $a^2 - b^2 = (a + b)(a - b)$ with $a = 7x$ and $b = 4y$:\n\n$(7x)^2 - (4y)^2 = (7x + 4y)(7x - 4y)$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-fact-004b-h2",
+        "type": "hint",
+        "dependencies": ["alg-fact-004b-h1"],
+        "title": "Check Your Answer",
+        "text": "Verify by expanding:\n$(7x + 4y)(7x - 4y)$\n$= (7x)^2 - (4y)^2$ (using DOTS formula in reverse)\n$= 49x^2 - 16y^2$ ✓",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-fact-004b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(7x + 4y)(7x - 4y)"],
+        "dependencies": ["alg-fact-004b-h2"],
+        "title": "Final Answer",
+        "text": "$49x^2 - 16y^2 = (7x + 4y)(7x - 4y)$\n\nNote: The order of the brackets doesn't matter: $(7x + 4y)(7x - 4y) = (7x - 4y)(7x + 4y)$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    }
+]

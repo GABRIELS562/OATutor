@@ -1,0 +1,10 @@
+{
+    "id": "geo-sim-002",
+    "title": "Proving Triangle Similarity (AAA)",
+    "body": "In triangle PQR, a line ST is drawn parallel to QR, where S is on PQ and T is on PR.\n\nGiven: PS = 4 cm, SQ = 6 cm, and PT = 5 cm.\n\na) Prove that triangle PST is similar to triangle PQR.\nb) Calculate the length of TR.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Euclidean Geometry",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Euclidean Geometry - Similar Triangles",
+    "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

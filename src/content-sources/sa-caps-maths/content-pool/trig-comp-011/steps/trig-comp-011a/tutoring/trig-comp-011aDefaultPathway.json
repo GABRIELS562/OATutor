@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-comp-011a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Compound Angle Formulas",
+        "text": "The compound angle formulas are:\n- $$\\cos(A + B) = \\cos A \\cos B - \\sin A \\sin B$$\n- $$\\cos(A - B) = \\cos A \\cos B + \\sin A \\sin B$$\n- $$\\sin(A + B) = \\sin A \\cos B + \\cos A \\sin B$$\n- $$\\sin(A - B) = \\sin A \\cos B - \\cos A \\sin B$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-comp-011a-h2",
+        "type": "hint",
+        "dependencies": ["trig-comp-011a-h1"],
+        "title": "Matching the Pattern",
+        "text": "We have cos(90° - x), which is in the form cos(A - B).\n\nTherefore, we use: $$\\cos(A - B) = \\cos A \\cos B + \\sin A \\sin B$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-comp-011a-h3",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": ["cos(A - B) = cos A cos B + sin A sin B"],
+        "dependencies": ["trig-comp-011a-h2"],
+        "title": "Confirm Formula",
+        "text": "The cosine subtraction formula has a PLUS sign between terms (opposite to addition formula).",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

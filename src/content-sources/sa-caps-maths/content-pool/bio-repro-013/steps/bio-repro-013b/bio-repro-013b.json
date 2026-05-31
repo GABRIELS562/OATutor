@@ -1,0 +1,16 @@
+{
+  "id": "bio-repro-013b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "HCG",
+    "human chorionic gonadotropin",
+    "hCG"
+  ],
+  "stepExplanation": "After implantation, the developing embryo secretes Human Chorionic Gonadotropin (HCG). This hormone maintains the corpus luteum, which continues to produce progesterone to maintain the uterine lining. HCG is the hormone detected in pregnancy tests.",
+  "stepTitle": "Pregnancy Hormone",
+  "stepBody": "Which hormone, secreted by the implanted embryo, maintains the corpus luteum and is detected by pregnancy tests?"
+}

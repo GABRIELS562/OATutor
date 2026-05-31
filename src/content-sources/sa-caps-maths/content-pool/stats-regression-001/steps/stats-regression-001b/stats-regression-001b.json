@@ -1,0 +1,10 @@
+{
+    "id": "stats-regression-001b",
+    "stepAnswer": ["y=44+5x"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Write the Equation",
+    "stepBody": "a = ȳ - bx̄. Given: x̄=4, ȳ=64, b=5\n\nWrite equation as: y=a+bx",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["stats-regression-line", "stats-correlation"]
+}

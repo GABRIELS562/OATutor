@@ -1,0 +1,10 @@
+{
+    "id": "graph-line-002b",
+    "stepAnswer": ["y=3x-5", "y = 3x - 5"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the Equation of the Parallel Line",
+    "stepBody": "Using $m = 3$ and the point $(2, 1)$, find $c$ and write the equation.\n\nWhat is the equation of the parallel line?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["linear-graph", "intercepts"]
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "poly-004b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Zero Product Property",
+        "text": "If $A \\times B \\times C = 0$, then at least one of $A$, $B$, or $C$ must equal zero.\n\nSo if $(x-1)(x-2)(x-3) = 0$, then:\n- $x - 1 = 0$, OR\n- $x - 2 = 0$, OR\n- $x - 3 = 0$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-004b-h2",
+        "type": "hint",
+        "dependencies": ["poly-004b-h1"],
+        "title": "Solve Each Factor",
+        "text": "From $x - 1 = 0$: $x = 1$\n\nFrom $x - 2 = 0$: $x = 2$\n\nFrom $x - 3 = 0$: $x = 3$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-004b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x = 1, x = 2, x = 3"],
+        "dependencies": ["poly-004b-h2"],
+        "title": "The Solutions",
+        "text": "The solutions to $x^3 - 6x^2 + 11x - 6 = 0$ are:\n\n$$x = 1, \\quad x = 2, \\quad x = 3$$\n\nNote: A cubic equation has at most 3 real solutions.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

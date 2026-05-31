@@ -1,0 +1,17 @@
+{
+  "id": "bio-respir-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "electron transport chain",
+    "ETC",
+    "oxidative phosphorylation",
+    "inner mitochondrial membrane"
+  ],
+  "stepExplanation": "Most ATP is produced in the **Electron Transport Chain (ETC)** located on the inner mitochondrial membrane.\n\nATP yield breakdown:\n- Glycolysis: 2 ATP (net)\n- Krebs Cycle: 2 ATP\n- Electron Transport Chain: **34 ATP** (approximately)\n\nThe ETC produces about **90%** of the total ATP (34 out of ~38 ATP molecules).",
+  "stepTitle": "Location of Maximum ATP Production",
+  "stepBody": "Which stage of cellular respiration produces the most ATP molecules?"
+}

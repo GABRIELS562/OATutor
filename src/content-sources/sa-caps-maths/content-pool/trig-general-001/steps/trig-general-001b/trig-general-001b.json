@@ -1,0 +1,10 @@
+{
+    "id": "trig-general-001b",
+    "stepAnswer": ["x=210+360k or x=330+360k or x=90+360k"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the General Solution",
+    "stepBody": "From (2sin x + 1)(sin x - 1) = 0:\n\nFind the general solution.",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-general-solution"]
+}

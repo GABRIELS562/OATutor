@@ -1,0 +1,10 @@
+{
+    "id": "prod-special-002b",
+    "stepAnswer": ["(x+5)^2", "(x + 5)^2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Write the Factorised Form",
+    "stepBody": "Since $a = x$ and $b = 5$, and the middle term is positive, use:\n$$a^2 + 2ab + b^2 = (a + b)^2$$\n\nFactorise $x^2 + 10x + 25$.\n\nEnter as: (x+5)^2",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "perfect-square-trinomial"]
+}

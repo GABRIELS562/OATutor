@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-stoich-006b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Use Ratio as Subscripts",
+        "text": "C:H:O = 1:2:1 means subscripts are 1, 2, and 1",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-006b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Write Formula",
+        "text": "C1H2O1 which is written as CH2O",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-006b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Verify",
+        "text": "CH2O has molar mass = 12 + 2 + 16 = 30 g/mol. This is the empirical formula; molecular formula could be a multiple (C2H4O2, C3H6O3, etc.)",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

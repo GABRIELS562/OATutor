@@ -1,0 +1,17 @@
+{
+  "id": "chem-ester-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "string",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "ethyl ethanoate",
+    "ethyl acetate",
+    "Ethyl ethanoate",
+    "Ethyl acetate"
+  ],
+  "stepExplanation": "The ester name combines: alcohol part (ethyl from ethanol) + acid part (ethanoate from ethanoic acid). The ester is ethyl ethanoate (also called ethyl acetate).",
+  "stepTitle": "Name of the Ester",
+  "stepBody": "What is the IUPAC name of the ester formed? (Hint: ester name = alkyl group from alcohol + -oate from acid)"
+}

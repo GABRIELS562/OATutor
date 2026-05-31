@@ -1,0 +1,35 @@
+[
+    {
+        "id": "func-hyp-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Finding the x-intercept",
+        "text": "For the x-intercept, set $y = 0$:\\n\\n$$0 = \\frac{3}{x-2} + 1$$\\n$$-1 = \\frac{3}{x-2}$$\\n$$x - 2 = -3$$\\n$$x = -1$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-hyp-001b-h2",
+        "type": "hint",
+        "dependencies": ["func-hyp-001b-h1"],
+        "title": "Finding the y-intercept",
+        "text": "For the y-intercept, set $x = 0$:\\n\\n$$f(0) = \\frac{3}{0-2} + 1 = \\frac{3}{-2} + 1 = -1.5 + 1 = -0.5$$\\n\\nSo $y = -\\frac{1}{2}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-hyp-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x=-1 and y=-1/2"],
+        "dependencies": ["func-hyp-001b-h2"],
+        "title": "State Both Intercepts",
+        "text": "x-intercept: $(-1, 0)$ so $x = -1$\\n\\ny-intercept: $(0, -\\frac{1}{2})$ so $y = -\\frac{1}{2}$ or $-0.5$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

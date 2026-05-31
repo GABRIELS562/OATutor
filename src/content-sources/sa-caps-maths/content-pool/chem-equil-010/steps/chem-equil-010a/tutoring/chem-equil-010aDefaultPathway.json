@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-equil-010a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "General Kc Formula",
+        "text": "For aA + bB <=> cC + dD, Kc = [C]^c[D]^d / [A]^a[B]^b",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-010a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify Products and Reactants",
+        "text": "Products: HI (coefficient 2). Reactants: H2 and I2 (coefficients 1 each)",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-010a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Write the Expression",
+        "text": "Kc = [HI]^2 / ([H2]^1 x [I2]^1) = [HI]^2 / ([H2][I2])",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

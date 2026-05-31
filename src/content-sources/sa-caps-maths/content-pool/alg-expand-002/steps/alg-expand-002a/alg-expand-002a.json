@@ -1,0 +1,10 @@
+{
+    "id": "alg-expand-002a",
+    "stepAnswer": ["(a - b)^2 = a^2 - 2ab + b^2", "a^2 - 2ab + b^2", "(a-b)^2 = a^2-2ab+b^2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Recall the Perfect Square Formula",
+    "stepBody": "$(3x - 4)^2$ is a perfect square of a binomial.\n\nThe formula for $(a - b)^2$ is:\n\n$$(a - b)^2 = ?$$\n\nWrite the expanded form of this identity.",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["expansion", "special-products", "perfect-squares"]
+}

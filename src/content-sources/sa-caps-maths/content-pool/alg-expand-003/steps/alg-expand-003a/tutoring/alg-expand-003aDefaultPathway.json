@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-expand-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Recognizing the Pattern",
+        "text": "When you have $(a + b)(a - b)$, the terms with the same first part and opposite signs for the second part, this creates a special product.\n\nThe middle terms will cancel out when you expand!",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-expand-003a-h2",
+        "type": "hint",
+        "dependencies": ["alg-expand-003a-h1"],
+        "title": "The Identity",
+        "text": "$(a + b)(a - b) = a^2 - b^2$\n\nThis produces only two terms - the square of the first minus the square of the second.\n\nThe middle terms ($+ab$ and $-ab$) cancel each other out.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-expand-003a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["difference of two squares"],
+        "dependencies": ["alg-expand-003a-h2"],
+        "title": "The Name",
+        "text": "This pattern is called the **Difference of Two Squares** (or DOTS).\n\n$(a + b)(a - b) = a^2 - b^2$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    }
+]

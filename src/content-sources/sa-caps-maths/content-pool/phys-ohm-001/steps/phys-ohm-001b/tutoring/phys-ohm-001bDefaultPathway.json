@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-ohm-001b-h1",
+    "type": "hint",
+    "title": "Substitute",
+    "text": "Substitute V = 12 V and I = 0.5 A into R = V/I.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "phys-ohm-001b-h2",
+    "type": "hint",
+    "title": "Division",
+    "text": "R = 12 ÷ 0.5 = ?",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

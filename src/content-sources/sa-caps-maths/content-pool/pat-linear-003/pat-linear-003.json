@@ -1,0 +1,10 @@
+{
+    "id": "pat-linear-003",
+    "title": "Linear Pattern from Context",
+    "body": "A taxi company charges a flat fee of R15 plus R8 per kilometre.\n\nWrite a formula for the total cost $C$ in terms of distance $d$ (in km), and calculate the cost for a 12 km journey.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 10)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Number Patterns",
+    "courseName": "CAPS Grade 10 Mathematics"
+}

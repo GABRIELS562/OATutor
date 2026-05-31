@@ -1,0 +1,17 @@
+{
+  "id": "bio-meiosis-001",
+  "title": "Meiosis - Chromosome Number",
+  "body": "A human body cell has 46 chromosomes (2n = 46). How many chromosomes are in a human gamete after meiosis?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-meiosis"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

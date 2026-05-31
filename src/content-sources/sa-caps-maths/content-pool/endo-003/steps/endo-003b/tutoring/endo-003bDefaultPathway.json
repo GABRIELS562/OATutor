@@ -1,0 +1,22 @@
+[
+  {
+    "id": "endo-003b-h1",
+    "type": "hint",
+    "title": "Energy Mobilization",
+    "text": "Adrenaline stimulates the liver to convert glycogen to glucose and releases fatty acids from fat tissue. This provides immediate energy for muscles.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "endo-003b-h2",
+    "type": "hint",
+    "title": "Blood Redistribution",
+    "text": "Blood is redirected away from non-essential functions (digestion, kidneys) to essential organs (heart, brain) and skeletal muscles. This is why you might feel nauseous when frightened.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "id": "chem-galvanic-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "Zn anode, Cu cathode",
+    "zinc anode, copper cathode",
+    "Zn, Cu"
+  ],
+  "stepExplanation": "Zn has lower E°, so it's oxidized (anode). Cu has higher E°, so it's reduced (cathode).",
+  "stepTitle": "Identify Electrodes",
+  "stepBody": "Which metal is the anode (oxidation) and which is the cathode (reduction)?"
+}

@@ -1,0 +1,10 @@
+{
+    "id": "func-inv-012a",
+    "stepAnswer": ["log_2(x)", "log2(x)", "log_2 x"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Write the Inverse as a Logarithm",
+    "stepBody": "The inverse of an exponential function is a logarithmic function.\n\nIf $f(x) = 2^x$, write $f^{-1}(x)$ using logarithmic notation.\n\nEnter as log_2(x) or log2(x):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["inverse-function", "logarithms", "exponential-functions"]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "bio-hormone-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "absorb glucose",
+    "take up glucose",
+    "convert glucose to glycogen"
+  ],
+  "stepExplanation": "Insulin stimulates cells to absorb glucose and converts excess glucose to glycogen",
+  "stepTitle": "Hormone Action",
+  "stepBody": "How does insulin lower blood glucose? What does it stimulate cells to do?"
+}

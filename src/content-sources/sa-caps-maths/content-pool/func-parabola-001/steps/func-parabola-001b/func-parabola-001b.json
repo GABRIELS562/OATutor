@@ -1,0 +1,10 @@
+{
+    "id": "func-parabola-001b",
+    "stepAnswer": ["y=x^2-2x-8", "x^2-2x-8", "y = x^2 - 2x - 8"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Expand to Standard Form",
+    "stepBody": "With $a = 1$, the equation is $y = (x + 2)(x - 4)$.\\n\\nExpand this to standard form $y = ax^2 + bx + c$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["parabola-equation", "expansion"]
+}

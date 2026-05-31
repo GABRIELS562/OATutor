@@ -1,0 +1,14 @@
+{
+  "id": "bio-eco-001",
+  "title": "Ecology - Food Web and Energy Flow",
+  "body": "Study the food web diagram of a grassland ecosystem:\n\n```\n[GRASSLAND FOOD WEB]\n\n                    HAWK\n                   /    \\\n                  v      v\n              SNAKE     OWL\n                |      /   \\\n                v     v     v\n              FROG  MOUSE  RABBIT\n                \\     |     /\n                 \\    |    /\n                  v   v   v\n              GRASSHOPPER\n                    |\n                    v\n                  GRASS\n                    ^\n                    |\n                  [SUN]\n```\n\nUsing the food web above, identify the trophic levels and explain what would happen to the mouse population if all the snakes were removed.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-ecology"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "oer": "DBE NSC Life Sciences Paper 1/2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

@@ -1,0 +1,10 @@
+{
+    "id": "func-log-002a",
+    "stepAnswer": ["log_2(16)", "log2(16)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Apply Logarithm Laws",
+    "stepBody": "Using the logarithm laws:\n- Product rule: $\\log_a(m) + \\log_a(n) = \\log_a(mn)$\n- Quotient rule: $\\log_a(m) - \\log_a(n) = \\log_a\\left(\\frac{m}{n}\\right)$\n\nSimplify $\\log_2 8 + \\log_2 4 - \\log_2 2$ to a single logarithm.\n\nEnter as log_2(number):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["logarithms", "logarithm-laws"]
+}

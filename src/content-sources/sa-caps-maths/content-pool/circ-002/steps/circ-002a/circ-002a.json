@@ -1,0 +1,17 @@
+{
+  "id": "circ-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "ε = I(R + r)",
+    "emf = I(R + r)",
+    "ε = IR + Ir",
+    "V = ε - Ir"
+  ],
+  "stepExplanation": "For a circuit with internal resistance, Ohm's law becomes: $$\\varepsilon = I(R + r)$$ where ε is emf, R is external resistance, and r is internal resistance. The terminal voltage is $$V = \\varepsilon - Ir = IR$$",
+  "stepTitle": "State the Internal Resistance Equation",
+  "stepBody": "What equation relates emf, current, external resistance, and internal resistance?"
+}

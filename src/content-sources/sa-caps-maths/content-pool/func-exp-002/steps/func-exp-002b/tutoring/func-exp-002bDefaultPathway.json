@@ -1,0 +1,35 @@
+[
+    {
+        "id": "func-exp-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Set Up the Equation",
+        "text": "We need $\\frac{A(t)}{A_0} = 0.125 = \\frac{1}{8}$\\n\\n$$2^{-t/5} = \\frac{1}{8}$$\\n\\nNote: $\\frac{1}{8} = \\frac{1}{2^3} = 2^{-3}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-exp-002b-h2",
+        "type": "hint",
+        "dependencies": ["func-exp-002b-h1"],
+        "title": "Solve for t",
+        "text": "$$2^{-t/5} = 2^{-3}$$\\n\\nSince the bases are equal:\\n$$-\\frac{t}{5} = -3$$\\n$$t = 15$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-exp-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["15"],
+        "dependencies": ["func-exp-002b-h2"],
+        "title": "Final Answer",
+        "text": "After $t = 15$ years, only 12.5% (or $\\frac{1}{8}$) of the substance will remain.\\n\\nThis makes sense: the half-life is 5 years, so after 3 half-lives (15 years), $(\\frac{1}{2})^3 = \\frac{1}{8}$ remains.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

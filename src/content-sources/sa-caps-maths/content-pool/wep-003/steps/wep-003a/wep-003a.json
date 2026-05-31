@@ -1,0 +1,17 @@
+{
+  "id": "wep-003a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "P = W/t",
+    "P=W/t",
+    "Power = Work/time",
+    "P = Fv"
+  ],
+  "stepExplanation": "Power is the rate of doing work: $$P = \\frac{W}{t}$$ where W is work done and t is time. Alternatively, P = Fv when force and velocity are constant.",
+  "stepTitle": "Identify the Power Formula",
+  "stepBody": "What is the relationship between power, work, and time?"
+}

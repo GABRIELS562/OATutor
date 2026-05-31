@@ -1,0 +1,10 @@
+{
+    "id": "fin-annuity-003",
+    "title": "Sinking Fund (Future Value Annuity)",
+    "body": "A company needs to replace a machine in 6 years' time. The replacement cost is estimated at R450 000.\n\nThe company sets up a sinking fund that earns 9% per annum, compounded monthly.\n\nCalculate the monthly payment that must be made into the sinking fund.\n\nFuture Value Annuity Formula: $F = x \\cdot \\frac{(1+i)^n - 1}{i}$",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Financial Mathematics - Annuities",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

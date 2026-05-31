@@ -1,0 +1,10 @@
+{
+    "id": "diff-rules-003",
+    "title": "Chain Rule Application",
+    "body": "Differentiate the following function using the chain rule:\n\n$$h(x) = (3x^2 - 5x + 2)^4$$\n\nRecall: If $h(x) = [g(x)]^n$, then $h'(x) = n[g(x)]^{n-1} \\cdot g'(x)$",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Differential Calculus - Rules of Differentiation",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

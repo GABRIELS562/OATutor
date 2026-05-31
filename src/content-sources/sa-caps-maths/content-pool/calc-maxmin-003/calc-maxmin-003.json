@@ -1,0 +1,10 @@
+{
+    "id": "calc-maxmin-003",
+    "title": "Optimization: Maximum Volume of a Box",
+    "body": "An open rectangular box is made by cutting equal squares of side $x$ cm from the corners of a rectangular piece of cardboard measuring 24 cm by 16 cm, and folding up the sides.\n\nFind the value of $x$ that gives the maximum volume, and calculate this maximum volume.",
+    "variabilization": {},
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Differential Calculus - Maximum and Minimum Problems",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

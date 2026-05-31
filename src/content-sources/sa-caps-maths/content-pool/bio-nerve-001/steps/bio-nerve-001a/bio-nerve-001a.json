@@ -1,0 +1,16 @@
+{
+  "id": "bio-nerve-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "reflex",
+    "Reflex",
+    "reflex action"
+  ],
+  "stepExplanation": "This is a REFLEX - a rapid, automatic, involuntary response",
+  "stepTitle": "Type of Response",
+  "stepBody": "What type of involuntary response is this?"
+}

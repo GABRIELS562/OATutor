@@ -1,0 +1,16 @@
+{
+  "id": "vpm-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "4.5",
+    "4.5 s",
+    "4.5 seconds"
+  ],
+  "stepExplanation": "Using s = ut + ½at² with s = -45 m, u = 15 m/s, a = -10 m/s²:\n$$-45 = 15t + \\frac{1}{2}(-10)t^2$$\n$$-45 = 15t - 5t^2$$\n$$5t^2 - 15t - 45 = 0$$\n$$t^2 - 3t - 9 = 0$$\nUsing the quadratic formula: $$t = \\frac{3 \\pm \\sqrt{9 + 36}}{2} = \\frac{3 \\pm \\sqrt{45}}{2} = \\frac{3 + 6.71}{2} = 4.5 \\text{ s}$$\n(We take the positive root since time cannot be negative)",
+  "stepTitle": "Calculate Time of Flight",
+  "stepBody": "Using s = ut + ½at², with s = -45 m, u = 15 m/s, and a = -10 m/s², solve the quadratic equation to find the total time. Give your answer in seconds."
+}

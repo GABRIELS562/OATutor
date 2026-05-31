@@ -1,0 +1,15 @@
+{
+  "id": "phys-mom-030a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "30",
+    "30.0"
+  ],
+  "stepExplanation": "Total Impulse = Area under F-t graph = (10 N x 2 s) + (5 N x 2 s) = 20 + 10 = 30 N.s",
+  "stepTitle": "Calculate Total Impulse",
+  "stepBody": "Calculate the total impulse delivered to the object. Remember: Impulse equals the AREA under the Force-Time graph ($$J = F \\times \\Delta t$$ for each interval). Give your answer in N.s."
+}

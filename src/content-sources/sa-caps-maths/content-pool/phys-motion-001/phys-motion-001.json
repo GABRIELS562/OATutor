@@ -1,0 +1,14 @@
+{
+  "id": "phys-motion-001",
+  "title": "Equations of Motion - Final Velocity",
+  "body": "A car accelerates uniformly from rest at 3 m/s² for 8 seconds. Calculate the final velocity of the car.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-kinematics"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

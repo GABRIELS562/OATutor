@@ -1,0 +1,17 @@
+{
+  "id": "phys-circ-012b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "4.84",
+    "4.84 kWh",
+    "4,84",
+    "4,84 kWh"
+  ],
+  "stepExplanation": "Power P = VI = 220 * 11 = 2420 W = 2.42 kW. Energy E = P * t = 2.42 kW * 2 h = 4.84 kWh",
+  "stepTitle": "Calculate Energy in kWh",
+  "stepBody": "First calculate the power using P = VI, then find energy using E = P * t. Express your answer in kilowatt-hours (kWh)."
+}

@@ -1,0 +1,16 @@
+{
+    "id": "chem-equil-011a",
+    "type": "scaffold",
+    "problemType": "TextBox",
+    "answerType": "string",
+    "hpiVariables": [],
+    "variabilization": {},
+    "stepAnswer": [
+        "left",
+        "reverse",
+        "towards reactants"
+    ],
+    "stepExplanation": "The forward reaction is exothermic (delta H negative). Increasing temperature favors the endothermic (reverse) direction to absorb heat. The equilibrium shifts left (towards reactants).",
+    "stepTitle": "Direction of Equilibrium Shift",
+    "stepBody": "The reaction is exothermic (delta H = -92 kJ). When temperature increases, in which direction does the equilibrium shift? (Answer: left, right, or no change)"
+}

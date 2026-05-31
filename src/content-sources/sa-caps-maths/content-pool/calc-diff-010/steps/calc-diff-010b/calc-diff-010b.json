@@ -1,0 +1,10 @@
+{
+    "id": "calc-diff-010b",
+    "stepAnswer": ["2x-4", "2x - 4", "f'(x)=2x-4"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Apply the Limit Definition",
+    "stepBody": "Now calculate $\\frac{f(x+h) - f(x)}{h}$, simplify by cancelling $h$, then evaluate $\\lim_{h \\to 0}$.\n\nWhat is $f'(x)$?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["first-principles", "limits", "differentiation"]
+}

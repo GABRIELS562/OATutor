@@ -1,0 +1,35 @@
+[
+    {
+        "id": "seq-arith-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Building an Arithmetic Sequence",
+        "text": "To build an arithmetic sequence, start with the first term and keep adding the common difference:\n\n$T_1 = a$\n$T_2 = a + d$\n$T_3 = a + 2d$\n$T_4 = a + 3d$\n$T_5 = a + 4d$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "seq-arith-002a-h2",
+        "type": "hint",
+        "dependencies": ["seq-arith-002a-h1"],
+        "title": "Calculate Each Term",
+        "text": "With $a = 3$ and $d = 4$:\n\n$T_1 = 3$\n$T_2 = 3 + 4 = 7$\n$T_3 = 3 + 8 = 11$\n$T_4 = 3 + 12 = 15$\n$T_5 = 3 + 16 = 19$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "seq-arith-002a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["3, 7, 11, 15, 19"],
+        "dependencies": ["seq-arith-002a-h2"],
+        "title": "The First Five Terms",
+        "text": "The first 5 terms are: $3; 7; 11; 15; 19$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

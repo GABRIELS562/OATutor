@@ -1,0 +1,10 @@
+{
+    "id": "curve-sketch-003b",
+    "stepAnswer": ["(-1,-36) and (11/3, 400/27)", "(-1;-36) and (3.67;14.81)", "(-1,-36) min; (11/3, 400/27) max"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the Turning Points",
+    "stepBody": "Find the turning points of $f(x) = -x^3 + 4x^2 + 11x - 30$ by setting $f'(x) = 0$.\n\nNote: The y-intercept is found by calculating $f(0) = -30$.\n\nFind the coordinates of the turning points:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["stationary-points", "differentiation", "turning-points"]
+}

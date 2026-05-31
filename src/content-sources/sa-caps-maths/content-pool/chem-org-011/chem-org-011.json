@@ -1,0 +1,15 @@
+{
+  "id": "chem-org-011",
+  "title": "Esterification Reaction",
+  "body": "Propanoic acid reacts with ethanol in the presence of concentrated sulfuric acid as a catalyst.\n\n(a) Write the balanced equation for this reaction.\n(b) Name the organic product formed.\n(c) Give the structural formula of the ester.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["chem-organic-reactions"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+  "license": "CC BY 4.0",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

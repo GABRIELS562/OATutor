@@ -1,0 +1,17 @@
+{
+  "id": "phys-wave-012",
+  "title": "Resonance in Closed Pipes",
+  "body": "A closed pipe (closed at one end) resonates at its fundamental frequency when a tuning fork of frequency 256 Hz is held near its open end. If the speed of sound is 340 m/s, calculate the length of the pipe.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-waves"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

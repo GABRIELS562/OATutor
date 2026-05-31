@@ -1,0 +1,32 @@
+[
+  {
+    "id": "phys-mom-020b-h1",
+    "type": "hint",
+    "title": "Apply Conservation of Momentum",
+    "text": "In an isolated system, total momentum before = total momentum after: $$\\Sigma p_{before} = \\Sigma p_{after}$$",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "phys-mom-020b-h2",
+    "type": "hint",
+    "title": "Set Up the Equation",
+    "text": "After collision they stick together (perfectly inelastic collision): $$p_{before} = (m_A + m_B) \\times v_{after}$$. So: $$18 = 6 \\times v$$",
+    "variabilization": {},
+    "dependencies": ["phys-mom-020b-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "phys-mom-020b-h3",
+    "type": "hint",
+    "title": "Solve for Velocity",
+    "text": "$$v = \\frac{18}{6} = 3$$ m/s. The positive value indicates the combined trolleys move to the right.",
+    "variabilization": {},
+    "dependencies": ["phys-mom-020b-h2"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  }
+]

@@ -1,0 +1,10 @@
+{
+    "id": "exp-graph-002a",
+    "stepAnswer": ["a=4, q=1", "a = 4 and q = 1", "a=4 and q=1"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Values of a and q",
+    "stepBody": "Using the horizontal asymptote and y-intercept, find $a$ and $q$.\n\nState the values of $a$ and $q$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["exponential-graph", "asymptotes"]
+}

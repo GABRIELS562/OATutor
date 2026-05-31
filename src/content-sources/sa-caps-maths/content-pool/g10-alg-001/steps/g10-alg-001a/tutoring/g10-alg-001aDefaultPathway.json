@@ -1,0 +1,35 @@
+[
+    {
+        "id": "g10-alg-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understanding FOIL",
+        "text": "FOIL stands for First, Outer, Inner, Last. It's a method to multiply two binomials.\n\nFor $(a + b)(c + d)$:\n- First: $a \\times c$\n- Outer: $a \\times d$\n- Inner: $b \\times c$\n- Last: $b \\times d$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "g10-alg-001a-h2",
+        "type": "hint",
+        "dependencies": ["g10-alg-001a-h1"],
+        "title": "Apply to Our Problem",
+        "text": "For $(2x + 3)(x - 5)$:\n\n- First: $2x \\times x = 2x^2$\n- Outer: $2x \\times (-5) = -10x$\n- Inner: $3 \\times x = 3x$\n- Last: $3 \\times (-5) = -15$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "g10-alg-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["2x^2 - 10x + 3x - 15"],
+        "dependencies": ["g10-alg-001a-h2"],
+        "title": "Write All Terms",
+        "text": "Combining all four terms:\n\n$(2x + 3)(x - 5) = 2x^2 - 10x + 3x - 15$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

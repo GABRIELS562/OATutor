@@ -1,0 +1,10 @@
+{
+    "id": "poly-001b",
+    "stepAnswer": ["Yes", "yes", "YES"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Draw the Conclusion",
+    "stepBody": "Based on your calculation that $f(2) = 0$, is $(x - 2)$ a factor of $f(x) = x^3 - 4x^2 + x + 6$?\n\nAnswer Yes or No.",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factor-theorem", "algebraic-reasoning"]
+}

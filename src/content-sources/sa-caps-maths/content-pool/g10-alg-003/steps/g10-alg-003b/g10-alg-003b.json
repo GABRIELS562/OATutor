@@ -1,0 +1,10 @@
+{
+    "id": "g10-alg-003b",
+    "stepAnswer": ["(x+3)(2x^2+3)", "(2x^2+3)(x+3)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Factor Out the Common Binomial",
+    "stepBody": "From Step 1, we have:\n\n$$2x^2(x + 3) + 3(x + 3)$$\n\nBoth terms contain the common factor $(x + 3)$.\n\nFactor out $(x + 3)$ to write the final answer:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "grouping"]
+}

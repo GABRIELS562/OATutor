@@ -1,0 +1,10 @@
+{
+    "id": "func-log-001b",
+    "stepAnswer": ["-2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Evaluate log_5(1/25)",
+    "stepBody": "Calculate $\\log_5\\left(\\frac{1}{25}\\right)$ without a calculator.\n\nHint: Express $\\frac{1}{25}$ as a power of 5.\n\nEnter your numerical answer:",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "knowledgeComponents": ["logarithms", "negative-exponents"]
+}

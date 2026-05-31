@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-repro-014a-h1",
+    "type": "hint",
+    "title": "Placental Structure",
+    "text": "The placenta contains finger-like projections called villi. Fetal blood flows through capillaries inside the villi, while maternal blood flows in spaces around the villi.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-repro-014a-h2",
+    "type": "hint",
+    "title": "Why Separation Matters",
+    "text": "If blood mixed, the mother's immune system might attack the fetus as foreign tissue. Also, the mother's blood pressure would be too high for delicate fetal capillaries. The barrier allows diffusion of nutrients and gases while keeping cells separate.",
+    "variabilization": {},
+    "dependencies": ["bio-repro-014a-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

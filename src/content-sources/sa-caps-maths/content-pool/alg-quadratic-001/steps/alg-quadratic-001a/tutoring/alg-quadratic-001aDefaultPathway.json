@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-quadratic-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find Factor Pairs",
+        "text": "We need two numbers that:\\n- Multiply to give $+6$ (the constant term)\\n- Add to give $-5$ (the coefficient of $x$)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-quadratic-001a-h2",
+        "type": "hint",
+        "dependencies": ["alg-quadratic-001a-h1"],
+        "title": "Consider the Signs",
+        "text": "Since the product is positive (+6) and sum is negative (-5), both numbers must be negative.\\n\\nFactors of 6: (1,6), (2,3)\\n\\n$-2 \\times -3 = +6$ ✓\\n$-2 + (-3) = -5$ ✓",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-quadratic-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(x-2)(x-3)"],
+        "dependencies": ["alg-quadratic-001a-h2"],
+        "title": "Write the Factors",
+        "text": "$$x^2 - 5x + 6 = (x - 2)(x - 3)$$\\n\\nVerify by expanding: $(x-2)(x-3) = x^2 - 3x - 2x + 6 = x^2 - 5x + 6$ ✓",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

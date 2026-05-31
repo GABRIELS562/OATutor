@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-genetics-001a-h1",
+    "type": "hint",
+    "title": "Punnett Square Setup",
+    "text": "Put one parent's alleles (T and t) on top and the other parent's alleles (T and t) on the side.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "bio-genetics-001a-h2",
+    "type": "hint",
+    "title": "Fill in the Square",
+    "text": "Combine each row with each column: T+T=TT, T+t=Tt, t+T=Tt, t+t=tt",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

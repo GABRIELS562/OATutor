@@ -1,0 +1,10 @@
+{
+    "id": "poly-005b",
+    "stepAnswer": ["0"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Solve for a",
+    "stepBody": "Substitute $x = -2$ into $f(x) = x^3 + ax^2 - x + 6$ and set equal to 0:\n\n$$f(-2) = (-2)^3 + a(-2)^2 - (-2) + 6 = 0$$\n\n$$-8 + 4a + 2 + 6 = 0$$\n\nSimplify and solve for $a$.",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "knowledgeComponents": ["factor-theorem", "algebraic-manipulation", "solving-equations"]
+}

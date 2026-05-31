@@ -1,0 +1,16 @@
+{
+  "id": "neuro-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "receptor, sensory neuron, interneuron, motor neuron, effector",
+    "receptor, sensory, interneuron, motor, effector",
+    "receptor sensory interneuron motor effector"
+  ],
+  "stepExplanation": "The reflex arc consists of 5 components in order: (1) Receptor (heat receptors in skin), (2) Sensory neuron (afferent), (3) Interneuron (relay neuron in spinal cord), (4) Motor neuron (efferent), (5) Effector (arm muscles).",
+  "stepTitle": "List the Five Components",
+  "stepBody": "A reflex arc has five main components. List them in the correct order from stimulus detection to response."
+}

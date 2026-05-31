@@ -1,0 +1,36 @@
+[
+  {
+    "id": "chem-org-011b-h1",
+    "type": "hint",
+    "title": "Ester Naming Convention",
+    "text": "Esters are named as: [alkyl group from alcohol] + [name from acid with -oate ending]",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "chem-org-011b-h2",
+    "type": "hint",
+    "title": "Breaking Down the Name",
+    "text": "Ethanol (C$$_2$$H$$_5$$OH) provides the ethyl- group. Propanoic acid (C$$_2$$H$$_5$$COOH) provides the propanoate part (change -oic acid to -oate).",
+    "variabilization": {},
+    "dependencies": ["chem-org-011b-h1"],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "chem-org-011b-h3",
+    "type": "scaffold",
+    "problemType": "MultipleChoice",
+    "answerType": "string",
+    "hintAnswer": ["ethyl propanoate"],
+    "title": "Select the Correct Name",
+    "text": "Combining ethyl (from ethanol) and propanoate (from propanoic acid), the ester is called:",
+    "variabilization": {},
+    "dependencies": ["chem-org-011b-h2"],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+    "license": "CC BY 4.0",
+    "choices": ["propyl ethanoate", "ethyl propanoate", "methyl butanoate", "propyl propanoate"]
+  }
+]

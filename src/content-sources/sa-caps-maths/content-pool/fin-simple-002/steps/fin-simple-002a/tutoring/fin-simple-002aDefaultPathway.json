@@ -1,0 +1,35 @@
+[
+    {
+        "id": "fin-simple-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find the Interest First",
+        "text": "The interest is the difference between what was paid back and what was borrowed:\n\n$$I = A - P$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-simple-002a-h2",
+        "type": "hint",
+        "dependencies": ["fin-simple-002a-h1"],
+        "title": "Calculate the Difference",
+        "text": "Total paid back = R10 160\nOriginal loan = R8 000\n\n$$I = R10\\,160 - R8\\,000$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-simple-002a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["2160"],
+        "dependencies": ["fin-simple-002a-h2"],
+        "title": "The Interest Amount",
+        "text": "$$I = R10\\,160 - R8\\,000 = R2\\,160$$\n\nThe interest paid over 3 years was R2 160.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

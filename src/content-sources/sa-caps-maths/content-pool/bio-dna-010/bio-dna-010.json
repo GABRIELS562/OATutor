@@ -1,0 +1,15 @@
+{
+  "id": "bio-dna-010",
+  "title": "DNA Structure and Composition",
+  "body": "A sample of DNA was analysed and found to contain 22% adenine (A). Using Chargaff's rules, calculate the percentage of each of the other three bases (thymine, guanine, and cytosine) in this DNA sample.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-dna-structure"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "oer": "Adapted from Siyavula Grade 12 Life Sciences - DNA: The Code of Life",
+  "license": "CC BY 4.0",
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

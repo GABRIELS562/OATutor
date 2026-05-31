@@ -1,0 +1,10 @@
+{
+    "id": "curve-sketch-002",
+    "title": "Point of Inflection",
+    "body": "Given the function $f(x) = x^3 - 3x^2 - 9x + 5$:\n\nFind the coordinates of the point of inflection and determine the intervals where the graph is concave up and concave down.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Differential Calculus - Curve Sketching",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

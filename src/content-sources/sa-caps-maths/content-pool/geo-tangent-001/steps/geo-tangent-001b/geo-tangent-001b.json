@@ -1,0 +1,10 @@
+{
+    "id": "geo-tangent-001b",
+    "stepAnswer": ["12"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Apply Pythagorean Theorem",
+    "stepBody": "Since OAP is a right-angled triangle with the right angle at A, use the Pythagorean theorem to find PA.\n\nGiven: OA = 5 cm, OP = 13 cm\n\nCalculate PA (in cm).",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["geo-tangent-theorem", "geo-proof-writing"]
+}

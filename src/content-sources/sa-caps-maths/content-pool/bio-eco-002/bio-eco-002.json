@@ -1,0 +1,14 @@
+{
+  "id": "bio-eco-002",
+  "title": "Ecology - Energy Pyramid and Biomass",
+  "body": "Study the energy pyramid diagram below:\n\n```\n[ENERGY PYRAMID]\n\n                    /\\\n                   /  \\     Tertiary Consumers (Hawks)\n                  /    \\    10 kJ\n                 /------\\\n                /        \\   Secondary Consumers (Snakes)\n               /          \\  100 kJ\n              /------------\\\n             /              \\  Primary Consumers (Mice)\n            /                \\ 1000 kJ\n           /------------------\\\n          /                    \\  Producers (Grass)\n         /                      \\ 10 000 kJ\n        /------------------------\\\n```\n\nOnly about 10% of energy is transferred from one trophic level to the next. Calculate how much energy the mice must consume to produce 100 kJ available for snakes, and explain where the other 90% of energy goes.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-ecology"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "oer": "DBE NSC Life Sciences Paper 1/2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

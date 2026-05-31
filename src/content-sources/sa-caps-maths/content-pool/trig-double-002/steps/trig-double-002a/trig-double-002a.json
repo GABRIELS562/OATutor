@@ -1,0 +1,16 @@
+{
+    "id": "trig-double-002a",
+    "stepAnswer": ["cos 2A = cos²A - sin²A"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 1: Identify the Double Angle Pattern",
+    "stepBody": "The expression cos²A - sin²A matches which double angle identity?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-double-angle"],
+    "choices": [
+        "cos 2A = cos²A - sin²A",
+        "cos 2A = 1 - 2sin²A",
+        "cos 2A = 2cos²A - 1",
+        "sin 2A = 2sinA cosA"
+    ]
+}

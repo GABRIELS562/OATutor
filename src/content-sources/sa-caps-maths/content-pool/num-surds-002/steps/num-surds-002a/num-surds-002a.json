@@ -1,0 +1,10 @@
+{
+    "id": "num-surds-002a",
+    "stepAnswer": ["sqrt(3)-1", "sqrt3-1"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Identify the Conjugate",
+    "stepBody": "To rationalise $\\frac{6}{\\sqrt{3} + 1}$, we multiply by the conjugate.\n\nThe conjugate of $\\sqrt{3} + 1$ is $\\sqrt{3} - 1$.\n\nWe multiply both numerator and denominator by this conjugate.\n\nWhat is the conjugate of $\\sqrt{3} + 1$? (use sqrt for $\\sqrt{}$)",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["surds", "rationalisation"]
+}

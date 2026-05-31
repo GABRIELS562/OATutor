@@ -1,0 +1,15 @@
+{
+  "id": "bio-class-003a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "two",
+    "2"
+  ],
+  "stepExplanation": "A dichotomous key presents exactly two contrasting choices at each step. 'Dichotomous' comes from Greek 'dicha' meaning 'in two' and 'temnein' meaning 'to cut'. Each choice leads to either identification or another pair of choices.",
+  "stepTitle": "Number of Choices",
+  "stepBody": "How many choices are presented at each step of a dichotomous key?"
+}

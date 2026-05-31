@@ -1,0 +1,10 @@
+{
+    "id": "optim-003",
+    "title": "Optimization: Minimum Material",
+    "body": "An open rectangular tank with a square base must have a volume of 32 m$^3$. The base costs R150 per m$^2$ and the sides cost R100 per m$^2$.\n\nLet the side of the square base be $x$ metres and the height be $h$ metres.\n\nFind the dimensions that will minimise the total cost of materials.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Differential Calculus - Optimization",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

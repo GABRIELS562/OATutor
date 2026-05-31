@@ -1,0 +1,35 @@
+[
+    {
+        "id": "prod-special-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Recognise the Pattern",
+        "text": "$(2x + 3)(2x - 3)$ has the form $(a + b)(a - b)$\n\nwhere $a = 2x$ and $b = 3$\n\nThis is the sum times difference pattern.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "prod-special-003a-h2",
+        "type": "hint",
+        "dependencies": ["prod-special-003a-h1"],
+        "title": "The Formula",
+        "text": "$(a + b)(a - b) = a^2 - b^2$\n\nThis is called the difference of two squares.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "prod-special-003a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["difference of squares"],
+        "dependencies": ["prod-special-003a-h2"],
+        "title": "Pattern Name",
+        "text": "This is the difference of two squares pattern.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

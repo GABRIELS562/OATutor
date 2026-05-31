@@ -1,0 +1,15 @@
+{
+  "id": "phys-doppler-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "850",
+    "850 Hz"
+  ],
+  "stepExplanation": "f' = 800 × 340/320 = 800 × 1.0625 = 850 Hz",
+  "stepTitle": "Calculate Observed Frequency",
+  "stepBody": "Calculate f' = 800 × 340/(340-20). Give your answer in Hz."
+}

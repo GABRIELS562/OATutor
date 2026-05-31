@@ -1,0 +1,15 @@
+{
+  "id": "bio-plant-003b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "phytochrome",
+    "Pr and Pfr"
+  ],
+  "stepExplanation": "Phytochrome is a pigment that exists in two interconvertible forms: Pr (absorbs red light) and Pfr (absorbs far-red light). The ratio of Pr to Pfr changes with light conditions and acts as the plant's biological clock for measuring dark periods.",
+  "stepTitle": "Light-Sensing Pigment",
+  "stepBody": "What is the name of the plant pigment that detects light and measures the length of dark periods?"
+}

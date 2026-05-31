@@ -1,0 +1,10 @@
+{
+    "id": "calc-rate-001a",
+    "stepAnswer": ["40pi", "40*pi", "125.66", "125.7"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Rate of Area Increase at r = 10",
+    "stepBody": "The radius of a circular oil spill increases at 2 m/s. Find the rate at which the area is increasing when the radius is 10 m.\\n\\nGive your answer in terms of pi or as a decimal (m^2/s):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["related-rates", "differentiation"]
+}

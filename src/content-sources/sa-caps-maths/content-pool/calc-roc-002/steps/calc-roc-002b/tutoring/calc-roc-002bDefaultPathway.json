@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-roc-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute x = 100",
+        "text": "Using $C'(x) = 20 - 0.02x$:\n\n$C'(100) = 20 - 0.02(100)$\n\n$C'(100) = 20 - 2$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-roc-002b-h2",
+        "type": "hint",
+        "dependencies": ["calc-roc-002b-h1"],
+        "title": "Interpret the Result",
+        "text": "$C'(100) = 18$ Rands\n\nThis means when producing 100 items, the cost of producing one more item is approximately R18.",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-roc-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["18"],
+        "dependencies": ["calc-roc-002b-h2"],
+        "title": "Marginal Cost Value",
+        "text": "The marginal cost when producing 100 items is R18.\n\nNote: The marginal cost decreases as production increases (due to the negative coefficient of $x$), showing economies of scale in this model.",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

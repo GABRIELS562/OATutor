@@ -1,0 +1,10 @@
+{
+    "id": "prod-special-003a",
+    "stepAnswer": ["difference of squares", "difference of two squares", "(a+b)(a-b)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Identify the Pattern",
+    "stepBody": "The expression $(2x + 3)(2x - 3)$ is in the form $(a + b)(a - b)$.\n\nThis is the pattern for which special product?\n\nEnter: difference of squares",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "difference-of-squares"]
+}

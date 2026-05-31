@@ -1,0 +1,10 @@
+{
+    "id": "anl-circ-011a",
+    "stepAnswer": ["4/3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Calculate Gradient of Radius MP",
+    "stepBody": "Use the gradient formula:\n$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$\n\nCalculate the gradient of MP where M(2, -1) and P(5, 3).\n\nEnter as a fraction: a/b",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["anl-gradient-formula", "anl-circle-center-form"]
+}

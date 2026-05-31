@@ -1,0 +1,10 @@
+{
+    "id": "calc-opt-010b",
+    "stepAnswer": ["x=3.39", "3.39", "x=3.4", "3.4", "655.47", "655.5", "655"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find Maximum Volume",
+    "stepBody": "Find $\\frac{dV}{dx}$, set it equal to zero to find stationary points, verify which gives a maximum, and calculate the maximum volume.\n\nGive the value of $x$ (rounded to 2 decimal places) and the maximum volume (in cm^3):\n\nFormat: x = ___ , V = ___",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["optimization", "stationary-points", "differentiation", "quadratic-formula"]
+}

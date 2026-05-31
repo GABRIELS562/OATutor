@@ -1,0 +1,16 @@
+{
+  "id": "phys-optics-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "n₁ sin θ₁ = n₂ sin θ₂",
+    "n1 sin θ1 = n2 sin θ2",
+    "n1sinθ1 = n2sinθ2"
+  ],
+  "stepExplanation": "Snell's Law describes the relationship between angles of incidence and refraction when light passes between two media:\n$$n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2$$\nwhere n₁ and n₂ are refractive indices, θ₁ is the angle of incidence, and θ₂ is the angle of refraction.",
+  "stepTitle": "State Snell's Law",
+  "stepBody": "Write down Snell's Law relating the angles and refractive indices."
+}

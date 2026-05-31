@@ -1,0 +1,12 @@
+{
+  "id": "g11-func-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": ["-4", "(3, -4)"],
+  "stepExplanation": "Substitute x = 3 into f(x): f(3) = (3)^2 - 6(3) + 5 = 9 - 18 + 5 = -4. The turning point is (3, -4). Since a = 1 > 0, the parabola opens upward, so this is a minimum point.",
+  "stepTitle": "Find the y-coordinate and classify the turning point",
+  "stepBody": "Now substitute x = 3 into f(x) = x^2 - 6x + 5 to find the y-coordinate. What is f(3)?"
+}

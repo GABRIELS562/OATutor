@@ -1,0 +1,10 @@
+{
+    "id": "trig-area-001a",
+    "stepAnswer": ["Area = 1/2 * a * b * sin C", "Area = 0.5 * AB * BC * sin B", "1/2 ab sin C"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: State the Area Formula",
+    "stepBody": "Write the area rule formula for a triangle when you know two sides and the included angle.\\n\\nWrite as: Area = 1/2 * a * b * sin C (or similar)",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-area-rule", "formula-recall"]
+}

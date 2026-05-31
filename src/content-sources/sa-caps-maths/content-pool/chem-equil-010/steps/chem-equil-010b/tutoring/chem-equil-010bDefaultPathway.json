@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-equil-010b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute Values",
+        "text": "Kc = (0.78)^2 / (0.11 x 0.11)",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-010b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Numerator and Denominator",
+        "text": "Numerator: (0.78)^2 = 0.6084. Denominator: 0.11 x 0.11 = 0.0121",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-010b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Final Division",
+        "text": "Kc = 0.6084 / 0.0121 = 50.3. Since Kc > 1, the equilibrium favors the products.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

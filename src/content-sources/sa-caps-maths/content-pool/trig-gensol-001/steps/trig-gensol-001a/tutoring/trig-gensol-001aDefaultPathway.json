@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-gensol-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Special Angle Values",
+        "text": "The special angles and their sine values:\n- sin 0° = 0\n- sin 30° = 1/2\n- sin 45° = sqrt(2)/2\n- sin 60° = sqrt(3)/2\n- sin 90° = 1",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-gensol-001a-h2",
+        "type": "hint",
+        "dependencies": ["trig-gensol-001a-h1"],
+        "title": "Identify the Reference Angle",
+        "text": "Since sin 30° = 1/2, the reference angle is 30°.\n\nThis is the acute angle whose sine equals 1/2.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-gensol-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["30"],
+        "dependencies": ["trig-gensol-001a-h2"],
+        "title": "Reference Angle",
+        "text": "The reference angle is 30°",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

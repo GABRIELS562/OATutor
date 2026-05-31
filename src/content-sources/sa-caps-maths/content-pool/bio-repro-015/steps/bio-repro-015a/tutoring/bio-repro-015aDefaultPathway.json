@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-repro-015a-h1",
+    "type": "hint",
+    "title": "Understanding Negative Feedback",
+    "text": "In negative feedback, the end product of a process inhibits the process itself. This prevents overproduction and maintains balance (homeostasis).",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-repro-015a-h2",
+    "type": "hint",
+    "title": "Progesterone's Role",
+    "text": "During the luteal phase, progesterone from the corpus luteum rises. High progesterone tells the brain 'we might be pregnant, don't start a new cycle' - so it inhibits FSH and LH, preventing new follicle development.",
+    "variabilization": {},
+    "dependencies": ["bio-repro-015a-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

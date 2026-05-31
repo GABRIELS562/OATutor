@@ -1,0 +1,10 @@
+{
+    "id": "graph-line-001b",
+    "stepAnswer": ["y=-2x+3", "y = -2x + 3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the Y-Intercept and Write the Equation",
+    "stepBody": "Using $m = -2$ and one of the points, substitute into $y = mx + c$ to find $c$.\n\nWrite the final equation of the line:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["linear-graph", "intercepts"]
+}

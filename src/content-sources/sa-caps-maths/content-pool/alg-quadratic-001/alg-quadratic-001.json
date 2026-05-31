@@ -1,0 +1,10 @@
+{
+    "id": "alg-quadratic-001",
+    "title": "Solving Quadratic Equations by Factorisation",
+    "body": "Solve for $x$:\\n\\n$$x^2 - 5x + 6 = 0$$",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 10)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Quadratic Equations",
+    "courseName": "CAPS Grade 10 Mathematics"
+}

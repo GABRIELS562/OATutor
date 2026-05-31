@@ -1,0 +1,15 @@
+{
+  "id": "bio-dna-011",
+  "title": "DNA Replication - Leading and Lagging Strands",
+  "body": "During DNA replication, the two new strands are synthesised differently. Explain why one strand (the leading strand) is synthesised continuously while the other strand (the lagging strand) must be synthesised in fragments called Okazaki fragments.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-dna-structure", "bio-protein-synthesis"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "oer": "Adapted from Siyavula Grade 12 Life Sciences - DNA: The Code of Life",
+  "license": "CC BY 4.0",
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

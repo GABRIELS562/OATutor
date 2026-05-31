@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-maxmin-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Differentiate",
+        "text": "$V = 4x^3 - 80x^2 + 384x$\n\n$\\frac{dV}{dx} = 12x^2 - 160x + 384$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-maxmin-003b-h2",
+        "type": "hint",
+        "dependencies": ["calc-maxmin-003b-h1"],
+        "title": "Solve dV/dx = 0",
+        "text": "$12x^2 - 160x + 384 = 0$\n\nDivide by 4:\n$3x^2 - 40x + 96 = 0$\n\nUsing the quadratic formula:\n$x = \\frac{40 \\pm \\sqrt{1600 - 1152}}{6} = \\frac{40 \\pm \\sqrt{448}}{6}$\n\n$x = \\frac{40 \\pm 4\\sqrt{28}}{6} = \\frac{40 \\pm 8\\sqrt{7}}{6}$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-maxmin-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x=10/3"],
+        "dependencies": ["calc-maxmin-003b-h2"],
+        "title": "Select Valid Solution",
+        "text": "Factoring $3x^2 - 40x + 96 = 0$:\n\n$(3x - 10)(x - \\frac{96}{10}) = 0$ - let's use factorization:\n\n$3x^2 - 40x + 96 = (3x - 10)(x - \\frac{96}{10})$\n\nActually: $(x - \\frac{10}{3})(3x - \\frac{288}{10})$\n\nUsing quadratic formula gives $x \\approx 3.33$ or $x \\approx 9.6$\n\nSince $0 < x < 8$ (constraint), valid solution is $x = \\frac{10}{3} \\approx 3.33$ cm",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

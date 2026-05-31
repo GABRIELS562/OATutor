@@ -1,0 +1,16 @@
+{
+  "id": "geo-cyclic-003a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "equal",
+    "same",
+    "equals interior opposite"
+  ],
+  "stepExplanation": "Exterior angle = interior opposite angle",
+  "stepTitle": "Exterior Angle Property",
+  "stepBody": "What is the relationship between an exterior angle of a cyclic quad and the interior opposite angle?"
+}

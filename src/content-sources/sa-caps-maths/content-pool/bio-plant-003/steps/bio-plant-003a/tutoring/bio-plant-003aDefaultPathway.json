@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-plant-003a-h1",
+    "type": "hint",
+    "title": "Misleading Name",
+    "text": "The term 'short-day plant' is actually misleading. Research has shown that these plants respond to the LENGTH OF DARKNESS, not the length of day.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-plant-003a-h2",
+    "type": "hint",
+    "title": "Critical Dark Period",
+    "text": "Short-day plants require the dark period to exceed a critical length. If this dark period is interrupted by even a brief flash of light, flowering is prevented. This proves darkness is the key factor.",
+    "variabilization": {},
+    "dependencies": ["bio-plant-003a-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

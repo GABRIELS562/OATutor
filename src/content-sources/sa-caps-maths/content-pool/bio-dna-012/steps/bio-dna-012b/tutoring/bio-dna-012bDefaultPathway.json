@@ -1,0 +1,46 @@
+[
+  {
+    "id": "bio-dna-012b-h1",
+    "type": "hint",
+    "title": "Codons Are Three Nucleotides",
+    "text": "Each codon consists of three consecutive nucleotides and codes for one amino acid. The mRNA is read in the 5' to 3' direction during translation.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Grade 12 Life Sciences",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-dna-012b-h2",
+    "type": "hint",
+    "title": "Start and Stop Codons",
+    "text": "AUG is the universal start codon and codes for Methionine (Met). UAA, UAG, and UGA are stop codons that signal the end of translation - they do not code for any amino acid.",
+    "variabilization": {},
+    "dependencies": ["bio-dna-012b-h1"],
+    "oer": "Siyavula Grade 12 Life Sciences",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-dna-012b-h3",
+    "type": "hint",
+    "title": "Common Codons",
+    "text": "Key codons: AUG = Met (start); GCA = Ala (Alanine); UUC = Phe (Phenylalanine); AAG = Lys (Lysine); UAA = Stop.",
+    "variabilization": {},
+    "dependencies": ["bio-dna-012b-h2"],
+    "oer": "Siyavula Grade 12 Life Sciences",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-dna-012b-h4",
+    "type": "scaffold",
+    "problemType": "MultipleChoice",
+    "answerType": "string",
+    "hintAnswer": ["4"],
+    "dependencies": ["bio-dna-012b-h3"],
+    "title": "Count Amino Acids",
+    "text": "How many amino acids will be in the final polypeptide? (Remember: stop codons end translation but don't add an amino acid)",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Life Sciences",
+    "license": "CC BY 4.0",
+    "choices": ["3", "4", "5", "6"]
+  }
+]

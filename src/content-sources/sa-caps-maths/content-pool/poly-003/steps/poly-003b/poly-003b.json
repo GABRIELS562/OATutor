@@ -1,0 +1,10 @@
+{
+    "id": "poly-003b",
+    "stepAnswer": ["(x - 2)(x + 3)(x + 1)", "(x-2)(x+3)(x+1)", "(x + 1)(x - 2)(x + 3)", "(x + 3)(x - 2)(x + 1)", "(x + 1)(x + 3)(x - 2)", "(x + 3)(x + 1)(x - 2)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Complete the Factorisation",
+    "stepBody": "Now divide $x^3 + 2x^2 - 5x - 6$ by $(x - 2)$ to get a quadratic, then factorise that quadratic.\n\nUsing polynomial division: $\\frac{x^3 + 2x^2 - 5x - 6}{x - 2} = x^2 + 4x + 3$\n\nFactorise $x^2 + 4x + 3$ and write the complete factorisation of $f(x)$.",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["polynomial-division", "trinomial-factor", "factorisation"]
+}

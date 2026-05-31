@@ -1,0 +1,35 @@
+[
+    {
+        "id": "poly-004a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Use the Factor Theorem",
+        "text": "Test $f(1) = 1^3 - 6(1)^2 + 11(1) - 6$\n\n$= 1 - 6 + 11 - 6 = 0$ ✓\n\nSince $f(1) = 0$, $(x - 1)$ is a factor.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-004a-h2",
+        "type": "hint",
+        "dependencies": ["poly-004a-h1"],
+        "title": "Polynomial Division",
+        "text": "Dividing $x^3 - 6x^2 + 11x - 6$ by $(x - 1)$:\n\n$\\frac{x^3 - 6x^2 + 11x - 6}{x - 1} = x^2 - 5x + 6$\n\nNow factorise this quadratic.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-004a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(x - 1)(x - 2)(x - 3)"],
+        "dependencies": ["poly-004a-h2"],
+        "title": "Complete Factorisation",
+        "text": "$x^2 - 5x + 6 = (x - 2)(x - 3)$ (since $-2 \\times -3 = 6$ and $-2 + (-3) = -5$)\n\nTherefore: $x^3 - 6x^2 + 11x - 6 = (x - 1)(x - 2)(x - 3)$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

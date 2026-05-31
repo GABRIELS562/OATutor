@@ -1,0 +1,10 @@
+{
+    "id": "fin-comp-002b",
+    "stepAnswer": ["R56247.92", "56247.92", "R56 247.92", "56247,92"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate the Principal",
+    "stepBody": "Using $P = \\frac{A}{(1 + i)^n}$ with:\n- $A = 100000$\n- $i = \\frac{0.072}{12} = 0.006$ (monthly rate)\n- $n = 8 \\times 12 = 96$ (months)\n\nCalculate the principal Sipho must invest (round to the nearest cent):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["compound-interest", "present-value", "calculation"]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "bio-respir-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "false",
+    "False",
+    "incorrect",
+    "wrong",
+    "no"
+  ],
+  "stepExplanation": "The statement is **FALSE**. Glycolysis is an **anaerobic** process - it does NOT require oxygen.\n\nGlycolysis:\n- Occurs in the **cytoplasm**\n- Breaks down glucose (6C) into 2 pyruvate (3C each)\n- Produces 2 ATP and 2 NADH\n- Can occur with OR without oxygen\n\nOnly the Krebs Cycle and Electron Transport Chain require oxygen (aerobic respiration).",
+  "stepTitle": "Evaluate the Statement",
+  "stepBody": "Is the student's statement that 'glycolysis cannot occur without oxygen' true or false?"
+}

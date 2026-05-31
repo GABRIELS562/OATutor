@@ -1,0 +1,15 @@
+{
+  "id": "chem-acid-013a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.015",
+    "1.5 x 10^-2"
+  ],
+  "stepExplanation": "n(H2SO4) = C x V = 0.15 mol/dm^3 x 0.050 dm^3 = 0.0075 mol. Then using the 1:2 ratio: n(KOH) = 2 x 0.0075 = 0.015 mol",
+  "stepTitle": "Calculate Moles of KOH Required",
+  "stepBody": "Calculate moles of H2SO4, then use the mole ratio to find moles of KOH needed. (Hint: H2SO4 is a diprotic acid)"
+}

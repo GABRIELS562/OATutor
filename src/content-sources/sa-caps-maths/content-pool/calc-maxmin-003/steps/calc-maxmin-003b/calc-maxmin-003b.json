@@ -1,0 +1,10 @@
+{
+    "id": "calc-maxmin-003b",
+    "stepAnswer": ["x=10/3", "x = 10/3", "x=3.33", "10/3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the Value of x for Maximum Volume",
+    "stepBody": "Differentiate $V = 4x^3 - 80x^2 + 384x$ and set $\\frac{dV}{dx} = 0$.\n\nFind the value of $x$ that maximizes the volume (remember $0 < x < 8$):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["optimization", "differentiation", "quadratic-equations"]
+}

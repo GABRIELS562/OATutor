@@ -1,0 +1,10 @@
+{
+    "id": "fin-simple-002b",
+    "stepAnswer": ["9", "9%", "9 %", "0.09"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate the Interest Rate",
+    "stepBody": "Use $I = P \\times r \\times t$ and solve for $r$:\n\n$$r = \\frac{I}{P \\times t}$$\n$$r = \\frac{2160}{8000 \\times 3}$$\n$$r = \\frac{2160}{24000}$$\n$$r = 0.09 = 9\\%$$\n\nEnter the annual interest rate (as a percentage, e.g., 9):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["simple-interest", "financial-mathematics"]
+}

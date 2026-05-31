@@ -1,0 +1,35 @@
+[
+    {
+        "id": "func-linear-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "The Gradient Formula",
+        "text": "The gradient (slope) of a line through two points $(x_1, y_1)$ and $(x_2, y_2)$ is:\n\n$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-linear-001a-h2",
+        "type": "hint",
+        "dependencies": ["func-linear-001a-h1"],
+        "title": "Substitute the Points",
+        "text": "Using $A(-2, 5)$ and $B(4, -1)$:\n\n$$m = \\frac{-1 - 5}{4 - (-2)} = \\frac{-6}{6}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-linear-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["-1"],
+        "dependencies": ["func-linear-001a-h2"],
+        "title": "Calculate the Gradient",
+        "text": "$$m = \\frac{-6}{6} = -1$$\n\nThe gradient is $-1$ (negative slope means the line goes down from left to right).",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

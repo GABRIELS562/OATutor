@@ -1,0 +1,16 @@
+{
+  "id": "bio-plant-005a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "rooting",
+    "root growth",
+    "rooting hormone"
+  ],
+  "stepExplanation": "Synthetic auxins are used as rooting hormones to stimulate root development on plant cuttings. This allows vegetative propagation of plants that are difficult to root naturally. Auxins are also used as herbicides (weedkillers) at high concentrations.",
+  "stepTitle": "Auxin Applications",
+  "stepBody": "What process in plant cuttings is promoted by applying synthetic auxins?"
+}

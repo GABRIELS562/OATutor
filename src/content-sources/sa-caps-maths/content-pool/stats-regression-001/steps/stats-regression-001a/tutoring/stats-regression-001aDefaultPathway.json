@@ -1,0 +1,25 @@
+[
+    {
+        "id": "stats-regression-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Gradient Formula",
+        "text": "The gradient (slope) b of the least squares regression line is:\\n$$b = \\frac{\\sum(x-\\bar{x})(y-\\bar{y})}{\\sum(x-\\bar{x})^2}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "stats-regression-001a-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["5"],
+        "dependencies": ["stats-regression-001a-h1"],
+        "title": "Substitute and Calculate",
+        "text": "$$b = \\frac{50}{10} = ?$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

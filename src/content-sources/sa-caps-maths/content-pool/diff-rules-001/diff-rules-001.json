@@ -1,0 +1,10 @@
+{
+    "id": "diff-rules-001",
+    "title": "Differentiation Using the Power Rule",
+    "body": "Differentiate the following function using the power rule:\n\n$$f(x) = 4x^5 - 3x^3 + 2x^2 - 7x + 9$$\n\nRecall: If $f(x) = x^n$, then $f'(x) = nx^{n-1}$",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Differential Calculus - Rules of Differentiation",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

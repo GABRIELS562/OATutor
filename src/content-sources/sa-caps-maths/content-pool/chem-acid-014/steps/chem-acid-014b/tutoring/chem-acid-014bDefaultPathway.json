@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-acid-014b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply Antilog",
+        "text": "If log[H+] = -4.5, then [H+] = 10^(-4.5)",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-014b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Break Down the Exponent",
+        "text": "10^(-4.5) = 10^(-5+0.5) = 10^(-5) x 10^(0.5) = 10^(-5) x 3.16",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-014b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Final Answer",
+        "text": "[H+] = 3.16 x 10^-5 mol/dm^3. Use your calculator's 10^x or antilog function for precision.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "func-hyp-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Standard Form of Hyperbola",
+        "text": "The standard form of a hyperbola is $y = \\frac{a}{x-p} + q$, where the vertical asymptote is at $x = p$ and the horizontal asymptote is at $y = q$.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-hyp-001a-h2",
+        "type": "hint",
+        "dependencies": ["func-hyp-001a-h1"],
+        "title": "Identify p and q",
+        "text": "Comparing $f(x) = \\frac{3}{x-2} + 1$ with the standard form:\\n\\n- $p = 2$ (vertical asymptote at $x = 2$)\\n- $q = 1$ (horizontal asymptote at $y = 1$)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-hyp-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x=2 and y=1"],
+        "dependencies": ["func-hyp-001a-h2"],
+        "title": "Write the Asymptotes",
+        "text": "The vertical asymptote is $x = 2$ (where the denominator equals zero).\\n\\nThe horizontal asymptote is $y = 1$ (the value of $q$).\\n\\nWrite as: x=2 and y=1",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

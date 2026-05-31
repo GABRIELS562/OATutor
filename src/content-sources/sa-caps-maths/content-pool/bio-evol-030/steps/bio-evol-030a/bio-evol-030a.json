@@ -1,0 +1,20 @@
+{
+  "id": "bio-evol-030a",
+  "type": "scaffold",
+  "problemType": "MultipleChoice",
+  "answerType": "string",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "Natural genetic variation - some bacteria already had random mutations providing resistance before antibiotic exposure"
+  ],
+  "choices": [
+    "Natural genetic variation - some bacteria already had random mutations providing resistance before antibiotic exposure",
+    "The antibiotic caused bacteria to develop resistance through direct mutation",
+    "Bacteria deliberately changed their DNA to survive the antibiotic",
+    "The antibiotic was not strong enough to kill any bacteria"
+  ],
+  "stepExplanation": "In any bacterial population, there is natural genetic variation due to random mutations. Some bacteria, by chance, already possess mutations that confer antibiotic resistance BEFORE exposure to the antibiotic. The antibiotic does not cause the mutation - it acts as a selection pressure that favors bacteria that already have the resistance gene. This is a key principle of natural selection: variation exists first, then selection acts on it.",
+  "stepTitle": "Source of Variation",
+  "stepBody": "When a bacterial population is first exposed to antibiotics, a few individuals survive. According to natural selection, why do these bacteria survive while others die?"
+}

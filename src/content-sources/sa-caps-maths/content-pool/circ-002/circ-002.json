@@ -1,0 +1,14 @@
+{
+  "id": "circ-002",
+  "title": "Electric Circuits - Internal Resistance",
+  "body": "A battery has an emf of 12 V and an internal resistance of 0.5 Ω. When connected to an external resistor of 5.5 Ω, calculate the current in the circuit and the terminal voltage (potential difference across the external resistor).",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-circuits", "phys-ohms-law"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

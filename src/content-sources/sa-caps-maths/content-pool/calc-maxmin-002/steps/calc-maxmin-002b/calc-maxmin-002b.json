@@ -1,0 +1,10 @@
+{
+    "id": "calc-maxmin-002b",
+    "stepAnswer": ["1800", "1800 m^2", "1800m^2", "width=30m, length=60m, area=1800m^2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find Maximum Area",
+    "stepBody": "Use calculus to find the value of $x$ that maximizes the area, then calculate the maximum area.\n\nWhat is the maximum area in square metres?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["optimization", "differentiation", "stationary-points"]
+}

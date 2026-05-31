@@ -1,0 +1,35 @@
+[
+    {
+        "id": "eq-simult-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Elimination Method",
+        "text": "Notice that if we add the two equations, the y terms will cancel out:\n\n$2x + y = 7$ ... (1)\n$x - y = 2$ ... (2)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "eq-simult-001a-h2",
+        "type": "hint",
+        "dependencies": ["eq-simult-001a-h1"],
+        "title": "Add the Equations",
+        "text": "Adding (1) and (2):\n\n$(2x + y) + (x - y) = 7 + 2$\n$2x + x + y - y = 9$\n$3x = 9$\n$x = 3$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "eq-simult-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["3"],
+        "dependencies": ["eq-simult-001a-h2"],
+        "title": "Value of x",
+        "text": "$x = 3$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

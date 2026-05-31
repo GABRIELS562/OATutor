@@ -1,0 +1,16 @@
+{
+    "id": "trig-comp-002a",
+    "stepAnswer": ["cos(A - B) = cos A cos B + sin A sin B"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 1: Identify the Compound Angle Pattern",
+    "stepBody": "The expression cos A cos B + sin A sin B matches which compound angle formula?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-compound-add"],
+    "choices": [
+        "cos(A - B) = cos A cos B + sin A sin B",
+        "cos(A + B) = cos A cos B - sin A sin B",
+        "sin(A + B) = sin A cos B + cos A sin B",
+        "sin(A - B) = sin A cos B - cos A sin B"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "trig-solve-001a",
+    "stepAnswer": ["-1/2", "-0.5", "cos=-1/2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Isolate the Trig Ratio",
+    "stepBody": "Rearrange $2\\cos\\theta + 1 = 0$ to find the value of $\\cos\\theta$.\\n\\nWhat is $\\cos\\theta$ equal to?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-equations", "algebraic-manipulation"]
+}

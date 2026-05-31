@@ -1,0 +1,35 @@
+[
+    {
+        "id": "seq-geom-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "The Sum to Infinity Formula",
+        "text": "When $|r| < 1$, the sum to infinity exists and is given by:\n$$S_\\infty = \\frac{a}{1 - r}$$\n\nThis formula works because as $n \\to \\infty$, $r^n \\to 0$ when $|r| < 1$.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "seq-geom-003b-h2",
+        "type": "hint",
+        "dependencies": ["seq-geom-003b-h1"],
+        "title": "Substitute Values",
+        "text": "With $a = 18$ and $r = \\frac{1}{3}$:\n\n$$S_\\infty = \\frac{18}{1 - \\frac{1}{3}}$$\n$$S_\\infty = \\frac{18}{\\frac{2}{3}}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "seq-geom-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["27"],
+        "dependencies": ["seq-geom-003b-h2"],
+        "title": "Final Calculation",
+        "text": "$$S_\\infty = \\frac{18}{\\frac{2}{3}} = 18 \\times \\frac{3}{2} = 27$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

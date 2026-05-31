@@ -1,0 +1,10 @@
+{
+    "id": "trig-arearule-002",
+    "title": "Area Rule: Finding the Included Angle",
+    "body": "Triangle PQR has:\n- Side p = 10 cm\n- Side r = 14 cm\n- Area = 56 cm²\n\nCalculate the size of the included angle Q.\n\nNote: There may be two possible answers. Give the acute angle, rounded to one decimal place.",
+    "variabilization": {},
+    "oer": "CAPS Grade 11 Mathematics",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Trigonometry - Area Rule",
+    "courseName": "CAPS Grade 11 Mathematics"
+}

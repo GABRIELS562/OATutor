@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-plant-003b-h1",
+    "type": "hint",
+    "title": "The Biological Clock",
+    "text": "Plants need a way to measure time and detect day length. They use a special blue-green pigment found in leaves that can absorb red light.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-plant-003b-h2",
+    "type": "hint",
+    "title": "Phytochrome System",
+    "text": "Phytochrome ('phyto' = plant, 'chrome' = color) exists in two forms. In daylight, Pr converts to Pfr. In darkness, Pfr slowly converts back to Pr. The ratio tells the plant how long it has been dark.",
+    "variabilization": {},
+    "dependencies": ["bio-plant-003b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

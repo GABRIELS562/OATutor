@@ -1,0 +1,15 @@
+{
+  "id": "phys-wave-011b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "70",
+    "70 dB"
+  ],
+  "stepExplanation": "L = 10 log(10^7) = 10 x 7 = 70 dB. This is approximately the sound level of normal conversation or a vacuum cleaner.",
+  "stepTitle": "Calculate Decibel Level",
+  "stepBody": "Now calculate L = 10 log(I/I_0) using the ratio you found. Remember that log(10^n) = n. Give your answer in dB."
+}

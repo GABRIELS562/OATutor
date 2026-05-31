@@ -1,0 +1,17 @@
+{
+  "id": "bio-plant-004",
+  "title": "Thigmotropism and Nastic Movements",
+  "body": "Plants respond to touch and other stimuli in different ways. Thigmotropism is a directional growth response to touch, while nastic movements are non-directional responses. Compare these two types of responses.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-hormones"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

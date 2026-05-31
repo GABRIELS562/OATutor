@@ -1,0 +1,10 @@
+{
+    "id": "poly-002a",
+    "stepAnswer": ["3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Identify the Value to Substitute",
+    "stepBody": "The Remainder Theorem states: When a polynomial $p(x)$ is divided by $(x - a)$, the remainder is $p(a)$.\n\nWe are dividing by $(x - 3)$.\n\nWhat value of $x$ should we substitute to find the remainder?",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "knowledgeComponents": ["remainder-theorem", "polynomial-division"]
+}

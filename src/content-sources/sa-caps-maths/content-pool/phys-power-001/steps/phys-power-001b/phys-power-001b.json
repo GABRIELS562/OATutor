@@ -1,0 +1,15 @@
+{
+  "id": "phys-power-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "500",
+    "500 W"
+  ],
+  "stepExplanation": "P = 5000/10 = 500 W",
+  "stepTitle": "Calculate Power",
+  "stepBody": "P = W/t. Calculate power in Watts."
+}

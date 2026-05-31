@@ -1,0 +1,16 @@
+{
+  "id": "phys-mom-020b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "3",
+    "3.0",
+    "3.00"
+  ],
+  "stepExplanation": "By conservation of momentum: p_before = p_after. So 18 = (4 + 2) x v. Therefore v = 18/6 = 3 m/s to the right.",
+  "stepTitle": "Calculate Final Velocity",
+  "stepBody": "Using conservation of momentum, find the velocity of the combined trolleys after collision. The trolleys stick together, so use total mass = 6 kg. Give your answer in m/s."
+}

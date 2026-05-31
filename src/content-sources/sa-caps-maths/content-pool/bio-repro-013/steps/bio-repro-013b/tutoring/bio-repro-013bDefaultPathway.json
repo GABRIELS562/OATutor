@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-repro-013b-h1",
+    "type": "hint",
+    "title": "Maintaining the Corpus Luteum",
+    "text": "Normally, the corpus luteum degenerates after about 14 days if pregnancy does not occur. For pregnancy to continue, something must signal the corpus luteum to keep producing progesterone.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-repro-013b-h2",
+    "type": "hint",
+    "title": "The Pregnancy Signal",
+    "text": "The embryo produces Human Chorionic Gonadotropin (HCG). 'Chorionic' refers to the chorion (part of the placenta). 'Gonadotropin' means it affects the gonads. HCG keeps the corpus luteum functioning.",
+    "variabilization": {},
+    "dependencies": ["bio-repro-013b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

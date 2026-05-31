@@ -1,0 +1,10 @@
+{
+    "id": "calc-tangent-002",
+    "title": "Finding Where a Tangent Has a Given Gradient",
+    "body": "The curve $y = x^3 - 6x^2 + 9x + 2$ has a tangent with gradient $0$.\n\nFind the x-coordinates of the points where the tangent is horizontal (gradient = 0).",
+    "variabilization": {},
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Differential Calculus - Equation of a Tangent",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

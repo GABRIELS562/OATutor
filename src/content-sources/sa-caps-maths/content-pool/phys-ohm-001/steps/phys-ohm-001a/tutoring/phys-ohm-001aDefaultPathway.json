@@ -1,0 +1,12 @@
+[
+  {
+    "id": "phys-ohm-001a-h1",
+    "type": "hint",
+    "title": "Ohm's Law",
+    "text": "Ohm's Law relates the voltage across a conductor to the current through it and its resistance.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

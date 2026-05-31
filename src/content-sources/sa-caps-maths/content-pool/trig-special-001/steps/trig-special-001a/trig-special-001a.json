@@ -1,0 +1,15 @@
+{
+  "id": "trig-special-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "√3 × √3/2 - √2/2",
+    "√3·√3/2 - √2/2"
+  ],
+  "stepExplanation": "= √3 × √3/2 - √2/2",
+  "stepTitle": "Substitute Values",
+  "stepBody": "tan60° = √3, cos30° = √3/2, sin45° = √2/2. Write the expression with these values."
+}

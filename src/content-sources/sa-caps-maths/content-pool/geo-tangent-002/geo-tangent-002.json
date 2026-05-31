@@ -1,0 +1,17 @@
+{
+  "id": "geo-tangent-002",
+  "title": "Tangent from External Point",
+  "body": "From point P outside a circle, two tangents PA and PB are drawn. If PA = 8 cm and the distance from P to the center O is 10 cm, calculate the radius of the circle.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "geo-tangent-theorem"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

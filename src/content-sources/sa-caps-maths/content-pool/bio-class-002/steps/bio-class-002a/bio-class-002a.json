@@ -1,0 +1,15 @@
+{
+  "id": "bio-class-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "Monera Protista Fungi Plantae Animalia",
+    "Monera, Protista, Fungi, Plantae, Animalia"
+  ],
+  "stepExplanation": "The five kingdoms are: Monera (prokaryotes like bacteria), Protista (mostly unicellular eukaryotes), Fungi (absorptive heterotrophs), Plantae (photosynthetic autotrophs), and Animalia (ingestive heterotrophs).",
+  "stepTitle": "The Five Kingdoms",
+  "stepBody": "Name the five kingdoms in Whittaker's classification system."
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-wave-012a-h1",
+    "type": "hint",
+    "title": "Wave Equation Rearrangement",
+    "text": "The wave equation v = f times wavelength can be rearranged to find wavelength: wavelength = v/f.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-wave-012a-h2",
+    "type": "hint",
+    "title": "Substitution",
+    "text": "Substitute the values: wavelength = 340 m/s / 256 Hz = 1.328 m. Note that 256 Hz is middle C on a piano.",
+    "variabilization": {},
+    "dependencies": ["phys-wave-012a-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

@@ -35,9 +35,6 @@ class ProblemInput extends React.Component {
         document.addEventListener('click', this.handleClickOutside);
 
         console.debug('problem', this.props.step, 'seed', this.props.seed)
-        if (this.isMatrixInput()) {
-            console.log('automatically determined matrix input to be the correct problem type')
-        }
 
         const mqDisplayArea = this.equationRef?.current?.querySelector(".mq-editable-field > .mq-root-block")
         if (mqDisplayArea != null) {
@@ -53,10 +50,10 @@ class ProblemInput extends React.Component {
     componentDidUpdate(_, prevState) {
         if (prevState.isMathFieldFocused !== this.state.isMathFieldFocused && !this.state.isMathFieldFocused) {
             const mathField = this.mathFieldRef.current;
-        if (mathField) {
-            mathField.executeCommand('hideVirtualKeyboard');
-            console.log("componentDidUpdate hide keyboard")
-        }}
+            if (mathField) {
+                mathField.executeCommand('hideVirtualKeyboard');
+            }
+        }
     }
     
     componentWillUnmount() {
@@ -65,23 +62,14 @@ class ProblemInput extends React.Component {
     
     handleFocus = () => {
         this.setState({ isMathFieldFocused: true });
-        console.log('MathField is focused');
     };
-    
+
     handleBlur = () => {
         this.setState({ isMathFieldFocused: false });
-        console.log('MathField lost focus');
     };
-    
-    handleClickOutside = (event) => {
-        const mathField = this.mathFieldRef.current;
-        if (
-          mathField &&
-          !mathField.contains(event.target) &&
-          this.state.isMathFieldFocused
-        ) {
-          console.log('Clicked outside keyboard');
-        }
+
+    handleClickOutside = () => {
+        // Focus handling managed by state
     };
 
     isMatrixInput() {

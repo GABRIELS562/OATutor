@@ -1,0 +1,35 @@
+[
+    {
+        "id": "optim-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Differentiate C",
+        "text": "$C = 150x^2 + 12800x^{-1}$\n\n$\\frac{dC}{dx} = 300x - 12800x^{-2} = 300x - \\frac{12800}{x^2}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "optim-003b-h2",
+        "type": "hint",
+        "dependencies": ["optim-003b-h1"],
+        "title": "Solve dC/dx = 0",
+        "text": "$300x - \\frac{12800}{x^2} = 0$\n\n$300x = \\frac{12800}{x^2}$\n\n$300x^3 = 12800$\n\n$x^3 = \\frac{12800}{300} = \\frac{128}{3}$\n\n$x = \\sqrt[3]{\\frac{128}{3}} = 4$ m",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "optim-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x = 4 m, h = 2 m"],
+        "dependencies": ["optim-003b-h2"],
+        "title": "Find h and Verify Minimum",
+        "text": "$h = \\frac{32}{x^2} = \\frac{32}{16} = 2$ m\n\nVerify minimum: $\\frac{d^2C}{dx^2} = 300 + \\frac{25600}{x^3} > 0$ (confirms minimum)\n\nDimensions: $x = 4$ m (base), $h = 2$ m (height)\n\nMinimum cost: $C = 150(16) + \\frac{12800}{4} = R5600$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

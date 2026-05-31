@@ -1,0 +1,17 @@
+{
+  "id": "phys-emf-001",
+  "title": "EMF and Internal Resistance",
+  "body": "A cell has an EMF of 12 V and internal resistance of 2 Ω. If connected to a 4 Ω external resistor, calculate the current in the circuit.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-circuits"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

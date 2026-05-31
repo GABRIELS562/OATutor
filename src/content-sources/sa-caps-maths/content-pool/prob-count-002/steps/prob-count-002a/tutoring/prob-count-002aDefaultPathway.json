@@ -1,0 +1,35 @@
+[
+    {
+        "id": "prob-count-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "First Draw",
+        "text": "Total balls = 5 red + 3 blue = 8 balls\\n\\nP(first ball is red) = $\\frac{5}{8}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "prob-count-002a-h2",
+        "type": "hint",
+        "dependencies": ["prob-count-002a-h1"],
+        "title": "Second Draw (Without Replacement)",
+        "text": "After drawing one red ball:\\n- Red balls remaining = 4\\n- Total balls remaining = 7\\n\\nP(second ball is red | first was red) = $\\frac{4}{7}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "prob-count-002a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["5/14"],
+        "dependencies": ["prob-count-002a-h2"],
+        "title": "Apply the Product Rule",
+        "text": "P(both red) = P(1st red) $\\times$ P(2nd red | 1st red)\\n$$= \\frac{5}{8} \\times \\frac{4}{7} = \\frac{20}{56} = \\frac{5}{14}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,16 @@
+{
+  "id": "phys-circ-012a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "11",
+    "11 A",
+    "11A"
+  ],
+  "stepExplanation": "Using Ohm's Law: I = V/R = 220/20 = 11 A. The heater draws a current of 11 amperes from the supply.",
+  "stepTitle": "Calculate Current",
+  "stepBody": "Using Ohm's Law (I = V/R), calculate the current drawn by the heater where V = 220 V and R = 20 ohm."
+}

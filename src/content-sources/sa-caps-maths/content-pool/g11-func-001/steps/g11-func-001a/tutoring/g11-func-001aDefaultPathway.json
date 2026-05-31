@@ -1,0 +1,22 @@
+[
+  {
+    "id": "g11-func-001a-h1",
+    "type": "hint",
+    "title": "Identify the coefficients",
+    "text": "In the standard form f(x) = ax^2 + bx + c, identify a = 1, b = -6, and c = 5. The turning point formula requires a and b.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-11/functions",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "g11-func-001a-h2",
+    "type": "hint",
+    "title": "Apply the turning point formula",
+    "text": "The x-coordinate of the turning point is given by x = -b/(2a). Substitute b = -6 and a = 1 to get x = -(-6)/(2 x 1) = 6/2 = 3.",
+    "variabilization": {},
+    "dependencies": ["g11-func-001a-h1"],
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-11/functions",
+    "license": "CC BY 4.0"
+  }
+]

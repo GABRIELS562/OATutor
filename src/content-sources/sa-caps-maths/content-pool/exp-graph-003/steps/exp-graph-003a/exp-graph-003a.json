@@ -1,0 +1,10 @@
+{
+    "id": "exp-graph-003a",
+    "stepAnswer": ["(0;-2)", "(0, -2)", "y=-2", "-2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Y-Intercept",
+    "stepBody": "To find the y-intercept, substitute $x = 0$ into $g(x) = 2^{x+1} - 4$.\n\nWhat is the y-intercept?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["exponential-graph", "intercepts"]
+}

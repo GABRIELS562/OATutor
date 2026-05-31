@@ -101,7 +101,7 @@ function convertSwedishToUS(numberString) {
  * @returns {[string, boolean | string, null | WrongAnswerReasons]}
  */
 function checkAnswer({ attempt, actual, answerType, precision = 5, variabilization = {}, questionText = ""}) {
-    if (localStorage.getItem('locale') == 'se') {
+    if (localStorage.getItem('locale') === 'se') {
         attempt = convertSwedishToUS(attempt)
     }
     
@@ -195,7 +195,7 @@ function checkAnswer({ attempt, actual, answerType, precision = 5, variabilizati
             return [parsed, false, WrongAnswerReasons.wrong];
         }
     } catch (err) {
-        console.log("error", err);
+        console.error("checkAnswer error:", err);
         return [parsed, false, WrongAnswerReasons.errored];
     }
 }

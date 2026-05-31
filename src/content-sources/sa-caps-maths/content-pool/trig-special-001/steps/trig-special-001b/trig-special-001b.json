@@ -1,0 +1,16 @@
+{
+  "id": "trig-special-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "(3-√2)/2",
+    "3/2 - √2/2",
+    "1.5 - 0.707"
+  ],
+  "stepExplanation": "= 3/2 - √2/2 = (3-√2)/2 ≈ 0.79",
+  "stepTitle": "Simplify",
+  "stepBody": "Calculate √3 × √3/2 - √2/2"
+}

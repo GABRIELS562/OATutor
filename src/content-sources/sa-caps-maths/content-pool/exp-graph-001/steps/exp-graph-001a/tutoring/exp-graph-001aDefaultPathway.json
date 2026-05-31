@@ -1,0 +1,35 @@
+[
+    {
+        "id": "exp-graph-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Use the First Point",
+        "text": "Substitute $(0, 1)$ where $x = 0$ and $y = 1$:\n\n$y = a \\cdot b^x - 2$\n$1 = a \\cdot b^0 - 2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "exp-graph-001a-h2",
+        "type": "hint",
+        "dependencies": ["exp-graph-001a-h1"],
+        "title": "Simplify Using b^0 = 1",
+        "text": "Since $b^0 = 1$ for any $b \\neq 0$:\n\n$1 = a \\cdot 1 - 2$\n$1 = a - 2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "exp-graph-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["a=3"],
+        "dependencies": ["exp-graph-001a-h2"],
+        "title": "Solve for a",
+        "text": "$1 = a - 2$\n$a = 1 + 2 = 3$\n\nThe value of $a$ is 3.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

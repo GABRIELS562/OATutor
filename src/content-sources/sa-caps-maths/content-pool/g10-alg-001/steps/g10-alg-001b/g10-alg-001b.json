@@ -1,0 +1,10 @@
+{
+    "id": "g10-alg-001b",
+    "stepAnswer": ["2x^2 - 7x - 15", "2x^2-7x-15"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Combine Like Terms",
+    "stepBody": "From Step 1, we have:\n\n$$2x^2 - 10x + 3x - 15$$\n\nCombine the like terms (the $x$ terms) to write the final simplified answer:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["alg-simplify", "combining-like-terms"]
+}

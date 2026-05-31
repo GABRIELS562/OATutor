@@ -1,0 +1,14 @@
+{
+  "id": "elec-001",
+  "title": "Coulomb's Law - Force Between Charges",
+  "body": "Two point charges of +4 μC and -6 μC are placed 30 cm apart in a vacuum. Calculate the magnitude of the electrostatic force between them. (Take k = 9 × 10⁹ N·m²/C²)",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-circuits"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

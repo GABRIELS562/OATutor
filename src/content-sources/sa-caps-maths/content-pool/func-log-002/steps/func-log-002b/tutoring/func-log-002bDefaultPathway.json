@@ -1,0 +1,25 @@
+[
+    {
+        "id": "func-log-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Express 16 as a Power of 2",
+        "text": "$16 = 2 \\times 2 \\times 2 \\times 2 = 2^4$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-log-002b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": ["4"],
+        "dependencies": ["func-log-002b-h1"],
+        "title": "Final Calculation",
+        "text": "Since $16 = 2^4$:\n\n$\\log_2(16) = \\log_2(2^4) = ?$\n\nRemember: $\\log_a(a^n) = n$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-arearule-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find sin 72°",
+        "text": "Using a calculator:\n$$\\sin 72° = 0.9511$$",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-arearule-003b-h2",
+        "type": "hint",
+        "dependencies": ["trig-arearule-003b-h1"],
+        "title": "Multiply",
+        "text": "$$\\text{Area} = 5100 \\times 0.9511 = 4850.61$$",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-arearule-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["4851"],
+        "dependencies": ["trig-arearule-003b-h2"],
+        "title": "Final Answer",
+        "text": "$$\\text{Area} \\approx 4851 \\text{ m}^2$$\n\nThe farmer's field has an area of approximately 4851 square metres (about half a hectare).",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    }
+]

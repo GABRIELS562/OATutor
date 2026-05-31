@@ -1,0 +1,20 @@
+{
+  "id": "bio-evol-010a",
+  "type": "scaffold",
+  "problemType": "MultipleChoice",
+  "answerType": "string",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "It positions the head directly over the spine, balancing the body for upright walking"
+  ],
+  "choices": [
+    "It positions the head directly over the spine, balancing the body for upright walking",
+    "It allows the head to face forward when walking on four legs",
+    "It increases brain size by providing more attachment points",
+    "It protects the spinal cord from damage during running"
+  ],
+  "stepExplanation": "In bipedal hominins, the foramen magnum (hole where the spinal cord exits the skull) is positioned underneath the skull rather than at the back. This allows the head to balance directly on top of the vertebral column, essential for upright posture. In quadrupedal apes, the foramen magnum is positioned more posteriorly.",
+  "stepTitle": "Foramen Magnum Position",
+  "stepBody": "The foramen magnum in humans is positioned more centrally beneath the skull compared to great apes where it is more posteriorly placed. How does this adaptation benefit bipedal locomotion?"
+}

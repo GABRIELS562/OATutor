@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-equil-012a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Set Up ICE Table",
+        "text": "Initial: [PCl5]=0.50, [PCl3]=0, [Cl2]=0. Change: [PCl5]=-x, [PCl3]=+x, [Cl2]=+x",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-012a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find x Value",
+        "text": "We're told [Cl2] at equilibrium = 0.10 mol/dm^3, so x = 0.10",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-012a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate [PCl5] at Equilibrium",
+        "text": "[PCl5] = 0.50 - 0.10 = 0.40 mol/dm^3. Also [PCl3] = 0.10 mol/dm^3",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,17 @@
+{
+  "id": "anl-distance-001",
+  "title": "Distance Formula",
+  "body": "Calculate the distance between points P(1, 2) and Q(4, 6).",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "anl-distance-formula"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

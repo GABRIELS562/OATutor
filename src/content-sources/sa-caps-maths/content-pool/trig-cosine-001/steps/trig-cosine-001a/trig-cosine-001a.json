@@ -1,0 +1,16 @@
+{
+    "id": "trig-cosine-001a",
+    "stepAnswer": ["a² = b² + c² - 2bc·cos(A)"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 1: Write the Cosine Rule",
+    "stepBody": "We have two sides and the included angle. Which formula gives us the third side?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["cosine-rule"],
+    "choices": [
+        "a² = b² + c² - 2bc·cos(A)",
+        "a/sin(A) = b/sin(B)",
+        "cos(A) = (b² + c² - a²)/(2bc)",
+        "Area = ½bc·sin(A)"
+    ]
+}

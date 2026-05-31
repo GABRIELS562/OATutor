@@ -1,0 +1,18 @@
+{
+  "id": "chem-acid-010",
+  "title": "pH Calculation from Hydrogen Ion Concentration",
+  "body": "A solution has a hydrogen ion concentration [H+] of 2.5 x 10^-4 mol/dm^3. Calculate the pH of the solution.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-ph-calc"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "Siyavula Grade 12 Physical Sciences - Acids and Bases",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

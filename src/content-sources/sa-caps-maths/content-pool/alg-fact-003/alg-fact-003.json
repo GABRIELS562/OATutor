@@ -1,0 +1,10 @@
+{
+    "id": "alg-fact-003",
+    "title": "Factorising Trinomials (a > 1)",
+    "body": "Factorise completely:\n\n$$2x^2 + 7x + 3$$",
+    "variabilization": {},
+    "oer": "Siyavula Grade 10 Mathematics - Algebraic Expressions Chapter 2.4",
+    "license": "CC-BY - Siyavula Education",
+    "lesson": "Factorising Trinomials",
+    "courseName": "CAPS Grade 10 Mathematics"
+}

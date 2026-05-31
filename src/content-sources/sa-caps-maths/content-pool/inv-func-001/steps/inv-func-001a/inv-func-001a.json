@@ -1,0 +1,10 @@
+{
+    "id": "inv-func-001a",
+    "stepAnswer": ["x=3y-6", "x = 3y - 6"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Interchange x and y",
+    "stepBody": "Start with $y = 3x - 6$ and interchange $x$ and $y$.\n\nWrite the equation after interchanging:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["inverse-function", "linear-graph"]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "chem-equil-013a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "3",
+    "three"
+  ],
+  "stepExplanation": "Left side: 2 mol SO2 + 1 mol O2 = 3 mol gas. Right side: 2 mol SO3 = 2 mol gas. Reactants have 3 mol of gas.",
+  "stepTitle": "Count Moles of Gas",
+  "stepBody": "Count the total moles of gas on the reactant side (left) of the equation."
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "ineq-linear-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Add 5 to Both Sides",
+        "text": "$3x - 5 < 7$\n$3x - 5 + 5 < 7 + 5$\n$3x < 12$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "ineq-linear-001a-h2",
+        "type": "hint",
+        "dependencies": ["ineq-linear-001a-h1"],
+        "title": "Divide by 3",
+        "text": "$3x < 12$\n$\\frac{3x}{3} < \\frac{12}{3}$\n$x < 4$\n\nNote: We divide by a positive number, so the inequality sign stays the same.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "ineq-linear-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x<4"],
+        "dependencies": ["ineq-linear-001a-h2"],
+        "title": "Solution",
+        "text": "$x < 4$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

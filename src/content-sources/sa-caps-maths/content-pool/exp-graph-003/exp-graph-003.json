@@ -1,0 +1,10 @@
+{
+    "id": "exp-graph-003",
+    "title": "Finding Intercepts of an Exponential Function",
+    "body": "Given the exponential function $g(x) = 2^{x+1} - 4$.\n\nDetermine the x-intercept and y-intercept of the function.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 11)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Functions and Graphs - Exponential Functions",
+    "courseName": "CAPS Grade 11 Mathematics"
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "circ-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Electrical Power",
+        "text": "Power (P) is the rate at which electrical energy is converted to other forms (light, heat). Unit is watt (W), where 1 W = 1 J/s.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "circ-003a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Three Power Equations",
+        "text": "P = IV is the basic formula. Using V = IR: P = I(IR) = I²R. Using I = V/R: P = (V/R)V = V²/R.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "circ-003a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Choosing the Right Formula",
+        "text": "We know P and V, and need R. Use P = V²/R, rearranged to R = V²/P. Then use I = V/R or I = P/V for current.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

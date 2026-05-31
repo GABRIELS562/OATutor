@@ -1,0 +1,10 @@
+{
+    "id": "calc-diff-012a",
+    "stepAnswer": ["(1/(x+h) - 1/x)/h", "-h/(x(x+h)h)", "(x-(x+h))/(x(x+h)h)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Set up and Simplify the Difference Quotient",
+    "stepBody": "Write the difference quotient $\\frac{f(x+h) - f(x)}{h}$ for $f(x) = \\frac{1}{x}$.\n\nSimplify by finding a common denominator in the numerator.\n\nWrite your expression:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["first-principles", "substitution", "fractions"]
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-solve-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Isolate cos θ",
+        "text": "Subtract 1 from both sides:\\n\\n$2\\cos\\theta = -1$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-solve-001a-h2",
+        "type": "hint",
+        "dependencies": ["trig-solve-001a-h1"],
+        "title": "Divide by 2",
+        "text": "$\\cos\\theta = \\frac{-1}{2} = -\\frac{1}{2}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-solve-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["-1/2"],
+        "dependencies": ["trig-solve-001a-h2"],
+        "title": "Value of cos θ",
+        "text": "$\\cos\\theta = -\\frac{1}{2}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

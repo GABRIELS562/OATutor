@@ -1,0 +1,17 @@
+{
+  "id": "bio-reproduction-001",
+  "title": "Human Reproduction - Menstrual Cycle",
+  "body": "The menstrual cycle is approximately 28 days. On which day does ovulation typically occur?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-menstrual-cycle"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

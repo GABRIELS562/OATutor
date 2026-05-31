@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-double-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Three Forms of cos 2A",
+        "text": "The double angle formula for cosine has THREE equivalent forms:\n\n1. $$\\cos 2A = \\cos^2 A - \\sin^2 A$$\n2. $$\\cos 2A = 2\\cos^2 A - 1$$\n3. $$\\cos 2A = 1 - 2\\sin^2 A$$\n\nAll three are useful in different situations!",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-double-002a-h2",
+        "type": "hint",
+        "dependencies": ["trig-double-002a-h1"],
+        "title": "Match Our Expression",
+        "text": "Our expression: $$\\cos^2 22.5° - \\sin^2 22.5°$$\n\nThis exactly matches form 1: $$\\cos^2 A - \\sin^2 A = \\cos 2A$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-double-002a-h3",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": ["cos 2A = cos²A - sin²A"],
+        "dependencies": ["trig-double-002a-h2"],
+        "title": "Correct Identity",
+        "text": "The expression matches $$\\cos 2A = \\cos^2 A - \\sin^2 A$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

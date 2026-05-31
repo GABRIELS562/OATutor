@@ -1,0 +1,17 @@
+{
+  "id": "phys-optics-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "28.1",
+    "28",
+    "28.1°",
+    "28°"
+  ],
+  "stepExplanation": "Using Snell's Law with n₁ = 1 (air), θ₁ = 45°, n₂ = 1.5:\n$$1 \\times \\sin 45° = 1.5 \\times \\sin\\theta_2$$\n$$\\sin\\theta_2 = \\frac{\\sin 45°}{1.5} = \\frac{0.707}{1.5} = 0.471$$\n$$\\theta_2 = \\sin^{-1}(0.471) = 28.1°$$",
+  "stepTitle": "Calculate the Angle of Refraction",
+  "stepBody": "Using Snell's Law, calculate the angle of refraction. Given: n_air = 1, θ₁ = 45°, n_glass = 1.5, sin 45° = 0.707. Give your answer in degrees."
+}

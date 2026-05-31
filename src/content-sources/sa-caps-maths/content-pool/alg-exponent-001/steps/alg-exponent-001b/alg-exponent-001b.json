@@ -1,0 +1,10 @@
+{
+    "id": "alg-exponent-001b",
+    "stepAnswer": ["3^5", "243"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Simplify Using Exponent Laws",
+    "stepBody": "From $\\frac{3^{x+2} \\cdot 3^{2x}}{3^{3x-3}}$, use exponent laws to simplify.\\n\\nRemember: $a^m \\cdot a^n = a^{m+n}$ and $\\frac{a^m}{a^n} = a^{m-n}$\\n\\nEnter your answer as 3^n:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["exponent-laws", "simplification"]
+}

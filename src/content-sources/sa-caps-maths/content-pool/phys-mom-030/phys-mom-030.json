@@ -1,0 +1,19 @@
+{
+  "id": "phys-mom-030",
+  "title": "Impulse from Force-Time Graph",
+  "body": "A net force acts on a 2 kg object initially at rest. The force varies with time as follows: 0-2 s: Force = 10 N; 2-4 s: Force = 5 N. Calculate: (a) the total impulse delivered to the object over the 4 seconds, and (b) the final velocity of the object.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-momentum"
+      ],
+      "difficultyCodes": [
+        "hard"
+      ]
+    }
+  ],
+  "oer": "Siyavula Physical Sciences Grade 12 - Momentum and Impulse",
+  "license": "CC BY 4.0",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

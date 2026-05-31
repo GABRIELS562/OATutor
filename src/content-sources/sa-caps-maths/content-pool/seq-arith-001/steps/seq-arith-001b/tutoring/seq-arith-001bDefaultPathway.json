@@ -1,0 +1,35 @@
+[
+    {
+        "id": "seq-arith-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "The General Term Formula",
+        "text": "For an arithmetic sequence:\n$$T_n = a + (n-1)d$$\n\nWhere:\n- $a$ = first term\n- $d$ = common difference\n- $n$ = term number",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "seq-arith-001b-h2",
+        "type": "hint",
+        "dependencies": ["seq-arith-001b-h1"],
+        "title": "Substitute Values",
+        "text": "For the 25th term, substitute $a = 5$, $d = 6$, and $n = 25$:\n\n$T_{25} = 5 + (25-1)(6)$\n$T_{25} = 5 + (24)(6)$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "seq-arith-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["149"],
+        "dependencies": ["seq-arith-001b-h2"],
+        "title": "Calculate",
+        "text": "$T_{25} = 5 + (24)(6)$\n$T_{25} = 5 + 144$\n$T_{25} = 149$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

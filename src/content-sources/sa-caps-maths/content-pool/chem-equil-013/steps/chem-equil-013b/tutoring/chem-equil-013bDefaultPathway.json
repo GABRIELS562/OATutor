@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-equil-013b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Compare Moles",
+        "text": "Left side: 3 mol gas. Right side: 2 mol gas.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-013b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply Le Chatelier",
+        "text": "Increasing pressure favors the side with fewer moles to reduce pressure.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-013b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Determine Direction",
+        "text": "The right side has fewer moles (2 < 3), so equilibrium shifts RIGHT towards SO3.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

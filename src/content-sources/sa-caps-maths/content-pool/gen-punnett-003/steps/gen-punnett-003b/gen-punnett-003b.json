@@ -1,0 +1,16 @@
+{
+  "id": "gen-punnett-003b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "50",
+    "50%",
+    "1/2"
+  ],
+  "stepExplanation": "Of the two possible male genotypes, X^h Y will have haemophilia. This is 1 out of 2 male genotypes = **50%** of sons will be affected.",
+  "stepTitle": "Calculate Percentage of Affected Sons",
+  "stepBody": "Males with X^h Y will have haemophilia (the Y chromosome does not carry the gene). What percentage of sons will be affected?"
+}

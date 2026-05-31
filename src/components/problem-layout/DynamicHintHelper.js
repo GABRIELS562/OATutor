@@ -58,7 +58,6 @@ export async function fetchDynamicHint(
             const { done, value } = await reader.read();
             if (done) {
                 const finalHint = renderGPTText(streamedHint, problemID, variabilization, context);
-                console.log("GPT OUTPUT: ", finalHint);
                 onChunkReceived(finalHint); // Call the final processing callback
                 onSuccessfulCompletion(); //Set `isHintGenerating` to false
                 break;

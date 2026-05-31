@@ -1,0 +1,14 @@
+{
+  "id": "anl-distance-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "5"
+  ],
+  "stepExplanation": "d = √25 = 5 units",
+  "stepTitle": "Find Distance",
+  "stepBody": "Calculate √25."
+}

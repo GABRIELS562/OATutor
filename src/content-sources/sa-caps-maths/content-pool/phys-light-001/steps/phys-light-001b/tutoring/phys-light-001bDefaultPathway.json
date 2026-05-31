@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-light-001b-h1",
+    "type": "hint",
+    "title": "Calculation Steps",
+    "text": "First calculate the ratio: sin(theta_c) = 1.00/1.52 = 0.6579. Then use the inverse sine function: theta_c = arcsin(0.6579).",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-light-001b-h2",
+    "type": "hint",
+    "title": "Practical Application",
+    "text": "theta_c = arcsin(0.6579) = 41.1 degrees. This means any light hitting the glass-air boundary at an angle greater than 41.1 degrees will be totally internally reflected. This is the principle behind fiber optic cables and sparkling diamonds.",
+    "variabilization": {},
+    "dependencies": ["phys-light-001b-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

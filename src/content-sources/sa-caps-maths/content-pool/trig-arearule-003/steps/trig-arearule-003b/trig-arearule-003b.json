@@ -1,0 +1,10 @@
+{
+    "id": "trig-arearule-003b",
+    "stepAnswer": ["4851"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Complete the Calculation",
+    "stepBody": "Now multiply by sin(72°):\n\nArea = 5100 × sin(72°)\n\nCalculate the area in m². Round to the nearest whole number.",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-area"]
+}

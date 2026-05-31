@@ -1,0 +1,25 @@
+[
+    {
+        "id": "fin-annuity-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify Each Value",
+        "text": "- Payment: $x = R2500$ (deposited monthly)\n- Monthly interest rate: $i = \\frac{8.4\\%}{12} = \\frac{0.084}{12} = 0.007$\n- Number of months: $n = 5 \\times 12 = 60$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-annuity-001a-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x = 2500, i = 0.007, n = 60"],
+        "dependencies": ["fin-annuity-001a-h1"],
+        "title": "Values Summary",
+        "text": "$x = R2500$\n$i = 0.007$\n$n = 60$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

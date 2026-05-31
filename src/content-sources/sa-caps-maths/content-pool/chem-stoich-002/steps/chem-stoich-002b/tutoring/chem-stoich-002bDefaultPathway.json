@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-stoich-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify Values",
+        "text": "n = 0.5 mol, Vm = 22.4 dm^3/mol",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-002b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute",
+        "text": "V = 0.5 x 22.4",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-002b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate",
+        "text": "V = 11.2 dm^3. This is half the molar volume, as expected for half a mole.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

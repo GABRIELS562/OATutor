@@ -1,0 +1,16 @@
+{
+    "id": "trig-comp-010a",
+    "stepAnswer": ["45° - 30°"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 1: Express as Difference of Special Angles",
+    "stepBody": "Write 15° as the difference of two special angles from: 30°, 45°, 60°, 90°",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-special-angles"],
+    "choices": [
+        "45° - 30°",
+        "60° - 45°",
+        "30° - 15°",
+        "90° - 75°"
+    ]
+}

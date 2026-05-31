@@ -1,0 +1,17 @@
+{
+  "id": "mom-003a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂",
+    "m1u1 + m2u2 = m1v1 + m2v2",
+    "Σp_before = Σp_after",
+    "Total momentum before = Total momentum after"
+  ],
+  "stepExplanation": "Conservation of momentum applies to all collisions: $$m_1u_1 + m_2u_2 = m_1v_1 + m_2v_2$$. In an elastic collision, both momentum and kinetic energy are conserved, but we only need momentum conservation here.",
+  "stepTitle": "Identify the Principle",
+  "stepBody": "We have information about the masses and velocities before and after collision. What principle allows us to find the unknown velocity?"
+}

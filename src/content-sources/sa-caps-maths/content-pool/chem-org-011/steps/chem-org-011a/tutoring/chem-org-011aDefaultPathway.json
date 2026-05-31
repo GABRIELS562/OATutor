@@ -1,0 +1,32 @@
+[
+  {
+    "id": "chem-org-011a-h1",
+    "type": "hint",
+    "title": "Esterification Reaction",
+    "text": "Esterification is a condensation reaction between a carboxylic acid and an alcohol. The -OH from the acid combines with the -H from the alcohol to form water.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "chem-org-011a-h2",
+    "type": "hint",
+    "title": "The Ester Functional Group",
+    "text": "Esters contain the -COO- functional group. They are formed when the -COOH group of the acid joins with the -OH group of the alcohol, releasing H$$_2$$O.",
+    "variabilization": {},
+    "dependencies": ["chem-org-011a-h1"],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "chem-org-011a-h3",
+    "type": "hint",
+    "title": "Reaction Summary",
+    "text": "Carboxylic acid + Alcohol --> Ester + Water (in presence of H$$_2$$SO$$_4$$ catalyst and heat)",
+    "variabilization": {},
+    "dependencies": ["chem-org-011a-h2"],
+    "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+    "license": "CC BY 4.0"
+  }
+]

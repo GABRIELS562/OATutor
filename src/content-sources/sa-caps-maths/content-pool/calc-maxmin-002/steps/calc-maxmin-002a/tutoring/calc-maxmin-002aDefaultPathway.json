@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-maxmin-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Express Length in Terms of Width",
+        "text": "Let the width = $x$ metres\n\nFencing used: $2x$ (two widths) + length\n\nTotal fencing = 120m\n\nSo: $2x + \\text{length} = 120$\n\nLength $= 120 - 2x$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-maxmin-002a-h2",
+        "type": "hint",
+        "dependencies": ["calc-maxmin-002a-h1"],
+        "title": "Write the Area Formula",
+        "text": "Area = width $\\times$ length\n\n$A = x \\times (120 - 2x)$\n\n$A = 120x - 2x^2$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-maxmin-002a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["A=120x-2x^2"],
+        "dependencies": ["calc-maxmin-002a-h2"],
+        "title": "Area Formula",
+        "text": "The area formula is:\n\n$A = 120x - 2x^2$\n\nOr equivalently: $A = x(120 - 2x)$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

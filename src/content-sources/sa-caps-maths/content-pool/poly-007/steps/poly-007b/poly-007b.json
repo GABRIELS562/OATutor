@@ -1,0 +1,10 @@
+{
+    "id": "poly-007b",
+    "stepAnswer": ["a = 7, b = 4", "a=7, b=4", "7, 4", "a = 7 and b = 4"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Solve the Simultaneous Equations",
+    "stepBody": "Solve the system:\n- Equation 1: $a + b = 11$\n- Equation 2: $2a - b = 10$\n\nHint: Add the two equations to eliminate $b$.\n\nWhat are the values of $a$ and $b$?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["simultaneous-equations", "algebraic-manipulation", "solving-equations"]
+}

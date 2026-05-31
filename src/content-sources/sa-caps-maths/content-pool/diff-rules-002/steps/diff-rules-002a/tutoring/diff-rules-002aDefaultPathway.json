@@ -1,0 +1,25 @@
+[
+    {
+        "id": "diff-rules-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Convert Fractions to Negative Exponents",
+        "text": "$\\frac{6}{x^2} = 6x^{-2}$\n\n$\\frac{4}{\\sqrt{x}} = \\frac{4}{x^{1/2}} = 4x^{-1/2}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "diff-rules-002a-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["6x^{-2} - 4x^{-1/2} + 3x"],
+        "dependencies": ["diff-rules-002a-h1"],
+        "title": "Complete Rewrite",
+        "text": "$g(x) = 6x^{-2} - 4x^{-1/2} + 3x$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,17 @@
+{
+  "id": "chem-ester-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "string",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "CH₃COOC₂H₅",
+    "C4H8O2",
+    "CH3COOC2H5",
+    "C₄H₈O₂"
+  ],
+  "stepExplanation": "Esterification: CH₃COOH + C₂H₅OH → CH₃COOC₂H₅ + H₂O. The molecular formula is C₄H₈O₂ (4 carbons, 8 hydrogens, 2 oxygens).",
+  "stepTitle": "Molecular Formula of Ester",
+  "stepBody": "Write the molecular formula of ethyl ethanoate."
+}

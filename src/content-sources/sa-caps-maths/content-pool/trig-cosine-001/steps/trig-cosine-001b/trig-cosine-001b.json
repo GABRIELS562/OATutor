@@ -1,0 +1,10 @@
+{
+    "id": "trig-cosine-001b",
+    "stepAnswer": ["7.18"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Substitute and Calculate",
+    "stepBody": "Substitute into the Cosine Rule:\n$$a^2 = 7^2 + 9^2 - 2(7)(9)\\cos 52°$$\n\nCalculate the value of a. Round to two decimal places.",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["cosine-rule"]
+}

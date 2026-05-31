@@ -1,0 +1,22 @@
+{
+  "id": "chem-org-011a",
+  "type": "scaffold",
+  "problemType": "MultipleChoice",
+  "answerType": "string",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "ester",
+    "Ester",
+    "an ester"
+  ],
+  "stepExplanation": "When a carboxylic acid reacts with an alcohol in the presence of an acid catalyst, an ester and water are formed. This reaction is called esterification.",
+  "stepTitle": "Identify the Product Type",
+  "stepBody": "When a carboxylic acid (propanoic acid) reacts with an alcohol (ethanol), what type of organic compound is formed?",
+  "choices": [
+    "alkene",
+    "ester",
+    "ketone",
+    "aldehyde"
+  ]
+}

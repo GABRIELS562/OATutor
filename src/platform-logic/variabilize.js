@@ -7,7 +7,7 @@ function variabilize(text, variabilization) {
     }
     Object.keys(variabilization).forEach(v => {
         if (variabilization[v].length !== 1) {
-            console.log("[WARNING] - variable not properly chosen");
+            console.warn("variabilize: variable not properly chosen");
         }
         var replaceOption = variabilization[v][0];
         text = text.replace(new RegExp('@{' + v + '}', 'g'), replaceOption);

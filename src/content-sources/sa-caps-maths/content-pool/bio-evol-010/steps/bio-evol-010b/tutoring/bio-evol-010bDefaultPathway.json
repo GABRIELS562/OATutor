@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-evol-010b-h1",
+    "type": "hint",
+    "title": "Center of Gravity",
+    "text": "For efficient bipedal walking, the body's center of gravity must be positioned directly over the supporting legs. Consider what shape the spine would need to achieve this positioning.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/human-evolution",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-evol-010b-h2",
+    "type": "hint",
+    "title": "Comparing Spines",
+    "text": "Great apes have a more C-shaped spine. Humans have evolved a spine with multiple curves - one in the neck region (cervical), one in the upper back (thoracic), one in the lower back (lumbar), and one at the sacrum. Together, these form a distinctive letter shape.",
+    "variabilization": {},
+    "dependencies": ["bio-evol-010b-h1"],
+    "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/human-evolution",
+    "license": "CC BY 4.0"
+  }
+]

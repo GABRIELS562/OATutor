@@ -1,0 +1,18 @@
+{
+  "id": "phys-emf-010",
+  "title": "Faraday's Law - Induced EMF in a Coil",
+  "body": "A coil with 200 turns has a cross-sectional area of 0.05 m^2. The magnetic field through the coil changes uniformly from 0.4 T to 0.1 T in 0.2 seconds. Calculate: (a) the change in magnetic flux through the coil, and (b) the magnitude of the induced EMF.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-em-induction"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences",
+  "source": "Siyavula Grade 12 Physical Sciences - Electrodynamics"
+}

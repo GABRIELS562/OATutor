@@ -1,0 +1,15 @@
+{
+  "id": "chem-acid-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.006",
+    "6 × 10⁻³"
+  ],
+  "stepExplanation": "n(H₂SO₄) = C × V = 0.2 × 0.030 = 0.006 mol (Remember to convert cm³ to dm³: 30 cm³ = 0.030 dm³)",
+  "stepTitle": "Moles of Sulfuric Acid",
+  "stepBody": "Calculate the number of moles of H₂SO₄ using n = CV."
+}

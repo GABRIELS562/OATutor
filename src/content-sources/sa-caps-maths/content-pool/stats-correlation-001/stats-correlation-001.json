@@ -1,0 +1,17 @@
+{
+  "id": "stats-correlation-001",
+  "title": "Correlation Coefficient Interpretation",
+  "body": "A researcher calculates r = -0.85 for the relationship between hours of TV watched and exam scores. Describe the correlation.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "stats-correlation"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

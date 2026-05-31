@@ -1,0 +1,15 @@
+{
+  "id": "stats-correlation-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "negative",
+    "Negative"
+  ],
+  "stepExplanation": "r = -0.85 is NEGATIVE: as TV hours increase, exam scores decrease",
+  "stepTitle": "Direction",
+  "stepBody": "Is this a positive or negative correlation? What does it mean?"
+}

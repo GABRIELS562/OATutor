@@ -1,0 +1,10 @@
+{
+    "id": "trig-area-001b",
+    "stepAnswer": ["20.78", "20,78", "20.8"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate the Area",
+    "stepBody": "Substitute $AB = 8$, $BC = 6$, and $\\hat{B} = 60°$ into the formula.\\n\\nCalculate the area (round to 2 decimal places):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-area-rule", "special-angles", "calculation"]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "calc-opt-010",
+    "title": "Optimization: Maximum Volume of an Open Box",
+    "body": "A rectangular sheet of cardboard measuring 24 cm by 18 cm is to be made into an open box by cutting equal squares of side $x$ cm from each corner and folding up the sides.\n\nFind the value of $x$ that will give the box its maximum volume, and calculate this maximum volume.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Differential Calculus",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Differential Calculus - Optimization",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

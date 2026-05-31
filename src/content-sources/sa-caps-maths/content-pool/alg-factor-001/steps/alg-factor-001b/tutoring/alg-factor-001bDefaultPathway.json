@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-factor-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "The Factorisation Pattern",
+        "text": "For $x^2 + bx + c$, if the two numbers are $p$ and $q$, then:\n\n$$x^2 + bx + c = (x + p)(x + q)$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-factor-001b-h2",
+        "type": "hint",
+        "dependencies": ["alg-factor-001b-h1"],
+        "title": "Apply the Numbers",
+        "text": "Using 3 and 4:\n\n$$x^2 + 7x + 12 = (x + 3)(x + 4)$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-factor-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(x+3)(x+4)"],
+        "dependencies": ["alg-factor-001b-h2"],
+        "title": "Verify Your Answer",
+        "text": "Check: $(x+3)(x+4) = x^2 + 4x + 3x + 12 = x^2 + 7x + 12$ ✓",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

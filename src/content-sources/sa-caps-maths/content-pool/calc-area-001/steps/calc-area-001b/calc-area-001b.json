@@ -1,0 +1,10 @@
+{
+    "id": "calc-area-001b",
+    "stepAnswer": ["23/3", "7.67", "7.666", "7,67"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Evaluate the Integral",
+    "stepBody": "Evaluate the total area:\\n$$\\text{Area} = \\int_0^2 (4-x^2)dx + \\int_2^3 (x^2-4)dx$$\\n\\nGive your answer as a fraction or decimal (round to 2 decimal places):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["integration", "definite-integrals"]
+}

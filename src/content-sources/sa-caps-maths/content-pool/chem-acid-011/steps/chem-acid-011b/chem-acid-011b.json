@@ -1,0 +1,15 @@
+{
+  "id": "chem-acid-011b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.08",
+    "0,08"
+  ],
+  "stepExplanation": "From the 1:1 mole ratio, n(HCl) = n(NaOH) = 0.002 mol. C(HCl) = n/V = 0.002/0.025 = 0.08 mol/dm^3",
+  "stepTitle": "Calculate HCl Concentration",
+  "stepBody": "Using the mole ratio (1:1) and C = n/V, calculate the concentration of the hydrochloric acid in mol/dm^3."
+}

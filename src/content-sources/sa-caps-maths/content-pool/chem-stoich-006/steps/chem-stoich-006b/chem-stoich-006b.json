@@ -1,0 +1,15 @@
+{
+  "id": "chem-stoich-006b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "string",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "CH2O",
+    "CH2O"
+  ],
+  "stepExplanation": "With ratio C:H:O = 1:2:1, the empirical formula is CH2O. This could be formaldehyde or a carbohydrate building block.",
+  "stepTitle": "Write Empirical Formula",
+  "stepBody": "Using the mole ratio 1:2:1 for C:H:O, write the empirical formula."
+}

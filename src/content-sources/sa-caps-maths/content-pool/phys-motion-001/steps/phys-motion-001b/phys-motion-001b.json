@@ -1,0 +1,15 @@
+{
+  "id": "phys-motion-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "24",
+    "24 m/s"
+  ],
+  "stepExplanation": "Using v = u + at with u = 0 (starts from rest), a = 3 m/s², and t = 8 s:\n$$v = 0 + (3)(8) = 24 \\text{ m/s}$$",
+  "stepTitle": "Calculate Final Velocity",
+  "stepBody": "Using v = u + at, calculate the final velocity. The car starts from rest (u = 0), accelerates at 3 m/s² for 8 seconds. Give your answer in m/s."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "phys-light-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "41.1",
+    "41",
+    "41.14"
+  ],
+  "stepExplanation": "sin(theta_c) = n2/n1 = 1.00/1.52 = 0.658. theta_c = arcsin(0.658) = 41.1 degrees",
+  "stepTitle": "Calculate Critical Angle",
+  "stepBody": "Calculate the critical angle using sin(theta_c) = n2/n1 = 1.00/1.52. Give your answer in degrees."
+}

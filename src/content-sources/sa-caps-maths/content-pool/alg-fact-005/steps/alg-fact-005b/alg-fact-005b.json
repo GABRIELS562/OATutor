@@ -1,0 +1,10 @@
+{
+    "id": "alg-fact-005b",
+    "stepAnswer": ["(2x - 3)(4x^2 + 6x + 9)", "(2x-3)(4x^2+6x+9)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Apply the Formula",
+    "stepBody": "Use the difference of cubes formula:\n\n$$a^3 - b^3 = (a - b)(a^2 + ab + b^2)$$\n\nWith $a = 2x$ and $b = 3$:\n- First bracket: $(a - b) = (2x - 3)$\n- Second bracket: $a^2 + ab + b^2 = (2x)^2 + (2x)(3) + (3)^2 = ?$\n\nWrite the complete factorised form:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "difference-of-cubes", "algebraic-manipulation"]
+}

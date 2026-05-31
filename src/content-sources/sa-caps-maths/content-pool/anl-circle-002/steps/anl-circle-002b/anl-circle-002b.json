@@ -1,0 +1,14 @@
+{
+  "id": "anl-circle-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "5"
+  ],
+  "stepExplanation": "r² = 25, so r = 5",
+  "stepTitle": "Find Radius",
+  "stepBody": "What is the radius of the circle?"
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-maxmin-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find the Derivative",
+        "text": "Differentiate $f(x) = x^3 - 6x^2 + 9x + 1$:\n\n$f'(x) = 3x^2 - 12x + 9$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-maxmin-001a-h2",
+        "type": "hint",
+        "dependencies": ["calc-maxmin-001a-h1"],
+        "title": "Solve f'(x) = 0",
+        "text": "Set $f'(x) = 0$:\n\n$3x^2 - 12x + 9 = 0$\n\nDivide by 3:\n\n$x^2 - 4x + 3 = 0$\n\n$(x - 1)(x - 3) = 0$\n\n$x = 1$ or $x = 3$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-maxmin-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(1,5) and (3,1)"],
+        "dependencies": ["calc-maxmin-001a-h2"],
+        "title": "Find y-coordinates",
+        "text": "For $x = 1$:\n$f(1) = 1 - 6 + 9 + 1 = 5$\nPoint: $(1, 5)$\n\nFor $x = 3$:\n$f(3) = 27 - 54 + 27 + 1 = 1$\nPoint: $(3, 1)$\n\nStationary points: $(1, 5)$ and $(3, 1)$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "elec-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Convert Units",
+        "text": "Q = 8 μC = 8 × 10⁻⁶ C, r = 40 cm = 0.40 m, so r² = 0.16 m².",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "elec-002b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute Values",
+        "text": "E = kQ/r² = (9 × 10⁹)(8 × 10⁻⁶)/(0.16) = (9 × 8 × 10³)/0.16",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "elec-002b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate",
+        "text": "E = 72000/0.16 = 450,000 N/C = 4.5 × 10⁵ N/C. This is a strong electric field directed away from the positive charge.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

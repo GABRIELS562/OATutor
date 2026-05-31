@@ -1,0 +1,16 @@
+{
+  "id": "dna-trans-003a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "CCU to CUU",
+    "CCU, CUU",
+    "CCU becomes CUU"
+  ],
+  "stepExplanation": "The coding strand 5'-ATGCCTTACGAA-3' becomes mRNA 5'-AUGCCUUACGAA-3'. After mutation (C to T), the coding strand 5'-ATGCTTTACGAA-3' gives mRNA 5'-AUGCUUUACGAA-3'. The second codon changes from CCU to CUU.",
+  "stepTitle": "Identify the Affected Codon",
+  "stepBody": "First, determine the mRNA sequence for both original and mutated DNA. Which codon is changed by the mutation?"
+}

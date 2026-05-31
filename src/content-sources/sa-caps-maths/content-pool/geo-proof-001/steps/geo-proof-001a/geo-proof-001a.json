@@ -1,0 +1,16 @@
+{
+  "id": "geo-proof-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "angle at center = 2 × angle at circumference",
+    "center is double",
+    "2x"
+  ],
+  "stepExplanation": "Angle at center = 2 × Angle at circumference (same arc)",
+  "stepTitle": "State the Theorem",
+  "stepBody": "What is the relationship between the angle at the center and the angle at the circumference?"
+}

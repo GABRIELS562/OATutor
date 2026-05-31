@@ -1,0 +1,15 @@
+{
+  "id": "chem-stoich-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "11.2",
+    "11,2"
+  ],
+  "stepExplanation": "V = n x Vm = 0.5 mol x 22.4 dm^3/mol = 11.2 dm^3",
+  "stepTitle": "Calculate Volume",
+  "stepBody": "Calculate the volume of 0.5 mol CO2 at STP in dm^3."
+}

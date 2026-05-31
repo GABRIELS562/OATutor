@@ -1,0 +1,17 @@
+{
+  "id": "phys-photo-001",
+  "title": "Photoelectric Effect - Photon Energy",
+  "body": "Light with a wavelength of 400 nm is incident on a metal surface. Calculate the energy of each photon. (h = 6.63 x 10^-34 J.s, c = 3.0 x 10^8 m/s)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-photoelectric"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "chem-equil-015b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "string",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "rate",
+    "reaction rate",
+    "speed",
+    "kinetics"
+  ],
+  "stepExplanation": "Although lower temperature gives higher yield, the reaction rate would be too slow to be economically viable. A moderate temperature (450 degrees C) is a compromise: acceptable yield at a practical rate. The catalyst helps increase rate without affecting equilibrium position.",
+  "stepTitle": "Why Use 450 degrees C",
+  "stepBody": "If lower temperature gives higher yield, why use 450 degrees C? What factor other than equilibrium position must be considered? (Hint: think about kinetics)"
+}

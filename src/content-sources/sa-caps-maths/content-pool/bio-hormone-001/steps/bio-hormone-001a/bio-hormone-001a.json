@@ -1,0 +1,15 @@
+{
+  "id": "bio-hormone-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "insulin",
+    "Insulin"
+  ],
+  "stepExplanation": "INSULIN is released by beta cells in the pancreas to lower blood glucose",
+  "stepTitle": "Identify the Hormone",
+  "stepBody": "Which hormone lowers blood glucose levels?"
+}

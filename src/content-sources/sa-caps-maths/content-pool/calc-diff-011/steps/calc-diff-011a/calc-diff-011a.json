@@ -1,0 +1,10 @@
+{
+    "id": "calc-diff-011a",
+    "stepAnswer": ["(sqrt(x+h)-sqrt(x))/h", "sqrt(x+h)-sqrt(x) divided by h"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Set up the Difference Quotient",
+    "stepBody": "Write the difference quotient $\\frac{f(x+h) - f(x)}{h}$ for $f(x) = \\sqrt{x}$.\n\nExpress the quotient (you may use sqrt() notation):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["first-principles", "substitution", "surds"]
+}

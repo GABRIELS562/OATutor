@@ -1,0 +1,15 @@
+{
+  "id": "geo-cyclic-003b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "72",
+    "72°"
+  ],
+  "stepExplanation": "∠PST = ∠PQR = 72° (exterior angle = interior opposite)",
+  "stepTitle": "Calculate ∠PST",
+  "stepBody": "∠PST equals which interior angle? Calculate it."
+}

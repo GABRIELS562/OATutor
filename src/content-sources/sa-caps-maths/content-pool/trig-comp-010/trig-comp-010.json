@@ -1,0 +1,10 @@
+{
+    "id": "trig-comp-010",
+    "title": "Compound Angle: sin(A - B)",
+    "body": "Without using a calculator, determine the exact value of:\n\n$$\\sin 15°$$\n\nLeave your answer in surd form.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Chapter 4: Trigonometry",
+    "license": "CC-BY - Siyavula Education",
+    "lesson": "Trigonometry - Compound Angles",
+    "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

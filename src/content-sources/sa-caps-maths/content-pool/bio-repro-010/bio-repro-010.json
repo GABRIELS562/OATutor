@@ -1,0 +1,17 @@
+{
+  "id": "bio-repro-010",
+  "title": "Spermatogenesis - Sperm Cell Formation",
+  "body": "Spermatogenesis is the process of sperm cell formation in the testes. A primary spermatocyte (2n=46) undergoes meiosis. How many sperm cells are produced from one primary spermatocyte, and what is their chromosome number?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-gametogenesis"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

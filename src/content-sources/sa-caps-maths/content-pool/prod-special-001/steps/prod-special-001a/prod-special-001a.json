@@ -1,0 +1,10 @@
+{
+    "id": "prod-special-001a",
+    "stepAnswer": ["x^2-7^2", "x^2 - 7^2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Identify the Pattern",
+    "stepBody": "The expression $x^2 - 49$ is a difference of two squares.\n\nRecognise that $49 = 7^2$.\n\nRewrite the expression in the form $a^2 - b^2$.\n\nEnter as: x^2-7^2",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "difference-of-squares"]
+}

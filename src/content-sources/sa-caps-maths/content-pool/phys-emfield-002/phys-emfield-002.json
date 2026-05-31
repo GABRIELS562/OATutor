@@ -1,0 +1,14 @@
+{
+  "id": "phys-emfield-002",
+  "title": "Electromagnetic Induction - AC Generator",
+  "body": "An AC generator has a coil with 150 turns and area 0.04 m² rotating in a magnetic field of 0.5 T at a frequency of 50 Hz. Calculate the maximum (peak) EMF produced by the generator.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-em-induction"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

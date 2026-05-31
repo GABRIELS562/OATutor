@@ -1,0 +1,10 @@
+{
+    "id": "calc-optimize-001",
+    "title": "Optimization: Maximum Area",
+    "body": "A farmer has 200m of fencing to enclose a rectangular camp along a river. No fencing is needed along the river.\\n\\nIf the sides perpendicular to the river have length $x$ metres, show that the area is $A = x(200 - 2x)$ and find the dimensions that give maximum area.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Differential Calculus - Optimization",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

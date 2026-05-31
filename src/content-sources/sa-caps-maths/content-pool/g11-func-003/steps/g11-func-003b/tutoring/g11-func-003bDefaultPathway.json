@@ -1,0 +1,22 @@
+[
+  {
+    "id": "g11-func-003b-h1",
+    "type": "hint",
+    "title": "Understand the horizontal asymptote",
+    "text": "For a hyperbola in the form y = a/(x - p) + q, the horizontal asymptote is y = q. This is the value y approaches as x becomes very large or very small.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-11/functions",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "g11-func-003b-h2",
+    "type": "hint",
+    "title": "Identify q in the equation",
+    "text": "In g(x) = 3/(x - 2) + 1, the constant term added at the end is q = 1. Therefore, the horizontal asymptote is y = 1.",
+    "variabilization": {},
+    "dependencies": ["g11-func-003b-h1"],
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-11/functions",
+    "license": "CC BY 4.0"
+  }
+]

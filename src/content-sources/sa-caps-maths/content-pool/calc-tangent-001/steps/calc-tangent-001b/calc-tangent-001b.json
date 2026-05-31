@@ -1,0 +1,10 @@
+{
+    "id": "calc-tangent-001b",
+    "stepAnswer": ["y=5x-8", "y = 5x - 8"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the Equation of the Tangent",
+    "stepBody": "Using the gradient $m = 5$ and the point of tangency, find the equation of the tangent line.\n\nFirst find the y-coordinate when $x = 2$, then use the point-gradient form.\n\nWrite the equation in the form $y = mx + c$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "linear-equations"]
+}

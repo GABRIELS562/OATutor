@@ -1,0 +1,15 @@
+{
+  "id": "bio-reproduction-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "ovulation",
+    "Ovulation"
+  ],
+  "stepExplanation": "Ovulation is the release of a mature egg from the ovary",
+  "stepTitle": "Cycle Phases",
+  "stepBody": "Which phase comes after the follicular phase and involves egg release?"
+}

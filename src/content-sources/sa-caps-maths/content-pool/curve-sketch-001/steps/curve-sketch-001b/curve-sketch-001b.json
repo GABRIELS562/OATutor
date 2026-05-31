@@ -1,0 +1,10 @@
+{
+    "id": "curve-sketch-001b",
+    "stepAnswer": ["(1,6) local max, (3,2) local min", "(1;6) maximum and (3;2) minimum", "local max at (1,6) and local min at (3,2)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Classify the Stationary Points",
+    "stepBody": "Use the second derivative test to classify each stationary point.\n\nFind $f''(x)$, then evaluate at $x = 1$ and $x = 3$.\n\nAlso find the y-coordinates by substituting into $f(x)$.\n\nState the coordinates and nature of each stationary point:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["stationary-points", "second-derivative-test", "concavity"]
+}

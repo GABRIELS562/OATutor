@@ -1,0 +1,10 @@
+{
+    "id": "seq-arithmetic-001",
+    "title": "Arithmetic Sequences",
+    "body": "In an arithmetic sequence, the 3rd term is 8 and the 7th term is 24.\\n\\nFind:\\na) The common difference $d$\\nb) The first term $a$\\nc) The sum of the first 20 terms",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Patterns, Sequences and Series",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-acid-015b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Convert Acid Volume",
+        "text": "20 cm^3 = 0.020 dm^3",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-015b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply Formula",
+        "text": "C = n/V = 0.0015 mol / 0.020 dm^3",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-015b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Result",
+        "text": "C(CH3COOH) = 0.075 mol/dm^3",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

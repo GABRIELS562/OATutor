@@ -1,0 +1,10 @@
+{
+    "id": "trig-double-003",
+    "title": "Double Angle: Proving an Identity",
+    "body": "Prove that:\n\n$$\\frac{\\sin 2x}{1 + \\cos 2x} = \\tan x$$\n\nShow your working by simplifying the left-hand side.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 2",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Trigonometry - Double Angles",
+    "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "phys-optics-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "48.8",
+    "48.75",
+    "49",
+    "48.8°",
+    "49°"
+  ],
+  "stepExplanation": "Using sin θc = n₂/n₁ with n₁ = 1.33 (water) and n₂ = 1.00 (air):\n$$\\sin\\theta_c = \\frac{1.00}{1.33} = 0.752$$\n$$\\theta_c = \\sin^{-1}(0.752) = 48.8°$$\nFor any angle greater than 48.8°, total internal reflection occurs.",
+  "stepTitle": "Calculate the Critical Angle",
+  "stepBody": "Using sin θc = n₂/n₁, calculate the critical angle. Given: n_water = 1.33, n_air = 1.00. Give your answer in degrees."
+}

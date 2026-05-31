@@ -1,0 +1,32 @@
+[
+  {
+    "id": "phys-mom-030a-h1",
+    "type": "hint",
+    "title": "Impulse as Area Under F-t Graph",
+    "text": "Impulse is the area under the force-time graph. For rectangular sections: Area = Force x Time interval.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "phys-mom-030a-h2",
+    "type": "hint",
+    "title": "Calculate Each Section",
+    "text": "Section 1 (0-2 s): Impulse = 10 N x 2 s = 20 N.s. Section 2 (2-4 s): Impulse = 5 N x 2 s = 10 N.s.",
+    "variabilization": {},
+    "dependencies": ["phys-mom-030a-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "phys-mom-030a-h3",
+    "type": "hint",
+    "title": "Add the Impulses",
+    "text": "Total impulse = 20 + 10 = 30 N.s (or equivalently 30 kg.m/s).",
+    "variabilization": {},
+    "dependencies": ["phys-mom-030a-h2"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  }
+]

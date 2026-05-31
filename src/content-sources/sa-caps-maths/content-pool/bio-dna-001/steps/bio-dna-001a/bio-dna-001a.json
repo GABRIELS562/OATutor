@@ -1,0 +1,16 @@
+{
+  "id": "bio-dna-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "A-T, G-C",
+    "A-T,G-C",
+    "A pairs with T, G pairs with C"
+  ],
+  "stepExplanation": "DNA base pairing rules: **A pairs with T** (2 hydrogen bonds) and **G pairs with C** (3 hydrogen bonds)",
+  "stepTitle": "Base Pairing Rules",
+  "stepBody": "In DNA, adenine (A) pairs with which base? And guanine (G) pairs with which base? (Answer format: A-?, G-?)"
+}

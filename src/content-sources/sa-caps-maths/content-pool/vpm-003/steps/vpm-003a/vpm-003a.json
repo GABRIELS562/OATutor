@@ -1,0 +1,16 @@
+{
+  "id": "vpm-003a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "v² = u² + 2as",
+    "v²=u²+2as",
+    "vf² = vi² + 2as"
+  ],
+  "stepExplanation": "We know initial velocity, displacement, and acceleration, and need to find final velocity. The equation $$v^2 = u^2 + 2as$$ relates these without requiring time.",
+  "stepTitle": "Identify the Equation",
+  "stepBody": "To find the final velocity when we know initial velocity, displacement, and acceleration, which equation should we use?"
+}

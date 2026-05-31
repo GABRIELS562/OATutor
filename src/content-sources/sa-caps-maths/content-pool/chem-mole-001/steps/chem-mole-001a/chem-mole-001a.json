@@ -1,0 +1,15 @@
+{
+  "id": "chem-mole-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "100",
+    "100 g/mol"
+  ],
+  "stepExplanation": "M(CaCO₃) = 40 + 12 + 3(16) = 40 + 12 + 48 = 100 g/mol",
+  "stepTitle": "Molar Mass Calculation",
+  "stepBody": "Calculate the molar mass of CaCO₃ in g/mol."
+}

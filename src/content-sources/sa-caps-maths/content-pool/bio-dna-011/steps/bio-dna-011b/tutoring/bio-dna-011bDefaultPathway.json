@@ -1,0 +1,32 @@
+[
+  {
+    "id": "bio-dna-011b-h1",
+    "type": "hint",
+    "title": "Antiparallel Arrangement",
+    "text": "The two strands of DNA run in opposite directions: one runs 5' to 3' and the other runs 3' to 5'. They are said to be antiparallel.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Grade 12 Life Sciences",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-dna-011b-h2",
+    "type": "hint",
+    "title": "Replication Fork Movement",
+    "text": "The replication fork (where DNA unwinds) moves in one direction. The leading strand template is oriented so that DNA polymerase can follow the fork. But the lagging strand template is oriented the opposite way.",
+    "variabilization": {},
+    "dependencies": ["bio-dna-011b-h1"],
+    "oer": "Siyavula Grade 12 Life Sciences",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-dna-011b-h3",
+    "type": "hint",
+    "title": "Okazaki Fragments Solution",
+    "text": "Because DNA polymerase on the lagging strand must work in the opposite direction to fork movement, it synthesises short fragments (Okazaki fragments) that are later joined together by DNA ligase enzyme.",
+    "variabilization": {},
+    "dependencies": ["bio-dna-011b-h2"],
+    "oer": "Siyavula Grade 12 Life Sciences",
+    "license": "CC BY 4.0"
+  }
+]

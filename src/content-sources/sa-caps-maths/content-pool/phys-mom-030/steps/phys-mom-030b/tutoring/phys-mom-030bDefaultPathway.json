@@ -1,0 +1,32 @@
+[
+  {
+    "id": "phys-mom-030b-h1",
+    "type": "hint",
+    "title": "Apply Impulse-Momentum Theorem",
+    "text": "Impulse equals change in momentum: $$J = \\Delta p = m(v_f - v_i)$$",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "phys-mom-030b-h2",
+    "type": "hint",
+    "title": "Set Up the Equation",
+    "text": "Since the object starts at rest ($$v_i = 0$$): $$30 = 2 \\times (v_f - 0) = 2v_f$$",
+    "variabilization": {},
+    "dependencies": ["phys-mom-030b-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "phys-mom-030b-h3",
+    "type": "hint",
+    "title": "Solve for Final Velocity",
+    "text": "$$v_f = \\frac{30}{2} = 15$$ m/s in the direction of the applied force.",
+    "variabilization": {},
+    "dependencies": ["phys-mom-030b-h2"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  }
+]

@@ -17,6 +17,8 @@ import { stagingProp } from "../../util/addStagingProperty";
 import ErrorBoundary from "../ErrorBoundary";
 import withTranslation from '../../util/withTranslation';
 import ReloadIcon from './ReloadIcon';
+import VideoSolutionPlayer from "../media/VideoSolutionPlayer";
+import AudioExplanation from "../media/AudioExplanation";
 
 class HintSystem extends React.Component {
     static contextType = ThemeContext;
@@ -238,6 +240,35 @@ class HintSystem extends React.Component {
                                                 this.giveStuFeedback
                                             }
                                         />
+                                    </div>
+                                ) : hint.type === "videoHint" ? (
+                                    <div>
+                                        <Spacer />
+                                        <ErrorBoundary componentName="VideoSolutionPlayer">
+                                            <VideoSolutionPlayer
+                                                videoType={hint.videoType || "youtube"}
+                                                videoUrl={hint.videoUrl}
+                                                chapters={hint.chapters || []}
+                                                problemId={problemID}
+                                                showChapters={!!hint.chapters && hint.chapters.length > 0}
+                                            />
+                                        </ErrorBoundary>
+                                    </div>
+                                ) : hint.type === "audioHint" ? (
+                                    <div>
+                                        <Spacer />
+                                        <ErrorBoundary componentName="AudioExplanation">
+                                            <AudioExplanation
+                                                problemId={problemID}
+                                                stepId={hint.id}
+                                                problemText={this.props.problemTitle}
+                                                questionText={hint.title}
+                                                hintText={hint.text}
+                                                solutionText={hint.solutionText}
+                                                autoGenerate={hint.autoGenerate || false}
+                                                compact={false}
+                                            />
+                                        </ErrorBoundary>
                                     </div>
                                 ) : (
                                     ""

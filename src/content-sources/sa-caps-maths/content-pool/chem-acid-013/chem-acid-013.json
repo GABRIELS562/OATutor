@@ -1,0 +1,18 @@
+{
+  "id": "chem-acid-013",
+  "title": "Diprotic Acid Titration",
+  "body": "50 cm^3 of 0.15 mol/dm^3 sulfuric acid (H2SO4) is completely neutralized by potassium hydroxide (KOH). The balanced equation is: H2SO4 + 2KOH -> K2SO4 + 2H2O. Calculate the volume of 0.2 mol/dm^3 KOH solution required.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-titrations"
+      ],
+      "difficultyCodes": [
+        "hard"
+      ]
+    }
+  ],
+  "oer": "Siyavula Grade 12 Physical Sciences - Acids and Bases",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

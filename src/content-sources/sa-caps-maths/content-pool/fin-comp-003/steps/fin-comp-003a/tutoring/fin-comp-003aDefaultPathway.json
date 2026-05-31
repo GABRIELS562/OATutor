@@ -1,0 +1,25 @@
+[
+    {
+        "id": "fin-comp-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Simplify the Equation",
+        "text": "From $2P = P(1.105)^n$\n\nDivide both sides by $P$:\n\n$2 = (1.105)^n$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-comp-003a-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["2 = (1.105)^n"],
+        "dependencies": ["fin-comp-003a-h1"],
+        "title": "Equation to Solve",
+        "text": "We need to solve: $2 = (1.105)^n$\n\nNote: The principal R18 000 cancels out, so doubling time is independent of the initial amount.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

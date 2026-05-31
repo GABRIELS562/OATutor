@@ -1,0 +1,10 @@
+{
+    "id": "seq-arith-001b",
+    "stepAnswer": ["149", "T25=149"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the 25th Term",
+    "stepBody": "Now use the general term formula for arithmetic sequences:\n$$T_n = a + (n-1)d$$\n\nWith $a = 5$ (first term) and $d = 6$ (common difference), calculate $T_{25}$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["arithmetic-sequence"]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "chem-stoich-005b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.2",
+    "0,2"
+  ],
+  "stepExplanation": "V = 500 cm^3 = 0.5 dm^3. C = n/V = 0.1 mol / 0.5 dm^3 = 0.2 mol/dm^3",
+  "stepTitle": "Calculate Concentration",
+  "stepBody": "Using C = n/V, calculate the concentration in mol/dm^3. (Remember to convert volume to dm^3)"
+}

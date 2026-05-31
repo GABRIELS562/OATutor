@@ -1,0 +1,13 @@
+{
+  "id": "endo-002",
+  "title": "Endocrine System - Thyroid Hormone Regulation",
+  "body": "The hypothalamus releases TRH which stimulates the pituitary to release TSH which stimulates the thyroid to release thyroxine. If thyroxine levels become too high, what happens to TRH and TSH levels? Explain the feedback mechanism involved.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-hormones"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

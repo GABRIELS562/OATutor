@@ -1,40 +1,172 @@
+/* ============================================
+   Angelo Tutoring - Problem Card Styles
+   Modern, clean design with gradient accents
+   ============================================ */
+
 .mq-editable-field.mq-math-mode {
     width: 100%;
 }
 
+/* Dynamic AI Hint Container */
 .dynamicHintContainer {
-    margin: 1rem 0.3rem;
-    border: 2px solid #e5e7eb;
-    border-radius: 0.45rem;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    padding: 0.1rem 1rem;
+    margin: 1.5rem 0;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(123, 47, 247, 0.1);
+    padding: 1.25rem 1.5rem;
+    background: linear-gradient(135deg, rgba(0, 212, 255, 0.05) 0%, rgba(123, 47, 247, 0.05) 100%);
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, #00D4FF, #7B2FF7) 1;
+    transition: all 0.3s ease;
+}
+
+.dynamicHintContainer:hover {
+    box-shadow: 0 6px 25px rgba(123, 47, 247, 0.15);
+    transform: translateY(-2px);
 }
 
 .dynamicHintTitle {
-    margin-bottom: 0.5rem;
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: #111827;
+    margin-bottom: 0.75rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #7B2FF7 0%, #00D4FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dynamicHintTitle::before {
+    content: '';
+    font-size: 1.4rem;
 }
 
 .dynamicHintContent {
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 0.5rem;
+    color: #374151;
 }
 
+/* Image styling for problems */
 .image-container {
     position: relative;
     display: inline-block;
 }
 
 .image-grayed-out {
-    border-radius: 50%;
-    padding: 0.28rem;
-    background-color: rgba(0, 0, 0, 0.1); /* Change the opacity as desired */
+    border-radius: 12px;
+    padding: 0.5rem;
+    background-color: rgba(123, 47, 247, 0.08);
     z-index: 1;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.image-grayed-out:hover {
     opacity: 1;
 }
 
 .image {
     z-index: 0;
+    border-radius: 8px;
+}
+
+/* Problem step styling */
+.problem-step {
+    margin-bottom: 1rem;
+}
+
+.problem-step-title {
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 0.5rem;
+}
+
+.problem-step-body {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #374151;
+}
+
+/* Correct/Incorrect feedback styling */
+.feedback-correct {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(52, 211, 153, 0.1) 100%);
+    border-left: 4px solid #10B981;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.feedback-incorrect {
+    background: linear-gradient(135deg, rgba(247, 37, 133, 0.1) 0%, rgba(251, 113, 133, 0.1) 100%);
+    border-left: 4px solid #F72585;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+/* Answer explanation styling */
+.answer-explanation {
+    background: linear-gradient(135deg, rgba(123, 47, 247, 0.05) 0%, rgba(247, 37, 133, 0.05) 100%);
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-top: 1rem;
+    border: 1px solid rgba(123, 47, 247, 0.1);
+}
+
+.answer-explanation h4 {
+    color: #7B2FF7;
+    margin-bottom: 0.5rem;
+}
+
+/* Loading animation for hints */
+@keyframes hintPulse {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+}
+
+.hint-loading {
+    animation: hintPulse 1.5s ease-in-out infinite;
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
+
+/* Math input field styling */
+.math-input-field {
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 1.1rem;
+    transition: all 0.2s ease;
+}
+
+.math-input-field:focus {
+    border-color: #7B2FF7;
+    box-shadow: 0 0 0 3px rgba(123, 47, 247, 0.15);
+    outline: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .dynamicHintContainer {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    .dynamicHintTitle {
+        font-size: 1.1rem;
+    }
+
+    .dynamicHintContent {
+        font-size: 0.95rem;
+    }
 }

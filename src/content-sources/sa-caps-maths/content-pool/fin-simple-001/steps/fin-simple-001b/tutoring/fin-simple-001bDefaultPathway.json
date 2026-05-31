@@ -1,0 +1,35 @@
+[
+    {
+        "id": "fin-simple-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Total Amount Formula",
+        "text": "The total amount (accumulated value) is:\n\n$$A = P + I$$\n\nOr using the combined formula:\n$$A = P(1 + rt)$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-simple-001b-h2",
+        "type": "hint",
+        "dependencies": ["fin-simple-001b-h1"],
+        "title": "Add Principal and Interest",
+        "text": "$$A = P + I$$\n$$A = R15\\,000 + R5\\,100$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-simple-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["20100"],
+        "dependencies": ["fin-simple-001b-h2"],
+        "title": "Final Amount",
+        "text": "$$A = R15\\,000 + R5\\,100 = R20\\,100$$\n\nThabo will have R20 100 in his account after 4 years.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

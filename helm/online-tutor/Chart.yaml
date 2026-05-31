@@ -1,0 +1,14 @@
+apiVersion: v2
+name: online-tutor
+description: Angelo Tutoring - Online tutoring platform for SA Grade 10-12 students
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
+maintainers:
+  - name: DevOps Team
+    email: devops@jagdevops.co.za
+keywords:
+  - tutoring
+  - education
+  - react
+  - frontend

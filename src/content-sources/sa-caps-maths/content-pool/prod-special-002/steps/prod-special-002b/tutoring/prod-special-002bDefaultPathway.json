@@ -1,0 +1,35 @@
+[
+    {
+        "id": "prod-special-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply the Pattern",
+        "text": "With $a = x$ and $b = 5$:\n\n$x^2 + 10x + 25 = (x + 5)^2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "prod-special-002b-h2",
+        "type": "hint",
+        "dependencies": ["prod-special-002b-h1"],
+        "title": "Verify",
+        "text": "Expand to check:\n$(x + 5)^2 = (x + 5)(x + 5)$\n$= x^2 + 5x + 5x + 25$\n$= x^2 + 10x + 25$ (correct!)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "prod-special-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(x+5)^2"],
+        "dependencies": ["prod-special-002b-h2"],
+        "title": "Final Answer",
+        "text": "$x^2 + 10x + 25 = (x + 5)^2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

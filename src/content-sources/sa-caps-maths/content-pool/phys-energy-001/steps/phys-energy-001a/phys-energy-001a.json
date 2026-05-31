@@ -1,0 +1,17 @@
+{
+  "id": "phys-energy-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "KE = ½mv²",
+    "KE = 1/2 mv^2",
+    "Ek = ½mv²",
+    "Ek = 1/2mv^2"
+  ],
+  "stepExplanation": "The formula for kinetic energy is: $$E_K = \\frac{1}{2}mv^2$$ where m is mass in kg and v is velocity in m/s.",
+  "stepTitle": "Identify the Formula",
+  "stepBody": "What is the formula for calculating kinetic energy?"
+}

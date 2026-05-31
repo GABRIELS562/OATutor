@@ -1,0 +1,38 @@
+[
+    {
+        "id": "func-inv-012b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understanding Logarithms",
+        "text": "$\\log_2(8)$ asks: \"What power of 2 gives 8?\"\n\nIn other words: $2^{?} = 8$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-inv-012b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["2^3"],
+        "dependencies": ["func-inv-012b-h1"],
+        "title": "Express 8 as a Power of 2",
+        "text": "Write 8 as a power of 2.\n\n$8 = 2 \\times 2 \\times 2 = ?$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-inv-012b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": ["3"],
+        "dependencies": ["func-inv-012b-h2"],
+        "title": "Find the Logarithm",
+        "text": "Since $8 = 2^3$, we have:\n\n$\\log_2(8) = \\log_2(2^3) = ?$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

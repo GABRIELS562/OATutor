@@ -1,0 +1,14 @@
+{
+  "id": "phys-ohm-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "24"
+  ],
+  "stepExplanation": "$$R = \\frac{V}{I} = \\frac{12}{0.5} = 24 \\text{ } \\Omega$$",
+  "stepTitle": "Calculate Resistance",
+  "stepBody": "Using R = V/I, calculate the resistance. V = 12 V, I = 0.5 A. Give your answer in ohms (Ω)."
+}

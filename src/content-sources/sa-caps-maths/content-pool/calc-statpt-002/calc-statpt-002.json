@@ -1,0 +1,10 @@
+{
+    "id": "calc-statpt-002",
+    "title": "Point of Inflection",
+    "body": "For the function $f(x) = x^3 - 3x^2 - 9x + 5$:\n\na) Find the point of inflection\nb) Verify it is a point of inflection by checking concavity on either side",
+    "variabilization": {},
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Differential Calculus - Points of Inflection",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

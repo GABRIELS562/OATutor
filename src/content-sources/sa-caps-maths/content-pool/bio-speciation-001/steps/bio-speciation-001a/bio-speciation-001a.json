@@ -1,0 +1,15 @@
+{
+  "id": "bio-speciation-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "geographic",
+    "Geographic"
+  ],
+  "stepExplanation": "A river is a physical/geographic barrier",
+  "stepTitle": "Type of Barrier",
+  "stepBody": "What type of barrier is the river - geographic or reproductive?"
+}

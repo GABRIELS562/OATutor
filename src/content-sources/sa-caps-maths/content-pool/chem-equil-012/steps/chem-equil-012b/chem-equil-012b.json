@@ -1,0 +1,15 @@
+{
+  "id": "chem-equil-012b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.025",
+    "2.5 x 10^-2"
+  ],
+  "stepExplanation": "Kc = [PCl3][Cl2]/[PCl5] = (0.10)(0.10)/(0.40) = 0.01/0.40 = 0.025",
+  "stepTitle": "Calculate Kc",
+  "stepBody": "Write the Kc expression and calculate its value using the equilibrium concentrations."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "chem-electro-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "3600",
+    "3600 C"
+  ],
+  "stepExplanation": "Q = It = 2 × (30 × 60) = 2 × 1800 = 3600 C (Convert minutes to seconds: 30 min = 1800 s)",
+  "stepTitle": "Total Charge Transferred",
+  "stepBody": "Calculate the total charge (Q) using Q = It. Convert time to seconds first."
+}

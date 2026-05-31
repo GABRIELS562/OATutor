@@ -1,0 +1,17 @@
+{
+  "id": "phys-energy-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "375000",
+    "375 000",
+    "375000 J",
+    "375 kJ"
+  ],
+  "stepExplanation": "Using KE = ½mv² with m = 1200 kg and v = 25 m/s:\n$$E_K = \\frac{1}{2}(1200)(25)^2$$\n$$E_K = \\frac{1}{2}(1200)(625)$$\n$$E_K = 375000 \\text{ J} = 375 \\text{ kJ}$$",
+  "stepTitle": "Calculate Kinetic Energy",
+  "stepBody": "Using KE = ½mv², calculate the kinetic energy of the 1200 kg car travelling at 25 m/s. Give your answer in Joules."
+}

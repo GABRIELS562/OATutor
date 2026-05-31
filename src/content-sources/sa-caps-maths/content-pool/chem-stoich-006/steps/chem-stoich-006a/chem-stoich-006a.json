@@ -1,0 +1,15 @@
+{
+  "id": "chem-stoich-006a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "1:2:1",
+    "1 : 2 : 1"
+  ],
+  "stepExplanation": "Assuming 100g sample: 40g C, 6.7g H, 53.3g O. Moles: C = 40/12 = 3.33, H = 6.7/1 = 6.7, O = 53.3/16 = 3.33. Ratio C:H:O = 3.33:6.7:3.33. Divide by smallest (3.33): 1:2:1",
+  "stepTitle": "Calculate Mole Ratio",
+  "stepBody": "Convert percentages to moles (assume 100g sample), then find the simplest whole number ratio of C:H:O."
+}

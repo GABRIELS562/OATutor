@@ -1,0 +1,10 @@
+{
+    "id": "calc-statpt-002b",
+    "stepAnswer": ["(1,-6)", "(1, -6)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find Complete Coordinates and Verify",
+    "stepBody": "Calculate $f(1)$ to find the y-coordinate and verify the concavity changes.\n\nWhat are the coordinates of the point of inflection?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["stationary-points", "concavity"]
+}

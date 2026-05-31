@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-statpt-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find y-coordinate",
+        "text": "$f(1) = (1)^3 - 3(1)^2 - 9(1) + 5$\n\n$f(1) = 1 - 3 - 9 + 5 = -6$\n\nSo the point is $(1, -6)$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-statpt-002b-h2",
+        "type": "hint",
+        "dependencies": ["calc-statpt-002b-h1"],
+        "title": "Verify Concavity Change",
+        "text": "Check $f''(x)$ on either side of $x = 1$:\n\nFor $x = 0$ (left of 1):\n$f''(0) = 6(0) - 6 = -6 < 0$ (concave down)\n\nFor $x = 2$ (right of 1):\n$f''(2) = 6(2) - 6 = 6 > 0$ (concave up)\n\nConcavity changes from down to up.",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-statpt-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(1,-6)"],
+        "dependencies": ["calc-statpt-002b-h2"],
+        "title": "Point of Inflection",
+        "text": "The point of inflection is $(1, -6)$.\n\nAt this point:\n- $f''(x) = 0$\n- Concavity changes from concave down to concave up\n\nThis is where the curve changes from \"bending down\" to \"bending up\".",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

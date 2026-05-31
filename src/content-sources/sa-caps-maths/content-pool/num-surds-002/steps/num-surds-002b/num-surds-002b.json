@@ -1,0 +1,10 @@
+{
+    "id": "num-surds-002b",
+    "stepAnswer": ["3sqrt(3)-3", "3sqrt3-3", "3(sqrt(3)-1)", "3(sqrt3-1)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Multiply and Simplify",
+    "stepBody": "$$\\frac{6}{\\sqrt{3} + 1} \\times \\frac{\\sqrt{3} - 1}{\\sqrt{3} - 1}$$\n\nNumerator: $6(\\sqrt{3} - 1) = 6\\sqrt{3} - 6$\n\nDenominator: $(\\sqrt{3})^2 - (1)^2 = 3 - 1 = 2$\n\nSo: $\\frac{6\\sqrt{3} - 6}{2} = 3\\sqrt{3} - 3$\n\nEnter the simplified answer (use sqrt for $\\sqrt{}$):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["surds", "rationalisation"]
+}

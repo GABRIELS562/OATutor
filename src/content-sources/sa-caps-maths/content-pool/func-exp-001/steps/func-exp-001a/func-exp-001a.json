@@ -1,0 +1,10 @@
+{
+    "id": "func-exp-001a",
+    "stepAnswer": ["-2", "q=-2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Value of q",
+    "stepBody": "The exponential function $f(x) = a \\cdot b^x + q$ has a horizontal asymptote at $y = -2$.\\n\\nWhat is the value of $q$?",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["exponential-functions", "asymptotes"]
+}

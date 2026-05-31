@@ -1,0 +1,15 @@
+{
+  "id": "chem-acid-012b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "11.70",
+    "11.7"
+  ],
+  "stepExplanation": "Using pH + pOH = 14 at 25 degrees C: pH = 14 - pOH = 14 - 2.30 = 11.70. This is a basic solution (pH > 7).",
+  "stepTitle": "Calculate pH from pOH",
+  "stepBody": "Using the relationship pH + pOH = 14 (at 25 degrees C), calculate the pH of the solution."
+}

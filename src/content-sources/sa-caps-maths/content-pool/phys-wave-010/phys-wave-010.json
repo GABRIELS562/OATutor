@@ -1,0 +1,17 @@
+{
+  "id": "phys-wave-010",
+  "title": "Standing Waves on a String",
+  "body": "A guitar string of length 0.65 m is fixed at both ends. The string vibrates at its third harmonic with a frequency of 660 Hz. Calculate the speed of waves on the string.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-waves"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

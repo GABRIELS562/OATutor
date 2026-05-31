@@ -1,0 +1,10 @@
+{
+    "id": "alg-simplify-001a",
+    "stepAnswer": ["6x^5y^4", "6x^5*y^4"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Simplify the Numerator",
+    "stepBody": "First, multiply the terms in the numerator:\n\n$$3x^2y^3 \\times 2x^3y$$\n\nRemember: When multiplying, add the exponents of like bases.\n\nWrite the simplified numerator:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["exponent-laws", "algebraic-simplification"]
+}

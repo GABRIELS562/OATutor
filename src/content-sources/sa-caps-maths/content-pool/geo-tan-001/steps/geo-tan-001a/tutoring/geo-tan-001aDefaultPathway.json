@@ -1,0 +1,22 @@
+[
+    {
+        "id": "geo-tan-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Tan-Chord Angle Theorem",
+        "text": "**Theorem (Alternate Segment Theorem):**\nThe angle between a tangent to a circle and a chord drawn from the point of tangency is equal to the inscribed angle subtending the same arc on the opposite side of the chord.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "geo-tan-001a-h2",
+        "type": "hint",
+        "dependencies": ["geo-tan-001a-h1"],
+        "title": "Apply the Theorem",
+        "text": "The angle TAC is between tangent TAB and chord AC.\nThe angle ABC is in the alternate segment.\n\nBy the tan-chord theorem:\n$$\\angle TAC = \\angle ABC = 48°$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    }
+]

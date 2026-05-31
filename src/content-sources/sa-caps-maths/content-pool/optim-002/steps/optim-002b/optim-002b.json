@@ -1,0 +1,10 @@
+{
+    "id": "optim-002b",
+    "stepAnswer": ["1200", "x = 1200", "1200 items"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the Number of Items for Maximum Profit",
+    "stepBody": "Using $P(x) = -0.02x^2 + 48x - 500$, find the value of $x$ that maximises profit.\n\nDifferentiate, set equal to zero, and solve.\n\nHow many items should be produced for maximum profit?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["optimization", "differentiation", "maximum-profit"]
+}

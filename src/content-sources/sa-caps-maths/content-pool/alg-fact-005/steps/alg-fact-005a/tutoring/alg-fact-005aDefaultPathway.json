@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-fact-005a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Recognise the Pattern",
+        "text": "$8x^3 - 27$ is the difference of two cubes because:\n\n- $8x^3 = (2x)^3$ is a perfect cube ($2 \\times 2 \\times 2 = 8$)\n- $27 = 3^3$ is a perfect cube ($3 \\times 3 \\times 3 = 27$)\n- They are subtracted",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-fact-005a-h2",
+        "type": "hint",
+        "dependencies": ["alg-fact-005a-h1"],
+        "title": "Find the Cube Roots",
+        "text": "$\\sqrt[3]{8x^3} = \\sqrt[3]{8} \\times \\sqrt[3]{x^3} = 2x$\n\n$\\sqrt[3]{27} = 3$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-fact-005a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["2x and 3"],
+        "dependencies": ["alg-fact-005a-h2"],
+        "title": "The Values",
+        "text": "$a = 2x$ and $b = 3$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    }
+]

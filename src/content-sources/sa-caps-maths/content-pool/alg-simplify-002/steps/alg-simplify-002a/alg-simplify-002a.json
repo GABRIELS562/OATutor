@@ -1,0 +1,10 @@
+{
+    "id": "alg-simplify-002a",
+    "stepAnswer": ["2b^4/a^5", "2b^4a^-5"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Apply Division Rules for Exponents",
+    "stepBody": "Simplify the expression by dividing coefficients and subtracting exponents:\n\n$$\\frac{4a^{-2}b^3}{2a^3b^{-1}}$$\n\nCoefficients: $\\frac{4}{2} = 2$\n\nFor $a$: $a^{-2-3} = a^{-5}$\n\nFor $b$: $b^{3-(-1)} = b^{4}$\n\nWrite the result (can include negative exponents):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["negative-exponents", "exponent-laws"]
+}

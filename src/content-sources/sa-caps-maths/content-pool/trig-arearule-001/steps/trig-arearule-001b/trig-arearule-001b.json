@@ -1,0 +1,10 @@
+{
+    "id": "trig-arearule-001b",
+    "stepAnswer": ["32.70"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate the Area",
+    "stepBody": "Substitute into the formula:\n$$\\text{Area} = \\frac{1}{2}(8)(11)\\sin 48°$$\n\nCalculate the area in cm². Round to two decimal places.",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-area"]
+}

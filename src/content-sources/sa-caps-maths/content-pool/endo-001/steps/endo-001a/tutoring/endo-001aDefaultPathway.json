@@ -1,0 +1,22 @@
+[
+  {
+    "id": "endo-001a-h1",
+    "type": "hint",
+    "title": "Islets of Langerhans",
+    "text": "The pancreas has both exocrine (digestive enzymes) and endocrine (hormones) functions. The islets of Langerhans contain hormone-producing cells: alpha cells produce glucagon, beta cells produce insulin.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "endo-001a-h2",
+    "type": "hint",
+    "title": "Opposing Hormones",
+    "text": "Insulin and glucagon have opposite effects. Insulin lowers blood glucose (released when glucose is HIGH). Glucagon raises blood glucose (released when glucose is LOW).",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

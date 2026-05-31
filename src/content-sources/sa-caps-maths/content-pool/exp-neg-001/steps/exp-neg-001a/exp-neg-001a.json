@@ -1,0 +1,10 @@
+{
+    "id": "exp-neg-001a",
+    "stepAnswer": ["2^(-3)*2^4/2^(-3)", "2^(-3).2^4/2^(-3)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Express All Bases as Powers of 2",
+    "stepBody": "Note that $4 = 2^2$ and $8 = 2^3$.\n\nRewrite the expression with all terms as powers of 2.\n\nRemember: $(a^m)^n = a^{mn}$\n\nEnter as: 2^(-3)*2^4/2^(-3)",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["exponent-laws", "prime-bases"]
+}

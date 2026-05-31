@@ -1,0 +1,17 @@
+{
+  "id": "phys-doppler-012",
+  "title": "Doppler Effect - Calculating Source Speed",
+  "body": "A car horn emits sound at 400 Hz. As the car approaches a stationary observer, the observer hears a frequency of 450 Hz. If the speed of sound is 340 m/s, calculate the speed of the car.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-doppler"
+      ],
+      "difficultyCodes": [
+        "hard"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

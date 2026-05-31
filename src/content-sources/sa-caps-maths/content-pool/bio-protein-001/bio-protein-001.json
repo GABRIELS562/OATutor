@@ -1,0 +1,17 @@
+{
+  "id": "bio-protein-001",
+  "title": "Protein Synthesis - Transcription",
+  "body": "A DNA template strand has the sequence: 3'-TAC GCA ATT-5'. Write the mRNA sequence produced during transcription.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-protein-synthesis"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

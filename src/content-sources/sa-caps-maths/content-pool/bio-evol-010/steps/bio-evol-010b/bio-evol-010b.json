@@ -1,0 +1,17 @@
+{
+  "id": "bio-evol-010b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "S-shaped",
+    "S-shape",
+    "S curve",
+    "double curve"
+  ],
+  "stepExplanation": "The human spine has a distinctive S-shaped (double) curvature with cervical and lumbar lordosis (inward curves) and thoracic and sacral kyphosis (outward curves). This shape positions the body's center of gravity directly over the pelvis and legs, allowing efficient energy transfer during bipedal walking. Apes have a C-shaped spine suited for quadrupedal locomotion.",
+  "stepTitle": "Spinal Curvature",
+  "stepBody": "Describe the shape of the human vertebral column that allows the center of gravity to be positioned over the pelvis for efficient bipedal walking. What shape is the human spine?"
+}

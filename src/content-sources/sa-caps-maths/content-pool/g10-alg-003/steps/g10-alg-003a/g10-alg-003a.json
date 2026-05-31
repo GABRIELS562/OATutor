@@ -1,0 +1,10 @@
+{
+    "id": "g10-alg-003a",
+    "stepAnswer": ["2x^2(x+3)+3(x+3)", "2x^2(x + 3) + 3(x + 3)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Group and Factor Each Pair",
+    "stepBody": "Group the first two terms and the last two terms:\n\n$$(2x^3 + 6x^2) + (3x + 9)$$\n\nFactor out the highest common factor (HCF) from each group.\n\nWrite the expression after factoring each group:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "grouping"]
+}

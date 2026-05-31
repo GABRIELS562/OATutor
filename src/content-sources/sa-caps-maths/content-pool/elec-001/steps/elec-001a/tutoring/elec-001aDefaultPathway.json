@@ -1,0 +1,32 @@
+[
+    {
+        "id": "elec-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Coulomb's Law",
+        "text": "The electrostatic force between two point charges is F = kQ₁Q₂/r². The force is attractive for opposite charges and repulsive for like charges.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "elec-001a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understanding the Variables",
+        "text": "k = 9 × 10⁹ N·m²/C² (Coulomb's constant), Q₁ and Q₂ are the charges in coulombs, r is the separation in metres.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "elec-001a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Unit Conversions Needed",
+        "text": "Convert μC to C: 1 μC = 10⁻⁶ C. Convert cm to m: 30 cm = 0.30 m.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

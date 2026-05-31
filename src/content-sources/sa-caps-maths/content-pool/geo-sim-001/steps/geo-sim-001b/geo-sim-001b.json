@@ -1,0 +1,10 @@
+{
+    "id": "geo-sim-001b",
+    "stepAnswer": ["15"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate DF using the same ratio",
+    "stepBody": "Using the same scale factor of 1.5, calculate the length of DF.\n\nGiven AC = 10 cm corresponds to DF.",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["geo-similar-triangles", "geo-proportional-sides"]
+}

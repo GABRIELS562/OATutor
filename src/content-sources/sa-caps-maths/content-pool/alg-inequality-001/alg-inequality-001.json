@@ -1,0 +1,10 @@
+{
+    "id": "alg-inequality-001",
+    "title": "Solving Quadratic Inequalities",
+    "body": "Solve for $x$:\\n\\n$$x^2 - 4x - 5 < 0$$\\n\\nExpress your answer in interval notation.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 10)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Algebraic Inequalities",
+    "courseName": "CAPS Grade 10 Mathematics"
+}

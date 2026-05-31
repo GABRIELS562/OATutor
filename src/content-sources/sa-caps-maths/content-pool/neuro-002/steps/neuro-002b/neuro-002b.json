@@ -1,0 +1,16 @@
+{
+  "id": "neuro-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "frontal lobe and temporal lobe",
+    "frontal and temporal",
+    "temporal lobe"
+  ],
+  "stepExplanation": "Language involves two main areas: **Broca's area** (frontal lobe) for speech production, and **Wernicke's area** (temporal lobe) for language comprehension. Both are typically in the left hemisphere.",
+  "stepTitle": "Identify Language Centers",
+  "stepBody": "The patient has difficulty both speaking and understanding language. Which lobe(s) of the cerebrum contain the language centers?"
+}

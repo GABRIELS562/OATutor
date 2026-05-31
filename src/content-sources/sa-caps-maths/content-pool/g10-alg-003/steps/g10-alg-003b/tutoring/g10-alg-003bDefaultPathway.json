@@ -1,0 +1,35 @@
+[
+    {
+        "id": "g10-alg-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify the Common Factor",
+        "text": "In $2x^2(x + 3) + 3(x + 3)$:\n\n- First term: $2x^2 \\times (x + 3)$\n- Second term: $3 \\times (x + 3)$\n\nThe common factor is $(x + 3)$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "g10-alg-003b-h2",
+        "type": "hint",
+        "dependencies": ["g10-alg-003b-h1"],
+        "title": "Factor Out the Common Binomial",
+        "text": "Factor out $(x + 3)$:\n\n$2x^2(x + 3) + 3(x + 3) = (x + 3)(2x^2 + 3)$\n\nThis is like factoring out a number, but we're factoring out a binomial expression.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "g10-alg-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(x+3)(2x^2+3)"],
+        "dependencies": ["g10-alg-003b-h2"],
+        "title": "Final Factorised Form",
+        "text": "The fully factorised form is:\n\n$2x^3 + 6x^2 + 3x + 9 = (x + 3)(2x^2 + 3)$\n\nNote: $(2x^2 + 3)$ cannot be factorised further over the real numbers.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

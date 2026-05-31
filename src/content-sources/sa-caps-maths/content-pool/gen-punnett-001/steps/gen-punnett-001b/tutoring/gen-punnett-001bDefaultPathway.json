@@ -1,0 +1,22 @@
+[
+  {
+    "id": "gen-punnett-001b-h1",
+    "type": "hint",
+    "title": "Phenotype vs Genotype",
+    "text": "Unlike complete dominance where heterozygotes look the same as dominant homozygotes, in incomplete dominance the phenotypic ratio equals the genotypic ratio.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "gen-punnett-001b-h2",
+    "type": "hint",
+    "title": "Count Each Phenotype",
+    "text": "From 1 RR : 2 Rr : 1 rr, you get 1 red (RR) : 2 pink (Rr) : 1 white (rr).",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

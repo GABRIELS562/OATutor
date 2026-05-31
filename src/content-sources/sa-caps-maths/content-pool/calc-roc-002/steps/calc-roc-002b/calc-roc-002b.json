@@ -1,0 +1,10 @@
+{
+    "id": "calc-roc-002b",
+    "stepAnswer": ["18", "R18", "18 Rands"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate Marginal Cost at x = 100",
+    "stepBody": "Calculate $C'(100)$ to find the marginal cost when producing 100 items.\n\nWhat is the marginal cost (in Rands)?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "rate-of-change"]
+}

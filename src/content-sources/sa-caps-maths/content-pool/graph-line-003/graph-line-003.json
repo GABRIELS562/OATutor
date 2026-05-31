@@ -1,0 +1,10 @@
+{
+    "id": "graph-line-003",
+    "title": "Finding a Perpendicular Line",
+    "body": "The line $y = \\frac{1}{2}x + 4$ is given. A second line is perpendicular to this line and passes through the point $(4, 3)$.\n\nDetermine the equation of the perpendicular line in the form $y = mx + c$.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 10)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Functions and Graphs - Straight Line Graphs",
+    "courseName": "CAPS Grade 10 Mathematics"
+}

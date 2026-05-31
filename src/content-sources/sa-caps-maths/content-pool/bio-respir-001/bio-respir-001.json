@@ -1,0 +1,14 @@
+{
+  "id": "bio-respir-001",
+  "title": "Cellular Respiration - Stages and Location",
+  "body": "Study the diagram of cellular respiration below:\n\n```\n[CELLULAR RESPIRATION OVERVIEW]\n\n  GLUCOSE (C6H12O6)\n        |\n        v\n  +-----------+\n  | GLYCOLYSIS| ---> 2 Pyruvate + 2 ATP + 2 NADH\n  | (Cytoplasm)|\n  +-----------+\n        |\n        v  [enters mitochondrion]\n  +-----------------+\n  | KREBS CYCLE     | ---> 2 ATP + 6 NADH + 2 FADH2\n  | (Matrix)        |\n  +-----------------+\n        |\n        v\n  +------------------------+\n  | ELECTRON TRANSPORT     | ---> 34 ATP + H2O\n  | CHAIN (Inner membrane) |\n  +------------------------+\n```\n\nA student claims that glycolysis cannot occur without oxygen. Evaluate this statement and explain where most ATP is produced.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-cellular-respiration"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "oer": "DBE NSC Life Sciences Paper 1/2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

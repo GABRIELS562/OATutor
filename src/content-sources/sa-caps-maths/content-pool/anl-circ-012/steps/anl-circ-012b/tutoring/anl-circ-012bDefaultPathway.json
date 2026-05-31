@@ -1,0 +1,61 @@
+[
+    {
+        "id": "anl-circ-012b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Distance Formula",
+        "text": "The distance between points $$(x_1, y_1)$$ and $$(x_2, y_2)$$ is:\n\n$$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "anl-circ-012b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["16"],
+        "dependencies": ["anl-circ-012b-h1"],
+        "title": "Calculate x-difference squared",
+        "text": "$$(-3 - 1)^2 = (-4)^2 = ?$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "anl-circ-012b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["9"],
+        "dependencies": ["anl-circ-012b-h2"],
+        "title": "Calculate y-difference squared",
+        "text": "$$(4 - 1)^2 = (3)^2 = ?$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "anl-circ-012b-h4",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["5"],
+        "dependencies": ["anl-circ-012b-h3"],
+        "title": "Calculate Radius",
+        "text": "$$r = \\sqrt{16 + 9} = \\sqrt{25} = ?$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "anl-circ-012b-h5",
+        "type": "hint",
+        "dependencies": ["anl-circ-012b-h4"],
+        "title": "Circle Equation",
+        "text": "The equation of the circle is:\n$$(x - 1)^2 + (y - 1)^2 = 25$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    }
+]

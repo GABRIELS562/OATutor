@@ -1,0 +1,17 @@
+{
+  "id": "phys-doppler-001",
+  "title": "Doppler Effect - Moving Source",
+  "body": "An ambulance siren emits sound at 800 Hz. The ambulance approaches you at 20 m/s. If the speed of sound is 340 m/s, what frequency do you hear?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-doppler"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

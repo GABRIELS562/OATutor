@@ -1,0 +1,17 @@
+{
+  "id": "bio-respir-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "anaerobic respiration",
+    "anaerobic",
+    "lactic acid fermentation",
+    "fermentation"
+  ],
+  "stepExplanation": "During intense sprinting, muscles require ATP faster than oxygen can be delivered. The muscles switch to **anaerobic respiration** (specifically lactic acid fermentation).\n\nThis occurs because:\n1. High-intensity exercise demands rapid ATP production\n2. Oxygen supply cannot meet demand (oxygen debt)\n3. Muscles must produce ATP without oxygen\n4. Pyruvate is converted to lactic acid instead of entering the Krebs cycle",
+  "stepTitle": "Type of Respiration",
+  "stepBody": "When oxygen supply cannot meet demand during intense exercise, what type of respiration occurs in human muscle cells?"
+}

@@ -376,7 +376,6 @@ class Problem extends React.Component {
     };
     
     togglePopup = () => {
-        console.log("Toggling popup visibility");
         this.setState((prevState) => ({
           showPopup: !prevState.showPopup,
         }));
@@ -392,40 +391,43 @@ class Problem extends React.Component {
 
     getOerLicense = () => {
         const { lesson, problem } = this.props;
-        var oerArray, licenseArray;
-        var oerLink, oerName;
-        var licenseLink, licenseName;
-	try {
-        if (problem.oer != null && problem.oer.includes(" <")) {
-            oerArray = problem.oer.split(" <");
-        } else if (lesson.courseOER != null && lesson.courseOER.includes(" ")) {
-            oerArray = lesson.courseOER.split(" <");
-        } else {
-            oerArray = ["", ""];
-        }
-	} catch(error) {
-		oerArray = ["", ""];
-	}
 
-        oerLink = oerArray[0];
-        oerName = oerArray[1].substring(0, oerArray[1].length - 1);
+        // Return empty values if lesson or problem is undefined
+        if (!lesson || !problem) {
+            return ["", "", "", ""];
+        }
+
+        let oerLink = "";
+        let oerName = "";
+        let licenseLink = "";
+        let licenseName = "";
 
         try {
-            if (problem.license != null && problem.license.includes(" ")) {
-                licenseArray = problem.license.split(" <");
-            } else if (
-                lesson.courseLicense != null &&
-                lesson.courseLicense.includes(" ")
-            ) {
-                licenseArray = lesson.courseLicense.split(" <");
-            } else {
-                licenseArray = ["", ""];
+            // Parse OER info
+            if (problem.oer && problem.oer.includes(" <")) {
+                const parts = problem.oer.split(" <");
+                oerLink = parts[0] || "";
+                oerName = parts[1] ? parts[1].replace(/>$/, "") : "";
+            } else if (lesson.courseOER && lesson.courseOER.includes(" <")) {
+                const parts = lesson.courseOER.split(" <");
+                oerLink = parts[0] || "";
+                oerName = parts[1] ? parts[1].replace(/>$/, "") : "";
             }
-        } catch(error) {
-            licenseArray = ["", ""];
+
+            // Parse License info
+            if (problem.license && problem.license.includes(" <")) {
+                const parts = problem.license.split(" <");
+                licenseLink = parts[0] || "";
+                licenseName = parts[1] ? parts[1].replace(/>$/, "") : "";
+            } else if (lesson.courseLicense && lesson.courseLicense.includes(" <")) {
+                const parts = lesson.courseLicense.split(" <");
+                licenseLink = parts[0] || "";
+                licenseName = parts[1] ? parts[1].replace(/>$/, "") : "";
+            }
+        } catch (error) {
+            console.debug("Error parsing OER/License:", error);
         }
-        licenseLink = licenseArray[0];
-        licenseName = licenseArray[1].substring(0, licenseArray[1].length - 1);
+
         return [oerLink, oerName, licenseLink, licenseName];
     };
 

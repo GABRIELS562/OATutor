@@ -1,0 +1,10 @@
+{
+    "id": "prob-count-002a",
+    "stepAnswer": ["5/14", "10/28", "0.357"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Probability Both Balls are Red",
+    "stepBody": "A bag contains 5 red balls and 3 blue balls. Two balls are drawn without replacement.\\n\\nCalculate the probability that both balls are red.\\n\\nGive your answer as a fraction:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["probability", "dependent-events", "without-replacement"]
+}

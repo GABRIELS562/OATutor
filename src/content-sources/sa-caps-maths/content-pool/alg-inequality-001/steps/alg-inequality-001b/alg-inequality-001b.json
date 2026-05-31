@@ -1,0 +1,10 @@
+{
+    "id": "alg-inequality-001b",
+    "stepAnswer": ["-1<x<5", "(-1,5)", "-1 < x < 5", "x>-1 and x<5"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Determine the Solution Interval",
+    "stepBody": "The parabola $y = x^2 - 4x - 5$ opens upward (coefficient of $x^2$ is positive).\\n\\nIt crosses the x-axis at $x = -1$ and $x = 5$.\\n\\nFor which values of $x$ is $x^2 - 4x - 5 < 0$ (below the x-axis)?\\n\\nEnter in interval notation (e.g., (-1,5)) or as inequality:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["quadratic-inequalities", "interval-notation"]
+}

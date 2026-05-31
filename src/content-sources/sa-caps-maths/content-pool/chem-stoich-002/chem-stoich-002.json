@@ -1,0 +1,18 @@
+{
+  "id": "chem-stoich-002",
+  "title": "Gas Volume at STP",
+  "body": "What volume (in dm^3) will 0.5 mol of carbon dioxide (CO2) gas occupy at STP (Standard Temperature and Pressure)? (At STP, 1 mol of gas occupies 22.4 dm^3)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-stoichiometry"
+      ],
+      "difficultyCodes": [
+        "easy"
+      ]
+    }
+  ],
+  "oer": "Siyavula Grade 11 Physical Sciences - Stoichiometry",
+  "courseName": "CAPS Grade 11 Physical Sciences"
+}

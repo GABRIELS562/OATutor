@@ -1,0 +1,15 @@
+{
+  "id": "chem-rate-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "increases",
+    "more collisions"
+  ],
+  "stepExplanation": "Higher concentration = more particles = more frequent collisions",
+  "stepTitle": "Collision Theory",
+  "stepBody": "How does increasing concentration affect collision frequency?"
+}

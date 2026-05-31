@@ -1,0 +1,10 @@
+{
+    "id": "calc-deriv-004",
+    "title": "Product Expansion Before Differentiation",
+    "body": "Differentiate the following by first expanding:\n\n$$f(x) = (2x - 3)(x^2 + 4)$$\n\nFind $f'(x)$.",
+    "variabilization": {},
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Differential Calculus - Rules for Differentiation",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

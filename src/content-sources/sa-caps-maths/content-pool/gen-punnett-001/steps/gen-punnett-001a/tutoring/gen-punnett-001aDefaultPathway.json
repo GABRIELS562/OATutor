@@ -1,0 +1,22 @@
+[
+  {
+    "id": "gen-punnett-001a-h1",
+    "type": "hint",
+    "title": "Understanding Incomplete Dominance",
+    "text": "In incomplete dominance, the heterozygote (Rr) shows a blended phenotype - pink in this case - rather than one allele masking the other.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "gen-punnett-001a-h2",
+    "type": "hint",
+    "title": "Setting Up the Punnett Square",
+    "text": "Place R and r from one parent on top, and R and r from the other parent on the side. Combine each row with each column: R+R=RR, R+r=Rr, r+R=Rr, r+r=rr",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

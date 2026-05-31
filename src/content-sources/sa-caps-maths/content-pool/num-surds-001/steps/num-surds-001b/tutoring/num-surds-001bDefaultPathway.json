@@ -1,0 +1,35 @@
+[
+    {
+        "id": "num-surds-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Treat Like Surds as Like Terms",
+        "text": "Since all terms contain $\\sqrt{2}$, we can add/subtract the coefficients:\n\n$6\\sqrt{2} + 3\\sqrt{2} - 5\\sqrt{2}$\n\nThink of this as: $6a + 3a - 5a$ where $a = \\sqrt{2}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "num-surds-001b-h2",
+        "type": "hint",
+        "dependencies": ["num-surds-001b-h1"],
+        "title": "Combine the Coefficients",
+        "text": "Add and subtract the coefficients:\n\n$6 + 3 - 5 = 4$\n\nSo: $6\\sqrt{2} + 3\\sqrt{2} - 5\\sqrt{2} = 4\\sqrt{2}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "num-surds-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["4sqrt(2)"],
+        "dependencies": ["num-surds-001b-h2"],
+        "title": "Final Answer",
+        "text": "The simplified answer is:\n\n$$4\\sqrt{2}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "id": "chem-equil-014",
+  "title": "Reaction Quotient vs Equilibrium Constant",
+  "body": "For the reaction: CO(g) + H2O(g) <=> CO2(g) + H2(g), Kc = 5.0 at a certain temperature. At a particular moment, the concentrations are: [CO] = 0.2 mol/dm^3, [H2O] = 0.2 mol/dm^3, [CO2] = 0.3 mol/dm^3, [H2] = 0.3 mol/dm^3. Is the system at equilibrium? If not, in which direction will it shift?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-equilibrium"
+      ],
+      "difficultyCodes": [
+        "hard"
+      ]
+    }
+  ],
+  "oer": "Siyavula Grade 12 Physical Sciences - Chemical Equilibrium",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

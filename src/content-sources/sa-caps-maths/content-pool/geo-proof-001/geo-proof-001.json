@@ -1,0 +1,17 @@
+{
+  "id": "geo-proof-001",
+  "title": "Circle Theorem - Angle at Center",
+  "body": "O is the center of a circle. A, B, C are points on the circumference. If ∠AOB = 140°, calculate ∠ACB.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "geo-circle-theorems"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-rate-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find the Acceleration Function",
+        "text": "Acceleration is the derivative of velocity:\\n$$a(t) = \\frac{dv}{dt} = \\frac{d}{dt}(3t^2 - 12t + 9)$$\\n$$a(t) = 6t - 12$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "calc-rate-002b-h2",
+        "type": "hint",
+        "dependencies": ["calc-rate-002b-h1"],
+        "title": "Substitute t = 2",
+        "text": "$$a(2) = 6(2) - 12$$\\n$$a(2) = 12 - 12$$\\n$$a(2) = 0$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "calc-rate-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["0"],
+        "dependencies": ["calc-rate-002b-h2"],
+        "title": "Interpret the Result",
+        "text": "The acceleration at $t = 2$ seconds is $0$ m/s$^2$.\\n\\nThis means the particle is at the point of inflection between speeding up and slowing down. At $t = 2$, which is between the rest points $t = 1$ and $t = 3$, the velocity is changing from negative to positive (or vice versa) at its maximum rate of change.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

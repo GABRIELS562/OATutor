@@ -1,0 +1,18 @@
+{
+  "id": "chem-acid-015",
+  "title": "Acid-Base Indicator Titration",
+  "body": "A learner titrates 20 cm^3 of acetic acid (CH3COOH) with 0.1 mol/dm^3 sodium hydroxide (NaOH). The endpoint is reached when 15 cm^3 of NaOH has been added. The balanced equation is: CH3COOH + NaOH -> CH3COONa + H2O. Calculate the concentration of the acetic acid.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-titrations"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "Siyavula Grade 12 Physical Sciences - Acids and Bases",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

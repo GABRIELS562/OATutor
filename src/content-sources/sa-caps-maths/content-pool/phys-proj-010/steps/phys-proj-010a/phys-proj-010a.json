@@ -1,0 +1,15 @@
+{
+  "id": "phys-proj-010a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "31.25",
+    "31.3"
+  ],
+  "stepExplanation": "At maximum height, v_f = 0. Using v_f^2 = v_i^2 + 2a*delta_y: 0 = 25^2 + 2(-10)*delta_y. So delta_y = 625/20 = 31.25 m",
+  "stepTitle": "Calculate Maximum Height",
+  "stepBody": "Calculate the maximum height reached by the ball. At the maximum height, the velocity is zero ($$v_f = 0$$). Use the equation: $$v_f^2 = v_i^2 + 2a \\Delta y$$. Remember that $$a = -g = -10 \\ m/s^2$$ (acceleration is downward). Give your answer in metres."
+}

@@ -1,0 +1,10 @@
+{
+    "id": "stats-regression-001",
+    "title": "Least Squares Regression Line",
+    "body": "The following data shows the relationship between hours studied (x) and test scores (y):\\n\\n| Hours (x) | 2 | 3 | 4 | 5 | 6 |\\n|-----------|---|---|---|---|---|\\n| Score (y) | 50 | 55 | 65 | 70 | 80 |\\n\\nGiven: $$\\bar{x} = 4$$, $$\\bar{y} = 64$$, $$\\sum(x - \\bar{x})(y - \\bar{y}) = 50$$, $$\\sum(x - \\bar{x})^2 = 10$$\\n\\nDetermine the equation of the least squares regression line $$\\hat{y} = a + bx$$",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 2 (2021)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Statistics - Regression",
+    "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

@@ -1,0 +1,10 @@
+{
+    "id": "trig-arearule-001",
+    "title": "Area Rule: Basic Application",
+    "body": "Calculate the area of triangle ABC where:\n- Side a = 8 cm\n- Side b = 11 cm\n- Angle C = 48° (the included angle between sides a and b)\n\nRound your answer to two decimal places.",
+    "variabilization": {},
+    "oer": "CAPS Grade 11 Mathematics",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Trigonometry - Area Rule",
+    "courseName": "CAPS Grade 11 Mathematics"
+}

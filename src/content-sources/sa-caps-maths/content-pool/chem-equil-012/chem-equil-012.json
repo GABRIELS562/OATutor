@@ -1,0 +1,18 @@
+{
+  "id": "chem-equil-012",
+  "title": "Equilibrium Concentration Calculation",
+  "body": "For the reaction: PCl5(g) <=> PCl3(g) + Cl2(g), 0.50 mol of PCl5 is placed in a 1 dm^3 container. At equilibrium, 0.10 mol of Cl2 is present. Calculate the equilibrium constant Kc.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-equilibrium"
+      ],
+      "difficultyCodes": [
+        "hard"
+      ]
+    }
+  ],
+  "oer": "Siyavula Grade 12 Physical Sciences - Chemical Equilibrium",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

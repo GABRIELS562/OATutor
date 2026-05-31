@@ -1,0 +1,16 @@
+{
+  "id": "phys-wave-011a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "10^7",
+    "10000000",
+    "1e7"
+  ],
+  "stepExplanation": "I/I_0 = (1.0 x 10^-5)/(1.0 x 10^-12) = 10^-5 / 10^-12 = 10^(-5-(-12)) = 10^7",
+  "stepTitle": "Calculate Intensity Ratio",
+  "stepBody": "The decibel formula is L = 10 log(I/I_0). First calculate the ratio I/I_0 where I = 1.0 x 10^-5 W/m^2 and I_0 = 1.0 x 10^-12 W/m^2."
+}

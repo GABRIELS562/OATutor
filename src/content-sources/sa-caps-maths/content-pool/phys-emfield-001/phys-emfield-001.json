@@ -1,0 +1,14 @@
+{
+  "id": "phys-emfield-001",
+  "title": "Electromagnetic Induction - Induced EMF",
+  "body": "A coil with 200 turns experiences a change in magnetic flux from 0.05 Wb to 0.02 Wb in 0.1 seconds. Calculate the magnitude of the induced EMF in the coil.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-em-induction"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

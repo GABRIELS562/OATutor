@@ -1,0 +1,15 @@
+{
+  "id": "chem-stoich-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "V = n x 22.4",
+    "V = n x Vm"
+  ],
+  "stepExplanation": "At STP, V = n x Vm where Vm = 22.4 dm^3/mol (molar volume at STP)",
+  "stepTitle": "Write the Formula",
+  "stepBody": "Write the formula relating volume, moles, and molar volume at STP."
+}

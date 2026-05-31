@@ -1,0 +1,10 @@
+{
+    "id": "diff-rules-003b",
+    "stepAnswer": ["4(3x^2-5x+2)^3(6x-5)", "4(6x-5)(3x^2-5x+2)^3", "(24x-20)(3x^2-5x+2)^3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Apply the Chain Rule",
+    "stepBody": "Apply the chain rule formula:\n\n$h'(x) = n[g(x)]^{n-1} \\cdot g'(x)$\n\nWith $n = 4$, $g(x) = 3x^2 - 5x + 2$, and $g'(x) = 6x - 5$.\n\nWrite $h'(x)$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "chain-rule"]
+}

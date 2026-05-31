@@ -1,0 +1,35 @@
+[
+    {
+        "id": "func-exp-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute Point (0, 1)",
+        "text": "Using the point $(0, 1)$:\\n$$1 = a \\cdot b^0 - 2$$\\n$$1 = a \\cdot 1 - 2$$\\n$$1 = a - 2$$\\n$$a = 3$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-exp-001b-h2",
+        "type": "hint",
+        "dependencies": ["func-exp-001b-h1"],
+        "title": "Substitute Point (1, 4)",
+        "text": "Using $a = 3$ and the point $(1, 4)$:\\n$$4 = 3 \\cdot b^1 - 2$$\\n$$4 = 3b - 2$$\\n$$6 = 3b$$\\n$$b = 2$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-exp-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["a=3 and b=2"],
+        "dependencies": ["func-exp-001b-h2"],
+        "title": "Complete Solution",
+        "text": "Therefore $a = 3$ and $b = 2$.\\n\\nThe complete function is: $f(x) = 3 \\cdot 2^x - 2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "elec-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "What is Electric Field?",
+        "text": "Electric field (E) is the force per unit positive test charge at a point: E = F/q. Its unit is N/C or equivalently V/m.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "elec-002a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Field Due to Point Charge",
+        "text": "For a point charge Q, the field at distance r is E = kQ/r². This follows from Coulomb's Law divided by the test charge.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "elec-002a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Direction of Field",
+        "text": "Electric field vectors point away from positive charges and toward negative charges. For this positive charge, the field points radially outward.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

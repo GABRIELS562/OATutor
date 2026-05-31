@@ -1,0 +1,15 @@
+{
+  "id": "bio-dna-011b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "string",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "The lagging strand template runs 5' to 3' toward the replication fork, so synthesis must occur in short fragments away from the fork",
+    "Antiparallel strands mean one template runs toward the fork while DNA polymerase must work away from it"
+  ],
+  "stepExplanation": "Since DNA strands are antiparallel, when the replication fork opens, one template strand (leading) runs 3' to 5' toward the fork - allowing continuous synthesis in the direction of fork movement. The other template (lagging) runs 5' to 3' toward the fork, but DNA polymerase must synthesise 5' to 3' AWAY from the fork. Therefore, the lagging strand must be made in short Okazaki fragments that are later joined by DNA ligase.",
+  "stepTitle": "Explain Lagging Strand Synthesis",
+  "stepBody": "Given that DNA strands are antiparallel (run in opposite directions) and the replication fork moves in one direction, explain why the lagging strand cannot be synthesised continuously like the leading strand."
+}

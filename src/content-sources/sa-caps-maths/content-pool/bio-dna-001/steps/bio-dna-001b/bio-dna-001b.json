@@ -1,0 +1,15 @@
+{
+  "id": "bio-dna-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "TACGGATT",
+    "3'-TACGGATT-5'"
+  ],
+  "stepExplanation": "Original: 5'-A T G C C T A A-3'\nComplementary: 3'-T A C G G A T T-5'\n\nThe complementary strand is **TACGGATT**",
+  "stepTitle": "Write Complementary Strand",
+  "stepBody": "Using the base pairing rules (A-T, G-C), write the complementary strand for 5'-ATGCCTAA-3' (write it 3' to 5')."
+}

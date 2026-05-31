@@ -1,0 +1,15 @@
+{
+  "id": "bio-repro-011a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "1",
+    "one"
+  ],
+  "stepExplanation": "In oogenesis, unequal cytoplasmic division produces one large functional egg (ovum) and three small polar bodies. The polar bodies degenerate and do not function as gametes.",
+  "stepTitle": "Functional Eggs Produced",
+  "stepBody": "How many functional egg cells (ova) are produced from one primary oocyte during oogenesis?"
+}

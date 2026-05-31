@@ -1,0 +1,35 @@
+[
+    {
+        "id": "seq-geom-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "The General Term Formula",
+        "text": "For a geometric sequence:\n$$T_n = ar^{n-1}$$\n\nWhere:\n- $a$ = first term\n- $r$ = common ratio\n- $n$ = term number",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "seq-geom-001b-h2",
+        "type": "hint",
+        "dependencies": ["seq-geom-001b-h1"],
+        "title": "Substitute Values",
+        "text": "For the 8th term, substitute $a = 2$, $r = 3$, and $n = 8$:\n\n$$T_8 = 2 \\times 3^{8-1}$$\n$$T_8 = 2 \\times 3^7$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "seq-geom-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["4374"],
+        "dependencies": ["seq-geom-001b-h2"],
+        "title": "Calculate",
+        "text": "$3^7 = 2187$\n\n$T_8 = 2 \\times 2187 = 4374$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

@@ -1,0 +1,13 @@
+{
+  "id": "neuro-002",
+  "title": "Nervous System - Brain Regions and Functions",
+  "body": "A patient suffers a stroke affecting the left side of the cerebrum. They have difficulty speaking and understanding language, but their breathing and heart rate remain normal. Which part of the brain controls breathing and heart rate, and which lobe is most likely affected for language problems?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-reflex-arc"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

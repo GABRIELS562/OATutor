@@ -1,0 +1,48 @@
+[
+    {
+        "id": "geo-sim-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Similar Triangles Property",
+        "text": "When two triangles are similar, their corresponding sides are proportional. This means the ratios of corresponding sides are equal.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "geo-sim-001a-h2",
+        "type": "hint",
+        "dependencies": ["geo-sim-001a-h1"],
+        "title": "Setting Up the Proportion",
+        "text": "Since AB corresponds to DE and BC corresponds to EF:\n\n$$\\frac{DE}{AB} = \\frac{EF}{BC}$$\n\n$$\\frac{9}{6} = \\frac{EF}{8}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "geo-sim-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["1.5"],
+        "dependencies": ["geo-sim-001a-h2"],
+        "title": "Find the Scale Factor",
+        "text": "Calculate the scale factor: $$\\frac{9}{6} = ?$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "geo-sim-001a-h4",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["12"],
+        "dependencies": ["geo-sim-001a-h3"],
+        "title": "Calculate EF",
+        "text": "$$EF = BC \\times 1.5 = 8 \\times 1.5 = ?$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    }
+]

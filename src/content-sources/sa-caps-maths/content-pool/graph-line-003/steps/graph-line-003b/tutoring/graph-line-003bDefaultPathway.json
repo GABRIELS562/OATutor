@@ -1,0 +1,35 @@
+[
+    {
+        "id": "graph-line-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute the Point",
+        "text": "Using point $(4, 3)$ where $x = 4$ and $y = 3$:\n\n$y = mx + c$\n$3 = -2(4) + c$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "graph-line-003b-h2",
+        "type": "hint",
+        "dependencies": ["graph-line-003b-h1"],
+        "title": "Solve for c",
+        "text": "$3 = -8 + c$\n$c = 3 + 8 = 11$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "graph-line-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["y=-2x+11"],
+        "dependencies": ["graph-line-003b-h2"],
+        "title": "Write the Final Equation",
+        "text": "With $m = -2$ and $c = 11$:\n\n$$y = -2x + 11$$\n\nYou can verify: $\\frac{1}{2} \\times (-2) = -1$ confirms perpendicularity.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

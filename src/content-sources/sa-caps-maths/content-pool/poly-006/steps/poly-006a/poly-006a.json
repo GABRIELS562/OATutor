@@ -1,0 +1,10 @@
+{
+    "id": "poly-006a",
+    "stepAnswer": ["1"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Set Up Synthetic Division",
+    "stepBody": "In synthetic division by $(x - c)$, we use the value $c$.\n\nFor division by $(x - 1)$, what value do we use in synthetic division?\n\nHint: If dividing by $(x - 1)$, the divisor root is where $x - 1 = 0$.",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "knowledgeComponents": ["polynomial-division", "synthetic-division"]
+}

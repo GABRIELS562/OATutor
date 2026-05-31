@@ -1,0 +1,35 @@
+[
+    {
+        "id": "prob-count-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understand Conditional Probability",
+        "text": "We need P(2nd ball is blue | 1st ball was red).\\n\\nThis is asking: GIVEN that we already drew a red ball, what is the probability the next ball is blue?",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "prob-count-002b-h2",
+        "type": "hint",
+        "dependencies": ["prob-count-002b-h1"],
+        "title": "Determine Remaining Balls",
+        "text": "After removing one red ball:\\n- Red balls remaining = 4\\n- Blue balls remaining = 3 (unchanged)\\n- Total remaining = 7",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "prob-count-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["3/7"],
+        "dependencies": ["prob-count-002b-h2"],
+        "title": "Calculate the Probability",
+        "text": "P(2nd blue | 1st red) = $\\frac{\\text{Blue balls remaining}}{\\text{Total remaining}} = \\frac{3}{7}$\\n\\nThis is approximately 0.429 or about 43%.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

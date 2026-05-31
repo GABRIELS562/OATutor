@@ -1,0 +1,10 @@
+{
+    "id": "fin-comp-001b",
+    "stepAnswer": ["R43698.21", "43698.21", "R43 698.21", "43698,21"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate the Final Amount",
+    "stepBody": "Using $A = P(1 + i)^n$ with:\n- $P = 25000$\n- $i = 0.02375$\n- $n = 24$\n\nCalculate the final amount (round to the nearest cent):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["compound-interest", "calculation", "exponents"]
+}

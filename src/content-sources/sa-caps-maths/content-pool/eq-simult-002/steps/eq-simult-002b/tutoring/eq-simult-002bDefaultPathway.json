@@ -1,0 +1,35 @@
+[
+    {
+        "id": "eq-simult-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute into Equation (1)",
+        "text": "Replace x with $(y + 2)$ in $3x + 2y = 11$:\n\n$3(y + 2) + 2y = 11$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "eq-simult-002b-h2",
+        "type": "hint",
+        "dependencies": ["eq-simult-002b-h1"],
+        "title": "Solve for y",
+        "text": "$3(y + 2) + 2y = 11$\n$3y + 6 + 2y = 11$\n$5y + 6 = 11$\n$5y = 5$\n$y = 1$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "eq-simult-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x=3,y=1"],
+        "dependencies": ["eq-simult-002b-h2"],
+        "title": "Final Answer",
+        "text": "Since $y = 1$, substitute back:\n$x = y + 2 = 1 + 2 = 3$\n\nThe solution is $x = 3$ and $y = 1$.\n\nVerify: $3(3) + 2(1) = 9 + 2 = 11$ (correct!)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

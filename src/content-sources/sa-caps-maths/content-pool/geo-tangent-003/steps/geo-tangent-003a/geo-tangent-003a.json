@@ -1,0 +1,15 @@
+{
+  "id": "geo-tangent-003a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "55",
+    "55°"
+  ],
+  "stepExplanation": "Inscribed angle = tan-chord angle = 55°",
+  "stepTitle": "Tangent-Chord Theorem",
+  "stepBody": "The angle between a tangent and chord equals the inscribed angle in the alternate segment. What is the inscribed angle?"
+}

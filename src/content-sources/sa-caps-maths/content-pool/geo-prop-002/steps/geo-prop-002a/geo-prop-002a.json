@@ -1,0 +1,11 @@
+{
+    "id": "geo-prop-002a",
+    "stepAnswer": ["Yes"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 1: Determine if PQ || LM",
+    "stepBody": "Calculate both ratios and compare:\n\n$$\\frac{KP}{PL} = \\frac{6}{9}$$ and $$\\frac{KQ}{QM} = \\frac{8}{12}$$\n\nIf the ratios are equal, then PQ || LM by the converse of the proportion theorem.\n\nIs PQ parallel to LM?",
+    "choices": ["Yes", "No"],
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["geo-proportional-sides", "geo-proof-writing"]
+}

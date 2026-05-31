@@ -1,0 +1,18 @@
+{
+  "id": "chem-acid-014",
+  "title": "Finding [H+] from pH",
+  "body": "A solution has a pH of 4.5. Calculate the hydrogen ion concentration [H+] in mol/dm^3.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-ph-calc"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "Siyavula Grade 12 Physical Sciences - Acids and Bases",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

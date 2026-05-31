@@ -1,0 +1,10 @@
+{
+    "id": "anl-circle-001b",
+    "stepAnswer": ["(x-3)^2+(y+2)^2=25"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Write the Circle Equation",
+    "stepBody": "Using centre M(3, -2) and radius = 5, write the equation.\n\nEnter as: (x-3)^2+(y+2)^2=25",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["anl-circle-center-form"]
+}

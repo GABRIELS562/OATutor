@@ -1,0 +1,16 @@
+{
+  "id": "phys-circuits-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "2.4",
+    "2,4",
+    "12/5"
+  ],
+  "stepExplanation": "1/R = 1/4 + 1/6 = 5/12, so R = 2.4Ω",
+  "stepTitle": "Parallel Resistance",
+  "stepBody": "Calculate the equivalent resistance of 4Ω and 6Ω in parallel using 1/R = 1/R₁ + 1/R₂"
+}

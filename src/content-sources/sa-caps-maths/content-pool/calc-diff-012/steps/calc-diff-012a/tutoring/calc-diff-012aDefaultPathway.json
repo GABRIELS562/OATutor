@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-diff-012a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute into the Definition",
+        "text": "With $f(x) = \\frac{1}{x}$, we have:\n\n$f(x+h) = \\frac{1}{x+h}$\n\nSo the difference quotient is:\n\n$$\\frac{f(x+h) - f(x)}{h} = \\frac{\\frac{1}{x+h} - \\frac{1}{x}}{h}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-diff-012a-h2",
+        "type": "hint",
+        "dependencies": ["calc-diff-012a-h1"],
+        "title": "Find Common Denominator",
+        "text": "Simplify the numerator by finding a common denominator:\n\n$$\\frac{1}{x+h} - \\frac{1}{x} = \\frac{x - (x+h)}{x(x+h)} = \\frac{-h}{x(x+h)}$$\n\nSo the difference quotient becomes:\n\n$$\\frac{\\frac{-h}{x(x+h)}}{h}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-diff-012a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["-h/(x(x+h)h)"],
+        "dependencies": ["calc-diff-012a-h2"],
+        "title": "The Simplified Quotient",
+        "text": "The difference quotient simplifies to:\n\n$$\\frac{-h}{x(x+h) \\cdot h} = \\frac{-h}{hx(x+h)}$$\n\nNow we can cancel the $h$ (for $h \\neq 0$).",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

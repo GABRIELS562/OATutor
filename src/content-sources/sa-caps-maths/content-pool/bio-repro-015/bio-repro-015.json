@@ -1,0 +1,18 @@
+{
+  "id": "bio-repro-015",
+  "title": "Negative Feedback in the Menstrual Cycle",
+  "body": "The menstrual cycle is regulated by negative feedback loops involving hormones from the hypothalamus, pituitary gland, and ovaries. Explain how high progesterone levels affect the cycle.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-menstrual-cycle",
+        "bio-hormones"
+      ],
+      "difficultyCodes": [
+        "hard"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

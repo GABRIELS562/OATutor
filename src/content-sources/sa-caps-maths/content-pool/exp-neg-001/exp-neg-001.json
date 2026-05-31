@@ -1,0 +1,10 @@
+{
+    "id": "exp-neg-001",
+    "title": "Simplifying Expressions with Negative Exponents",
+    "body": "Simplify the following expression without using a calculator:\n\n$$\\frac{2^{-3} \\cdot 4^2}{8^{-1}}$$\n\nExpress your answer as a positive integer.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 10)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Exponents and Surds",
+    "courseName": "CAPS Grade 10 Mathematics"
+}

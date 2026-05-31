@@ -1,0 +1,17 @@
+{
+  "id": "bio-evol-020b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "bipedalism evolved before large brains",
+    "bipedalism before brain",
+    "walking upright before large brain",
+    "upright walking before brain enlargement"
+  ],
+  "stepExplanation": "Australopithecus africanus had a small brain (around 450 cc, similar to chimpanzees at 350-400 cc) but showed clear evidence of bipedalism from its foramen magnum position and pelvic structure. This contradicted earlier theories that large brains evolved first. Instead, it showed that bipedal locomotion was one of the earliest human adaptations, with brain enlargement occurring later in hominin evolution.",
+  "stepTitle": "Bipedalism vs Brain Size",
+  "stepBody": "Australopithecus africanus had a cranial capacity of approximately 450 cc (similar to modern chimpanzees) but evidence of bipedal locomotion. What does this suggest about the order in which key human characteristics evolved?"
+}

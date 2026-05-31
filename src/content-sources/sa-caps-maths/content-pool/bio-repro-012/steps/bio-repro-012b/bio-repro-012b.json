@@ -1,0 +1,16 @@
+{
+  "id": "bio-repro-012b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "ovulation",
+    "triggers ovulation",
+    "causes ovulation"
+  ],
+  "stepExplanation": "LH (Luteinising Hormone) surge triggers ovulation - the release of the mature egg from the Graafian follicle. LH also stimulates the formation of the corpus luteum.",
+  "stepTitle": "Role of LH",
+  "stepBody": "What event does the surge in Luteinising Hormone (LH) trigger around day 14 of the cycle?"
+}

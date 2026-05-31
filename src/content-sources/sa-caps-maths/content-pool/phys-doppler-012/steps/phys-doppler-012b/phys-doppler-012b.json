@@ -1,0 +1,16 @@
+{
+  "id": "phys-doppler-012b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "37.8",
+    "38",
+    "37.78"
+  ],
+  "stepExplanation": "v_s = v - 302.2 = 340 - 302.2 = 37.8 m/s. The car is travelling at approximately 38 m/s (about 136 km/h).",
+  "stepTitle": "Calculate Source Speed",
+  "stepBody": "Now solve for v_s: If v - v_s = 302.2 m/s and v = 340 m/s, calculate v_s. Give your answer in m/s."
+}

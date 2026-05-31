@@ -1,0 +1,20 @@
+{
+    "id": "phys-photo-003a",
+    "type": "scaffold",
+    "problemType": "MultipleChoice",
+    "answerType": "string",
+    "hpiVariables": [],
+    "variabilization": {},
+    "stepAnswer": [
+        "f_0 = W/h"
+    ],
+    "stepExplanation": "At the threshold frequency, the photon energy exactly equals the work function: E = hf_0 = W. Rearranging gives f_0 = W/h.",
+    "stepTitle": "Identify Threshold Frequency Formula",
+    "stepBody": "The threshold frequency (f_0) is the minimum frequency needed to eject electrons. At this frequency, the photon energy equals the work function. Which formula gives f_0?",
+    "choices": [
+        "f_0 = W/h",
+        "f_0 = h/W",
+        "f_0 = hW",
+        "f_0 = W - h"
+    ]
+}

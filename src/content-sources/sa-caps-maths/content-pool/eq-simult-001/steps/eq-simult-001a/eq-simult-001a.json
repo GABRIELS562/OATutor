@@ -1,0 +1,10 @@
+{
+    "id": "eq-simult-001a",
+    "stepAnswer": ["3", "x=3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Solve for x",
+    "stepBody": "Use the elimination or substitution method to find the value of x.\n\nHint: Try adding the two equations together.\n\nWhat is the value of x?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["linear-equations", "simultaneous-equations"]
+}

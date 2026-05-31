@@ -89,26 +89,49 @@ export function ThemeToggleProvider({ children }) {
         }
     }, []);
 
-    // Update CSS variables for dark mode
+    // Update CSS variables and classes for theme mode
     useEffect(() => {
         const root = document.documentElement;
+        const body = document.body;
 
         if (isDark) {
+            // Apply dark mode
             root.classList.add('dark-mode');
+            root.classList.remove('light-mode');
+            body.classList.add('dark-mode');
+            body.classList.remove('light-mode');
+            root.setAttribute('data-theme', 'dark');
+
+            // Set dark mode CSS variables
             root.style.setProperty('--bg-primary', '#0f0f23');
             root.style.setProperty('--bg-secondary', '#1a1a2e');
             root.style.setProperty('--bg-card', '#16213e');
             root.style.setProperty('--text-primary', '#ffffff');
             root.style.setProperty('--text-secondary', '#b0b0b0');
             root.style.setProperty('--border-color', 'rgba(255, 255, 255, 0.1)');
+
+            // Apply background color directly to body for immediate effect
+            body.style.backgroundColor = '#0f0f23';
+            body.style.color = '#ffffff';
         } else {
+            // Apply light mode
             root.classList.remove('dark-mode');
+            root.classList.add('light-mode');
+            body.classList.remove('dark-mode');
+            body.classList.add('light-mode');
+            root.setAttribute('data-theme', 'light');
+
+            // Set light mode CSS variables
             root.style.setProperty('--bg-primary', '#ffffff');
             root.style.setProperty('--bg-secondary', '#f8fafc');
             root.style.setProperty('--bg-card', '#ffffff');
             root.style.setProperty('--text-primary', '#1e293b');
             root.style.setProperty('--text-secondary', '#64748b');
             root.style.setProperty('--border-color', 'rgba(0, 0, 0, 0.1)');
+
+            // Apply background color directly to body for immediate effect
+            body.style.backgroundColor = '#ffffff';
+            body.style.color = '#1e293b';
         }
 
         // Update meta theme-color for mobile browsers

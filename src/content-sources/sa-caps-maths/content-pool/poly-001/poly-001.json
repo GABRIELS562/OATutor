@@ -1,0 +1,10 @@
+{
+    "id": "poly-001",
+    "title": "Factor Theorem - Finding Factors",
+    "body": "Use the factor theorem to determine whether $(x - 2)$ is a factor of:\n\n$$f(x) = x^3 - 4x^2 + x + 6$$",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Polynomials Chapter 7.2",
+    "license": "CC-BY - Siyavula Education",
+    "lesson": "Factor Theorem",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "func-hyp-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute the Point",
+        "text": "The point $(1, 3)$ lies on the graph, so $g(1) = 3$.\\n\\nSubstitute $x = 1$ and $y = 3$ into $g(x) = \\frac{a}{x+3} + 2$:\\n$$3 = \\frac{a}{1+3} + 2$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-hyp-002b-h2",
+        "type": "hint",
+        "dependencies": ["func-hyp-002b-h1"],
+        "title": "Solve for a",
+        "text": "$$3 = \\frac{a}{4} + 2$$\\n$$3 - 2 = \\frac{a}{4}$$\\n$$1 = \\frac{a}{4}$$\\n$$a = 4$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-hyp-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["4"],
+        "dependencies": ["func-hyp-002b-h2"],
+        "title": "Final Answer",
+        "text": "Therefore $a = 4$, and the complete function is:\\n$$g(x) = \\frac{4}{x+3} + 2$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

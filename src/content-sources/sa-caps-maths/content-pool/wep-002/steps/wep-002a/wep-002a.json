@@ -1,0 +1,17 @@
+{
+  "id": "wep-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "E_k1 + E_p1 = E_k2 + E_p2",
+    "Ek1 + Ep1 = Ek2 + Ep2",
+    "ME_initial = ME_final",
+    "½mv₁² + mgh₁ = ½mv₂² + mgh₂"
+  ],
+  "stepExplanation": "The law of conservation of mechanical energy states that in the absence of non-conservative forces (like friction), the total mechanical energy remains constant: $$E_{k1} + E_{p1} = E_{k2} + E_{p2}$$",
+  "stepTitle": "State the Conservation Principle",
+  "stepBody": "When no energy is lost to friction or air resistance, what principle relates the potential and kinetic energy at different heights?"
+}

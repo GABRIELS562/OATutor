@@ -1,0 +1,10 @@
+{
+    "id": "prod-special-001",
+    "title": "Difference of Two Squares",
+    "body": "Factorise completely:\n\n$$x^2 - 49$$",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 10)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Products and Factors",
+    "courseName": "CAPS Grade 10 Mathematics"
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-comp-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find cos A",
+        "text": "Given sin A = 3/5:\n$$\\cos^2 A = 1 - \\sin^2 A = 1 - \\frac{9}{25} = \\frac{16}{25}$$\n\nSince A is acute: $$\\cos A = \\frac{4}{5}$$\n\n(Think of the 3-4-5 right triangle!)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-comp-003a-h2",
+        "type": "hint",
+        "dependencies": ["trig-comp-003a-h1"],
+        "title": "Find sin B",
+        "text": "Given cos B = 12/13:\n$$\\sin^2 B = 1 - \\cos^2 B = 1 - \\frac{144}{169} = \\frac{25}{169}$$\n\nSince B is acute: $$\\sin B = \\frac{5}{13}$$\n\n(Think of the 5-12-13 right triangle!)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-comp-003a-h3",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": ["cos A = 4/5, sin B = 5/13"],
+        "dependencies": ["trig-comp-003a-h2"],
+        "title": "Confirm the Values",
+        "text": "$$\\cos A = \\frac{4}{5}$$ and $$\\sin B = \\frac{5}{13}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

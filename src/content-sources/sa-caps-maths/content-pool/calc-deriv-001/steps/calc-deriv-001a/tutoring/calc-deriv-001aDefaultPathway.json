@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-deriv-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Power Rule",
+        "text": "The power rule states: $\\frac{d}{dx}(x^n) = nx^{n-1}$\n\nFor example: $\\frac{d}{dx}(x^4) = 4x^3$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-deriv-001a-h2",
+        "type": "hint",
+        "dependencies": ["calc-deriv-001a-h1"],
+        "title": "Differentiate Term by Term",
+        "text": "Differentiate each term:\n\n- $\\frac{d}{dx}(5x^4) = 5 \\times 4x^3 = 20x^3$\n- $\\frac{d}{dx}(-3x^3) = -3 \\times 3x^2 = -9x^2$\n- $\\frac{d}{dx}(2x^2) = 2 \\times 2x = 4x$\n- $\\frac{d}{dx}(-7x) = -7$\n- $\\frac{d}{dx}(4) = 0$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-deriv-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["20x^3-9x^2+4x-7"],
+        "dependencies": ["calc-deriv-001a-h2"],
+        "title": "Combine All Terms",
+        "text": "Combining all differentiated terms:\n\n$f'(x) = 20x^3 - 9x^2 + 4x - 7$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

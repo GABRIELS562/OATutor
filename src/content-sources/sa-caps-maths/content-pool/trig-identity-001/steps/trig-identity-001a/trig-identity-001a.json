@@ -1,0 +1,14 @@
+{
+  "id": "trig-identity-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "1"
+  ],
+  "stepExplanation": "sin²θ + cos²θ = 1 (Pythagorean identity)",
+  "stepTitle": "Pythagorean Identity",
+  "stepBody": "What does sin²θ + cos²θ equal?"
+}

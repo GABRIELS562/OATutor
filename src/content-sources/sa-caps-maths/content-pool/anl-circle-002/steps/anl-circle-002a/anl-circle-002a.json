@@ -1,0 +1,16 @@
+{
+  "id": "anl-circle-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "(3, -2)",
+    "(3;-2)",
+    "3, -2"
+  ],
+  "stepExplanation": "(x-3)² + (y+2)² = 12 + 9 + 4 = 25, so center = (3, -2)",
+  "stepTitle": "Complete the Square",
+  "stepBody": "Complete the square for x and y terms. What is the center (a, b)?"
+}

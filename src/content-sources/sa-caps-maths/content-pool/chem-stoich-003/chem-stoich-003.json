@@ -1,0 +1,18 @@
+{
+  "id": "chem-stoich-003",
+  "title": "Limiting Reagent Problem",
+  "body": "5 g of hydrogen reacts with 20 g of oxygen according to: 2H2 + O2 -> 2H2O. Determine the limiting reagent and calculate the mass of water produced. (Molar masses: H = 1 g/mol, O = 16 g/mol)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-stoichiometry"
+      ],
+      "difficultyCodes": [
+        "hard"
+      ]
+    }
+  ],
+  "oer": "Siyavula Grade 11 Physical Sciences - Stoichiometry",
+  "courseName": "CAPS Grade 11 Physical Sciences"
+}

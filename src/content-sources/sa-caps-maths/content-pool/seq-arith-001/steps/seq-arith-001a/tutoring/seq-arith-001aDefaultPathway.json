@@ -1,0 +1,35 @@
+[
+    {
+        "id": "seq-arith-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understanding Common Difference",
+        "text": "In an arithmetic sequence, the common difference $d$ is found by subtracting any term from the term that follows it:\n\n$d = T_2 - T_1 = T_3 - T_2 = T_4 - T_3$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "seq-arith-001a-h2",
+        "type": "hint",
+        "dependencies": ["seq-arith-001a-h1"],
+        "title": "Calculate the Difference",
+        "text": "Using the first two terms:\n\n$d = T_2 - T_1$\n$d = 11 - 5$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "seq-arith-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["6"],
+        "dependencies": ["seq-arith-001a-h2"],
+        "title": "The Common Difference",
+        "text": "$d = 11 - 5 = 6$\n\nYou can verify: $17 - 11 = 6$ and $23 - 17 = 6$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

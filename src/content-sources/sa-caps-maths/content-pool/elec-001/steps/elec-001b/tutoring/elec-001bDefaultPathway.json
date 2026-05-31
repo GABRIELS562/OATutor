@@ -1,0 +1,32 @@
+[
+    {
+        "id": "elec-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Convert Charges",
+        "text": "4 μC = 4 × 10⁻⁶ C and 6 μC = 6 × 10⁻⁶ C. Use magnitudes when calculating force magnitude.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "elec-001b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Convert Distance",
+        "text": "30 cm = 0.30 m. Don't forget to square this: (0.30)² = 0.09 m².",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "elec-001b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate",
+        "text": "F = (9×10⁹)(4×10⁻⁶)(6×10⁻⁶)/(0.09) = (9×10⁹)(24×10⁻¹²)/0.09 = 0.216/0.09 = 2.4 N. Since charges are opposite, this force is attractive.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

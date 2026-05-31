@@ -1,0 +1,16 @@
+{
+  "id": "endo-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "liver converts glucose to glycogen",
+    "glucose uptake by cells and glycogen storage",
+    "cells take up glucose and liver stores glycogen"
+  ],
+  "stepExplanation": "Insulin has two main effects: (1) It increases glucose uptake by body cells (especially muscle and fat cells), and (2) it stimulates the liver to convert excess glucose to **glycogen** for storage. This is negative feedback because lowered glucose inhibits further insulin release.",
+  "stepTitle": "Explain Insulin's Actions",
+  "stepBody": "How does insulin lower blood glucose levels? Describe what happens to glucose in target cells and the liver."
+}

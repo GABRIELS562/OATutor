@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-general-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Reference Angle for sin x = -1/2",
+        "text": "When $$\\sin x = -\\frac{1}{2}$$:\\n- Reference angle: $$30°$$ (since $$\\sin 30° = \\frac{1}{2}$$)\\n- Sine is negative in Quadrants 3 and 4\\n- Q3: $$180° + 30° = 210°$$\\n- Q4: $$360° - 30° = 330°$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-general-001b-h2",
+        "type": "hint",
+        "dependencies": ["trig-general-001b-h1"],
+        "title": "Solution for sin x = 1",
+        "text": "When $$\\sin x = 1$$:\\n- This only happens at $$x = 90°$$\\n- General solution: $$x = 90° + 360°k$$, where $$k \\in \\mathbb{Z}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-general-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x=210+360k or x=330+360k or x=90+360k"],
+        "dependencies": ["trig-general-001b-h2"],
+        "title": "Complete General Solution",
+        "text": "**General Solution:**\\n\\n$$x = 210° + 360°k$$ or $$x = 330° + 360°k$$ or $$x = 90° + 360°k$$\\n\\nwhere $$k \\in \\mathbb{Z}$$ (k is any integer)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

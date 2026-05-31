@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-gensol-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find the Reference Angle",
+        "text": "Since cos 30° = sqrt(3)/2, the reference angle is 30°.\n\nBut cos 2x is NEGATIVE, so we need to find where cosine is negative.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-gensol-002a-h2",
+        "type": "hint",
+        "dependencies": ["trig-gensol-002a-h1"],
+        "title": "Where is Cosine Negative?",
+        "text": "Using CAST:\n- Quadrant 2: 180° - ref angle = 180° - 30° = 150°\n- Quadrant 3: 180° + ref angle = 180° + 30° = 210°\n\nSo 2x = 150° or 2x = 210° (plus multiples of 360°)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-gensol-002a-h3",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": ["2x = 150 + 360n or 2x = 210 + 360n"],
+        "dependencies": ["trig-gensol-002a-h2"],
+        "title": "General Solution for 2x",
+        "text": "$$2x = 150° + 360°n$$ or $$2x = 210° + 360°n$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

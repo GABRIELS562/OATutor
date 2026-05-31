@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-maxmin-004a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find the Velocity Function",
+        "text": "Velocity is the derivative of height:\n\n$v(t) = \\frac{dh}{dt}$\n\nDifferentiate $h(t) = 40t - 5t^2$:\n\n$v(t) = 40 - 10t$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-maxmin-004a-h2",
+        "type": "hint",
+        "dependencies": ["calc-maxmin-004a-h1"],
+        "title": "Substitute t = 2",
+        "text": "At $t = 2$ seconds:\n\n$v(2) = 40 - 10(2)$\n\n$v(2) = 40 - 20$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-maxmin-004a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["20"],
+        "dependencies": ["calc-maxmin-004a-h2"],
+        "title": "Velocity Value",
+        "text": "$v(2) = 20$ m/s\n\nThe stone is moving upward at 20 m/s after 2 seconds.\n\n(Positive velocity indicates upward motion)",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

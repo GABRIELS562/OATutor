@@ -1,0 +1,35 @@
+[
+    {
+        "id": "fin-simple-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "The Simple Interest Formula",
+        "text": "Simple Interest: $I = P \\times r \\times t$\n\nWhere:\n- $P$ = Principal (initial amount)\n- $r$ = Rate (as a decimal)\n- $t$ = Time (in years)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-simple-001a-h2",
+        "type": "hint",
+        "dependencies": ["fin-simple-001a-h1"],
+        "title": "Convert the Rate",
+        "text": "Convert 8.5% to a decimal:\n\n$$8.5\\% = \\frac{8.5}{100} = 0.085$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-simple-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["5100"],
+        "dependencies": ["fin-simple-001a-h2"],
+        "title": "Calculate the Interest",
+        "text": "$$I = 15000 \\times 0.085 \\times 4$$\n$$I = 15000 \\times 0.34$$\n$$I = R5\\,100$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

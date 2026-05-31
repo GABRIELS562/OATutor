@@ -1,0 +1,16 @@
+{
+    "id": "trig-comp-003a",
+    "stepAnswer": ["cos A = 4/5, sin B = 5/13"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 1: Find Missing Ratios",
+    "stepBody": "Using the Pythagorean identity sin²x + cos²x = 1, find the missing ratios.\n\nSince both angles are acute, all ratios are positive.\n\nWhat are cos A and sin B?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-compound-add", "pythagorean-identity"],
+    "choices": [
+        "cos A = 4/5, sin B = 5/13",
+        "cos A = 3/5, sin B = 12/13",
+        "cos A = 5/4, sin B = 13/5",
+        "cos A = 4/5, sin B = 12/13"
+    ]
+}

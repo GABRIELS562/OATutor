@@ -1,0 +1,10 @@
+{
+    "id": "trig-comp-011b",
+    "stepAnswer": ["sin x"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Simplify Using Special Values",
+    "stepBody": "Using cos(90° - x) = cos 90° cos x + sin 90° sin x\n\nGiven that cos 90° = 0 and sin 90° = 1, simplify to get the final answer.\n\nEnter: sin x",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-compound-add", "trig-identities"]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "para-turn-002b",
+    "stepAnswer": ["x=-4 and x=2", "x = -4 and x = 2", "(-4;0) and (2;0)", "x=-4 or x=2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the X-Intercepts",
+    "stepBody": "Using $(x + 4)(x - 2) = 0$, solve for $x$.\n\nState the x-intercepts:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["intercepts", "solving-equations"]
+}

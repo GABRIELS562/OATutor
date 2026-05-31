@@ -1,0 +1,10 @@
+{
+    "id": "hyp-graph-001b",
+    "stepAnswer": ["y=1", "y = 1"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the Horizontal Asymptote",
+    "stepBody": "The horizontal asymptote is the value that $y$ approaches as $x$ approaches infinity.\n\nWhat is the equation of the horizontal asymptote?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["hyperbola-asymptotes", "asymptotes"]
+}

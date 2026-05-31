@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-statpt-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Differentiate",
+        "text": "Differentiate $f(x) = -x^3 + 3x^2 + 9x - 27$:\n\n$f'(x) = -3x^2 + 6x + 9$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-statpt-001a-h2",
+        "type": "hint",
+        "dependencies": ["calc-statpt-001a-h1"],
+        "title": "Set f'(x) = 0",
+        "text": "$-3x^2 + 6x + 9 = 0$\n\nDivide by -3:\n\n$x^2 - 2x - 3 = 0$\n\nFactor:\n\n$(x - 3)(x + 1) = 0$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-statpt-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x=-1 and x=3"],
+        "dependencies": ["calc-statpt-001a-h2"],
+        "title": "Solve for x",
+        "text": "From $(x - 3)(x + 1) = 0$:\n\n$x = 3$ or $x = -1$\n\nThe stationary points occur at $x = -1$ and $x = 3$.",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

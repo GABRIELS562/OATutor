@@ -1,0 +1,10 @@
+{
+    "id": "trig-comp-011",
+    "title": "Compound Angle: Prove Identity",
+    "body": "Prove that:\n\n$$\\cos(90° - x) = \\sin x$$\n\nusing the compound angle formula.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Chapter 4: Trigonometry",
+    "license": "CC-BY - Siyavula Education",
+    "lesson": "Trigonometry - Compound Angles",
+    "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

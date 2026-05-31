@@ -1,0 +1,20 @@
+{
+  "id": "bio-nerv-010a",
+  "type": "scaffold",
+  "problemType": "MultipleChoice",
+  "answerType": "string",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "Voltage-gated sodium channels open, sodium ions rush into the cell, making it positive inside (depolarisation)"
+  ],
+  "choices": [
+    "Voltage-gated sodium channels open, sodium ions rush into the cell, making it positive inside (depolarisation)",
+    "Potassium channels open first, allowing potassium to leave the cell",
+    "Calcium ions enter the cell, triggering neurotransmitter release",
+    "The sodium-potassium pump actively transports ions, generating the action potential"
+  ],
+  "stepExplanation": "During depolarisation: (1) A stimulus causes the membrane to reach threshold (approximately -55mV), (2) Voltage-gated sodium (Na+) channels open rapidly, (3) Sodium ions rush INTO the cell down their concentration gradient (facilitated diffusion), (4) The inside of the membrane becomes positive (up to +40mV), (5) This is called DEPOLARISATION. The influx of positive sodium ions reverses the polarity of the membrane.",
+  "stepTitle": "Depolarisation Phase",
+  "stepBody": "When a neuron reaches threshold potential, what happens during the depolarisation phase of the action potential?"
+}

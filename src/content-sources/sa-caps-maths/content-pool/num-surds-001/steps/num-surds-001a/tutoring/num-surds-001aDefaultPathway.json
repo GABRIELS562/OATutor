@@ -1,0 +1,35 @@
+[
+    {
+        "id": "num-surds-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find Perfect Square Factors",
+        "text": "To simplify a surd, find the largest perfect square factor:\n\n$72 = 36 \\times 2$ (36 is a perfect square)\n$18 = 9 \\times 2$ (9 is a perfect square)\n$50 = 25 \\times 2$ (25 is a perfect square)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "num-surds-001a-h2",
+        "type": "hint",
+        "dependencies": ["num-surds-001a-h1"],
+        "title": "Apply the Surd Rule",
+        "text": "Use $\\sqrt{a \\times b} = \\sqrt{a} \\times \\sqrt{b}$:\n\n$\\sqrt{72} = \\sqrt{36} \\times \\sqrt{2} = 6\\sqrt{2}$\n$\\sqrt{18} = \\sqrt{9} \\times \\sqrt{2} = 3\\sqrt{2}$\n$\\sqrt{50} = \\sqrt{25} \\times \\sqrt{2} = 5\\sqrt{2}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "num-surds-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["6sqrt(2)+3sqrt(2)-5sqrt(2)"],
+        "dependencies": ["num-surds-001a-h2"],
+        "title": "Rewrite the Expression",
+        "text": "The expression becomes:\n\n$$6\\sqrt{2} + 3\\sqrt{2} - 5\\sqrt{2}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

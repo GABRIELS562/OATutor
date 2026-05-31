@@ -1,0 +1,16 @@
+{
+  "id": "phys-doppler-011b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "459",
+    "459 Hz",
+    "459.5"
+  ],
+  "stepExplanation": "f' = fv/(v + v_s) = 500 x 340/370 = 170000/370 = 459.5 Hz, approximately 459 Hz",
+  "stepTitle": "Calculate Observed Frequency",
+  "stepBody": "Now calculate the observed frequency using f' = fv/(v + v_s) = 500 x 340/370. Give your answer in Hz."
+}

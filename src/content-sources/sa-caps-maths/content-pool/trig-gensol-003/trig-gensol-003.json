@@ -1,0 +1,10 @@
+{
+    "id": "trig-gensol-003",
+    "title": "General Solution: Quadratic Trig Equation",
+    "body": "Determine the general solution of:\n\n$$2\\sin^2 x - \\sin x - 1 = 0$$\n\nExpress your answer in degrees.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 2",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Trigonometry - General Solution",
+    "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

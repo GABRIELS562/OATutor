@@ -1,0 +1,15 @@
+{
+  "id": "chem-mole-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.5",
+    "0,5"
+  ],
+  "stepExplanation": "n = m/M = 50/100 = 0.5 mol",
+  "stepTitle": "Number of Moles",
+  "stepBody": "Use n = m/M to calculate the number of moles in 50 g of CaCO₃."
+}

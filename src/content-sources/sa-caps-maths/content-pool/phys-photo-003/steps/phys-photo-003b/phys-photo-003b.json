@@ -1,0 +1,16 @@
+{
+  "id": "phys-photo-003b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "6.79 x 10^14",
+    "6.8 x 10^14",
+    "6.79e14"
+  ],
+  "stepExplanation": "f_0 = W/h = (4.5 x 10^-19)/(6.63 x 10^-34) = 0.679 x 10^15 = 6.79 x 10^14 Hz",
+  "stepTitle": "Calculate Threshold Frequency",
+  "stepBody": "Calculate f_0 = W/h using W = 4.5 x 10^-19 J and h = 6.63 x 10^-34 J.s. Give your answer in Hz."
+}

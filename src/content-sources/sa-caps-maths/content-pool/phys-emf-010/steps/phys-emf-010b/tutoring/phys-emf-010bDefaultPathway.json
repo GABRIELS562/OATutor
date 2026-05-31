@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-emf-010b-h1",
+    "type": "hint",
+    "title": "Faraday's Law",
+    "text": "Faraday's Law states: EMF = -N * (d(phi)/dt), where N is the number of turns, and d(phi)/dt is the rate of change of magnetic flux.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-emf-010b-h2",
+    "type": "hint",
+    "title": "Calculate EMF",
+    "text": "EMF = -200 * (-0.015 / 0.2) = -200 * (-0.075) = 15 V. The negative signs cancel, giving a positive EMF magnitude.",
+    "variabilization": {},
+    "dependencies": ["phys-emf-010b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

@@ -1,0 +1,10 @@
+{
+    "id": "calc-rate-001b",
+    "stepAnswer": ["25", "r=25"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Radius for Specific Area Rate",
+    "stepBody": "At what radius will the area be increasing at a rate of $100\\pi$ m$^2$/s?\\n\\nGive your answer in metres:",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["related-rates", "solving-equations"]
+}

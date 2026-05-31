@@ -1,0 +1,16 @@
+{
+  "id": "phys-wave-010a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.433",
+    "0.43",
+    "2L/3"
+  ],
+  "stepExplanation": "For a string fixed at both ends, the wavelength of the nth harmonic is given by wavelength = 2L/n. For the third harmonic (n=3): wavelength = 2(0.65)/3 = 1.30/3 = 0.433 m",
+  "stepTitle": "Calculate Wavelength",
+  "stepBody": "For a string fixed at both ends vibrating at its third harmonic, the wavelength is given by wavelength = 2L/n where L is the string length and n is the harmonic number. Calculate the wavelength in metres."
+}

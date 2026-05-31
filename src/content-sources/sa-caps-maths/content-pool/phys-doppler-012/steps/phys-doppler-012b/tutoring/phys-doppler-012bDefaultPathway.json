@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-doppler-012b-h1",
+    "type": "hint",
+    "title": "Solving for Speed",
+    "text": "If v - v_s = 302.2, then v_s = v - 302.2 = 340 - 302.2",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-doppler-012b-h2",
+    "type": "hint",
+    "title": "Interpretation",
+    "text": "v_s = 340 - 302.2 = 37.8 m/s. To convert to km/h: 37.8 x 3.6 = 136 km/h. The Doppler effect is used by police radar to measure vehicle speeds, though radar uses electromagnetic waves instead of sound.",
+    "variabilization": {},
+    "dependencies": ["phys-doppler-012b-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

@@ -1,0 +1,10 @@
+{
+    "id": "geo-sim-001a",
+    "stepAnswer": ["12"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Calculate EF using similarity ratio",
+    "stepBody": "For similar triangles, corresponding sides are in proportion.\n\nThe ratio $$\\frac{DE}{AB} = \\frac{EF}{BC}$$\n\nGiven AB = 6, BC = 8, DE = 9, calculate EF.",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["geo-similar-triangles", "geo-proportional-sides"]
+}

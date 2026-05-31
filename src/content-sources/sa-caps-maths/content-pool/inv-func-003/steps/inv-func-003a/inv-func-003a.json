@@ -1,0 +1,10 @@
+{
+    "id": "inv-func-003a",
+    "stepAnswer": ["f^(-1)(x)=log_2(x)", "y=log_2(x)", "log base 2 of x", "log_2(x)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Inverse Function",
+    "stepBody": "Starting with $y = 2^x$, interchange $x$ and $y$, then express $y$ in terms of $x$.\n\nWrite the inverse function using logarithms:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["inverse-function", "exponential-graph"]
+}

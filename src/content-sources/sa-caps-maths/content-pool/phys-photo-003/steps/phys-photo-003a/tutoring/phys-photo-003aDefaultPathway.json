@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-photo-003a-h1",
+    "type": "hint",
+    "title": "Understanding Threshold Frequency",
+    "text": "The threshold frequency is the minimum frequency at which photoelectric emission begins. At this frequency, the electron is just freed with zero kinetic energy: E_k = 0.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-photo-003a-h2",
+    "type": "hint",
+    "title": "Deriving the Formula",
+    "text": "From E_k(max) = hf - W, when E_k = 0: hf_0 = W, therefore f_0 = W/h. Light below this frequency cannot eject electrons regardless of intensity - this is the key evidence for the particle nature of light.",
+    "variabilization": {},
+    "dependencies": ["phys-photo-003a-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

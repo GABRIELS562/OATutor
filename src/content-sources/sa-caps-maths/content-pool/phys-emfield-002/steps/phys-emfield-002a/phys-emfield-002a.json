@@ -1,0 +1,17 @@
+{
+  "id": "phys-emfield-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "314",
+    "314.16",
+    "100π",
+    "314 rad/s"
+  ],
+  "stepExplanation": "Angular velocity is related to frequency by:\n$$\\omega = 2\\pi f = 2\\pi \\times 50 = 100\\pi \\approx 314 \\text{ rad/s}$$",
+  "stepTitle": "Calculate Angular Velocity",
+  "stepBody": "Calculate the angular velocity (ω) using ω = 2πf where f = 50 Hz. Give your answer in rad/s."
+}

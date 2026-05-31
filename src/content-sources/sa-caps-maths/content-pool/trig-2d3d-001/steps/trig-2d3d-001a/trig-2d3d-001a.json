@@ -1,0 +1,16 @@
+{
+  "id": "trig-2d3d-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "42",
+    "41.95",
+    "42.0"
+  ],
+  "stepExplanation": "h = 50 × tan 40° ≈ 50 × 0.839 = 42 m",
+  "stepTitle": "Height of Building",
+  "stepBody": "Use tan 40° = h/50 to find building height. (tan 40° ≈ 0.839)"
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "prod-special-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Recognise Perfect Squares",
+        "text": "A difference of two squares has the form $a^2 - b^2$.\n\n$x^2$ is already a perfect square (it's $x$ squared).\n$49$ is also a perfect square: $49 = 7 \\times 7 = 7^2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "prod-special-001a-h2",
+        "type": "hint",
+        "dependencies": ["prod-special-001a-h1"],
+        "title": "Write in Standard Form",
+        "text": "$x^2 - 49 = x^2 - 7^2$\n\nHere: $a = x$ and $b = 7$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "prod-special-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x^2-7^2"],
+        "dependencies": ["prod-special-001a-h2"],
+        "title": "Expressed as Difference of Squares",
+        "text": "$x^2 - 49 = x^2 - 7^2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

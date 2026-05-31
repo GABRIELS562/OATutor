@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-doppler-011b-h1",
+    "type": "hint",
+    "title": "Calculation Steps",
+    "text": "f' = fv/(v + v_s) = 500 x 340/370. First calculate 500 x 340 = 170000, then divide by 370.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-doppler-011b-h2",
+    "type": "hint",
+    "title": "Final Answer",
+    "text": "f' = 170000/370 = 459.5 Hz. The observed frequency (459 Hz) is lower than the source frequency (500 Hz), which makes sense because the source is moving away. This is the familiar drop in pitch you hear when a car or train passes and moves away from you.",
+    "variabilization": {},
+    "dependencies": ["phys-doppler-011b-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

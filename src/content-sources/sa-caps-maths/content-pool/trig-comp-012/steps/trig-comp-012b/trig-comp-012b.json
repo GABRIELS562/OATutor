@@ -1,0 +1,10 @@
+{
+    "id": "trig-comp-012b",
+    "stepAnswer": ["1"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Substitute and Calculate",
+    "stepBody": "Using tan(A + B) = (tan A + tan B)/(1 - tan A tan B)\n\nSubstitute tan A = 1/2 and tan B = 1/3, then simplify.\n\nEnter your final answer (a single number or fraction):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-compound-add", "fractions"]
+}

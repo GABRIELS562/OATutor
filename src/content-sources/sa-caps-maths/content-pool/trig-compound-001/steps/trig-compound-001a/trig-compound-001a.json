@@ -1,0 +1,16 @@
+{
+    "id": "trig-compound-001a",
+    "stepAnswer": ["45° + 30°"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 1: Express as Sum of Special Angles",
+    "stepBody": "Write 75° as the sum of two special angles from: 30°, 45°, 60°, 90°",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-special-angles"],
+    "choices": [
+        "45° + 30°",
+        "60° + 15°",
+        "90° - 15°",
+        "50° + 25°"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "seq-geom-002a",
+    "stepAnswer": ["2560", "T10=2560"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the 10th Term",
+    "stepBody": "Given:\n- First term $a = 5$\n- Common ratio $r = 2$\n\nUsing $T_n = ar^{n-1}$, calculate $T_{10}$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["geometric-sequence"]
+}

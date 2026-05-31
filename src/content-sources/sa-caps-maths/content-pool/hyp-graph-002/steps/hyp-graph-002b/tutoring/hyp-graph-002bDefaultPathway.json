@@ -1,0 +1,35 @@
+[
+    {
+        "id": "hyp-graph-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Set Up the Equation",
+        "text": "With $p = -1$ and $q = 3$:\n\n$y = \\frac{a}{x - (-1)} + 3 = \\frac{a}{x + 1} + 3$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "hyp-graph-002b-h2",
+        "type": "hint",
+        "dependencies": ["hyp-graph-002b-h1"],
+        "title": "Substitute the Point",
+        "text": "Substitute $(1, 4)$ where $x = 1$ and $y = 4$:\n\n$4 = \\frac{a}{1 + 1} + 3$\n$4 = \\frac{a}{2} + 3$\n$1 = \\frac{a}{2}$\n$a = 2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "hyp-graph-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["y=2/(x+1)+3"],
+        "dependencies": ["hyp-graph-002b-h2"],
+        "title": "Write the Final Equation",
+        "text": "With $a = 2$, $p = -1$, and $q = 3$:\n\n$$y = \\frac{2}{x + 1} + 3$$\n\nVerify: At $x = 1$: $y = \\frac{2}{2} + 3 = 1 + 3 = 4$ ✓",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

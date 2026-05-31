@@ -1,0 +1,10 @@
+{
+    "id": "alg-fact-004b",
+    "stepAnswer": ["(7x + 4y)(7x - 4y)", "(7x - 4y)(7x + 4y)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Apply the Formula",
+    "stepBody": "Use the difference of two squares formula:\n\n$$a^2 - b^2 = (a + b)(a - b)$$\n\nWith $a = 7x$ and $b = 4y$, write the factorised form of $49x^2 - 16y^2$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "difference-of-squares", "algebraic-manipulation"]
+}

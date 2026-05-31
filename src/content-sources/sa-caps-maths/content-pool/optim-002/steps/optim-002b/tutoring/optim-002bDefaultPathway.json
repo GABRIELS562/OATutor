@@ -1,0 +1,35 @@
+[
+    {
+        "id": "optim-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Differentiate P(x)",
+        "text": "$P(x) = -0.02x^2 + 48x - 500$\n\n$P'(x) = -0.04x + 48$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "optim-002b-h2",
+        "type": "hint",
+        "dependencies": ["optim-002b-h1"],
+        "title": "Solve P'(x) = 0",
+        "text": "$-0.04x + 48 = 0$\n$0.04x = 48$\n$x = \\frac{48}{0.04} = 1200$\n\nConfirm maximum: $P''(x) = -0.04 < 0$ (confirms maximum)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "optim-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["1200"],
+        "dependencies": ["optim-002b-h2"],
+        "title": "Answer",
+        "text": "The company should produce 1200 items per week for maximum profit.\n\nMaximum profit: $P(1200) = -0.02(1200)^2 + 48(1200) - 500 = R28\\,300$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "id": "graph-line-002",
+    "title": "Finding a Parallel Line",
+    "body": "The line $y = 3x - 2$ is given. A second line is parallel to this line and passes through the point $(2, 1)$.\n\nDetermine the equation of the parallel line in the form $y = mx + c$.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 10)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Functions and Graphs - Straight Line Graphs",
+    "courseName": "CAPS Grade 10 Mathematics"
+}

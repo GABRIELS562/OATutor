@@ -1,0 +1,10 @@
+{
+    "id": "num-surds-001a",
+    "stepAnswer": ["6sqrt(2)+3sqrt(2)-5sqrt(2)", "6sqrt2+3sqrt2-5sqrt2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Simplify Each Surd",
+    "stepBody": "Simplify each surd by finding perfect square factors:\n\n$\\sqrt{72} = \\sqrt{36 \\times 2} = 6\\sqrt{2}$\n\n$\\sqrt{18} = \\sqrt{9 \\times 2} = 3\\sqrt{2}$\n\n$\\sqrt{50} = \\sqrt{25 \\times 2} = 5\\sqrt{2}$\n\nRewrite the expression using simplified surds (use sqrt for $\\sqrt{}$):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["surds", "simplification"]
+}

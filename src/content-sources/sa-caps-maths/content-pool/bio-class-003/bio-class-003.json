@@ -1,0 +1,17 @@
+{
+  "id": "bio-class-003",
+  "title": "Dichotomous Keys",
+  "body": "A dichotomous key is a tool used to identify organisms based on contrasting characteristics. Each step offers two choices that lead to further steps until the organism is identified.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-classification"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 11 Life Sciences"
+}

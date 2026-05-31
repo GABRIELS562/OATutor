@@ -1,0 +1,35 @@
+[
+    {
+        "id": "fin-simple-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Rearrange for Rate",
+        "text": "From $I = P \\times r \\times t$, solve for $r$:\n\n$$r = \\frac{I}{P \\times t}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-simple-002b-h2",
+        "type": "hint",
+        "dependencies": ["fin-simple-002b-h1"],
+        "title": "Substitute the Values",
+        "text": "$$r = \\frac{2160}{8000 \\times 3}$$\n$$r = \\frac{2160}{24000}$$\n$$r = 0.09$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-simple-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["9"],
+        "dependencies": ["fin-simple-002b-h2"],
+        "title": "Convert to Percentage",
+        "text": "$$r = 0.09 = 9\\%$$\n\nThe annual interest rate was 9%.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

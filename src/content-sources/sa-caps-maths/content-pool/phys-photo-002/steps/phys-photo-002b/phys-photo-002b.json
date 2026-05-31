@@ -1,0 +1,16 @@
+{
+  "id": "phys-photo-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "2.30 x 10^-19",
+    "2.3 x 10^-19",
+    "2.304 x 10^-19"
+  ],
+  "stepExplanation": "Using the photoelectric equation: E_k(max) = hf - W = 5.30 x 10^-19 - 3.0 x 10^-19 = 2.30 x 10^-19 J",
+  "stepTitle": "Calculate Maximum Kinetic Energy",
+  "stepBody": "Apply the photoelectric equation: E_k(max) = hf - W, where W is the work function. Calculate the maximum kinetic energy of the ejected electrons in joules."
+}

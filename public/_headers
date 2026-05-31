@@ -1,0 +1,42 @@
+# Cloudflare Pages Headers Configuration
+# SA CAPS Tutor - Optimized for South African mobile networks
+
+/*
+  # Security Headers
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+  # Content Security Policy (allow Supabase and Groq APIs)
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https:; connect-src 'self' https://*.supabase.co https://api.groq.com https://generativelanguage.googleapis.com; frame-ancestors 'none';
+
+# Cache static assets aggressively (important for SA mobile data costs)
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache images
+/*.png
+  Cache-Control: public, max-age=604800
+
+/*.jpg
+  Cache-Control: public, max-age=604800
+
+/*.svg
+  Cache-Control: public, max-age=604800
+
+# Don't cache HTML (allows updates to propagate)
+/*.html
+  Cache-Control: no-cache
+
+/index.html
+  Cache-Control: no-cache

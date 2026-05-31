@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-newton-001b-h1",
+    "type": "hint",
+    "title": "Substitute Values",
+    "text": "Substitute m = 15 kg and a = 2.5 m/s² into F = ma.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "phys-newton-001b-h2",
+    "type": "hint",
+    "title": "Calculate",
+    "text": "F = 15 × 2.5 = ?",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

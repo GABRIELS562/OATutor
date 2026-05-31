@@ -1,0 +1,35 @@
+[
+    {
+        "id": "pat-linear-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute d = 12",
+        "text": "Substitute $d = 12$ into the formula:\n\n$C = 15 + 8(12)$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "pat-linear-003b-h2",
+        "type": "hint",
+        "dependencies": ["pat-linear-003b-h1"],
+        "title": "Calculate",
+        "text": "$C = 15 + 8(12)$\n$C = 15 + 96$\n$C = 111$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "pat-linear-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["111"],
+        "dependencies": ["pat-linear-003b-h2"],
+        "title": "Final Answer",
+        "text": "The cost for a 12 km journey is R111.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

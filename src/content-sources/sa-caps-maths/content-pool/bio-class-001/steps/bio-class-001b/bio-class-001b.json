@@ -1,0 +1,16 @@
+{
+  "id": "bio-class-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "genus and species",
+    "Genus species",
+    "genus species"
+  ],
+  "stepExplanation": "Binomial nomenclature uses two Latin names: the genus name (capitalized) and the species name (lowercase). For example, Homo sapiens - Homo is the genus, sapiens is the species. This system provides a universal name for each organism.",
+  "stepTitle": "Binomial Nomenclature",
+  "stepBody": "In binomial nomenclature, which two taxonomic levels are used to form the scientific name?"
+}

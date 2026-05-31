@@ -1,0 +1,19 @@
+{
+  "id": "phys-circ-011",
+  "title": "Resistors in Series-Parallel Combination",
+  "body": "Three resistors are connected as follows: R1 = 6 ohm and R2 = 3 ohm are connected in parallel, and this parallel combination is connected in series with R3 = 8 ohm. A 12 V battery with negligible internal resistance is connected across the circuit. Calculate: (a) the total resistance of the circuit, and (b) the current flowing through R3.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-circuits",
+        "phys-ohms-law"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences",
+  "source": "Siyavula Grade 12 Physical Sciences - Electric Circuits"
+}

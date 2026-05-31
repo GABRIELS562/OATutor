@@ -1,0 +1,10 @@
+{
+    "id": "trig-double-001",
+    "title": "Double Angle: sin 2A",
+    "body": "If $$\\cos A = -\\frac{3}{5}$$ and A is in the second quadrant (90° < A < 180°),\n\ncalculate the exact value of $$\\sin 2A$$.\n\nLeave your answer as a fraction.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 2",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Trigonometry - Double Angles",
+    "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

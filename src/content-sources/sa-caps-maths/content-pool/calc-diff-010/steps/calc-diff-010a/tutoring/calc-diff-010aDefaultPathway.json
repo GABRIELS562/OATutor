@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-diff-010a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute (x+h) for x",
+        "text": "Replace every $x$ in the function with $(x+h)$:\n\n$f(x+h) = (x+h)^2 - 4(x+h) + 3$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-diff-010a-h2",
+        "type": "hint",
+        "dependencies": ["calc-diff-010a-h1"],
+        "title": "Expand the Perfect Square",
+        "text": "Use the identity $(a+b)^2 = a^2 + 2ab + b^2$:\n\n$(x+h)^2 = x^2 + 2xh + h^2$\n\nAlso expand $-4(x+h) = -4x - 4h$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-diff-010a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x^2+2xh+h^2-4x-4h+3"],
+        "dependencies": ["calc-diff-010a-h2"],
+        "title": "Complete the Expansion",
+        "text": "Combining all terms:\n\n$f(x+h) = x^2 + 2xh + h^2 - 4x - 4h + 3$\n\nThis is the expanded form needed for the next step.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

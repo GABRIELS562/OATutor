@@ -1,0 +1,35 @@
+[
+    {
+        "id": "prob-count-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Fixed Position",
+        "text": "The chairperson's position is fixed (centre), so we only need to arrange the remaining 4 people in the 4 remaining positions.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "prob-count-001a-h2",
+        "type": "hint",
+        "dependencies": ["prob-count-001a-h1"],
+        "title": "Permutation Formula",
+        "text": "The number of ways to arrange $n$ distinct objects is $n!$ (n factorial).\\n\\nFor 4 people: $4! = 4 \\times 3 \\times 2 \\times 1$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "prob-count-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["24"],
+        "dependencies": ["prob-count-001a-h2"],
+        "title": "Calculate",
+        "text": "$4! = 4 \\times 3 \\times 2 \\times 1 = 24$ ways",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

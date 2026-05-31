@@ -1,0 +1,16 @@
+{
+  "id": "gen-punnett-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "RR, Rr, Rr, rr",
+    "RR,Rr,Rr,rr",
+    "1 RR : 2 Rr : 1 rr"
+  ],
+  "stepExplanation": "The Punnett square for Rr x Rr gives: RR (1), Rr (2), rr (1). This is a 1:2:1 genotypic ratio.",
+  "stepTitle": "Complete the Punnett Square",
+  "stepBody": "Set up a Punnett square for Rr x Rr. What are the four possible genotypes of F2 offspring? (List them separated by commas)"
+}

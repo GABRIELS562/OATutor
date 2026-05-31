@@ -1,0 +1,15 @@
+{
+  "id": "phys-newton-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "37.5",
+    "37,5"
+  ],
+  "stepExplanation": "$$F = ma = 15 \\text{ kg} \\times 2.5 \\text{ m/s}^2 = 37.5 \\text{ N}$$",
+  "stepTitle": "Calculate the Force",
+  "stepBody": "Using F = ma, calculate the net force on the 15 kg trolley accelerating at 2.5 m/s². Give your answer in Newtons (N)."
+}

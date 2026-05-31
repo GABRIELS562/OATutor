@@ -1,0 +1,10 @@
+{
+    "id": "optim-001",
+    "title": "Optimization: Maximum Area",
+    "body": "A farmer has 200 metres of fencing to enclose a rectangular paddock. One side of the paddock is against a river and does not need fencing.\n\nLet $x$ be the length of each of the two sides perpendicular to the river.\n\nFind the dimensions of the paddock that will give the maximum area.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Differential Calculus - Optimization",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

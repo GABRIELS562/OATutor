@@ -1,0 +1,15 @@
+{
+  "id": "g11-func-003",
+  "title": "Hyperbola: Finding Asymptotes",
+  "body": "Given the hyperbola g(x) = 3/(x - 2) + 1, determine the equations of the horizontal and vertical asymptotes.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["hyperbola-asymptotes"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "oer": "https://www.siyavula.com/read/za/mathematics/grade-11/functions",
+  "license": "CC BY 4.0",
+  "courseName": "CAPS Grade 11 Mathematics"
+}

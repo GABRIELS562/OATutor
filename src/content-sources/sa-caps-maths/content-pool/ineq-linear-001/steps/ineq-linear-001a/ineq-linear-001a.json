@@ -1,0 +1,10 @@
+{
+    "id": "ineq-linear-001a",
+    "stepAnswer": ["x<4", "x < 4"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Solve the Inequality",
+    "stepBody": "Solve $3x - 5 < 7$ for x.\n\nTreat it like an equation, but keep the inequality sign.\n\nEnter as: x<4",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["inequalities", "linear-equations"]
+}

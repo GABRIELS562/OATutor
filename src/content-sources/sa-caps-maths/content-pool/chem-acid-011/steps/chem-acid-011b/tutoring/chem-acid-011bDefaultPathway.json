@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-acid-011b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify Mole Ratio",
+        "text": "From HCl + NaOH -> NaCl + H2O, the mole ratio of HCl:NaOH is 1:1, so n(HCl) = n(NaOH) = 0.002 mol",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-011b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Convert HCl Volume",
+        "text": "Convert 25 cm^3 to dm^3: 25/1000 = 0.025 dm^3",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-011b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Concentration",
+        "text": "C(HCl) = n/V = 0.002 mol / 0.025 dm^3 = 0.08 mol/dm^3",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

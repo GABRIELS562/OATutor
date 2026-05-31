@@ -1,0 +1,35 @@
+[
+    {
+        "id": "ineq-linear-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understanding Interval Notation",
+        "text": "For $x < 4$:\n- x can be any value less than 4\n- x cannot equal 4 (strict inequality)\n- x extends to negative infinity",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "ineq-linear-001b-h2",
+        "type": "hint",
+        "dependencies": ["ineq-linear-001b-h1"],
+        "title": "Writing Interval Notation",
+        "text": "Interval notation format: (lower bound, upper bound)\n- Round bracket ( means \"not included\"\n- Square bracket [ means \"included\"\n- Infinity always uses round bracket\n\nFor $x < 4$: $(-\\infty, 4)$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "ineq-linear-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(-infinity,4)"],
+        "dependencies": ["ineq-linear-001b-h2"],
+        "title": "Final Answer",
+        "text": "In interval notation: $(-\\infty, 4)$\n\nOn a number line:\n```\n<--------o\n         4\n```\nOpen circle at 4, arrow extending left.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

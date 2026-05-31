@@ -1,0 +1,15 @@
+{
+  "id": "chem-ester-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "32",
+    "32 g/mol"
+  ],
+  "stepExplanation": "Methanol = CH₃OH. Molar mass = 1(12) + 4(1) + 1(16) = 12 + 4 + 16 = 32 g/mol",
+  "stepTitle": "Molar Mass of Alcohol",
+  "stepBody": "Calculate the molar mass of methanol (CH₃OH) in g/mol."
+}

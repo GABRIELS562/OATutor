@@ -1,0 +1,16 @@
+{
+  "id": "bio-endocrine-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "negative feedback",
+    "negative feedback mechanism",
+    "negative feedback loop"
+  ],
+  "stepExplanation": "This is an example of a **NEGATIVE FEEDBACK** mechanism:\n\n**How negative feedback works:**\n1. A change occurs (increase in thyroid hormones)\n2. This change is detected (by hypothalamus/pituitary)\n3. A response is triggered that OPPOSES the change\n4. TSH is reduced, which should reduce thyroid hormone production\n5. The system attempts to return to normal (homeostasis)\n\n**\"Negative\"** refers to the response being OPPOSITE to the change:\n- MORE thyroid hormone leads to LESS TSH\n- LESS thyroid hormone would lead to MORE TSH\n\n**Symptoms of hyperthyroidism:**\n- Increased metabolic rate\n- Weight loss despite increased appetite\n- Rapid heartbeat, anxiety, tremors\n- Heat intolerance, excessive sweating\n- Enlarged thyroid (goiter) in some cases",
+  "stepTitle": "Type of Feedback Mechanism",
+  "stepBody": "What type of feedback mechanism explains why high thyroid hormone levels cause low TSH levels?"
+}

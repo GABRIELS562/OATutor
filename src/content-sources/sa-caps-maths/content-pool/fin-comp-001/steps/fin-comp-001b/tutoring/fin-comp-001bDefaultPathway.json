@@ -1,0 +1,25 @@
+[
+    {
+        "id": "fin-comp-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute Values",
+        "text": "$A = 25000(1 + 0.02375)^{24}$\n$A = 25000(1.02375)^{24}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-comp-001b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["R43 698.21"],
+        "dependencies": ["fin-comp-001b-h1"],
+        "title": "Calculate",
+        "text": "$(1.02375)^{24} = 1.74792837...$\n\n$A = 25000 \\times 1.74792837 = R43\\,698.21$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

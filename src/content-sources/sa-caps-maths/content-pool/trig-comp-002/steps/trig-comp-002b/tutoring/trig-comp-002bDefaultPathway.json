@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-comp-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply the Identity",
+        "text": "With A = 80° and B = 20°:\n$$\\cos 80° \\cos 20° + \\sin 80° \\sin 20° = \\cos(80° - 20°)$$\n$$= \\cos 60°$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-comp-002b-h2",
+        "type": "hint",
+        "dependencies": ["trig-comp-002b-h1"],
+        "title": "Special Angle Value",
+        "text": "60° is a special angle. From the 30-60-90 triangle or the unit circle:\n$$\\cos 60° = \\frac{1}{2}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-comp-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["1/2"],
+        "dependencies": ["trig-comp-002b-h2"],
+        "title": "Final Answer",
+        "text": "$$\\cos 80° \\cos 20° + \\sin 80° \\sin 20° = \\cos 60° = \\frac{1}{2}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,14 @@
+{
+  "id": "anl-midpoint-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "2"
+  ],
+  "stepExplanation": "y = (5 + (-1))/2 = 4/2 = 2. Midpoint is (2, 2)",
+  "stepTitle": "y-coordinate",
+  "stepBody": "Calculate the y-coordinate of the midpoint."
+}

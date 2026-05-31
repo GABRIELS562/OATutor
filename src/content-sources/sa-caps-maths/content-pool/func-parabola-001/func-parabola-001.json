@@ -1,0 +1,10 @@
+{
+    "id": "func-parabola-001",
+    "title": "Finding the Equation of a Parabola",
+    "body": "A parabola has x-intercepts at $x = -2$ and $x = 4$, and passes through the point $(1, -9)$.\\n\\nDetermine the equation of the parabola in the form $y = a(x - p)(x - q)$, then expand to standard form.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 11)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Functions and Graphs - Parabolas",
+    "courseName": "CAPS Grade 11 Mathematics"
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-simplify-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Divide the Coefficients",
+        "text": "Divide the numerical coefficients: $\\frac{4}{2} = 2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-simplify-002a-h2",
+        "type": "hint",
+        "dependencies": ["alg-simplify-002a-h1"],
+        "title": "Handle the Variables with Negative Exponents",
+        "text": "For division, subtract exponents:\n\nFor $a$: $a^{-2} \\div a^3 = a^{-2-3} = a^{-5}$\n\nFor $b$: $b^3 \\div b^{-1} = b^{3-(-1)} = b^{3+1} = b^4$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-simplify-002a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["2b^4/a^5"],
+        "dependencies": ["alg-simplify-002a-h2"],
+        "title": "Combine the Result",
+        "text": "The expression becomes: $2a^{-5}b^4$ or equivalently $\\frac{2b^4}{a^5}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "id": "ineq-linear-002a",
+    "stepAnswer": ["-2x>=4", "-2x >= 4"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Isolate the Term with x",
+    "stepBody": "Subtract 6 from both sides of $-2x + 6 \\geq 10$.\n\nWhat do you get?\n\nEnter as: -2x>=4",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["inequalities", "linear-equations"]
+}

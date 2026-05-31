@@ -1,0 +1,16 @@
+{
+  "id": "chem-acid-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.012",
+    "0,012",
+    "1.2 × 10⁻²"
+  ],
+  "stepExplanation": "From equation: H₂SO₄ : NaOH = 1:2. n(NaOH) = 2 × n(H₂SO₄) = 2 × 0.006 = 0.012 mol",
+  "stepTitle": "Moles of NaOH Required",
+  "stepBody": "Using the mole ratio from the balanced equation (1:2), calculate moles of NaOH needed."
+}

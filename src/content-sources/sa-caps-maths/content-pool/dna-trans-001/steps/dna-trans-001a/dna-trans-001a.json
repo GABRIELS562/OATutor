@@ -1,0 +1,15 @@
+{
+  "id": "dna-trans-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "A-U, T-A, G-C, C-G",
+    "A to U, T to A, G to C, C to G"
+  ],
+  "stepExplanation": "During transcription, DNA bases pair with RNA bases: Adenine (A) pairs with Uracil (U), Thymine (T) pairs with Adenine (A), Guanine (G) pairs with Cytosine (C), and Cytosine (C) pairs with Guanine (G).",
+  "stepTitle": "Identify Base Pairing Rules",
+  "stepBody": "In transcription, RNA polymerase reads the DNA template strand and creates a complementary mRNA. What RNA base pairs with each DNA base? (Remember: RNA has Uracil instead of Thymine)"
+}

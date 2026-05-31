@@ -1,0 +1,15 @@
+{
+  "id": "chem-equilibrium-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "exothermic",
+    "Exothermic"
+  ],
+  "stepExplanation": "ΔH = -92 kJ is negative, so the forward reaction is exothermic",
+  "stepTitle": "Identify Reaction Type",
+  "stepBody": "Is this reaction exothermic or endothermic? (Look at the sign of ΔH)"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "elec-003",
+  "title": "Electrostatics - Force on a Charge in an Electric Field",
+  "body": "A uniform electric field of strength 2000 N/C exists between two parallel plates. A small sphere carrying a charge of -5 μC is placed in this field. Calculate the magnitude of the force on the sphere and state whether it moves toward the positive or negative plate.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-circuits"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

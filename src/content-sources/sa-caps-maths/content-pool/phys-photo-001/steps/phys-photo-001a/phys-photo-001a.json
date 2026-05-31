@@ -1,0 +1,20 @@
+{
+    "id": "phys-photo-001a",
+    "type": "scaffold",
+    "problemType": "MultipleChoice",
+    "answerType": "string",
+    "hpiVariables": [],
+    "variabilization": {},
+    "stepAnswer": [
+        "E = hc/lambda"
+    ],
+    "stepExplanation": "The energy of a photon can be calculated using E = hf, where f = c/lambda. Combining these gives E = hc/lambda. This is the most useful form when wavelength is given.",
+    "stepTitle": "Identify the Formula",
+    "stepBody": "Which formula is most appropriate to calculate photon energy when the wavelength is given?",
+    "choices": [
+        "E = hf",
+        "E = hc/lambda",
+        "E = mc^2",
+        "E = 1/2 mv^2"
+    ]
+}

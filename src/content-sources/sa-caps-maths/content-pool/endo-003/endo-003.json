@@ -1,0 +1,13 @@
+{
+  "id": "endo-003",
+  "title": "Endocrine System - Adrenal Gland Response",
+  "body": "During a stressful situation like being chased by an aggressive dog, your body initiates the 'fight or flight' response. Which gland and hormone are primarily responsible, and describe three physiological effects this hormone produces.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-hormones"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

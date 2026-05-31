@@ -1,0 +1,15 @@
+{
+  "id": "phys-projectile-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "v² = u² + 2as",
+    "v^2=u^2+2as"
+  ],
+  "stepExplanation": "We use v² = u² + 2as where v=0 at max height",
+  "stepTitle": "Identify the Formula",
+  "stepBody": "Which kinematic equation relates initial velocity, final velocity, acceleration, and displacement?"
+}

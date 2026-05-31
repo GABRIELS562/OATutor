@@ -1,0 +1,14 @@
+{
+  "id": "phys-gravity-002",
+  "title": "Newton's Law of Universal Gravitation - Gravitational Acceleration",
+  "body": "A satellite orbits Earth at an altitude of 400 km above Earth's surface. Calculate the gravitational acceleration at this altitude. Given: Mass of Earth = 6.0 × 10²⁴ kg, Radius of Earth = 6.4 × 10⁶ m, G = 6.67 × 10⁻¹¹ N·m²/kg².",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-gravitation"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

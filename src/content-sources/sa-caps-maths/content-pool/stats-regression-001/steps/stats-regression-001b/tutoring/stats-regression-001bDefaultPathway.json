@@ -1,0 +1,38 @@
+[
+    {
+        "id": "stats-regression-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Y-intercept Formula",
+        "text": "The y-intercept a is calculated using:\\n$$a = \\bar{y} - b\\bar{x}$$\\n\\nThe regression line always passes through $$(\\bar{x}, \\bar{y})$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "stats-regression-001b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["44"],
+        "dependencies": ["stats-regression-001b-h1"],
+        "title": "Calculate a",
+        "text": "$$a = 64 - 5(4) = 64 - 20 = ?$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "stats-regression-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["y=44+5x"],
+        "dependencies": ["stats-regression-001b-h2"],
+        "title": "Write the Equation",
+        "text": "The least squares regression line is:\\n$$\\hat{y} = 44 + 5x$$\\n\\nThis means: for every extra hour studied, the score increases by 5 marks.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

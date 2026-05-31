@@ -1,0 +1,10 @@
+{
+    "id": "func-log-002",
+    "title": "Applying Logarithm Laws",
+    "body": "Simplify the following expression using logarithm laws:\n\n$$\\log_2 8 + \\log_2 4 - \\log_2 2$$\n\n(a) First, simplify by applying the product and quotient rules.\n\n(b) Calculate the final numerical value.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Functions Chapter 3.3",
+    "license": "CC BY 4.0 - Creative Commons Attribution",
+    "lesson": "3.3 Logarithmic Functions",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

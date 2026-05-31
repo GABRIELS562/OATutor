@@ -1,0 +1,10 @@
+{
+    "id": "calc-deriv-003a",
+    "stepAnswer": ["2(x+h)^2+3(x+h)", "2x^2+4xh+2h^2+3x+3h"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find f(x+h)",
+    "stepBody": "Substitute $(x+h)$ for $x$ in $f(x) = 2x^2 + 3x$.\n\nWrite the expression for $f(x+h)$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["first-principles", "substitution"]
+}

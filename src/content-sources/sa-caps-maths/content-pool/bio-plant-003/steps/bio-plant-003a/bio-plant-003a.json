@@ -1,0 +1,20 @@
+{
+    "id": "bio-plant-003a",
+    "type": "scaffold",
+    "problemType": "MultipleChoice",
+    "answerType": "string",
+    "hpiVariables": [],
+    "variabilization": {},
+    "stepAnswer": [
+        "Long uninterrupted dark period"
+    ],
+    "stepExplanation": "Short-day plants actually require a long, uninterrupted dark period to flower. The critical factor is darkness, not daylight. Examples include chrysanthemums, poinsettias, and strawberries that flower in autumn or winter.",
+    "stepTitle": "Short-Day Plant Requirements",
+    "stepBody": "What conditions do short-day plants require to flower?",
+    "choices": [
+        "Long uninterrupted dark period",
+        "Short dark period",
+        "Continuous light",
+        "Equal day and night"
+    ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-plant-005b-h1",
+    "type": "hint",
+    "title": "Gibberellin Effects",
+    "text": "Gibberellins promote stem elongation, seed germination, and fruit development. They were discovered studying a fungal disease of rice that caused excessive stem growth.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-plant-005b-h2",
+    "type": "hint",
+    "title": "Commercial Fruit Production",
+    "text": "In viticulture (grape growing), gibberellins are sprayed on grape clusters. They elongate the stems between berries (less disease, easier drying for raisins), increase berry size, and can produce seedless fruit. Thompson seedless grapes are commonly treated.",
+    "variabilization": {},
+    "dependencies": ["bio-plant-005b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

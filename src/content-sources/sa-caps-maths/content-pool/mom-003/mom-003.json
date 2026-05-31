@@ -1,0 +1,14 @@
+{
+  "id": "mom-003",
+  "title": "Momentum - Elastic Collision",
+  "body": "A 2 kg ball moving at 6 m/s collides elastically with a stationary 4 kg ball. After the collision, the 2 kg ball moves at 2 m/s in the opposite direction. Calculate the velocity of the 4 kg ball after the collision.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-momentum"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

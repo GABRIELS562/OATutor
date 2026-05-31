@@ -1,0 +1,15 @@
+{
+  "id": "anl-tangent-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "4/3",
+    "1.33"
+  ],
+  "stepExplanation": "m_radius = (4-0)/(3-0) = 4/3",
+  "stepTitle": "Gradient of Radius",
+  "stepBody": "Calculate the gradient of the radius from origin (0,0) to point (3,4)."
+}

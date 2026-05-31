@@ -1,0 +1,16 @@
+{
+  "id": "phys-light-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "2 x 10^-6",
+    "2e-6",
+    "0.000002"
+  ],
+  "stepExplanation": "If there are 500 lines per mm, the spacing d = 1 mm / 500 = 0.002 mm = 2 x 10^-6 m = 2 micrometres",
+  "stepTitle": "Calculate Grating Spacing",
+  "stepBody": "The grating equation is d sin(theta) = n lambda. First, calculate the grating spacing d. If there are 500 lines per mm, what is the spacing d in metres?"
+}

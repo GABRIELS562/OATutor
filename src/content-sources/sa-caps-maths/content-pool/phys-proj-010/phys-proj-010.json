@@ -1,0 +1,19 @@
+{
+  "id": "phys-proj-010",
+  "title": "Ball Thrown Vertically Upward",
+  "body": "A ball is thrown vertically upward from the ground with an initial velocity of 25 m/s. Taking upward as positive and using $$g = 10 \\ m/s^2$$, calculate: (a) the maximum height reached by the ball, and (b) the total time the ball is in the air before returning to the ground.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-projectile"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "Siyavula Physical Sciences Grade 12 - Vertical Projectile Motion",
+  "license": "CC BY 4.0",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

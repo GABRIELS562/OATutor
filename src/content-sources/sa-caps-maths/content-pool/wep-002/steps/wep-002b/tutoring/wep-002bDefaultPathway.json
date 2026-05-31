@@ -1,0 +1,32 @@
+[
+    {
+        "id": "wep-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Energy at the Start",
+        "text": "At 20 m: Ep = mgh = (2)(10)(20) = 400 J, Ek = 0 (ball is dropped, not thrown). Total ME = 400 J.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "wep-002b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Energy at 5 m",
+        "text": "At 5 m: Ep = mgh = (2)(10)(5) = 100 J. Since ME is conserved: Ek = 400 - 100 = 300 J.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "wep-002b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Finding Speed",
+        "text": "Ek = ½mv², so 300 = ½(2)v², giving v² = 300 and v = √300 = 17.32 m/s.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

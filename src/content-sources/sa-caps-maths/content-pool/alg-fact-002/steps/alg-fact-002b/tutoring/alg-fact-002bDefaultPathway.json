@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-fact-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Using the Numbers",
+        "text": "For $x^2 + bx + c = (x + m)(x + n)$ where $m$ and $n$ are the two numbers.\n\nOur numbers are $3$ and $-8$, so:\n$x^2 - 5x - 24 = (x + 3)(x + (-8))$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-fact-002b-h2",
+        "type": "hint",
+        "dependencies": ["alg-fact-002b-h1"],
+        "title": "Simplify the Form",
+        "text": "$(x + (-8))$ is usually written as $(x - 8)$\n\nSo: $x^2 - 5x - 24 = (x + 3)(x - 8)$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-fact-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(x + 3)(x - 8)"],
+        "dependencies": ["alg-fact-002b-h2"],
+        "title": "Final Answer",
+        "text": "$x^2 - 5x - 24 = (x + 3)(x - 8)$\n\nVerify by expanding: $(x+3)(x-8) = x^2 - 8x + 3x - 24 = x^2 - 5x - 24$ ✓",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    }
+]

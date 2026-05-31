@@ -1,0 +1,10 @@
+{
+    "id": "seq-arith-003b",
+    "stepAnswer": ["1250", "S25=1250"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate the Sum",
+    "stepBody": "Now that we know there are 25 terms, use the sum formula:\n$$S_n = \\frac{n}{2}(a + l)$$\n\nwhere $l$ is the last term (98). Calculate $S_{25}$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["arithmetic-sequence", "series-sum"]
+}

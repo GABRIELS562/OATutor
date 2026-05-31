@@ -1,0 +1,15 @@
+{
+  "id": "bio-evol-020",
+  "title": "Human Evolution - Fossil Evidence and Hominin Species",
+  "body": "Scientists have discovered numerous hominin fossils in Africa that provide evidence for human evolution. The Taung Child, discovered in 1924 in South Africa by Raymond Dart, was a significant find. Analyze the characteristics of Australopithecus africanus and explain its importance in understanding human evolution.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-human-evolution"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/human-evolution",
+  "license": "CC BY 4.0",
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

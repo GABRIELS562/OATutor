@@ -1,0 +1,10 @@
+{
+    "id": "fin-simple-001b",
+    "stepAnswer": ["20100", "R20100", "R 20100", "R20 100", "20 100"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate the Total Amount",
+    "stepBody": "The total amount is the sum of principal and interest:\n\n$$A = P + I$$\n$$A = R15\\,000 + R5\\,100$$\n\nCalculate the total amount in Thabo's account after 4 years:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["simple-interest", "financial-mathematics"]
+}

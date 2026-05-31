@@ -1,0 +1,16 @@
+{
+    "id": "chem-equil-013b",
+    "type": "scaffold",
+    "problemType": "TextBox",
+    "answerType": "string",
+    "hpiVariables": [],
+    "variabilization": {},
+    "stepAnswer": [
+        "right",
+        "forward",
+        "towards products"
+    ],
+    "stepExplanation": "Increasing pressure favors the side with fewer moles of gas. Left has 3 mol, right has 2 mol. Equilibrium shifts RIGHT towards the products.",
+    "stepTitle": "Determine Shift Direction",
+    "stepBody": "When pressure increases, the equilibrium shifts to the side with fewer moles of gas. Which way does this equilibrium shift? (Answer: left, right, or no change)"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "phys-wave-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "100",
+    "100 m/s"
+  ],
+  "stepExplanation": "v = 50 × 2 = 100 m/s",
+  "stepTitle": "Calculate Speed",
+  "stepBody": "Calculate v = 50 × 2. Give answer in m/s."
+}

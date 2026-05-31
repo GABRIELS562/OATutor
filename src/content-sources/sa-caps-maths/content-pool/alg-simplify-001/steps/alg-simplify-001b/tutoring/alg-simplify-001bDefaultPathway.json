@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-simplify-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Divide the Coefficients",
+        "text": "Divide the numerical coefficients: $\\frac{6}{6} = 1$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-simplify-001b-h2",
+        "type": "hint",
+        "dependencies": ["alg-simplify-001b-h1"],
+        "title": "Apply the Exponent Law for Division",
+        "text": "When dividing powers with the same base, subtract the exponents:\n\n$$\\frac{x^5}{x^4} = x^{5-4} = x^1 = x$$\n$$\\frac{y^4}{y^2} = y^{4-2} = y^2$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-simplify-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["xy^2"],
+        "dependencies": ["alg-simplify-001b-h2"],
+        "title": "Final Answer",
+        "text": "Combining everything:\n\n$$\\frac{6x^5y^4}{6x^4y^2} = 1 \\cdot x \\cdot y^2 = xy^2$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

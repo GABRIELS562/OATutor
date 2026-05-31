@@ -1,0 +1,10 @@
+{
+    "id": "func-hyp-002",
+    "title": "Hyperbola: Domain, Range, and Transformations",
+    "body": "The graph of $g(x) = \\frac{a}{x+p} + q$ has asymptotes at $x = -3$ and $y = 2$, and passes through the point $(1, 3)$.\\n\\na) Determine the values of $p$ and $q$.\\nb) Find the value of $a$.",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 11)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Functions - Hyperbola",
+    "courseName": "CAPS Grade 11 Mathematics"
+}

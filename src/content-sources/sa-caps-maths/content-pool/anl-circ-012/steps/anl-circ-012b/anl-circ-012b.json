@@ -1,0 +1,10 @@
+{
+    "id": "anl-circ-012b",
+    "stepAnswer": ["5"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate Radius and Write Equation",
+    "stepBody": "The radius is the distance from centre M(1, 1) to point A(-3, 4).\n\nCalculate the radius.\n\nThe equation will be: $$(x-1)^2 + (y-1)^2 = r^2$$",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["anl-distance-formula", "anl-circle-center-form"]
+}

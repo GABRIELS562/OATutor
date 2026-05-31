@@ -1,0 +1,10 @@
+{
+    "id": "alg-quadratic-001b",
+    "stepAnswer": ["x=2 or x=3", "x=3 or x=2", "2 or 3", "3 or 2", "2, 3", "3, 2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find the Values of x",
+    "stepBody": "From $(x-2)(x-3) = 0$, use the zero product property to find the values of $x$.\\n\\nEnter both solutions (e.g., x=2 or x=3):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["quadratic-equations", "zero-product-property"]
+}

@@ -1,108 +1,279 @@
-import React, { createContext, useState, useContext, useEffect } from 'react';
-import {DEFAULT_LANGUAGE, AVAILABLE_LANGUAGES} from '../config/config.js';
+/**
+ * LocalizationContext - Bilingual support for English ⇄ Afrikaans
+ *
+ * Features:
+ * - App-wide i18n with persistent language switch
+ * - Saves preference to SQLite database
+ * - Falls back to localStorage for offline/initial load
+ * - Loads translations from JSON files
+ * - Supports per-course language override
+ */
+
+import React, { createContext, useState, useContext, useEffect, useCallback, useMemo } from 'react';
+import { DEFAULT_LANGUAGE, AVAILABLE_LANGUAGES, LANGUAGE_NAMES } from '../config/config.js';
+import db from '../database/DatabaseService';
+
+// Import translation files
+import enTranslations from '../locales/en.json';
+import afTranslations from '../locales/af.json';
 
 const LocalizationContext = createContext();
 
-export const LocalizationProvider = ({ children }) => {
-  const [platformLanguage, setPlatformLanguage ] = useState(() => {
-
-    // REMOVES URL ENCODING OF LANGUAGE TO LOCAL STATE 
-
-    // const hashParams = new URLSearchParams(window.location.hash.split('?')[1]);
-    // const langFromUrl = hashParams.get('locale');
-    // if (langFromUrl && ['en', 'es', 'se'].includes(langFromUrl)) {
-    //   localStorage.setItem('locale', langFromUrl);
-    //   localStorage.setItem('defaultLocale', langFromUrl);
-    //   return langFromUrl;
-    // }
-
-    const stored = localStorage.getItem('platformLanguage');
-    return AVAILABLE_LANGUAGES.includes(stored) ? stored : DEFAULT_LANGUAGE;
-  });
-
-  const [activeLanguage, setActiveLanguage] = useState(platformLanguage);
-  const [currentCourseName, setCurrentCourseName] = useState(null);
-
-  useEffect(() => {
-
-    // REMOVES URL ENCODING OF LANGUAGE TO LOCAL STATE
-    
-    // const updateLanguageFromUrl = () => {
-    //   const hashParams = new URLSearchParams(window.location.hash.split('?')[1]);
-    //   const langFromUrl = hashParams.get('locale');
-    //   if (langFromUrl && ['en', 'es', 'se'].includes(langFromUrl)) {
-    //     setLanguage(langFromUrl);
-    //     localStorage.setItem('locale', langFromUrl);
-    //     localStorage.setItem('defaultLocale', langFromUrl);
-    //   }
-    // };
-
-    // window.addEventListener('hashchange', updateLanguageFromUrl);
-
-    // return () => {
-    //   window.removeEventListener('hashchange', updateLanguageFromUrl);
-    // };
-
-    localStorage.setItem('platformLanguage', platformLanguage);
-  }, [platformLanguage]);
-
-
-  useEffect(() => {
-    // if (['en', 'es', 'se'].includes(language)) {
-    //   localStorage.setItem('locale', language);
-    // }
-    if (!currentCourseName) {
-      setActiveLanguage(platformLanguage);
-    }
-  }, [platformLanguage, currentCourseName]);
-
-  /**
-   * Called when entering a course
-   * @param courseName 
-   * @param courseLanguage 
-   */
-  const enterCourse = (courseName, courseLanguage) => {
-    setCurrentCourseName(courseName);
-    const savedLang = sessionStorage.getItem(`course_lang_${courseName}`);
-    
-    if (savedLang && AVAILABLE_LANGUAGES.includes(savedLang)) {
-      setActiveLanguage(savedLang);
-    } else if (courseLanguage && AVAILABLE_LANGUAGES.includes(courseLanguage)) {
-      setActiveLanguage(courseLanguage);
-      sessionStorage.setItem(`course_lang_${courseName}`, courseLanguage);
-    } else {
-      setActiveLanguage(platformLanguage);
-    }
-  };
-
-  /**
-   * Called when leaving a course (going to home)
-   */
-  const exitCourse = () => {
-    setCurrentCourseName(null);
-    setActiveLanguage(platformLanguage);
-  };
-
-  const setLanguage = (lang) => {
-    if (!AVAILABLE_LANGUAGES.includes(lang)) return;
-    setPlatformLanguage(lang);
-  };
-
-  return (
-    <LocalizationContext.Provider 
-      value={{
-        language: activeLanguage,
-        platformLanguage, 
-        setLanguage,
-        enterCourse,
-        exitCourse,
-        SUPPORTED_LANGUAGES: AVAILABLE_LANGUAGES
-      }}>
-      {children}
-    </LocalizationContext.Provider>
-  );
+// All available translations
+const TRANSLATIONS = {
+    en: enTranslations,
+    af: afTranslations
 };
 
-export const useLocalization = () => useContext(LocalizationContext);
+/**
+ * Get nested value from object using dot notation
+ * @param {Object} obj - Object to search
+ * @param {string} path - Dot-notated path (e.g., 'problem.Submit')
+ * @param {*} fallback - Fallback value if not found
+ */
+const getNestedValue = (obj, path, fallback = null) => {
+    const keys = path.split('.');
+    let current = obj;
 
+    for (const key of keys) {
+        if (current && typeof current === 'object' && key in current) {
+            current = current[key];
+        } else {
+            return fallback;
+        }
+    }
+
+    return current ?? fallback;
+};
+
+export const LocalizationProvider = ({ children, userId }) => {
+    // Language state
+    const [platformLanguage, setPlatformLanguage] = useState(() => {
+        // First try localStorage for immediate load
+        const stored = localStorage.getItem('platformLanguage');
+        return AVAILABLE_LANGUAGES.includes(stored) ? stored : DEFAULT_LANGUAGE;
+    });
+
+    const [activeLanguage, setActiveLanguage] = useState(platformLanguage);
+    const [currentCourseName, setCurrentCourseName] = useState(null);
+    const [isLoading, setIsLoading] = useState(true);
+
+    // Load language preference from database on mount
+    useEffect(() => {
+        const loadLanguagePreference = async () => {
+            if (userId) {
+                try {
+                    const savedLang = await db.getUserLanguage(userId);
+                    if (savedLang && AVAILABLE_LANGUAGES.includes(savedLang)) {
+                        setPlatformLanguage(savedLang);
+                        if (!currentCourseName) {
+                            setActiveLanguage(savedLang);
+                        }
+                    }
+                } catch (e) {
+                    console.warn('Failed to load language from database:', e);
+                }
+            }
+            setIsLoading(false);
+        };
+
+        loadLanguagePreference();
+    }, [userId]);
+
+    // Persist to localStorage whenever platform language changes
+    useEffect(() => {
+        localStorage.setItem('platformLanguage', platformLanguage);
+    }, [platformLanguage]);
+
+    // Update active language when not in a course
+    useEffect(() => {
+        if (!currentCourseName) {
+            setActiveLanguage(platformLanguage);
+        }
+    }, [platformLanguage, currentCourseName]);
+
+    /**
+     * Set the platform-wide language
+     * Persists to both localStorage and SQLite
+     */
+    const setLanguage = useCallback(async (lang) => {
+        if (!AVAILABLE_LANGUAGES.includes(lang)) {
+            console.warn(`Language "${lang}" is not supported`);
+            return;
+        }
+
+        setPlatformLanguage(lang);
+        localStorage.setItem('platformLanguage', lang);
+
+        // Also save to database if user is available
+        if (userId) {
+            try {
+                await db.setUserLanguage(userId, lang);
+            } catch (e) {
+                console.warn('Failed to save language to database:', e);
+            }
+        }
+    }, [userId]);
+
+    /**
+     * Toggle between English and Afrikaans
+     */
+    const toggleLanguage = useCallback(() => {
+        const newLang = platformLanguage === 'en' ? 'af' : 'en';
+        setLanguage(newLang);
+    }, [platformLanguage, setLanguage]);
+
+    /**
+     * Called when entering a course - allows per-course language override
+     */
+    const enterCourse = useCallback((courseName, courseLanguage) => {
+        setCurrentCourseName(courseName);
+
+        // Check for saved course-specific language
+        const savedLang = sessionStorage.getItem(`course_lang_${courseName}`);
+
+        if (savedLang && AVAILABLE_LANGUAGES.includes(savedLang)) {
+            setActiveLanguage(savedLang);
+        } else if (courseLanguage && AVAILABLE_LANGUAGES.includes(courseLanguage)) {
+            setActiveLanguage(courseLanguage);
+            sessionStorage.setItem(`course_lang_${courseName}`, courseLanguage);
+        } else {
+            setActiveLanguage(platformLanguage);
+        }
+    }, [platformLanguage]);
+
+    /**
+     * Called when leaving a course
+     */
+    const exitCourse = useCallback(() => {
+        setCurrentCourseName(null);
+        setActiveLanguage(platformLanguage);
+    }, [platformLanguage]);
+
+    /**
+     * Get a translated string by key
+     * Falls back to English if translation not found
+     *
+     * @param {string} key - Translation key (e.g., 'problem.Submit')
+     * @param {Object} vars - Variables to interpolate (e.g., {count: 5})
+     * @returns {string} Translated string
+     */
+    const t = useCallback((key, vars = {}) => {
+        // Try active language first
+        let translation = getNestedValue(TRANSLATIONS[activeLanguage], key);
+
+        // Fall back to English
+        if (translation === null && activeLanguage !== 'en') {
+            translation = getNestedValue(TRANSLATIONS.en, key);
+        }
+
+        // Return key if no translation found
+        if (translation === null) {
+            console.debug(`Missing translation: ${key}`);
+            return key;
+        }
+
+        // Interpolate variables
+        if (typeof translation === 'string' && Object.keys(vars).length > 0) {
+            return translation.replace(/\{(\w+)\}/g, (_, varName) => {
+                return vars[varName] !== undefined ? vars[varName] : `{${varName}}`;
+            });
+        }
+
+        return translation;
+    }, [activeLanguage]);
+
+    /**
+     * Get all translations for a section
+     */
+    const getSection = useCallback((section) => {
+        const translations = TRANSLATIONS[activeLanguage]?.[section] || {};
+        const fallback = TRANSLATIONS.en?.[section] || {};
+        return { ...fallback, ...translations };
+    }, [activeLanguage]);
+
+    /**
+     * Check if a translation exists
+     */
+    const hasTranslation = useCallback((key) => {
+        return getNestedValue(TRANSLATIONS[activeLanguage], key) !== null ||
+               getNestedValue(TRANSLATIONS.en, key) !== null;
+    }, [activeLanguage]);
+
+    // Memoized context value
+    const value = useMemo(() => ({
+        // Current languages
+        language: activeLanguage,
+        platformLanguage,
+
+        // Language info
+        languageName: LANGUAGE_NAMES[activeLanguage] || activeLanguage,
+        isAfrikaans: activeLanguage === 'af',
+        isEnglish: activeLanguage === 'en',
+
+        // Actions
+        setLanguage,
+        toggleLanguage,
+        enterCourse,
+        exitCourse,
+
+        // Translation helpers
+        t,
+        getSection,
+        hasTranslation,
+
+        // Constants
+        SUPPORTED_LANGUAGES: AVAILABLE_LANGUAGES,
+        LANGUAGE_NAMES,
+
+        // State
+        isLoading,
+        currentCourseName
+    }), [
+        activeLanguage,
+        platformLanguage,
+        setLanguage,
+        toggleLanguage,
+        enterCourse,
+        exitCourse,
+        t,
+        getSection,
+        hasTranslation,
+        isLoading,
+        currentCourseName
+    ]);
+
+    return (
+        <LocalizationContext.Provider value={value}>
+            {children}
+        </LocalizationContext.Provider>
+    );
+};
+
+/**
+ * Hook to use localization
+ */
+export const useLocalization = () => {
+    const context = useContext(LocalizationContext);
+    if (!context) {
+        throw new Error('useLocalization must be used within a LocalizationProvider');
+    }
+    return context;
+};
+
+/**
+ * HOC for class components
+ */
+export const withLocalization = (Component) => {
+    return function LocalizedComponent(props) {
+        const localization = useLocalization();
+        return <Component {...props} localization={localization} />;
+    };
+};
+
+/**
+ * Consumer for class components
+ */
 export const LocalizationConsumer = LocalizationContext.Consumer;
+
+export default LocalizationContext;

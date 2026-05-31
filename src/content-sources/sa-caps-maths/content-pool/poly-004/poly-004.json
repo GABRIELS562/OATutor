@@ -1,0 +1,10 @@
+{
+    "id": "poly-004",
+    "title": "Solving Cubic Equations",
+    "body": "Solve for $x$:\n\n$$x^3 - 6x^2 + 11x - 6 = 0$$",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Polynomials Chapter 7.3",
+    "license": "CC-BY - Siyavula Education",
+    "lesson": "Solving Cubic Equations",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

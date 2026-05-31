@@ -1,0 +1,22 @@
+[
+  {
+    "id": "evol-002b-h1",
+    "type": "hint",
+    "title": "Gene Flow Prevention",
+    "text": "Without gene flow, populations cannot share new mutations or beneficial alleles. Each population's gene pool evolves independently based on local conditions.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "evol-002b-h2",
+    "type": "hint",
+    "title": "Reproductive Isolation",
+    "text": "Given enough time, accumulated genetic differences may lead to reproductive isolation - the populations can no longer interbreed even if the barrier is removed. This defines them as separate species.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

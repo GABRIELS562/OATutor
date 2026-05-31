@@ -1,0 +1,10 @@
+{
+    "id": "func-log-002b",
+    "stepAnswer": ["4"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate the Numerical Value",
+    "stepBody": "Now calculate $\\log_2(16)$.\n\nEnter your numerical answer:",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "knowledgeComponents": ["logarithms"]
+}

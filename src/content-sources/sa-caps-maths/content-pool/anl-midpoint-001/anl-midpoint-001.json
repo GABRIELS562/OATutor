@@ -1,0 +1,17 @@
+{
+  "id": "anl-midpoint-001",
+  "title": "Midpoint Formula",
+  "body": "Find the midpoint of the line segment joining A(-3, 5) and B(7, -1).",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "anl-distance-formula"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

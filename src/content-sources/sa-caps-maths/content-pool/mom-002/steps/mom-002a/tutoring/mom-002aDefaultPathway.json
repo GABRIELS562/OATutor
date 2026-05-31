@@ -1,0 +1,32 @@
+[
+    {
+        "id": "mom-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "What is Impulse?",
+        "text": "Impulse (J) is defined as the product of force and the time interval over which it acts: J = FΔt. Its unit is N·s.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "mom-002a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Impulse-Momentum Theorem",
+        "text": "The impulse-momentum theorem states: Impulse = Change in momentum. So FΔt = Δp = mv_f - mv_i.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "mom-002a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Direction Matters",
+        "text": "The ball reverses direction. If initial velocity is +30 m/s, final velocity is -40 m/s (or vice versa). The change in velocity is significant!",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "func-hyp-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Vertical Asymptote and p",
+        "text": "The vertical asymptote occurs where $x + p = 0$, i.e., at $x = -p$.\\n\\nGiven the vertical asymptote is at $x = -3$:\\n$$-p = -3$$\\n$$p = 3$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-hyp-002a-h2",
+        "type": "hint",
+        "dependencies": ["func-hyp-002a-h1"],
+        "title": "Horizontal Asymptote and q",
+        "text": "The horizontal asymptote is at $y = q$.\\n\\nGiven the horizontal asymptote is at $y = 2$:\\n$$q = 2$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-hyp-002a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["p=3 and q=2"],
+        "dependencies": ["func-hyp-002a-h2"],
+        "title": "State the Values",
+        "text": "From the asymptotes:\\n- $p = 3$ (from vertical asymptote $x = -3$)\\n- $q = 2$ (from horizontal asymptote $y = 2$)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

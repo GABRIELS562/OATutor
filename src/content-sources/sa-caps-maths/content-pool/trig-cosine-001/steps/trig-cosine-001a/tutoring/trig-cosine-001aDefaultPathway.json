@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-cosine-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "When to Use Cosine Rule",
+        "text": "Use the Cosine Rule when you have:\n- Two sides and the **included** angle (SAS) - to find the third side\n- Three sides (SSS) - to find any angle",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-cosine-001a-h2",
+        "type": "hint",
+        "dependencies": ["trig-cosine-001a-h1"],
+        "title": "The Cosine Rule Formula",
+        "text": "The Cosine Rule: $$a^2 = b^2 + c^2 - 2bc \\cos A$$\n\nThis is like Pythagoras but with a correction term for non-right triangles.",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-cosine-001a-h3",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": ["a² = b² + c² - 2bc·cos(A)"],
+        "dependencies": ["trig-cosine-001a-h2"],
+        "title": "Correct Formula",
+        "text": "For finding side a with sides b, c and angle A:\n$$a^2 = b^2 + c^2 - 2bc \\cos A$$",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    }
+]

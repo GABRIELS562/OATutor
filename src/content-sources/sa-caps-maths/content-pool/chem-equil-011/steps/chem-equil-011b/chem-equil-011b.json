@@ -1,0 +1,15 @@
+{
+    "id": "chem-equil-011b",
+    "type": "scaffold",
+    "problemType": "TextBox",
+    "answerType": "string",
+    "hpiVariables": [],
+    "variabilization": {},
+    "stepAnswer": [
+        "decreases",
+        "decrease"
+    ],
+    "stepExplanation": "When equilibrium shifts left, [NH3] decreases while [N2] and [H2] increase. Since Kc = [NH3]^2/([N2][H2]^3), the numerator decreases and denominator increases, so Kc decreases.",
+    "stepTitle": "Effect on Kc",
+    "stepBody": "What happens to the value of Kc when temperature is increased for this exothermic reaction? (Answer: increases, decreases, or stays the same)"
+}

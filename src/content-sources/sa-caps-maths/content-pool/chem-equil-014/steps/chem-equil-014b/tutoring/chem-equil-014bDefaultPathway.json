@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-equil-014b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Rules for Comparison",
+        "text": "If Qc = Kc: at equilibrium. If Qc < Kc: shifts right. If Qc > Kc: shifts left.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-014b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Compare Values",
+        "text": "Qc = 2.25, Kc = 5.0. Since 2.25 < 5.0, Qc < Kc",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-014b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Determine Direction",
+        "text": "Since Qc < Kc, the reaction needs to produce more products to reach equilibrium. Shifts RIGHT.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

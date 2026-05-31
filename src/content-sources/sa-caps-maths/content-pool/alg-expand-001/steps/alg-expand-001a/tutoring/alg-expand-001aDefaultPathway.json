@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-expand-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understanding FOIL",
+        "text": "FOIL stands for:\n- **F**irst terms: multiply the first term of each bracket\n- **O**uter terms: multiply the outer terms\n- **I**nner terms: multiply the inner terms\n- **L**ast terms: multiply the last term of each bracket",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-expand-001a-h2",
+        "type": "hint",
+        "dependencies": ["alg-expand-001a-h1"],
+        "title": "Calculate Each Product",
+        "text": "For $(2x + 3)(x - 5)$:\n\n- First: $2x \\times x = 2x^2$\n- Outer: $2x \\times (-5) = -10x$\n- Inner: $3 \\times x = 3x$\n- Last: $3 \\times (-5) = -15$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-expand-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["2x^2 - 10x + 3x - 15"],
+        "dependencies": ["alg-expand-001a-h2"],
+        "title": "The Expanded Form",
+        "text": "Before simplifying: $2x^2 - 10x + 3x - 15$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    }
+]

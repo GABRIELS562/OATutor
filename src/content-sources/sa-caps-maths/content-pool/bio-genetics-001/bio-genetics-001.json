@@ -1,0 +1,13 @@
+{
+  "id": "bio-genetics-001",
+  "title": "Genetics - Monohybrid Cross",
+  "body": "In pea plants, the allele for tall (T) is dominant over the allele for short (t). If two heterozygous tall plants (Tt \u00d7 Tt) are crossed, what percentage of the offspring will be short?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-genetic-crosses"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

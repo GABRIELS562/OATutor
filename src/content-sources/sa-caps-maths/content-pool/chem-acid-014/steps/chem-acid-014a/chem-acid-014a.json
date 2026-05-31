@@ -1,0 +1,14 @@
+{
+  "id": "chem-acid-014a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "-4.5"
+  ],
+  "stepExplanation": "From pH = -log[H+], rearranging gives log[H+] = -pH = -4.5",
+  "stepTitle": "Rearrange the pH Formula",
+  "stepBody": "Starting from pH = -log[H+], rearrange to find log[H+]. What is the value of log[H+]?"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "bio-dna-010b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "G = 28%, C = 28%",
+    "28% each",
+    "28"
+  ],
+  "stepExplanation": "Since A + T = 44% (22% + 22%), the remaining 56% must be divided equally between G and C (because G=C). Therefore, G = C = 56%/2 = 28% each.",
+  "stepTitle": "Calculate Guanine and Cytosine",
+  "stepBody": "Now that you know A = 22% and T = 22%, calculate the percentage of guanine (G) and cytosine (C). Remember: all four bases must add up to 100%, and G = C."
+}

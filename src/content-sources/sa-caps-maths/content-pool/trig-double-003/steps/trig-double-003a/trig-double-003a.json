@@ -1,0 +1,16 @@
+{
+    "id": "trig-double-003a",
+    "stepAnswer": ["sin 2x = 2sin(x)cos(x) and cos 2x = 2cos²x - 1"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 1: Choose Appropriate Double Angle Formulas",
+    "stepBody": "To simplify the left-hand side, which double angle formulas should we use?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-double-angle"],
+    "choices": [
+        "sin 2x = 2sin(x)cos(x) and cos 2x = 2cos²x - 1",
+        "sin 2x = 2sin(x)cos(x) and cos 2x = 1 - 2sin²x",
+        "sin 2x = cos²x - sin²x and cos 2x = 2cos²x - 1",
+        "sin 2x = 2sin(x)cos(x) and cos 2x = cos²x - sin²x"
+    ]
+}

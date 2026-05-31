@@ -1,0 +1,38 @@
+[
+    {
+        "id": "geo-tan-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Angle Sum in Triangle",
+        "text": "The sum of interior angles in a triangle is 180 degrees.\n\n$$\\angle BAC + \\angle ABC + \\angle ACB = 180°$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "geo-tan-001b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["113"],
+        "dependencies": ["geo-tan-001b-h1"],
+        "title": "Sum of Known Angles",
+        "text": "$$\\angle ABC + \\angle ACB = 48° + 65° = ?$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "geo-tan-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "numeric",
+        "hintAnswer": ["67"],
+        "dependencies": ["geo-tan-001b-h2"],
+        "title": "Calculate angle BAC",
+        "text": "$$\\angle BAC = 180° - 113° = ?$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12",
+        "license": "CC BY 4.0"
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "id": "bio-repro-012",
+  "title": "The Menstrual Cycle - Hormone Regulation",
+  "body": "The menstrual cycle is regulated by hormones from the pituitary gland and ovaries. Identify the roles of FSH and LH in the follicular phase of the menstrual cycle.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-menstrual-cycle",
+        "bio-hormones"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

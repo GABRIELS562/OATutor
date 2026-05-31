@@ -1,0 +1,10 @@
+{
+    "id": "graph-line-001a",
+    "stepAnswer": ["-2", "m=-2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Calculate the Gradient",
+    "stepBody": "Use the gradient formula $m = \\frac{y_2 - y_1}{x_2 - x_1}$ with points $A(-1, 5)$ and $B(3, -3)$.\n\nWhat is the gradient $m$?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["gradient", "linear-graph"]
+}

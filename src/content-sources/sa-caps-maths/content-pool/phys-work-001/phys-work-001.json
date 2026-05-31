@@ -1,0 +1,17 @@
+{
+  "id": "phys-work-001",
+  "title": "Work-Energy Theorem",
+  "body": "A 5 kg box is pushed 4 m across a floor by a constant force of 20 N. Calculate the work done on the box.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-newtons-laws"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

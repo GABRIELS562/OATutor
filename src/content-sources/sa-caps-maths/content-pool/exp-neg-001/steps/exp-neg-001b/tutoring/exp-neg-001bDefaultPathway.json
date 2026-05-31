@@ -1,0 +1,35 @@
+[
+    {
+        "id": "exp-neg-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Multiply in the Numerator",
+        "text": "$2^{-3} \\cdot 2^{4} = 2^{-3+4} = 2^{1}$\n\n(When multiplying same bases, add exponents)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "exp-neg-001b-h2",
+        "type": "hint",
+        "dependencies": ["exp-neg-001b-h1"],
+        "title": "Divide by Denominator",
+        "text": "$\\frac{2^{1}}{2^{-3}} = 2^{1-(-3)} = 2^{1+3} = 2^{4}$\n\n(When dividing same bases, subtract exponents)\n\nNote: Subtracting a negative is the same as adding!",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "exp-neg-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["16"],
+        "dependencies": ["exp-neg-001b-h2"],
+        "title": "Final Answer",
+        "text": "$$\\frac{2^{-3} \\cdot 4^2}{8^{-1}} = 2^4 = 16$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-nerv-010b-h1",
+    "type": "hint",
+    "title": "Restoring Negative Potential",
+    "text": "After depolarisation, the inside of the membrane is positive (+40mV). To return to the negative resting potential (-70mV), positive charges must leave the cell. Which positive ion is more concentrated INSIDE the cell and would move out?",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/the-human-nervous-system",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-nerv-010b-h2",
+    "type": "hint",
+    "title": "Sequence of Events",
+    "text": "The sequence is: (1) Stimulus reaches threshold, (2) Na+ channels open - Na+ enters (depolarisation), (3) Na+ channels close, (4) K+ channels open - K+ exits (repolarisation), (5) K+ channels close, (6) Na+/K+ pump restores ion gradients. The ion that leaves to restore negativity is potassium.",
+    "variabilization": {},
+    "dependencies": ["bio-nerv-010b-h1"],
+    "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/the-human-nervous-system",
+    "license": "CC BY 4.0"
+  }
+]

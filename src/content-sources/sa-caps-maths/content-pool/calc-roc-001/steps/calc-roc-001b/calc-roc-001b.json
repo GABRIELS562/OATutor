@@ -1,0 +1,10 @@
+{
+    "id": "calc-roc-001b",
+    "stepAnswer": ["48", "48 thousand per hour", "48000 per hour"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate Rate at t = 4",
+    "stepBody": "Calculate $P'(4)$ to find the rate of growth after 4 hours.\n\nWhat is the rate of growth (in thousands per hour)?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "rate-of-change"]
+}

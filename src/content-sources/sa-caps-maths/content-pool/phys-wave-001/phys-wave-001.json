@@ -1,0 +1,17 @@
+{
+  "id": "phys-wave-001",
+  "title": "Wave Properties",
+  "body": "A wave has a frequency of 50 Hz and a wavelength of 2 m. Calculate the wave speed.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-doppler"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

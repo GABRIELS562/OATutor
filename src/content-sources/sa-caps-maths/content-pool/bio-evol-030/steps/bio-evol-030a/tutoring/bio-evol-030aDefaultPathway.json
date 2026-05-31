@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-evol-030a-h1",
+    "type": "hint",
+    "title": "Lamarck vs Darwin",
+    "text": "A common misconception is that organisms change IN RESPONSE TO their environment (Lamarckism). Darwin's theory states that variation already EXISTS in a population, and the environment then SELECTS which variants survive.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/human-evolution",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-evol-030a-h2",
+    "type": "hint",
+    "title": "Random Mutations",
+    "text": "Bacteria reproduce rapidly and mutations occur randomly during DNA replication. In a large population, some bacteria will have mutations that happen to provide antibiotic resistance - these mutations occurred BEFORE the antibiotic was present, not because of it.",
+    "variabilization": {},
+    "dependencies": ["bio-evol-030a-h1"],
+    "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/human-evolution",
+    "license": "CC BY 4.0"
+  }
+]

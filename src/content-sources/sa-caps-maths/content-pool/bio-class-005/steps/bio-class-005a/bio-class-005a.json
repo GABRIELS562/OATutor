@@ -1,0 +1,15 @@
+{
+  "id": "bio-class-005a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "fynbos",
+    "Fynbos"
+  ],
+  "stepExplanation": "The Cape Floristic Region is dominated by fynbos ('fine bush' in Afrikaans), a unique shrubland vegetation type. Fynbos is characterized by proteas, ericas (heathers), and restios (reed-like plants). It contains over 9,000 plant species, 70% of which are found nowhere else on Earth.",
+  "stepTitle": "Dominant Vegetation Type",
+  "stepBody": "What is the name of the unique vegetation type that dominates the Cape Floristic Region?"
+}

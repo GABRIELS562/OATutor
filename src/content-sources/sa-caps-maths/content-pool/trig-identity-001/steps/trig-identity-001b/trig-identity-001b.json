@@ -1,0 +1,16 @@
+{
+  "id": "trig-identity-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "sec²θ",
+    "1/cos²θ",
+    "sec^2θ"
+  ],
+  "stepExplanation": "1/cos²θ = sec²θ",
+  "stepTitle": "Simplify",
+  "stepBody": "1 - sin²θ = cos²θ. What is 1/cos²θ?"
+}

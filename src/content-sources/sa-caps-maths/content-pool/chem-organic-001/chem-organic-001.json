@@ -1,0 +1,17 @@
+{
+  "id": "chem-organic-001",
+  "title": "Organic Chemistry - Esterification",
+  "body": "Ethanoic acid reacts with methanol in the presence of concentrated sulfuric acid. Name the ester formed and write its molecular formula.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-organic-reactions"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

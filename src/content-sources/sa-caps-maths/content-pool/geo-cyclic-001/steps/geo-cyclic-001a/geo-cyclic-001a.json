@@ -1,0 +1,10 @@
+{
+    "id": "geo-cyclic-001a",
+    "stepAnswer": ["108"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find angle C",
+    "stepBody": "In a cyclic quadrilateral, opposite angles are supplementary (add up to 180°).\n\nIf angle A = 72°, calculate angle C.",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["geo-cyclic-quad"]
+}

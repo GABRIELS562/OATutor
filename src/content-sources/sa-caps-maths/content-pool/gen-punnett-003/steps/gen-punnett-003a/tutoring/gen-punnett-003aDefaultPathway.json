@@ -1,0 +1,22 @@
+[
+  {
+    "id": "gen-punnett-003a-h1",
+    "type": "hint",
+    "title": "Sex-Linked Inheritance Pattern",
+    "text": "Males have XY chromosomes. They inherit X from mother and Y from father. Since haemophilia is on the X chromosome, males only need one copy of the recessive allele to be affected.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "gen-punnett-003a-h2",
+    "type": "hint",
+    "title": "Mother's Contribution",
+    "text": "The carrier mother (X^H X^h) can pass either X^H (normal) or X^h (haemophilia allele) to her sons. Each has a 50% chance.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

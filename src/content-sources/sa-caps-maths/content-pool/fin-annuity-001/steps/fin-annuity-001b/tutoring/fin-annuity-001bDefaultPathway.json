@@ -1,0 +1,25 @@
+[
+    {
+        "id": "fin-annuity-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute into Formula",
+        "text": "$F = 2500 \\cdot \\frac{(1.007)^{60} - 1}{0.007}$\n\nFirst calculate $(1.007)^{60} = 1.51691...$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "fin-annuity-001b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["R184 537.94"],
+        "dependencies": ["fin-annuity-001b-h1"],
+        "title": "Calculate",
+        "text": "$F = 2500 \\cdot \\frac{1.51691 - 1}{0.007}$\n\n$F = 2500 \\cdot \\frac{0.51691}{0.007}$\n\n$F = 2500 \\cdot 73.8443 = R184\\,537.94$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

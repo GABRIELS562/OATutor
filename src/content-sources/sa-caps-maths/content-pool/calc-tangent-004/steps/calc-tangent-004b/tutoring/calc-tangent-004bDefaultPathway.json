@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-tangent-004b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find y When x = 4",
+        "text": "Substitute $x = 4$ into $y = x^3 - 3x^2 - 9x + 5$:\n\n$y = (4)^3 - 3(4)^2 - 9(4) + 5$\n\n$y = 64 - 48 - 36 + 5$\n\n$y = -15$\n\nWait, let me recalculate:\n$y = 64 - 48 - 36 + 5 = -15$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-tangent-004b-h2",
+        "type": "hint",
+        "dependencies": ["calc-tangent-004b-h1"],
+        "title": "Find y When x = -2",
+        "text": "Substitute $x = -2$ into $y = x^3 - 3x^2 - 9x + 5$:\n\n$y = (-2)^3 - 3(-2)^2 - 9(-2) + 5$\n\n$y = -8 - 12 + 18 + 5$\n\n$y = 3$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-tangent-004b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(4,-15) and (-2,3)"],
+        "dependencies": ["calc-tangent-004b-h2"],
+        "title": "The Two Points",
+        "text": "The curve has a tangent with gradient 15 at two points:\n\n- At $x = 4$: point $(4, -15)$\n- At $x = -2$: point $(-2, 3)$\n\nBoth points have tangent lines with the same gradient of 15.",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

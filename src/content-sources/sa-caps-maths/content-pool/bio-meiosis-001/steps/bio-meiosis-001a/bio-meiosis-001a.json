@@ -1,0 +1,14 @@
+{
+  "id": "bio-meiosis-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "23"
+  ],
+  "stepExplanation": "If 2n = 46, then n = 46/2 = 23",
+  "stepTitle": "Diploid vs Haploid",
+  "stepBody": "Meiosis produces haploid (n) cells from diploid (2n) cells. What is the value of n if 2n = 46?"
+}

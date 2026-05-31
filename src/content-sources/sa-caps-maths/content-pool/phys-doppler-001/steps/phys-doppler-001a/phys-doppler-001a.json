@@ -1,0 +1,15 @@
+{
+  "id": "phys-doppler-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "f=800, v=340, vs=20",
+    "800, 340, 20"
+  ],
+  "stepExplanation": "f = 800 Hz, v = 340 m/s, vs = 20 m/s",
+  "stepTitle": "Doppler Formula",
+  "stepBody": "For a source moving towards a stationary observer, f' = f × v/(v - vs). What values do you substitute?"
+}

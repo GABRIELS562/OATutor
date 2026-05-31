@@ -1,0 +1,35 @@
+[
+    {
+        "id": "pat-linear-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find the Common Difference",
+        "text": "The common difference $d$ is found by subtracting consecutive terms:\n\n$d = T_2 - T_1 = 8 - 5 = 3$\n$d = T_3 - T_2 = 11 - 8 = 3$\n\nThe common difference is $d = 3$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "pat-linear-001a-h2",
+        "type": "hint",
+        "dependencies": ["pat-linear-001a-h1"],
+        "title": "Apply the Formula",
+        "text": "Using $T_n = a + (n-1)d$ where $a = 5$ and $d = 3$:\n\n$T_n = 5 + (n-1)(3)$\n$T_n = 5 + 3n - 3$\n$T_n = 3n + 2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "pat-linear-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["3n+2"],
+        "dependencies": ["pat-linear-001a-h2"],
+        "title": "General Term",
+        "text": "The general term is $T_n = 3n + 2$\n\nVerify: $T_1 = 3(1) + 2 = 5$ (correct!)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

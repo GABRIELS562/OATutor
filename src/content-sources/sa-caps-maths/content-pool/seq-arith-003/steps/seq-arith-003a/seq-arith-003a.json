@@ -1,0 +1,10 @@
+{
+    "id": "seq-arith-003a",
+    "stepAnswer": ["25", "n=25"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Number of Terms",
+    "stepBody": "Given:\n- First term $a = 2$\n- Last term $T_n = 98$\n- Common difference $d = 4$\n\nUsing $T_n = a + (n-1)d$, find $n$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["arithmetic-sequence"]
+}

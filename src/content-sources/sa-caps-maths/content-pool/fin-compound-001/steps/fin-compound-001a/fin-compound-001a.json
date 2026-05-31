@@ -1,0 +1,10 @@
+{
+    "id": "fin-compound-001a",
+    "stepAnswer": ["A = P(1 + i)^n", "A=P(1+i)^n", "A = P(1 + r/n)^(nt)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Identify the Formula",
+    "stepBody": "For compound interest, write the formula.\\n\\nNote: When interest is compounded monthly, you need to adjust the rate and number of periods.\\n\\nWrite the compound interest formula:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["compound-interest", "formula-recall"]
+}

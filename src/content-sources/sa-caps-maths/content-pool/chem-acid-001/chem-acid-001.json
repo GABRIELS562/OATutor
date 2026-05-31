@@ -1,0 +1,18 @@
+{
+  "id": "chem-acid-001",
+  "title": "Neutralization Reaction",
+  "body": "30 cm³ of 0.2 mol/dm³ sulfuric acid (H₂SO₄) is neutralized by sodium hydroxide (NaOH) solution. The balanced equation is: H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O. Calculate the number of moles of NaOH required for complete neutralization.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-acids-bases"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "oer": "DBE NSC Physical Sciences Paper 2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

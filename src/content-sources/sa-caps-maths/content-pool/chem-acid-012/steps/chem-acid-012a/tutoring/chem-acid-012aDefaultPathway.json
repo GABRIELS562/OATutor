@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-acid-012a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "pOH Formula",
+        "text": "pOH = -log[OH-], similar to how pH = -log[H+]",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-012a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate the Logarithm",
+        "text": "log(5 x 10^-3) = log(5) + log(10^-3) = 0.70 + (-3) = -2.30",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-012a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply Negative Sign",
+        "text": "pOH = -(-2.30) = 2.30",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

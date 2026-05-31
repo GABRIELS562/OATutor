@@ -1,0 +1,13 @@
+{
+  "id": "evol-003",
+  "title": "Evolution - Evidence from Comparative Anatomy",
+  "body": "The forelimbs of a human arm, whale flipper, bat wing, and dog leg all contain the same bones (humerus, radius, ulna, carpals, metacarpals, phalanges) arranged in the same pattern, despite having very different functions. What type of evidence for evolution does this represent, and what does it suggest about these organisms?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-natural-selection"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

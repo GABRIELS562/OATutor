@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-stoich-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Moles",
+        "text": "n(H2) = 5g / 2 g/mol = 2.5 mol. n(O2) = 20g / 32 g/mol = 0.625 mol",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-003a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Use Mole Ratio",
+        "text": "2H2 + O2 -> 2H2O. Ratio H2:O2 = 2:1. For 2.5 mol H2, we need 2.5/2 = 1.25 mol O2",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-003a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify Limiting Reagent",
+        "text": "We need 1.25 mol O2 but only have 0.625 mol. Oxygen is the limiting reagent.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

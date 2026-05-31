@@ -1,15 +1,63 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Angelo Tutoring",
+  "name": "Angelo Tutoring - Grade 10-12 Maths & Science",
+  "description": "South Africa's premier online tutoring platform. Master Maths, Physical Sciences & Life Sciences with interactive CAPS-aligned lessons for NSC success.",
   "icons": [
     {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
       "src": "favicon.png",
-      "sizes": "512x512 64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "orientation": "portrait-primary",
+  "theme_color": "#1a1a2e",
+  "background_color": "#ffffff",
+  "categories": ["education", "productivity"],
+  "lang": "en-ZA",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Mathematics",
+      "short_name": "Maths",
+      "description": "Geometry, Trigonometry, Analytics & Statistics",
+      "url": "/#/courses",
+      "icons": [{ "src": "favicon.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Physical Sciences",
+      "short_name": "Physics",
+      "description": "Mechanics, Electricity, Waves & Chemistry",
+      "url": "/#/courses",
+      "icons": [{ "src": "favicon.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Life Sciences",
+      "short_name": "Biology",
+      "description": "Genetics, Evolution, Nervous System & More",
+      "url": "/#/courses",
+      "icons": [{ "src": "favicon.png", "sizes": "96x96" }]
+    }
+  ]
 }

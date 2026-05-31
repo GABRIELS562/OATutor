@@ -1,0 +1,10 @@
+{
+    "id": "anl-circ-010",
+    "title": "Circle Equation: General to Standard Form",
+    "body": "A circle has the equation: $$x^2 + y^2 - 6x + 4y - 12 = 0$$\n\na) Write this equation in standard form $$(x-a)^2 + (y-b)^2 = r^2$$ by completing the square.\nb) Hence, state the coordinates of the centre and the radius of the circle.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Analytical Geometry",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Analytical Geometry - Equation of a Circle",
+    "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

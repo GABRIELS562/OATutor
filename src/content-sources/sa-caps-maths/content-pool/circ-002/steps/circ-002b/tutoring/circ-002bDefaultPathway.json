@@ -1,0 +1,32 @@
+[
+    {
+        "id": "circ-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find Total Resistance",
+        "text": "Total resistance in circuit = R + r = 5.5 + 0.5 = 6 Ω.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "circ-002b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Current",
+        "text": "I = ε/(R + r) = 12/6 = 2 A. This current flows through both the external and internal resistance.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "circ-002b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find Terminal Voltage",
+        "text": "V = IR = (2)(5.5) = 11 V. Note: 1 V is 'lost' across the internal resistance (Ir = 2×0.5 = 1 V), so terminal voltage (11 V) is less than emf (12 V).",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

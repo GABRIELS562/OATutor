@@ -1,0 +1,15 @@
+{
+  "id": "chem-acid-011a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.002",
+    "2 x 10^-3"
+  ],
+  "stepExplanation": "n(NaOH) = C x V = 0.1 mol/dm^3 x 0.020 dm^3 = 0.002 mol. Remember to convert 20 cm^3 to dm^3 by dividing by 1000.",
+  "stepTitle": "Calculate Moles of NaOH",
+  "stepBody": "Using n = CV, calculate the number of moles of NaOH used in the titration."
+}

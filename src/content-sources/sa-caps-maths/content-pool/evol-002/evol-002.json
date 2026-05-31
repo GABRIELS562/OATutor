@@ -1,0 +1,13 @@
+{
+  "id": "evol-002",
+  "title": "Evolution - Speciation Mechanisms",
+  "body": "A population of squirrels became separated when the Grand Canyon formed 5 million years ago. The Kaibab squirrels on the north rim and Abert's squirrels on the south rim have since evolved different characteristics. Explain the type of speciation and the process that led to these becoming separate species.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-natural-selection"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

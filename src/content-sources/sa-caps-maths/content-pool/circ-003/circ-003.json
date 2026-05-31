@@ -1,0 +1,14 @@
+{
+  "id": "circ-003",
+  "title": "Electric Circuits - Power Dissipation",
+  "body": "A 60 W light bulb is designed to operate at 240 V. Calculate the resistance of the bulb's filament and the current flowing through it when operating normally.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-circuits", "phys-ohms-law"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

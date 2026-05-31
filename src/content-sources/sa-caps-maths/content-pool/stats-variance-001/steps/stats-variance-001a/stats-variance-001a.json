@@ -1,0 +1,14 @@
+{
+  "id": "stats-variance-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "8"
+  ],
+  "stepExplanation": "[(2-6)² + (4-6)² + (6-6)² + (8-6)² + (10-6)²]/5 = [16+4+0+4+16]/5 = 40/5 = 8",
+  "stepTitle": "Calculate Variance",
+  "stepBody": "Variance = Σ(x - mean)²/n. Calculate for this data."
+}

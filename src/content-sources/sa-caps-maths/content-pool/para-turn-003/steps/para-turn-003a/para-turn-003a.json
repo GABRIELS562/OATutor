@@ -1,0 +1,10 @@
+{
+    "id": "para-turn-003a",
+    "stepAnswer": ["y=-2(x-2)^2+2", "y = -2(x - 2)^2 + 2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Complete the Square",
+    "stepBody": "Convert $y = -2x^2 + 8x - 6$ to turning point form by completing the square.\n\nWrite the equation in the form $y = a(x - p)^2 + q$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["parabola-vertex", "completing-square"]
+}

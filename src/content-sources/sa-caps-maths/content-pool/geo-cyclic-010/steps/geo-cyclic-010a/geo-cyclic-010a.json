@@ -1,0 +1,10 @@
+{
+    "id": "geo-cyclic-010a",
+    "stepAnswer": ["35"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Calculate angle PSR",
+    "stepBody": "Angles subtended by the same arc are equal.\n\nAngle QPR and angle PSR are both subtended by arc QR.\n\nIf angle QPR = 35 degrees, what is angle PSR?",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["geo-cyclic-quad", "geo-angles-same-arc"]
+}

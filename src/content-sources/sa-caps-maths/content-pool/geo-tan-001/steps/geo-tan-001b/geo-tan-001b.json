@@ -1,0 +1,10 @@
+{
+    "id": "geo-tan-001b",
+    "stepAnswer": ["67"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate angle BAC",
+    "stepBody": "In triangle ABC, the sum of angles = 180 degrees.\n\nUsing angle ABC = 48 degrees and angle ACB = 65 degrees, calculate angle BAC.",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["geo-angle-sum-triangle"]
+}

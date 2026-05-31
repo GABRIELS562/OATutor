@@ -1,0 +1,10 @@
+{
+    "id": "trig-comp-001b",
+    "stepAnswer": ["(sqrt(6)-sqrt(2))/4"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Apply Compound Angle Formula",
+    "stepBody": "Using sin(A - B) = sin A cos B - cos A sin B\n\nSubstitute A = 45° and B = 30°.\n\nEnter the answer as: (sqrt(6)-sqrt(2))/4",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-compound-add", "trig-special-angles"]
+}

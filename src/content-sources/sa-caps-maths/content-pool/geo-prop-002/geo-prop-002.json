@@ -1,0 +1,10 @@
+{
+    "id": "geo-prop-002",
+    "title": "Converse of Proportion Theorem",
+    "body": "In triangle KLM, P is on KL and Q is on KM.\n\nGiven: KP = 6, PL = 9, KQ = 8, and QM = 12.\n\na) Is PQ parallel to LM? Justify your answer using the converse of the proportion theorem.\nb) Calculate the ratio PQ:LM if triangle KPQ is similar to triangle KLM.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Euclidean Geometry",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Euclidean Geometry - Ratio and Proportion",
+    "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

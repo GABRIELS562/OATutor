@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-wave-011b-h1",
+    "type": "hint",
+    "title": "Logarithm Property",
+    "text": "A key property of logarithms is that log(10^n) = n. This makes calculations with powers of 10 very straightforward.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-wave-011b-h2",
+    "type": "hint",
+    "title": "Applying the Decibel Formula",
+    "text": "L = 10 log(10^7) = 10 x 7 = 70 dB. The decibel scale is logarithmic because human hearing perceives loudness logarithmically. Every 10 dB increase represents a 10-fold increase in intensity.",
+    "variabilization": {},
+    "dependencies": ["phys-wave-011b-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

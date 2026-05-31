@@ -1,0 +1,15 @@
+{
+  "id": "bio-plant-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "lower side",
+    "bottom"
+  ],
+  "stepExplanation": "When a plant is placed horizontally, gravity causes auxin to accumulate on the lower side of both the root and the shoot. This is due to the sedimentation of statoliths (starch grains) in specialized cells.",
+  "stepTitle": "Auxin Accumulation",
+  "stepBody": "If a plant is placed horizontally, on which side of the stem and root does auxin accumulate due to gravity?"
+}

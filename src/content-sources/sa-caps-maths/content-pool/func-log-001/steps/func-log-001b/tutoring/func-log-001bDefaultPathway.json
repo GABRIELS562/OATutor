@@ -1,0 +1,38 @@
+[
+    {
+        "id": "func-log-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Negative Exponents",
+        "text": "Remember: $a^{-n} = \\frac{1}{a^n}$\n\nSo $\\frac{1}{25} = \\frac{1}{5^2} = 5^{-2}$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-log-001b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["5^(-2)", "5^-2"],
+        "dependencies": ["func-log-001b-h1"],
+        "title": "Express as Power of 5",
+        "text": "Write $\\frac{1}{25}$ as a power of 5.\n\nSince $25 = 5^2$, then $\\frac{1}{25} = ?$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-log-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": ["-2"],
+        "dependencies": ["func-log-001b-h2"],
+        "title": "Apply Logarithm Property",
+        "text": "Since $\\frac{1}{25} = 5^{-2}$:\n\n$\\log_5\\left(\\frac{1}{25}\\right) = \\log_5(5^{-2}) = ?$\n\nRemember: $\\log_a(a^n) = n$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

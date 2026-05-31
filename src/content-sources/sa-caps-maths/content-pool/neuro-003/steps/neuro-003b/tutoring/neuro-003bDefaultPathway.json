@@ -1,0 +1,22 @@
+[
+  {
+    "id": "neuro-003b-h1",
+    "type": "hint",
+    "title": "Ligand-Gated Channels",
+    "text": "Receptors on the postsynaptic membrane are often ligand-gated ion channels. The neurotransmitter is the ligand - when it binds, the channel shape changes and ions can flow through.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "neuro-003b-h2",
+    "type": "hint",
+    "title": "Excitatory vs Inhibitory",
+    "text": "Excitatory neurotransmitters (like acetylcholine) cause depolarization by opening Na+ channels. Inhibitory neurotransmitters (like GABA) cause hyperpolarization by opening Cl- channels, making firing less likely.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

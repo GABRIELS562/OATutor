@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-fact-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Split the Middle Term",
+        "text": "$2x^2 + 7x + 3 = 2x^2 + 6x + x + 3$\n\nWe chose to write $6x$ first because it pairs nicely with $2x^2$ (both divisible by $2x$).",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-fact-003b-h2",
+        "type": "hint",
+        "dependencies": ["alg-fact-003b-h1"],
+        "title": "Factor Each Pair",
+        "text": "Group and factor:\n\n$(2x^2 + 6x) + (x + 3)$\n$= 2x(x + 3) + 1(x + 3)$\n\nNotice both groups have a common factor of $(x + 3)$!",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-fact-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(2x + 1)(x + 3)"],
+        "dependencies": ["alg-fact-003b-h2"],
+        "title": "Final Answer",
+        "text": "$2x(x + 3) + 1(x + 3) = (x + 3)(2x + 1)$\n\nOr written as: $(2x + 1)(x + 3)$\n\nVerify: $(2x+1)(x+3) = 2x^2 + 6x + x + 3 = 2x^2 + 7x + 3$ ✓",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    }
+]

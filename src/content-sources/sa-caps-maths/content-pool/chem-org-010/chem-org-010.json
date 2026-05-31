@@ -1,0 +1,15 @@
+{
+  "id": "chem-org-010",
+  "title": "IUPAC Naming of Alkenes",
+  "body": "Give the IUPAC name for the following compound: CH$$_3$$-CH=CH-CH$$_2$$-CH$$_3$$",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["chem-iupac-naming"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "oer": "https://www.siyavula.com/read/za/physical-sciences/grade-12/organic-molecules",
+  "license": "CC BY 4.0",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

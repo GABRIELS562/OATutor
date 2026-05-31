@@ -1,0 +1,15 @@
+{
+  "id": "trig-general-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "θ = 30° + 360°k or θ = 150° + 360°k",
+    "30 + 360k or 150 + 360k"
+  ],
+  "stepExplanation": "θ = 30° + 360°k or θ = 150° + 360°k, k ∈ ℤ",
+  "stepTitle": "General Solution",
+  "stepBody": "Write the general solution for sin θ = 0.5"
+}

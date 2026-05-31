@@ -1,0 +1,10 @@
+{
+    "id": "seq-arithmetic-001b",
+    "stepAnswer": ["760", "S20=760"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find S₂₀",
+    "stepBody": "With $d = 4$ and using $a + 2d = 8$, find $a$.\\n\\nThen calculate $S_{20}$ using:\\n$$S_n = \\frac{n}{2}[2a + (n-1)d]$$\\n\\nWhat is $S_{20}$?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["arithmetic-sequences", "series-sum"]
+}

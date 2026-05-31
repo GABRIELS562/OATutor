@@ -1,0 +1,10 @@
+{
+    "id": "ineq-linear-003b",
+    "stepAnswer": ["(-2,4]", "-2<x<=4", "-2 < x <= 4"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Divide by 2",
+    "stepBody": "Divide all parts of $-4 < 2x \\leq 8$ by 2.\n\nExpress your final answer in interval notation.\n\nEnter as: (-2,4]",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["inequalities", "interval-notation"]
+}

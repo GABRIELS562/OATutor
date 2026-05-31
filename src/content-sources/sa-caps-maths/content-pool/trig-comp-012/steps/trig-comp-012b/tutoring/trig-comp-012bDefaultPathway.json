@@ -1,0 +1,64 @@
+[
+    {
+        "id": "trig-comp-012b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute Values",
+        "text": "$$\\tan(A + B) = \\frac{\\frac{1}{2} + \\frac{1}{3}}{1 - \\frac{1}{2} \\cdot \\frac{1}{3}}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-comp-012b-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["5/6"],
+        "dependencies": ["trig-comp-012b-h1"],
+        "title": "Calculate Numerator",
+        "text": "Calculate $$\\frac{1}{2} + \\frac{1}{3} = ?$$\n\nFind a common denominator of 6.\nEnter as a fraction: 5/6",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-comp-012b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["1/6"],
+        "dependencies": ["trig-comp-012b-h2"],
+        "title": "Calculate tan A tan B",
+        "text": "Calculate $$\\frac{1}{2} \\times \\frac{1}{3} = ?$$\n\nEnter as a fraction: 1/6",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-comp-012b-h4",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["5/6"],
+        "dependencies": ["trig-comp-012b-h3"],
+        "title": "Calculate Denominator",
+        "text": "Calculate $$1 - \\frac{1}{6} = ?$$\n\nEnter as a fraction: 5/6",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "trig-comp-012b-h5",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["1"],
+        "dependencies": ["trig-comp-012b-h4"],
+        "title": "Final Division",
+        "text": "$$\\tan(A + B) = \\frac{\\frac{5}{6}}{\\frac{5}{6}} = 1$$\n\nThis means A + B = 45° (since tan 45° = 1)",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

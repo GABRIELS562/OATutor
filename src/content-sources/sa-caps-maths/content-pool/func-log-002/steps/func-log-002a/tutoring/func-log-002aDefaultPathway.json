@@ -1,0 +1,38 @@
+[
+    {
+        "id": "func-log-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "The Three Logarithm Laws",
+        "text": "1. **Product Rule**: $\\log_a(mn) = \\log_a(m) + \\log_a(n)$\n\n2. **Quotient Rule**: $\\log_a\\left(\\frac{m}{n}\\right) = \\log_a(m) - \\log_a(n)$\n\n3. **Power Rule**: $\\log_a(m^n) = n\\log_a(m)$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-log-002a-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["log_2(32)"],
+        "dependencies": ["func-log-002a-h1"],
+        "title": "Apply Product Rule First",
+        "text": "First, combine $\\log_2 8 + \\log_2 4$ using the product rule.\n\n$\\log_2 8 + \\log_2 4 = \\log_2(8 \\times 4) = ?$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "func-log-002a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["log_2(16)"],
+        "dependencies": ["func-log-002a-h2"],
+        "title": "Apply Quotient Rule",
+        "text": "Now apply the quotient rule:\n\n$\\log_2(32) - \\log_2(2) = \\log_2\\left(\\frac{32}{2}\\right) = ?$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

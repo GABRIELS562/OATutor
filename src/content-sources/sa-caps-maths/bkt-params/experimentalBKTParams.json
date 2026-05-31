@@ -1,0 +1,68 @@
+{
+  "geo-tangent-theorem": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  },
+  "geo-proof-writing": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.15
+  },
+  "geo-cyclic-quad": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "trig-compound-add": {
+    "probMastery": 0.25,
+    "probTransit": 0.12,
+    "probSlip": 0.12,
+    "probGuess": 0.15
+  },
+  "trig-general-solution": {
+    "probMastery": 0.2,
+    "probTransit": 0.1,
+    "probSlip": 0.15,
+    "probGuess": 0.12
+  },
+  "trig-special-angles": {
+    "probMastery": 0.4,
+    "probTransit": 0.2,
+    "probSlip": 0.08,
+    "probGuess": 0.2
+  },
+  "anl-distance-formula": {
+    "probMastery": 0.45,
+    "probTransit": 0.22,
+    "probSlip": 0.06,
+    "probGuess": 0.25
+  },
+  "anl-circle-center-form": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.1,
+    "probGuess": 0.18
+  },
+  "anl-tangent-circle": {
+    "probMastery": 0.15,
+    "probTransit": 0.08,
+    "probSlip": 0.18,
+    "probGuess": 0.1
+  },
+  "stats-regression-line": {
+    "probMastery": 0.3,
+    "probTransit": 0.15,
+    "probSlip": 0.12,
+    "probGuess": 0.18
+  },
+  "stats-correlation": {
+    "probMastery": 0.35,
+    "probTransit": 0.18,
+    "probSlip": 0.1,
+    "probGuess": 0.2
+  }
+}

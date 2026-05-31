@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-photo-001b-h1",
+    "type": "hint",
+    "title": "Unit Conversion",
+    "text": "First convert wavelength to metres: 400 nm = 400 x 10^-9 m = 4.0 x 10^-7 m. Then multiply h x c: 6.63 x 10^-34 x 3.0 x 10^8 = 19.89 x 10^-26 J.m",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-photo-001b-h2",
+    "type": "hint",
+    "title": "Final Calculation",
+    "text": "E = (19.89 x 10^-26)/(4.0 x 10^-7) = 4.97 x 10^-19 J. This is approximately 3.1 eV (electron volts). Blue/violet light at 400 nm has enough energy to eject electrons from many metal surfaces, which is why the photoelectric effect was first observed with ultraviolet light.",
+    "variabilization": {},
+    "dependencies": ["phys-photo-001b-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "id": "phys-doppler-011a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "370",
+    "v + v_s = 370"
+  ],
+  "stepExplanation": "When the source moves away, we use f' = fv/(v + v_s). The denominator is v + v_s = 340 + 30 = 370 m/s.",
+  "stepTitle": "Calculate Denominator",
+  "stepBody": "When a source moves AWAY from a stationary observer, we use f' = fv/(v + v_s). Calculate the denominator (v + v_s) where v = 340 m/s and v_s = 30 m/s."
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-inequality-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understand the Parabola Shape",
+        "text": "The coefficient of $x^2$ is positive (+1), so the parabola opens UPWARD.\\n\\nThis means the expression is NEGATIVE (below x-axis) BETWEEN the roots.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-inequality-001b-h2",
+        "type": "hint",
+        "dependencies": ["alg-inequality-001b-h1"],
+        "title": "Test a Value",
+        "text": "Test $x = 0$ (between -1 and 5):\\n\\n$0^2 - 4(0) - 5 = -5 < 0$ ✓\\n\\nSo values between -1 and 5 satisfy the inequality.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "alg-inequality-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["-1<x<5"],
+        "dependencies": ["alg-inequality-001b-h2"],
+        "title": "Write the Solution",
+        "text": "Since we need $x^2 - 4x - 5 < 0$ (strictly less than), we exclude the endpoints.\\n\\n$$-1 < x < 5$$\\n\\nOr in interval notation: $$(-1, 5)$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

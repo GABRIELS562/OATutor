@@ -1,0 +1,13 @@
+{
+  "id": "endo-001",
+  "title": "Endocrine System - Blood Glucose Regulation",
+  "body": "After eating a large meal rich in carbohydrates, blood glucose levels rise. Explain how the pancreas responds to restore normal blood glucose levels through negative feedback.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-hormones"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

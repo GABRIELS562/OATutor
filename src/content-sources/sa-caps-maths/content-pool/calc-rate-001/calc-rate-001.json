@@ -1,0 +1,10 @@
+{
+    "id": "calc-rate-001",
+    "title": "Rate of Change: Related Rates",
+    "body": "The radius of a circular oil spill is increasing at a rate of 2 m/s.\\n\\na) Find the rate at which the area is increasing when the radius is 10 m.\\nb) At what radius will the area be increasing at a rate of $100\\pi$ m$^2$/s?",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 12)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Differential Calculus - Rate of Change",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "g11-func-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": ["2", "a = 2"],
+  "stepExplanation": "Substitute the point (0, 5): 5 = a(0 - 2)^2 - 3, so 5 = a(4) - 3, then 8 = 4a, giving a = 2. The final equation is y = 2(x - 2)^2 - 3.",
+  "stepTitle": "Find the value of a",
+  "stepBody": "Substitute the point (0, 5) into y = a(x - 2)^2 - 3 and solve for a. What is the value of a?"
+}

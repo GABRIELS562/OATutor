@@ -1,0 +1,10 @@
+{
+    "id": "alg-expand-001b",
+    "stepAnswer": ["2x^2 - 7x - 15", "2x^2-7x-15"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Combine Like Terms",
+    "stepBody": "Now simplify $2x^2 - 10x + 3x - 15$ by combining like terms.\n\nWhat is the final simplified answer?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["expansion", "like-terms", "algebraic-manipulation"]
+}

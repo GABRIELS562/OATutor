@@ -1,0 +1,16 @@
+{
+  "id": "stats-variance-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "2.83",
+    "2.828",
+    "√8"
+  ],
+  "stepExplanation": "σ = √8 ≈ 2.83",
+  "stepTitle": "Standard Deviation",
+  "stepBody": "Standard deviation = √variance. Calculate √8."
+}

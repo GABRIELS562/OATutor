@@ -1,0 +1,15 @@
+{
+  "id": "phys-work-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "W = Fd",
+    "W = F × d"
+  ],
+  "stepExplanation": "W = Fd where F is force and d is displacement",
+  "stepTitle": "Work Formula",
+  "stepBody": "Write the formula for work when force is parallel to displacement."
+}

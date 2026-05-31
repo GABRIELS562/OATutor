@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-solve-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find Reference Angle",
+        "text": "Since $\\cos 60° = \\frac{1}{2}$, the reference angle is $60°$.\\n\\nBut we need $\\cos\\theta = -\\frac{1}{2}$ (negative).",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-solve-001b-h2",
+        "type": "hint",
+        "dependencies": ["trig-solve-001b-h1"],
+        "title": "Identify Quadrants",
+        "text": "Cosine is NEGATIVE in Quadrant 2 and Quadrant 3.\\n\\n(Remember: All Students Take Coffee - ASTC)\\n\\nQ2: $\\theta = 180° - 60° = 120°$\\nQ3: $\\theta = 180° + 60° = 240°$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-solve-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["120 and 240"],
+        "dependencies": ["trig-solve-001b-h2"],
+        "title": "Final Answer",
+        "text": "$\\theta = 120°$ or $\\theta = 240°$\\n\\nVerify:\\n$\\cos 120° = -\\frac{1}{2}$ ✓\\n$\\cos 240° = -\\frac{1}{2}$ ✓",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

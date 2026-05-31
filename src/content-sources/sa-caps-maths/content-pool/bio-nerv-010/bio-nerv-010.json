@@ -1,0 +1,15 @@
+{
+  "id": "bio-nerv-010",
+  "title": "Nervous System - Action Potential and Impulse Transmission",
+  "body": "A neuron at rest maintains a resting membrane potential of approximately -70mV. When stimulated, the neuron generates an action potential that travels along the axon. Explain the ionic changes that occur during the generation and propagation of an action potential.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-nerve-impulse"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "oer": "https://www.siyavula.com/read/za/life-sciences/grade-12/the-human-nervous-system",
+  "license": "CC BY 4.0",
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

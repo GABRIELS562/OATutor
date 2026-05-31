@@ -1,0 +1,15 @@
+{
+  "id": "bio-dna-012",
+  "title": "Protein Synthesis - Transcription and Translation",
+  "body": "A DNA coding strand has the following sequence: 5'-ATG GCA TTC AAG TAA-3'. Determine the mRNA sequence that would be transcribed from this gene, and then use the genetic code to identify the amino acid sequence of the resulting polypeptide.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-protein-synthesis"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "oer": "Adapted from Siyavula Grade 12 Life Sciences - DNA: The Code of Life",
+  "license": "CC BY 4.0",
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

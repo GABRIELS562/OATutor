@@ -1,0 +1,35 @@
+[
+    {
+        "id": "alg-expand-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify a and b",
+        "text": "In $(3x - 4)^2$:\n\n- $a = 3x$ (the first term)\n- $b = 4$ (the second term, ignoring the minus sign)",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-expand-002b-h2",
+        "type": "hint",
+        "dependencies": ["alg-expand-002b-h1"],
+        "title": "Calculate Each Part",
+        "text": "- $a^2 = (3x)^2 = 9x^2$\n- $2ab = 2 \\times 3x \\times 4 = 24x$\n- $b^2 = 4^2 = 16$\n\nUsing $(a-b)^2 = a^2 - 2ab + b^2$:\n$(3x - 4)^2 = 9x^2 - 24x + 16$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "alg-expand-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["9x^2 - 24x + 16"],
+        "dependencies": ["alg-expand-002b-h2"],
+        "title": "Final Answer",
+        "text": "$(3x - 4)^2 = 9x^2 - 24x + 16$\n\nCommon mistake: Don't forget to square the coefficient! $(3x)^2 = 9x^2$, not $3x^2$.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 10 Mathematics",
+        "license": "CC-BY"
+    }
+]

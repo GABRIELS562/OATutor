@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-acid-011a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Convert Volume Units",
+        "text": "Convert 20 cm^3 to dm^3: 20 cm^3 / 1000 = 0.020 dm^3",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-011a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply the Formula",
+        "text": "n(NaOH) = 0.1 mol/dm^3 x 0.020 dm^3",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-acid-011a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate the Result",
+        "text": "n(NaOH) = 0.002 mol or 2 x 10^-3 mol",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

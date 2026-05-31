@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-sine-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Isolate sin Q",
+        "text": "$$\\sin Q = \\frac{15 \\times \\sin 35°}{12}$$\n\n$$\\sin Q = \\frac{15 \\times 0.5736}{12}$$",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-sine-002b-h2",
+        "type": "hint",
+        "dependencies": ["trig-sine-002b-h1"],
+        "title": "Calculate sin Q",
+        "text": "$$\\sin Q = \\frac{8.604}{12} = 0.7170$$",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-sine-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["45.8"],
+        "dependencies": ["trig-sine-002b-h2"],
+        "title": "Find the Angle",
+        "text": "$$Q = \\sin^{-1}(0.7170) = 45.8°$$\n\nNote: Since sin Q < 1, there is a valid solution. Also Q > P as expected since q > p.",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    }
+]

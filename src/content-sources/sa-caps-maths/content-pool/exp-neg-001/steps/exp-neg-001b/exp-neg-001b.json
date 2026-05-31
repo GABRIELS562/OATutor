@@ -1,0 +1,10 @@
+{
+    "id": "exp-neg-001b",
+    "stepAnswer": ["16", "2^4"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Simplify Using Exponent Laws",
+    "stepBody": "From $\\frac{2^{-3} \\cdot 2^{4}}{2^{-3}}$, use exponent laws to simplify.\n\nRemember: $a^m \\cdot a^n = a^{m+n}$ and $\\frac{a^m}{a^n} = a^{m-n}$\n\nWhat is the final answer as a positive integer?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["exponent-laws", "simplification"]
+}

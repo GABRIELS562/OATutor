@@ -1,0 +1,14 @@
+{
+  "id": "vpm-002",
+  "title": "Vertical Projectile Motion - Time of Flight",
+  "body": "A stone is thrown vertically upward from a cliff 45 m high with an initial velocity of 15 m/s. Taking g = 10 m/s² downward, calculate the total time taken for the stone to reach the ground below the cliff.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-projectile"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

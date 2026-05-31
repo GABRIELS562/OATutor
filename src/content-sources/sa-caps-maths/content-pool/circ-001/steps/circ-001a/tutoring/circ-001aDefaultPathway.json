@@ -1,0 +1,32 @@
+[
+    {
+        "id": "circ-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Parallel Resistors",
+        "text": "In parallel, resistors provide alternative paths for current. The combined resistance is less than any individual resistor because current has more paths to take.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "circ-001a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Parallel Formula",
+        "text": "1/Rp = 1/R₁ + 1/R₂ + ... For two resistors, this simplifies to Rp = (R₁×R₂)/(R₁+R₂), called 'product over sum'.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "circ-001a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Series Resistors",
+        "text": "In series, resistances simply add: Rs = R₁ + R₂ + ... We'll need this for the final step.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

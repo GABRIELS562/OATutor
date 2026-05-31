@@ -1,0 +1,17 @@
+{
+  "id": "wep-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "W = ΔEk",
+    "W = Ek_f - Ek_i",
+    "W = ½mv² - ½mu²",
+    "Work = Change in kinetic energy"
+  ],
+  "stepExplanation": "The work-energy theorem states that the net work done on an object equals its change in kinetic energy: $$W_{net} = \\Delta E_k = \\frac{1}{2}mv_f^2 - \\frac{1}{2}mv_i^2$$",
+  "stepTitle": "Identify the Principle",
+  "stepBody": "What is the relationship between work done and kinetic energy?"
+}

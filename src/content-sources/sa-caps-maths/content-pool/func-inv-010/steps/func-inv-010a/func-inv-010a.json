@@ -1,0 +1,10 @@
+{
+    "id": "func-inv-010a",
+    "stepAnswer": ["(x+6)/3", "x/3 + 2", "(1/3)x + 2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Inverse Function",
+    "stepBody": "To find $f^{-1}(x)$, swap $x$ and $y$ in the equation $y = 3x - 6$, then solve for $y$.\n\nEnter $f^{-1}(x)$ in the form (x+6)/3 or equivalent:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["inverse-function", "linear-equations"]
+}

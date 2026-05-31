@@ -1,0 +1,10 @@
+{
+    "id": "exp-neg-003",
+    "title": "Negative Exponents with Variables",
+    "body": "Simplify the following expression, writing your answer with positive exponents only:\n\n$$\\frac{x^{-2} \\cdot y^3}{x^{-4} \\cdot y^{-1}}$$",
+    "variabilization": {},
+    "oer": "DBE NSC Mathematics Paper 1 (Grade 10)",
+    "license": "Public Domain - SA Department of Basic Education",
+    "lesson": "Exponents and Surds",
+    "courseName": "CAPS Grade 10 Mathematics"
+}

@@ -1,0 +1,16 @@
+{
+    "id": "chem-equil-015a",
+    "type": "scaffold",
+    "problemType": "TextBox",
+    "answerType": "string",
+    "hpiVariables": [],
+    "variabilization": {},
+    "stepAnswer": [
+        "higher",
+        "increased",
+        "greater"
+    ],
+    "stepExplanation": "A lower temperature would favor the forward (exothermic) reaction and give a higher yield of NH3 according to Le Chatelier's principle.",
+    "stepTitle": "Effect on Yield",
+    "stepBody": "According to Le Chatelier's principle, would a lower temperature give a higher or lower yield of NH3?"
+}

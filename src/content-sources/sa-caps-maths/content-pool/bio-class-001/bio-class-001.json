@@ -1,0 +1,17 @@
+{
+  "id": "bio-class-001",
+  "title": "Linnaean Classification System",
+  "body": "Carl Linnaeus developed the hierarchical system of classification still used today. Arrange the taxonomic levels from broadest to most specific and explain binomial nomenclature.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-classification"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 11 Life Sciences"
+}

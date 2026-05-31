@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-circ-011a-h1",
+    "type": "hint",
+    "title": "Parallel Resistance Formula",
+    "text": "For resistors in parallel: 1/Rp = 1/R1 + 1/R2. Substitute R1 = 6 ohm and R2 = 3 ohm to find the parallel equivalent.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-circ-011a-h2",
+    "type": "hint",
+    "title": "Series Addition",
+    "text": "The parallel combination (2 ohm) is in series with R3 (8 ohm). For series: Rtotal = Rp + R3 = 2 + 8 = 10 ohm",
+    "variabilization": {},
+    "dependencies": ["phys-circ-011a-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

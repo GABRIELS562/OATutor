@@ -1,0 +1,15 @@
+{
+  "id": "chem-equil-010b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "50.3",
+    "50"
+  ],
+  "stepExplanation": "Kc = (0.78)^2 / (0.11 x 0.11) = 0.6084 / 0.0121 = 50.3",
+  "stepTitle": "Calculate Kc",
+  "stepBody": "Substitute the equilibrium concentrations into the Kc expression and calculate the value."
+}

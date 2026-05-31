@@ -1,0 +1,15 @@
+{
+  "id": "bio-repro-011b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "3",
+    "three"
+  ],
+  "stepExplanation": "Three polar bodies are produced: one from meiosis I (first polar body) and two from meiosis II (the first polar body may divide, and one comes from the secondary oocyte division).",
+  "stepTitle": "Polar Bodies",
+  "stepBody": "How many polar bodies are produced from one primary oocyte?"
+}

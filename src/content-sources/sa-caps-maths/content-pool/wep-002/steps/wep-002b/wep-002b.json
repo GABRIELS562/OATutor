@@ -1,0 +1,17 @@
+{
+  "id": "wep-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "17.32",
+    "17.3",
+    "17",
+    "17.32 m/s"
+  ],
+  "stepExplanation": "Taking ground as reference (h = 0):\nInitially: h₁ = 20 m, v₁ = 0 (dropped from rest)\nFinally: h₂ = 5 m, v₂ = ?\n\nUsing conservation of energy:\n$$mgh_1 + \\frac{1}{2}mv_1^2 = mgh_2 + \\frac{1}{2}mv_2^2$$\n$$gh_1 = gh_2 + \\frac{1}{2}v_2^2$$ (mass cancels, v₁ = 0)\n$$(10)(20) = (10)(5) + \\frac{1}{2}v_2^2$$\n$$200 = 50 + 0.5v_2^2$$\n$$150 = 0.5v_2^2$$\n$$v_2^2 = 300$$\n$$v_2 = \\sqrt{300} = 17.32 \\text{ m/s}$$",
+  "stepTitle": "Calculate the Speed",
+  "stepBody": "The ball is dropped from 20 m (initial velocity = 0). Using conservation of mechanical energy, calculate its speed at 5 m above ground. Give your answer in m/s (round to 2 decimal places)."
+}

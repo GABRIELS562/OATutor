@@ -1,0 +1,35 @@
+[
+    {
+        "id": "func-exp-002a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute t = 10",
+        "text": "To find the fraction remaining, substitute $t = 10$ into the formula:\\n$$A(10) = A_0 \\cdot 2^{-10/5}$$\\n$$A(10) = A_0 \\cdot 2^{-2}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-exp-002a-h2",
+        "type": "hint",
+        "dependencies": ["func-exp-002a-h1"],
+        "title": "Evaluate the Power",
+        "text": "$$2^{-2} = \\frac{1}{2^2} = \\frac{1}{4}$$\\n\\nSo $A(10) = A_0 \\cdot \\frac{1}{4}$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "func-exp-002a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["1/4"],
+        "dependencies": ["func-exp-002a-h2"],
+        "title": "State the Fraction",
+        "text": "The fraction remaining is $\\frac{A(10)}{A_0} = \\frac{1}{4}$ or 0.25 (25%)",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

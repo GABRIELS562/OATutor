@@ -1,0 +1,35 @@
+[
+    {
+        "id": "poly-005b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Simplify the Equation",
+        "text": "From $-8 + 4a + 2 + 6 = 0$:\n\nCombine the constant terms: $-8 + 2 + 6 = 0$\n\nSo the equation becomes: $4a + 0 = 0$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-005b-h2",
+        "type": "hint",
+        "dependencies": ["poly-005b-h1"],
+        "title": "Solve for a",
+        "text": "From $4a = 0$:\n\nDivide both sides by 4:\n\n$a = 0$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    },
+    {
+        "id": "poly-005b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": ["0"],
+        "dependencies": ["poly-005b-h2"],
+        "title": "The Value of a",
+        "text": "$a = 0$\n\nTherefore, $f(x) = x^3 - x + 6$ has $(x + 2)$ as a factor.\n\nVerification: $f(-2) = -8 - (-2) + 6 = -8 + 2 + 6 = 0$ ✓",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC-BY"
+    }
+]

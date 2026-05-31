@@ -1,0 +1,10 @@
+{
+    "id": "anl-circ-010b",
+    "stepAnswer": ["(3,-2)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: State Centre and Radius",
+    "stepBody": "From the standard form $$(x-3)^2 + (y+2)^2 = 25$$\n\nWhat are the coordinates of the centre?\n\nEnter as: (x,y)",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["anl-circle-center-form"]
+}

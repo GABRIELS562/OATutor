@@ -1,0 +1,16 @@
+{
+  "id": "phys-gravity-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "F = Gm₁m₂/r²",
+    "F = GMm/r²",
+    "F = Gm1m2/r^2"
+  ],
+  "stepExplanation": "Newton's Law of Universal Gravitation states that the gravitational force between two masses is: $$F = \\frac{Gm_1m_2}{r^2}$$ where G is the gravitational constant, m₁ and m₂ are the masses, and r is the distance between their centres.",
+  "stepTitle": "State the Formula",
+  "stepBody": "Write down Newton's Law of Universal Gravitation formula for gravitational force between two masses."
+}

@@ -1,0 +1,10 @@
+{
+    "id": "alg-inequality-001a",
+    "stepAnswer": ["(x-5)(x+1)", "(x+1)(x-5)", "-1 and 5", "5 and -1"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find Critical Values",
+    "stepBody": "First, factorise $x^2 - 4x - 5$ and find the values where it equals zero.\\n\\nEnter the factorised form OR the critical values (e.g., -1 and 5):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["quadratic-inequalities", "factorisation"]
+}

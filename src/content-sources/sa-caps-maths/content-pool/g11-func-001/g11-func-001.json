@@ -1,0 +1,15 @@
+{
+  "id": "g11-func-001",
+  "title": "Parabola: Finding the Turning Point",
+  "body": "Given the parabola f(x) = x^2 - 6x + 5, determine the coordinates of the turning point and state whether it is a maximum or minimum.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["parabola-vertex"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "oer": "https://www.siyavula.com/read/za/mathematics/grade-11/functions",
+  "license": "CC BY 4.0",
+  "courseName": "CAPS Grade 11 Mathematics"
+}

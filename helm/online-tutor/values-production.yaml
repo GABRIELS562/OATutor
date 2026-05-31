@@ -1,0 +1,33 @@
+# Production values for online-tutor
+
+replicaCount: 2
+
+image:
+  repository: ghcr.io/gabriels562/online-tutor
+  pullPolicy: Always
+  tag: "latest"
+
+ingress:
+  enabled: true
+  className: "traefik"
+  annotations:
+    traefik.ingress.kubernetes.io/router.entrypoints: web,websecure
+  hosts:
+    - host: tutor.jagdevops.co.za
+      paths:
+        - path: /
+          pathType: Prefix
+  tls: []
+
+resources:
+  limits:
+    cpu: 200m
+    memory: 256Mi
+  requests:
+    cpu: 50m
+    memory: 64Mi
+
+labels:
+  app: online-tutor
+  team: devops
+  env: production

@@ -1,0 +1,13 @@
+{
+  "id": "phys-newton-001",
+  "title": "Newton's Second Law - Force Calculation",
+  "body": "A 15 kg trolley is pushed along a frictionless surface. The trolley accelerates at 2.5 m/s\u00b2. Calculate the net force applied to the trolley.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-newtons-laws"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "phys-photo-003",
+  "title": "Photoelectric Effect - Threshold Frequency",
+  "body": "A metal has a work function of 4.5 x 10^-19 J. Calculate the threshold frequency for this metal. (h = 6.63 x 10^-34 J.s)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-photoelectric"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

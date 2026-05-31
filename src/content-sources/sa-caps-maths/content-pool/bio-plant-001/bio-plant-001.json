@@ -1,0 +1,17 @@
+{
+  "id": "bio-plant-001",
+  "title": "Phototropism - Plant Response to Light",
+  "body": "Phototropism is the growth response of plants to light. A seedling is placed near a window with light coming from one side. Explain the mechanism of phototropism involving auxin.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-hormones"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

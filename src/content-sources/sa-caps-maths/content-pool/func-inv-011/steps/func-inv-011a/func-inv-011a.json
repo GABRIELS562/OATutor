@@ -1,0 +1,10 @@
+{
+    "id": "func-inv-011a",
+    "stepAnswer": ["sqrt(x+4)", "root(x+4)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Inverse Function",
+    "stepBody": "For $f(x) = x^2 - 4$ with $x \\geq 0$, find $f^{-1}(x)$.\n\nNote: Since $x \\geq 0$ in the original function, we take the positive square root.\n\nEnter as sqrt(x+4):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["inverse-function", "domain-range", "quadratic-functions"]
+}

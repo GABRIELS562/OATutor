@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-dna-001b-h1",
+    "type": "hint",
+    "title": "Match Each Base",
+    "text": "Go through each base: A→T, T→A, G→C, C→G, C→G, T→A, A→T, A→T",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "bio-dna-001b-h2",
+    "type": "hint",
+    "title": "The Answer",
+    "text": "Complementary strand: T-A-C-G-G-A-T-T",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

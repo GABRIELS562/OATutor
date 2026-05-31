@@ -1,0 +1,10 @@
+{
+    "id": "g10-alg-002b",
+    "stepAnswer": ["(3x+4)(3x-4)", "(3x-4)(3x+4)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Apply the Factorisation Formula",
+    "stepBody": "We have identified:\n- $a = 3x$ (because $a^2 = 9x^2$)\n- $b = 4$ (because $b^2 = 16$)\n\nUsing the formula $a^2 - b^2 = (a + b)(a - b)$, write the fully factorised form:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "difference-of-squares"]
+}

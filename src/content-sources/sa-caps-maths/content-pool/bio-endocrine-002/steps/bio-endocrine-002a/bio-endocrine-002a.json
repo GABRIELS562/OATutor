@@ -1,0 +1,18 @@
+{
+  "id": "bio-endocrine-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "low",
+    "Low",
+    "decreased",
+    "lower than normal",
+    "below normal"
+  ],
+  "stepExplanation": "In hyperthyroidism, TSH levels will be **LOW**.\n\nThis is because of negative feedback:\n\n1. Hyperthyroidism = EXCESS thyroid hormones (T3 and T4) in blood\n2. High T3/T4 levels are detected by the hypothalamus and pituitary\n3. This INHIBITS (suppresses) release of TRH from hypothalamus\n4. This INHIBITS release of TSH from pituitary\n5. Result: TSH levels DROP\n\nThe body is trying to \"turn off\" the thyroid because it's already producing too much hormone.",
+  "stepTitle": "Predict TSH Level",
+  "stepBody": "In a patient with hyperthyroidism (overactive thyroid), would TSH levels be high or low?"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "chem-org-012b",
+    "type": "scaffold",
+    "problemType": "MultipleChoice",
+    "answerType": "string",
+    "hpiVariables": [],
+    "variabilization": {},
+    "stepAnswer": [
+        "The reddish-brown colour disappears (decolourisation)"
+    ],
+    "stepExplanation": "Bromine water is reddish-brown (or orange-brown). When it reacts with an alkene, the bromine is used up in the addition reaction and the solution becomes colourless. This decolourisation of bromine water is the standard test for unsaturation (C=C double bonds).",
+    "stepTitle": "Describe the Observation",
+    "stepBody": "Bromine water has a reddish-brown (orange) colour. What visual change would you observe when bromine water is added to but-2-ene?",
+    "choices": [
+        "The solution turns blue",
+        "The solution turns green",
+        "The reddish-brown colour disappears (decolourisation)",
+        "Bubbles of gas are released"
+    ]
+}

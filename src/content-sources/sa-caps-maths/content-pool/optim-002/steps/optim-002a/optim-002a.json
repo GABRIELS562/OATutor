@@ -1,0 +1,10 @@
+{
+    "id": "optim-002a",
+    "stepAnswer": ["P(x)=-0.02x^2+48x-500", "P = -0.02x^2 + 48x - 500", "P(x) = 48x - 0.02x^2 - 500"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Derive the Profit Function",
+    "stepBody": "Revenue $R(x) = p \\times x = (60 - 0.02x) \\times x$\n\nCost $C(x) = 500 + 12x$\n\nProfit $P(x) = R(x) - C(x)$\n\nWrite the simplified profit function P(x):",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["optimization", "profit-function"]
+}

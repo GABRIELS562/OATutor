@@ -1,0 +1,10 @@
+{
+    "id": "alg-fact-002b",
+    "stepAnswer": ["(x + 3)(x - 8)", "(x-8)(x+3)", "(x + 3)(x - 8)", "(x - 8)(x + 3)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Write the Factorised Form",
+    "stepBody": "Using the numbers $3$ and $-8$, write $x^2 - 5x - 24$ in factorised form:\n\n$$x^2 - 5x - 24 = (x + ?)(x + ?)$$\n\nWhat is the complete factorisation?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["factorisation", "trinomial-factor", "algebraic-manipulation"]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "seq-geom-002b",
+    "stepAnswer": ["5115", "S10=5115"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate S10",
+    "stepBody": "Use the sum formula for a geometric series (when $r > 1$):\n$$S_n = \\frac{a(r^n - 1)}{r - 1}$$\n\nWith $a = 5$, $r = 2$, and $n = 10$, calculate $S_{10}$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["geometric-sequence", "series-sum"]
+}

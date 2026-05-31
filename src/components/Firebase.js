@@ -25,7 +25,6 @@ import {
 
 const problemSubmissionsOutput = "problemSubmissions";
 const problemStartLogOutput = "problemStartLogs";
-const GPTExperimentOutput = "GPTExperimentOutput";
 const feedbackOutput = "feedbacks";
 const siteLogOutput = "siteLogs";
 const focusStatus = "focusStatus";
@@ -98,8 +97,7 @@ class Firebase {
                 merge: true,
             }
         ).catch((err) => {
-            console.log("a non-critical error occurred.");
-            console.debug(err);
+            console.debug("Firebase: non-critical error", err);
         });
     }
 
@@ -122,9 +120,7 @@ class Firebase {
             doc(this.db, collection, this._getReadableID()),
             payload
         ).catch((err) => {
-            console.log("a non-critical error occurred.");
-            console.log("Error is: ", err);
-            console.debug(err);
+            console.debug("Firebase writeData error:", err);
         });
     }
 
@@ -278,8 +274,6 @@ class Firebase {
             hintAnswer: hint?.hintAnswer?.toString(),
             hintIsCorrect: isCorrect,
             hintsFinished,
-            dynamicHint: "abc",
-            bioInfo: "abcedf",
             variabilization,
             Content: courseName,
             lesson,

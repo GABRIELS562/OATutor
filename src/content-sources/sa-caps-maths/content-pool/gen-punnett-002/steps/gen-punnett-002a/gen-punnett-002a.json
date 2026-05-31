@@ -1,0 +1,15 @@
+{
+  "id": "gen-punnett-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "BS, Bs, bS, bs",
+    "BS,Bs,bS,bs"
+  ],
+  "stepExplanation": "Using the FOIL method on BbSs: B can pair with S or s, and b can pair with S or s, giving gametes BS, Bs, bS, and bs.",
+  "stepTitle": "Identify Gamete Types",
+  "stepBody": "First, identify all possible gametes from a BbSs parent. What are the four types of gametes this parent can produce?"
+}

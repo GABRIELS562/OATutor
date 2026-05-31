@@ -1,0 +1,10 @@
+{
+    "id": "pat-linear-003a",
+    "stepAnswer": ["C=15+8d", "C = 15 + 8d", "C=8d+15", "C = 8d + 15"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Write the Formula",
+    "stepBody": "The flat fee is R15 (this is the constant term).\nThe rate is R8 per kilometre (this is the coefficient of d).\n\nWrite the formula for total cost C in terms of distance d.\n\nEnter as: C=15+8d",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["arithmetic-sequence", "linear-equations"]
+}

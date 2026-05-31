@@ -1,0 +1,16 @@
+{
+  "id": "gen-punnett-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "1:2:1",
+    "1 red : 2 pink : 1 white",
+    "1 : 2 : 1"
+  ],
+  "stepExplanation": "In incomplete dominance, each genotype produces a distinct phenotype: RR = red, Rr = pink, rr = white. The phenotypic ratio is **1 red : 2 pink : 1 white**.",
+  "stepTitle": "Determine Phenotypic Ratio",
+  "stepBody": "In incomplete dominance, RR = red, Rr = pink, rr = white. Based on the genotypes from step 1, what is the phenotypic ratio? (Express as red : pink : white)"
+}

@@ -1,0 +1,10 @@
+{
+    "id": "para-turn-001a",
+    "stepAnswer": ["3", "x=3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the x-coordinate of the Turning Point",
+    "stepBody": "For $y = ax^2 + bx + c$, the x-coordinate of the turning point is $x = -\\frac{b}{2a}$.\n\nFor $y = x^2 - 6x + 5$, what is the x-coordinate of the turning point?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["parabola-vertex", "axis-of-symmetry"]
+}

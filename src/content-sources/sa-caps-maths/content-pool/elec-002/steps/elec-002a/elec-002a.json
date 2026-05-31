@@ -1,0 +1,17 @@
+{
+  "id": "elec-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "E = kQ/r²",
+    "E=kQ/r²",
+    "E = F/q",
+    "Electric field = kQ/r²"
+  ],
+  "stepExplanation": "The electric field strength at a distance r from a point charge Q is: $$E = \\frac{kQ}{r^2}$$ The unit is N/C or V/m. The field points away from positive charges and toward negative charges.",
+  "stepTitle": "State the Electric Field Formula",
+  "stepBody": "What is the formula for the electric field strength due to a point charge?"
+}

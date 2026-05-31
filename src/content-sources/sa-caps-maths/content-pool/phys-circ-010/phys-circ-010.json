@@ -1,0 +1,19 @@
+{
+  "id": "phys-circ-010",
+  "title": "Internal Resistance and Terminal Potential Difference",
+  "body": "A battery has an EMF of 24 V and an internal resistance of 0.5 ohm. When connected to an external circuit, a current of 4 A flows. Calculate: (a) the terminal potential difference across the battery, and (b) the power dissipated in the internal resistance.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-circuits",
+        "phys-ohms-law"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences",
+  "source": "Siyavula Grade 12 Physical Sciences - Electric Circuits"
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "hyp-graph-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understand Vertical Asymptotes",
+        "text": "A vertical asymptote occurs where the function is undefined.\n\nFor $y = \\frac{a}{x - p} + q$, the function is undefined when $x - p = 0$.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "hyp-graph-001a-h2",
+        "type": "hint",
+        "dependencies": ["hyp-graph-001a-h1"],
+        "title": "Find Where Denominator is Zero",
+        "text": "For $y = \\frac{3}{x - 2} + 1$:\n\nThe denominator is $x - 2$\n\nSet $x - 2 = 0$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "hyp-graph-001a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x=2"],
+        "dependencies": ["hyp-graph-001a-h2"],
+        "title": "State the Vertical Asymptote",
+        "text": "$x - 2 = 0$\n$x = 2$\n\nThe vertical asymptote is the line $x = 2$.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

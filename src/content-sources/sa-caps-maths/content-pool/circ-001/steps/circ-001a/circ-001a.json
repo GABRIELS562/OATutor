@@ -1,0 +1,17 @@
+{
+  "id": "circ-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "1/Rp = 1/R₁ + 1/R₂",
+    "1/Rp=1/R1+1/R2",
+    "Rp = R₁R₂/(R₁+R₂)",
+    "Product over sum"
+  ],
+  "stepExplanation": "For resistors in parallel, the combined resistance is found using: $$\\frac{1}{R_p} = \\frac{1}{R_1} + \\frac{1}{R_2}$$ or equivalently $$R_p = \\frac{R_1 \\times R_2}{R_1 + R_2}$$ (for two resistors). The parallel resistance is always less than the smallest individual resistor.",
+  "stepTitle": "Formula for Parallel Resistors",
+  "stepBody": "What is the formula for combining resistors in parallel?"
+}

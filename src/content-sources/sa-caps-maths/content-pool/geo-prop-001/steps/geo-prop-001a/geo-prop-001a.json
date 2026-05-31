@@ -1,0 +1,10 @@
+{
+    "id": "geo-prop-001a",
+    "stepAnswer": ["7.5"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Calculate EC",
+    "stepBody": "Using the Proportion Theorem: A line parallel to one side of a triangle divides the other two sides proportionally.\n\n$$\\frac{AD}{DB} = \\frac{AE}{EC}$$\n\nGiven AD = 3, DB = 5, AE = 4.5, calculate EC.",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["geo-proportional-sides", "geo-proof-writing"]
+}

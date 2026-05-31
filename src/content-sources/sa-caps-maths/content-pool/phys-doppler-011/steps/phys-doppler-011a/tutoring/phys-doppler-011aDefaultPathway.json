@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-doppler-011a-h1",
+    "type": "hint",
+    "title": "Moving Source Formula",
+    "text": "When the source moves relative to a stationary observer: Source approaching: f' = fv/(v - v_s) (frequency increases). Source receding: f' = fv/(v + v_s) (frequency decreases).",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-doppler-011a-h2",
+    "type": "hint",
+    "title": "Why the Plus Sign?",
+    "text": "When the source moves away, the wavefronts are stretched out (wavelength increases), so frequency decreases. The effective wavelength becomes wavelength' = (v + v_s)/f, leading to f' = fv/(v + v_s). For this problem: 340 + 30 = 370 m/s.",
+    "variabilization": {},
+    "dependencies": ["phys-doppler-011a-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

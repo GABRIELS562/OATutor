@@ -1,0 +1,16 @@
+{
+    "id": "trig-sine-002a",
+    "stepAnswer": ["sin(Q)/q = sin(P)/p"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 1: Set Up the Sine Rule",
+    "stepBody": "To find angle Q, which form of the Sine Rule is most convenient?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["sine-rule"],
+    "choices": [
+        "sin(Q)/q = sin(P)/p",
+        "q/sin(Q) = p/sin(P)",
+        "q² = p² + r² - 2pr·cos(Q)",
+        "Area = ½pq·sin(R)"
+    ]
+}

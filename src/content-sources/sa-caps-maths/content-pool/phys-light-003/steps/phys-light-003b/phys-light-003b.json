@@ -1,0 +1,16 @@
+{
+  "id": "phys-light-003b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "32.1",
+    "32",
+    "32.12"
+  ],
+  "stepExplanation": "n1 sin(theta1) = n2 sin(theta2). sin(theta2) = (n1/n2) sin(theta1) = (1.00/1.33) x 0.707 = 0.532. theta2 = arcsin(0.532) = 32.1 degrees",
+  "stepTitle": "Calculate Angle of Refraction",
+  "stepBody": "Apply Snell's law: n1 sin(theta1) = n2 sin(theta2). Rearrange to find theta2 and calculate the angle of refraction in degrees."
+}

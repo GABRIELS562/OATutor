@@ -1,0 +1,41 @@
+[
+  {
+    "id": "bio-dna-012a-h1",
+    "type": "hint",
+    "title": "Coding vs Template Strand",
+    "text": "The DNA coding strand (also called the sense strand) has the same sequence as the mRNA that will be produced, except DNA has thymine while RNA has uracil.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Grade 12 Life Sciences",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-dna-012a-h2",
+    "type": "hint",
+    "title": "T becomes U",
+    "text": "When converting from the DNA coding strand to mRNA, simply replace every thymine (T) with uracil (U). All other bases remain the same: A stays A, G stays G, C stays C.",
+    "variabilization": {},
+    "dependencies": ["bio-dna-012a-h1"],
+    "oer": "Siyavula Grade 12 Life Sciences",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-dna-012a-h3",
+    "type": "scaffold",
+    "problemType": "MultipleChoice",
+    "answerType": "string",
+    "hintAnswer": ["AUG GCA UUC AAG UAA"],
+    "dependencies": ["bio-dna-012a-h2"],
+    "title": "Apply the Conversion",
+    "text": "Convert ATG GCA TTC AAG TAA to mRNA by replacing T with U:",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Life Sciences",
+    "license": "CC BY 4.0",
+    "choices": [
+      "AUG GCA UUC AAG UAA",
+      "UAC CGU AAG UUC AUU",
+      "TAC CGT AAG TTC ATT",
+      "AUG GCU UUC AAG UAA"
+    ]
+  }
+]

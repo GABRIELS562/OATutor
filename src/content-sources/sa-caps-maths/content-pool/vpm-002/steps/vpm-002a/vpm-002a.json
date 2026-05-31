@@ -1,0 +1,17 @@
+{
+  "id": "vpm-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "s = ut + ½at²",
+    "s=ut+½at²",
+    "s = ut + 0.5at²",
+    "Δy = vi·t + ½gt²"
+  ],
+  "stepExplanation": "To find time when we know initial velocity, acceleration, and displacement, we use $$s = ut + \\frac{1}{2}at^2$$. This will give us a quadratic equation in t.",
+  "stepTitle": "Identify the Equation",
+  "stepBody": "We need to find the time for the stone to travel from the cliff top to the ground. Which equation relates displacement, initial velocity, acceleration, and time?"
+}

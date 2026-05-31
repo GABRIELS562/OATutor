@@ -1,0 +1,14 @@
+{
+  "id": "elec-002",
+  "title": "Electric Field Strength",
+  "body": "A point charge of +8 μC creates an electric field in the surrounding space. Calculate the electric field strength at a point 40 cm from the charge. (Take k = 9 × 10⁹ N·m²/C²)",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-circuits"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

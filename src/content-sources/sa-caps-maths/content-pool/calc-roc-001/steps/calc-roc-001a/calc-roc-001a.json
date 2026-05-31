@@ -1,0 +1,10 @@
+{
+    "id": "calc-roc-001a",
+    "stepAnswer": ["24+6t", "24 + 6t", "P'(t)=24+6t"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Rate of Change Function",
+    "stepBody": "The rate of change of population is given by the derivative $P'(t)$.\n\nDifferentiate $P(t) = 100 + 24t + 3t^2$.\n\nWrite the formula for $P'(t)$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "rate-of-change"]
+}

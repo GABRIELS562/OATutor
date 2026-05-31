@@ -1,0 +1,14 @@
+{
+  "id": "circ-001",
+  "title": "Electric Circuits - Series and Parallel Resistors",
+  "body": "Three resistors of 6 Ω, 12 Ω, and 4 Ω are connected. The 6 Ω and 12 Ω resistors are in parallel, and this combination is in series with the 4 Ω resistor. Calculate the total resistance of the circuit.",
+  "variabilization": {},
+  "oer": "DBE NSC Physical Sciences Paper 1 (Grade 12)",
+  "opiAnalysis": [
+    {
+      "skillCodes": ["phys-circuits", "phys-ohms-law"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

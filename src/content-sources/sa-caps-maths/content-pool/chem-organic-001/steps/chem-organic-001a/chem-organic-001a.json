@@ -1,0 +1,16 @@
+{
+  "id": "chem-organic-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "methyl ethanoate",
+    "Methyl ethanoate",
+    "methyl acetate"
+  ],
+  "stepExplanation": "Ester name: alcohol part (methyl) + acid part (ethanoate) = methyl ethanoate",
+  "stepTitle": "Name the Ester",
+  "stepBody": "When ethanoic acid reacts with methanol, what is the IUPAC name of the ester formed?"
+}

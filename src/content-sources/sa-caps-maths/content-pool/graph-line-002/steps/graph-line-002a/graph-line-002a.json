@@ -1,0 +1,10 @@
+{
+    "id": "graph-line-002a",
+    "stepAnswer": ["3", "m=3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Determine the Gradient of the Parallel Line",
+    "stepBody": "Parallel lines have the same gradient.\n\nThe given line is $y = 3x - 2$. What is the gradient of the parallel line?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["gradient", "linear-graph"]
+}

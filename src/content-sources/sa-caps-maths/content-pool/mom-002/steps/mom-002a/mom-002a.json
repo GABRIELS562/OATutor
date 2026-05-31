@@ -1,0 +1,17 @@
+{
+  "id": "mom-002a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "FΔt = Δp",
+    "F·Δt = Δp",
+    "Impulse = Change in momentum",
+    "FΔt = mv_f - mv_i"
+  ],
+  "stepExplanation": "The impulse-momentum theorem states that impulse equals change in momentum: $$F\\Delta t = \\Delta p = mv_f - mv_i$$. This relates force, time of contact, and the change in velocity.",
+  "stepTitle": "Identify the Relationship",
+  "stepBody": "We need to find force using the change in momentum and contact time. What is the relationship between impulse, force, and change in momentum?"
+}

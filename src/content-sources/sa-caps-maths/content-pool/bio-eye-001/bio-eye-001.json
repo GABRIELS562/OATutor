@@ -1,0 +1,14 @@
+{
+  "id": "bio-eye-001",
+  "title": "Human Eye - Structure and Function",
+  "body": "Study the cross-sectional diagram of the human eye:\n\n```\n[HUMAN EYE CROSS-SECTION]\n\n                     CONJUNCTIVA\n                         |\n    Light ---->    [A]CORNEA\n                         |\n                    AQUEOUS HUMOUR\n                         |\n                    [B]PUPIL (in IRIS)\n                         |\n                    [C]LENS\n                         |\n                   VITREOUS HUMOUR\n                         |\n                    [D]RETINA (contains rods & cones)\n                         |\n                    [E]OPTIC NERVE\n                         |\n                       BRAIN\n\n    CILIARY MUSCLES control lens shape\n    SUSPENSORY LIGAMENTS attach lens to ciliary body\n```\n\nIdentify the structures labeled A through E and explain the function of structure C in focusing light.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-human-eye"],
+      "difficultyCodes": ["medium"]
+    }
+  ],
+  "oer": "DBE NSC Life Sciences Paper 1/2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

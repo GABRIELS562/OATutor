@@ -1,0 +1,10 @@
+{
+    "id": "calc-roc-002a",
+    "stepAnswer": ["20-0.02x", "20 - 0.02x", "C'(x)=20-0.02x"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Marginal Cost Function",
+    "stepBody": "The marginal cost is the derivative of the cost function.\n\nDifferentiate $C(x) = 500 + 20x - 0.01x^2$.\n\nFind $C'(x)$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "rate-of-change"]
+}

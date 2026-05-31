@@ -1,0 +1,16 @@
+{
+  "id": "bio-plant-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "towards the light",
+    "toward light",
+    "bends towards light"
+  ],
+  "stepExplanation": "The shaded side with more auxin grows faster (cell elongation). The lit side with less auxin grows slower. This differential growth causes the stem to bend towards the light source - positive phototropism.",
+  "stepTitle": "Direction of Bending",
+  "stepBody": "Since the shaded side grows faster than the lit side, in which direction does the stem bend?"
+}

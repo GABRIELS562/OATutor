@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-stoich-006a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Assume 100g Sample",
+        "text": "In 100g: 40g C, 6.7g H, 53.3g O",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-006a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Convert to Moles",
+        "text": "n(C) = 40/12 = 3.33 mol. n(H) = 6.7/1 = 6.7 mol. n(O) = 53.3/16 = 3.33 mol",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-006a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find Simplest Ratio",
+        "text": "Divide each by smallest (3.33): C = 1, H = 2, O = 1. Ratio is 1:2:1",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

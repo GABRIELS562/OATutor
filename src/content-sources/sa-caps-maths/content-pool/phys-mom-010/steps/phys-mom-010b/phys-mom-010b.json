@@ -1,0 +1,15 @@
+{
+  "id": "phys-mom-010b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "150",
+    "150.0"
+  ],
+  "stepExplanation": "Using Impulse = F x delta_t, we get F = Impulse / delta_t = 3 N.s / 0.02 s = 150 N",
+  "stepTitle": "Calculate the Average Force",
+  "stepBody": "Using the impulse calculated in part (a), find the average force exerted by the hockey stick. Use the relationship: $$Impulse = F_{avg} \\times \\Delta t$$. Give your answer in Newtons (N)."
+}

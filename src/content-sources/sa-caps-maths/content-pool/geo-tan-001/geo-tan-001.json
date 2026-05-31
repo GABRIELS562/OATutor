@@ -1,0 +1,10 @@
+{
+    "id": "geo-tan-001",
+    "title": "Tangent-Chord Angle Theorem",
+    "body": "In the diagram, TAB is a tangent to the circle at A. AC and BC are chords.\n\nGiven: $$\\angle TAC = 48°$$ and $$\\angle ACB = 65°$$.\n\na) Calculate $$\\angle ABC$$ using the tan-chord angle theorem.\nb) Calculate $$\\angle BAC$$.",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Mathematics - Euclidean Geometry",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Euclidean Geometry - Tangent Theorems",
+    "courseName": "CAPS Grade 12 Mathematics Paper 2"
+}

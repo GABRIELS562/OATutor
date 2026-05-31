@@ -1,0 +1,32 @@
+[
+    {
+        "id": "mom-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Assigning Directions",
+        "text": "Let the 1500 kg car's direction be positive (+20 m/s). The other car travels opposite, so its velocity is -15 m/s.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "mom-001b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculating Momentum",
+        "text": "Momentum of car 1: (1500)(20) = 30000 kg·m/s. Momentum of car 2: (1000)(-15) = -15000 kg·m/s. Total: 30000 - 15000 = 15000 kg·m/s.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "mom-001b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Final Velocity",
+        "text": "15000 = (2500)v, so v = 6 m/s. The positive sign indicates the wreckage moves in the direction the heavier car was originally traveling.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

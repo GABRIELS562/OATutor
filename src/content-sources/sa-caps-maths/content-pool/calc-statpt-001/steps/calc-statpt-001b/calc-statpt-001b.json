@@ -1,0 +1,10 @@
+{
+    "id": "calc-statpt-001b",
+    "stepAnswer": ["(-1,-32) min, (3,0) max", "min at (-1,-32), max at (3,0)", "local min (-1,-32), local max (3,0)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Classify the Stationary Points",
+    "stepBody": "Find the y-coordinates of the stationary points and use the second derivative test to classify them.\n\nGive the coordinates and nature of each stationary point:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["stationary-points", "optimization"]
+}

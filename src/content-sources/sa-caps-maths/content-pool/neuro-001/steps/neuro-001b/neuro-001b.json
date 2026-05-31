@@ -1,0 +1,16 @@
+{
+  "id": "neuro-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "spinal cord",
+    "the spinal cord",
+    "spinal"
+  ],
+  "stepExplanation": "In a spinal reflex, the integration center is the **spinal cord**. The brain is not involved in the initial response, which is why reflexes are so fast. You feel the pain only after the reflex has already occurred.",
+  "stepTitle": "Identify the Integration Center",
+  "stepBody": "Why can you pull your hand away before consciously feeling pain? Which part of the central nervous system processes this reflex?"
+}

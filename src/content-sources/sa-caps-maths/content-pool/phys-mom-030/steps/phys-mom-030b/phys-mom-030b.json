@@ -1,0 +1,15 @@
+{
+  "id": "phys-mom-030b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "15",
+    "15.0"
+  ],
+  "stepExplanation": "Using J = m(v_f - v_i): 30 = 2(v_f - 0). Therefore v_f = 30/2 = 15 m/s",
+  "stepTitle": "Calculate Final Velocity",
+  "stepBody": "Using the impulse-momentum theorem, calculate the final velocity of the object. The object starts from rest ($$v_i = 0$$). Give your answer in m/s."
+}

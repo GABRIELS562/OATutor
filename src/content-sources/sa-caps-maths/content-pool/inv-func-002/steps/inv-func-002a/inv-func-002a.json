@@ -1,0 +1,10 @@
+{
+    "id": "inv-func-002a",
+    "stepAnswer": ["y=sqrt(x+4)", "y = sqrt(x + 4)", "f^(-1)(x)=sqrt(x+4)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Inverse Function",
+    "stepBody": "Starting with $y = x^2 - 4$ (where $x \\geq 0$), interchange $x$ and $y$, then solve for $y$.\n\nWrite the inverse function:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["inverse-function", "parabola-vertex"]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "phys-proj-010b-h1",
+    "type": "hint",
+    "title": "Recognize the Condition",
+    "text": "When the ball returns to the ground, its displacement from the starting point is zero: $$\\Delta y = 0$$.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "phys-proj-010b-h2",
+    "type": "hint",
+    "title": "Set Up the Equation",
+    "text": "Using $$\\Delta y = v_i t + \\frac{1}{2}at^2$$: $$0 = 25t + \\frac{1}{2}(-10)t^2 = 25t - 5t^2$$.",
+    "variabilization": {},
+    "dependencies": ["phys-proj-010b-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "phys-proj-010b-h3",
+    "type": "hint",
+    "title": "Solve the Quadratic",
+    "text": "Factor: $$0 = 5t(5 - t)$$. Solutions: $$t = 0$$ (launch) or $$t = 5$$ s (landing). Total time in air = 5 s.",
+    "variabilization": {},
+    "dependencies": ["phys-proj-010b-h2"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  }
+]

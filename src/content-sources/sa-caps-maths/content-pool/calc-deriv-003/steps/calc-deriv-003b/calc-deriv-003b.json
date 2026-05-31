@@ -1,0 +1,10 @@
+{
+    "id": "calc-deriv-003b",
+    "stepAnswer": ["4x+3", "4x + 3", "f'(x)=4x+3"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Simplify and Take the Limit",
+    "stepBody": "Calculate $\\frac{f(x+h) - f(x)}{h}$, simplify, then take the limit as $h \\to 0$.\n\nWhat is $f'(x)$?",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["first-principles", "limits", "differentiation"]
+}

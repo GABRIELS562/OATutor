@@ -1,0 +1,15 @@
+{
+  "id": "bio-class-004a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "genetic species ecosystem",
+    "genetic, species, ecosystem"
+  ],
+  "stepExplanation": "The three levels of biodiversity are: 1) Genetic diversity (variation within species), 2) Species diversity (variety of species in an area), 3) Ecosystem diversity (variety of habitats and ecological processes). All three levels are important for healthy ecosystems.",
+  "stepTitle": "Three Levels of Biodiversity",
+  "stepBody": "Name the three levels at which biodiversity exists."
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-stoich-004a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Moles of CaCO3",
+        "text": "M(CaCO3) = 40 + 12 + 3(16) = 100 g/mol. n = 10/100 = 0.1 mol",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-004a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Use Mole Ratio",
+        "text": "CaCO3:CaO = 1:1, so n(CaO) = 0.1 mol",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-stoich-004a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Mass",
+        "text": "M(CaO) = 40 + 16 = 56 g/mol. Theoretical yield = 0.1 x 56 = 5.6 g",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

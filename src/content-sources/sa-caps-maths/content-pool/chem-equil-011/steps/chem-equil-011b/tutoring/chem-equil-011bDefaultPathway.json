@@ -1,0 +1,32 @@
+[
+    {
+        "id": "chem-equil-011b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Key Concept",
+        "text": "Temperature is the only factor that changes the value of Kc. Pressure and concentration changes only shift equilibrium position.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-011b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Relate Shift to Kc",
+        "text": "Equilibrium shifts left means [NH3] decreases and [N2], [H2] increase.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "chem-equil-011b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate Effect on Kc",
+        "text": "Kc = [NH3]^2/([N2][H2]^3). With smaller numerator and larger denominator, Kc decreases.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

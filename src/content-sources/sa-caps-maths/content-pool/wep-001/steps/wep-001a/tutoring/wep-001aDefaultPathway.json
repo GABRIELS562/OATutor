@@ -1,0 +1,32 @@
+[
+    {
+        "id": "wep-001a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Work Definition",
+        "text": "Work is done when a force moves an object: W = Fd cos(θ). When force and displacement are in the same direction, θ = 0° so W = Fd.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "wep-001a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Work-Energy Theorem",
+        "text": "The net work done on an object equals its change in kinetic energy: W_net = ΔE_k = ½mv² - ½mu².",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "wep-001a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Frictionless Surface",
+        "text": "Since there's no friction, all the work done by the applied force goes into increasing the block's kinetic energy.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

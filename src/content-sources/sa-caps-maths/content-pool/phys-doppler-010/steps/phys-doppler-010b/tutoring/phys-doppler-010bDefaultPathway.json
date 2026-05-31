@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-doppler-010b-h1",
+    "type": "hint",
+    "title": "Substituting Values",
+    "text": "f' = f(v + v_o)/v = 1200(340 + 25)/340 = 1200(365/340)",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-doppler-010b-h2",
+    "type": "hint",
+    "title": "Complete Calculation",
+    "text": "f' = 1200 x (365/340) = 1200 x 1.0735 = 1288.2 Hz. The frequency is higher than 1200 Hz because the observer is moving towards the source. This is the same effect you experience when an ambulance approaches you.",
+    "variabilization": {},
+    "dependencies": ["phys-doppler-010b-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

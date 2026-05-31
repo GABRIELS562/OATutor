@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-wave-012b-h1",
+    "type": "hint",
+    "title": "Closed Pipe Resonance",
+    "text": "A closed pipe has a node at the closed end and an antinode at the open end. For the fundamental frequency (first harmonic), the pipe length is one quarter of the wavelength. Closed pipes only produce odd harmonics.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-wave-012b-h2",
+    "type": "hint",
+    "title": "Final Calculation",
+    "text": "L = wavelength/4 = 1.328/4 = 0.332 m or 33.2 cm. This explains why different length pipes in an organ produce different notes - longer pipes produce lower frequencies.",
+    "variabilization": {},
+    "dependencies": ["phys-wave-012b-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC-BY"
+  }
+]

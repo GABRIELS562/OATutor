@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-opt-010b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Differentiate the Volume Function",
+        "text": "From $V = 4x^3 - 84x^2 + 432x$:\n\n$$\\frac{dV}{dx} = 12x^2 - 168x + 432$$\n\nFactor out 12:\n$$\\frac{dV}{dx} = 12(x^2 - 14x + 36)$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-opt-010b-h2",
+        "type": "hint",
+        "dependencies": ["calc-opt-010b-h1"],
+        "title": "Find Stationary Points",
+        "text": "Set $\\frac{dV}{dx} = 0$:\n\n$x^2 - 14x + 36 = 0$\n\nUsing the quadratic formula:\n$x = \\frac{14 \\pm \\sqrt{196 - 144}}{2} = \\frac{14 \\pm \\sqrt{52}}{2} = \\frac{14 \\pm 7.21}{2}$\n\n$x = 10.61$ or $x = 3.39$\n\nSince $0 < x < 9$, only $x = 3.39$ is valid.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-opt-010b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x=3.39, V=655.47"],
+        "dependencies": ["calc-opt-010b-h2"],
+        "title": "Verify Maximum and Calculate Volume",
+        "text": "To verify it is a maximum, use the second derivative:\n$\\frac{d^2V}{dx^2} = 24x - 168$\n\nAt $x = 3.39$: $\\frac{d^2V}{dx^2} = 24(3.39) - 168 = -86.64 < 0$\n\nSince the second derivative is negative, this is a maximum.\n\nMaximum volume:\n$V = 4(3.39)^3 - 84(3.39)^2 + 432(3.39)$\n$V = 155.72 - 965.30 + 1464.48$\n$V \\approx 655.47$ cm^3",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

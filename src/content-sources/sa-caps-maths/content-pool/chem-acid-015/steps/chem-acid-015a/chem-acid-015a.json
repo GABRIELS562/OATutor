@@ -1,0 +1,15 @@
+{
+  "id": "chem-acid-015a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "0.0015",
+    "1.5 x 10^-3"
+  ],
+  "stepExplanation": "n(NaOH) = C x V = 0.1 mol/dm^3 x 0.015 dm^3 = 0.0015 mol. Since the mole ratio is 1:1, n(CH3COOH) = 0.0015 mol.",
+  "stepTitle": "Calculate Moles of Acid",
+  "stepBody": "Calculate the moles of NaOH used, then use the mole ratio to find moles of acetic acid."
+}

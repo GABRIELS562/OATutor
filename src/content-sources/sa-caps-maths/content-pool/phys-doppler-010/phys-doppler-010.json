@@ -1,0 +1,17 @@
+{
+  "id": "phys-doppler-010",
+  "title": "Doppler Effect - Moving Observer",
+  "body": "A stationary police siren emits sound at a frequency of 1200 Hz. A car approaches the siren at 25 m/s. If the speed of sound is 340 m/s, what frequency does the driver hear?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-doppler"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

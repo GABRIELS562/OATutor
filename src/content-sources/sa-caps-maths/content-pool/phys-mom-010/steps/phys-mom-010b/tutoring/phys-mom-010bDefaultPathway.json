@@ -1,0 +1,32 @@
+[
+  {
+    "id": "phys-mom-010b-h1",
+    "type": "hint",
+    "title": "Impulse-Force Relationship",
+    "text": "Impulse is also defined as the product of average force and time: $$J = F_{avg} \\times \\Delta t$$",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "phys-mom-010b-h2",
+    "type": "hint",
+    "title": "Rearrange for Force",
+    "text": "Rearranging gives: $$F_{avg} = \\frac{J}{\\Delta t} = \\frac{Impulse}{time}$$",
+    "variabilization": {},
+    "dependencies": ["phys-mom-010b-h1"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "phys-mom-010b-h3",
+    "type": "hint",
+    "title": "Calculate the Answer",
+    "text": "Substitute the values: $$F_{avg} = \\frac{3 \\text{ N.s}}{0.02 \\text{ s}} = 150$$ N",
+    "variabilization": {},
+    "dependencies": ["phys-mom-010b-h2"],
+    "oer": "Siyavula Physical Sciences Grade 12",
+    "license": "CC BY 4.0"
+  }
+]

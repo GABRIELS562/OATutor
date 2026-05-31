@@ -1,0 +1,22 @@
+[
+  {
+    "id": "phys-emf-010a-h1",
+    "type": "hint",
+    "title": "Magnetic Flux Formula",
+    "text": "Magnetic flux (phi) = B * A, where B is magnetic field strength and A is the cross-sectional area. The change in flux depends on how B changes.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "phys-emf-010a-h2",
+    "type": "hint",
+    "title": "Calculate Change",
+    "text": "Change in B = 0.1 - 0.4 = -0.3 T. Change in flux = A * (change in B) = 0.05 * (-0.3) = -0.015 Wb",
+    "variabilization": {},
+    "dependencies": ["phys-emf-010a-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

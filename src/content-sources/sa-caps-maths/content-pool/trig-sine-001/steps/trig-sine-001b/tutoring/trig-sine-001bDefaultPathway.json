@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-sine-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Rearranging for b",
+        "text": "From $$\\frac{8}{\\sin 42°} = \\frac{b}{\\sin 63°}$$\n\nMultiply both sides by sin 63°:\n$$b = \\frac{8 \\times \\sin 63°}{\\sin 42°}$$",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-sine-001b-h2",
+        "type": "hint",
+        "dependencies": ["trig-sine-001b-h1"],
+        "title": "Calculate the Values",
+        "text": "Using a calculator:\n- sin 63° = 0.8910...\n- sin 42° = 0.6691...\n\n$$b = \\frac{8 \\times 0.8910}{0.6691}$$",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-sine-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["10.65"],
+        "dependencies": ["trig-sine-001b-h2"],
+        "title": "Final Calculation",
+        "text": "$$b = \\frac{8 \\times 0.8910}{0.6691} = \\frac{7.128}{0.6691} = 10.65$$ cm",
+        "variabilization": {},
+        "oer": "CAPS Grade 11",
+        "license": "Public Domain"
+    }
+]

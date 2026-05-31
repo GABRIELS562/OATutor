@@ -1,0 +1,18 @@
+{
+  "id": "chem-electro-001",
+  "title": "Electrolysis: Mass Deposited at Cathode",
+  "body": "During the electrolysis of copper(II) sulfate solution using copper electrodes, a current of 2 A flows for 30 minutes. Calculate the mass of copper deposited at the cathode. (Faraday constant F = 96500 C/mol, Relative atomic mass of Cu = 64)",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "chem-electrochemistry"
+      ],
+      "difficultyCodes": [
+        "hard"
+      ]
+    }
+  ],
+  "oer": "DBE NSC Physical Sciences Paper 2 (Grade 12)",
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

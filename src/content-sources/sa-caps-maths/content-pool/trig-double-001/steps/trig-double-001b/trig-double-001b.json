@@ -1,0 +1,10 @@
+{
+    "id": "trig-double-001b",
+    "stepAnswer": ["-24/25"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate sin 2A",
+    "stepBody": "Using the double angle formula: sin 2A = 2 sin A cos A\n\nSubstitute sin A = 4/5 and cos A = -3/5.\n\nEnter your answer as a fraction (include the sign): numerator/denominator",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-double-angle"]
+}

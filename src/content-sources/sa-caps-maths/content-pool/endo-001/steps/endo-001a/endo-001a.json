@@ -1,0 +1,16 @@
+{
+  "id": "endo-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "insulin",
+    "insulin from beta cells",
+    "beta cells release insulin"
+  ],
+  "stepExplanation": "When blood glucose rises, the **beta cells** of the islets of Langerhans in the pancreas detect this and secrete the hormone **insulin** into the bloodstream.",
+  "stepTitle": "Identify the Hormone Released",
+  "stepBody": "When blood glucose levels rise above normal, which hormone does the pancreas release, and from which type of cell?"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "phys-emf-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "6",
+    "6 Ω"
+  ],
+  "stepExplanation": "R_total = 2 + 4 = 6 Ω",
+  "stepTitle": "Total Resistance",
+  "stepBody": "Calculate total resistance (internal + external)."
+}

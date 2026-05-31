@@ -1,0 +1,18 @@
+{
+  "id": "bio-eco-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "increase",
+    "increases",
+    "will increase",
+    "go up",
+    "rise"
+  ],
+  "stepExplanation": "If snakes are removed, the mouse population will initially **INCREASE**.\n\nReasoning:\n1. Snakes prey on frogs, which compete with mice for grasshoppers\n2. Snakes may also prey on mice directly\n3. With fewer predators, mouse survival rate increases\n4. Less competition for food resources\n\nHowever, this may later cause:\n- Decrease in grasshopper population (more mice eating them)\n- Increase in owl/hawk predation on mice\n- Eventually, the ecosystem may reach a new balance",
+  "stepTitle": "Predict Population Change",
+  "stepBody": "If all snakes were removed from this ecosystem, would the mouse population initially increase or decrease? (Answer with one word)"
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-maxmin-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Understand the Problem",
+        "text": "When squares of side $x$ are cut from each corner:\n\n- Original length 24 cm loses $x$ from each end: new length = $24 - 2x$\n- Original width 16 cm loses $x$ from each end: new width = $16 - 2x$\n- The folded sides have height $x$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-maxmin-003a-h2",
+        "type": "hint",
+        "dependencies": ["calc-maxmin-003a-h1"],
+        "title": "Volume Formula",
+        "text": "Volume = length $\\times$ width $\\times$ height\n\n$V = (24 - 2x)(16 - 2x) \\times x$\n\n$V = x(24 - 2x)(16 - 2x)$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-maxmin-003a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["V=x(24-2x)(16-2x)"],
+        "dependencies": ["calc-maxmin-003a-h2"],
+        "title": "Expanded Form",
+        "text": "$V = x(24 - 2x)(16 - 2x)$\n\nExpanding $(24 - 2x)(16 - 2x) = 384 - 48x - 32x + 4x^2 = 384 - 80x + 4x^2$\n\nSo: $V = x(384 - 80x + 4x^2) = 4x^3 - 80x^2 + 384x$",
+        "variabilization": {},
+        "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+        "license": "CC BY 4.0"
+    }
+]

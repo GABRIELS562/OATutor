@@ -1,0 +1,17 @@
+{
+  "id": "chem-iupac-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "propan-1-ol",
+    "1-propanol",
+    "propanol",
+    "Propan-1-ol"
+  ],
+  "stepExplanation": "The compound has 3 carbons (prop-) and an -OH group on carbon 1. IUPAC name: **propan-1-ol** (or 1-propanol)",
+  "stepTitle": "Name the Compound",
+  "stepBody": "Count the carbons (3 carbons = prop-) and add the suffix for alcohols (-ol). What is the IUPAC name?"
+}

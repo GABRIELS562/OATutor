@@ -1,0 +1,20 @@
+{
+  "id": "bio-evol-020a",
+  "type": "scaffold",
+  "problemType": "MultipleChoice",
+  "answerType": "string",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "It showed a combination of ape-like and human-like features, suggesting a transitional form"
+  ],
+  "choices": [
+    "It showed a combination of ape-like and human-like features, suggesting a transitional form",
+    "It was the oldest fossil ever discovered in Africa",
+    "It proved that humans evolved in Europe and migrated to Africa",
+    "It showed that ancient humans had larger brains than modern humans"
+  ],
+  "stepExplanation": "The Taung Child was significant because it displayed a mosaic of features: ape-like traits (small brain size of about 400-500 cc) combined with human-like traits (forward-positioned foramen magnum indicating bipedalism, small canine teeth, and parabolic dental arcade). This combination suggested that Australopithecus africanus was a transitional species between apes and humans, supporting the theory that bipedalism evolved before large brains.",
+  "stepTitle": "Significance of the Taung Child",
+  "stepBody": "Why was the discovery of the Taung Child fossil considered groundbreaking evidence for human evolution in Africa?"
+}

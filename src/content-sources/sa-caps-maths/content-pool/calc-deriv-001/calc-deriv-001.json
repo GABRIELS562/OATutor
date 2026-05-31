@@ -1,0 +1,10 @@
+{
+    "id": "calc-deriv-001",
+    "title": "Differentiation Using the Power Rule",
+    "body": "Differentiate the following function using the rules of differentiation:\n\n$$f(x) = 5x^4 - 3x^3 + 2x^2 - 7x + 4$$\n\nFind $f'(x)$.",
+    "variabilization": {},
+    "oer": "https://www.siyavula.com/read/za/mathematics/grade-12/differential-calculus",
+    "license": "CC BY 4.0 - Siyavula Education",
+    "lesson": "Differential Calculus - Rules for Differentiation",
+    "courseName": "CAPS Grade 12 Mathematics"
+}

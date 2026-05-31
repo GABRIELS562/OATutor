@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-class-001b-h1",
+    "type": "hint",
+    "title": "Two-Part Name",
+    "text": "'Binomial' means two names. Linnaeus invented this system so every organism would have a unique, universal name recognized worldwide, regardless of local common names.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-class-001b-h2",
+    "type": "hint",
+    "title": "Writing Scientific Names",
+    "text": "The first name (genus) is always capitalized, the second (species) is lowercase. The whole name should be italicized (or underlined if handwritten). Example: Panthera leo (lion), Canis familiaris (dog).",
+    "variabilization": {},
+    "dependencies": ["bio-class-001b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

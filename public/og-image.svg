@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D4FF"/>
+      <stop offset="50%" style="stop-color:#7B2FF7"/>
+      <stop offset="100%" style="stop-color:#F72585"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D4FF"/>
+      <stop offset="50%" style="stop-color:#7B2FF7"/>
+      <stop offset="100%" style="stop-color:#F72585"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1200" height="8" fill="url(#accentGrad)"/>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="622" width="1200" height="8" fill="url(#accentGrad)"/>
+
+  <!-- Logo box -->
+  <rect x="80" y="200" width="160" height="160" rx="30" fill="#1a1a2e" stroke="url(#accentGrad)" stroke-width="3"/>
+  <text x="160" y="300"
+        font-family="'Titillium Web', 'Segoe UI', Arial, sans-serif"
+        font-size="64"
+        font-weight="700"
+        fill="url(#textGrad)"
+        text-anchor="middle">XYZ</text>
+
+  <!-- Main text -->
+  <text x="300" y="260"
+        font-family="'Titillium Web', 'Segoe UI', Arial, sans-serif"
+        font-size="72"
+        font-weight="700"
+        fill="#FFFFFF">XYZ
+    <tspan fill="url(#textGrad)"> Online</tspan>
+  </text>
+
+  <text x="300" y="320"
+        font-family="'Titillium Web', 'Segoe UI', Arial, sans-serif"
+        font-size="32"
+        fill="#94A3B8">Grade 10-12 Maths & Science Tutoring</text>
+
+  <!-- Features -->
+  <text x="300" y="420"
+        font-family="'Titillium Web', 'Segoe UI', Arial, sans-serif"
+        font-size="24"
+        fill="#67E8F9">CAPS Aligned</text>
+  <text x="520" y="420"
+        font-family="'Titillium Web', 'Segoe UI', Arial, sans-serif"
+        font-size="24"
+        fill="#A855F7">AI-Powered Hints</text>
+  <text x="780" y="420"
+        font-family="'Titillium Web', 'Segoe UI', Arial, sans-serif"
+        font-size="24"
+        fill="#F472B6">100% Free</text>
+
+  <!-- Subjects -->
+  <text x="300" y="500"
+        font-family="'Titillium Web', 'Segoe UI', Arial, sans-serif"
+        font-size="20"
+        fill="#64748B">Mathematics | Physical Sciences | Life Sciences</text>
+</svg>

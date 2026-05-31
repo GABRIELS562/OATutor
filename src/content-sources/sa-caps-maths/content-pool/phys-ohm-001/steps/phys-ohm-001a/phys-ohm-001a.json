@@ -1,0 +1,17 @@
+{
+  "id": "phys-ohm-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "V = IR",
+    "V=IR",
+    "R = V/I",
+    "R=V/I"
+  ],
+  "stepExplanation": "Ohm's Law: $$V = IR$$ or rearranged: $$R = \\frac{V}{I}$$",
+  "stepTitle": "Write Ohm's Law",
+  "stepBody": "Write the formula for Ohm's Law that relates voltage (V), current (I), and resistance (R)."
+}

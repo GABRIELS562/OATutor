@@ -1,0 +1,35 @@
+[
+    {
+        "id": "trig-double-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply the Double Angle",
+        "text": "With A = 22.5°:\n$$\\cos^2 22.5° - \\sin^2 22.5° = \\cos(2 \\times 22.5°)$$\n$$= \\cos 45°$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-double-002b-h2",
+        "type": "hint",
+        "dependencies": ["trig-double-002b-h1"],
+        "title": "Special Angle Value",
+        "text": "45° is a special angle from the isosceles right triangle (45-45-90).\n\n$$\\cos 45° = \\frac{\\sqrt{2}}{2} = \\frac{1}{\\sqrt{2}}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    },
+    {
+        "id": "trig-double-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["sqrt(2)/2"],
+        "dependencies": ["trig-double-002b-h2"],
+        "title": "Final Answer",
+        "text": "$$\\cos^2 22.5° - \\sin^2 22.5° = \\cos 45° = \\frac{\\sqrt{2}}{2}$$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 2",
+        "license": "Public Domain"
+    }
+]

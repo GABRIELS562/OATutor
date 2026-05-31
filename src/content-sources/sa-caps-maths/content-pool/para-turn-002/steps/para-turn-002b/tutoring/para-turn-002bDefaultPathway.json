@@ -1,0 +1,35 @@
+[
+    {
+        "id": "para-turn-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply Zero Product Rule",
+        "text": "If $(x + 4)(x - 2) = 0$, then either:\n- $x + 4 = 0$, or\n- $x - 2 = 0$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "para-turn-002b-h2",
+        "type": "hint",
+        "dependencies": ["para-turn-002b-h1"],
+        "title": "Solve Each Equation",
+        "text": "From $x + 4 = 0$: $x = -4$\n\nFrom $x - 2 = 0$: $x = 2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "para-turn-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["x=-4 and x=2"],
+        "dependencies": ["para-turn-002b-h2"],
+        "title": "State the X-Intercepts",
+        "text": "The x-intercepts are $x = -4$ and $x = 2$.\n\nAs coordinates: $(-4; 0)$ and $(2; 0)$\n\nThe parabola crosses the x-axis at these two points.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

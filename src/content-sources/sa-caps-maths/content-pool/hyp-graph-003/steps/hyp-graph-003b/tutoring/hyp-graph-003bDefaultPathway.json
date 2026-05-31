@@ -1,0 +1,35 @@
+[
+    {
+        "id": "hyp-graph-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute x = 0",
+        "text": "For the y-intercept, substitute $x = 0$:\n\n$y = \\frac{-4}{0} + 2$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "hyp-graph-003b-h2",
+        "type": "hint",
+        "dependencies": ["hyp-graph-003b-h1"],
+        "title": "Identify the Problem",
+        "text": "Division by zero is undefined.\n\n$\\frac{-4}{0}$ is undefined, so we cannot find a y-value when $x = 0$.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "hyp-graph-003b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["no y-intercept"],
+        "dependencies": ["hyp-graph-003b-h2"],
+        "title": "Conclude",
+        "text": "There is no y-intercept because the vertical asymptote is at $x = 0$.\n\nThe hyperbola never crosses the y-axis. This is a characteristic of hyperbolas with $p = 0$ (asymptote at the y-axis).",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

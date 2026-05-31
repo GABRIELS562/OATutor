@@ -1,0 +1,17 @@
+{
+  "id": "elec-001a",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "F = kQ₁Q₂/r²",
+    "F=kQ1Q2/r²",
+    "F = kq₁q₂/r²",
+    "Coulomb's Law"
+  ],
+  "stepExplanation": "Coulomb's Law gives the force between two point charges: $$F = \\frac{kQ_1Q_2}{r^2}$$ where k = 9 × 10⁹ N·m²/C² is Coulomb's constant, Q₁ and Q₂ are the charges, and r is the distance between them.",
+  "stepTitle": "State Coulomb's Law",
+  "stepBody": "What is the formula for the electrostatic force between two point charges?"
+}

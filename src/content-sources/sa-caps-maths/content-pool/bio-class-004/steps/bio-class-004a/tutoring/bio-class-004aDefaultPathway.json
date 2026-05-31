@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-class-004a-h1",
+    "type": "hint",
+    "title": "What is Diversity?",
+    "text": "Diversity means variety. Biodiversity is the variety of living things. But variety exists at different scales - from differences in DNA to differences in entire ecosystems.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-class-004a-h2",
+    "type": "hint",
+    "title": "Three Scales of Variety",
+    "text": "Think small to large: GENETIC diversity (differences in genes within a species), SPECIES diversity (number of different species), and ECOSYSTEM diversity (variety of different habitats like forests, grasslands, wetlands).",
+    "variabilization": {},
+    "dependencies": ["bio-class-004a-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

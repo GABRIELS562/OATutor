@@ -1,0 +1,36 @@
+[
+  {
+    "id": "bio-dna-010b-h1",
+    "type": "hint",
+    "title": "Total Must Equal 100%",
+    "text": "The four DNA bases (A, T, G, C) together must make up 100% of the nitrogenous bases in the molecule.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula Grade 12 Life Sciences",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-dna-010b-h2",
+    "type": "hint",
+    "title": "Calculate Remaining Percentage",
+    "text": "First, find A + T = 22% + 22% = 44%. This means G + C = 100% - 44% = 56%.",
+    "variabilization": {},
+    "dependencies": ["bio-dna-010b-h1"],
+    "oer": "Siyavula Grade 12 Life Sciences",
+    "license": "CC BY 4.0"
+  },
+  {
+    "id": "bio-dna-010b-h3",
+    "type": "scaffold",
+    "problemType": "MultipleChoice",
+    "answerType": "string",
+    "hintAnswer": ["28%"],
+    "dependencies": ["bio-dna-010b-h2"],
+    "title": "Apply G=C Rule",
+    "text": "Since G = C (Chargaff's rule), and G + C = 56%, what is the percentage of each?",
+    "variabilization": {},
+    "oer": "Siyavula Grade 12 Life Sciences",
+    "license": "CC BY 4.0",
+    "choices": ["14%", "22%", "28%", "56%"]
+  }
+]

@@ -1,0 +1,10 @@
+{
+    "id": "trig-double-010b",
+    "stepAnswer": ["7/25"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Apply Double Angle Formula",
+    "stepBody": "Using one of the cos 2A formulas:\n- cos 2A = cos^2 A - sin^2 A\n- cos 2A = 2cos^2 A - 1\n- cos 2A = 1 - 2sin^2 A\n\nCalculate cos 2 theta.\n\nEnter as a fraction: 7/25",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-double-angle"]
+}

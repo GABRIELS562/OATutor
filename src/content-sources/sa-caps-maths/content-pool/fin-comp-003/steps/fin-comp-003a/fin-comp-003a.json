@@ -1,0 +1,10 @@
+{
+    "id": "fin-comp-003a",
+    "stepAnswer": ["2=(1.105)^n", "2 = (1.105)^n", "(1.105)^n = 2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Set Up the Equation",
+    "stepBody": "For the investment to double: $A = 2P$\n\nUsing $A = P(1 + i)^n$:\n$2P = P(1 + 0.105)^n$\n\nSimplify by dividing both sides by P.\n\nWrite the simplified equation:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["compound-interest", "equation-setup"]
+}

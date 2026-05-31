@@ -1,0 +1,17 @@
+{
+  "id": "phys-light-001",
+  "title": "Critical Angle and Total Internal Reflection",
+  "body": "Light travels from glass (refractive index n = 1.52) into air (n = 1.00). Calculate the critical angle for total internal reflection.",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "phys-waves"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Physical Sciences"
+}

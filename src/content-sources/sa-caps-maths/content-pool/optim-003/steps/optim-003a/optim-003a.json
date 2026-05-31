@@ -1,0 +1,10 @@
+{
+    "id": "optim-003a",
+    "stepAnswer": ["C=150x^2+12800/x", "C = 150x^2 + 12800/x", "C(x) = 150x^2 + 12800x^(-1)"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Express the Cost as a Function of x",
+    "stepBody": "Volume constraint: $x^2h = 32$, so $h = \\frac{32}{x^2}$\n\nCost of base = R150 $\\times x^2$\nCost of 4 sides = R100 $\\times 4xh$\n\nExpress the total cost $C$ as a function of $x$ only:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["optimization", "constraint-equations", "cost-function"]
+}

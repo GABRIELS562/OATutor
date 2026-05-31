@@ -1,0 +1,16 @@
+{
+    "id": "trig-gensol-002b",
+    "stepAnswer": ["x = 75 + 180n or x = 105 + 180n"],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Step 2: Solve for x",
+    "stepBody": "From Step 1: 2x = 150° + 360°n or 2x = 210° + 360°n\n\nDivide everything by 2 to get x.\n\nSelect the correct general solution for x.",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-general-solution"],
+    "choices": [
+        "x = 75 + 180n or x = 105 + 180n",
+        "x = 75 + 360n or x = 105 + 360n",
+        "x = 150 + 180n or x = 210 + 180n",
+        "x = 75 + 90n"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bio-evolution-001",
+  "title": "Evolution - Natural Selection",
+  "body": "In a population of beetles, some are green and some are brown. Birds eat the green beetles more easily because they are visible on brown bark. After many generations, what happens to the beetle population?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": [
+        "bio-natural-selection"
+      ],
+      "difficultyCodes": [
+        "medium"
+      ]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

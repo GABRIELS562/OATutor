@@ -1,23 +1,38 @@
 import { useLocalization } from "./LocalizationContext";
 
 import translationsEn from "../locales/en.json";
-import translationsEs from "../locales/es.json";
-import translationsSe from "../locales/se.json";
+import translationsAf from "../locales/af.json";
 
+/**
+ * Legacy useTranslation hook - wraps the newer useLocalization
+ *
+ * For new code, prefer using useLocalization() directly which provides:
+ * - t(key, vars) - translation function with variable interpolation
+ * - language - current active language
+ * - setLanguage(lang) - change language
+ * - toggleLanguage() - toggle between en/af
+ *
+ * This hook is kept for backward compatibility with existing components.
+ */
 export const useTranslation = () => {
-    const { language, setLanguage } = useLocalization();
+    const { language, setLanguage, t } = useLocalization();
 
     const translationsMap = {
         en: translationsEn,
-        es: translationsEs,
-        se: translationsSe,
+        af: translationsAf,
     };
 
     const translations = translationsMap[language] || translationsMap['en'];
 
     const translate = (key) => {
+        // First try the modern t() function for consistent behavior
+        const modernResult = t(key);
+        if (modernResult !== key) {
+            return modernResult;
+        }
+        // Fall back to direct lookup for legacy compatibility
         return key.split(".").reduce((obj, k) => (obj || {})[k], translations);
     };
 
-    return { translate, setLanguage };
+    return { translate, setLanguage, language };
 };

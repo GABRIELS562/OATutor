@@ -1,0 +1,15 @@
+{
+  "id": "chem-mole-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "20",
+    "20 g"
+  ],
+  "stepExplanation": "From equation: 2Mg → 2MgO (1:1 ratio). n(MgO) = 0.5 mol. M(MgO) = 24 + 16 = 40 g/mol. m = nM = 0.5 × 40 = 20 g",
+  "stepTitle": "Mass of MgO Produced",
+  "stepBody": "Using the mole ratio from the equation (2:2 or 1:1), calculate the mass of MgO formed."
+}

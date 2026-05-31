@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-genetics-001b-h1",
+    "type": "hint",
+    "title": "Count the tt",
+    "text": "From TT, Tt, Tt, tt - how many are tt? Only 1 out of 4.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  },
+  {
+    "id": "bio-genetics-001b-h2",
+    "type": "hint",
+    "title": "Convert to Percentage",
+    "text": "1/4 = 0.25 = 25%",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "",
+    "license": ""
+  }
+]

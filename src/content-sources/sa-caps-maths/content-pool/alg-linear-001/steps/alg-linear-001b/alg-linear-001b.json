@@ -1,0 +1,10 @@
+{
+    "id": "alg-linear-001b",
+    "stepAnswer": ["21/4", "5.25", "5,25"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Solve for x",
+    "stepBody": "From $2x - 3 + 2x + 2 = 20$, simplify and solve for $x$.\\n\\nEnter your answer as a fraction (e.g., 21/4) or decimal:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["linear-equations", "solving-equations"]
+}

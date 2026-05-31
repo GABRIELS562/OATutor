@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-repro-013a-h1",
+    "type": "hint",
+    "title": "Early Cell Division",
+    "text": "After fertilization, the zygote divides by mitosis: 2 cells, 4 cells, 8 cells, etc. By day 3, it forms a solid ball called a morula (from Latin 'mulberry').",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-repro-013a-h2",
+    "type": "hint",
+    "title": "Formation of Cavity",
+    "text": "By day 5, a fluid-filled cavity forms in the center, creating a hollow structure. 'Blast' means bud or germ, and 'cyst' means cavity. The structure is called a blastocyst.",
+    "variabilization": {},
+    "dependencies": ["bio-repro-013a-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]

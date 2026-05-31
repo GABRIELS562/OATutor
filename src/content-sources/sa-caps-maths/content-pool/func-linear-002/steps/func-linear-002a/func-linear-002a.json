@@ -1,0 +1,10 @@
+{
+    "id": "func-linear-002a",
+    "stepAnswer": ["-1/2", "-0.5"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find the Perpendicular Gradient",
+    "stepBody": "Line $L_1$ has equation $y = 2x - 3$, so its gradient is $m_1 = 2$.\n\nFor perpendicular lines: $m_1 \\times m_2 = -1$\n\nSo: $2 \\times m_2 = -1$\n\nCalculate the gradient of the perpendicular line $L_2$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["linear-functions", "perpendicular-lines"]
+}

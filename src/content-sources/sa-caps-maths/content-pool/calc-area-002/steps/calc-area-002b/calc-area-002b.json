@@ -1,0 +1,10 @@
+{
+    "id": "calc-area-002b",
+    "stepAnswer": ["125/6", "20.83", "20,83"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate the Enclosed Area",
+    "stepBody": "Calculate the area enclosed between $f(x) = 6 - x^2$ and $g(x) = x$ from $x = -3$ to $x = 2$.\\n\\nGive your answer as a fraction or decimal:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["integration", "area-between-curves"]
+}

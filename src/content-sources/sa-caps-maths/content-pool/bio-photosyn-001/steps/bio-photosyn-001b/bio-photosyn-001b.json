@@ -1,0 +1,18 @@
+{
+  "id": "bio-photosyn-001b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "ATP and NADPH",
+    "ATP, NADPH",
+    "NADPH and ATP",
+    "ATP and NADPH and oxygen",
+    "ATP, NADPH, oxygen"
+  ],
+  "stepExplanation": "During the light-dependent reactions:\n1. Light energy is absorbed by chlorophyll\n2. Water is split (photolysis): 2H2O -> 4H+ + 4e- + O2\n3. **ATP** is produced by chemiosmosis\n4. **NADPH** is formed when electrons reduce NADP+\n5. **Oxygen** is released as a by-product\n\nThe main energy-carrying products are **ATP and NADPH**, which are used in the light-independent reactions.",
+  "stepTitle": "Products of Light-Dependent Reactions",
+  "stepBody": "Name the TWO energy-carrying molecules produced during the light-dependent reactions that are used in the Calvin cycle."
+}

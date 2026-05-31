@@ -1,0 +1,10 @@
+{
+    "id": "trig-comp-002b",
+    "stepAnswer": ["1/2"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Simplify Using the Identity",
+    "stepBody": "Apply the identity with A = 80° and B = 20°:\n\n$$\\cos 80° \\cos 20° + \\sin 80° \\sin 20° = \\cos(80° - 20°) = \\cos 60°$$\n\nWhat is the exact value of cos 60°?\n\nEnter as a fraction: 1/2",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["trig-compound-add", "trig-special-angles"]
+}

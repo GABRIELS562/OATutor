@@ -1,0 +1,10 @@
+{
+    "id": "fin-compound-001b",
+    "stepAnswer": ["22898.68", "R22898.68", "22898,68", "R22 898.68", "22899"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Calculate the Final Amount",
+    "stepBody": "Calculate $A = 15000\\left(1 + \\frac{0.085}{12}\\right)^{60}$\\n\\nRound to the nearest cent:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["compound-interest", "calculation", "exponents"]
+}

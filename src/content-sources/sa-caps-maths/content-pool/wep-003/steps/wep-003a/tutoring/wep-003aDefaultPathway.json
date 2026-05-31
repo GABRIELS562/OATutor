@@ -1,0 +1,32 @@
+[
+    {
+        "id": "wep-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Definition of Power",
+        "text": "Power is the rate of doing work, or the rate of energy transfer. The SI unit is the watt (W), where 1 W = 1 J/s.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "wep-003a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Power Formula",
+        "text": "P = W/t, where W is work done in joules and t is time in seconds. We can also use P = Fv for constant force and velocity.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "wep-003a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Work Against Gravity",
+        "text": "When lifting at constant velocity, the applied force equals the weight (mg). Work done = force × distance = mgh.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

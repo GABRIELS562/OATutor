@@ -1,0 +1,15 @@
+{
+  "id": "chem-stoich-003b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "22.5",
+    "22,5"
+  ],
+  "stepExplanation": "From O2:H2O ratio (1:2), n(H2O) = 2 x 0.625 = 1.25 mol. m(H2O) = 1.25 x 18 = 22.5 g",
+  "stepTitle": "Calculate Mass of Water",
+  "stepBody": "Using the limiting reagent, calculate the mass of water produced in grams."
+}

@@ -1,0 +1,10 @@
+{
+    "id": "calc-tangent-004a",
+    "stepAnswer": ["x=4 or x=-2", "x=4, x=-2", "4 and -2", "-2 and 4"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 1: Find x Where the Gradient Equals 15",
+    "stepBody": "Set $\\frac{dy}{dx} = 15$ and solve for $x$.\n\nGiven $y = x^3 - 3x^2 - 9x + 5$.\n\nFirst find $\\frac{dy}{dx}$, then solve $\\frac{dy}{dx} = 15$:",
+    "answerType": "string",
+    "variabilization": {},
+    "knowledgeComponents": ["differentiation", "quadratic-equations"]
+}

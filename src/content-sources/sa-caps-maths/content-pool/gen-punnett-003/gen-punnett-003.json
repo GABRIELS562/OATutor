@@ -1,0 +1,13 @@
+{
+  "id": "gen-punnett-003",
+  "title": "Genetics - Sex-Linked Inheritance",
+  "body": "Haemophilia is a sex-linked recessive disorder carried on the X chromosome. A carrier woman (X^H X^h) marries a normal man (X^H Y). What percentage of their sons will have haemophilia?",
+  "variabilization": {},
+  "opiAnalysis": [
+    {
+      "skillCodes": ["bio-genetic-crosses"],
+      "difficultyCodes": ["hard"]
+    }
+  ],
+  "courseName": "CAPS Grade 12 Life Sciences"
+}

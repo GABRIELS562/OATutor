@@ -1,0 +1,32 @@
+[
+    {
+        "id": "circ-003b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Finding Resistance",
+        "text": "From P = V²/R, rearrange to R = V²/P = (240)²/60 = 57600/60 = 960 Ω.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "circ-003b-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Finding Current",
+        "text": "Using P = IV, rearrange to I = P/V = 60/240 = 0.25 A = 250 mA.",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    },
+    {
+        "id": "circ-003b-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Verify with Ohm's Law",
+        "text": "Check: V = IR → 240 = (0.25)(960) = 240 V. Confirmed! Also: P = I²R = (0.25)²(960) = 0.0625 × 960 = 60 W. Confirmed!",
+        "variabilization": {},
+        "oer": "DBE NSC",
+        "license": "Public Domain"
+    }
+]

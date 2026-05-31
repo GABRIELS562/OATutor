@@ -1,0 +1,35 @@
+[
+    {
+        "id": "seq-arith-002b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "The Arithmetic Sum Formula",
+        "text": "For an arithmetic series, the sum of the first $n$ terms is:\n$$S_n = \\frac{n}{2}[2a + (n-1)d]$$\n\nOr alternatively:\n$$S_n = \\frac{n}{2}(a + l)$$\nwhere $l$ is the last term.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "seq-arith-002b-h2",
+        "type": "hint",
+        "dependencies": ["seq-arith-002b-h1"],
+        "title": "Substitute Values",
+        "text": "Using $a = 3$, $d = 4$, $n = 50$:\n\n$S_{50} = \\frac{50}{2}[2(3) + (50-1)(4)]$\n\n$S_{50} = 25[6 + 49 \\times 4]$\n\n$S_{50} = 25[6 + 196]$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "seq-arith-002b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["5050"],
+        "dependencies": ["seq-arith-002b-h2"],
+        "title": "Final Calculation",
+        "text": "$S_{50} = 25[6 + 196]$\n$S_{50} = 25[202]$\n$S_{50} = 5050$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "calc-diff-011b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Rationalise the Numerator",
+        "text": "Multiply by the conjugate:\n\n$$\\frac{\\sqrt{x+h} - \\sqrt{x}}{h} \\times \\frac{\\sqrt{x+h} + \\sqrt{x}}{\\sqrt{x+h} + \\sqrt{x}}$$\n\nThe numerator becomes:\n\n$(\\sqrt{x+h})^2 - (\\sqrt{x})^2 = (x+h) - x = h$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-diff-011b-h2",
+        "type": "hint",
+        "dependencies": ["calc-diff-011b-h1"],
+        "title": "Simplify the Expression",
+        "text": "After rationalising:\n\n$$\\frac{h}{h(\\sqrt{x+h} + \\sqrt{x})} = \\frac{1}{\\sqrt{x+h} + \\sqrt{x}}$$\n\nThe $h$ cancels out (for $h \\neq 0$).",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "calc-diff-011b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["1/(2sqrt(x))"],
+        "dependencies": ["calc-diff-011b-h2"],
+        "title": "Take the Limit",
+        "text": "Now take the limit as $h \\to 0$:\n\n$$f'(x) = \\lim_{h \\to 0} \\frac{1}{\\sqrt{x+h} + \\sqrt{x}}$$\n\nAs $h \\to 0$, $\\sqrt{x+h} \\to \\sqrt{x}$:\n\n$$f'(x) = \\frac{1}{\\sqrt{x} + \\sqrt{x}} = \\frac{1}{2\\sqrt{x}}$$\n\nUsing power notation: $f'(x) = \\frac{1}{2}x^{-\\frac{1}{2}}$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

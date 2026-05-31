@@ -1,0 +1,35 @@
+[
+    {
+        "id": "para-turn-001b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Substitute x = 3",
+        "text": "$y = x^2 - 6x + 5$\n$y = (3)^2 - 6(3) + 5$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "para-turn-001b-h2",
+        "type": "hint",
+        "dependencies": ["para-turn-001b-h1"],
+        "title": "Simplify",
+        "text": "$y = 9 - 18 + 5$\n$y = -4$",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    },
+    {
+        "id": "para-turn-001b-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["(3;-4)"],
+        "dependencies": ["para-turn-001b-h2"],
+        "title": "State the Turning Point",
+        "text": "The turning point is $(3; -4)$.\n\nSince $a = 1 > 0$, this is a minimum turning point and the parabola opens upward.",
+        "variabilization": {},
+        "oer": "DBE NSC Paper 1",
+        "license": "Public Domain"
+    }
+]

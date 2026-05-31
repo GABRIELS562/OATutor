@@ -1,0 +1,16 @@
+{
+  "id": "phys-light-002b",
+  "type": "scaffold",
+  "problemType": "TextBox",
+  "answerType": "arithmetic",
+  "hpiVariables": [],
+  "variabilization": {},
+  "stepAnswer": [
+    "15.96",
+    "16",
+    "15.9"
+  ],
+  "stepExplanation": "d sin(theta) = n lambda. For n=1: sin(theta) = lambda/d = (550 x 10^-9)/(2 x 10^-6) = 0.275. theta = arcsin(0.275) = 15.96 degrees",
+  "stepTitle": "Calculate First Order Angle",
+  "stepBody": "Now use the grating equation d sin(theta) = n lambda for the first order (n=1). Calculate theta in degrees. (lambda = 550 nm = 550 x 10^-9 m)"
+}

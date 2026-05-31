@@ -1,0 +1,10 @@
+{
+    "id": "calc-rate-002b",
+    "stepAnswer": ["0"],
+    "problemType": "TextBox",
+    "stepTitle": "Step 2: Find Acceleration at t = 2",
+    "stepBody": "Find the acceleration when $t = 2$ seconds.\\n\\nGive your answer in m/s^2:",
+    "answerType": "numeric",
+    "variabilization": {},
+    "knowledgeComponents": ["motion", "differentiation", "acceleration"]
+}

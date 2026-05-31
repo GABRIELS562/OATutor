@@ -1,0 +1,35 @@
+[
+    {
+        "id": "seq-geom-003a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Calculate the Common Ratio",
+        "text": "$$r = \\frac{T_2}{T_1} = \\frac{6}{18}$$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "seq-geom-003a-h2",
+        "type": "hint",
+        "dependencies": ["seq-geom-003a-h1"],
+        "title": "Simplify and Check Convergence",
+        "text": "$$r = \\frac{6}{18} = \\frac{1}{3}$$\n\nSince $|\\frac{1}{3}| = \\frac{1}{3} < 1$, the series converges.",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    },
+    {
+        "id": "seq-geom-003a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "string",
+        "hintAnswer": ["1/3"],
+        "dependencies": ["seq-geom-003a-h2"],
+        "title": "Verification",
+        "text": "$$r = \\frac{1}{3}$$\n\nVerify: $\\frac{2}{6} = \\frac{1}{3}$ and $\\frac{2/3}{2} = \\frac{1}{3}$",
+        "variabilization": {},
+        "oer": "Siyavula Grade 12 Mathematics",
+        "license": "CC BY 4.0"
+    }
+]

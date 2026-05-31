@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bio-repro-010b-h1",
+    "type": "hint",
+    "title": "Diploid vs Haploid",
+    "text": "Diploid (2n) means the cell has pairs of chromosomes (46 in humans). Haploid (n) means the cell has only one set of chromosomes, which is half the diploid number.",
+    "variabilization": {},
+    "dependencies": [],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  },
+  {
+    "id": "bio-repro-010b-h2",
+    "type": "hint",
+    "title": "Calculate the Haploid Number",
+    "text": "If 2n = 46, then n = 46 / 2 = 23. Gametes (sperm and eggs) are always haploid so that fertilization restores the diploid number.",
+    "variabilization": {},
+    "dependencies": ["bio-repro-010b-h1"],
+    "oer": "Siyavula",
+    "license": "CC-BY"
+  }
+]
