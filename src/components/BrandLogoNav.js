@@ -82,32 +82,15 @@ const useStyles = makeStyles((theme) => ({
             borderRadius: '7px',
         },
     },
-    "logoText": {
-        fontFamily: "'Nunito', sans-serif",
-        fontWeight: 800,
-        fontSize: '16px',
-        color: '#58CC02',
-        letterSpacing: '1px',
+    "bookEmoji": {
+        fontSize: '24px',
+        lineHeight: 1,
         // Mobile styles
         [theme.breakpoints.down('sm')]: {
-            fontSize: '14px',
-            letterSpacing: '0.5px',
+            fontSize: '20px',
         },
         [theme.breakpoints.down('xs')]: {
-            fontSize: '13px',
-        },
-    },
-    "logoAccent": {
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        width: '100%',
-        height: '3px',
-        background: '#58CC02',
-        borderRadius: '2px',
-        // Mobile styles
-        [theme.breakpoints.down('xs')]: {
-            height: '2px',
+            fontSize: '18px',
         },
     },
     "brandText": {
@@ -172,8 +155,8 @@ const useStyles = makeStyles((theme) => ({
             width: 32,
             height: 32,
         },
-        "& $logoText": {
-            fontSize: '12px',
+        "& $bookEmoji": {
+            fontSize: '16px',
         },
         "& $logoGlow": {
             borderRadius: '8px',
@@ -181,9 +164,6 @@ const useStyles = makeStyles((theme) => ({
         },
         "& $logoInner": {
             borderRadius: '6px',
-        },
-        "& $logoAccent": {
-            height: '2px',
         },
         "& $brandText": {
             display: 'none', // Hide text in compact mode
@@ -216,12 +196,11 @@ function BrandLogoNav({ isPrivileged = false, noLink = false, compact = false })
 
     const BrandContent = () => (
         <>
-            {/* Modern Logo Mark */}
+            {/* Book Emoji Logo */}
             <div className={classes.logoContainer}>
                 <div className={classes.logoGlow}></div>
                 <div className={classes.logoInner}>
-                    <div className={classes.logoAccent}></div>
-                    <span className={classes.logoText}>AT</span>
+                    <span className={classes.bookEmoji}>📚</span>
                 </div>
             </div>
 
@@ -229,17 +208,7 @@ function BrandLogoNav({ isPrivileged = false, noLink = false, compact = false })
             {!compact && (
                 <div className={classes.brandText}>
                     <span className={classes.brandName}>
-                        {isMobile ? (
-                            // Shortened name on mobile
-                            <>
-                                <span className={classes.brandNameAccent}>Angelo</span>
-                            </>
-                        ) : (
-                            // Full name on larger screens
-                            <>
-                                Angelo <span className={classes.brandNameAccent}>Tutoring</span>
-                            </>
-                        )}
+                        <span className={classes.brandNameAccent}>tutor</span>
                     </span>
                     <span className={classes.brandTagline}>
                         Grade 10-12 | Maths & Science
