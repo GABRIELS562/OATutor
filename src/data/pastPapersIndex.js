@@ -28,8 +28,8 @@ export const PAPER_VARIANTS = {
 export const SUBJECTS = {
     MATHEMATICS: 'mathematics',
     MATH_LITERACY: 'math-literacy',
-    PHYSICAL_SCIENCE: 'physical-science',
-    LIFE_SCIENCE: 'life-science',
+    PHYSICAL_SCIENCES: 'physical-sciences',
+    LIFE_SCIENCES: 'life-sciences',
 };
 
 // Provinces
@@ -46,17 +46,36 @@ export const PROVINCES = [
 ];
 
 /**
+ * Get file prefix for subject
+ */
+const getFilePrefix = (subject) => {
+    switch (subject) {
+        case SUBJECTS.MATHEMATICS:
+            return 'maths';
+        case SUBJECTS.PHYSICAL_SCIENCES:
+            return 'physics';
+        case SUBJECTS.LIFE_SCIENCES:
+            return 'life-sci';
+        case SUBJECTS.MATH_LITERACY:
+            return 'maths-lit';
+        default:
+            return subject;
+    }
+};
+
+/**
  * Generate paper URL path
  */
 export const getPaperPath = (paper) => {
     const { type, year, subject, variant, province } = paper;
     const baseUrl = process.env.PUBLIC_URL || '';
+    const filePrefix = getFilePrefix(subject);
 
     if (type === PAPER_TYPES.PROVINCIAL && province) {
-        return `${baseUrl}/past-papers/provincial/${province}/${year}/${subject}-${variant}.pdf`;
+        return `${baseUrl}/past-papers/provincial/${province}/${year}/${filePrefix}-${variant}.pdf`;
     }
 
-    return `${baseUrl}/past-papers/${type}/${year}/${subject}-${variant}.pdf`;
+    return `${baseUrl}/past-papers/${type}/${year}/${subject}/${filePrefix}-${variant}.pdf`;
 };
 
 export const getMemoPath = (paper) => {
@@ -296,6 +315,194 @@ export const pastPapersIndex = [
         topics: ['trigonometry', 'euclidean-geometry', 'analytical-geometry', 'statistics'],
         totalMarks: 150,
         duration: 180,
+        hasMemo: true,
+        isAvailable: true,
+    },
+
+    // ============================================
+    // PHYSICAL SCIENCES NSC PAPERS
+    // ============================================
+
+    // 2024 Physical Sciences
+    {
+        id: 'nsc-2024-physics-p1',
+        title: 'Physical Sciences Paper 1 (Physics)',
+        year: 2024,
+        type: PAPER_TYPES.NSC,
+        subject: SUBJECTS.PHYSICAL_SCIENCES,
+        variant: PAPER_VARIANTS.PAPER_1,
+        grade: 12,
+        topics: ['mechanics', 'waves', 'electricity', 'magnetism', 'optical-phenomena'],
+        totalMarks: 150,
+        duration: 180,
+        hasMemo: true,
+        isAvailable: true,
+    },
+    {
+        id: 'nsc-2024-physics-p2',
+        title: 'Physical Sciences Paper 2 (Chemistry)',
+        year: 2024,
+        type: PAPER_TYPES.NSC,
+        subject: SUBJECTS.PHYSICAL_SCIENCES,
+        variant: PAPER_VARIANTS.PAPER_2,
+        grade: 12,
+        topics: ['chemical-change', 'chemical-systems', 'organic-chemistry', 'electrochemistry'],
+        totalMarks: 150,
+        duration: 180,
+        hasMemo: true,
+        isAvailable: true,
+    },
+
+    // 2023 Physical Sciences
+    {
+        id: 'nsc-2023-physics-p1',
+        title: 'Physical Sciences Paper 1 (Physics)',
+        year: 2023,
+        type: PAPER_TYPES.NSC,
+        subject: SUBJECTS.PHYSICAL_SCIENCES,
+        variant: PAPER_VARIANTS.PAPER_1,
+        grade: 12,
+        topics: ['mechanics', 'waves', 'electricity', 'magnetism', 'optical-phenomena'],
+        totalMarks: 150,
+        duration: 180,
+        hasMemo: true,
+        isAvailable: true,
+    },
+    {
+        id: 'nsc-2023-physics-p2',
+        title: 'Physical Sciences Paper 2 (Chemistry)',
+        year: 2023,
+        type: PAPER_TYPES.NSC,
+        subject: SUBJECTS.PHYSICAL_SCIENCES,
+        variant: PAPER_VARIANTS.PAPER_2,
+        grade: 12,
+        topics: ['chemical-change', 'chemical-systems', 'organic-chemistry', 'electrochemistry'],
+        totalMarks: 150,
+        duration: 180,
+        hasMemo: true,
+        isAvailable: true,
+    },
+
+    // 2022 Physical Sciences
+    {
+        id: 'nsc-2022-physics-p1',
+        title: 'Physical Sciences Paper 1 (Physics)',
+        year: 2022,
+        type: PAPER_TYPES.NSC,
+        subject: SUBJECTS.PHYSICAL_SCIENCES,
+        variant: PAPER_VARIANTS.PAPER_1,
+        grade: 12,
+        topics: ['mechanics', 'waves', 'electricity', 'magnetism', 'optical-phenomena'],
+        totalMarks: 150,
+        duration: 180,
+        hasMemo: true,
+        isAvailable: true,
+    },
+    {
+        id: 'nsc-2022-physics-p2',
+        title: 'Physical Sciences Paper 2 (Chemistry)',
+        year: 2022,
+        type: PAPER_TYPES.NSC,
+        subject: SUBJECTS.PHYSICAL_SCIENCES,
+        variant: PAPER_VARIANTS.PAPER_2,
+        grade: 12,
+        topics: ['chemical-change', 'chemical-systems', 'organic-chemistry', 'electrochemistry'],
+        totalMarks: 150,
+        duration: 180,
+        hasMemo: true,
+        isAvailable: true,
+    },
+
+    // ============================================
+    // LIFE SCIENCES NSC PAPERS
+    // ============================================
+
+    // 2024 Life Sciences
+    {
+        id: 'nsc-2024-life-sci-p1',
+        title: 'Life Sciences Paper 1',
+        year: 2024,
+        type: PAPER_TYPES.NSC,
+        subject: SUBJECTS.LIFE_SCIENCES,
+        variant: PAPER_VARIANTS.PAPER_1,
+        grade: 12,
+        topics: ['dna-rna', 'meiosis', 'genetics', 'evolution', 'human-evolution'],
+        totalMarks: 150,
+        duration: 150,
+        hasMemo: true,
+        isAvailable: true,
+    },
+    {
+        id: 'nsc-2024-life-sci-p2',
+        title: 'Life Sciences Paper 2',
+        year: 2024,
+        type: PAPER_TYPES.NSC,
+        subject: SUBJECTS.LIFE_SCIENCES,
+        variant: PAPER_VARIANTS.PAPER_2,
+        grade: 12,
+        topics: ['nervous-system', 'endocrine-system', 'homeostasis', 'reproduction', 'human-impact'],
+        totalMarks: 150,
+        duration: 150,
+        hasMemo: true,
+        isAvailable: true,
+    },
+
+    // 2023 Life Sciences
+    {
+        id: 'nsc-2023-life-sci-p1',
+        title: 'Life Sciences Paper 1',
+        year: 2023,
+        type: PAPER_TYPES.NSC,
+        subject: SUBJECTS.LIFE_SCIENCES,
+        variant: PAPER_VARIANTS.PAPER_1,
+        grade: 12,
+        topics: ['dna-rna', 'meiosis', 'genetics', 'evolution', 'human-evolution'],
+        totalMarks: 150,
+        duration: 150,
+        hasMemo: true,
+        isAvailable: true,
+    },
+    {
+        id: 'nsc-2023-life-sci-p2',
+        title: 'Life Sciences Paper 2',
+        year: 2023,
+        type: PAPER_TYPES.NSC,
+        subject: SUBJECTS.LIFE_SCIENCES,
+        variant: PAPER_VARIANTS.PAPER_2,
+        grade: 12,
+        topics: ['nervous-system', 'endocrine-system', 'homeostasis', 'reproduction', 'human-impact'],
+        totalMarks: 150,
+        duration: 150,
+        hasMemo: true,
+        isAvailable: true,
+    },
+
+    // 2022 Life Sciences
+    {
+        id: 'nsc-2022-life-sci-p1',
+        title: 'Life Sciences Paper 1',
+        year: 2022,
+        type: PAPER_TYPES.NSC,
+        subject: SUBJECTS.LIFE_SCIENCES,
+        variant: PAPER_VARIANTS.PAPER_1,
+        grade: 12,
+        topics: ['dna-rna', 'meiosis', 'genetics', 'evolution', 'human-evolution'],
+        totalMarks: 150,
+        duration: 150,
+        hasMemo: true,
+        isAvailable: true,
+    },
+    {
+        id: 'nsc-2022-life-sci-p2',
+        title: 'Life Sciences Paper 2',
+        year: 2022,
+        type: PAPER_TYPES.NSC,
+        subject: SUBJECTS.LIFE_SCIENCES,
+        variant: PAPER_VARIANTS.PAPER_2,
+        grade: 12,
+        topics: ['nervous-system', 'endocrine-system', 'homeostasis', 'reproduction', 'human-impact'],
+        totalMarks: 150,
+        duration: 150,
         hasMemo: true,
         isAvailable: true,
     },
