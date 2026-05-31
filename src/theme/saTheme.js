@@ -1,103 +1,120 @@
 /**
- * Angelo Tutoring Custom Theme
- * Modern gradient color scheme: Cyan → Purple → Pink
- * Designed for South African Grade 10-12 students
+ * Duolingo-Inspired Theme for Angelo Tutoring
+ * Bright, playful, gamified design
+ * Clean whites, bold colors, chunky UI elements
  */
 
 import { createTheme, responsiveFontSizes } from "@material-ui/core/styles";
 
-// Angelo Tutoring Color Palette
-const angeloColors = {
-    // Primary gradient colors
-    cyan: "#00D4FF",
-    purple: "#7B2FF7",
-    pink: "#F72585",
+// Duolingo-Inspired Color Palette
+const duoColors = {
+    // Primary - Duolingo Green (the signature color!)
+    green: "#58CC02",
+    greenLight: "#89E219",
+    greenDark: "#58A700",
 
-    // Primary - Deep purple/navy (professional, modern)
+    // Secondary colors - bright and playful
+    blue: "#1CB0F6",
+    blueLight: "#84D8FF",
+    blueDark: "#1899D6",
+
+    red: "#FF4B4B",
+    redLight: "#FF6B6B",
+    redDark: "#EA2B2B",
+
+    orange: "#FF9600",
+    orangeLight: "#FFC800",
+    orangeDark: "#CD7900",
+
+    purple: "#CE82FF",
+    purpleLight: "#DDA0FF",
+    purpleDark: "#A855F7",
+
+    // Neutrals
+    white: "#FFFFFF",
+    snow: "#F7F7F7",
+    grayLight: "#E5E5E5",
+    grayMedium: "#AFAFAF",
+    grayDark: "#777777",
+    charcoal: "#4B4B4B",
+    dark: "#3C3C3C",
+
+    // Semantic
     primary: {
-        main: "#7B2FF7",
-        light: "#A855F7",
-        dark: "#5B21B6",
+        main: "#58CC02",
+        light: "#89E219",
+        dark: "#58A700",
         contrastText: "#FFFFFF",
     },
-    // Secondary - Cyan (fresh, tech-forward)
     secondary: {
-        main: "#00D4FF",
-        light: "#67E8F9",
-        dark: "#0891B2",
-        contrastText: "#1a1a2e",
+        main: "#1CB0F6",
+        light: "#84D8FF",
+        dark: "#1899D6",
+        contrastText: "#FFFFFF",
     },
-    // Success - Green
     success: {
-        main: "#10B981",
-        light: "#34D399",
-        dark: "#059669",
+        main: "#58CC02",
+        light: "#89E219",
+        dark: "#58A700",
     },
-    // Warning - Amber
     warning: {
-        main: "#F59E0B",
-        light: "#FBBF24",
-        dark: "#D97706",
+        main: "#FF9600",
+        light: "#FFC800",
+        dark: "#CD7900",
     },
-    // Error - Red/Pink
     error: {
-        main: "#F72585",
-        light: "#FB7185",
-        dark: "#E11D48",
+        main: "#FF4B4B",
+        light: "#FF6B6B",
+        dark: "#EA2B2B",
     },
-    // Background colors
+    info: {
+        main: "#1CB0F6",
+        light: "#84D8FF",
+        dark: "#1899D6",
+    },
     background: {
-        default: "#F8FAFC",
+        default: "#FFFFFF",
         paper: "#FFFFFF",
-        dark: "#1a1a2e",
-        darkPaper: "#16213e",
+        gray: "#F7F7F7",
     },
-    // Text colors
     text: {
-        primary: "#1E293B",
-        secondary: "#64748B",
-        dark: "#FFFFFF",
-        darkSecondary: "#94A3B8",
-    },
-    // Gradient definitions
-    gradients: {
-        primary: "linear-gradient(135deg, #00D4FF 0%, #7B2FF7 50%, #F72585 100%)",
-        header: "linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)",
-        button: "linear-gradient(135deg, #7B2FF7 0%, #F72585 100%)",
-        success: "linear-gradient(135deg, #10B981 0%, #059669 100%)",
-        card: "linear-gradient(180deg, rgba(123, 47, 247, 0.03) 0%, rgba(0, 212, 255, 0.03) 100%)",
+        primary: "#4B4B4B",
+        secondary: "#777777",
     },
 };
 
-// Create base theme
-let angeloTheme = createTheme({
+// Create Duolingo-style theme
+let duoTheme = createTheme({
     palette: {
-        type: 'light', // Explicitly set light mode for MUI
-        primary: angeloColors.primary,
-        secondary: angeloColors.secondary,
-        success: angeloColors.success,
-        warning: angeloColors.warning,
-        error: angeloColors.error,
+        type: 'light',
+        primary: duoColors.primary,
+        secondary: duoColors.secondary,
+        success: duoColors.success,
+        warning: duoColors.warning,
+        error: duoColors.error,
+        info: duoColors.info,
         background: {
-            default: '#F8FAFC',
+            default: '#FFFFFF',
             paper: '#FFFFFF',
         },
         text: {
-            primary: '#1E293B',
-            secondary: '#64748B',
+            primary: '#4B4B4B',
+            secondary: '#777777',
         },
-        divider: 'rgba(0, 0, 0, 0.12)',
+        divider: '#E5E5E5',
         action: {
-            active: 'rgba(0, 0, 0, 0.54)',
-            hover: 'rgba(0, 0, 0, 0.04)',
-            selected: 'rgba(123, 47, 247, 0.08)',
-            disabled: 'rgba(0, 0, 0, 0.26)',
-            disabledBackground: 'rgba(0, 0, 0, 0.12)',
+            active: '#4B4B4B',
+            hover: 'rgba(88, 204, 2, 0.08)',
+            selected: 'rgba(88, 204, 2, 0.12)',
+            disabled: '#AFAFAF',
+            disabledBackground: '#E5E5E5',
         },
     },
     typography: {
+        // Nunito - friendly, rounded font like Duolingo
         fontFamily: [
-            "Titillium Web",
+            "Nunito",
+            "DIN Rounded",
             "-apple-system",
             "BlinkMacSystemFont",
             "Segoe UI",
@@ -105,297 +122,497 @@ let angeloTheme = createTheme({
             "sans-serif",
         ].join(","),
         h1: {
-            fontWeight: 700,
+            fontWeight: 800,
             fontSize: "2.5rem",
-            letterSpacing: "-0.02em",
+            letterSpacing: "-0.01em",
+            color: "#4B4B4B",
         },
         h2: {
-            fontWeight: 600,
+            fontWeight: 700,
             fontSize: "2rem",
             letterSpacing: "-0.01em",
+            color: "#4B4B4B",
         },
         h3: {
-            fontWeight: 600,
+            fontWeight: 700,
             fontSize: "1.75rem",
+            color: "#4B4B4B",
         },
         h4: {
-            fontWeight: 600,
+            fontWeight: 700,
             fontSize: "1.5rem",
+            color: "#4B4B4B",
         },
         h5: {
-            fontWeight: 500,
+            fontWeight: 700,
             fontSize: "1.25rem",
+            color: "#4B4B4B",
         },
         h6: {
-            fontWeight: 500,
+            fontWeight: 700,
             fontSize: "1rem",
+            color: "#4B4B4B",
         },
         button: {
             textTransform: "none",
-            fontWeight: 600,
-            letterSpacing: "0.02em",
+            fontWeight: 700,
+            letterSpacing: "0.03em",
+            fontSize: "1rem",
         },
         body1: {
-            lineHeight: 1.7,
+            lineHeight: 1.6,
+            fontWeight: 500,
+            color: "#4B4B4B",
+        },
+        body2: {
+            lineHeight: 1.5,
+            fontWeight: 500,
+            color: "#777777",
         },
     },
     shape: {
-        borderRadius: 12,
+        borderRadius: 16, // Very rounded - Duolingo style
     },
     overrides: {
-        // AppBar - Dark gradient header
+        // AppBar - Clean white header with green accent
         MuiAppBar: {
             colorPrimary: {
-                backgroundColor: angeloColors.background.dark,
-                background: angeloColors.gradients.header,
-                boxShadow: "0 4px 20px rgba(0, 0, 0, 0.25)",
+                backgroundColor: "#FFFFFF",
+                color: "#4B4B4B",
+                boxShadow: "0 2px 0 0 #E5E5E5",
             },
         },
-        // Button - Gradient primary buttons
+        // Button - Chunky 3D buttons like Duolingo
         MuiButton: {
             root: {
-                borderRadius: 10,
-                padding: "10px 28px",
-                fontSize: "0.95rem",
-                transition: "all 0.3s ease",
+                borderRadius: 16,
+                padding: "12px 24px",
+                fontSize: "1rem",
+                fontWeight: 700,
+                transition: "all 0.15s ease",
+                textTransform: "none",
             },
             containedPrimary: {
-                background: angeloColors.gradients.button,
-                boxShadow: "0 4px 15px rgba(123, 47, 247, 0.35)",
+                backgroundColor: duoColors.green,
+                color: "#FFFFFF",
+                boxShadow: `0 4px 0 0 ${duoColors.greenDark}`,
+                border: "none",
                 "&:hover": {
-                    background: angeloColors.gradients.button,
-                    boxShadow: "0 6px 20px rgba(123, 47, 247, 0.45)",
-                    transform: "translateY(-2px)",
+                    backgroundColor: duoColors.greenLight,
+                    boxShadow: `0 4px 0 0 ${duoColors.green}`,
+                    transform: "translateY(-1px)",
+                },
+                "&:active": {
+                    boxShadow: `0 2px 0 0 ${duoColors.greenDark}`,
+                    transform: "translateY(2px)",
                 },
             },
             containedSecondary: {
-                backgroundColor: angeloColors.secondary.main,
-                boxShadow: "0 4px 15px rgba(0, 212, 255, 0.35)",
+                backgroundColor: duoColors.blue,
+                color: "#FFFFFF",
+                boxShadow: `0 4px 0 0 ${duoColors.blueDark}`,
                 "&:hover": {
-                    backgroundColor: angeloColors.secondary.dark,
-                    boxShadow: "0 6px 20px rgba(0, 212, 255, 0.45)",
-                    transform: "translateY(-2px)",
+                    backgroundColor: duoColors.blueLight,
+                    boxShadow: `0 4px 0 0 ${duoColors.blue}`,
+                    transform: "translateY(-1px)",
+                },
+                "&:active": {
+                    boxShadow: `0 2px 0 0 ${duoColors.blueDark}`,
+                    transform: "translateY(2px)",
                 },
             },
             outlined: {
                 borderWidth: 2,
+                borderColor: "#E5E5E5",
+                color: "#777777",
+                fontWeight: 700,
                 "&:hover": {
                     borderWidth: 2,
-                    transform: "translateY(-2px)",
+                    borderColor: duoColors.green,
+                    color: duoColors.green,
+                    backgroundColor: "rgba(88, 204, 2, 0.05)",
+                },
+            },
+            outlinedPrimary: {
+                borderWidth: 2,
+                borderColor: duoColors.green,
+                color: duoColors.green,
+                "&:hover": {
+                    borderWidth: 2,
+                    backgroundColor: "rgba(88, 204, 2, 0.08)",
+                },
+            },
+            text: {
+                color: duoColors.blue,
+                fontWeight: 700,
+                "&:hover": {
+                    backgroundColor: "rgba(28, 176, 246, 0.08)",
                 },
             },
         },
-        // Card - Modern clean cards with explicit light mode colors
+        // Card - Clean white cards with subtle borders
         MuiCard: {
             root: {
                 borderRadius: 16,
-                boxShadow: "0 4px 20px rgba(0, 0, 0, 0.06)",
-                border: "1px solid rgba(123, 47, 247, 0.08)",
+                boxShadow: "none",
+                border: "2px solid #E5E5E5",
                 backgroundColor: "#FFFFFF",
-                color: "#1E293B",
-                background: angeloColors.gradients.card + ", #FFFFFF",
-                transition: "all 0.3s ease",
+                color: "#4B4B4B",
+                transition: "all 0.2s ease",
                 "&:hover": {
-                    boxShadow: "0 8px 30px rgba(123, 47, 247, 0.12)",
-                    transform: "translateY(-4px)",
-                    borderColor: "rgba(123, 47, 247, 0.15)",
+                    borderColor: duoColors.green,
+                    boxShadow: "0 4px 12px rgba(88, 204, 2, 0.15)",
                 },
             },
         },
-        // Linear Progress - Gradient progress bar
+        // Linear Progress - Chunky green progress bar
         MuiLinearProgress: {
             root: {
-                borderRadius: 6,
-                height: 10,
-                backgroundColor: "rgba(123, 47, 247, 0.1)",
+                borderRadius: 10,
+                height: 16,
+                backgroundColor: "#E5E5E5",
             },
             barColorPrimary: {
-                borderRadius: 6,
-                background: angeloColors.gradients.primary,
+                borderRadius: 10,
+                backgroundColor: duoColors.green,
             },
         },
-        // Circular Progress - Gradient
+        // Circular Progress
         MuiCircularProgress: {
             colorPrimary: {
-                color: angeloColors.primary.main,
+                color: duoColors.green,
             },
         },
         // Toolbar
         MuiToolbar: {
             root: {
-                minHeight: 70,
+                minHeight: 64,
             },
         },
-        // Paper - Clean modern paper with explicit light mode colors
+        // Paper - Clean white
         MuiPaper: {
             root: {
                 backgroundColor: '#FFFFFF',
-                color: '#1E293B',
+                color: '#4B4B4B',
             },
             rounded: {
                 borderRadius: 16,
             },
             elevation1: {
-                boxShadow: "0 4px 20px rgba(0, 0, 0, 0.06)",
+                boxShadow: "0 2px 8px rgba(0, 0, 0, 0.08)",
             },
             elevation2: {
-                boxShadow: "0 6px 25px rgba(0, 0, 0, 0.08)",
+                boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
             },
             elevation3: {
-                boxShadow: "0 8px 30px rgba(0, 0, 0, 0.1)",
+                boxShadow: "0 6px 16px rgba(0, 0, 0, 0.12)",
             },
         },
-        // Chip - Modern chips
+        // Chip - Rounded pill chips
         MuiChip: {
             root: {
-                borderRadius: 8,
-                fontWeight: 500,
+                borderRadius: 20,
+                fontWeight: 700,
+                fontSize: "0.875rem",
             },
             colorPrimary: {
-                background: angeloColors.gradients.button,
+                backgroundColor: duoColors.green,
+                color: "#FFFFFF",
+            },
+            colorSecondary: {
+                backgroundColor: duoColors.blue,
+                color: "#FFFFFF",
+            },
+            outlined: {
+                borderWidth: 2,
             },
         },
-        // TextField - Modern input fields
+        // TextField - Rounded inputs with thick borders
         MuiOutlinedInput: {
             root: {
-                borderRadius: 10,
+                borderRadius: 12,
+                backgroundColor: "#F7F7F7",
                 transition: "all 0.2s ease",
+                "& .MuiOutlinedInput-notchedOutline": {
+                    borderWidth: 2,
+                    borderColor: "#E5E5E5",
+                },
                 "&:hover .MuiOutlinedInput-notchedOutline": {
-                    borderColor: angeloColors.primary.light,
+                    borderColor: "#AFAFAF",
+                },
+                "&.Mui-focused": {
+                    backgroundColor: "#FFFFFF",
                 },
                 "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                    borderColor: angeloColors.primary.main,
+                    borderColor: duoColors.blue,
                     borderWidth: 2,
                 },
             },
+            input: {
+                padding: "14px 16px",
+                fontWeight: 500,
+            },
         },
-        // Tab - Modern tabs
+        // Tab - Bold tabs
         MuiTab: {
             root: {
                 textTransform: "none",
-                fontWeight: 600,
-                fontSize: "0.95rem",
+                fontWeight: 700,
+                fontSize: "1rem",
                 minWidth: 100,
+                color: "#AFAFAF",
+                "&.Mui-selected": {
+                    color: duoColors.green,
+                },
             },
         },
         MuiTabs: {
             indicator: {
-                height: 3,
-                borderRadius: "3px 3px 0 0",
-                background: angeloColors.gradients.button,
+                height: 4,
+                borderRadius: 2,
+                backgroundColor: duoColors.green,
             },
         },
-        // Tooltip
+        // Tooltip - Rounded dark tooltip
         MuiTooltip: {
             tooltip: {
-                backgroundColor: angeloColors.background.dark,
-                fontSize: "0.85rem",
+                backgroundColor: "#3C3C3C",
+                fontSize: "0.875rem",
+                fontWeight: 600,
                 borderRadius: 8,
-                padding: "8px 14px",
+                padding: "8px 12px",
+            },
+            arrow: {
+                color: "#3C3C3C",
             },
         },
-        // Drawer - Explicit light mode colors
+        // Drawer
         MuiDrawer: {
             paper: {
                 borderRadius: "0 16px 16px 0",
                 backgroundColor: "#FFFFFF",
-                color: "#1E293B",
+                color: "#4B4B4B",
             },
         },
-        // Dialog - Explicit light mode colors
+        // Dialog - Rounded dialogs
         MuiDialog: {
             paper: {
+                borderRadius: 20,
                 backgroundColor: "#FFFFFF",
-                color: "#1E293B",
+                color: "#4B4B4B",
             },
         },
-        // Menu - Explicit light mode colors
+        MuiDialogTitle: {
+            root: {
+                fontWeight: 700,
+                fontSize: "1.25rem",
+            },
+        },
+        // Menu
         MuiMenu: {
             paper: {
+                borderRadius: 12,
+                border: "2px solid #E5E5E5",
+                boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
                 backgroundColor: "#FFFFFF",
-                color: "#1E293B",
+                color: "#4B4B4B",
             },
         },
-        // Popover - Explicit light mode colors
+        // Popover
         MuiPopover: {
             paper: {
+                borderRadius: 12,
                 backgroundColor: "#FFFFFF",
-                color: "#1E293B",
+                color: "#4B4B4B",
             },
         },
-        // List
+        // List items - Rounded with hover
         MuiListItem: {
             root: {
-                borderRadius: 10,
+                borderRadius: 12,
                 margin: "4px 8px",
                 width: "auto",
-                color: "#1E293B",
+                color: "#4B4B4B",
                 "&.Mui-selected": {
-                    background: "rgba(123, 47, 247, 0.08)",
+                    backgroundColor: "rgba(88, 204, 2, 0.12)",
                     "&:hover": {
-                        background: "rgba(123, 47, 247, 0.12)",
+                        backgroundColor: "rgba(88, 204, 2, 0.18)",
                     },
                 },
             },
             button: {
                 "&:hover": {
-                    background: "rgba(123, 47, 247, 0.06)",
+                    backgroundColor: "#F7F7F7",
                 },
             },
         },
-        // MenuItem - Explicit light mode colors
+        // MenuItem
         MuiMenuItem: {
             root: {
-                color: "#1E293B",
+                borderRadius: 8,
+                margin: "2px 8px",
+                color: "#4B4B4B",
+                fontWeight: 600,
+                "&:hover": {
+                    backgroundColor: "#F7F7F7",
+                },
+                "&.Mui-selected": {
+                    backgroundColor: "rgba(88, 204, 2, 0.12)",
+                },
             },
         },
-        // Input fields - Explicit light mode colors
+        // Input fields
         MuiInputBase: {
             root: {
-                color: "#1E293B",
+                color: "#4B4B4B",
+                fontWeight: 500,
             },
         },
         MuiInputLabel: {
             root: {
-                color: "#64748B",
+                color: "#777777",
+                fontWeight: 600,
             },
         },
-        // Table cells - Explicit light mode colors
+        // Table
         MuiTableCell: {
             root: {
-                color: "#1E293B",
-                borderBottom: "1px solid rgba(0, 0, 0, 0.12)",
+                color: "#4B4B4B",
+                borderBottom: "2px solid #E5E5E5",
+                padding: "16px",
             },
             head: {
-                backgroundColor: "#F8FAFC",
-                fontWeight: 600,
-                color: "#1E293B",
+                backgroundColor: "#F7F7F7",
+                fontWeight: 700,
+                color: "#4B4B4B",
             },
         },
-        // Accordion - Explicit light mode colors
+        // Accordion
         MuiAccordion: {
             root: {
                 backgroundColor: "#FFFFFF",
-                color: "#1E293B",
+                color: "#4B4B4B",
+                borderRadius: "12px !important",
+                border: "2px solid #E5E5E5",
+                boxShadow: "none",
                 "&:before": {
-                    backgroundColor: "rgba(0, 0, 0, 0.12)",
+                    display: "none",
+                },
+                "&.Mui-expanded": {
+                    margin: "8px 0",
+                    borderColor: duoColors.green,
                 },
             },
         },
-        // Typography defaults
+        MuiAccordionSummary: {
+            root: {
+                fontWeight: 700,
+                "&.Mui-expanded": {
+                    minHeight: 48,
+                },
+            },
+        },
+        // Typography
         MuiTypography: {
             colorTextPrimary: {
-                color: "#1E293B",
+                color: "#4B4B4B",
             },
             colorTextSecondary: {
-                color: "#64748B",
+                color: "#777777",
+            },
+        },
+        // Badge - Playful badges
+        MuiBadge: {
+            colorPrimary: {
+                backgroundColor: duoColors.green,
+            },
+            colorSecondary: {
+                backgroundColor: duoColors.orange,
+            },
+            colorError: {
+                backgroundColor: duoColors.red,
+            },
+        },
+        // Avatar
+        MuiAvatar: {
+            colorDefault: {
+                backgroundColor: duoColors.green,
+                color: "#FFFFFF",
+                fontWeight: 700,
+            },
+        },
+        // Switch - Green toggle
+        MuiSwitch: {
+            colorPrimary: {
+                "&.Mui-checked": {
+                    color: duoColors.green,
+                },
+                "&.Mui-checked + .MuiSwitch-track": {
+                    backgroundColor: duoColors.green,
+                },
+            },
+        },
+        // Checkbox - Green checkbox
+        MuiCheckbox: {
+            colorPrimary: {
+                "&.Mui-checked": {
+                    color: duoColors.green,
+                },
+            },
+        },
+        // Radio - Green radio
+        MuiRadio: {
+            colorPrimary: {
+                "&.Mui-checked": {
+                    color: duoColors.green,
+                },
+            },
+        },
+        // Fab - Floating action button
+        MuiFab: {
+            primary: {
+                backgroundColor: duoColors.green,
+                boxShadow: `0 4px 0 0 ${duoColors.greenDark}`,
+                "&:hover": {
+                    backgroundColor: duoColors.greenLight,
+                },
+            },
+        },
+        // Snackbar
+        MuiSnackbarContent: {
+            root: {
+                borderRadius: 12,
+                fontWeight: 600,
+            },
+        },
+        // Alert
+        MuiAlert: {
+            root: {
+                borderRadius: 12,
+                fontWeight: 600,
+            },
+            standardSuccess: {
+                backgroundColor: "rgba(88, 204, 2, 0.12)",
+                color: duoColors.greenDark,
+            },
+            standardError: {
+                backgroundColor: "rgba(255, 75, 75, 0.12)",
+                color: duoColors.redDark,
+            },
+            standardWarning: {
+                backgroundColor: "rgba(255, 150, 0, 0.12)",
+                color: duoColors.orangeDark,
+            },
+            standardInfo: {
+                backgroundColor: "rgba(28, 176, 246, 0.12)",
+                color: duoColors.blueDark,
             },
         },
     },
 });
 
 // Make fonts responsive
-angeloTheme = responsiveFontSizes(angeloTheme);
+duoTheme = responsiveFontSizes(duoTheme);
 
-export default angeloTheme;
-export { angeloColors };
+export default duoTheme;
+export { duoColors as angeloColors }; // Export with old name for compatibility
