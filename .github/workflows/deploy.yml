@@ -1,0 +1,49 @@
+name: Deploy Online Tutor
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to Server
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SERVER_SSH_KEY }}
+          port: ${{ secrets.SERVER_PORT }}
+          script: |
+            cd /opt/online-tutor
+
+            # Pull latest code
+            if [ -d ".git" ]; then
+              git pull origin main
+            else
+              git clone https://github.com/${{ github.repository }}.git .
+            fi
+
+            # Build and deploy
+            echo "Building Docker image..."
+            docker build -t online-tutor:latest .
+
+            # Stop old container
+            docker stop online-tutor 2>/dev/null || true
+            docker rm online-tutor 2>/dev/null || true
+
+            # Start new container
+            docker run -d \
+              --name online-tutor \
+              --restart unless-stopped \
+              --network seattle-coffee-app_coffee-network \
+              -p 3001:80 \
+              --label "app=online-tutor" \
+              online-tutor:latest
+
+            # Verify
+            sleep 5
+            docker ps | grep online-tutor
+            echo "Deployment complete!"

@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  online-tutor:
+    image: online-tutor:latest
+    container_name: online-tutor
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "3001:80"
+    networks:
+      - seattle-coffee-app_coffee-network
+    labels:
+      - "app=online-tutor"
+      - "team=devops"
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+networks:
+  seattle-coffee-app_coffee-network:
+    external: true
