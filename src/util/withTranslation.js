@@ -10,7 +10,9 @@ import { useTranslation } from './useTranslation';
  * - language - current language code
  */
 const withTranslation = (WrappedComponent) => {
-  return (props) => {
+  const displayName = WrappedComponent.displayName || WrappedComponent.name || 'Component';
+
+  const WithTranslationWrapper = (props) => {
     const { translate, setLanguage, language } = useTranslation();
     return (
       <WrappedComponent
@@ -21,6 +23,9 @@ const withTranslation = (WrappedComponent) => {
       />
     );
   };
+
+  WithTranslationWrapper.displayName = `withTranslation(${displayName})`;
+  return WithTranslationWrapper;
 };
 
 export default withTranslation;

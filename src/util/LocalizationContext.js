@@ -58,6 +58,11 @@ export const LocalizationProvider = ({ children, userId }) => {
     const [currentCourseName, setCurrentCourseName] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
 
+    // Debug: Log when activeLanguage changes
+    useEffect(() => {
+        console.log('🚀 ACTIVE LANGUAGE CHANGED TO:', activeLanguage);
+    }, [activeLanguage]);
+
     // Load language preference from database on mount
     useEffect(() => {
         const loadLanguagePreference = async () => {
@@ -97,14 +102,20 @@ export const LocalizationProvider = ({ children, userId }) => {
      * Persists to both localStorage and SQLite
      */
     const setLanguage = useCallback(async (lang) => {
+        console.log('🌐 setLanguage called with:', lang);
+        console.log('🌐 Current activeLanguage:', activeLanguage);
+        console.log('🌐 Current platformLanguage:', platformLanguage);
+
         if (!AVAILABLE_LANGUAGES.includes(lang)) {
             console.warn(`Language "${lang}" is not supported`);
             return;
         }
 
+        console.log('🌐 Setting language to:', lang);
         setPlatformLanguage(lang);
         setActiveLanguage(lang);  // Also update active language immediately
         localStorage.setItem('platformLanguage', lang);
+        console.log('🌐 Language set complete, localStorage:', localStorage.getItem('platformLanguage'));
 
         // If in a course, also save the course-specific language preference
         if (currentCourseName) {
@@ -168,6 +179,11 @@ export const LocalizationProvider = ({ children, userId }) => {
         // Try active language first
         let translation = getNestedValue(TRANSLATIONS[activeLanguage], key);
 
+        // Debug logging - only log for platform/hintsystem keys during debugging
+        if (key.startsWith('platform.') || key.startsWith('hintsystem.')) {
+            console.log(`🔤 t("${key}") activeLanguage=${activeLanguage} => "${translation}"`);
+        }
+
         // Fall back to English
         if (translation === null && activeLanguage !== 'en') {
             translation = getNestedValue(TRANSLATIONS.en, key);
@@ -207,7 +223,9 @@ export const LocalizationProvider = ({ children, userId }) => {
     }, [activeLanguage]);
 
     // Memoized context value
-    const value = useMemo(() => ({
+    const value = useMemo(() => {
+        console.log('📦 Context value recreated with activeLanguage:', activeLanguage);
+        return ({
         // Current languages
         language: activeLanguage,
         platformLanguage,
@@ -235,7 +253,7 @@ export const LocalizationProvider = ({ children, userId }) => {
         // State
         isLoading,
         currentCourseName
-    }), [
+    })}, [
         activeLanguage,
         platformLanguage,
         setLanguage,

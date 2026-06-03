@@ -17,6 +17,8 @@ import translationsAf from "../locales/af.json";
 export const useTranslation = () => {
     const { language, setLanguage, t } = useLocalization();
 
+    console.log('🔄 useTranslation hook called, language from context:', language);
+
     const translationsMap = {
         en: translationsEn,
         af: translationsAf,
