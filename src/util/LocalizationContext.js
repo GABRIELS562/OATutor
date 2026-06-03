@@ -103,7 +103,13 @@ export const LocalizationProvider = ({ children, userId }) => {
         }
 
         setPlatformLanguage(lang);
+        setActiveLanguage(lang);  // Also update active language immediately
         localStorage.setItem('platformLanguage', lang);
+
+        // If in a course, also save the course-specific language preference
+        if (currentCourseName) {
+            sessionStorage.setItem(`course_lang_${currentCourseName}`, lang);
+        }
 
         // Also save to database if user is available
         if (userId) {
@@ -113,7 +119,7 @@ export const LocalizationProvider = ({ children, userId }) => {
                 console.warn('Failed to save language to database:', e);
             }
         }
-    }, [userId]);
+    }, [userId, currentCourseName]);
 
     /**
      * Toggle between English and Afrikaans
