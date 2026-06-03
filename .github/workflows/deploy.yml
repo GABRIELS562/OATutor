@@ -7,7 +7,8 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository_owner }}/online-tutor
+  # Must be lowercase for Docker - using hardcoded value since github.repository_owner preserves case
+  IMAGE_NAME: gabriels562/online-tutor
 
 jobs:
   # Build on GitHub's servers (powerful, reliable)
