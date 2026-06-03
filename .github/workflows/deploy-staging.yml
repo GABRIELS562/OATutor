@@ -1,11 +1,13 @@
-name: Staging CI
+name: Staging CI (Legacy - Disabled)
 
+# DISABLED: This is from the original CAHLR project.
+# Only triggers on staging branch which doesn't exist in this fork.
 on:
-  push:
-    branches: [ staging ]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type "run" to confirm (this workflow is deprecated)'
+        required: true
 
 jobs:
   buildAndDeploy:

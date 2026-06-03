@@ -1,11 +1,13 @@
-name: Production CI
+name: Production CI (Legacy - Disabled)
 
+# DISABLED: This is from the original CAHLR project and requires secrets not available in this fork.
+# Deployment is handled by deploy.yml instead.
 on:
-  push:
-    branches: [ main ]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type "run" to confirm (this workflow is deprecated)'
+        required: true
 
 jobs:
   buildAndDeploy:
