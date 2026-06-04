@@ -158,7 +158,10 @@ export const LanguageToggleMenu = ({ iconColor = 'inherit' }) => {
     };
 
     const handleSelect = (lang) => {
+        console.log('🔵 LanguageToggleMenu: handleSelect called with:', lang);
+        console.log('🔵 Current language before change:', language);
         setLanguage(lang);
+        console.log('🔵 setLanguage called, waiting for re-render...');
         handleClose();
     };
 
