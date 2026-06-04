@@ -8,7 +8,15 @@
         "lessonplan": "lesplan",
         "onlyselect": "Kies",
         "aresure": "Is jy seker?",
-        "reset": "Vordering Herstel!"
+        "reset": "Vordering Herstel!",
+        "chooseSubject": "Kies Jou Vak",
+        "chooseLessonPlan": "Kies Jou Lesplan",
+        "selectSubjectDesc": "Kies 'n vak om te begin oefen",
+        "selectLessonDesc": "Kies 'n lesplan om voort te gaan",
+        "startLearning": "Begin Leer",
+        "lessons": "Lesse",
+        "lesson": "Les",
+        "of": "van"
     },
     "problem": {
         "NextProblem": "Volgende Vraag",

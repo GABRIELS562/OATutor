@@ -1,5 +1,5 @@
 {
-    "lessonSelection": 
+    "lessonSelection":
     {
        "welcomeInstructor": "Welcome Instructor!",
        "welcomeTo": "Welcome to",
@@ -9,7 +9,15 @@
        "lessonplan": "lesson plan",
        "onlyselect": "Select",
        "aresure": "Are you sure?",
-       "reset": "Progress Reset!"
+       "reset": "Progress Reset!",
+       "chooseSubject": "Choose Your Subject",
+       "chooseLessonPlan": "Choose Your Lesson Plan",
+       "selectSubjectDesc": "Select a subject to start practicing",
+       "selectLessonDesc": "Select a lesson plan to continue",
+       "startLearning": "Start Learning",
+       "lessons": "Lessons",
+       "lesson": "Lesson",
+       "of": "of"
     },
     "problem":
     {

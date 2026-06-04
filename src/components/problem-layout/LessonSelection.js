@@ -492,16 +492,16 @@ class LessonSelection extends React.Component {
                         {/* Section Title */}
                         <Box textAlign="center" mb={isMobile ? 2 : 4}>
                             <Typography variant="h4" style={mobileStyles.sectionTitle}>
-                                {selectionMode === "course" ? 'Choose Your Subject' :
+                                {selectionMode === "course" ? translate('lessonSelection.chooseSubject') :
                                     `${this.coursePlans[courseNum].courseName}`}
                             </Typography>
                             {selectionMode === "course" ? (
                                 <Typography variant="body1" style={{ color: '#64748B', fontSize: isMobile ? '0.9rem' : '1rem' }}>
-                                    Select a subject to start practicing
+                                    {translate('lessonSelection.selectSubjectDesc')}
                                 </Typography>
                             ) : (
                                 <Typography variant="body2" style={{ color: '#64748B', marginTop: '4px' }}>
-                                    {this.getFilteredLessons(this.coursePlans[courseNum].lessons || []).length} of {this.coursePlans[courseNum].lessons?.length || 0} lessons
+                                    {this.getFilteredLessons(this.coursePlans[courseNum].lessons || []).length} {translate('lessonSelection.of')} {this.coursePlans[courseNum].lessons?.length || 0} {translate('lessonSelection.lessons')}
                                 </Typography>
                             )}
                         </Box>
@@ -574,7 +574,7 @@ class LessonSelection extends React.Component {
                                                         </Typography>
                                                         <Chip
                                                             size="small"
-                                                            label={`${lessonCount} ${lessonCount === 1 ? 'Lesson' : 'Lessons'}`}
+                                                            label={`${lessonCount} ${lessonCount === 1 ? translate('lessonSelection.lesson') : translate('lessonSelection.lessons')}`}
                                                             style={{
                                                                 background: `${colors.primary}15`,
                                                                 color: colors.primary,
@@ -597,7 +597,7 @@ class LessonSelection extends React.Component {
                                                             }}
                                                             endIcon={<ArrowForwardIcon />}
                                                         >
-                                                            Start Learning
+                                                            {translate('lessonSelection.startLearning')}
                                                         </Button>
                                                     </CardActions>
                                                 </Card>
