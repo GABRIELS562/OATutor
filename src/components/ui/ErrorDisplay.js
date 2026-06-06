@@ -216,7 +216,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 // Error types and their configurations - function that returns translated configs
-const getErrorConfigs = (translate) => ({
+const getErrorConfigs = (t) => ({
     network: {
         icon: WifiOffIcon,
         title: t('errorDisplay.network.title'),
