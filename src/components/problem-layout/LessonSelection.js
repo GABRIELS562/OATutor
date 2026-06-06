@@ -47,6 +47,77 @@ const courseIcons = {
     'default': '📚'
 };
 
+// Map original course names to translation keys
+const courseNameKeyMap = {
+    'CAPS Grade 10 Mathematics': 'caps_gr10_maths',
+    'CAPS Grade 11 Mathematics': 'caps_gr11_maths',
+    'CAPS Grade 12 Mathematics': 'caps_gr12_maths',
+    'CAPS Grade 12 Mathematics Paper 2': 'caps_gr12_maths_p2',
+    'CAPS Grade 12 Physical Sciences': 'caps_gr12_phys',
+    'CAPS Grade 12 Life Sciences': 'caps_gr12_life',
+};
+
+// Helper to translate course names
+const translateCourseName = (courseName, translate) => {
+    const key = courseNameKeyMap[courseName];
+    if (key) {
+        return translate(`courseNames.${key}`);
+    }
+    return courseName;
+};
+
+// Map category IDs to translation keys
+const categoryKeyMap = {
+    'all': 'all',
+    'activities': 'activities',
+    'practice': 'practice',
+    'march-test': 'marchTest',
+    'june-exam': 'juneExam',
+    'sept-test': 'septTest',
+    'nov-exam': 'novExam',
+    'ieb': 'ieb',
+};
+
+// Helper to get translated category name for lesson cards
+const getCategoryTranslatedName = (categoryId, translate, isShort = false) => {
+    const key = categoryKeyMap[categoryId];
+    if (key) {
+        const translationKey = isShort ? `examCategories.${key}Short` : `examCategories.${key}`;
+        return translate(translationKey);
+    }
+    return categoryId;
+};
+
+// Helper to translate lesson names using lesson ID
+const translateLessonName = (lessonId, lessonName, translate) => {
+    const translated = translate(`lessonNames.${lessonId}`);
+    // If no translation found (returns the key), fall back to original name
+    if (translated === `lessonNames.${lessonId}`) {
+        return lessonName;
+    }
+    return translated;
+};
+
+// Helper to translate lesson topics using lesson ID
+const translateLessonTopics = (lessonId, topics, translate) => {
+    const translated = translate(`lessonTopics.${lessonId}`);
+    // If no translation found (returns the key), fall back to original topics
+    if (translated === `lessonTopics.${lessonId}`) {
+        return topics;
+    }
+    return translated;
+};
+
+// Helper to translate curriculum notes using lesson ID
+const translateCurriculumNotes = (lessonId, notes, translate) => {
+    const translated = translate(`lessonCurriculumNotes.${lessonId}`);
+    // If no translation found (returns the key or undefined), fall back to original notes
+    if (!translated || translated === `lessonCurriculumNotes.${lessonId}` || !Array.isArray(translated)) {
+        return notes;
+    }
+    return translated;
+};
+
 // Duolingo-style Course colors mapping
 const courseColors = {
     'Mathematics': { primary: '#CE82FF', secondary: '#DDA0FF', gradient: '#CE82FF', shadow: '#A855F7' },
@@ -362,7 +433,7 @@ class LessonSelection extends React.Component {
         if (selectionMode === "lesson" && courseNum >= this.coursePlans.length) {
             return <Box width={'100%'} textAlign={'center'} pt={4} pb={4} px={2}>
                 <Typography variant={'h4'} style={{ fontSize: isMobile ? '1.25rem' : '1.5rem' }}>
-                    Course <code>{courseNum}</code> is not valid!
+                    {translate('lessonSelection.courseNotValid')} <code>{courseNum}</code>
                 </Typography>
             </Box>
         }
@@ -391,7 +462,7 @@ class LessonSelection extends React.Component {
                                     padding: isMobile ? 10 : 12,
                                     zIndex: 10,
                                 }}
-                                aria-label="Open menu"
+                                aria-label={translate('lessonSelection.openMenu')}
                             >
                                 <MenuIcon />
                             </IconButton>
@@ -405,10 +476,10 @@ class LessonSelection extends React.Component {
                             }}></div>
                             <Container maxWidth="md">
                                 <div style={mobileStyles.tagline}>
-                                    CAPS Curriculum | Grade 10-12
+                                    {translate('lessonSelection.capsTitle')}
                                 </div>
                                 <Typography variant="h2" style={mobileStyles.heroTitle}>
-                                    Master Maths & Science with{' '}
+                                    {translate('lessonSelection.heroTitle')}{' '}
                                     <span style={{
                                         background: 'linear-gradient(135deg, #00D4FF 0%, #7B2FF7 50%, #F72585 100%)',
                                         WebkitBackgroundClip: 'text',
@@ -419,25 +490,24 @@ class LessonSelection extends React.Component {
                                     </span>
                                 </Typography>
                                 <Typography variant="h6" style={mobileStyles.heroSubtitle}>
-                                    Adaptive tutoring powered by AI. Practice problems aligned to the South African CAPS curriculum.
-                                    Get instant hints and step-by-step guidance.
+                                    {translate('lessonSelection.capsSubtitle')}
                                 </Typography>
                                 <div style={mobileStyles.chipContainer}>
                                     <Chip
                                         icon={<CheckCircleIcon style={{ color: '#10B981', fontSize: isMobile ? 16 : 18 }} />}
-                                        label="100% Free"
+                                        label={translate('lessonSelection.free')}
                                         style={mobileStyles.chip}
                                         size={isMobile ? "small" : "medium"}
                                     />
                                     <Chip
                                         icon={<CheckCircleIcon style={{ color: '#10B981', fontSize: isMobile ? 16 : 18 }} />}
-                                        label="CAPS Aligned"
+                                        label={translate('lessonSelection.capsAligned')}
                                         style={mobileStyles.chip}
                                         size={isMobile ? "small" : "medium"}
                                     />
                                     <Chip
                                         icon={<CheckCircleIcon style={{ color: '#10B981', fontSize: isMobile ? 16 : 18 }} />}
-                                        label="AI Hints"
+                                        label={translate('lessonSelection.aiHints')}
                                         style={mobileStyles.chip}
                                         size={isMobile ? "small" : "medium"}
                                     />
@@ -460,7 +530,7 @@ class LessonSelection extends React.Component {
                                         }}
                                         startIcon={<MenuBookIcon />}
                                     >
-                                        {isMobile ? 'CAPS Reference' : 'View CAPS Curriculum Reference'}
+                                        {isMobile ? translate('lessonSelection.viewCapsMobile') : translate('lessonSelection.viewCaps')}
                                     </Button>
                                 </Box>
                             </Container>
@@ -485,7 +555,7 @@ class LessonSelection extends React.Component {
                                 onClick={this.handleBackClick}
                                 style={mobileStyles.backButton}
                             >
-                                Back to Subjects
+                                {translate('lessonSelection.backToSubjects')}
                             </Button>
                         )}
 
@@ -493,7 +563,7 @@ class LessonSelection extends React.Component {
                         <Box textAlign="center" mb={isMobile ? 2 : 4}>
                             <Typography variant="h4" style={mobileStyles.sectionTitle}>
                                 {selectionMode === "course" ? translate('lessonSelection.chooseSubject') :
-                                    `${this.coursePlans[courseNum].courseName}`}
+                                    translateCourseName(this.coursePlans[courseNum].courseName, translate)}
                             </Typography>
                             {selectionMode === "course" ? (
                                 <Typography variant="body1" style={{ color: '#64748B', fontSize: isMobile ? '0.9rem' : '1rem' }}>
@@ -532,10 +602,10 @@ class LessonSelection extends React.Component {
                                         const isCardLoaded = cardLoadedState[i];
 
                                         const descriptions = {
-                                            'Mathematics': 'Geometry, Trigonometry, Analytical Geometry, Statistics & more',
-                                            'Physical Sciences': 'Mechanics, Electricity, Waves, Chemistry & more',
-                                            'Life Sciences': 'Genetics, Evolution, Nervous System, Reproduction & more',
-                                            'default': 'Interactive learning content'
+                                            'Mathematics': translate('lessonSelection.mathDesc'),
+                                            'Physical Sciences': translate('lessonSelection.physicsDesc'),
+                                            'Life Sciences': translate('lessonSelection.lifeDesc'),
+                                            'default': translate('lessonSelection.defaultDesc')
                                         };
 
                                         return (
@@ -562,7 +632,7 @@ class LessonSelection extends React.Component {
                                                     }}>
                                                         <div style={{ fontSize: isMobile ? '36px' : '48px', marginBottom: isMobile ? '8px' : '12px' }}>{icon}</div>
                                                         <Typography variant="h5" style={{ fontWeight: 700, fontSize: isMobile ? '1.1rem' : '1.25rem' }}>
-                                                            {course.courseName}
+                                                            {translateCourseName(course.courseName, translate)}
                                                         </Typography>
                                                     </div>
                                                     <CardContent style={{
@@ -646,7 +716,7 @@ class LessonSelection extends React.Component {
                                                                 fontSize: isMobile ? '1rem' : '1.1rem',
                                                                 lineHeight: 1.3,
                                                             }}>
-                                                                {lesson.name.replace(/##/g, "")}
+                                                                {translateLessonName(lesson.id, lesson.name.replace(/##/g, ""), translate)}
                                                             </Typography>
                                                             <IconButton
                                                                 size="small"
@@ -655,7 +725,7 @@ class LessonSelection extends React.Component {
                                                                     marginLeft: '8px',
                                                                     padding: isMobile ? '6px' : '8px',
                                                                 }}
-                                                                aria-label={`View all problems for lesson ${lesson.id}`}
+                                                                aria-label={`${translate('lessonSelection.viewProblemsFor')} ${translateLessonName(lesson.id, lesson.name, translate)}`}
                                                                 onClick={(e) => {
                                                                     e.stopPropagation();
                                                                     this.props.history.push(`/lessons/${lesson.id}/problems`);
@@ -670,7 +740,7 @@ class LessonSelection extends React.Component {
                                                             fontSize: isMobile ? '0.85rem' : '0.9rem',
                                                             lineHeight: 1.5,
                                                         }}>
-                                                            {lesson.topics}
+                                                            {translateLessonTopics(lesson.id, lesson.topics, translate)}
                                                         </Typography>
 
                                                         {/* Category Tags */}
@@ -681,7 +751,7 @@ class LessonSelection extends React.Component {
                                                                     return cat ? (
                                                                         <Chip
                                                                             key={catId}
-                                                                            label={isMobile ? cat.shortName : cat.name}
+                                                                            label={getCategoryTranslatedName(catId, translate, isMobile)}
                                                                             size="small"
                                                                             style={{
                                                                                 backgroundColor: `${cat.color}15`,
@@ -735,11 +805,11 @@ class LessonSelection extends React.Component {
                                                                         />
                                                                     }
                                                                 >
-                                                                    {isExpanded ? 'Hide' : 'What you\'ll learn'}
+                                                                    {isExpanded ? translate('lessonSelection.hide') : translate('lessonSelection.whatYoullLearn')}
                                                                 </Button>
                                                                 <Collapse in={isExpanded}>
                                                                     <List dense style={{ paddingTop: '4px' }}>
-                                                                        {lesson.curriculumNotes.map((note, noteIndex) => (
+                                                                        {translateCurriculumNotes(lesson.id, lesson.curriculumNotes, translate).map((note, noteIndex) => (
                                                                             <ListItem key={noteIndex} style={{ paddingLeft: 0, paddingTop: '1px', paddingBottom: '1px' }}>
                                                                                 <ListItemIcon style={{ minWidth: '24px' }}>
                                                                                     <CheckCircleOutlineIcon style={{ fontSize: '14px', color: colors.primary }} />
@@ -796,7 +866,7 @@ class LessonSelection extends React.Component {
                                     marginBottom: isMobile ? '20px' : '32px',
                                     fontSize: isMobile ? '1.1rem' : '1.5rem',
                                 }}>
-                                    Why Students Love {SITE_NAME}
+                                    {translate('lessonSelection.whyStudentsLove')} {SITE_NAME} {this.props.language === 'af' ? translate('lessonSelection.whyStudentsLoveSuffix') : ''}
                                 </Typography>
                                 <Grid container spacing={isMobile ? 2 : 3}>
                                     {isLoading ? (
@@ -810,10 +880,10 @@ class LessonSelection extends React.Component {
                                                 }} elevation={0}>
                                                     <SchoolIcon style={{ fontSize: isMobile ? 36 : 48, color: '#7B2FF7', marginBottom: isMobile ? '8px' : '16px' }} />
                                                     <Typography variant="h6" style={{ fontWeight: 600, marginBottom: '4px', fontSize: isMobile ? '0.9rem' : '1rem' }}>
-                                                        CAPS Aligned
+                                                        {translate('lessonSelection.capsAligned')}
                                                     </Typography>
                                                     <Typography variant="body2" style={{ color: '#64748B', fontSize: isMobile ? '0.75rem' : '0.85rem', lineHeight: 1.4 }}>
-                                                        {isMobile ? 'Grade 10-12 curriculum' : 'Problems designed specifically for SA Grade 10-12 curriculum'}
+                                                        {isMobile ? translate('lessonSelection.capsGrade') : translate('lessonSelection.capsGradeFull')}
                                                     </Typography>
                                                 </Paper>
                                             </Grid>
@@ -824,10 +894,10 @@ class LessonSelection extends React.Component {
                                                 }} elevation={0}>
                                                     <EmojiObjectsIcon style={{ fontSize: isMobile ? 36 : 48, color: '#00D4FF', marginBottom: isMobile ? '8px' : '16px' }} />
                                                     <Typography variant="h6" style={{ fontWeight: 600, marginBottom: '4px', fontSize: isMobile ? '0.9rem' : '1rem' }}>
-                                                        AI Hints
+                                                        {translate('lessonSelection.aiHints')}
                                                     </Typography>
                                                     <Typography variant="body2" style={{ color: '#64748B', fontSize: isMobile ? '0.75rem' : '0.85rem', lineHeight: 1.4 }}>
-                                                        {isMobile ? 'Smart help when stuck' : 'Get intelligent hints when stuck, not just the answer'}
+                                                        {isMobile ? translate('lessonSelection.aiHintsDescMobile') : translate('lessonSelection.aiHintsDesc')}
                                                     </Typography>
                                                 </Paper>
                                             </Grid>
@@ -838,10 +908,10 @@ class LessonSelection extends React.Component {
                                                 }} elevation={0}>
                                                     <TrendingUpIcon style={{ fontSize: isMobile ? 36 : 48, color: '#10B981', marginBottom: isMobile ? '8px' : '16px' }} />
                                                     <Typography variant="h6" style={{ fontWeight: 600, marginBottom: '4px', fontSize: isMobile ? '0.9rem' : '1rem' }}>
-                                                        Track Progress
+                                                        {translate('lessonSelection.trackProgress')}
                                                     </Typography>
                                                     <Typography variant="body2" style={{ color: '#64748B', fontSize: isMobile ? '0.75rem' : '0.85rem', lineHeight: 1.4 }}>
-                                                        {isMobile ? 'See your growth' : 'See your mastery grow with adaptive problem selection'}
+                                                        {isMobile ? translate('lessonSelection.trackProgressDescMobile') : translate('lessonSelection.trackProgressDesc')}
                                                     </Typography>
                                                 </Paper>
                                             </Grid>
@@ -852,10 +922,10 @@ class LessonSelection extends React.Component {
                                                 }} elevation={0}>
                                                     <CheckCircleIcon style={{ fontSize: isMobile ? 36 : 48, color: '#F72585', marginBottom: isMobile ? '8px' : '16px' }} />
                                                     <Typography variant="h6" style={{ fontWeight: 600, marginBottom: '4px', fontSize: isMobile ? '0.9rem' : '1rem' }}>
-                                                        100% Free
+                                                        {translate('lessonSelection.free')}
                                                     </Typography>
                                                     <Typography variant="body2" style={{ color: '#64748B', fontSize: isMobile ? '0.75rem' : '0.85rem', lineHeight: 1.4 }}>
-                                                        {isMobile ? 'Always free for SA' : 'Quality education accessible to all SA students'}
+                                                        {isMobile ? translate('lessonSelection.freeDescMobile') : translate('lessonSelection.freeDesc')}
                                                     </Typography>
                                                 </Paper>
                                             </Grid>
@@ -919,12 +989,12 @@ class LessonSelection extends React.Component {
                             gap: isMobile ? '12px' : '0',
                         }}>
                             <div style={{ fontSize: isMobile ? 12 : 14, opacity: 0.8, textAlign: isMobile ? 'center' : 'left' }}>
-                                {SHOW_COPYRIGHT && <>Copyright {new Date().getFullYear()} {SITE_NAME} | Empowering SA Students</>}
+                                {SHOW_COPYRIGHT && <>Copyright {new Date().getFullYear()} {SITE_NAME} | {translate('lessonSelection.empoweringSA')}</>}
                             </div>
                             <div>
                                 <IconButton
                                     aria-label="about"
-                                    title={`About ${SITE_NAME}`}
+                                    title={`${translate('lessonSelection.about')} ${SITE_NAME}`}
                                     onClick={this.togglePopup}
                                     style={{ color: '#fff', padding: isMobile ? '12px' : '8px' }}
                                 >

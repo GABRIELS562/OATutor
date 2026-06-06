@@ -33,6 +33,7 @@ import {
     ArrowBack as BackIcon,
 } from '@material-ui/icons';
 import { useGamification } from '../../util/GamificationContext';
+import { useLocalization } from '../../util/LocalizationContext';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -199,6 +200,35 @@ const MockTestPage = () => {
     const history = useHistory();
     const { addXP, recordProblemAttempt } = useGamification();
 
+    const localization = useLocalization();
+    const translate = localization?.translate || ((key) => {
+        const fallbacks = {
+            'mockTest.title': 'Mock Tests',
+            'mockTest.subtitle': 'Practice under exam conditions with timed tests',
+            'mockTest.questions': 'Questions',
+            'mockTest.min': 'min',
+            'mockTest.startTest': 'Start Test',
+            'mockTest.endTest': 'End Test',
+            'mockTest.questionOf': 'Question {current} of {total}',
+            'mockTest.correctAnswer': 'Correct Answer',
+            'mockTest.wrongAnswer': 'Wrong Answer',
+            'mockTest.endTestEarly': 'End Test Early?',
+            'mockTest.questionsRemaining': 'You have {count} questions remaining. Are you sure you want to end the test now?',
+            'mockTest.continueTest': 'Continue Test',
+            'mockTest.testComplete': 'Test Complete!',
+            'mockTest.correct': 'Correct',
+            'mockTest.incorrect': 'Incorrect',
+            'mockTest.timeUsed': 'Time Used',
+            'mockTest.bonusXP': 'Bonus XP',
+            'mockTest.greatJob': "Great job! You're well prepared!",
+            'mockTest.goodEffort': 'Good effort! Keep practicing!',
+            'mockTest.reviewTopics': 'Review the topics and try again!',
+            'mockTest.takeAnotherTest': 'Take Another Test',
+            'mockTest.viewDashboard': 'View Dashboard',
+        };
+        return fallbacks[key] || key.split('.').pop();
+    });
+
     // State
     const [selectedTest, setSelectedTest] = useState(null);
     const [testState, setTestState] = useState('select'); // select, running, results
@@ -316,10 +346,10 @@ const MockTestPage = () => {
         <>
             <Box className={classes.header}>
                 <Typography variant="h3" className={classes.title}>
-                    Mock Tests
+                    {translate('mockTest.title')}
                 </Typography>
                 <Typography variant="h6" className={classes.subtitle}>
-                    Practice under exam conditions with timed tests
+                    {translate('mockTest.subtitle')}
                 </Typography>
             </Box>
 
@@ -343,13 +373,13 @@ const MockTestPage = () => {
                                     <Chip
                                         size="small"
                                         icon={<SubjectIcon />}
-                                        label={`${config.questions} Questions`}
+                                        label={`${config.questions} ${translate('mockTest.questions')}`}
                                         className={classes.chip}
                                     />
                                     <Chip
                                         size="small"
                                         icon={<TimerIcon />}
-                                        label={`${config.timeMinutes} min`}
+                                        label={`${config.timeMinutes} ${translate('mockTest.min')}`}
                                         className={classes.chip}
                                     />
                                 </Box>
@@ -368,7 +398,7 @@ const MockTestPage = () => {
                                     startIcon={<StartIcon />}
                                     onClick={() => startTest(config)}
                                 >
-                                    Start Test
+                                    {translate('mockTest.startTest')}
                                 </Button>
                             </CardActions>
                         </Card>
@@ -391,7 +421,7 @@ const MockTestPage = () => {
                     startIcon={<StopIcon />}
                     onClick={() => setShowConfirmEnd(true)}
                 >
-                    End Test
+                    {translate('mockTest.endTest')}
                 </Button>
             </Box>
 
@@ -401,7 +431,7 @@ const MockTestPage = () => {
 
             <Box className={classes.progressSection}>
                 <Typography className={classes.questionCounter}>
-                    Question {currentQuestion + 1} of {selectedTest?.questions}
+                    {translate('mockTest.questionOf').replace('{current}', currentQuestion + 1).replace('{total}', selectedTest?.questions)}
                 </Typography>
                 <LinearProgress
                     variant="determinate"
@@ -424,33 +454,32 @@ const MockTestPage = () => {
                         onClick={() => recordAnswer(true, Math.floor(Math.random() * 60) + 30)}
                         style={{ marginRight: 16 }}
                     >
-                        Correct Answer
+                        {translate('mockTest.correctAnswer')}
                     </Button>
                     <Button
                         variant="outlined"
                         color="secondary"
                         onClick={() => recordAnswer(false, Math.floor(Math.random() * 60) + 30)}
                     >
-                        Wrong Answer
+                        {translate('mockTest.wrongAnswer')}
                     </Button>
                 </Box>
             </Box>
 
             {/* Confirm End Dialog */}
             <Dialog open={showConfirmEnd} onClose={() => setShowConfirmEnd(false)}>
-                <DialogTitle>End Test Early?</DialogTitle>
+                <DialogTitle>{translate('mockTest.endTestEarly')}</DialogTitle>
                 <DialogContent>
                     <Typography>
-                        You have {selectedTest?.questions - currentQuestion} questions remaining.
-                        Are you sure you want to end the test now?
+                        {translate('mockTest.questionsRemaining').replace('{count}', selectedTest?.questions - currentQuestion)}
                     </Typography>
                 </DialogContent>
                 <DialogActions>
                     <Button onClick={() => setShowConfirmEnd(false)}>
-                        Continue Test
+                        {translate('mockTest.continueTest')}
                     </Button>
                     <Button onClick={() => { setShowConfirmEnd(false); endTest(); }} color="secondary">
-                        End Test
+                        {translate('mockTest.endTest')}
                     </Button>
                 </DialogActions>
             </Dialog>
@@ -461,7 +490,7 @@ const MockTestPage = () => {
     const renderResults = () => (
         <Paper className={classes.resultCard}>
             <Typography variant="h4" gutterBottom>
-                Test Complete!
+                {translate('mockTest.testComplete')}
             </Typography>
 
             <Box className={classes.scoreCircle}>
@@ -481,7 +510,7 @@ const MockTestPage = () => {
                             {results?.correctCount}
                         </Typography>
                         <Typography variant="body2" color="textSecondary">
-                            Correct
+                            {translate('mockTest.correct')}
                         </Typography>
                     </Box>
                 </Grid>
@@ -491,7 +520,7 @@ const MockTestPage = () => {
                             {results?.totalQuestions - results?.correctCount}
                         </Typography>
                         <Typography variant="body2" color="textSecondary">
-                            Incorrect
+                            {translate('mockTest.incorrect')}
                         </Typography>
                     </Box>
                 </Grid>
@@ -501,7 +530,7 @@ const MockTestPage = () => {
                             {Math.floor(results?.totalTime / 60)}:{(results?.totalTime % 60).toString().padStart(2, '0')}
                         </Typography>
                         <Typography variant="body2" color="textSecondary">
-                            Time Used
+                            {translate('mockTest.timeUsed')}
                         </Typography>
                     </Box>
                 </Grid>
@@ -511,7 +540,7 @@ const MockTestPage = () => {
                             +{results?.bonusXP}
                         </Typography>
                         <Typography variant="body2" color="textSecondary">
-                            Bonus XP
+                            {translate('mockTest.bonusXP')}
                         </Typography>
                     </Box>
                 </Grid>
@@ -519,20 +548,20 @@ const MockTestPage = () => {
 
             {results?.score >= 80 && (
                 <Chip
-                    label="Great job! You're well prepared!"
+                    label={translate('mockTest.greatJob')}
                     color="primary"
                     style={{ marginBottom: 24 }}
                 />
             )}
             {results?.score >= 60 && results?.score < 80 && (
                 <Chip
-                    label="Good effort! Keep practicing!"
+                    label={translate('mockTest.goodEffort')}
                     style={{ marginBottom: 24, backgroundColor: '#F59E0B', color: 'white' }}
                 />
             )}
             {results?.score < 60 && (
                 <Chip
-                    label="Review the topics and try again!"
+                    label={translate('mockTest.reviewTopics')}
                     color="secondary"
                     style={{ marginBottom: 24 }}
                 />
@@ -546,13 +575,13 @@ const MockTestPage = () => {
                     startIcon={<ResultsIcon />}
                     style={{ marginRight: 16 }}
                 >
-                    Take Another Test
+                    {translate('mockTest.takeAnotherTest')}
                 </Button>
                 <Button
                     variant="outlined"
                     onClick={() => history.push('/dashboard')}
                 >
-                    View Dashboard
+                    {translate('mockTest.viewDashboard')}
                 </Button>
             </Box>
         </Paper>

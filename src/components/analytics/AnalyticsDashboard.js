@@ -34,6 +34,7 @@ import StarIcon from '@material-ui/icons/Star';
 // Context
 import { ThemeContext } from '../../config/config';
 import { useGamification } from '../../util/GamificationContext';
+import { useLocalization } from '../../util/LocalizationContext';
 
 // Analytics utilities
 import {
@@ -323,6 +324,27 @@ const AnalyticsDashboard = () => {
     const bktParams = themeContext?.bktParams || {};
     // Gamification context available for future use
     useGamification();
+    const localization = useLocalization();
+    const translate = localization?.translate || ((key) => {
+        const fallbacks = {
+            'analytics.title': 'Analytics',
+            'analytics.progressAnalytics': 'Progress Analytics',
+            'analytics.loadingProgress': 'Loading your progress data...',
+            'analytics.problemsSolved': 'Problems Solved',
+            'analytics.accuracyRate': 'Accuracy Rate',
+            'analytics.skillsMastered': 'Skills Mastered',
+            'analytics.timePracticed': 'Time Practiced',
+            'analytics.overview': 'Overview',
+            'analytics.skills': 'Skills',
+            'analytics.subjects': 'Subjects',
+            'analytics.activity': 'Activity',
+            'analytics.continuePracticing': 'Continue Practicing',
+            'analytics.noProgressData': 'No Progress Data Yet',
+            'analytics.startPracticingToSee': 'Start practicing problems to see your progress analytics here.',
+            'analytics.startPracticing': 'Start Practicing',
+        };
+        return fallbacks[key] || key.split('.').pop();
+    });
 
     // State
     const [activeTab, setActiveTab] = useState(0);
@@ -400,14 +422,14 @@ const AnalyticsDashboard = () => {
                         >
                             <ArrowBackIcon />
                         </IconButton>
-                        <Typography className={classes.title}>Analytics</Typography>
+                        <Typography className={classes.title}>{translate('analytics.title')}</Typography>
                     </Box>
                 </Box>
                 <Container maxWidth="lg">
                     <Box className={classes.loadingContainer}>
                         <CircularProgress style={{ color: '#58CC02' }} />
                         <Typography className={classes.loadingText}>
-                            Loading your progress data...
+                            {translate('analytics.loadingProgress')}
                         </Typography>
                     </Box>
                 </Container>
@@ -431,7 +453,7 @@ const AnalyticsDashboard = () => {
                         <ArrowBackIcon />
                     </IconButton>
                     <Typography className={classes.title}>
-                        Progress Analytics
+                        {translate('analytics.progressAnalytics')}
                     </Typography>
                 </Box>
                 <IconButton
@@ -448,17 +470,17 @@ const AnalyticsDashboard = () => {
                     <Box className={classes.emptyState}>
                         <Box className={classes.emptyIcon}>📊</Box>
                         <Typography variant="h6" style={{ color: '#fff', marginBottom: '8px' }}>
-                            No Progress Data Yet
+                            {translate('analytics.noProgressData')}
                         </Typography>
                         <Typography className={classes.emptyText}>
-                            Start practicing problems to see your progress analytics here.
+                            {translate('analytics.startPracticingToSee')}
                         </Typography>
                         <Button
                             component={Link}
                             to="/"
                             className={classes.ctaButton}
                         >
-                            Start Practicing
+                            {translate('analytics.startPracticing')}
                         </Button>
                     </Box>
                 ) : (
@@ -473,7 +495,7 @@ const AnalyticsDashboard = () => {
                                     {overallStats?.correctAnswers || 0}
                                 </Typography>
                                 <Typography className={classes.summaryLabel}>
-                                    Problems Solved
+                                    {translate('analytics.problemsSolved')}
                                 </Typography>
                             </Paper>
 
@@ -485,7 +507,7 @@ const AnalyticsDashboard = () => {
                                     {overallStats?.accuracy || 0}%
                                 </Typography>
                                 <Typography className={classes.summaryLabel}>
-                                    Accuracy Rate
+                                    {translate('analytics.accuracyRate')}
                                 </Typography>
                             </Paper>
 
@@ -497,7 +519,7 @@ const AnalyticsDashboard = () => {
                                     {overallStats?.masteredSkills || 0}
                                 </Typography>
                                 <Typography className={classes.summaryLabel}>
-                                    Skills Mastered
+                                    {translate('analytics.skillsMastered')}
                                 </Typography>
                             </Paper>
 
@@ -509,7 +531,7 @@ const AnalyticsDashboard = () => {
                                     {overallStats?.totalTimeMinutes || 0}m
                                 </Typography>
                                 <Typography className={classes.summaryLabel}>
-                                    Time Practiced
+                                    {translate('analytics.timePracticed')}
                                 </Typography>
                             </Paper>
                         </Box>
@@ -522,10 +544,10 @@ const AnalyticsDashboard = () => {
                             variant={isMobile ? 'scrollable' : 'standard'}
                             scrollButtons="auto"
                         >
-                            <Tab label="Overview" />
-                            <Tab label="Skills" />
-                            <Tab label="Subjects" />
-                            <Tab label="Activity" />
+                            <Tab label={translate('analytics.overview')} />
+                            <Tab label={translate('analytics.skills')} />
+                            <Tab label={translate('analytics.subjects')} />
+                            <Tab label={translate('analytics.activity')} />
                         </Tabs>
 
                         {/* Tab Content */}
@@ -738,7 +760,7 @@ const AnalyticsDashboard = () => {
                                 to="/"
                                 className={classes.ctaButton}
                             >
-                                Continue Practicing
+                                {translate('analytics.continuePracticing')}
                             </Button>
                         </Box>
                     </>

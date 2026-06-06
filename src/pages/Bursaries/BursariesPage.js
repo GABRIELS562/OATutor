@@ -47,6 +47,7 @@ import {
     AttachMoney,
 } from '@material-ui/icons';
 import BrandLogoNav from '../../components/BrandLogoNav';
+import { useLocalization } from '../../util/LocalizationContext';
 import {
     BURSARY_CATEGORIES,
     BURSARIES,
@@ -145,6 +146,30 @@ const useStyles = makeStyles((theme) => ({
 const BursariesPage = ({ history }) => {
     const classes = useStyles();
 
+    const localization = useLocalization();
+    const translate = localization?.translate || ((key) => {
+        const fallbacks = {
+            'bursaries.title': 'Bursaries & Scholarships',
+            'bursaries.subtitle': 'Fund your education with SA bursaries',
+            'bursaries.searchPlaceholder': 'Search by bursary name, provider, or field of study...',
+            'bursaries.featured': 'Featured',
+            'bursaries.viewDetails': 'View Details',
+            'bursaries.website': 'Website',
+            'bursaries.featuredBursaries': 'Featured Bursaries',
+            'bursaries.searchResults': 'Search Results',
+            'bursaries.allBursaries': 'All Bursaries',
+            'bursaries.noResults': 'No bursaries found matching your criteria.',
+            'bursaries.whatsCovered': "What's Covered",
+            'bursaries.eligibility': 'Eligibility Requirements',
+            'bursaries.fieldsOfStudy': 'Fields of Study',
+            'bursaries.applicationDeadline': 'Application Deadline',
+            'bursaries.applyNow': 'Apply Now',
+            'common.all': 'All',
+            'common.close': 'Close',
+        };
+        return fallbacks[key] || key.split('.').pop();
+    });
+
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedCategory, setSelectedCategory] = useState('all');
     const [selectedBursary, setSelectedBursary] = useState(null);
@@ -186,7 +211,7 @@ const BursariesPage = ({ history }) => {
                     {bursary.featured && (
                         <Chip
                             size="small"
-                            label="Featured"
+                            label={translate('bursaries.featured')}
                             icon={<Star />}
                             className={classes.featuredChip}
                         />
@@ -205,7 +230,7 @@ const BursariesPage = ({ history }) => {
                     color="primary"
                     onClick={() => handleBursaryClick(bursary)}
                 >
-                    View Details
+                    {translate('bursaries.viewDetails')}
                 </Button>
                 {bursary.website && (
                     <Button
@@ -214,7 +239,7 @@ const BursariesPage = ({ history }) => {
                         target="_blank"
                         startIcon={<OpenInNew />}
                     >
-                        Website
+                        {translate('bursaries.website')}
                     </Button>
                 )}
             </CardActions>
@@ -236,10 +261,10 @@ const BursariesPage = ({ history }) => {
                     </IconButton>
                     <div>
                         <Typography variant="h4" className={classes.title}>
-                            Bursaries & Scholarships
+                            {translate('bursaries.title')}
                         </Typography>
                         <Typography variant="body1" color="textSecondary">
-                            Fund your education with SA bursaries
+                            {translate('bursaries.subtitle')}
                         </Typography>
                     </div>
                 </div>
@@ -248,7 +273,7 @@ const BursariesPage = ({ history }) => {
                 <TextField
                     fullWidth
                     variant="outlined"
-                    placeholder="Search by bursary name, provider, or field of study..."
+                    placeholder={translate('bursaries.searchPlaceholder')}
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     className={classes.searchBar}
@@ -274,7 +299,7 @@ const BursariesPage = ({ history }) => {
                         variant="scrollable"
                         scrollButtons="auto"
                     >
-                        <Tab label="All" value="all" />
+                        <Tab label={translate('common.all')} value="all" />
                         {BURSARY_CATEGORIES.map((cat) => (
                             <Tab key={cat.id} label={cat.name} value={cat.id} />
                         ))}
@@ -286,7 +311,7 @@ const BursariesPage = ({ history }) => {
                     <div className={classes.featuredSection}>
                         <Typography variant="h5" className={classes.sectionTitle}>
                             <Star style={{ color: '#ffd700' }} />
-                            Featured Bursaries
+                            {translate('bursaries.featuredBursaries')}
                         </Typography>
                         <Grid container spacing={3}>
                             {featuredBursaries.map((bursary) => (
@@ -302,9 +327,9 @@ const BursariesPage = ({ history }) => {
                 <Typography variant="h5" className={classes.sectionTitle}>
                     <AttachMoney />
                     {searchQuery
-                        ? `Search Results (${displayedBursaries.length})`
+                        ? `${translate('bursaries.searchResults')} (${displayedBursaries.length})`
                         : selectedCategory === 'all'
-                            ? 'All Bursaries'
+                            ? translate('bursaries.allBursaries')
                             : BURSARY_CATEGORIES.find(c => c.id === selectedCategory)?.name
                     }
                 </Typography>
@@ -319,7 +344,7 @@ const BursariesPage = ({ history }) => {
                 {displayedBursaries.length === 0 && (
                     <Paper style={{ padding: 32, textAlign: 'center' }}>
                         <Typography color="textSecondary">
-                            No bursaries found matching your criteria.
+                            {translate('bursaries.noResults')}
                         </Typography>
                     </Paper>
                 )}
@@ -349,7 +374,7 @@ const BursariesPage = ({ history }) => {
 
                             <div className={classes.detailSection}>
                                 <Typography className={classes.detailTitle}>
-                                    What's Covered
+                                    {translate('bursaries.whatsCovered')}
                                 </Typography>
                                 <List dense>
                                     {selectedBursary.coverage?.map((item, i) => (
@@ -367,7 +392,7 @@ const BursariesPage = ({ history }) => {
 
                             <div className={classes.detailSection} style={{ marginTop: 16 }}>
                                 <Typography className={classes.detailTitle}>
-                                    Eligibility Requirements
+                                    {translate('bursaries.eligibility')}
                                 </Typography>
                                 <List dense>
                                     {selectedBursary.eligibility?.map((item, i) => (
@@ -383,7 +408,7 @@ const BursariesPage = ({ history }) => {
 
                             <div className={classes.detailSection}>
                                 <Typography className={classes.detailTitle}>
-                                    Fields of Study
+                                    {translate('bursaries.fieldsOfStudy')}
                                 </Typography>
                                 <div className={classes.chipContainer}>
                                     {selectedBursary.fieldsOfStudy?.map((field, i) => (
@@ -399,7 +424,7 @@ const BursariesPage = ({ history }) => {
 
                             <Paper style={{ padding: 16, backgroundColor: '#e3f2fd', marginTop: 16 }}>
                                 <Typography variant="subtitle2" gutterBottom>
-                                    Application Deadline
+                                    {translate('bursaries.applicationDeadline')}
                                 </Typography>
                                 <Typography variant="h6">
                                     {selectedBursary.applicationDeadline}
@@ -414,7 +439,7 @@ const BursariesPage = ({ history }) => {
                         </DialogContent>
                         <DialogActions>
                             <Button onClick={() => setDialogOpen(false)}>
-                                Close
+                                {translate('common.close')}
                             </Button>
                             {selectedBursary.applicationLink && (
                                 <Button
@@ -424,7 +449,7 @@ const BursariesPage = ({ history }) => {
                                     target="_blank"
                                     startIcon={<OpenInNew />}
                                 >
-                                    Apply Now
+                                    {translate('bursaries.applyNow')}
                                 </Button>
                             )}
                         </DialogActions>

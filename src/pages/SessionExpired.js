@@ -4,8 +4,19 @@ import Grid from "@material-ui/core/Grid";
 import Divider from "@material-ui/core/Divider";
 import BrandLogoNav from "@components/BrandLogoNav";
 import Spacer from "@components/Spacer";
+import { useLocalization } from "../util/LocalizationContext";
 
 const SessionExpired = () => {
+    const localization = useLocalization();
+    const translate = localization?.translate || ((key) => {
+        const fallbacks = {
+            'sessionExpired.title': 'Oops, something went wrong!',
+            'sessionExpired.subtitle': 'It looks like your session has expired.',
+            'sessionExpired.studentInstructions': 'If you are a student, please reload the page or open the page from your LMS again.',
+            'sessionExpired.instructorInstructions': 'If you are an instructor, please reload the page or create a new assignment.',
+        };
+        return fallbacks[key] || key;
+    });
 
     return <>
         <div style={{ backgroundColor: "#F6F6F6", paddingBottom: 20 }}>
@@ -28,15 +39,15 @@ const SessionExpired = () => {
                 >
                     <Box width="75%" maxWidth={1500}>
                         <center>
-                            <h1>Oops, something went wrong!</h1>
-                            <h2>It looks like your session has expired.</h2>
+                            <h1>{translate('sessionExpired.title')}</h1>
+                            <h2>{translate('sessionExpired.subtitle')}</h2>
                         </center>
                         <Divider/>
                         <center>
                             <Spacer/>
-                            <p>If you are a student, please reload the page or open the page from your LMS again.</p>
+                            <p>{translate('sessionExpired.studentInstructions')}</p>
                             <Spacer/>
-                            <p>If you are an instructor, please reload the page or create a new assignment.</p>
+                            <p>{translate('sessionExpired.instructorInstructions')}</p>
                             <Spacer height={24 * 3}/>
                         </center>
                     </Box>

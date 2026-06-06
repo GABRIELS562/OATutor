@@ -7,6 +7,7 @@ import React from 'react';
 import { Box, Typography, Tooltip, LinearProgress } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { useGamification } from '../../util/GamificationContext';
+import { useLocalization } from '../../util/LocalizationContext';
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -127,6 +128,29 @@ const useStyles = makeStyles((theme) => ({
 
 const GamificationStats = ({ compact = false, onClick }) => {
     const { stats, streakData, getLevelInfo, getDailyGoalProgress, isLoaded } = useGamification();
+    const localization = useLocalization();
+    const translate = localization?.translate || ((key) => {
+        // Fallback: return last part of key as readable text
+        const fallbacks = {
+            'gamification.level': 'Lv.',
+            'gamification.xp': 'XP',
+            'gamification.xpTotal': 'XP total',
+            'gamification.xpToday': 'today',
+            'gamification.dayStreak': 'day streak',
+            'gamification.day': 'Day',
+            'gamification.days': 'Days',
+            'gamification.goal': 'Goal',
+            'gamification.done': 'Done!',
+            'gamification.longestStreak': 'Longest',
+            'gamification.startStreak': 'Start a streak by practicing today!',
+            'gamification.dailyGoal': 'Daily goal',
+            'gamification.problems': 'problems',
+            'gamification.or': 'or',
+            'gamification.dailyGoalComplete': 'Daily goal complete! Great job!',
+            'gamification.xpToLevel': 'XP to Level',
+        };
+        return fallbacks[key] || key.split('.').pop();
+    });
     const levelInfo = getLevelInfo();
     const goalProgress = getDailyGoalProgress();
     const classes = useStyles({ titleColor: levelInfo.titleColor });
@@ -139,19 +163,19 @@ const GamificationStats = ({ compact = false, onClick }) => {
         // Super compact version for mobile
         return (
             <Box className={classes.container} onClick={onClick} style={{ cursor: onClick ? 'pointer' : 'default' }}>
-                <Tooltip title={`Level ${levelInfo.level} - ${levelInfo.title}`}>
+                <Tooltip title={`${translate('gamification.level')} ${levelInfo.level} - ${levelInfo.title}`}>
                     <Box className={classes.statItem}>
                         <span className={classes.icon}>⭐</span>
                         <Typography className={classes.value}>{levelInfo.level}</Typography>
                     </Box>
                 </Tooltip>
-                <Tooltip title={`${stats.totalXP} XP total`}>
+                <Tooltip title={`${stats.totalXP} ${translate('gamification.xpTotal')}`}>
                     <Box className={classes.statItem}>
                         <span className={classes.icon}>💎</span>
                         <Typography className={classes.value}>{formatNumber(stats.totalXP)}</Typography>
                     </Box>
                 </Tooltip>
-                <Tooltip title={`${streakData.currentStreak} day streak`}>
+                <Tooltip title={`${streakData.currentStreak} ${translate('gamification.dayStreak')}`}>
                     <Box className={classes.statItem}>
                         <span className={`${classes.icon} ${streakData.currentStreak > 0 ? classes.streakFire : ''}`}>
                             {streakData.currentStreak > 0 ? '🔥' : '❄️'}
@@ -167,10 +191,10 @@ const GamificationStats = ({ compact = false, onClick }) => {
     return (
         <Box className={classes.container} onClick={onClick} style={{ cursor: onClick ? 'pointer' : 'default' }}>
             {/* Level Badge */}
-            <Tooltip title={`${levelInfo.xpInCurrentLevel}/${levelInfo.xpForNextLevel} XP to Level ${levelInfo.nextLevel || 'MAX'}`}>
+            <Tooltip title={`${levelInfo.xpInCurrentLevel}/${levelInfo.xpForNextLevel} ${translate('gamification.xpToLevel')} ${levelInfo.nextLevel || 'MAX'}`}>
                 <Box className={classes.levelBadge}>
                     <Typography className={classes.levelNumber}>
-                        Lv.{levelInfo.level}
+                        {translate('gamification.level')}{levelInfo.level}
                     </Typography>
                     <Box>
                         <Typography style={{ fontSize: '10px', color: '#fff', opacity: 0.9 }}>
@@ -189,14 +213,14 @@ const GamificationStats = ({ compact = false, onClick }) => {
             </Tooltip>
 
             {/* XP */}
-            <Tooltip title={`${stats.totalXP} XP total • +${goalProgress.xpProgress} today`}>
+            <Tooltip title={`${stats.totalXP} ${translate('gamification.xpTotal')} • +${goalProgress.xpProgress} ${translate('gamification.xpToday')}`}>
                 <Box className={classes.statItem}>
                     <span className={classes.icon}>💎</span>
                     <Box>
                         <Typography className={`${classes.value} ${classes.xpGlow}`}>
                             {formatNumber(stats.totalXP)}
                         </Typography>
-                        <Typography className={classes.label}>XP</Typography>
+                        <Typography className={classes.label}>{translate('gamification.xp')}</Typography>
                     </Box>
                 </Box>
             </Tooltip>
@@ -204,8 +228,8 @@ const GamificationStats = ({ compact = false, onClick }) => {
             {/* Streak */}
             <Tooltip title={
                 streakData.currentStreak > 0
-                    ? `${streakData.currentStreak} day streak! Longest: ${streakData.longestStreak} days`
-                    : 'Start a streak by practicing today!'
+                    ? `${streakData.currentStreak} ${translate('gamification.dayStreak')}! ${translate('gamification.longestStreak')}: ${streakData.longestStreak} ${translate('gamification.days')}`
+                    : translate('gamification.startStreak')
             }>
                 <Box className={classes.statItem}>
                     <span className={`${classes.icon} ${streakData.currentStreak > 0 ? classes.streakFire : ''}`}>
@@ -216,7 +240,7 @@ const GamificationStats = ({ compact = false, onClick }) => {
                             {streakData.currentStreak}
                         </Typography>
                         <Typography className={classes.label}>
-                            {streakData.currentStreak === 1 ? 'Day' : 'Days'}
+                            {streakData.currentStreak === 1 ? translate('gamification.day') : translate('gamification.days')}
                         </Typography>
                     </Box>
                 </Box>
@@ -224,27 +248,27 @@ const GamificationStats = ({ compact = false, onClick }) => {
 
             {/* Daily Goal Progress (mini) */}
             {!goalProgress.isComplete && (
-                <Tooltip title={`Daily goal: ${goalProgress.problemsProgress}/${goalProgress.problemsTarget} problems or ${goalProgress.xpProgress}/${goalProgress.xpTarget} XP`}>
+                <Tooltip title={`${translate('gamification.dailyGoal')}: ${goalProgress.problemsProgress}/${goalProgress.problemsTarget} ${translate('gamification.problems')} ${translate('gamification.or')} ${goalProgress.xpProgress}/${goalProgress.xpTarget} ${translate('gamification.xp')}`}>
                     <Box className={classes.statItem}>
                         <span className={classes.icon}>🎯</span>
                         <Box>
                             <Typography className={classes.value}>
                                 {Math.round(goalProgress.percent)}%
                             </Typography>
-                            <Typography className={classes.label}>Goal</Typography>
+                            <Typography className={classes.label}>{translate('gamification.goal')}</Typography>
                         </Box>
                     </Box>
                 </Tooltip>
             )}
             {goalProgress.isComplete && (
-                <Tooltip title="Daily goal complete! Great job!">
+                <Tooltip title={translate('gamification.dailyGoalComplete')}>
                     <Box className={classes.statItem}>
                         <span className={classes.icon}>✅</span>
                         <Box>
                             <Typography className={classes.value} style={{ color: '#10B981' }}>
-                                Done!
+                                {translate('gamification.done')}
                             </Typography>
-                            <Typography className={classes.label}>Goal</Typography>
+                            <Typography className={classes.label}>{translate('gamification.goal')}</Typography>
                         </Box>
                     </Box>
                 </Tooltip>

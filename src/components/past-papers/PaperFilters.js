@@ -29,6 +29,7 @@ import {
     PAPER_VARIANTS,
     PROVINCES,
 } from '../../data/pastPapersIndex';
+import { useLocalization } from '../../util/LocalizationContext';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -115,17 +116,17 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-// Available topics for filtering
+// Available topics for filtering - keys map to pastPapersFilters translations
 const TOPICS = [
-    { id: 'algebra', label: 'Algebra' },
-    { id: 'functions', label: 'Functions' },
-    { id: 'calculus', label: 'Calculus' },
-    { id: 'sequences', label: 'Sequences & Series' },
-    { id: 'finance', label: 'Financial Maths' },
-    { id: 'trigonometry', label: 'Trigonometry' },
-    { id: 'euclidean-geometry', label: 'Euclidean Geometry' },
-    { id: 'analytical-geometry', label: 'Analytical Geometry' },
-    { id: 'statistics', label: 'Statistics' },
+    { id: 'algebra', key: 'algebra' },
+    { id: 'functions', key: 'functions' },
+    { id: 'calculus', key: 'calculus' },
+    { id: 'sequences', key: 'sequencesSeries' },
+    { id: 'finance', key: 'financialMaths' },
+    { id: 'trigonometry', key: 'trigonometry' },
+    { id: 'euclidean-geometry', key: 'euclideanGeometry' },
+    { id: 'analytical-geometry', key: 'analyticalGeometry' },
+    { id: 'statistics', key: 'statistics' },
 ];
 
 const PaperFilters = ({
@@ -135,6 +136,7 @@ const PaperFilters = ({
     showExpanded = true,
 }) => {
     const classes = useStyles();
+    const { t } = useLocalization();
     const [expanded, setExpanded] = React.useState(showExpanded);
 
     const years = getAvailableYears();
@@ -173,10 +175,10 @@ const PaperFilters = ({
 
         if (filters.year) labels.push({ key: 'year', label: String(filters.year) });
         if (filters.type) labels.push({ key: 'type', label: filters.type.toUpperCase() });
-        if (filters.variant) labels.push({ key: 'variant', label: filters.variant === 'p1' ? 'Paper 1' : 'Paper 2' });
+        if (filters.variant) labels.push({ key: 'variant', label: filters.variant === 'p1' ? t('pastPapersFilters.paper1') : t('pastPapersFilters.paper2') });
         if (filters.province) labels.push({ key: 'province', label: filters.province.toUpperCase() });
         if (filters.topics?.length) {
-            labels.push({ key: 'topics', label: `${filters.topics.length} topics` });
+            labels.push({ key: 'topics', label: t('pastPapersFilters.nTopics', { count: filters.topics.length }) });
         }
 
         return labels;
@@ -188,7 +190,7 @@ const PaperFilters = ({
             <div className={classes.header}>
                 <Typography className={classes.title}>
                     <FilterList />
-                    Filter Papers
+                    {t('pastPapersFilters.filterPapers')}
                     {activeFilterCount > 0 && (
                         <Chip
                             size="small"
@@ -210,13 +212,13 @@ const PaperFilters = ({
                 <div className={classes.filterRow}>
                     {/* Year */}
                     <FormControl variant="outlined" size="small" className={classes.formControl}>
-                        <InputLabel>Year</InputLabel>
+                        <InputLabel>{t('pastPapersFilters.year')}</InputLabel>
                         <Select
                             value={filters.year || ''}
                             onChange={(e) => handleChange('year', e.target.value)}
-                            label="Year"
+                            label={t('pastPapersFilters.year')}
                         >
-                            <MenuItem value="">All Years</MenuItem>
+                            <MenuItem value="">{t('pastPapersFilters.allYears')}</MenuItem>
                             {years.map((year) => (
                                 <MenuItem key={year} value={year}>{year}</MenuItem>
                             ))}
@@ -225,45 +227,45 @@ const PaperFilters = ({
 
                     {/* Type */}
                     <FormControl variant="outlined" size="small" className={classes.formControl}>
-                        <InputLabel>Type</InputLabel>
+                        <InputLabel>{t('pastPapersFilters.type')}</InputLabel>
                         <Select
                             value={filters.type || ''}
                             onChange={(e) => handleChange('type', e.target.value)}
-                            label="Type"
+                            label={t('pastPapersFilters.type')}
                         >
-                            <MenuItem value="">All Types</MenuItem>
-                            <MenuItem value={PAPER_TYPES.NSC}>NSC (November)</MenuItem>
-                            <MenuItem value={PAPER_TYPES.NSC_SUPPLEMENTARY}>Supplementary</MenuItem>
-                            <MenuItem value={PAPER_TYPES.IEB}>IEB</MenuItem>
-                            <MenuItem value={PAPER_TYPES.TRIAL}>Trial Exams</MenuItem>
-                            <MenuItem value={PAPER_TYPES.PROVINCIAL}>Provincial</MenuItem>
+                            <MenuItem value="">{t('pastPapersFilters.allTypes')}</MenuItem>
+                            <MenuItem value={PAPER_TYPES.NSC}>{t('pastPapersFilters.nscNovember')}</MenuItem>
+                            <MenuItem value={PAPER_TYPES.NSC_SUPPLEMENTARY}>{t('pastPapersFilters.supplementary')}</MenuItem>
+                            <MenuItem value={PAPER_TYPES.IEB}>{t('pastPapersFilters.ieb')}</MenuItem>
+                            <MenuItem value={PAPER_TYPES.TRIAL}>{t('pastPapersFilters.trialExams')}</MenuItem>
+                            <MenuItem value={PAPER_TYPES.PROVINCIAL}>{t('pastPapersFilters.provincial')}</MenuItem>
                         </Select>
                     </FormControl>
 
                     {/* Paper variant */}
                     <FormControl variant="outlined" size="small" className={classes.formControl}>
-                        <InputLabel>Paper</InputLabel>
+                        <InputLabel>{t('pastPapersFilters.paper')}</InputLabel>
                         <Select
                             value={filters.variant || ''}
                             onChange={(e) => handleChange('variant', e.target.value)}
-                            label="Paper"
+                            label={t('pastPapersFilters.paper')}
                         >
-                            <MenuItem value="">Both Papers</MenuItem>
-                            <MenuItem value={PAPER_VARIANTS.PAPER_1}>Paper 1</MenuItem>
-                            <MenuItem value={PAPER_VARIANTS.PAPER_2}>Paper 2</MenuItem>
+                            <MenuItem value="">{t('pastPapersFilters.bothPapers')}</MenuItem>
+                            <MenuItem value={PAPER_VARIANTS.PAPER_1}>{t('pastPapersFilters.paper1')}</MenuItem>
+                            <MenuItem value={PAPER_VARIANTS.PAPER_2}>{t('pastPapersFilters.paper2')}</MenuItem>
                         </Select>
                     </FormControl>
 
                     {/* Province (for trial/provincial) */}
                     {(filters.type === PAPER_TYPES.TRIAL || filters.type === PAPER_TYPES.PROVINCIAL) && (
                         <FormControl variant="outlined" size="small" className={classes.formControl}>
-                            <InputLabel>Province</InputLabel>
+                            <InputLabel>{t('pastPapersFilters.province')}</InputLabel>
                             <Select
                                 value={filters.province || ''}
                                 onChange={(e) => handleChange('province', e.target.value)}
-                                label="Province"
+                                label={t('pastPapersFilters.province')}
                             >
-                                <MenuItem value="">All Provinces</MenuItem>
+                                <MenuItem value="">{t('pastPapersFilters.allProvinces')}</MenuItem>
                                 {PROVINCES.map((province) => (
                                     <MenuItem key={province} value={province}>
                                         {province.toUpperCase()}
@@ -277,13 +279,13 @@ const PaperFilters = ({
                 {/* Topics filter */}
                 <div className={classes.topicsSection}>
                     <Typography className={classes.topicsLabel}>
-                        Filter by topic:
+                        {t('pastPapersFilters.filterByTopic')}
                     </Typography>
                     <div className={classes.topicsContainer}>
                         {TOPICS.map((topic) => (
                             <Chip
                                 key={topic.id}
-                                label={topic.label}
+                                label={t(`pastPapersFilters.${topic.key}`)}
                                 size="small"
                                 onClick={() => handleTopicToggle(topic.id)}
                                 className={`${classes.topicChip} ${
@@ -311,7 +313,10 @@ const PaperFilters = ({
 
                 <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
                     <Typography className={classes.resultCount}>
-                        {resultCount} paper{resultCount !== 1 ? 's' : ''} found
+                        {resultCount !== 1
+                            ? t('pastPapersFilters.papersFound', { count: resultCount })
+                            : t('pastPapersFilters.paperFound', { count: resultCount })
+                        }
                     </Typography>
                     {activeFilterCount > 0 && (
                         <Button
@@ -320,7 +325,7 @@ const PaperFilters = ({
                             className={classes.clearButton}
                             onClick={handleClear}
                         >
-                            Clear All
+                            {t('pastPapersFilters.clearAll')}
                         </Button>
                     )}
                 </div>

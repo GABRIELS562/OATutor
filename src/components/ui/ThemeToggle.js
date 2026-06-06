@@ -10,6 +10,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Brightness4Icon from '@material-ui/icons/Brightness4'; // Dark
 import Brightness7Icon from '@material-ui/icons/Brightness7'; // Light
 import SettingsBrightnessIcon from '@material-ui/icons/SettingsBrightness'; // System
+import { useLocalization } from '../../util/LocalizationContext';
 
 const THEME_STORAGE_KEY = 'angelo_theme_preference';
 
@@ -28,6 +29,7 @@ const useStyles = makeStyles((theme) => ({
 
 const ThemeToggle = () => {
     const classes = useStyles();
+    const { t } = useLocalization();
     const [anchorEl, setAnchorEl] = useState(null);
     const [theme, setTheme] = useState('system');
 
@@ -87,11 +89,11 @@ const ThemeToggle = () => {
     const getTooltip = () => {
         switch (theme) {
             case 'dark':
-                return 'Dark mode';
+                return t('theme.darkMode');
             case 'light':
-                return 'Light mode';
+                return t('theme.lightMode');
             default:
-                return 'System theme';
+                return t('theme.systemTheme');
         }
     };
 
@@ -101,7 +103,7 @@ const ThemeToggle = () => {
                 <IconButton
                     className={classes.toggleButton}
                     onClick={handleClick}
-                    aria-label="Change theme"
+                    aria-label={t('ariaLabels.changeTheme')}
                     aria-haspopup="true"
                     aria-expanded={Boolean(anchorEl)}
                 >
@@ -123,7 +125,7 @@ const ThemeToggle = () => {
                     <ListItemIcon>
                         <Brightness7Icon fontSize="small" />
                     </ListItemIcon>
-                    <ListItemText primary="Light" />
+                    <ListItemText primary={t('theme.light')} />
                 </MenuItem>
                 <MenuItem
                     onClick={() => handleThemeChange('dark')}
@@ -132,7 +134,7 @@ const ThemeToggle = () => {
                     <ListItemIcon>
                         <Brightness4Icon fontSize="small" />
                     </ListItemIcon>
-                    <ListItemText primary="Dark" />
+                    <ListItemText primary={t('theme.dark')} />
                 </MenuItem>
                 <MenuItem
                     onClick={() => handleThemeChange('system')}
@@ -141,7 +143,7 @@ const ThemeToggle = () => {
                     <ListItemIcon>
                         <SettingsBrightnessIcon fontSize="small" />
                     </ListItemIcon>
-                    <ListItemText primary="System" />
+                    <ListItemText primary={t('theme.system')} />
                 </MenuItem>
             </Menu>
         </>

@@ -4,6 +4,28 @@ import { Chip, Box, Typography } from '@material-ui/core';
 import { EXAM_CATEGORIES } from '../../config/examCategories';
 import withTranslation from '../../util/withTranslation.js';
 
+// Map category IDs to translation keys
+const categoryKeyMap = {
+    'all': 'all',
+    'activities': 'activities',
+    'practice': 'practice',
+    'march-test': 'marchTest',
+    'june-exam': 'juneExam',
+    'sept-test': 'septTest',
+    'nov-exam': 'novExam',
+    'ieb': 'ieb',
+};
+
+// Helper to get translated category name
+const getCategoryName = (categoryId, translate, isShort = false) => {
+    const key = categoryKeyMap[categoryId];
+    if (key) {
+        const translationKey = isShort ? `examCategories.${key}Short` : `examCategories.${key}`;
+        return translate(translationKey);
+    }
+    return categoryId;
+};
+
 const styles = theme => ({
     container: {
         marginBottom: 24,
@@ -115,7 +137,7 @@ class CategoryFilter extends React.Component {
                         return (
                             <Chip
                                 key={category.id}
-                                label={isMobile ? category.shortName : category.name}
+                                label={getCategoryName(category.id, translate, isMobile)}
                                 onClick={() => onCategoryChange(category.id)}
                                 className={`${classes.chip} ${isSelected ? classes.activeChip : ''}`}
                                 classes={{ label: classes.chipLabel }}
@@ -130,7 +152,7 @@ class CategoryFilter extends React.Component {
                                 }}
                                 size={isMobile ? "medium" : "small"}
                                 aria-pressed={isSelected}
-                                aria-label={`Filter by ${category.name}`}
+                                aria-label={`${translate('examCategories.filterBy')} ${getCategoryName(category.id, translate, false)}`}
                             />
                         );
                     })}

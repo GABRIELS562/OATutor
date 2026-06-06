@@ -41,6 +41,7 @@ import {
     getMemoPath,
 } from '../../data/pastPapersIndex';
 import OfflinePapersService from '../../services/OfflinePapersService';
+import { useLocalization } from '../../util/LocalizationContext';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -152,6 +153,28 @@ const useStyles = makeStyles((theme) => ({
 
 const PastPapersPage = ({ history }) => {
     const classes = useStyles();
+
+    const localization = useLocalization();
+    const translate = localization?.translate || ((key) => {
+        const fallbacks = {
+            'pastPapers.title': 'Past Papers',
+            'pastPapers.subtitle': 'NSC, IEB & Provincial Mathematics Papers (2009-2024)',
+            'pastPapers.totalPapers': 'Total Papers',
+            'pastPapers.availableFree': 'Available Free',
+            'pastPapers.downloaded': 'Downloaded',
+            'pastPapers.offlineStorage': 'Offline Storage:',
+            'pastPapers.clear': 'Clear',
+            'pastPapers.quick': 'Quick:',
+            'pastPapers.paper1': 'Paper 1',
+            'pastPapers.paper2': 'Paper 2',
+            'pastPapers.nscOnly': 'NSC Only',
+            'pastPapers.downloadAll': 'Download All',
+            'pastPapers.noMatch': 'No papers match your filters',
+            'pastPapers.tryAdjusting': 'Try adjusting your filter criteria',
+            'pastPapers.clearFilters': 'Clear Filters',
+        };
+        return fallbacks[key] || key.split('.').pop();
+    });
 
     // State
     const [filters, setFilters] = useState({});
@@ -266,10 +289,10 @@ const PastPapersPage = ({ history }) => {
                     </IconButton>
                     <div className={classes.titleSection}>
                         <Typography variant="h5" className={classes.title}>
-                            Past Papers
+                            {translate('pastPapers.title')}
                         </Typography>
                         <Typography className={classes.subtitle}>
-                            NSC, IEB & Provincial Mathematics Papers (2009-2024)
+                            {translate('pastPapers.subtitle')}
                         </Typography>
                     </div>
                 </div>
@@ -278,17 +301,17 @@ const PastPapersPage = ({ history }) => {
                 <div className={classes.statsBar}>
                     <Chip
                         icon={<Info />}
-                        label={`${totalPapers} Total Papers`}
+                        label={`${totalPapers} ${translate('pastPapers.totalPapers')}`}
                         className={classes.statChip}
                     />
                     <Chip
                         icon={<CloudDownload />}
-                        label={`${availablePapers} Available Free`}
+                        label={`${availablePapers} ${translate('pastPapers.availableFree')}`}
                         className={classes.statChip}
                     />
                     <Chip
                         icon={<CloudDone />}
-                        label={`${cachedCount} Downloaded`}
+                        label={`${cachedCount} ${translate('pastPapers.downloaded')}`}
                         className={classes.statChip}
                         color={cachedCount > 0 ? 'primary' : 'default'}
                     />
@@ -300,7 +323,7 @@ const PastPapersPage = ({ history }) => {
                         <Storage className={classes.storageIcon} />
                         <div className={classes.storageInfo}>
                             <Typography variant="body2">
-                                Offline Storage: {storageStatus.storageUsed} used
+                                {translate('pastPapers.offlineStorage')} {storageStatus.storageUsed}
                             </Typography>
                             <LinearProgress
                                 variant="determinate"
@@ -318,7 +341,7 @@ const PastPapersPage = ({ history }) => {
                                     setSnackbar({ open: true, message: 'Offline papers cleared' });
                                 }}
                             >
-                                Clear
+                                {translate('pastPapers.clear')}
                             </Button>
                         )}
                     </Paper>
@@ -327,22 +350,22 @@ const PastPapersPage = ({ history }) => {
                 {/* Quick Filters */}
                 <div className={classes.quickFilters}>
                     <Typography variant="body2" color="textSecondary" style={{ alignSelf: 'center', marginRight: 8 }}>
-                        Quick:
+                        {translate('pastPapers.quick')}
                     </Typography>
                     <Chip
-                        label="Paper 1"
+                        label={translate('pastPapers.paper1')}
                         size="small"
                         onClick={() => handleQuickFilter('variant', 'p1')}
                         className={`${classes.quickFilterChip} ${filters.variant === 'p1' ? classes.quickFilterActive : ''}`}
                     />
                     <Chip
-                        label="Paper 2"
+                        label={translate('pastPapers.paper2')}
                         size="small"
                         onClick={() => handleQuickFilter('variant', 'p2')}
                         className={`${classes.quickFilterChip} ${filters.variant === 'p2' ? classes.quickFilterActive : ''}`}
                     />
                     <Chip
-                        label="NSC Only"
+                        label={translate('pastPapers.nscOnly')}
                         size="small"
                         onClick={() => handleQuickFilter('type', 'nsc')}
                         className={`${classes.quickFilterChip} ${filters.type === 'nsc' ? classes.quickFilterActive : ''}`}
@@ -387,7 +410,7 @@ const PastPapersPage = ({ history }) => {
                                     className={classes.downloadAllButton}
                                     onClick={() => handleDownloadYear(year)}
                                 >
-                                    Download All
+                                    {translate('pastPapers.downloadAll')}
                                 </Button>
                             </div>
 
@@ -408,17 +431,17 @@ const PastPapersPage = ({ history }) => {
                     <div className={classes.emptyState}>
                         <Info className={classes.emptyIcon} />
                         <Typography variant="h6" color="textSecondary">
-                            No papers match your filters
+                            {translate('pastPapers.noMatch')}
                         </Typography>
                         <Typography variant="body2" color="textSecondary">
-                            Try adjusting your filter criteria
+                            {translate('pastPapers.tryAdjusting')}
                         </Typography>
                         <Button
                             variant="outlined"
                             onClick={() => setFilters({})}
                             style={{ marginTop: 16 }}
                         >
-                            Clear Filters
+                            {translate('pastPapers.clearFilters')}
                         </Button>
                     </div>
                 )}

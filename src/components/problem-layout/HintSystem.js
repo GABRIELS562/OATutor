@@ -329,7 +329,7 @@ class HintSystem extends React.Component {
                                             fontSize: "24px",
                                         }}
                                         onClick={() => this.generateHintFromGPT(true)}
-                                        title="Regenerate Hint"
+                                        title={translate('hintsystem.regenerateHint')}
                                     />
                                 </div>
                             )}

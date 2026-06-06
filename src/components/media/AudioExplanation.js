@@ -37,6 +37,7 @@ import {
     RecordVoiceOver,
 } from '@material-ui/icons';
 import AudioExplanationService from '../../services/AudioExplanationService';
+import { useLocalization } from '../../util/LocalizationContext';
 
 const useStyles = makeStyles((theme) => ({
     root: {

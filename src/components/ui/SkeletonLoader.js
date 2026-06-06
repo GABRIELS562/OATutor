@@ -7,6 +7,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Card, CardContent, CardActions, Grid, Box } from '@material-ui/core';
+import { useLocalization } from '../../util/LocalizationContext';
 
 const useStyles = makeStyles((theme) => ({
     // Base skeleton animation
@@ -348,8 +349,12 @@ export const FeatureCardSkeleton = ({ count = 4 }) => {
 /**
  * Loading Spinner - shows while content is loading
  */
-export const LoadingSpinner = ({ text = "Loading...", overlay = false, size = "medium" }) => {
+export const LoadingSpinner = ({ text, overlay = false, size = "medium" }) => {
     const classes = useStyles();
+    const { t } = useLocalization();
+
+    // Use translated default if no text prop provided
+    const displayText = text !== undefined ? text : t('ui.loading');
 
     const sizes = {
         small: { spinner: 24, text: 12 },
@@ -365,11 +370,11 @@ export const LoadingSpinner = ({ text = "Loading...", overlay = false, size = "m
                 className={classes.spinner}
                 style={{ width: currentSize.spinner, height: currentSize.spinner }}
                 role="status"
-                aria-label="Loading"
+                aria-label={t('ui.loading')}
             />
-            {text && (
+            {displayText && (
                 <div className={classes.spinnerText} style={{ fontSize: currentSize.text }}>
-                    {text}
+                    {displayText}
                 </div>
             )}
         </>

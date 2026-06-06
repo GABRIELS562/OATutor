@@ -39,6 +39,17 @@ import withTranslation from "../../util/withTranslation.js"
 import CryptoJS from "crypto-js";
 import { recordProblemAttempt as recordGamificationAttempt } from "../../util/gamificationHelper";
 
+// Helper function to get translated step content
+const getTranslatedStepContent = (translate, problemId, stepId, field, fallback) => {
+    const key = `problemContent.${problemId}.steps.${stepId}.${field}`;
+    const translated = translate(key);
+    // If translate returns the key itself, it means no translation exists
+    if (translated === key || !translated) {
+        return fallback;
+    }
+    return translated;
+};
+
 class ProblemCard extends React.Component {
     static contextType = ThemeContext;
 
@@ -161,12 +172,12 @@ class ProblemCard extends React.Component {
          if (this.giveDynamicHint) {
             const gptHint = {
                 id: this.step.id + "-h0",  // Unique ID for the GPT hint
-                title: "ChatGPT AI Hint",  // Translated title
-                text: "Loading...",
+                title: this.translate('hintsystem.aiHint') || "AI Hint",
+                text: this.translate('ui.loading') || "Loading...",
                 type: "gptHint",  // Custom type for GPT hint
                 dependencies: [],
             };
-        
+
             this.hints.unshift(gptHint);
         }
     }
@@ -532,7 +543,7 @@ class ProblemCard extends React.Component {
         }
 
         this.setState({
-            dynamicHint: "Loading...", // Clear previous hint
+            dynamicHint: this.translate('ui.loading') || "Loading...", // Clear previous hint
             isGeneratingHint: true,
             lastAIHintHash: currentHash,
         });
@@ -644,7 +655,7 @@ class ProblemCard extends React.Component {
                 hints: this.hints,
                 giveDynamicHint: false, // Switch to manual hints
                 activeHintType: "normal",
-                dynamicHint: "Failed to generate AI hint. Displaying manual hints.",
+                dynamicHint: this.translate('hintsystem.aiHintFailed') || "Failed to generate AI hint. Displaying manual hints.",
                 hintsFinished: new Array(this.hints.length).fill(0),
             });
         };            
@@ -709,7 +720,7 @@ class ProblemCard extends React.Component {
                 <CardContent>
                     <h2 className={classes.stepHeader}>
                         {renderText(
-                            this.step.stepTitle,
+                            getTranslatedStepContent(translate, problemID, this.step.id, 'stepTitle', this.step.stepTitle),
                             problemID,
                             chooseVariables(
                                 Object.assign(
@@ -726,7 +737,7 @@ class ProblemCard extends React.Component {
 
                     <div className={classes.stepBody}>
                         {renderText(
-                            this.step.stepBody,
+                            getTranslatedStepContent(translate, problemID, this.step.id, 'stepBody', this.step.stepBody),
                             problemID,
                             chooseVariables(
                                 Object.assign(
@@ -831,10 +842,10 @@ class ProblemCard extends React.Component {
                             {this.showHints && (
                                 <center>
                                     <IconButton
-                                        aria-label={this.state.displayHints ? "Hide hints" : "Show hints"}
+                                        aria-label={this.state.displayHints ? translate('hintsystem.hideHints') : translate('hintsystem.showHints')}
                                         aria-expanded={this.state.displayHints}
                                         onClick={this.toggleHints}
-                                        title="View available hints"
+                                        title={translate('hintsystem.viewAvailableHints')}
                                         disabled={
                                             !this.state.enableHintGeneration
                                         }
@@ -850,8 +861,7 @@ class ProblemCard extends React.Component {
                                                     ? "image"
                                                     : "image image-grayed-out"
                                             }
-                                            alt="Raise hand icon - click to get a hint"
-                                        />
+                                            alt={translate('hintsystem.raiseHandHint')}/>
                                     </IconButton>
                                 </center>
                             )}
@@ -939,8 +949,8 @@ class ProblemCard extends React.Component {
                                                     this.state.checkMarkOpacity,
                                                 width: "45%",
                                             }}
-                                            alt="Correct answer"
-                                            aria-label="Your answer is correct"
+                                            alt={translate('ariaLabels.answerCorrect')}
+                                            aria-label={translate('ariaLabels.answerCorrect')}
                                             {...stagingProp({
                                                 "data-selenium-target": `step-correct-img-${this.props.index}`,
                                             })}
@@ -958,8 +968,8 @@ class ProblemCard extends React.Component {
                                                     this.state.checkMarkOpacity,
                                                 width: "45%",
                                             }}
-                                            alt="Incorrect answer"
-                                            aria-label="Your answer is incorrect, please try again"
+                                            alt={translate('ariaLabels.answerIncorrect')}
+                                            aria-label={translate('ariaLabels.answerIncorrect')}
                                             {...stagingProp({
                                                 "data-selenium-target": `step-correct-img-${this.props.index}`,
                                             })}

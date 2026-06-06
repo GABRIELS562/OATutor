@@ -14,6 +14,7 @@ import StorageIcon from '@material-ui/icons/Storage';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import WarningIcon from '@material-ui/icons/Warning';
 import InfoIcon from '@material-ui/icons/Info';
+import { useLocalization } from '../../util/LocalizationContext';
 
 const useStyles = makeStyles((theme) => ({
     errorContainer: {
@@ -214,59 +215,59 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-// Error types and their configurations
-const ERROR_CONFIGS = {
+// Error types and their configurations - function that returns translated configs
+const getErrorConfigs = (translate) => ({
     network: {
         icon: WifiOffIcon,
-        title: 'Connection Problem',
-        message: 'We could not connect to the server. Please check your internet connection and try again.',
+        title: t('errorDisplay.network.title'),
+        message: t('errorDisplay.network.message'),
         suggestions: [
-            'Check if you have mobile data or WiFi enabled',
-            'Try moving to an area with better signal',
-            'Wait a moment and try again',
+            t('errorDisplay.network.suggestions.checkData'),
+            t('errorDisplay.network.suggestions.betterSignal'),
+            t('errorDisplay.network.suggestions.waitAndRetry'),
         ],
     },
     server: {
         icon: StorageIcon,
-        title: 'Server Issue',
-        message: 'Our servers are having trouble right now. Our team has been notified.',
+        title: t('errorDisplay.server.title'),
+        message: t('errorDisplay.server.message'),
         suggestions: [
-            'Wait a few minutes and try again',
-            'Your progress is saved locally',
-            'Try refreshing the page',
+            t('errorDisplay.server.suggestions.waitMinutes'),
+            t('errorDisplay.server.suggestions.progressSaved'),
+            t('errorDisplay.server.suggestions.refreshPage'),
         ],
     },
     content: {
         icon: ErrorOutlineIcon,
-        title: 'Content Not Found',
-        message: 'We could not load this content. It may have been moved or removed.',
+        title: t('errorDisplay.content.title'),
+        message: t('errorDisplay.content.message'),
         suggestions: [
-            'Go back to the home page',
-            'Try selecting a different lesson',
-            'Contact support if the issue persists',
+            t('errorDisplay.content.suggestions.goHome'),
+            t('errorDisplay.content.suggestions.differentLesson'),
+            t('errorDisplay.content.suggestions.contactSupport'),
         ],
     },
     generic: {
         icon: ErrorOutlineIcon,
-        title: 'Something Went Wrong',
-        message: 'An unexpected error occurred. Please try again.',
+        title: t('errorDisplay.generic.title'),
+        message: t('errorDisplay.generic.message'),
         suggestions: [
-            'Refresh the page',
-            'Clear your browser cache',
-            'Try again in a few minutes',
+            t('errorDisplay.generic.suggestions.refreshPage'),
+            t('errorDisplay.generic.suggestions.clearCache'),
+            t('errorDisplay.generic.suggestions.tryLater'),
         ],
     },
     timeout: {
         icon: WifiOffIcon,
-        title: 'Request Timed Out',
-        message: 'The request took too long. This might be due to slow internet connection.',
+        title: t('errorDisplay.timeout.title'),
+        message: t('errorDisplay.timeout.message'),
         suggestions: [
-            'Check your internet connection speed',
-            'Try again when you have better signal',
-            'Move to an area with stronger WiFi',
+            t('errorDisplay.timeout.suggestions.checkSpeed'),
+            t('errorDisplay.timeout.suggestions.betterSignal'),
+            t('errorDisplay.timeout.suggestions.strongerWifi'),
         ],
     },
-};
+});
 
 /**
  * Main Error Display Component
@@ -277,7 +278,7 @@ export const ErrorDisplay = ({
     message,
     onRetry,
     onSecondaryAction,
-    secondaryActionLabel = 'Go Home',
+    secondaryActionLabel,
     showDetails = false,
     errorDetails,
     retryCount = 0,
@@ -285,9 +286,12 @@ export const ErrorDisplay = ({
     isRetrying = false,
 }) => {
     const classes = useStyles();
+    const { t } = useLocalization();
     const [detailsExpanded, setDetailsExpanded] = useState(false);
 
+    const ERROR_CONFIGS = getErrorConfigs(t);
     const config = ERROR_CONFIGS[type] || ERROR_CONFIGS.generic;
+    const defaultSecondaryLabel = secondaryActionLabel || t('errorDisplay.buttons.goHome');
     const IconComponent = config.icon;
 
     const canRetry = retryCount < maxRetries;
@@ -317,7 +321,7 @@ export const ErrorDisplay = ({
 
                 {retryCount > 0 && canRetry && (
                     <div className={classes.retryCount}>
-                        Retry attempt {retryCount} of {maxRetries}
+                        {t('errorDisplay.retryAttempt').replace('{current}', retryCount).replace('{max}', maxRetries)}
                     </div>
                 )}
 
@@ -329,7 +333,7 @@ export const ErrorDisplay = ({
                             disabled={!canRetry || isRetrying}
                             startIcon={isRetrying ? null : <RefreshIcon />}
                         >
-                            {isRetrying ? 'Retrying...' : canRetry ? 'Try Again' : 'Max Retries Reached'}
+                            {isRetrying ? t('errorDisplay.buttons.retrying') : canRetry ? t('errorDisplay.buttons.tryAgain') : t('errorDisplay.buttons.maxRetries')}
                         </Button>
                     )}
 
@@ -339,7 +343,7 @@ export const ErrorDisplay = ({
                             className={classes.secondaryButton}
                             onClick={onSecondaryAction}
                         >
-                            {secondaryActionLabel}
+                            {defaultSecondaryLabel}
                         </Button>
                     )}
                 </Box>
@@ -350,7 +354,7 @@ export const ErrorDisplay = ({
                             className={classes.detailsToggle}
                             onClick={() => setDetailsExpanded(!detailsExpanded)}
                         >
-                            <span>Technical Details</span>
+                            <span>{t('errorDisplay.technicalDetails')}</span>
                             <IconButton size="small">
                                 <ExpandMoreIcon
                                     className={`${classes.expandIcon} ${detailsExpanded ? classes.expandIconRotated : ''}`}
@@ -377,11 +381,12 @@ export const ErrorDisplay = ({
  */
 export const OfflineBanner = ({ onRetry }) => {
     const classes = useStyles();
+    const { t } = useLocalization();
 
     return (
         <div className={classes.offlineBanner} role="alert">
             <WifiOffIcon className={classes.offlineIcon} />
-            <span>You're offline. Check your connection.</span>
+            <span>{t('errorDisplay.offline.message')}</span>
             {onRetry && (
                 <Button
                     size="small"
@@ -394,7 +399,7 @@ export const OfflineBanner = ({ onRetry }) => {
                     }}
                     variant="outlined"
                 >
-                    Retry
+                    {t('errorDisplay.offline.retry')}
                 </Button>
             )}
         </div>
@@ -406,13 +411,14 @@ export const OfflineBanner = ({ onRetry }) => {
  */
 export const WarningDisplay = ({ title, message, onDismiss }) => {
     const classes = useStyles();
+    const { t } = useLocalization();
 
     return (
         <Box className={classes.errorContainer}>
             <Paper className={classes.errorPaper} elevation={0} style={{ borderColor: 'rgba(245, 158, 11, 0.15)' }}>
                 <WarningIcon className={classes.warningIcon} />
                 <Typography variant="h5" className={classes.errorTitle}>
-                    {title || 'Warning'}
+                    {title || t('errorDisplay.warning.title')}
                 </Typography>
                 <Typography className={classes.errorMessage}>
                     {message}
@@ -423,7 +429,7 @@ export const WarningDisplay = ({ title, message, onDismiss }) => {
                         onClick={onDismiss}
                         style={{ background: 'linear-gradient(135deg, #F59E0B 0%, #D97706 100%)' }}
                     >
-                        Understood
+                        {t('errorDisplay.warning.understood')}
                     </Button>
                 )}
             </Paper>
@@ -434,15 +440,17 @@ export const WarningDisplay = ({ title, message, onDismiss }) => {
 /**
  * Info Display - for informational messages
  */
-export const InfoDisplay = ({ title, message, onAction, actionLabel = 'Continue' }) => {
+export const InfoDisplay = ({ title, message, onAction, actionLabel }) => {
     const classes = useStyles();
+    const { t } = useLocalization();
+    const displayActionLabel = actionLabel || t('errorDisplay.info.continue');
 
     return (
         <Box className={classes.errorContainer}>
             <Paper className={classes.errorPaper} elevation={0} style={{ borderColor: 'rgba(28, 176, 246, 0.15)' }}>
                 <InfoIcon className={classes.infoIcon} />
                 <Typography variant="h5" className={classes.errorTitle}>
-                    {title || 'Information'}
+                    {title || t('errorDisplay.info.title')}
                 </Typography>
                 <Typography className={classes.errorMessage}>
                     {message}
@@ -453,7 +461,7 @@ export const InfoDisplay = ({ title, message, onAction, actionLabel = 'Continue'
                         onClick={onAction}
                         style={{ background: 'linear-gradient(135deg, #1CB0F6 0%, #0891B2 100%)' }}
                     >
-                        {actionLabel}
+                        {displayActionLabel}
                     </Button>
                 )}
             </Paper>

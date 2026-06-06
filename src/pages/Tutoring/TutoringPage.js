@@ -52,6 +52,7 @@ import {
     LocationOn,
 } from '@material-ui/icons';
 import BrandLogoNav from '../../components/BrandLogoNav';
+import { useLocalization } from '../../util/LocalizationContext';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -269,6 +270,44 @@ const TUTORS = [
 const TutoringPage = ({ history }) => {
     const classes = useStyles();
 
+    const localization = useLocalization();
+    const translate = localization?.translate || ((key) => {
+        const fallbacks = {
+            'tutoring.title': 'Tutoring Service',
+            'tutoring.subtitle': 'Connect with qualified tutors',
+            'tutoring.needHelp': 'Need Extra Help?',
+            'tutoring.heroDesc': 'Connect with qualified tutors for personalized learning support. Online and in-person options available.',
+            'tutoring.searchPlaceholder': 'Search tutors by name or subject...',
+            'tutoring.subject': 'Subject',
+            'tutoring.allSubjects': 'All Subjects',
+            'tutoring.grade': 'Grade',
+            'tutoring.allGrades': 'All Grades',
+            'tutoring.grades': 'Grades',
+            'tutoring.reviews': 'reviews',
+            'tutoring.viewProfile': 'View Profile',
+            'tutoring.contact': 'Contact',
+            'tutoring.online': 'Online',
+            'tutoring.inPerson': 'In-Person',
+            'tutoring.free': 'FREE',
+            'tutoring.perHour': '/hour',
+            'tutoring.noTutors': 'No tutors found matching your criteria.',
+            'tutoring.freeCommunity': 'Free Community Tutoring',
+            'tutoring.cantAfford': "Can't afford private tutoring? Join our free community tutoring program where verified university students help high school learners.",
+            'tutoring.freeHomework': 'Free homework help via WhatsApp',
+            'tutoring.weeklyStudy': 'Weekly group study sessions online',
+            'tutoring.examPrep': 'Exam preparation workshops',
+            'tutoring.joinFree': 'Join Free Tutoring Group',
+            'tutoring.qualification': 'Qualification',
+            'tutoring.experience': 'Experience',
+            'tutoring.subjectsGrades': 'Subjects & Grades',
+            'tutoring.availability': 'Availability',
+            'tutoring.location': 'Location',
+            'tutoring.call': 'Call',
+            'tutoring.email': 'Email',
+        };
+        return fallbacks[key] || key.split('.').pop();
+    });
+
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedSubject, setSelectedSubject] = useState('all');
     const [selectedGrade, setSelectedGrade] = useState('all');
@@ -329,7 +368,7 @@ const TutoringPage = ({ history }) => {
                         <div style={{ display: 'flex', alignItems: 'center' }}>
                             <Star style={{ color: '#ffc107', fontSize: 18 }} />
                             <Typography variant="body2" style={{ marginLeft: 4 }}>
-                                {tutor.rating} ({tutor.reviews} reviews)
+                                {tutor.rating} ({tutor.reviews} {translate('tutoring.reviews')})
                             </Typography>
                         </div>
                     </div>
@@ -347,7 +386,7 @@ const TutoringPage = ({ history }) => {
                 </div>
 
                 <Typography variant="body2" color="textSecondary" gutterBottom>
-                    Grades: {tutor.grades.join(', ')}
+                    {translate('tutoring.grades')}: {tutor.grades.join(', ')}
                 </Typography>
 
                 <Typography variant="body2" color="textSecondary" gutterBottom>
@@ -357,13 +396,13 @@ const TutoringPage = ({ history }) => {
 
                 <div style={{ marginTop: 8 }}>
                     {tutor.isCommunity ? (
-                        <Chip label="FREE" className={classes.freeTag} />
+                        <Chip label={translate('tutoring.free')} className={classes.freeTag} />
                     ) : (
                         <Typography className={classes.priceTag}>
-                            R{tutor.rate}/hour
+                            R{tutor.rate}{translate('tutoring.perHour')}
                         </Typography>
                     )}
-                    {tutor.online && <Chip size="small" icon={<VideoCall />} label="Online" style={{ marginLeft: 8 }} />}
+                    {tutor.online && <Chip size="small" icon={<VideoCall />} label={translate('tutoring.online')} style={{ marginLeft: 8 }} />}
                 </div>
             </CardContent>
             <CardActions>
@@ -372,7 +411,7 @@ const TutoringPage = ({ history }) => {
                     color="primary"
                     onClick={() => handleTutorClick(tutor)}
                 >
-                    View Profile
+                    {translate('tutoring.viewProfile')}
                 </Button>
                 <Button
                     size="small"
@@ -381,7 +420,7 @@ const TutoringPage = ({ history }) => {
                     onClick={() => handleContact('whatsapp', tutor.contact.whatsapp)}
                     startIcon={<WhatsApp />}
                 >
-                    Contact
+                    {translate('tutoring.contact')}
                 </Button>
             </CardActions>
         </Card>
@@ -402,10 +441,10 @@ const TutoringPage = ({ history }) => {
                     </IconButton>
                     <div>
                         <Typography variant="h4" className={classes.title}>
-                            Tutoring Service
+                            {translate('tutoring.title')}
                         </Typography>
                         <Typography variant="body1" color="textSecondary">
-                            Connect with qualified tutors
+                            {translate('tutoring.subtitle')}
                         </Typography>
                     </div>
                 </div>
@@ -414,11 +453,10 @@ const TutoringPage = ({ history }) => {
                 <Paper className={classes.heroSection} elevation={0}>
                     <School style={{ fontSize: 60, marginBottom: 16 }} />
                     <Typography variant="h4" gutterBottom>
-                        Need Extra Help?
+                        {translate('tutoring.needHelp')}
                     </Typography>
                     <Typography variant="body1">
-                        Connect with qualified tutors for personalized learning support.
-                        Online and in-person options available.
+                        {translate('tutoring.heroDesc')}
                     </Typography>
                 </Paper>
 
@@ -427,7 +465,7 @@ const TutoringPage = ({ history }) => {
                     <TextField
                         fullWidth
                         variant="outlined"
-                        placeholder="Search tutors by name or subject..."
+                        placeholder={translate('tutoring.searchPlaceholder')}
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
                         InputProps={{
@@ -440,26 +478,26 @@ const TutoringPage = ({ history }) => {
                     />
                     <div className={classes.filtersRow}>
                         <FormControl variant="outlined" className={classes.filterSelect}>
-                            <InputLabel>Subject</InputLabel>
+                            <InputLabel>{translate('tutoring.subject')}</InputLabel>
                             <Select
                                 value={selectedSubject}
                                 onChange={(e) => setSelectedSubject(e.target.value)}
-                                label="Subject"
+                                label={translate('tutoring.subject')}
                             >
-                                <MenuItem value="all">All Subjects</MenuItem>
+                                <MenuItem value="all">{translate('tutoring.allSubjects')}</MenuItem>
                                 <MenuItem value="Mathematics">Mathematics</MenuItem>
                                 <MenuItem value="Physical Sciences">Physical Sciences</MenuItem>
                                 <MenuItem value="Mathematical Literacy">Mathematical Literacy</MenuItem>
                             </Select>
                         </FormControl>
                         <FormControl variant="outlined" className={classes.filterSelect}>
-                            <InputLabel>Grade</InputLabel>
+                            <InputLabel>{translate('tutoring.grade')}</InputLabel>
                             <Select
                                 value={selectedGrade}
                                 onChange={(e) => setSelectedGrade(e.target.value)}
-                                label="Grade"
+                                label={translate('tutoring.grade')}
                             >
-                                <MenuItem value="all">All Grades</MenuItem>
+                                <MenuItem value="all">{translate('tutoring.allGrades')}</MenuItem>
                                 <MenuItem value="8">Grade 8</MenuItem>
                                 <MenuItem value="9">Grade 9</MenuItem>
                                 <MenuItem value="10">Grade 10</MenuItem>
@@ -482,7 +520,7 @@ const TutoringPage = ({ history }) => {
                 {filteredTutors.length === 0 && (
                     <Paper style={{ padding: 32, textAlign: 'center' }}>
                         <Typography color="textSecondary">
-                            No tutors found matching your criteria.
+                            {translate('tutoring.noTutors')}
                         </Typography>
                     </Paper>
                 )}
@@ -492,31 +530,30 @@ const TutoringPage = ({ history }) => {
                     <div className={classes.communitySectionTitle}>
                         <School style={{ color: '#388e3c' }} />
                         <Typography variant="h5">
-                            Free Community Tutoring
+                            {translate('tutoring.freeCommunity')}
                         </Typography>
                     </div>
                     <Typography variant="body1" paragraph>
-                        Can't afford private tutoring? Join our free community tutoring program
-                        where verified university students help high school learners.
+                        {translate('tutoring.cantAfford')}
                     </Typography>
                     <List>
                         <ListItem>
                             <ListItemIcon>
                                 <CheckCircle style={{ color: '#388e3c' }} />
                             </ListItemIcon>
-                            <ListItemText primary="Free homework help via WhatsApp" />
+                            <ListItemText primary={translate('tutoring.freeHomework')} />
                         </ListItem>
                         <ListItem>
                             <ListItemIcon>
                                 <CheckCircle style={{ color: '#388e3c' }} />
                             </ListItemIcon>
-                            <ListItemText primary="Weekly group study sessions online" />
+                            <ListItemText primary={translate('tutoring.weeklyStudy')} />
                         </ListItem>
                         <ListItem>
                             <ListItemIcon>
                                 <CheckCircle style={{ color: '#388e3c' }} />
                             </ListItemIcon>
-                            <ListItemText primary="Exam preparation workshops" />
+                            <ListItemText primary={translate('tutoring.examPrep')} />
                         </ListItem>
                     </List>
                     <Button
@@ -525,7 +562,7 @@ const TutoringPage = ({ history }) => {
                         startIcon={<WhatsApp />}
                         onClick={() => handleContact('whatsapp', '+27600001234')}
                     >
-                        Join Free Tutoring Group
+                        {translate('tutoring.joinFree')}
                     </Button>
                 </Paper>
             </Container>
@@ -573,7 +610,7 @@ const TutoringPage = ({ history }) => {
 
                             <div className={classes.detailSection}>
                                 <Typography variant="subtitle2" color="textSecondary">
-                                    Qualification
+                                    {translate('tutoring.qualification')}
                                 </Typography>
                                 <Typography variant="body1">
                                     {selectedTutor.qualification}
@@ -582,7 +619,7 @@ const TutoringPage = ({ history }) => {
 
                             <div className={classes.detailSection}>
                                 <Typography variant="subtitle2" color="textSecondary">
-                                    Experience
+                                    {translate('tutoring.experience')}
                                 </Typography>
                                 <Typography variant="body1">
                                     {selectedTutor.experience}
@@ -591,7 +628,7 @@ const TutoringPage = ({ history }) => {
 
                             <div className={classes.detailSection}>
                                 <Typography variant="subtitle2" color="textSecondary">
-                                    Subjects & Grades
+                                    {translate('tutoring.subjectsGrades')}
                                 </Typography>
                                 <div className={classes.subjectChips}>
                                     {selectedTutor.subjects.map(subject => (
@@ -599,13 +636,13 @@ const TutoringPage = ({ history }) => {
                                     ))}
                                 </div>
                                 <Typography variant="body2">
-                                    Grades: {selectedTutor.grades.join(', ')}
+                                    {translate('tutoring.grades')}: {selectedTutor.grades.join(', ')}
                                 </Typography>
                             </div>
 
                             <div className={classes.detailSection}>
                                 <Typography variant="subtitle2" color="textSecondary">
-                                    Availability
+                                    {translate('tutoring.availability')}
                                 </Typography>
                                 {selectedTutor.availability.map((slot, i) => (
                                     <Typography key={i} variant="body1">
@@ -617,21 +654,21 @@ const TutoringPage = ({ history }) => {
 
                             <div className={classes.detailSection}>
                                 <Typography variant="subtitle2" color="textSecondary">
-                                    Location
+                                    {translate('tutoring.location')}
                                 </Typography>
                                 <Typography variant="body1">
                                     <LocationOn style={{ fontSize: 16, verticalAlign: 'middle', marginRight: 8 }} />
                                     {selectedTutor.location}
                                 </Typography>
                                 <div style={{ marginTop: 8 }}>
-                                    {selectedTutor.online && <Chip size="small" icon={<VideoCall />} label="Online" style={{ marginRight: 8 }} />}
-                                    {selectedTutor.inPerson && <Chip size="small" icon={<LocationOn />} label="In-Person" />}
+                                    {selectedTutor.online && <Chip size="small" icon={<VideoCall />} label={translate('tutoring.online')} style={{ marginRight: 8 }} />}
+                                    {selectedTutor.inPerson && <Chip size="small" icon={<LocationOn />} label={translate('tutoring.inPerson')} />}
                                 </div>
                             </div>
 
                             <Paper style={{ padding: 16, backgroundColor: '#f5f5f5', textAlign: 'center' }}>
                                 <Typography variant="h5" style={{ color: '#388e3c', fontWeight: 700 }}>
-                                    {selectedTutor.isCommunity ? 'FREE' : `R${selectedTutor.rate}/hour`}
+                                    {selectedTutor.isCommunity ? translate('tutoring.free') : `R${selectedTutor.rate}${translate('tutoring.perHour')}`}
                                 </Typography>
                             </Paper>
                         </DialogContent>
@@ -643,7 +680,7 @@ const TutoringPage = ({ history }) => {
                                     startIcon={<Phone />}
                                     onClick={() => handleContact('phone', selectedTutor.contact.phone)}
                                 >
-                                    Call
+                                    {translate('tutoring.call')}
                                 </Button>
                             )}
                             {selectedTutor.contact.email && (
@@ -653,7 +690,7 @@ const TutoringPage = ({ history }) => {
                                     startIcon={<Email />}
                                     onClick={() => handleContact('email', selectedTutor.contact.email)}
                                 >
-                                    Email
+                                    {translate('tutoring.email')}
                                 </Button>
                             )}
                             {selectedTutor.contact.whatsapp && (

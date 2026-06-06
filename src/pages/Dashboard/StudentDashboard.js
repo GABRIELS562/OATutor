@@ -21,6 +21,7 @@ import {
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
 import { useGamification } from '../../util/GamificationContext';
+import { useLocalization } from '../../util/LocalizationContext';
 import {
     DAILY_GOALS,
     getBadgesByCategory,
@@ -280,6 +281,38 @@ const StudentDashboard = () => {
         updateDailyGoal,
     } = useGamification();
 
+    const localization = useLocalization();
+    const translate = localization?.translate || ((key) => {
+        const fallbacks = {
+            'dashboard.myProgress': 'My Progress',
+            'dashboard.detailedAnalytics': 'Detailed Analytics',
+            'dashboard.viewDetailedAnalytics': 'View Detailed Analytics',
+            'dashboard.trackSkillMastery': 'Track skill mastery, strengths, and areas to improve',
+            'dashboard.viewAnalytics': 'View Analytics',
+            'dashboard.xpToLevel': 'XP to Level',
+            'dashboard.maxLevel': 'Max Level!',
+            'dashboard.dayStreak': 'Day Streak',
+            'dashboard.problemsSolved': 'Problems Solved',
+            'dashboard.badgesEarned': 'Badges Earned',
+            'dashboard.lessonsDone': 'Lessons Done',
+            'dashboard.todaysProgress': "Today's Progress",
+            'dashboard.badges': 'Badges',
+            'dashboard.dailyGoal': 'Daily Goal',
+            'dashboard.todaysActivity': "Today's Activity",
+            'dashboard.xpEarned': 'XP Earned',
+            'dashboard.problemsAttempted': 'Problems Attempted',
+            'dashboard.correctAnswers': 'Correct Answers',
+            'dashboard.dailyGoalProgress': 'Daily Goal Progress',
+            'dashboard.complete': 'Complete!',
+            'dashboard.continueLearning': 'Continue Learning',
+            'dashboard.setDailyGoal': 'Set Your Daily Goal',
+            'dashboard.choosePractice': 'Choose how much you want to practice each day:',
+            'dashboard.selected': 'Selected',
+            'dashboard.earned': 'Earned',
+        };
+        return fallbacks[key] || key.split('.').pop();
+    });
+
     const [activeTab, setActiveTab] = useState(0);
     const levelInfo = getLevelInfo();
     const goalProgress = getDailyGoalProgress();
@@ -301,10 +334,10 @@ const StudentDashboard = () => {
                     <ArrowBackIcon />
                 </IconButton>
                 <Typography variant="h5" className={classes.title}>
-                    My Progress
+                    {translate('dashboard.myProgress')}
                 </Typography>
                 <Box className={classes.headerActions}>
-                    <Tooltip title="Detailed Analytics">
+                    <Tooltip title={translate('dashboard.detailedAnalytics')}>
                         <IconButton
                             component={Link}
                             to="/analytics"
@@ -328,10 +361,10 @@ const StudentDashboard = () => {
                         </Box>
                         <Box>
                             <Typography className={classes.analyticsBannerText}>
-                                View Detailed Analytics
+                                {translate('dashboard.viewDetailedAnalytics')}
                             </Typography>
                             <Typography className={classes.analyticsBannerSubtext}>
-                                Track skill mastery, strengths, and areas to improve
+                                {translate('dashboard.trackSkillMastery')}
                             </Typography>
                         </Box>
                     </Box>
@@ -340,7 +373,7 @@ const StudentDashboard = () => {
                         to="/analytics"
                         className={classes.analyticsViewButton}
                     >
-                        View Analytics
+                        {translate('dashboard.viewAnalytics')}
                     </Button>
                 </Box>
 
@@ -368,8 +401,8 @@ const StudentDashboard = () => {
                                 </Typography>
                                 <Typography style={{ color: 'rgba(255,255,255,0.6)', fontSize: '12px' }}>
                                     {levelInfo.nextLevelXP
-                                        ? `${(levelInfo.nextLevelXP - stats.totalXP).toLocaleString()} XP to Level ${levelInfo.nextLevel}`
-                                        : 'Max Level!'}
+                                        ? `${(levelInfo.nextLevelXP - stats.totalXP).toLocaleString()} ${translate('dashboard.xpToLevel')} ${levelInfo.nextLevel}`
+                                        : translate('dashboard.maxLevel')}
                                 </Typography>
                                 <LinearProgress
                                     variant="determinate"
@@ -394,7 +427,7 @@ const StudentDashboard = () => {
                                             {streakData.currentStreak}
                                         </Typography>
                                         <Typography className={classes.statLabel}>
-                                            Day Streak
+                                            {translate('dashboard.dayStreak')}
                                         </Typography>
                                     </Box>
                                 </Grid>
@@ -405,7 +438,7 @@ const StudentDashboard = () => {
                                             {stats.totalProblemsCorrect}
                                         </Typography>
                                         <Typography className={classes.statLabel}>
-                                            Problems Solved
+                                            {translate('dashboard.problemsSolved')}
                                         </Typography>
                                     </Box>
                                 </Grid>
@@ -416,7 +449,7 @@ const StudentDashboard = () => {
                                             {earnedBadges.length}
                                         </Typography>
                                         <Typography className={classes.statLabel}>
-                                            Badges Earned
+                                            {translate('dashboard.badgesEarned')}
                                         </Typography>
                                     </Box>
                                 </Grid>
@@ -427,7 +460,7 @@ const StudentDashboard = () => {
                                             {stats.lessonsCompleted}
                                         </Typography>
                                         <Typography className={classes.statLabel}>
-                                            Lessons Done
+                                            {translate('dashboard.lessonsDone')}
                                         </Typography>
                                     </Box>
                                 </Grid>
@@ -444,9 +477,9 @@ const StudentDashboard = () => {
                     variant="scrollable"
                     scrollButtons="auto"
                 >
-                    <Tab label="Today's Progress" icon={<TrendingUpIcon />} />
-                    <Tab label="Badges" icon={<EmojiEventsIcon />} />
-                    <Tab label="Daily Goal" icon={<WhatshotIcon />} />
+                    <Tab label={translate('dashboard.todaysProgress')} icon={<TrendingUpIcon />} />
+                    <Tab label={translate('dashboard.badges')} icon={<EmojiEventsIcon />} />
+                    <Tab label={translate('dashboard.dailyGoal')} icon={<WhatshotIcon />} />
                 </Tabs>
 
                 {/* Tab Content */}
@@ -455,7 +488,7 @@ const StudentDashboard = () => {
                         {/* Today's Activity */}
                         <Paper className={classes.activityCard} elevation={0}>
                             <Typography variant="h6" style={{ color: '#fff', marginBottom: '16px', fontWeight: 700 }}>
-                                Today's Activity
+                                {translate('dashboard.todaysActivity')}
                             </Typography>
                             <Grid container spacing={3}>
                                 <Grid item xs={6} sm={3}>
@@ -464,7 +497,7 @@ const StudentDashboard = () => {
                                             {dailyActivity.xpEarned}
                                         </Typography>
                                         <Typography style={{ color: 'rgba(255,255,255,0.7)', fontSize: '12px' }}>
-                                            XP Earned
+                                            {translate('dashboard.xpEarned')}
                                         </Typography>
                                     </Box>
                                 </Grid>
@@ -474,7 +507,7 @@ const StudentDashboard = () => {
                                             {dailyActivity.problemsSolved}
                                         </Typography>
                                         <Typography style={{ color: 'rgba(255,255,255,0.7)', fontSize: '12px' }}>
-                                            Problems Attempted
+                                            {translate('dashboard.problemsAttempted')}
                                         </Typography>
                                     </Box>
                                 </Grid>
@@ -484,7 +517,7 @@ const StudentDashboard = () => {
                                             {dailyActivity.correctAnswers}
                                         </Typography>
                                         <Typography style={{ color: 'rgba(255,255,255,0.7)', fontSize: '12px' }}>
-                                            Correct Answers
+                                            {translate('dashboard.correctAnswers')}
                                         </Typography>
                                     </Box>
                                 </Grid>
@@ -494,7 +527,7 @@ const StudentDashboard = () => {
                                             {Math.round(goalProgress.percent)}%
                                         </Typography>
                                         <Typography style={{ color: 'rgba(255,255,255,0.7)', fontSize: '12px' }}>
-                                            Daily Goal
+                                            {translate('dashboard.dailyGoal')}
                                         </Typography>
                                     </Box>
                                 </Grid>
@@ -504,10 +537,10 @@ const StudentDashboard = () => {
                             <Box mt={3}>
                                 <Box display="flex" justifyContent="space-between" mb={1}>
                                     <Typography style={{ color: 'rgba(255,255,255,0.7)', fontSize: '12px' }}>
-                                        Daily Goal Progress
+                                        {translate('dashboard.dailyGoalProgress')}
                                     </Typography>
                                     <Typography style={{ color: '#fff', fontSize: '12px', fontWeight: 600 }}>
-                                        {goalProgress.isComplete ? '✅ Complete!' : `${Math.round(goalProgress.percent)}%`}
+                                        {goalProgress.isComplete ? `✅ ${translate('dashboard.complete')}` : `${Math.round(goalProgress.percent)}%`}
                                     </Typography>
                                 </Box>
                                 <LinearProgress
@@ -538,7 +571,7 @@ const StudentDashboard = () => {
                                     boxShadow: '0 4px 0 0 #58A700',
                                 }}
                             >
-                                Continue Learning
+                                {translate('dashboard.continueLearning')}
                             </Button>
                             <Button
                                 component={Link}
@@ -554,7 +587,7 @@ const StudentDashboard = () => {
                                     borderRadius: '16px',
                                 }}
                             >
-                                View Analytics
+                                {translate('dashboard.viewAnalytics')}
                             </Button>
                         </Box>
                     </Box>
@@ -597,7 +630,7 @@ const StudentDashboard = () => {
                                                     </Typography>
                                                     {isEarned && (
                                                         <Chip
-                                                            label="Earned"
+                                                            label={translate('dashboard.earned')}
                                                             size="small"
                                                             style={{
                                                                 marginTop: '8px',
@@ -621,10 +654,10 @@ const StudentDashboard = () => {
                 {activeTab === 2 && (
                     <Paper className={classes.goalCard} elevation={0}>
                         <Typography variant="h6" style={{ color: '#fff', marginBottom: '16px', fontWeight: 700 }}>
-                            Set Your Daily Goal
+                            {translate('dashboard.setDailyGoal')}
                         </Typography>
                         <Typography style={{ color: 'rgba(255,255,255,0.7)', marginBottom: '24px' }}>
-                            Choose how much you want to practice each day:
+                            {translate('dashboard.choosePractice')}
                         </Typography>
 
                         {DAILY_GOALS.OPTIONS.map((goal) => (
@@ -644,7 +677,7 @@ const StudentDashboard = () => {
                                     </Box>
                                     {dailyGoal === goal.id && (
                                         <Chip
-                                            label="Selected"
+                                            label={translate('dashboard.selected')}
                                             size="small"
                                             style={{
                                                 background: '#58CC02',

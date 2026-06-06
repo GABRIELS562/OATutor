@@ -148,7 +148,7 @@ class BusinessLinksDrawer extends React.Component {
                     <IconButton
                         className={classes.closeButton}
                         onClick={onClose}
-                        aria-label="Close menu"
+                        aria-label={translate('businessLinks.closeMenu')}
                     >
                         <CloseIcon />
                     </IconButton>

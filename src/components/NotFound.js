@@ -3,9 +3,20 @@ import { Button, Container, Typography, Box } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 import HomeIcon from "@material-ui/icons/Home";
 import { SITE_NAME } from "../config/config";
+import { useLocalization } from "../util/LocalizationContext";
 
 const NotFound = () => {
     const history = useHistory();
+    const localization = useLocalization();
+    const translate = localization?.translate || ((key) => {
+        const fallbacks = {
+            'notFound.errorCode': '404',
+            'notFound.title': 'Page Not Found',
+            'notFound.description': "Oops! The page you're looking for doesn't exist. Let's get you back to learning with",
+            'notFound.backToHome': 'Back to Home',
+        };
+        return fallbacks[key] || key;
+    });
 
     const containerStyle = {
         minHeight: '100vh',
@@ -63,14 +74,13 @@ const NotFound = () => {
             <Container maxWidth="sm">
                 <Box style={contentStyle}>
                     <Typography style={errorCodeStyle}>
-                        404
+                        {translate('notFound.errorCode')}
                     </Typography>
                     <Typography style={titleStyle}>
-                        Page Not Found
+                        {translate('notFound.title')}
                     </Typography>
                     <Typography style={descriptionStyle}>
-                        Oops! The page you're looking for doesn't exist.
-                        Let's get you back to learning with {SITE_NAME}.
+                        {translate('notFound.description')} {SITE_NAME}.
                     </Typography>
                     <Button
                         variant="contained"
@@ -86,7 +96,7 @@ const NotFound = () => {
                             e.currentTarget.style.boxShadow = '0 4px 0 0 #58A700';
                         }}
                     >
-                        Back to Home
+                        {translate('notFound.backToHome')}
                     </Button>
                 </Box>
             </Container>

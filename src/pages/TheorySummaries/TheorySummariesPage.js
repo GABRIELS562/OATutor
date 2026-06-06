@@ -51,6 +51,7 @@ import {
     Star,
 } from '@material-ui/icons';
 import BrandLogoNav from '../../components/BrandLogoNav';
+import { useLocalization } from '../../util/LocalizationContext';
 import {
     THEORY_CATEGORIES,
     THEORY_SUMMARIES,
@@ -174,6 +175,29 @@ const useStyles = makeStyles((theme) => ({
 const TheorySummariesPage = ({ history }) => {
     const classes = useStyles();
 
+    const localization = useLocalization();
+    const translate = localization?.translate || ((key) => {
+        const fallbacks = {
+            'theory.title': 'Theory Summaries',
+            'theory.subtitle': 'CAPS Mathematics Notes & Formulas',
+            'theory.searchPlaceholder': 'Search topics, formulas...',
+            'theory.grade': 'Grade',
+            'theory.allGrades': 'All Grades',
+            'theory.topics': 'topics',
+            'theory.gradeTopics': 'Topics',
+            'theory.searchResults': 'Search Results',
+            'theory.viewSummary': 'View Summary',
+            'theory.noResults': 'No summaries found matching your search.',
+            'theory.keyPoints': 'Key Points',
+            'theory.importantFormulas': 'Important Formulas',
+            'theory.examTips': 'Exam Tips',
+            'theory.tip': 'Tip',
+            'theory.practiceQuiz': 'Practice Quiz',
+            'common.close': 'Close',
+        };
+        return fallbacks[key] || key.split('.').pop();
+    });
+
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedCategory, setSelectedCategory] = useState('all');
     const [selectedGrade, setSelectedGrade] = useState('all');
@@ -238,10 +262,10 @@ const TheorySummariesPage = ({ history }) => {
                     </IconButton>
                     <div>
                         <Typography variant="h4" className={classes.title}>
-                            Theory Summaries
+                            {translate('theory.title')}
                         </Typography>
                         <Typography variant="body1" color="textSecondary">
-                            CAPS Mathematics Notes & Formulas
+                            {translate('theory.subtitle')}
                         </Typography>
                     </div>
                 </div>
@@ -250,7 +274,7 @@ const TheorySummariesPage = ({ history }) => {
                 <div className={classes.filtersRow}>
                     <TextField
                         variant="outlined"
-                        placeholder="Search topics, formulas..."
+                        placeholder={translate('theory.searchPlaceholder')}
                         value={searchQuery}
                         onChange={(e) => {
                             setSearchQuery(e.target.value);
@@ -267,7 +291,7 @@ const TheorySummariesPage = ({ history }) => {
                         }}
                     />
                     <FormControl variant="outlined" className={classes.filterSelect}>
-                        <InputLabel>Grade</InputLabel>
+                        <InputLabel>{translate('theory.grade')}</InputLabel>
                         <Select
                             value={selectedGrade}
                             onChange={(e) => {
@@ -275,12 +299,12 @@ const TheorySummariesPage = ({ history }) => {
                                 setSelectedCategory('all');
                                 setSearchQuery('');
                             }}
-                            label="Grade"
+                            label={translate('theory.grade')}
                         >
-                            <MenuItem value="all">All Grades</MenuItem>
-                            <MenuItem value="10">Grade 10</MenuItem>
-                            <MenuItem value="11">Grade 11</MenuItem>
-                            <MenuItem value="12">Grade 12</MenuItem>
+                            <MenuItem value="all">{translate('theory.allGrades')}</MenuItem>
+                            <MenuItem value="10">{translate('grades.grade10') || 'Grade 10'}</MenuItem>
+                            <MenuItem value="11">{translate('grades.grade11') || 'Grade 11'}</MenuItem>
+                            <MenuItem value="12">{translate('grades.grade12') || 'Grade 12'}</MenuItem>
                         </Select>
                     </FormControl>
                 </div>
@@ -302,7 +326,7 @@ const TheorySummariesPage = ({ history }) => {
                                         {category.name}
                                     </Typography>
                                     <Typography variant="body2" color="textSecondary">
-                                        {getSummariesByCategory(category.id).length} topics
+                                        {getSummariesByCategory(category.id).length} {translate('theory.topics')}
                                     </Typography>
                                 </Card>
                             </Grid>
@@ -317,8 +341,8 @@ const TheorySummariesPage = ({ history }) => {
                             {selectedCategory !== 'all'
                                 ? THEORY_CATEGORIES.find(c => c.id === selectedCategory)?.name
                                 : selectedGrade !== 'all'
-                                    ? `Grade ${selectedGrade} Topics`
-                                    : `Search Results (${displayedSummaries.length})`
+                                    ? `${translate('theory.grade')} ${selectedGrade} ${translate('theory.gradeTopics')}`
+                                    : `${translate('theory.searchResults')} (${displayedSummaries.length})`
                             }
                         </Typography>
                         <Grid container spacing={3}>
@@ -355,7 +379,7 @@ const TheorySummariesPage = ({ history }) => {
                                                 color="primary"
                                                 onClick={() => handleSummaryClick(summary)}
                                             >
-                                                View Summary
+                                                {translate('theory.viewSummary')}
                                             </Button>
                                         </CardActions>
                                     </Card>
@@ -366,7 +390,7 @@ const TheorySummariesPage = ({ history }) => {
                         {displayedSummaries.length === 0 && (
                             <Paper style={{ padding: 32, textAlign: 'center' }}>
                                 <Typography color="textSecondary">
-                                    No summaries found matching your search.
+                                    {translate('theory.noResults')}
                                 </Typography>
                             </Paper>
                         )}
@@ -408,7 +432,7 @@ const TheorySummariesPage = ({ history }) => {
                             {/* Key Points */}
                             <Typography className={classes.sectionTitle}>
                                 <CheckCircle style={{ color: '#4caf50' }} />
-                                Key Points
+                                {translate('theory.keyPoints')}
                             </Typography>
                             <List dense>
                                 {selectedSummary.keyPoints.map((point, i) => (
@@ -428,7 +452,7 @@ const TheorySummariesPage = ({ history }) => {
                                 <>
                                     <Typography className={classes.sectionTitle}>
                                         <Functions style={{ color: '#58CC02' }} />
-                                        Important Formulas
+                                        {translate('theory.importantFormulas')}
                                     </Typography>
                                     {selectedSummary.formulas.map((formula, i) => (
                                         <div key={i} className={classes.formulaCard}>
@@ -450,12 +474,12 @@ const TheorySummariesPage = ({ history }) => {
                                 <>
                                     <Typography className={classes.sectionTitle}>
                                         <EmojiObjects style={{ color: '#ffa000' }} />
-                                        Exam Tips
+                                        {translate('theory.examTips')}
                                     </Typography>
                                     {selectedSummary.tips.map((tip, i) => (
                                         <div key={i} className={classes.tipItem}>
                                             <Typography variant="body2">
-                                                <strong>Tip {i + 1}:</strong> {tip}
+                                                <strong>{translate('theory.tip')} {i + 1}:</strong> {tip}
                                             </Typography>
                                         </div>
                                     ))}
@@ -464,7 +488,7 @@ const TheorySummariesPage = ({ history }) => {
                         </DialogContent>
                         <DialogActions>
                             <Button onClick={() => setDialogOpen(false)}>
-                                Close
+                                {translate('common.close')}
                             </Button>
                             <Button
                                 color="primary"
@@ -474,7 +498,7 @@ const TheorySummariesPage = ({ history }) => {
                                     history.push('/quiz');
                                 }}
                             >
-                                Practice Quiz
+                                {translate('theory.practiceQuiz')}
                             </Button>
                         </DialogActions>
                     </>

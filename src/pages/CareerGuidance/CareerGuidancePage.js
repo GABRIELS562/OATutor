@@ -41,6 +41,7 @@ import {
     Bookmark,
 } from '@material-ui/icons';
 import BrandLogoNav from '../../components/BrandLogoNav';
+import { useLocalization } from '../../util/LocalizationContext';
 import {
     CAREER_FIELDS,
     getCareersByField,
@@ -131,6 +132,30 @@ const useStyles = makeStyles((theme) => ({
 const CareerGuidancePage = ({ history }) => {
     const classes = useStyles();
 
+    const localization = useLocalization();
+    const translate = localization?.translate || ((key) => {
+        const fallbacks = {
+            'careers.title': 'Career Guidance',
+            'careers.subtitle': 'Explore careers that use Mathematics',
+            'careers.searchPlaceholder': 'Search careers, skills, or fields...',
+            'careers.careersCount': 'careers',
+            'careers.found': 'Found',
+            'careers.careerResults': 'career(s)',
+            'careers.noResults': 'No careers found matching your search.',
+            'careers.requirements': 'Requirements',
+            'careers.mathematics': 'Mathematics',
+            'careers.otherSubjects': 'Other Subjects',
+            'careers.qualification': 'Qualification',
+            'careers.salaryOutlook': 'Salary & Outlook',
+            'careers.growth': 'Growth',
+            'careers.whereToStudy': 'Where to Study',
+            'careers.keySkills': 'Key Skills',
+            'careers.findBursaries': 'Find Bursaries',
+            'common.close': 'Close',
+        };
+        return fallbacks[key] || key.split('.').pop();
+    });
+
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedField, setSelectedField] = useState(null);
     const [selectedCareer, setSelectedCareer] = useState(null);
@@ -172,10 +197,10 @@ const CareerGuidancePage = ({ history }) => {
                     </IconButton>
                     <div>
                         <Typography variant="h4" className={classes.title}>
-                            Career Guidance
+                            {translate('careers.title')}
                         </Typography>
                         <Typography variant="body1" className={classes.subtitle}>
-                            Explore careers that use Mathematics
+                            {translate('careers.subtitle')}
                         </Typography>
                     </div>
                 </div>
@@ -184,7 +209,7 @@ const CareerGuidancePage = ({ history }) => {
                 <TextField
                     fullWidth
                     variant="outlined"
-                    placeholder="Search careers, skills, or fields..."
+                    placeholder={translate('careers.searchPlaceholder')}
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     className={classes.searchBar}
@@ -215,7 +240,7 @@ const CareerGuidancePage = ({ history }) => {
                                             {field.name}
                                         </Typography>
                                         <Typography variant="body2" color="textSecondary">
-                                            {getCareersByField(field.id).length} careers
+                                            {getCareersByField(field.id).length} {translate('careers.careersCount')}
                                         </Typography>
                                     </CardContent>
                                 </Card>
@@ -235,7 +260,7 @@ const CareerGuidancePage = ({ history }) => {
 
                         {searchQuery && (
                             <Typography variant="body2" color="textSecondary" gutterBottom>
-                                Found {displayedCareers.length} career(s)
+                                {translate('careers.found')} {displayedCareers.length} {translate('careers.careerResults')}
                             </Typography>
                         )}
 
@@ -276,7 +301,7 @@ const CareerGuidancePage = ({ history }) => {
                         {displayedCareers.length === 0 && (
                             <Paper style={{ padding: 32, textAlign: 'center' }}>
                                 <Typography color="textSecondary">
-                                    No careers found matching your search.
+                                    {translate('careers.noResults')}
                                 </Typography>
                             </Paper>
                         )}
@@ -305,24 +330,24 @@ const CareerGuidancePage = ({ history }) => {
 
                             <div className={classes.detailSection}>
                                 <Typography className={classes.detailTitle}>
-                                    <School /> Requirements
+                                    <School /> {translate('careers.requirements')}
                                 </Typography>
                                 <List dense>
                                     <ListItem>
                                         <ListItemText
-                                            primary="Mathematics"
+                                            primary={translate('careers.mathematics')}
                                             secondary={selectedCareer.mathsRequired}
                                         />
                                     </ListItem>
                                     <ListItem>
                                         <ListItemText
-                                            primary="Other Subjects"
+                                            primary={translate('careers.otherSubjects')}
                                             secondary={selectedCareer.otherSubjects?.join(', ')}
                                         />
                                     </ListItem>
                                     <ListItem>
                                         <ListItemText
-                                            primary="Qualification"
+                                            primary={translate('careers.qualification')}
                                             secondary={selectedCareer.qualification}
                                         />
                                     </ListItem>
@@ -333,19 +358,19 @@ const CareerGuidancePage = ({ history }) => {
 
                             <div className={classes.detailSection} style={{ marginTop: 16 }}>
                                 <Typography className={classes.detailTitle}>
-                                    <AttachMoney /> Salary & Outlook
+                                    <AttachMoney /> {translate('careers.salaryOutlook')}
                                 </Typography>
                                 <Typography variant="body1">
                                     {formatSalaryRange(selectedCareer.salaryRange)}
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary">
-                                    Growth: {selectedCareer.growthOutlook}
+                                    {translate('careers.growth')}: {selectedCareer.growthOutlook}
                                 </Typography>
                             </div>
 
                             <div className={classes.detailSection}>
                                 <Typography className={classes.detailTitle}>
-                                    <School /> Where to Study
+                                    <School /> {translate('careers.whereToStudy')}
                                 </Typography>
                                 {selectedCareer.universities?.map((uni) => (
                                     <Chip
@@ -359,7 +384,7 @@ const CareerGuidancePage = ({ history }) => {
 
                             <div className={classes.detailSection}>
                                 <Typography className={classes.detailTitle}>
-                                    <CheckCircle /> Key Skills
+                                    <CheckCircle /> {translate('careers.keySkills')}
                                 </Typography>
                                 {selectedCareer.skills?.map((skill) => (
                                     <Chip
@@ -374,7 +399,7 @@ const CareerGuidancePage = ({ history }) => {
                         </DialogContent>
                         <DialogActions>
                             <Button onClick={() => setDialogOpen(false)}>
-                                Close
+                                {translate('common.close')}
                             </Button>
                             <Button
                                 color="primary"
@@ -382,7 +407,7 @@ const CareerGuidancePage = ({ history }) => {
                                 onClick={() => history.push('/bursaries')}
                                 startIcon={<Bookmark />}
                             >
-                                Find Bursaries
+                                {translate('careers.findBursaries')}
                             </Button>
                         </DialogActions>
                     </>

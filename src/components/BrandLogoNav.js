@@ -2,6 +2,7 @@ import React, { useContext, useState, useEffect } from "react";
 import { ThemeContext } from "../config/config";
 import { useHistory } from "react-router-dom";
 import { makeStyles } from "@material-ui/core";
+import { useLocalization } from "../util/LocalizationContext";
 
 const useStyles = makeStyles((theme) => ({
     "siteNavLink": {
@@ -176,6 +177,7 @@ function BrandLogoNav({ isPrivileged = false, noLink = false, compact = false })
     const history = useHistory();
     const classes = useStyles();
     const isDarkMode = context?.prefersDarkMode;
+    const { t } = useLocalization();
 
     // Track if on mobile for additional adjustments
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 480);
@@ -208,10 +210,10 @@ function BrandLogoNav({ isPrivileged = false, noLink = false, compact = false })
             {!compact && (
                 <div className={classes.brandText}>
                     <span className={classes.brandName}>
-                        <span className={classes.brandNameAccent}>tutor</span>
+                        <span className={classes.brandNameAccent}>{t('brand.name')}</span>
                     </span>
                     <span className={classes.brandTagline}>
-                        Grade 10-12 | Maths & Science
+                        {t('brand.tagline')}
                     </span>
                 </div>
             )}
@@ -223,7 +225,7 @@ function BrandLogoNav({ isPrivileged = false, noLink = false, compact = false })
     return (
         <>
             {noLink || (context.jwt.length !== 0 && !isPrivileged)
-                ? <div className={containerClass} aria-label="Angelo Tutoring">
+                ? <div className={containerClass} aria-label={t('ariaLabels.brandLogo')}>
                     <BrandContent />
                 </div>
                 : <div
@@ -232,7 +234,7 @@ function BrandLogoNav({ isPrivileged = false, noLink = false, compact = false })
                     onClick={navigateLink}
                     onKeyDown={navigateLink}
                     className={containerClass}
-                    aria-label="Go to Angelo Tutoring home"
+                    aria-label={t('ariaLabels.goToHome')}
                     style={{ cursor: 'pointer' }}
                 >
                     <BrandContent />

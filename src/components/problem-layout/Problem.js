@@ -18,7 +18,6 @@ import { NavLink } from "react-router-dom";
 import HelpOutlineOutlinedIcon from "@material-ui/icons/HelpOutlineOutlined";
 import FeedbackOutlinedIcon from "@material-ui/icons/FeedbackOutlined";
 import withTranslation from "../../util/withTranslation.js"
-
 import {
     CANVAS_WARNING_STORAGE_KEY,
     MIDDLEWARE_URL,
@@ -34,6 +33,17 @@ import { stagingProp } from "../../util/addStagingProperty";
 import { cleanArray } from "../../util/cleanObject";
 import Popup from '../Popup/Popup.js';
 import About from '../../pages/Posts/About.js';
+
+// Helper function to get translated problem content
+const getTranslatedProblemContent = (translate, problemId, field, fallback) => {
+    const key = `problemContent.${problemId}.${field}`;
+    const translated = translate(key);
+    // If translate returns the key itself, it means no translation exists
+    if (translated === key || !translated) {
+        return fallback;
+    }
+    return translated;
+};
 
 class Problem extends React.Component {
     static defaultProps = {
@@ -453,7 +463,7 @@ class Problem extends React.Component {
                             >
                                 <h1 className={classes.problemHeader}>
                                     {renderText(
-                                        problem.title,
+                                        getTranslatedProblemContent(translate, problem.id, 'title', problem.title),
                                         problem.id,
                                         chooseVariables(
                                             problem.variabilization,
@@ -465,7 +475,7 @@ class Problem extends React.Component {
                                 </h1>
                                 <div className={classes.problemBody}>
                                     {renderText(
-                                        problem.body,
+                                        getTranslatedProblemContent(translate, problem.id, 'body', problem.body),
                                         problem.id,
                                         chooseVariables(
                                             problem.variabilization,

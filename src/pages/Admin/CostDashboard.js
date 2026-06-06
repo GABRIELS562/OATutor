@@ -34,6 +34,7 @@ import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 import ReportProblemIcon from '@material-ui/icons/ReportProblem';
 
 import db from '../../database/DatabaseService';
+import { useLocalization } from '../../util/LocalizationContext';
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -96,6 +97,7 @@ const useStyles = makeStyles((theme) => ({
 
 function CostDashboard({ userId }) {
     const classes = useStyles();
+    const { t } = useLocalization();
 
     const [loading, setLoading] = useState(true);
     const [isAdmin, setIsAdmin] = useState(false);
@@ -153,10 +155,10 @@ function CostDashboard({ userId }) {
         return (
             <Box className={classes.container}>
                 <Typography variant="h5" color="error">
-                    Access Denied
+                    {t('adminLogin.accessDenied')}
                 </Typography>
                 <Typography color="textSecondary">
-                    You do not have permission to view this page.
+                    {t('adminLogin.noPermission')}
                 </Typography>
             </Box>
         );
@@ -165,7 +167,7 @@ function CostDashboard({ userId }) {
     if (!data) {
         return (
             <Box className={classes.container}>
-                <Typography>No data available</Typography>
+                <Typography>{t('adminLogin.noData')}</Typography>
             </Box>
         );
     }
@@ -182,17 +184,17 @@ function CostDashboard({ userId }) {
             {/* Header */}
             <Box className={classes.header}>
                 <Box>
-                    <Typography variant="h4">Cost Dashboard</Typography>
+                    <Typography variant="h4">{t('costDashboard.title')}</Typography>
                     <Typography color="textSecondary">
-                        Unit economics at a glance
+                        {t('costDashboard.subtitle')}
                     </Typography>
                 </Box>
                 <FormControl variant="outlined" size="small" style={{ minWidth: 150 }}>
-                    <InputLabel>Period</InputLabel>
+                    <InputLabel>{t('costDashboard.period')}</InputLabel>
                     <Select
                         value={billingPeriod}
                         onChange={(e) => setBillingPeriod(e.target.value)}
-                        label="Period"
+                        label={t('costDashboard.period')}
                     >
                         {availablePeriods.map((period) => (
                             <MenuItem key={period} value={period}>
@@ -210,7 +212,7 @@ function CostDashboard({ userId }) {
                         <CardContent className={classes.cardContent}>
                             <PeopleIcon className={classes.cardIcon} />
                             <Typography className={classes.metricLabel}>
-                                Active Subscribers
+                                {t('costDashboard.activeSubscribers')}
                             </Typography>
                             <Typography className={classes.metricValue}>
                                 {data.subscriptions.active_subscribers}
@@ -224,7 +226,7 @@ function CostDashboard({ userId }) {
                         <CardContent className={classes.cardContent}>
                             <ChatIcon className={classes.cardIcon} />
                             <Typography className={classes.metricLabel}>
-                                AI Messages
+                                {t('costDashboard.aiMessages')}
                             </Typography>
                             <Typography className={classes.metricValue}>
                                 {data.ai.total_messages.toLocaleString()}
@@ -238,7 +240,7 @@ function CostDashboard({ userId }) {
                         <CardContent className={classes.cardContent}>
                             <AttachMoneyIcon className={classes.cardIcon} />
                             <Typography className={classes.metricLabel}>
-                                AI Cost (est.)
+                                {t('costDashboard.aiCostEst')}
                             </Typography>
                             <Typography className={classes.metricValue}>
                                 R{usdToZar(data.ai.total_cost_usd)}
@@ -255,13 +257,13 @@ function CostDashboard({ userId }) {
                         <CardContent className={classes.cardContent}>
                             <TrendingUpIcon className={classes.cardIcon} />
                             <Typography className={classes.metricLabel}>
-                                Revenue
+                                {t('costDashboard.revenue')}
                             </Typography>
                             <Typography className={classes.metricValue}>
                                 R{revenueZar.toLocaleString()}
                             </Typography>
                             <Typography variant="caption" color="textSecondary">
-                                {data.payments.total_payments} payments
+                                {data.payments.total_payments} {t('costDashboard.payments')}
                             </Typography>
                         </CardContent>
                     </Card>
@@ -271,7 +273,7 @@ function CostDashboard({ userId }) {
             {/* Unit Economics Summary */}
             <Paper className={classes.unitEconomics}>
                 <Typography variant="h6" gutterBottom>
-                    Unit Economics Summary
+                    {t('costDashboard.unitEconomicsSummary')}
                 </Typography>
                 <Grid container spacing={3}>
                     <Grid item xs={12} md={6}>
@@ -279,15 +281,15 @@ function CostDashboard({ userId }) {
                             <Table size="small">
                                 <TableBody>
                                     <TableRow>
-                                        <TableCell>Revenue</TableCell>
+                                        <TableCell>{t('costDashboard.revenue')}</TableCell>
                                         <TableCell align="right">R{revenueZar.toLocaleString()}</TableCell>
                                     </TableRow>
                                     <TableRow>
-                                        <TableCell>AI Costs</TableCell>
+                                        <TableCell>{t('costDashboard.aiCosts')}</TableCell>
                                         <TableCell align="right">-R{costZar}</TableCell>
                                     </TableRow>
                                     <TableRow>
-                                        <TableCell><strong>Gross Profit</strong></TableCell>
+                                        <TableCell><strong>{t('costDashboard.grossProfit')}</strong></TableCell>
                                         <TableCell
                                             align="right"
                                             className={profit >= 0 ? classes.profitPositive : classes.profitNegative}
@@ -296,7 +298,7 @@ function CostDashboard({ userId }) {
                                         </TableCell>
                                     </TableRow>
                                     <TableRow>
-                                        <TableCell>Profit Margin</TableCell>
+                                        <TableCell>{t('costDashboard.profitMargin')}</TableCell>
                                         <TableCell
                                             align="right"
                                             className={profit >= 0 ? classes.profitPositive : classes.profitNegative}
@@ -313,11 +315,11 @@ function CostDashboard({ userId }) {
                             <Table size="small">
                                 <TableBody>
                                     <TableRow>
-                                        <TableCell>Avg Cost per Subscriber</TableCell>
+                                        <TableCell>{t('costDashboard.avgCostPerSubscriber')}</TableCell>
                                         <TableCell align="right">R{avgCostPerSubZar}</TableCell>
                                     </TableRow>
                                     <TableRow>
-                                        <TableCell>Avg Revenue per Subscriber</TableCell>
+                                        <TableCell>{t('costDashboard.avgRevenuePerSubscriber')}</TableCell>
                                         <TableCell align="right">
                                             R{data.subscriptions.active_subscribers > 0
                                                 ? (revenueZar / data.subscriptions.active_subscribers).toFixed(2)
@@ -325,7 +327,7 @@ function CostDashboard({ userId }) {
                                         </TableCell>
                                     </TableRow>
                                     <TableRow>
-                                        <TableCell>Messages per Subscriber</TableCell>
+                                        <TableCell>{t('costDashboard.messagesPerSubscriber')}</TableCell>
                                         <TableCell align="right">
                                             {data.subscriptions.active_subscribers > 0
                                                 ? (data.ai.total_messages / data.subscriptions.active_subscribers).toFixed(1)
@@ -333,7 +335,7 @@ function CostDashboard({ userId }) {
                                         </TableCell>
                                     </TableRow>
                                     <TableRow>
-                                        <TableCell>Cost per Message</TableCell>
+                                        <TableCell>{t('costDashboard.costPerMessage')}</TableCell>
                                         <TableCell align="right">
                                             R{data.ai.total_messages > 0
                                                 ? (costZar / data.ai.total_messages).toFixed(4)
@@ -349,22 +351,22 @@ function CostDashboard({ userId }) {
 
             {/* AI Usage Details */}
             <Typography variant="h6" className={classes.sectionTitle}>
-                AI Usage Details
+                {t('costDashboard.aiUsageDetails')}
             </Typography>
             <Grid container spacing={3}>
                 <Grid item xs={12} md={6}>
                     <Card>
                         <CardContent>
                             <Typography variant="subtitle2" color="textSecondary">
-                                Token Usage
+                                {t('costDashboard.tokenUsage')}
                             </Typography>
                             <Divider style={{ margin: '8px 0' }} />
                             <Box display="flex" justifyContent="space-between" mb={1}>
-                                <Typography>Input Tokens</Typography>
+                                <Typography>{t('costDashboard.inputTokens')}</Typography>
                                 <Typography>{data.ai.total_input_tokens.toLocaleString()}</Typography>
                             </Box>
                             <Box display="flex" justifyContent="space-between">
-                                <Typography>Output Tokens</Typography>
+                                <Typography>{t('costDashboard.outputTokens')}</Typography>
                                 <Typography>{data.ai.total_output_tokens.toLocaleString()}</Typography>
                             </Box>
                         </CardContent>
@@ -374,20 +376,20 @@ function CostDashboard({ userId }) {
                     <Card>
                         <CardContent>
                             <Typography variant="subtitle2" color="textSecondary">
-                                User Feedback
+                                {t('costDashboard.userFeedback')}
                             </Typography>
                             <Divider style={{ margin: '8px 0' }} />
                             <Box display="flex" justifyContent="space-between" mb={1}>
                                 <Box display="flex" alignItems="center" gap={1}>
                                     <ThumbUpIcon fontSize="small" color="primary" />
-                                    <Typography>Helpful</Typography>
+                                    <Typography>{t('costDashboard.helpful')}</Typography>
                                 </Box>
                                 <Typography>{data.feedback.helpful_count}</Typography>
                             </Box>
                             <Box display="flex" justifyContent="space-between">
                                 <Box display="flex" alignItems="center" gap={1}>
                                     <ReportProblemIcon fontSize="small" color="error" />
-                                    <Typography>Error Reports</Typography>
+                                    <Typography>{t('costDashboard.errorReports')}</Typography>
                                 </Box>
                                 <Typography>{data.feedback.error_reports}</Typography>
                             </Box>

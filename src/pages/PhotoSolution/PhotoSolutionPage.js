@@ -38,6 +38,7 @@ import {
     HelpOutline,
 } from '@material-ui/icons';
 import BrandLogoNav from '../../components/BrandLogoNav';
+import { useLocalization } from '../../util/LocalizationContext';
 import CameraCapture from '../../components/photo-solution/CameraCapture';
 import PhotoUpload from '../../components/photo-solution/PhotoUpload';
 import SolutionDisplay from '../../components/photo-solution/SolutionDisplay';
@@ -185,10 +186,43 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const STEPS = ['Capture Image', 'Extract Math', 'Generate Solution'];
-
 const PhotoSolutionPage = ({ history }) => {
     const classes = useStyles();
+
+    const localization = useLocalization();
+    const translate = localization?.translate || ((key) => {
+        const fallbacks = {
+            'photoSolve.title': 'Solve with Photo',
+            'photoSolve.camera': 'Camera',
+            'photoSolve.upload': 'Upload',
+            'photoSolve.captureImage': 'Capture Image',
+            'photoSolve.extractMath': 'Extract Math',
+            'photoSolve.generateSolution': 'Generate Solution',
+            'photoSolve.extractedContent': 'Extracted Content',
+            'photoSolve.topic': 'Topic',
+            'photoSolve.tryAgain': 'Try Again',
+            'photoSolve.newPhoto': 'New Photo',
+            'photoSolve.solving': 'Solving...',
+            'photoSolve.solveAnother': 'Solve Another Problem',
+            'photoSolve.helpTitle': 'How to Use Photo Solver',
+            'photoSolve.step1Title': '1. Capture or Upload',
+            'photoSolve.step1Desc': 'Take a photo of your maths problem or upload an image from your device.',
+            'photoSolve.step2Title': '2. AI Extraction',
+            'photoSolve.step2Desc': 'Our AI will read the problem and extract the mathematical content.',
+            'photoSolve.step3Title': '3. Step-by-Step Solution',
+            'photoSolve.step3Desc': 'Get a detailed solution with explanations, working, and exam tips.',
+            'photoSolve.tipsTitle': 'Tips for best results:',
+            'photoSolve.tip1': 'Ensure good lighting',
+            'photoSolve.tip2': 'Keep the problem in focus',
+            'photoSolve.tip3': 'Include all parts of the question',
+            'photoSolve.tip4': 'Avoid glare or shadows',
+            'photoSolve.gotIt': 'Got It',
+            'photoSolve.apiWarning': 'AI features require API keys. Add REACT_APP_GEMINI_API_KEY and/or REACT_APP_GROQ_API_KEY to your environment.',
+        };
+        return fallbacks[key] || key.split('.').pop();
+    });
+
+    const STEPS = [translate('photoSolve.captureImage'), translate('photoSolve.extractMath'), translate('photoSolve.generateSolution')];
 
     // State
     const [tabValue, setTabValue] = useState(0);
@@ -327,7 +361,7 @@ const PhotoSolutionPage = ({ history }) => {
                         <ArrowBack />
                     </IconButton>
                     <Typography variant="h5" className={classes.title}>
-                        Solve with Photo
+                        {translate('photoSolve.title')}
                     </Typography>
                     <IconButton
                         className={classes.helpButton}
@@ -342,8 +376,7 @@ const PhotoSolutionPage = ({ history }) => {
                     <Paper className={classes.apiStatus}>
                         <Typography variant="body2" color="textSecondary">
                             <Warning style={{ fontSize: 18, verticalAlign: 'middle' }} />
-                            {' '}AI features require API keys. Add REACT_APP_GEMINI_API_KEY and/or
-                            REACT_APP_GROQ_API_KEY to your environment.
+                            {' '}{translate('photoSolve.apiWarning')}
                         </Typography>
                     </Paper>
                 )}
@@ -378,12 +411,12 @@ const PhotoSolutionPage = ({ history }) => {
                             >
                                 <Tab
                                     icon={<CameraAlt />}
-                                    label="Camera"
+                                    label={translate('photoSolve.camera')}
                                     className={classes.tab}
                                 />
                                 <Tab
                                     icon={<CloudUpload />}
-                                    label="Upload"
+                                    label={translate('photoSolve.upload')}
                                     className={classes.tab}
                                 />
                             </Tabs>
@@ -420,14 +453,14 @@ const PhotoSolutionPage = ({ history }) => {
                                     <Fade in>
                                         <div className={classes.ocrResult}>
                                             <Typography className={classes.ocrLabel}>
-                                                Extracted Content
+                                                {translate('photoSolve.extractedContent')}
                                             </Typography>
                                             <Typography className={classes.ocrText}>
                                                 {ocrResult.latex || ocrResult.plainText || 'Content extracted'}
                                             </Typography>
                                             {ocrResult.topic && (
                                                 <Typography variant="body2" color="primary" style={{ marginTop: 8 }}>
-                                                    Topic: {ocrResult.topic}
+                                                    {translate('photoSolve.topic')}: {ocrResult.topic}
                                                 </Typography>
                                             )}
                                         </div>
@@ -446,7 +479,7 @@ const PhotoSolutionPage = ({ history }) => {
                                             onClick={handleReset}
                                             startIcon={<Refresh />}
                                         >
-                                            Try Again
+                                            {translate('photoSolve.tryAgain')}
                                         </Button>
                                     </div>
                                 )}
@@ -460,7 +493,7 @@ const PhotoSolutionPage = ({ history }) => {
                                             onClick={handleReset}
                                             startIcon={<Refresh />}
                                         >
-                                            New Photo
+                                            {translate('photoSolve.newPhoto')}
                                         </Button>
                                         <Button
                                             variant="contained"
@@ -469,7 +502,7 @@ const PhotoSolutionPage = ({ history }) => {
                                             disabled={isProcessing}
                                             startIcon={<CheckCircle />}
                                         >
-                                            {isProcessing ? 'Solving...' : 'Generate Solution'}
+                                            {isProcessing ? translate('photoSolve.solving') : translate('photoSolve.generateSolution')}
                                         </Button>
                                     </div>
                                 )}
@@ -502,7 +535,7 @@ const PhotoSolutionPage = ({ history }) => {
                                     onClick={handleReset}
                                     startIcon={<CameraAlt />}
                                 >
-                                    Solve Another Problem
+                                    {translate('photoSolve.solveAnother')}
                                 </Button>
                             </div>
                         </div>
@@ -511,33 +544,33 @@ const PhotoSolutionPage = ({ history }) => {
 
                 {/* Help Dialog */}
                 <Dialog open={helpOpen} onClose={() => setHelpOpen(false)}>
-                    <DialogTitle>How to Use Photo Solver</DialogTitle>
+                    <DialogTitle>{translate('photoSolve.helpTitle')}</DialogTitle>
                     <DialogContent>
                         <Typography variant="body1" paragraph>
-                            <strong>1. Capture or Upload</strong><br />
-                            Take a photo of your maths problem or upload an image from your device.
+                            <strong>{translate('photoSolve.step1Title')}</strong><br />
+                            {translate('photoSolve.step1Desc')}
                         </Typography>
                         <Typography variant="body1" paragraph>
-                            <strong>2. AI Extraction</strong><br />
-                            Our AI will read the problem and extract the mathematical content.
+                            <strong>{translate('photoSolve.step2Title')}</strong><br />
+                            {translate('photoSolve.step2Desc')}
                         </Typography>
                         <Typography variant="body1" paragraph>
-                            <strong>3. Step-by-Step Solution</strong><br />
-                            Get a detailed solution with explanations, working, and exam tips.
+                            <strong>{translate('photoSolve.step3Title')}</strong><br />
+                            {translate('photoSolve.step3Desc')}
                         </Typography>
                         <Typography variant="body2" color="textSecondary">
-                            <strong>Tips for best results:</strong>
+                            <strong>{translate('photoSolve.tipsTitle')}</strong>
                             <ul>
-                                <li>Ensure good lighting</li>
-                                <li>Keep the problem in focus</li>
-                                <li>Include all parts of the question</li>
-                                <li>Avoid glare or shadows</li>
+                                <li>{translate('photoSolve.tip1')}</li>
+                                <li>{translate('photoSolve.tip2')}</li>
+                                <li>{translate('photoSolve.tip3')}</li>
+                                <li>{translate('photoSolve.tip4')}</li>
                             </ul>
                         </Typography>
                     </DialogContent>
                     <DialogActions>
                         <Button onClick={() => setHelpOpen(false)} color="primary">
-                            Got It
+                            {translate('photoSolve.gotIt')}
                         </Button>
                     </DialogActions>
                 </Dialog>

@@ -14,6 +14,7 @@ import {
     Description,
     Person,
 } from '@material-ui/icons';
+import { useLocalization } from '../../util/LocalizationContext';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -86,31 +87,31 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-// Navigation items
+// Navigation items with translation keys
 const NAV_ITEMS = [
     {
-        label: 'Home',
+        labelKey: 'navigation.home',
         icon: Home,
         path: '/',
     },
     {
-        label: 'Learn',
+        labelKey: 'navigation.learn',
         icon: School,
         path: '/dashboard',
     },
     {
-        label: 'Solve',
+        labelKey: 'navigation.solve',
         icon: CameraAlt,
         path: '/solve-photo',
         highlight: true,
     },
     {
-        label: 'Papers',
+        labelKey: 'navigation.papers',
         icon: Description,
         path: '/past-papers',
     },
     {
-        label: 'Profile',
+        labelKey: 'navigation.profile',
         icon: Person,
         path: '/profile',
         badge: 0, // Set to number to show badge
@@ -121,6 +122,7 @@ const BottomNavigation = ({ hidden = false }) => {
     const classes = useStyles();
     const history = useHistory();
     const location = useLocation();
+    const { t: translate } = useLocalization();
 
     // Find current nav item index
     const currentIndex = NAV_ITEMS.findIndex(item => {
@@ -156,7 +158,7 @@ const BottomNavigation = ({ hidden = false }) => {
                 return (
                     <BottomNavigationAction
                         key={item.path}
-                        label={item.label}
+                        label={translate(item.labelKey)}
                         className={classes.action}
                         icon={
                             <div className={classes.iconWrapper}>

@@ -110,19 +110,19 @@ class HintTextbox extends React.Component {
                     <Grid item xs={4} sm={4} md={1}>
                         {this.props.type !== "subHintTextbox" && this.hint.subHints !== undefined ?
                             <center>
-                                <IconButton aria-label="delete" onClick={this.props.toggleHints}
-                                            title="View available hints"
+                                <IconButton aria-label={translate('hintsystem.showHints')} onClick={this.props.toggleHints}
+                                            title={translate('hintsystem.viewAvailableHints')}
                                             disabled={(use_expanded_view && debug)}
                                             {...stagingProp({
                                                 "data-selenium-target": `hint-button-${hintIndex}`
                                             })}
                                 >
                                     <img src={`${process.env.PUBLIC_URL}/static/images/icons/raise_hand.png`}
-                                         alt="hintToggle"/>
+                                         alt={translate('hintsystem.raiseHandHint')}/>
                                 </IconButton>
                             </center> :
                             <img src={'/static/images/icons/raise_hand.png'}
-                                 alt="hintToggle"
+                                 alt={translate('hintsystem.raiseHandHint')}
                                  style={{ visibility: "hidden" }}/>
                         }
                     </Grid>
@@ -159,7 +159,7 @@ class HintTextbox extends React.Component {
                             {this.state.isCorrect && this.showCorrectness && this.allowRetry &&
                                 <img className={classes.checkImage}
                                     style={{ opacity: this.state.checkMarkOpacity, width: "45%" }}
-                                    alt="Green Checkmark Icon"
+                                    alt={translate('ariaLabels.answerCorrect')}
                                     {...stagingProp({
                                         "data-selenium-target": `step-correct-img-${hintIndex}`
                                     })}
@@ -168,7 +168,7 @@ class HintTextbox extends React.Component {
                             {this.state.isCorrect === false && this.showCorrectness && this.allowRetry &&
                                 <img className={classes.checkImage}
                                     style={{ opacity: 100 - this.state.checkMarkOpacity, width: "45%" }}
-                                    alt="Red X Icon"
+                                    alt={translate('ariaLabels.answerIncorrect')}
                                     {...stagingProp({
                                         "data-selenium-target": `step-correct-img-${hintIndex}`
                                     })}

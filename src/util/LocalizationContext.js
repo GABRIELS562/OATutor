@@ -141,20 +141,21 @@ export const LocalizationProvider = ({ children, userId }) => {
     }, [platformLanguage, setLanguage]);
 
     /**
-     * Called when entering a course - allows per-course language override
+     * Called when entering a course - keeps user's language preference
+     * User's selected language (platformLanguage) takes priority over course default
      */
     const enterCourse = useCallback((courseName, courseLanguage) => {
         setCurrentCourseName(courseName);
 
-        // Check for saved course-specific language
+        // Check for saved course-specific language first
         const savedLang = sessionStorage.getItem(`course_lang_${courseName}`);
 
         if (savedLang && AVAILABLE_LANGUAGES.includes(savedLang)) {
+            // User has explicitly set a language for this course
             setActiveLanguage(savedLang);
-        } else if (courseLanguage && AVAILABLE_LANGUAGES.includes(courseLanguage)) {
-            setActiveLanguage(courseLanguage);
-            sessionStorage.setItem(`course_lang_${courseName}`, courseLanguage);
         } else {
+            // Use the platform language (user's selected language) - NOT the course default
+            // This ensures the language toggle works across the entire app
             setActiveLanguage(platformLanguage);
         }
     }, [platformLanguage]);

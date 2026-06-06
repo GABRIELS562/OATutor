@@ -17,6 +17,7 @@ import {
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
 import { useAdminAuth } from './AdminAuthContext';
+import { useLocalization } from '../../util/LocalizationContext';
 
 // Icons
 import EmailIcon from '@material-ui/icons/Email';
@@ -131,6 +132,7 @@ const useStyles = makeStyles((theme) => ({
 const AdminLogin = ({ history }) => {
     const classes = useStyles();
     const { login } = useAdminAuth();
+    const { t } = useLocalization();
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -147,7 +149,7 @@ const AdminLogin = ({ history }) => {
             await login(email, password);
             history.push('/admin/dashboard');
         } catch (err) {
-            setError(err.message || 'Login failed. Please try again.');
+            setError(err.message || t('adminLogin.loginFailed'));
         } finally {
             setIsLoading(false);
         }
@@ -160,12 +162,12 @@ const AdminLogin = ({ history }) => {
                 <Box className={classes.logoContainer}>
                     <SchoolIcon className={classes.logoIcon} />
                     <Typography className={classes.logoText}>
-                        Angelo Admin
+                        {t('adminLogin.title')}
                     </Typography>
                 </Box>
 
                 <Typography className={classes.subtitle}>
-                    Teacher and Admin Portal
+                    {t('adminLogin.subtitle')}
                 </Typography>
 
                 {/* Error Alert */}
@@ -186,7 +188,7 @@ const AdminLogin = ({ history }) => {
                 <form className={classes.form} onSubmit={handleSubmit}>
                     <TextField
                         className={classes.textField}
-                        label="Email Address"
+                        label={t('adminLogin.emailAddress')}
                         type="email"
                         variant="outlined"
                         fullWidth
@@ -204,7 +206,7 @@ const AdminLogin = ({ history }) => {
 
                     <TextField
                         className={classes.textField}
-                        label="Password"
+                        label={t('adminLogin.password')}
                         type={showPassword ? 'text' : 'password'}
                         variant="outlined"
                         fullWidth
@@ -242,7 +244,7 @@ const AdminLogin = ({ history }) => {
                         {isLoading ? (
                             <CircularProgress size={24} color="inherit" />
                         ) : (
-                            'Sign In'
+                            t('adminLogin.signIn')
                         )}
                     </Button>
                 </form>
@@ -250,13 +252,13 @@ const AdminLogin = ({ history }) => {
                 {/* Back to Student Portal */}
                 <Link to="/" className={classes.backLink}>
                     <ArrowBackIcon style={{ marginRight: 8, fontSize: 18 }} />
-                    Back to Student Portal
+                    {t('adminLogin.backToStudent')}
                 </Link>
 
                 {/* Demo Credentials */}
                 <Box className={classes.demoInfo}>
                     <Typography className={classes.demoTitle}>
-                        Demo Credentials
+                        {t('adminLogin.demoCredentials')}
                     </Typography>
                     <Typography className={classes.demoText}>
                         Teacher: teacher@angelo.co.za / demo123

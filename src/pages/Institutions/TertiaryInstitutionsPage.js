@@ -52,6 +52,7 @@ import {
     Star,
 } from '@material-ui/icons';
 import BrandLogoNav from '../../components/BrandLogoNav';
+import { useLocalization } from '../../util/LocalizationContext';
 import {
     INSTITUTION_TYPES,
     PROVINCES,
@@ -216,6 +217,38 @@ const useStyles = makeStyles((theme) => ({
 const TertiaryInstitutionsPage = ({ history }) => {
     const classes = useStyles();
 
+    const localization = useLocalization();
+    const translate = localization?.translate || ((key) => {
+        const fallbacks = {
+            'institutions.title': 'SA Tertiary Institutions',
+            'institutions.subtitle': 'Universities, UoTs & TVET Colleges',
+            'institutions.universities': 'Universities',
+            'institutions.uots': 'UoTs',
+            'institutions.tvetColleges': 'TVET Colleges',
+            'institutions.searchPlaceholder': 'Search institutions, programs...',
+            'institutions.institutionType': 'Institution Type',
+            'institutions.allTypes': 'All Types',
+            'institutions.province': 'Province',
+            'institutions.allProvinces': 'All Provinces',
+            'institutions.showing': 'Showing',
+            'institutions.institution': 'institution',
+            'institutions.institutions': 'institutions',
+            'institutions.viewDetails': 'View Details',
+            'institutions.website': 'Website',
+            'institutions.noResults': 'No institutions found matching your criteria.',
+            'institutions.nsfasAccredited': 'NSFAS Accredited',
+            'institutions.studentAccommodation': 'Student Accommodation',
+            'institutions.faculties': 'Faculties',
+            'institutions.notablePrograms': 'Notable Programs',
+            'institutions.apsRange': 'APS Range',
+            'institutions.applicationDeadline': 'Application Deadline',
+            'institutions.visitWebsite': 'Visit Website',
+            'institutions.applyNow': 'Apply Now',
+            'common.close': 'Close',
+        };
+        return fallbacks[key] || key.split('.').pop();
+    });
+
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedType, setSelectedType] = useState('all');
     const [selectedProvince, setSelectedProvince] = useState('all');
@@ -317,7 +350,7 @@ const TertiaryInstitutionsPage = ({ history }) => {
                     color="primary"
                     onClick={() => handleInstitutionClick(institution)}
                 >
-                    View Details
+                    {translate('institutions.viewDetails')}
                 </Button>
                 {institution.website && (
                     <Button
@@ -326,7 +359,7 @@ const TertiaryInstitutionsPage = ({ history }) => {
                         target="_blank"
                         startIcon={<OpenInNew />}
                     >
-                        Website
+                        {translate('institutions.website')}
                     </Button>
                 )}
             </CardActions>
@@ -348,10 +381,10 @@ const TertiaryInstitutionsPage = ({ history }) => {
                     </IconButton>
                     <div>
                         <Typography variant="h4" className={classes.title}>
-                            SA Tertiary Institutions
+                            {translate('institutions.title')}
                         </Typography>
                         <Typography variant="body1" color="textSecondary">
-                            Universities, UoTs & TVET Colleges
+                            {translate('institutions.subtitle')}
                         </Typography>
                     </div>
                 </div>
@@ -360,15 +393,15 @@ const TertiaryInstitutionsPage = ({ history }) => {
                 <div className={classes.statsRow}>
                     <Paper className={classes.statCard}>
                         <Typography className={classes.statValue}>{stats.universities}</Typography>
-                        <Typography className={classes.statLabel}>Universities</Typography>
+                        <Typography className={classes.statLabel}>{translate('institutions.universities')}</Typography>
                     </Paper>
                     <Paper className={classes.statCard}>
                         <Typography className={classes.statValue}>{stats.uots}</Typography>
-                        <Typography className={classes.statLabel}>UoTs</Typography>
+                        <Typography className={classes.statLabel}>{translate('institutions.uots')}</Typography>
                     </Paper>
                     <Paper className={classes.statCard}>
                         <Typography className={classes.statValue}>{stats.tvets}</Typography>
-                        <Typography className={classes.statLabel}>TVET Colleges</Typography>
+                        <Typography className={classes.statLabel}>{translate('institutions.tvetColleges')}</Typography>
                     </Paper>
                 </div>
 
@@ -376,7 +409,7 @@ const TertiaryInstitutionsPage = ({ history }) => {
                 <div className={classes.filtersRow}>
                     <TextField
                         variant="outlined"
-                        placeholder="Search institutions, programs..."
+                        placeholder={translate('institutions.searchPlaceholder')}
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
                         className={classes.searchField}
@@ -389,13 +422,13 @@ const TertiaryInstitutionsPage = ({ history }) => {
                         }}
                     />
                     <FormControl variant="outlined" className={classes.filterSelect}>
-                        <InputLabel>Institution Type</InputLabel>
+                        <InputLabel>{translate('institutions.institutionType')}</InputLabel>
                         <Select
                             value={selectedType}
                             onChange={(e) => setSelectedType(e.target.value)}
-                            label="Institution Type"
+                            label={translate('institutions.institutionType')}
                         >
-                            <MenuItem value="all">All Types</MenuItem>
+                            <MenuItem value="all">{translate('institutions.allTypes')}</MenuItem>
                             {INSTITUTION_TYPES.map((type) => (
                                 <MenuItem key={type.id} value={type.id}>
                                     {type.name}
@@ -404,13 +437,13 @@ const TertiaryInstitutionsPage = ({ history }) => {
                         </Select>
                     </FormControl>
                     <FormControl variant="outlined" className={classes.filterSelect}>
-                        <InputLabel>Province</InputLabel>
+                        <InputLabel>{translate('institutions.province')}</InputLabel>
                         <Select
                             value={selectedProvince}
                             onChange={(e) => setSelectedProvince(e.target.value)}
-                            label="Province"
+                            label={translate('institutions.province')}
                         >
-                            <MenuItem value="all">All Provinces</MenuItem>
+                            <MenuItem value="all">{translate('institutions.allProvinces')}</MenuItem>
                             {PROVINCES.map((prov) => (
                                 <MenuItem key={prov.id} value={prov.id}>
                                     {prov.name}
@@ -422,7 +455,7 @@ const TertiaryInstitutionsPage = ({ history }) => {
 
                 {/* Results Count */}
                 <Typography variant="subtitle1" color="textSecondary" style={{ marginBottom: 16 }}>
-                    Showing {displayedInstitutions.length} institution{displayedInstitutions.length !== 1 ? 's' : ''}
+                    {translate('institutions.showing')} {displayedInstitutions.length} {displayedInstitutions.length !== 1 ? translate('institutions.institutions') : translate('institutions.institution')}
                 </Typography>
 
                 {/* Institution Grid */}
@@ -437,7 +470,7 @@ const TertiaryInstitutionsPage = ({ history }) => {
                 {displayedInstitutions.length === 0 && (
                     <Paper style={{ padding: 32, textAlign: 'center' }}>
                         <Typography color="textSecondary">
-                            No institutions found matching your criteria.
+                            {translate('institutions.noResults')}
                         </Typography>
                     </Paper>
                 )}
@@ -481,20 +514,20 @@ const TertiaryInstitutionsPage = ({ history }) => {
                                 />
                                 {selectedInstitution.nsfasAccredited && (
                                     <Chip
-                                        label="NSFAS Accredited"
+                                        label={translate('institutions.nsfasAccredited')}
                                         className={classes.nsfasChip}
                                         icon={<CheckCircle />}
                                     />
                                 )}
                                 {selectedInstitution.accommodationAvailable && (
-                                    <Chip label="Student Accommodation" variant="outlined" />
+                                    <Chip label={translate('institutions.studentAccommodation')} variant="outlined" />
                                 )}
                             </div>
 
                             {selectedInstitution.faculties && (
                                 <div className={classes.detailSection}>
                                     <Typography className={classes.detailTitle}>
-                                        <School /> Faculties
+                                        <School /> {translate('institutions.faculties')}
                                     </Typography>
                                     <List dense>
                                         {selectedInstitution.faculties.map((faculty, i) => (
@@ -512,7 +545,7 @@ const TertiaryInstitutionsPage = ({ history }) => {
                             {selectedInstitution.notablePrograms && (
                                 <div className={classes.detailSection}>
                                     <Typography className={classes.detailTitle}>
-                                        <Star style={{ color: '#ffd700' }} /> Notable Programs
+                                        <Star style={{ color: '#ffd700' }} /> {translate('institutions.notablePrograms')}
                                     </Typography>
                                     <div className={classes.chipContainer}>
                                         {selectedInstitution.notablePrograms.map((prog, i) => (
@@ -533,7 +566,7 @@ const TertiaryInstitutionsPage = ({ history }) => {
                                     {selectedInstitution.apsRange && (
                                         <Grid item xs={6}>
                                             <Typography variant="subtitle2" color="textSecondary">
-                                                APS Range
+                                                {translate('institutions.apsRange')}
                                             </Typography>
                                             <Typography variant="h6">
                                                 {selectedInstitution.apsRange}
@@ -543,7 +576,7 @@ const TertiaryInstitutionsPage = ({ history }) => {
                                     {selectedInstitution.applicationDeadline && (
                                         <Grid item xs={6}>
                                             <Typography variant="subtitle2" color="textSecondary">
-                                                Application Deadline
+                                                {translate('institutions.applicationDeadline')}
                                             </Typography>
                                             <Typography variant="h6">
                                                 <Event fontSize="small" style={{ verticalAlign: 'middle', marginRight: 4 }} />
@@ -572,7 +605,7 @@ const TertiaryInstitutionsPage = ({ history }) => {
                         </DialogContent>
                         <DialogActions>
                             <Button onClick={() => setDialogOpen(false)}>
-                                Close
+                                {translate('common.close')}
                             </Button>
                             {selectedInstitution.website && (
                                 <Button
@@ -580,7 +613,7 @@ const TertiaryInstitutionsPage = ({ history }) => {
                                     target="_blank"
                                     startIcon={<OpenInNew />}
                                 >
-                                    Visit Website
+                                    {translate('institutions.visitWebsite')}
                                 </Button>
                             )}
                             {selectedInstitution.applyLink && (
@@ -591,7 +624,7 @@ const TertiaryInstitutionsPage = ({ history }) => {
                                     target="_blank"
                                     startIcon={<OpenInNew />}
                                 >
-                                    Apply Now
+                                    {translate('institutions.applyNow')}
                                 </Button>
                             )}
                         </DialogActions>

@@ -40,6 +40,7 @@ import {
 } from '@material-ui/icons';
 import BrandLogoNav from '../../components/BrandLogoNav';
 import QuizGeneratorService from '../../services/QuizGeneratorService';
+import { useLocalization } from '../../util/LocalizationContext';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -182,6 +183,40 @@ const useStyles = makeStyles((theme) => ({
 const QuizPage = ({ history }) => {
     const classes = useStyles();
 
+    const localization = useLocalization();
+    const translate = localization?.translate || ((key) => {
+        const fallbacks = {
+            'quiz.topicQuiz': 'Topic Quiz',
+            'quiz.testKnowledge': 'Test your knowledge with AI-generated questions',
+            'quiz.grade': 'Grade',
+            'quiz.grade10': 'Grade 10',
+            'quiz.grade11': 'Grade 11',
+            'quiz.grade12': 'Grade 12',
+            'quiz.difficulty': 'Difficulty',
+            'quiz.easy': 'Easy',
+            'quiz.medium': 'Medium',
+            'quiz.hard': 'Hard',
+            'quiz.questions': 'Questions',
+            'quiz.questionsCount': 'Questions',
+            'quiz.selectTopic': 'Select Topic:',
+            'quiz.startQuiz': 'Start Quiz',
+            'quiz.questionOf': 'Question {current} of {total}',
+            'quiz.correct': 'Correct!',
+            'quiz.incorrect': 'Incorrect',
+            'quiz.previous': 'Previous',
+            'quiz.checkAnswer': 'Check Answer',
+            'quiz.next': 'Next',
+            'quiz.submitQuiz': 'Submit Quiz',
+            'quiz.correctLabel': 'Correct',
+            'quiz.incorrectLabel': 'Incorrect',
+            'quiz.unanswered': 'Unanswered',
+            'quiz.newQuiz': 'New Quiz',
+            'quiz.reviewAnswers': 'Review Answers',
+            'quiz.generatingQuiz': 'Generating your quiz...',
+        };
+        return fallbacks[key] || key.split('.').pop();
+    });
+
     // Setup state
     const [grade, setGrade] = useState(12);
     const [selectedTopic, setSelectedTopic] = useState('');
@@ -297,63 +332,63 @@ const QuizPage = ({ history }) => {
         <Paper className={classes.setupCard}>
             <School style={{ fontSize: 60, color: '#58CC02', marginBottom: 16 }} />
             <Typography variant="h4" gutterBottom>
-                Topic Quiz
+                {translate('quiz.topicQuiz')}
             </Typography>
             <Typography variant="body1" color="textSecondary" paragraph>
-                Test your knowledge with AI-generated questions
+                {translate('quiz.testKnowledge')}
             </Typography>
 
             <Grid container spacing={2} justifyContent="center">
                 <Grid item>
                     <FormControl variant="outlined" className={classes.formControl}>
-                        <InputLabel>Grade</InputLabel>
+                        <InputLabel>{translate('quiz.grade')}</InputLabel>
                         <Select
                             value={grade}
                             onChange={(e) => {
                                 setGrade(e.target.value);
                                 setSelectedTopic('');
                             }}
-                            label="Grade"
+                            label={translate('quiz.grade')}
                         >
-                            <MenuItem value={10}>Grade 10</MenuItem>
-                            <MenuItem value={11}>Grade 11</MenuItem>
-                            <MenuItem value={12}>Grade 12</MenuItem>
+                            <MenuItem value={10}>{translate('quiz.grade10')}</MenuItem>
+                            <MenuItem value={11}>{translate('quiz.grade11')}</MenuItem>
+                            <MenuItem value={12}>{translate('quiz.grade12')}</MenuItem>
                         </Select>
                     </FormControl>
                 </Grid>
                 <Grid item>
                     <FormControl variant="outlined" className={classes.formControl}>
-                        <InputLabel>Difficulty</InputLabel>
+                        <InputLabel>{translate('quiz.difficulty')}</InputLabel>
                         <Select
                             value={difficulty}
                             onChange={(e) => setDifficulty(e.target.value)}
-                            label="Difficulty"
+                            label={translate('quiz.difficulty')}
                         >
-                            <MenuItem value="easy">Easy</MenuItem>
-                            <MenuItem value="medium">Medium</MenuItem>
-                            <MenuItem value="hard">Hard</MenuItem>
+                            <MenuItem value="easy">{translate('quiz.easy')}</MenuItem>
+                            <MenuItem value="medium">{translate('quiz.medium')}</MenuItem>
+                            <MenuItem value="hard">{translate('quiz.hard')}</MenuItem>
                         </Select>
                     </FormControl>
                 </Grid>
                 <Grid item>
                     <FormControl variant="outlined" className={classes.formControl}>
-                        <InputLabel>Questions</InputLabel>
+                        <InputLabel>{translate('quiz.questions')}</InputLabel>
                         <Select
                             value={questionCount}
                             onChange={(e) => setQuestionCount(e.target.value)}
-                            label="Questions"
+                            label={translate('quiz.questions')}
                         >
-                            <MenuItem value={5}>5 Questions</MenuItem>
-                            <MenuItem value={10}>10 Questions</MenuItem>
-                            <MenuItem value={15}>15 Questions</MenuItem>
-                            <MenuItem value={20}>20 Questions</MenuItem>
+                            <MenuItem value={5}>5 {translate('quiz.questionsCount')}</MenuItem>
+                            <MenuItem value={10}>10 {translate('quiz.questionsCount')}</MenuItem>
+                            <MenuItem value={15}>15 {translate('quiz.questionsCount')}</MenuItem>
+                            <MenuItem value={20}>20 {translate('quiz.questionsCount')}</MenuItem>
                         </Select>
                     </FormControl>
                 </Grid>
             </Grid>
 
             <Typography variant="subtitle2" style={{ marginTop: 24 }}>
-                Select Topic:
+                {translate('quiz.selectTopic')}
             </Typography>
             <div className={classes.topicGrid}>
                 {topics.map((topic) => (
@@ -375,7 +410,7 @@ const QuizPage = ({ history }) => {
                 disabled={!selectedTopic}
                 startIcon={<PlayArrow />}
             >
-                Start Quiz
+                {translate('quiz.startQuiz')}
             </Button>
         </Paper>
     );
@@ -398,7 +433,7 @@ const QuizPage = ({ history }) => {
                 {/* Question header */}
                 <div className={classes.questionNumber}>
                     <Typography variant="h6">
-                        Question {currentQuestion + 1} of {quiz.questions.length}
+                        {translate('quiz.questionOf').replace('{current}', currentQuestion + 1).replace('{total}', quiz.questions.length)}
                     </Typography>
                     <div className={classes.timer}>
                         <Timer />
@@ -455,7 +490,7 @@ const QuizPage = ({ history }) => {
                         }}
                     >
                         <Typography variant="subtitle2" gutterBottom>
-                            {selectedAnswer === question.correctAnswer ? '✓ Correct!' : '✗ Incorrect'}
+                            {selectedAnswer === question.correctAnswer ? `✓ ${translate('quiz.correct')}` : `✗ ${translate('quiz.incorrect')}`}
                         </Typography>
                         <Typography variant="body2">
                             {question.explanation}
@@ -470,7 +505,7 @@ const QuizPage = ({ history }) => {
                         disabled={currentQuestion === 0}
                         startIcon={<ArrowBack />}
                     >
-                        Previous
+                        {translate('quiz.previous')}
                     </Button>
 
                     {!showExplanation && selectedAnswer && (
@@ -478,7 +513,7 @@ const QuizPage = ({ history }) => {
                             variant="outlined"
                             onClick={() => setShowExplanation(true)}
                         >
-                            Check Answer
+                            {translate('quiz.checkAnswer')}
                         </Button>
                     )}
 
@@ -489,7 +524,7 @@ const QuizPage = ({ history }) => {
                             onClick={handleNextQuestion}
                             endIcon={<ArrowForward />}
                         >
-                            Next
+                            {translate('quiz.next')}
                         </Button>
                     ) : (
                         <Button
@@ -497,7 +532,7 @@ const QuizPage = ({ history }) => {
                             color="primary"
                             onClick={handleSubmitQuiz}
                         >
-                            Submit Quiz
+                            {translate('quiz.submitQuiz')}
                         </Button>
                     )}
                 </div>
@@ -539,21 +574,21 @@ const QuizPage = ({ history }) => {
                     <Grid item>
                         <Chip
                             icon={<CheckCircle />}
-                            label={`${results.correct} Correct`}
+                            label={`${results.correct} ${translate('quiz.correctLabel')}`}
                             style={{ backgroundColor: '#e8f5e9' }}
                         />
                     </Grid>
                     <Grid item>
                         <Chip
                             icon={<Cancel />}
-                            label={`${results.incorrect} Incorrect`}
+                            label={`${results.incorrect} ${translate('quiz.incorrectLabel')}`}
                             style={{ backgroundColor: '#ffebee' }}
                         />
                     </Grid>
                     {results.unanswered > 0 && (
                         <Grid item>
                             <Chip
-                                label={`${results.unanswered} Unanswered`}
+                                label={`${results.unanswered} ${translate('quiz.unanswered')}`}
                             />
                         </Grid>
                     )}
@@ -565,14 +600,14 @@ const QuizPage = ({ history }) => {
                         onClick={handleResetQuiz}
                         startIcon={<Refresh />}
                     >
-                        New Quiz
+                        {translate('quiz.newQuiz')}
                     </Button>
                     <Button
                         variant="contained"
                         color="primary"
                         onClick={() => setQuizState('review')}
                     >
-                        Review Answers
+                        {translate('quiz.reviewAnswers')}
                     </Button>
                 </div>
             </Paper>
@@ -593,7 +628,7 @@ const QuizPage = ({ history }) => {
                         <ArrowBack />
                     </IconButton>
                     <Typography variant="h4" className={classes.title}>
-                        {quiz ? quiz.title : 'Topic Quiz'}
+                        {quiz ? quiz.title : translate('quiz.topicQuiz')}
                     </Typography>
                 </div>
 
@@ -603,7 +638,7 @@ const QuizPage = ({ history }) => {
                     <div className={classes.loading}>
                         <LinearProgress />
                         <Typography style={{ marginTop: 16 }}>
-                            Generating your quiz...
+                            {translate('quiz.generatingQuiz')}
                         </Typography>
                     </div>
                 )}

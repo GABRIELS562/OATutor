@@ -36,6 +36,7 @@ import Brightness4Icon from '@material-ui/icons/Brightness4';
 import Brightness7Icon from '@material-ui/icons/Brightness7';
 import { ThemeContext, SITE_NAME, _coursePlansNoEditor } from '../../config/config';
 import { useGamification } from '../../util/GamificationContext';
+import { useLocalization } from '../../util/LocalizationContext';
 
 const useStyles = makeStyles((theme) => ({
     menuButton: {
@@ -227,36 +228,36 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-// Navigation items configuration
+// Navigation items configuration with translation keys
 const NAV_ITEMS = [
     {
         id: 'home',
-        label: 'Home',
+        labelKey: 'navigation.home',
         icon: HomeIcon,
         path: '/',
-        description: 'Course selection',
+        descKey: 'mobileNav.courseSelection',
     },
     {
         id: 'curriculum',
-        label: 'CAPS Curriculum',
+        labelKey: 'mobileNav.curriculum',
         icon: MenuBookIcon,
         path: '/curriculum',
-        description: 'Reference guide',
+        descKey: 'mobileNav.referenceGuide',
         openInNewTab: true,
     },
     {
         id: 'dashboard',
-        label: 'My Progress',
+        labelKey: 'mobileNav.myProgress',
         icon: DashboardIcon,
         path: '/dashboard',
-        description: 'Stats & achievements',
+        descKey: 'mobileNav.statsAchievements',
     },
     {
         id: 'mock-test',
-        label: 'Mock Test',
+        labelKey: 'mobileNav.mockTest',
         icon: AssessmentIcon,
         path: '/mock-test',
-        description: 'Practice exams',
+        descKey: 'mobileNav.practiceExams',
         badge: 'NEW',
     },
 ];
@@ -267,6 +268,35 @@ function MobileNavigation({ currentLesson, courseNum }) {
     const location = useLocation();
     useContext(ThemeContext); // Available for future use
     const { stats } = useGamification();
+    const localization = useLocalization();
+    const translate = localization?.translate || ((key) => {
+        const fallbacks = {
+            'navigation.home': 'Home',
+            'mobileNav.backToCourse': 'Back to Course',
+            'mobileNav.allSubjects': 'All Subjects',
+            'mobileNav.currentlyStudying': 'Currently studying:',
+            'gamification.xp': 'XP',
+            'gamification.days': 'days',
+            'mobileNav.level': 'Level',
+            'mobileNav.streak': 'Streak',
+            'mobileNav.navigation': 'Navigation',
+            'mobileNav.curriculum': 'CAPS Curriculum',
+            'mobileNav.referenceGuide': 'Reference guide',
+            'mobileNav.myProgress': 'My Progress',
+            'mobileNav.statsAchievements': 'Stats & achievements',
+            'mobileNav.mockTest': 'Mock Test',
+            'mobileNav.practiceExams': 'Practice exams',
+            'mobileNav.courseSelection': 'Course selection',
+            'mobileNav.subjects': 'Subjects',
+            'mobileNav.browseCourses': 'Browse Courses',
+            'mobileNav.available': 'available',
+            'mobileNav.lessons': 'lessons',
+            'settings.title': 'Settings',
+            'mobileNav.darkMode': 'Dark Mode',
+            'mobileNav.toggleTheme': 'Toggle light/dark theme',
+        };
+        return fallbacks[key] || key.split('.').pop();
+    });
 
     const [drawerOpen, setDrawerOpen] = useState(false);
     const [coursesExpanded, setCoursesExpanded] = useState(false);
@@ -322,7 +352,7 @@ function MobileNavigation({ currentLesson, courseNum }) {
             <IconButton
                 className={classes.menuButton}
                 onClick={handleDrawerToggle}
-                aria-label="Open navigation menu"
+                aria-label={translate('ariaLabels.openNavMenu')}
                 edge="start"
             >
                 <MenuIcon />
@@ -341,14 +371,14 @@ function MobileNavigation({ currentLesson, courseNum }) {
                         <div className={classes.logoIcon}>AT</div>
                         <div>
                             <Typography className={classes.logoText}>
-                                Angelo <span className={classes.logoAccent}>Tutoring</span>
+                                <span className={classes.logoAccent}>{translate('brand.name')}</span>
                             </Typography>
                         </div>
                     </div>
                     <IconButton
                         className={classes.closeButton}
                         onClick={handleDrawerToggle}
-                        aria-label="Close navigation menu"
+                        aria-label={translate('ariaLabels.closeNavMenu')}
                     >
                         <CloseIcon />
                     </IconButton>
@@ -365,7 +395,7 @@ function MobileNavigation({ currentLesson, courseNum }) {
                             <ArrowBackIcon />
                         </ListItemIcon>
                         <ListItemText
-                            primary={currentLesson ? 'Back to Course' : 'All Subjects'}
+                            primary={currentLesson ? translate('mobileNav.backToCourse') : translate('mobileNav.allSubjects')}
                             className={classes.navItemText}
                         />
                     </ListItem>
@@ -375,7 +405,7 @@ function MobileNavigation({ currentLesson, courseNum }) {
                 {currentCourseInfo && (
                     <Box className={classes.statsContainer} style={{ padding: '12px 16px' }}>
                         <Typography style={{ fontSize: 12, color: 'rgba(255,255,255,0.5)', marginBottom: 4 }}>
-                            Currently studying:
+                            {translate('mobileNav.currentlyStudying')}
                         </Typography>
                         <Typography style={{ fontWeight: 600, fontSize: 14 }}>
                             {currentCourseInfo.courseName}
@@ -394,27 +424,27 @@ function MobileNavigation({ currentLesson, courseNum }) {
                         <div className={classes.statsRow}>
                             <span className={classes.statsLabel}>
                                 <StarIcon style={{ fontSize: 16, color: '#F59E0B' }} />
-                                XP
+                                {translate('gamification.xp')}
                             </span>
                             <span className={classes.xpBadge}>{stats.xp || 0}</span>
                         </div>
                         <div className={classes.statsRow}>
                             <span className={classes.statsLabel}>
                                 <EmojiEventsIcon style={{ fontSize: 16, color: '#58CC02' }} />
-                                Level
+                                {translate('mobileNav.level')}
                             </span>
                             <Chip
-                                label={`Level ${stats.level || 1}`}
+                                label={`${translate('mobileNav.level')} ${stats.level || 1}`}
                                 size="small"
                                 className={classes.levelBadge}
                             />
                         </div>
                         <div className={classes.statsRow}>
                             <span className={classes.statsLabel}>
-                                Streak
+                                {translate('mobileNav.streak')}
                             </span>
                             <Chip
-                                label={`${stats.streak || 0} days`}
+                                label={`${stats.streak || 0} ${translate('gamification.days')}`}
                                 size="small"
                                 className={classes.streakBadge}
                             />
@@ -426,7 +456,7 @@ function MobileNavigation({ currentLesson, courseNum }) {
 
                 {/* Main Navigation */}
                 <div className={classes.navSection}>
-                    <Typography className={classes.sectionTitle}>Navigation</Typography>
+                    <Typography className={classes.sectionTitle}>{translate('mobileNav.navigation')}</Typography>
                     <List>
                         {NAV_ITEMS.map((item) => (
                             <ListItem
@@ -441,7 +471,7 @@ function MobileNavigation({ currentLesson, courseNum }) {
                                 <ListItemText
                                     primary={
                                         <Box display="flex" alignItems="center">
-                                            {item.label}
+                                            {translate(item.labelKey)}
                                             {item.badge && (
                                                 <Chip
                                                     label={item.badge}
@@ -452,7 +482,7 @@ function MobileNavigation({ currentLesson, courseNum }) {
                                             )}
                                         </Box>
                                     }
-                                    secondary={item.description}
+                                    secondary={translate(item.descKey)}
                                     className={classes.navItemText}
                                 />
                             </ListItem>
@@ -464,7 +494,7 @@ function MobileNavigation({ currentLesson, courseNum }) {
 
                 {/* Courses Section */}
                 <div className={classes.navSection}>
-                    <Typography className={classes.sectionTitle}>Subjects</Typography>
+                    <Typography className={classes.sectionTitle}>{translate('mobileNav.subjects')}</Typography>
                     <List>
                         <ListItem
                             button
@@ -475,8 +505,8 @@ function MobileNavigation({ currentLesson, courseNum }) {
                                 <SchoolIcon />
                             </ListItemIcon>
                             <ListItemText
-                                primary="Browse Courses"
-                                secondary={`${_coursePlansNoEditor.length} available`}
+                                primary={translate('mobileNav.browseCourses')}
+                                secondary={`${_coursePlansNoEditor.length} ${translate('mobileNav.available')}`}
                                 className={classes.navItemText}
                             />
                             {coursesExpanded ? <ExpandLess /> : <ExpandMore />}
@@ -493,7 +523,7 @@ function MobileNavigation({ currentLesson, courseNum }) {
                                     >
                                         <ListItemText
                                             primary={course.courseName}
-                                            secondary={`${course.lessons?.length || 0} lessons`}
+                                            secondary={`${course.lessons?.length || 0} ${translate('mobileNav.lessons')}`}
                                             className={classes.navItemText}
                                         />
                                         <Chip
@@ -511,7 +541,7 @@ function MobileNavigation({ currentLesson, courseNum }) {
                 {/* Settings Section */}
                 <Divider className={classes.divider} />
                 <div className={classes.navSection}>
-                    <Typography className={classes.sectionTitle}>Settings</Typography>
+                    <Typography className={classes.sectionTitle}>{translate('settings.title')}</Typography>
                     <List>
                         <ListItem
                             button
@@ -540,8 +570,8 @@ function MobileNavigation({ currentLesson, courseNum }) {
                                 }
                             </ListItemIcon>
                             <ListItemText
-                                primary="Dark Mode"
-                                secondary="Toggle light/dark theme"
+                                primary={translate('mobileNav.darkMode')}
+                                secondary={translate('mobileNav.toggleTheme')}
                                 className={classes.navItemText}
                             />
                         </ListItem>
@@ -551,9 +581,9 @@ function MobileNavigation({ currentLesson, courseNum }) {
                 {/* Footer */}
                 <div className={classes.footer}>
                     <Typography className={classes.footerText}>
-                        {SITE_NAME} - CAPS Curriculum
+                        {SITE_NAME} - {translate('lessonSelection.capsAligned')}
                         <br />
-                        Grade 10-12 | Maths & Science
+                        {translate('brand.tagline')}
                     </Typography>
                 </div>
             </Drawer>

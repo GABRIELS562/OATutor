@@ -4,7 +4,6 @@ import Platform from "./platform-logic/Platform.js";
 import Firebase from "@components/Firebase.js";
 import Supabase from "@components/Supabase.js";
 import { LocalizationProvider } from "./util/LocalizationContext";
-import LanguageDebugPanel from "./components/LanguageDebug";
 import { AB_TEST_MODE } from "./config/config.js";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import NotFound from "@components/NotFound.js";
@@ -594,8 +593,6 @@ class App extends React.Component {
                     </AdminAuthProvider>
                     </CommentsProvider>
                     </GamificationProvider>
-                    {/* Debug panel - remove after fixing */}
-                    <LanguageDebugPanel />
                     </LocalizationProvider>
                 </ThemeContext.Provider>
             </ThemeToggleProvider>

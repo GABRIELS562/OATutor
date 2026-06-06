@@ -91,7 +91,7 @@ const useStyles = makeStyles((theme) => ({
  */
 export const LanguageToggleButtons = ({ size = 'small' }) => {
     const classes = useStyles();
-    const { language, setLanguage } = useLocalization();
+    const { language, setLanguage, t } = useLocalization();
 
     return (
         <ButtonGroup size={size} variant="outlined" color="primary">
@@ -99,7 +99,7 @@ export const LanguageToggleButtons = ({ size = 'small' }) => {
                 className={`${classes.toggleButton} ${language === 'en' ? 'active' : ''}`}
                 onClick={() => setLanguage('en')}
                 aria-pressed={language === 'en'}
-                aria-label="Switch to English"
+                aria-label={t('ariaLabels.switchToEnglish')}
             >
                 EN
             </Button>
@@ -107,7 +107,7 @@ export const LanguageToggleButtons = ({ size = 'small' }) => {
                 className={`${classes.toggleButton} ${language === 'af' ? 'active' : ''}`}
                 onClick={() => setLanguage('af')}
                 aria-pressed={language === 'af'}
-                aria-label="Skakel na Afrikaans"
+                aria-label={t('ariaLabels.switchToAfrikaans')}
             >
                 AF
             </Button>
@@ -120,17 +120,17 @@ export const LanguageToggleButtons = ({ size = 'small' }) => {
  */
 export const LanguageToggleCompact = ({ className }) => {
     const classes = useStyles();
-    const { language, toggleLanguage } = useLocalization();
+    const { language, toggleLanguage, t } = useLocalization();
 
     return (
-        <Tooltip title={language === 'en' ? 'Skakel na Afrikaans' : 'Switch to English'}>
+        <Tooltip title={language === 'en' ? t('tooltips.switchToAfrikaans') : t('tooltips.switchToEnglish')}>
             <div
                 className={`${classes.compactToggle} ${className || ''}`}
                 onClick={toggleLanguage}
                 role="button"
                 tabIndex={0}
                 onKeyPress={(e) => e.key === 'Enter' && toggleLanguage()}
-                aria-label={language === 'en' ? 'Switch to Afrikaans' : 'Switch to English'}
+                aria-label={language === 'en' ? t('ariaLabels.switchToAfrikaans') : t('ariaLabels.switchToEnglish')}
             >
                 <LanguageIcon style={{ fontSize: 16 }} />
                 <span className={classes.compactText}>
@@ -146,7 +146,7 @@ export const LanguageToggleCompact = ({ className }) => {
  */
 export const LanguageToggleMenu = ({ iconColor = 'inherit' }) => {
     const classes = useStyles();
-    const { language, setLanguage, SUPPORTED_LANGUAGES, LANGUAGE_NAMES } = useLocalization();
+    const { language, setLanguage, SUPPORTED_LANGUAGES, LANGUAGE_NAMES, t } = useLocalization();
     const [anchorEl, setAnchorEl] = React.useState(null);
 
     const handleClick = (event) => {
@@ -172,7 +172,7 @@ export const LanguageToggleMenu = ({ iconColor = 'inherit' }) => {
                     onClick={handleClick}
                     aria-controls="language-menu"
                     aria-haspopup="true"
-                    aria-label="Select language"
+                    aria-label={t('ariaLabels.selectLanguage')}
                     style={{ color: iconColor }}
                 >
                     <LanguageIcon />
@@ -220,14 +220,14 @@ export const LanguageToggleMenu = ({ iconColor = 'inherit' }) => {
  */
 export const LanguageToggleFAB = () => {
     const classes = useStyles();
-    const { language, toggleLanguage, LANGUAGE_NAMES } = useLocalization();
+    const { language, toggleLanguage, LANGUAGE_NAMES, t } = useLocalization();
 
     return (
-        <Tooltip title={`${LANGUAGE_NAMES[language]} - Tap to switch`}>
+        <Tooltip title={`${LANGUAGE_NAMES[language]} - ${t('tooltips.tapToSwitch')}`}>
             <IconButton
                 className={classes.floatingToggle}
                 onClick={toggleLanguage}
-                aria-label={language === 'en' ? 'Switch to Afrikaans' : 'Switch to English'}
+                aria-label={language === 'en' ? t('ariaLabels.switchToAfrikaans') : t('ariaLabels.switchToEnglish')}
             >
                 <span style={{ fontSize: 14, fontWeight: 700 }}>
                     {language.toUpperCase()}
@@ -241,7 +241,7 @@ export const LanguageToggleFAB = () => {
  * Simple Text Toggle
  */
 export const LanguageToggleText = ({ className, showIcon = true }) => {
-    const { language, toggleLanguage, LANGUAGE_NAMES } = useLocalization();
+    const { language, toggleLanguage, LANGUAGE_NAMES, t } = useLocalization();
     const otherLang = language === 'en' ? 'af' : 'en';
 
     return (
@@ -251,7 +251,7 @@ export const LanguageToggleText = ({ className, showIcon = true }) => {
             onClick={toggleLanguage}
             className={className}
             startIcon={showIcon ? <LanguageIcon /> : null}
-            aria-label={`Switch to ${LANGUAGE_NAMES[otherLang]}`}
+            aria-label={otherLang === 'af' ? t('ariaLabels.switchToAfrikaans') : t('ariaLabels.switchToEnglish')}
         >
             {LANGUAGE_NAMES[otherLang]}
         </Button>
