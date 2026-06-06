@@ -1447,6 +1447,132 @@
                     "stepExplanation": "Lading Q = nF = 0,1 × 96500 = 9650 C. Tyd t = Q/I = 9650/3 = 3217 s = 53,6 minute"
                 }
             }
+        },
+        "hyp-graph-001": {
+            "title": "Bepaling van Asimptote van 'n Hiperbool",
+            "body": "Gegee die hiperbool $y = \\frac{3}{x - 2} + 1$.\n\nBepaal die vergelykings van die horisontale en vertikale asimptote.",
+            "steps": {
+                "hyp-graph-001a": {
+                    "stepTitle": "Stap 1: Vind die Vertikale Asimptoot",
+                    "stepBody": "Die vertikale asimptoot verskyn waar die noemer gelyk aan nul is.\n\nVir $y = \\frac{3}{x - 2} + 1$, wat is die vergelyking van die vertikale asimptoot?"
+                },
+                "hyp-graph-001b": {
+                    "stepTitle": "Stap 2: Vind die Horisontale Asimptoot",
+                    "stepBody": "Die horisontale asimptoot is die waarde wat $y$ nader soos $x$ na oneindigheid gaan.\n\nWat is die vergelyking van die horisontale asimptoot?"
+                }
+            }
+        },
+        "hyp-graph-002": {
+            "title": "Bepaling van die Vergelyking van 'n Hiperbool",
+            "body": "'n Hiperbool het asimptote by $x = -1$ en $y = 3$, en gaan deur die punt $(1, 4)$.\n\nBepaal die vergelyking van die hiperbool in die vorm $y = \\frac{a}{x - p} + q$.",
+            "steps": {
+                "hyp-graph-002a": {
+                    "stepTitle": "Stap 1: Identifiseer p en q uit die Asimptote",
+                    "stepBody": "Vir 'n hiperbool $y = \\frac{a}{x - p} + q$:\n- Vertikale asimptoot: $x = p$\n- Horisontale asimptoot: $y = q$\n\nWat is die waardes van $p$ en $q$?"
+                },
+                "hyp-graph-002b": {
+                    "stepTitle": "Stap 2: Vind die Waarde van a en Skryf die Vergelyking",
+                    "stepBody": "Deur $p = -1$, $q = 3$, en die punt $(1, 4)$ te gebruik, vind $a$.\n\nSkryf die volledige vergelyking van die hiperbool:"
+                }
+            }
+        },
+        "hyp-graph-003": {
+            "title": "Bepaling van Afsnitte van 'n Hiperbool",
+            "body": "Gegee die hiperbool $y = \\frac{-4}{x} + 2$.\n\nBepaal die x-afsnit en y-afsnit van die hiperbool.",
+            "steps": {
+                "hyp-graph-003a": {
+                    "stepTitle": "Stap 1: Vind die X-afsnit",
+                    "stepBody": "Om die x-afsnit te vind, stel $y = 0$ en los op vir $x$.\n\nWat is die x-afsnit?"
+                },
+                "hyp-graph-003b": {
+                    "stepTitle": "Stap 2: Vind die Y-afsnit",
+                    "stepBody": "Om die y-afsnit te vind, stel $x = 0$ en los op vir $y$.\n\nWat is die y-afsnit? (As daar geen y-afsnit is nie, skryf 'geen y-afsnit')"
+                }
+            }
+        },
+        "g11-func-001": {
+            "title": "Parabool: Bepaling van die Draaipunt",
+            "body": "Gegee die parabool f(x) = x^2 - 6x + 5, bepaal die koördinate van die draaipunt en stel vas of dit 'n maksimum of minimum is.",
+            "steps": {
+                "g11-func-001a": {
+                    "stepTitle": "Vind die x-koördinaat van die draaipunt",
+                    "stepBody": "Vir die parabool f(x) = x^2 - 6x + 5, gebruik die formule x = -b/(2a) om die x-koördinaat van die draaipunt te vind. Wat is die waarde van x?"
+                },
+                "g11-func-001b": {
+                    "stepTitle": "Vind die y-koördinaat en klassifiseer die draaipunt",
+                    "stepBody": "Vervang nou x = 3 in f(x) = x^2 - 6x + 5 om die y-koördinaat te vind. Wat is f(3)?"
+                }
+            }
+        },
+        "g11-func-002": {
+            "title": "Parabool: Bepaling van die Vergelyking uit Draaipunt",
+            "body": "'n Parabool het 'n draaipunt by (2, -3) en gaan deur die punt (0, 5). Bepaal die vergelyking van die parabool in die vorm y = a(x - p)^2 + q.",
+            "steps": {
+                "g11-func-002a": {
+                    "stepTitle": "Skryf die vergelyking in draaipuntvorm",
+                    "stepBody": "Deur die draaipuntvorm y = a(x - p)^2 + q met draaipunt (2, -3) te gebruik, skryf die vergelyking met die onbekende konstante a."
+                },
+                "g11-func-002b": {
+                    "stepTitle": "Vind die waarde van a",
+                    "stepBody": "Vervang die punt (0, 5) in y = a(x - 2)^2 - 3 en los op vir a. Wat is die waarde van a?"
+                }
+            }
+        },
+        "g11-func-003": {
+            "title": "Hiperbool: Bepaling van Asimptote",
+            "body": "Gegee die hiperbool g(x) = 3/(x - 2) + 1, bepaal die vergelykings van die horisontale en vertikale asimptote.",
+            "steps": {
+                "g11-func-003a": {
+                    "stepTitle": "Vind die vertikale asimptoot",
+                    "stepBody": "Vir die hiperbool g(x) = 3/(x - 2) + 1, vind die waarde van x waar die funksie ongedefinieerd is. Wat is die vergelyking van die vertikale asimptoot?"
+                },
+                "g11-func-003b": {
+                    "stepTitle": "Vind die horisontale asimptoot",
+                    "stepBody": "Vir die hiperbool g(x) = 3/(x - 2) + 1, wat is die vergelyking van die horisontale asimptoot?"
+                }
+            }
+        },
+        "exp-graph-001": {
+            "title": "Bepaling van die Vergelyking van 'n Eksponensiële Grafiek",
+            "body": "'n Eksponensiële funksie van die vorm $y = a \\cdot b^x + q$ het 'n horisontale asimptoot by $y = -2$ en gaan deur die punte $(0, 1)$ en $(1, 7)$.\n\nBepaal die vergelyking van die eksponensiële funksie.",
+            "steps": {
+                "exp-graph-001a": {
+                    "stepTitle": "Stap 1: Vind die Waarde van a",
+                    "stepBody": "Die horisontale asimptoot is $y = -2$, dus $q = -2$.\n\nDeur die punt $(0, 1)$ in $y = a \\cdot b^x - 2$ te gebruik, vind die waarde van $a$."
+                },
+                "exp-graph-001b": {
+                    "stepTitle": "Stap 2: Vind b en Skryf die Volledige Vergelyking",
+                    "stepBody": "Deur $a = 3$, $q = -2$, en die punt $(1, 7)$ te gebruik, vind $b$ en skryf die vergelyking.\n\nSkryf die volledige vergelyking:"
+                }
+            }
+        },
+        "exp-graph-002": {
+            "title": "Eksponensiële Vervalfunksie",
+            "body": "'n Eksponensiële funksie $f(x) = a \\cdot b^x + q$ het 'n y-afsnit by $(0, 5)$, 'n horisontale asimptoot by $y = 1$, en gaan deur $(1, 3)$.\n\nBepaal die vergelyking en stel vas of dit groei of verval verteenwoordig.",
+            "steps": {
+                "exp-graph-002a": {
+                    "stepTitle": "Stap 1: Vind die Waardes van a en q",
+                    "stepBody": "Deur die horisontale asimptoot en y-afsnit te gebruik, vind $a$ en $q$.\n\nStel die waardes van $a$ en $q$ vas:"
+                },
+                "exp-graph-002b": {
+                    "stepTitle": "Stap 2: Vind b en Bepaal Groei of Verval",
+                    "stepBody": "Deur die punt $(1, 3)$ te gebruik, vind $b$.\n\nSkryf die vergelyking en stel vas of dit groei of verval is:"
+                }
+            }
+        },
+        "exp-graph-003": {
+            "title": "Bepaling van Afsnitte van 'n Eksponensiële Funksie",
+            "body": "Gegee die eksponensiële funksie $g(x) = 2^{x+1} - 4$.\n\nBepaal die x-afsnit en y-afsnit van die funksie.",
+            "steps": {
+                "exp-graph-003a": {
+                    "stepTitle": "Stap 1: Vind die Y-afsnit",
+                    "stepBody": "Om die y-afsnit te vind, vervang $x = 0$ in $g(x) = 2^{x+1} - 4$.\n\nWat is die y-afsnit?"
+                },
+                "exp-graph-003b": {
+                    "stepTitle": "Stap 2: Vind die X-afsnit",
+                    "stepBody": "Om die x-afsnit te vind, stel $g(x) = 0$ en los $2^{x+1} - 4 = 0$ op.\n\nWat is die x-afsnit?"
+                }
+            }
         }
     }
 }
