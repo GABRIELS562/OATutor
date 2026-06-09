@@ -548,6 +548,9 @@
         "views": "Kyke",
         "noVideos": "Geen video's gevind nie",
         "featured": "Uitgelig",
+        "featuredVideos": "Uitgestalde Video's",
+        "featuredChannels": "Uitgestalde Kanale",
+        "subscribers": "intekenaars",
         "popular": "Gewild",
         "recent": "Onlangs"
     },
@@ -754,21 +757,6 @@
         "of": "van",
         "results": "resultate",
         "noResults": "Geen resultate nie",
-        "tryAgain": "Probeer Weer"
-    },
-    "quiz": {
-        "title": "Toets",
-        "startQuiz": "Begin Toets",
-        "question": "Vraag",
-        "submit": "Indien",
-        "nextQuestion": "Volgende Vraag",
-        "results": "Resultate",
-        "score": "Punt",
-        "correct": "Korrek",
-        "incorrect": "Verkeerd",
-        "timeRemaining": "Tyd Oor",
-        "completed": "Voltooi!",
-        "reviewAnswers": "Hersien Antwoorde",
         "tryAgain": "Probeer Weer"
     },
     "theory": {
