@@ -27,6 +27,7 @@ import GetAppIcon from "@material-ui/icons/GetApp";
 import OpenInNewIcon from "@material-ui/icons/OpenInNew";
 import { capsCurriculum } from "../../data/caps-curriculum";
 import { SITE_NAME } from "../../config/config";
+import { useLocalization } from "../../util/LocalizationContext";
 
 // Official CAPS curriculum document links from DBE
 const curriculumLinks = {
@@ -122,10 +123,18 @@ const CurriculumReference = () => {
     const [selectedSubject, setSelectedSubject] = useState("mathematics");
     const [selectedGrade, setSelectedGrade] = useState(12);
     const isDarkMode = useIsDarkMode();
+    const { t } = useLocalization();
 
     const currentSubject = capsCurriculum[selectedSubject];
     const config = subjectConfig[selectedSubject];
     const gradeData = currentSubject.grades[`grade${selectedGrade}`];
+
+    // Subject names translation mapping
+    const subjectNames = {
+        mathematics: t('curriculumReference.mathematics'),
+        physicalSciences: t('curriculumReference.physicalSciences'),
+        lifeSciences: t('curriculumReference.lifeSciences')
+    };
 
     // Theme-aware colors
     const colors = {
@@ -161,10 +170,10 @@ const CurriculumReference = () => {
             >
                 <Container maxWidth="lg">
                     <Typography variant="h4" style={{ fontWeight: 700, marginBottom: "8px" }}>
-                        CAPS Curriculum Reference
+                        {t('curriculumReference.title')}
                     </Typography>
                     <Typography variant="body1" style={{ opacity: 0.9 }}>
-                        Official South African Curriculum and Assessment Policy Statement for Grade 10-12
+                        {t('curriculumReference.subtitle')}
                     </Typography>
                 </Container>
             </Box>
@@ -181,19 +190,19 @@ const CurriculumReference = () => {
                     >
                         <Tab
                             value="mathematics"
-                            label="Mathematics"
+                            label={t('curriculumReference.mathematics')}
                             icon={<MenuBookIcon />}
                             style={{ textTransform: "none", fontWeight: 600, color: colors.textPrimary }}
                         />
                         <Tab
                             value="physicalSciences"
-                            label="Physical Sciences"
+                            label={t('curriculumReference.physicalSciences')}
                             icon={<ScienceIcon />}
                             style={{ textTransform: "none", fontWeight: 600, color: colors.textPrimary }}
                         />
                         <Tab
                             value="lifeSciences"
-                            label="Life Sciences"
+                            label={t('curriculumReference.lifeSciences')}
                             icon={<BiotechIcon />}
                             style={{ textTransform: "none", fontWeight: 600, color: colors.textPrimary }}
                         />
@@ -220,16 +229,16 @@ const CurriculumReference = () => {
                         <Grid item xs={12} sm={6}>
                             <Chip
                                 icon={<SchoolIcon />}
-                                label={`Time: ${currentSubject.timeAllocation}`}
+                                label={`${t('curriculumReference.time')}: ${currentSubject.timeAllocation}`}
                                 style={{ background: `${config.color}15`, color: config.color }}
                             />
                         </Grid>
                         <Grid item xs={12} sm={6}>
                             <Typography variant="body2" style={{ color: colors.textSecondary }}>
-                                <strong>Paper 1:</strong> {currentSubject.papers.paper1}
+                                <strong>{t('curriculumReference.paper1')}:</strong> {currentSubject.papers.paper1}
                             </Typography>
                             <Typography variant="body2" style={{ color: colors.textSecondary }}>
-                                <strong>Paper 2:</strong> {currentSubject.papers.paper2}
+                                <strong>{t('curriculumReference.paper2')}:</strong> {currentSubject.papers.paper2}
                             </Typography>
                         </Grid>
                     </Grid>
@@ -248,7 +257,7 @@ const CurriculumReference = () => {
                     }}
                 >
                     <Typography variant="subtitle1" style={{ fontWeight: 700, marginBottom: "12px", color: colors.textPrimary }}>
-                        📄 Official DBE Curriculum Documents
+                        📄 {t('curriculumReference.officialDocuments')}
                     </Typography>
                     <Box style={{ display: "flex", flexWrap: "wrap", gap: "12px" }}>
                         <Button
@@ -266,7 +275,7 @@ const CurriculumReference = () => {
                                 borderRadius: "8px"
                             }}
                         >
-                            Download Full CAPS Document (PDF)
+                            {t('curriculumReference.downloadCAPS')} (PDF)
                         </Button>
                         <Button
                             variant="outlined"
@@ -283,7 +292,7 @@ const CurriculumReference = () => {
                                 borderRadius: "8px"
                             }}
                         >
-                            Exam Guidelines
+                            {t('curriculumReference.examGuidelines')}
                         </Button>
                         <Button
                             variant="outlined"
@@ -300,11 +309,11 @@ const CurriculumReference = () => {
                                 borderRadius: "8px"
                             }}
                         >
-                            Past Papers (DBE)
+                            {t('curriculumReference.pastPapers')} (DBE)
                         </Button>
                     </Box>
                     <Typography variant="caption" style={{ display: "block", marginTop: "12px", color: colors.textSecondary }}>
-                        Links to official Department of Basic Education (education.gov.za) resources
+                        {t('curriculumReference.dbeResourcesNote')}
                     </Typography>
                 </Paper>
 
@@ -313,7 +322,7 @@ const CurriculumReference = () => {
                     {[10, 11, 12].map((grade) => (
                         <Chip
                             key={grade}
-                            label={`Grade ${grade}`}
+                            label={t(`curriculumReference.grade${grade}`)}
                             onClick={() => handleGradeChange(grade)}
                             style={{
                                 padding: "20px 16px",
@@ -330,7 +339,7 @@ const CurriculumReference = () => {
 
                 {/* Topics List */}
                 <Typography variant="h6" style={{ fontWeight: 700, marginBottom: "16px", color: colors.textPrimary }}>
-                    Grade {selectedGrade} Topics
+                    {t(`curriculumReference.grade${selectedGrade}`)} {t('curriculumReference.topics')}
                 </Typography>
 
                 {gradeData?.topics.map((topic, index) => (
@@ -370,9 +379,9 @@ const CurriculumReference = () => {
                                         {topic.name}
                                     </Typography>
                                     <Typography variant="caption" style={{ color: colors.textSecondary }}>
-                                        {topic.subtopics.length} subtopics
-                                        {topic.term && ` • Term ${topic.term}`}
-                                        {topic.paper && ` • Paper ${topic.paper}`}
+                                        {topic.subtopics.length} {t('curriculumReference.topics').toLowerCase()}
+                                        {topic.term && ` • ${t('curriculumReference.term')} ${topic.term}`}
+                                        {topic.paper && ` • ${t('curriculumReference.paper1').split(' ')[0]} ${topic.paper}`}
                                     </Typography>
                                 </Box>
                             </Box>
@@ -414,11 +423,10 @@ const CurriculumReference = () => {
                     }}
                 >
                     <Typography variant="body2" style={{ textAlign: "center", color: colors.textSecondary }}>
-                        <strong>Sources:</strong> Department of Basic Education (education.gov.za),
-                        WCED ePortal (wcedeportal.co.za), South African History Online (sahistory.org.za)
+                        <strong>{t('curriculumReference.sourcesLabel')}:</strong> {t('curriculumReference.sourcesText')}
                     </Typography>
                     <Typography variant="body2" style={{ textAlign: "center", marginTop: "8px", color: colors.textSecondary }}>
-                        {SITE_NAME} problems are aligned to these CAPS curriculum topics.
+                        {t('curriculumReference.alignedNote').replace('{SITE_NAME}', SITE_NAME)}
                     </Typography>
                 </Paper>
             </Container>

@@ -5,10 +5,12 @@ import Grid from "@material-ui/core/Grid";
 import Divider from "@material-ui/core/Divider";
 import BrandLogoNav from "@components/BrandLogoNav";
 import Spacer from "@components/Spacer";
+import { useLocalization } from "../util/LocalizationContext";
 
 const AssignmentAlreadyLinked = (props) => {
     const lessonPlans = _lessonPlansNoEditor;
     const context = useContext(ThemeContext)
+    const { t } = useLocalization();
 
     const _linkedLesson = +context.alreadyLinkedLesson
     const linkedLesson = !isNaN(_linkedLesson)
@@ -41,20 +43,19 @@ const AssignmentAlreadyLinked = (props) => {
                     <Box width="75%" maxWidth={1500}>
                         <center>
                             {linkedLesson
-                                ? <h1>This assignment has been linked to
-                                    lesson {linkedLesson.name} {linkedLesson.topic} successfully!</h1>
-                                : <h1>This assignment has been linked successfully!</h1>
+                                ? <h1>{t('assignment.linkedWithLesson').replace('{lessonName}', `${linkedLesson.name} ${linkedLesson.topic}`)}</h1>
+                                : <h1>{t('assignment.linkedSuccessfully')}</h1>
                             }
-                            <h2>To link a new OATutor lesson, please create a new assignment on your LMS.</h2>
-                            <h2>To preview the lesson, click on "Student View" on Canvas.</h2>
+                            <h2>{t('assignment.newLessonInstructions')}</h2>
+                            <h2>{t('assignment.previewInstructions')}</h2>
                         </center>
                         <Divider/>
                         <center>
                             <Spacer/>
                             {linkedLesson
                                 && <>
-                                    <p>Course Name: {linkedLesson.courseName}</p>
-                                    <p>Lesson Name: {linkedLesson.name} {linkedLesson.topics}</p>
+                                    <p>{t('assignment.courseName')}: {linkedLesson.courseName}</p>
+                                    <p>{t('assignment.lessonName')}: {linkedLesson.name} {linkedLesson.topics}</p>
                                 </>
                             }
                             <Spacer height={24 * 4}/>

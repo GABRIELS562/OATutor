@@ -5,8 +5,11 @@ import Divider from "@material-ui/core/Divider";
 import BrandLogoNav from "@components/BrandLogoNav";
 import Spacer from "@components/Spacer";
 import { SITE_NAME } from "../config/config";
+import { useLocalization } from "../util/LocalizationContext";
 
 const AssignmentNotLinked = () => {
+    const { t } = useLocalization();
+
     return <>
         <div style={{ backgroundColor: "#F6F6F6", paddingBottom: 20 }}>
             <AppBar position="static">
@@ -28,13 +31,13 @@ const AssignmentNotLinked = () => {
                 >
                     <Box width="75%" maxWidth={1500}>
                         <center>
-                            <h1>Welcome to {SITE_NAME.replace(/\s/, "")}!</h1>
-                            <h2>Your instructor has not linked a lesson to this assignment yet.</h2>
+                            <h1>{t('assignment.welcome').replace('{SITE_NAME}', SITE_NAME.replace(/\s/, ""))}</h1>
+                            <h2>{t('assignment.notLinkedMessage')}</h2>
                         </center>
                         <Divider/>
                         <center>
                             <Spacer/>
-                            <p>Please check back later.</p>
+                            <p>{t('assignment.checkBackLater')}</p>
                             <Spacer height={24 * 3}/>
                         </center>
                     </Box>
